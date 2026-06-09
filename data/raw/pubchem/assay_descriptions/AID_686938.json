@@ -1,0 +1,225 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 686938,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "Drosophila RNAi Screening Center (DRSC)",
+              "source_id": {
+                "str": "DRSC-P54"
+              }
+            }
+          },
+          "name": "Genes involved in store-operated calcium entry",
+          "description": [
+            "Title: CRACM1 Is a Plasma Membrane Protein Essential for Store-Operated Ca2+ Entry",
+            "",
+            "Abstract: ",
+            "Store-operated Ca2+ entry is mediated by Ca2+ release-activated Ca2+ (CRAC) channels following Ca2+ release from intracellular stores. We performed a genomewide RNA interference (RNAi) screen in Drosophila cells to identify proteins that inhibit store-operated Ca2+ influx. A secondary patch-clamp screen identified CRACM1 and CRACM2 (CRAC modulators 1 and 2) as modulators of Drosophila CRAC currents. We characterized the human ortholog of CRACM1, a plasma membrane-resident protein encoded by gene FLJ14466. Although overexpression of CRACM1 did not affect CRAC currents, RNAi-mediated knockdown disrupted its activation. CRACM1 could be the CRAC channel itself, a subunit of it, or a component of the CRAC signaling machinery."
+          ],
+          "protocol": [
+            "To identify genes encoding the CRAC channel or other proteins involved in its regulation, we performed a high-throughput, genome-wide RNA interference (RNAi) screen in Drosophila S2R+ cells. The effect of knockdown of each of the ~23,000 genes was tested by fluorescence measurements of intracellular Ca2+ concentration in 384-well microplates with an automated fluorometric imaging plate reader (FLIPR, Molecular Devices). Changes in [Ca2+]i were measured in response to the commonly used SERCA (sarco-endoplasmic reticulum calcium ATPase) inhibitor thapsigargin which causes depletion of Ca2+ from intracellular stores. All 63 plates contained wells in which double-stranded RNA (dsRNA) against Rho1 served as negative control and dsRNA against stim1 as positive control."
+          ],
+          "comment": [
+            "The activity scores are given using the standard DRSC scoring system for hits:",
+            "1 = weak hit",
+            "2 = medium hit",
+            "3 = strong hit",
+            "In many assays, only 2 is used."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 16751269
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "asurl": "http://www.flyrnai.org/cgi-bin/RNAi_public_screen.pl?project_id=54"
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://www.flyrnai.org"
+              }
+            },
+            {
+              "xref": {
+                "taxonomy": 7227
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "basal replicate 1",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 2,
+              "name": "basal replicate 2",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 3,
+              "name": "basal replicate 3",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "basal replicate 4",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "basal replicate 5",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "basal replicate 6",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "basal replicate 7",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "basal replicate 8",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "CCE replicate 1",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "CCE replicate 2",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 11,
+              "name": "CCE replicate 3",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "CCE replicate 4",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "CCE replicate 5",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 14,
+              "name": "CCE replicate 6",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 15,
+              "name": "CCE replicate 7",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 16,
+              "name": "CCE replicate 8",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 17,
+              "name": "Fmax replicate 1",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 18,
+              "name": "Fmax replicate 2",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 19,
+              "name": "Fmax replicate 3",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 20,
+              "name": "Fmax replicate 4",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 21,
+              "name": "Fmax replicate 5",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 22,
+              "name": "Fmax replicate 6",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 23,
+              "name": "Fmax replicate 7",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 24,
+              "name": "Fmax replicate 8",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 25,
+              "name": "CCE/basal",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 26,
+              "name": "Predicted Target Gene",
+              "type": 4,
+              "unit": 254,
+              "annot": 18
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 6
+        }
+      }
+    }
+  ]
+}

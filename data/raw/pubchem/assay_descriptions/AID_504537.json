@@ -1,0 +1,272 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 504537,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "MENN9472b"
+              },
+              "date": {
+                "std": {
+                  "year": 2011,
+                  "month": 9,
+                  "day": 21
+                }
+              }
+            }
+          },
+          "name": "Inhibitor SAR for Compounds Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "description": [
+            "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias",
+            "NIH Chemical Genomics Center [NCGC]",
+            "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+            "",
+            "MLPCN Grant: MH084875-01A1",
+            "Assay Submitter (PI): Jolanta Grembecka, Tomasz Cierpicki, University of Virginia",
+            "",
+            "Translocations of the MLL (Mixed Lineage Leukemia) gene are frequently found in human leukemias affecting both children and adults. Fusion of MLL to one of more than 60 genes results in generation of oncogenic proteins upregulating Hox genes, which are vital to blood cell development. Patients harboring fusion of the MLL gene suffer from aggressive leukemias and respond poorly to available therapies. All of the oncogenic fusion proteins have a preserved N-terminal fragment of MLL that has been identified to interact with menin. It has been recently discovered that association with menin is critical to the leukemogenic activity of the MLL fusion oncoproteins. Selective targeting of the menin-MLL interaction could provide an attractive therapeutic approach to develop novel drugs for MLL-related leukemias. Small molecules blocking the menin-MLL interaction should reverse the oncogenic potential of MLL fusion proteins.",
+            "",
+            "We have developed and optimized a fluorescence polarization-based assay for the identification of Menin-MLL inhibitors. The assay was run employing two different MLL-derived peptides. The present assay uses a 12 amino acid peptide labeled with fluorescein at its N-terminus. This peptide consists of the menin high affinity binding motif from MLL and is potently bound by menin. Another peptide with a mutated sequence, labeled with Texas Red, was used in parallel as a less stringent screen for inhibitors.",
+            "",
+            "The present assay was run to characterize initial structure activity relationships."
+          ],
+          "protocol": [
+            "The Menin protein, the MLL-wild type (w.t.) derived peptide (N-terminal 12 amino acids), the MLL-derived peptide labeled with Texas Red and the MLL-w.t. peptide labeled with Fluorescein were kindly supplied by laboratory of Dr. Jolanta Grembecka, University of Virginia. All protein and peptide solutions were stored in single use aliquots at -80C. The Eu3+ Cyrptate-conjugated mouse monoclonal antibody anti-6 Histidine (Eu3+-AB) and the Streptavidin-XL665 conjugate (XL665) were purchased from Cisbio International (Bedford, MA). All antibody and XL665 conjugate solution stocks were stored in single use aliquots at -20C. The Buffer components for all assays were purchased from Sigma-Aldrich (St. Louis, MO) and Invitrogen (Carlsbad, CA).",
+            "",
+            "FP Assay Reagents:",
+            "",
+            "1. FP reaction buffer: 50 mM Tris-HCl pH 7.5, 50 mM NaCl, 1mM DTT.",
+            "Before use, 0.05% BSA is added.",
+            "2. Menin protein, MLL-w.t. labeled with fluorescein, MLL-mutant peptide labeled with texas red.",
+            "Stored in singe use aliquots at -80C.",
+            "3. MLL-w.t. unlabeled peptide as positive control: 10 uM final in FP buffer.",
+            "",
+            "FP Assay Procedure:",
+            "1. Prepare Menin at 200 nM, MLL-w.t.-fluorescein at 25 nM, and MLL-mutant-texas red at 50 nM mixture in FP buffer.",
+            "2. Prepare Menin at 200 nM, MLL-w.t.-fluorescein at 25 nM, MLL-mutant-texas red at 50 nM, and 10 uM MLL-w.t. unlabeled mixture in FP buffer.",
+            "3. Prepare MLL-w.t.-fluorescein at 25 nM and MLL-mutant-texas red at 50 nM mixture in FP buffer.",
+            "3. Dispense 4 ul per well of reagent in step 1 in columns 2, 4 - 48 in a black 1536 well plate, dispense 4 ul per well of reagents from steps 2 and 3 in columns 1 and 3 respectively. Incubate plate at ambient for 15 minutes.",
+            "4. Transfer 23 nl per well of compound to plate and incubate at ambient for 1 hr.",
+            "5. Read fluorescence polarization for each label using the PerkinElmer Envision.",
+            "",
+            "Envision protocol for fluorescein: FITC FP Dual Enh Mirror, Excitation filter 480, Emission filter (1) P-pol 535, Emission filter (2) S-pol 535",
+            "Envision protocol for texas red: FP Dual Enh Mirror, Excitation filter 555, Emission filter (1) P-pol 632, Emission filter (2) S-pol 632"
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "Compounds were run twice, and the mean potency of the compound across the two runs was used to rank hits from the screen. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100. Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 2076
+              },
+              "comment": "Summary assay."
+            },
+            {
+              "xref": {
+                "aid": 1766
+              },
+              "comment": "Primary screen with fluorescein labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 1768
+              },
+              "comment": "Primary screen with texas red labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2782
+              },
+              "comment": "Confirmation screen with fluorescein labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2783
+              },
+              "comment": "Confirmation screen with texas red labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2778
+              },
+              "comment": "Confirmation screen using orthogonal HTRF platform."
+            },
+            {
+              "xref": {
+                "pmid": 16239140
+              }
+            },
+            {
+              "xref": {
+                "mim": 159555
+              }
+            },
+            {
+              "xref": {
+                "mim": 131100
+              }
+            },
+            {
+              "xref": {
+                "gene": 4297
+              },
+              "comment": "myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila) [Homo sapiens] "
+            },
+            {
+              "xref": {
+                "gene": 4221
+              },
+              "comment": "multiple endocrine neoplasia I [Homo sapiens] "
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Mean Potency",
+              "description": [
+                "Mean potency from assay runs of compound."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "IC50 Run 1",
+              "description": [
+                "Concentration of half-maximal inhibition of protein binding by compound."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 3,
+              "name": "Comments Run 1",
+              "description": [
+                "Observations made during assay execution."
+              ],
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Date Run 1",
+              "description": [
+                "Date of assay execution."
+              ],
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "Titration Run 1",
+              "description": [
+                "URL for graphic image of inhibitory concentration-response by compound."
+              ],
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "IC50 Run 2",
+              "description": [
+                "Concentration of half-maximal inhibition of protein binding by compound."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Comments Run 2",
+              "description": [
+                "Observations made during assay execution."
+              ],
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Date Run 2",
+              "description": [
+                "Date of assay execution."
+              ],
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Titration Run 2",
+              "description": [
+                "URL for graphic image of inhibitory concentration-response by compound."
+              ],
+              "type": 4,
+              "unit": 254
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "histone-lysine N-methyltransferase MLL isoform 2 precursor [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_005924.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "menin isoform 1 [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_000235.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "grant_number": [
+            "MH084875-01A1"
+          ],
+          "project_category": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1244929,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL3614558"
+              }
+            }
+          },
+          "name": "Inhibition of N-terminal thioredoxin His6-tagged full-length human menin expressed in Escherichia coli Rosetta (DE3) cells assessed as reduction in menin interaction with FITC-MBM1 peptide of MLL (4 to 15 residues) by fluorescence polarization assay",
+          "description": [
+            "Title: Rational Design of Orthogonal Multipolar Interactions with Fluorine in Protein-Ligand Complexes.",
+            "",
+            "Abstract: Multipolar interactions involving fluorine and the protein backbone have been frequently observed in protein-ligand complexes. Such fluorine-backbone interactions may substantially contribute to the high affinity of small molecule inhibitors. Here we found that introduction of trifluoromethyl groups into two different sites in the thienopyrimidine class of menin-MLL inhibitors considerably improved their inhibitory activity. In both cases, trifluoromethyl groups are engaged in short interactions with the backbone of menin. In order to understand the effect of fluorine, we synthesized a series of analogues by systematically changing the number of fluorine atoms, and we determined high-resolution crystal structures of the complexes with menin. We found that introduction of fluorine at favorable geometry for interactions with backbone carbonyls may improve the activity of menin-MLL inhibitors as much as 5- to 10-fold. In order to facilitate the design of multipolar fluorine-backbone interactions in protein-ligand complexes, we developed a computational algorithm named FMAP, which calculates fluorophilic sites in proximity to the protein backbone. We demonstrated that FMAP could be used to rationalize improvement in the activity of known protein inhibitors upon introduction of fluorine. Furthermore, FMAP may also represent a valuable tool for designing new fluorine substitutions and support ligand optimization in drug discovery projects. Analysis of the menin-MLL inhibitor complexes revealed that the backbone in secondary structures is particularly accessible to the interactions with fluorine. Considering that secondary structure elements are frequently exposed at protein interfaces, we postulate that multipolar fluorine-backbone interactions may represent a particularly attractive approach to improve inhibitors of protein-protein interactions."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: J Med Chem",
+            "Year: 2015",
+            "Volume: 58",
+            "Issue: 18",
+            "First Page: 7465",
+            "Last Page: 7474",
+            "DOI: 10.1021/acs.jmedchem.5b00975",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 26288158
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL3614558"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 26288158"
+          ]
+        }
+      }
+    }
+  ]
+}

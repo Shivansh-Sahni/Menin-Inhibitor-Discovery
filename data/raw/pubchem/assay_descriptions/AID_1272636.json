@@ -1,0 +1,136 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1272636,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL3757151"
+              }
+            }
+          },
+          "name": "Inhibition of menin-MLL (unknown origin) interaction",
+          "description": [
+            "Title: Peptide-based inhibitors of protein-protein interactions.",
+            "",
+            "Abstract: Protein-protein interactions (PPIs) are key elements of several important biological processes and have emerged as valuable targets in medicinal chemistry. Importantly, numerous specific protein-protein interactions (e.g., p53-HDM2 and Bcl-2-BH3 domains) were found to be involved in the development of several diseases, including various types of cancer. In general, the discovery of new synthetic PPI inhibitors is a challenging task because protein surfaces have not evolved in a manner that allows for specific binding of low molecular weight compounds. Here, we review the discovery strategies for peptide-based PPI inhibitors. Although peptide-based drug candidates exhibit significant drawbacks (in particular, low proteolytic stability), modifications of either the side chains or backbone could provide molecules of interest. Moreover, due to the large molecular size of peptide-based compounds, the discovery of molecules that specifically interact with extended protein surfaces is possible. Two major strategies for constructing peptide-based PPI inhibitors are as follows: (a) cyclization (e.g., stapled peptides) and (b) modification of the backbone structure (e.g., \u03b2-peptides and peptoids). These approaches for constructing PPI inhibitors enhance both the inhibitory activity and pharmacokinetic properties compared with non-modified \u03b1-peptides."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Bioorg Med Chem Lett",
+            "Year: 2016",
+            "Volume: 26",
+            "Issue: 3",
+            "First Page: 707",
+            "Last Page: 713",
+            "DOI: 10.1016/j.bmcl.2015.12.084",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 26764190
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL3757151"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 26764190"
+          ]
+        }
+      }
+    }
+  ]
+}

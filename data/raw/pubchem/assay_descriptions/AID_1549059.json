@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1549059,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4346449"
+              }
+            }
+          },
+          "name": "Growth inhibition of human MOLM13 cells after 7 days by WST-8 assay",
+          "description": [
+            "Title: Discovery of M-808 as a Highly Potent, Covalent, Small-Molecule Inhibitor of the Menin-MLL Interaction with Strong <i>In Vivo</i> Antitumor Activity.",
+            "",
+            "Abstract: Targeting the menin-MLL protein-protein interaction is a new therapeutic strategy for the treatment of acute leukemia carrying MLL fusion (MLL leukemia). We describe herein the structure-based optimization of a class of covalent menin inhibitors, which led to the discovery of M-808 (<b>16</b>) as a highly potent and efficacious covalent menin inhibitor. M-808 effectively inhibits leukemia cell growth at low nanomolar concentrations and is capable of achieving partial tumor regression in an MV4;11 xenograft tumor model in mice at a well-tolerated dose schedule. Determination of the co-crystal structure of M-808 in complex with menin provides a structural basis for their high-affinity, covalent interactions. M-808 represents a promising, covalent menin inhibitor for further optimization and evaluation toward developing a new therapy for the treatment of MLL leukemia."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: J Med Chem",
+            "Year: 2020",
+            "Volume: 63",
+            "Issue: 9",
+            "First Page: 4997",
+            "Last Page: 5010",
+            "DOI: 10.1021/acs.jmedchem.0c00547",
+            "",
+            "Target ChEMBL ID: CHEMBL3706572",
+            "ChEMBL Target Name: MOLM-13",
+            "ChEMBL Target Type: CELL-LINE - Target is a specific cell-line",
+            "Relationship Type: N - Non-molecular target assigned",
+            "Confidence: Target assigned is non-molecular"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 32338903
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4346449"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "MOLM-13",
+              "mol_id": {
+                "other": "CELL-LINE::ChEMBL::CHEMBL3706572"
+              },
+              "descr": "Target is a specific cell-line"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 32338903"
+          ]
+        }
+      }
+    }
+  ]
+}

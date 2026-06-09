@@ -1,0 +1,6 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Standard Type,PubChem Standard Value,IC50,Target Accession(s),Ligand,Target
+RESULT_TYPE,,,,,,,,STRING,FLOAT,FLOAT,TARGET_NCBI_PROTEIN_ACCESSION,STRING,STRING
+RESULT_DESCR,,,,,,,,"Standardized activity type (i.e. Ki, IC50, Kd, or EC50)","PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar.",,Protein accession(s) of target,BindingDB Ligand,BindingDB Target
+RESULT_UNIT,,,,,,,,,MICROMOLAR,NANOMOLAR,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,,TRUE,,,,
+1,497614830,153634164,C1COCCN1C2=NC=NC3=C2C=C(N3)C4=CC=C(C=C4)NC(=O)NC5=CC(=NO5)C6=CN=CC=C6,Active,,,,IC50,0.24,240,"O00255,Q03164",BDBM670916,Histone-lysine N-methyltransferase 2A/Menin

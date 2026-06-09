@@ -1,0 +1,13 @@
+{
+  "status": "trained",
+  "model": "hashed-SMILES logistic regression",
+  "n_compounds": 8808,
+  "n_train": 7046,
+  "n_test": 1762,
+  "positive_label": "hERG activity <=10 uM",
+  "negative_label": "hERG activity >=30 uM",
+  "best_C": 3.0,
+  "test_roc_auc": 0.825543120473996,
+  "test_balanced_accuracy": 0.7529401246759158,
+  "interpretation": "Coarse liability screen; experimental hERG assay labels and applicability-domain checks are needed before decision use."
+}

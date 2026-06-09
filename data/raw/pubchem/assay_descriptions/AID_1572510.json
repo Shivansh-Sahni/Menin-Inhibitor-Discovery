@@ -1,0 +1,144 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1572510,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4370539"
+              }
+            }
+          },
+          "name": "Inhibition of full length human menin/FAM-tagged MLL1 (unknown origin) protein-protein interaction after 15 mins by fluorescence polarization assay",
+          "description": [
+            "Title: Tranylcypromine and 6-trifluoroethyl thienopyrimidine hybrid as LSD1 inhibitor.",
+            "",
+            "Abstract: Tranylcypromine moiety extracted from LSD1 inhibitors and 6-trifluoroethyl thienopyrimidine moiety from menin-MLL1 PPI inhibitors were merged to give new chemotypes for medicinal chemistry study. Among 15 new compounds prepared in this work, some exhibited nanomolar LSD1 activity and good selectivity over MAO-A/B, low micromolar menin-MLL1 PPI inhibitory activity, as well as submicromolar MV4-11 antiprofilative activities. Intracellular LSD1 engagement of compounds with higher enzymatic and antiproliferative activities was confirmed by CD86 mRNA up-regulation experiments."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Bioorg Med Chem Lett",
+            "Year: 2019",
+            "Volume: 29",
+            "Issue: 6",
+            "First Page: 844",
+            "Last Page: 847",
+            "DOI: 10.1016/j.bmcl.2019.01.017",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 30713023
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4370539"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Activity Comment",
+              "description": [
+                "Additional comments"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 30713023"
+          ]
+        }
+      }
+    }
+  ]
+}

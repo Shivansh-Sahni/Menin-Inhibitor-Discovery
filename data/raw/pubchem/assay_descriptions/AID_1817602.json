@@ -1,0 +1,94 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1817602,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL5040215"
+              }
+            }
+          },
+          "name": "GSH reactivity in pH 7.4 assessed as conjugation half life at pH 7.4",
+          "description": [
+            "Title: Discovery of M-1121 as an Orally Active Covalent Inhibitor of Menin-MLL Interaction Capable of Achieving Complete and Long-Lasting Tumor Regression.",
+            "",
+            "Abstract: Targeting the menin-MLL protein-protein interaction is being pursued as a new therapeutic strategy for the treatment of acute leukemia carrying MLL-rearrangements (MLLr leukemia). Herein, we report M-1121, a covalent and orally active inhibitor of the menin-MLL interaction capable of achieving complete and persistent tumor regression. M-1121 establishes covalent interactions with Cysteine 329 located in the MLL binding pocket of menin and potently inhibits growth of acute leukemia cell lines carrying MLL translocations with no activity in cell lines with wild-type MLL. Consistent with the mechanism of action, M-1121 drives dose-dependent down-regulation of <i>HOXA9</i> and <i>MEIS1</i> gene expression in the MLL-rearranged MV4;11 leukemia cell line. M-1121 is orally bioavailable and shows potent antitumor activity <i>in vivo</i> with tumor regressions observed at tolerated doses in the MV4;11 subcutaneous and disseminated models of MLL-rearranged leukemia. Together, our findings support development of an orally active covalent menin inhibitor as a new therapy for MLLr leukemia."
+          ],
+          "comment": [
+            "Journal: J Med Chem",
+            "Year: 2021",
+            "Volume: 64",
+            "Issue: 14.0",
+            "First Page: 10333",
+            "Last Page: 10349",
+            "DOI: 10.1021/acs.jmedchem.1c00789"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 34196551
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL5040215"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 4,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 34196551"
+          ]
+        }
+      }
+    }
+  ]
+}

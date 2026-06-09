@@ -1,0 +1,105 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 504804,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "Drosophila RNAi Screening Center (DRSC)",
+              "source_id": {
+                "str": "DRSC-P26"
+              }
+            }
+          },
+          "name": "A genome-wide RNAi screen reveals multiple regulators of caspase activation",
+          "description": [
+            "Title: A genome-wide RNAi screen reveals multiple regulators of caspase activation",
+            "",
+            "Abstract: ",
+            "Apoptosis is an evolutionally conserved cellular suicide mechanism that can be activated in response to a variety of stressful stimuli. Increasing evidence suggests that apoptotic regulation relies on specialized cell death signaling pathways and also integrates diverse signals from additional regulatory circuits, including those of cellular homeostasis. We present a genome-wide RNA interference screen to systematically identify regulators of apoptosis induced by DNA damage in Drosophila melanogaster cells. We identify 47 double-stranded RNA that target a functionally diverse set of genes, including several with a known function in promoting cell death. Further characterization uncovers 10 genes that influence caspase activation upon the removal of Drosophila inhibitor of apoptosis 1. This set includes the Drosophila initiator caspase Dronc and, surprisingly, several metabolic regulators, a candidate tumor suppressor, Charlatan, and an N-acetyltransferase, ARD1. Importantly, several of these genes show functional conservation in regulating apoptosis in mammalian cells. Our data suggest a previously unappreciated fundamental connection between various cellular processes and caspase-dependent cell death."
+          ],
+          "protocol": [
+            "We performed a high-throughput screen using an established genome-wide Drosophila RNAi library that targets 19,470 genes. Drosophila Kc cells (10^5/well in 384-well plates) were transfected with prealiquoted dsRNAs (0.5 ug/well) followed by a 48-h incubation to allow for protein turnover. Subsequently, cells were treated with 5 ug/ml dox (Sigma-Aldrich) for an additional 48-h incubation. Cell viability was determined by measuring cellular ATP levels (CellTiter-Glo luminescent cell viability assay; Promega). Positive hits for this screen were defined as dsRNAs that increased cellular ATP levels by at least two units of SD above the mean level of the plate, a Z score of two, in duplicate. 81 dsRNAs resulted in a Z score > 2. To eliminate dsRNAs that directly enhanced cellular ATP levels, the effect of dsRNAs on ATP levels was measured in the rescreen. We verified that 62 dsRNAs specifically protected cells against dox-induced apoptosis. To minimize off-target effects, we further examined any dsRNA with at least 19-nucleotide sequence identity with an off-target gene by testing alternative dsRNAs distinct from the original targeting sequence for protection against cell death induced by dox treatment and for caspase suppression induced by Drosophila inhibitor of apoptosis 1 (diap1) RNAi treatment. Any dsRNA for a given gene failing to provide significant protection (P < 0.05) in either of these assays was eliminated, resulting in a final set of 47 genes."
+          ],
+          "comment": [
+            "The activity scores are given using the standard DRSC scoring system for hits:",
+            "1 = weak hit",
+            "2 = medium hit",
+            "3 = strong hit",
+            "In many assays, only 2 is used."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 17998402
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "asurl": "http://www.flyrnai.org/cgi-bin/RNAi_public_screen.pl?project_id=26"
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://www.flyrnai.org"
+              }
+            },
+            {
+              "xref": {
+                "taxonomy": 7227
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Raw replicate 1",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 2,
+              "name": "Raw replicate 2",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 3,
+              "name": "Raw replicate 3",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Raw replicate 4",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "Phenotype",
+              "type": 4,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Predicted Target Gene",
+              "type": 4,
+              "unit": 254,
+              "annot": 18
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 6
+        }
+      }
+    }
+  ]
+}

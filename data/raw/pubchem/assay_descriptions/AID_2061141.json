@@ -1,0 +1,106 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2061141,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "BindingDB",
+              "source_id": {
+                "str": "BindingDB_12757_1"
+              }
+            }
+          },
+          "name": "Menin-MLL Interaction Inhibitory Activity Assay from US Patent US20250074910: \"MENIN INHIBITOR AND USE THEREOF\"",
+          "description": [
+            "The inhibition of Menin/MLL-4-43 peptide interaction by small molecule inhibitors was quantitatively detected by fluorescence polarization competition assay. The experiment was performed in a 384-well plate (Corning, Cat #3575) using a reaction buffer consisting of 50 mM Tris, pH 7.5, 50 mM NaCl, and 1 mM DTT. A 40 \u03bcL reaction system included 10 \u03bcL of 8 nM Menin recombinant protein and 10 \u03bcL of the test compound at different concentrations. The compound was pre-incubated with Menin protein for 15 min, and then 20 \u03bcL of 10 nM FITC-MLL4-43-peptide was added. After incubation on a shaker at 25\u00b0 C. for 60 min, the fluorescence polarization signal (FP 485 520 520) was read using BMG PHERAStar detection. The experimental data was analyzed and processed by GraphPad Prism 6 software to obtain the IC50 value."
+          ],
+          "comment": [
+            "Compounds with any of Ki, IC50, Kd, or EC50 activity value <= 10uM are labeled as \"Active\".",
+            "If multiple measurements are available for a given compound, it is labeled as \"Active\" if any of the measurements meet the criterion. Activity values are checked in the order of Ki, IC50, Kd, and EC50. The first entry that meets the above activity threshold is used to determine \"Standard Type\", \"Standard Relation\", and \"PubChem Standard Value\". Otherwise, the first non-empty entry will be used to set those values."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://www.bindingdb.org"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.bindingdb.org/rwd/jsp/dbsearch/assay.jsp?assayid=1&entryid=12757"
+              }
+            },
+            {
+              "xref": {
+                "patent": "US20250074910"
+              },
+              "comment": "MENIN INHIBITOR AND USE THEREOF",
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (i.e. Ki, IC50, Kd, or EC50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "IC50",
+              "type": 1,
+              "unit": 6
+            },
+            {
+              "tid": 4,
+              "name": "Target Accession(s)",
+              "description": [
+                "Protein accession(s) of target"
+              ],
+              "type": 4,
+              "annot": 21
+            },
+            {
+              "tid": 5,
+              "name": "Ligand",
+              "description": [
+                "BindingDB Ligand"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Target",
+              "description": [
+                "BindingDB Target"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "BDB_ENTRY:12757"
+          ]
+        }
+      }
+    }
+  ]
+}

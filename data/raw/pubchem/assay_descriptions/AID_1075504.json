@@ -1,0 +1,99 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1075504,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL3130539"
+              }
+            }
+          },
+          "name": "Competitive binding affinity to human menin at 100 uM by STD-NMR spectroscopic analysis in presence of MLL (1 to 46)",
+          "description": [
+            "Title: High-affinity small-molecule inhibitors of the menin-mixed lineage leukemia (MLL) interaction closely mimic a natural protein-protein interaction.",
+            "",
+            "Abstract: The protein-protein interaction (PPI) between menin and mixed lineage leukemia (MLL) plays a critical role in acute leukemias, and inhibition of this interaction represents a new potential therapeutic strategy for MLL leukemias. We report development of a novel class of small-molecule inhibitors of the menin-MLL interaction, the hydroxy- and aminomethylpiperidine compounds, which originated from HTS of \u223c288000 small molecules. We determined menin-inhibitor co-crystal structures and found that these compounds closely mimic all key interactions of MLL with menin. Extensive crystallography studies combined with structure-based design were applied for optimization of these compounds, resulting in MIV-6R, which inhibits the menin-MLL interaction with IC50 = 56 nM. Treatment with MIV-6 demonstrated strong and selective effects in MLL leukemia cells, validating specific mechanism of action. Our studies provide novel and attractive scaffold as a new potential therapeutic approach for MLL leukemias and demonstrate an example of PPI amenable to inhibition by small molecules."
+          ],
+          "comment": [
+            "Journal: J Med Chem",
+            "Year: 2014",
+            "Volume: 57",
+            "Issue: 4",
+            "First Page: 1543",
+            "Last Page: 1556",
+            "DOI: 10.1021/jm401868d",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 24472025
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL3130539"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Activity Comment",
+              "description": [
+                "Additional comments"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 24472025"
+          ]
+        }
+      }
+    }
+  ]
+}

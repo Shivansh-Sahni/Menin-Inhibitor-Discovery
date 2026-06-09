@@ -1,0 +1,135 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1743095,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4774495"
+              }
+            }
+          },
+          "name": "Inhibition of Menin-MLL protein-protein interaction (unknown origin) preincubated for 1 hr in presence of FLSN-MBM1 peptide followed by compound addition and measured after 1 hr by fluorescence polarization assay",
+          "description": [
+            "Title: Covalent and noncovalent constraints yield a figure eight-like conformation of a peptide inhibiting the menin-MLL interaction.",
+            "",
+            "Abstract: The interaction between menin and mixed lineage leukemia (MLL) was identified as an interesting target for treating some cancers including acute leukemia. On the basis of the known crystal structure of the MBM1-menin complex (MBM - menin binding motif), several cyclic peptides were designed. Elaboration of the effective cyclization strategy using a metathesis reaction allowed for a successfully large number of derivatives to be obtained. Subsequent optimization of the loop size, as well as N-terminal, central and C-terminal parts of the studied peptides resulted in structures exhibiting low nanomolar activities. A crystal structure of an inhibitor-menin complex revealed a compact conformation of the ligand molecule, which is stabilized not only by the introduction of a covalent linker but also three intramolecular hydrogen bonds. The inhibitor adopts a figure eight-like conformation, which perfectly fits the cleft of menin. We demonstrated that the development of compact, miniprotein-like structures is a highly effective approach for inhibition of protein-protein interactions."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Eur J Med Chem",
+            "Year: 2020",
+            "Volume: 207",
+            "First Page: 112748",
+            "Last Page: 112748",
+            "DOI: 10.1016/j.ejmech.2020.112748",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 32882610
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4774495"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 32882610"
+          ]
+        }
+      }
+    }
+  ]
+}

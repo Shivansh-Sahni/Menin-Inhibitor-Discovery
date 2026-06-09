@@ -1,0 +1,197 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 652243,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "Drosophila RNAi Screening Center (DRSC)",
+              "source_id": {
+                "str": "DRSC-P173"
+              }
+            }
+          },
+          "name": "Factors affecting human androgen receptor transcriptional activation",
+          "description": [
+            "Title: A genome-wide RNA interference screen identifies new regulators of androgen receptor function in prostate cancer cells",
+            "",
+            "Abstract: ",
+            "The androgen receptor (AR) is a mediator of both androgen-dependent and castration-resistant prostate cancers. Identification of cellular factors affecting AR transcriptional activity could in principle yield new targets that reduce AR activity and combat prostate cancer, yet a comprehensive analysis of the genes required for AR-dependent transcriptional activity has not been determined. Using an unbiased genetic approach that takes advantage of the evolutionary conservation of AR signaling, we have conducted a genome-wide RNAi screen in Drosophila cells for genes required for AR transcriptional activity and applied the results to human prostate cancer cells. We identified 45 AR-regulators, which include known pathway components and genes with functions not previously linked to AR regulation, such as HIPK2 (a protein kinase) and MED19 (a subunit of the Mediator complex). Depletion of HIPK2 and MED19 in human prostate cancer cells decreased AR target gene expression and, importantly, reduced the proliferation of androgen-dependent and castration-resistant prostate cancer cells. We also systematically analyzed additional Mediator subunits and uncovered a small subset of Mediator subunits that interpret AR signaling and affect AR-dependent transcription and prostate cancer cell proliferation. Importantly, targeting of HIPK2 by an FDA approved kinase inhibitor phenocopied the effect of depletion by RNAi and reduced the growth of AR-positive, but not AR negative, treatment-resistant prostate cancer cells. Thus, our screen has yielded new AR regulators including drugable targets that reduce the proliferation of castration-resistant prostate cancer cells."
+          ],
+          "protocol": [
+            "Drosophila S2R+ cells (20,000) were reverse transfected using the Effectene transfection reagent (Qiagen, Valencia, CA) with pMK33-hAR (80 ng), pARE3-Firefly luciferase (50 ng), and PolIII-Renilla luciferase (30 ng) of 17-plasmid DNA/well. Plates were incubated for 48 hours at 25oC before treatment with 10nM R1881 for an additional 24 hours. To measure AR transcriptional activity the Dual Glo Luciferase Assay (Promega) was performed, and read using the Envision Multilabel Plate Reader (Perkin Elmer); the Firefly Luciferase was normalized to the Renilla Luciferase levels. The screen was performed in duplicate and data was analyzed using multiple statistical protocols to identify the \"hits\". Genes showing a reduction of 3-fold of the control (GFP for Genome Assay, LacZ for K/P Assay) average or a 3-fold increase from the control average were considered potential hits.",
+            "",
+            "Logarithmic transformation of FF/RL was used to produce a linear progression of values.  A gene was considered to inhibit or activate AR transcription if there was at least a 1.5 or 3-fold, respectively, reduction or increase with respect to the GFP average."
+          ],
+          "comment": [
+            "The activity scores are given using the standard DRSC scoring system for hits:",
+            "1 = weak hit",
+            "2 = medium hit",
+            "3 = strong hit",
+            "In many assays, only 2 is used."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 23403032
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "asurl": "http://www.flyrnai.org/cgi-bin/RNAi_public_screen.pl?project_id=173"
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://www.flyrnai.org"
+              }
+            },
+            {
+              "xref": {
+                "taxonomy": 7227
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Garabedian AR genome Firefly replicate 1",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 2,
+              "name": "Garabedian AR genome Firefly replicate 2",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 3,
+              "name": "Garabedian AR genome Firefly replicate 3",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Garabedian AR genome Firefly replicate 4",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "Garabedian AR genome Firefly replicate 5",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Garabedian AR genome Firefly replicate 6",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Garabedian AR genome Renilla replicate 1",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Garabedian AR genome Renilla replicate 2",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Garabedian AR genome Renilla replicate 3",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "Garabedian AR genome Renilla replicate 4",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 11,
+              "name": "Garabedian AR genome Renilla replicate 5",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "Garabedian AR genome Renilla replicate 6",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "Garabedian AR K/P Firefly replicate 1",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 14,
+              "name": "Garabedian AR K/P Firefly replicate 2",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 15,
+              "name": "Garabedian AR K/P Firefly replicate 3",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 16,
+              "name": "Garabedian AR K/P Firefly replicate 4",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 17,
+              "name": "Garabedian AR K/P Renilla replicate 1",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 18,
+              "name": "Garabedian AR K/P Renilla replicate 2",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 19,
+              "name": "Garabedian AR K/P Renilla replicate 3",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 20,
+              "name": "Garabedian AR K/P Renilla replicate 4",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 21,
+              "name": "Predicted Target Gene",
+              "type": 4,
+              "unit": 254,
+              "annot": 18
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 6
+        }
+      }
+    }
+  ]
+}

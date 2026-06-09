@@ -1,0 +1,107 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1549069,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4346459"
+              }
+            }
+          },
+          "name": "In vivo inhibition of Menin-MLL protein-protein interaction in CB-17 SCID mouse xenografted with human MV4-11 cells assessed as reduction in MEIS1 expression in tumor at 25 mg/kg, iv measured after 6 to 24 hrs by RT-qPCR analysis",
+          "description": [
+            "Title: Discovery of M-808 as a Highly Potent, Covalent, Small-Molecule Inhibitor of the Menin-MLL Interaction with Strong <i>In Vivo</i> Antitumor Activity.",
+            "",
+            "Abstract: Targeting the menin-MLL protein-protein interaction is a new therapeutic strategy for the treatment of acute leukemia carrying MLL fusion (MLL leukemia). We describe herein the structure-based optimization of a class of covalent menin inhibitors, which led to the discovery of M-808 (<b>16</b>) as a highly potent and efficacious covalent menin inhibitor. M-808 effectively inhibits leukemia cell growth at low nanomolar concentrations and is capable of achieving partial tumor regression in an MV4;11 xenograft tumor model in mice at a well-tolerated dose schedule. Determination of the co-crystal structure of M-808 in complex with menin provides a structural basis for their high-affinity, covalent interactions. M-808 represents a promising, covalent menin inhibitor for further optimization and evaluation toward developing a new therapy for the treatment of MLL leukemia."
+          ],
+          "comment": [
+            "Journal: J Med Chem",
+            "Year: 2020",
+            "Volume: 63",
+            "Issue: 9",
+            "First Page: 4997",
+            "Last Page: 5010",
+            "DOI: 10.1021/acs.jmedchem.0c00547",
+            "",
+            "Target ChEMBL ID: CHEMBL375",
+            "ChEMBL Target Name: Mus musculus",
+            "ChEMBL Target Type: ORGANISM - Target is a complete organism",
+            "Relationship Type: N - Non-molecular target assigned",
+            "Confidence: Target assigned is non-molecular"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 10090
+              },
+              "comment": "Mus musculus"
+            },
+            {
+              "xref": {
+                "pmid": 32338903
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4346459"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Activity Comment",
+              "description": [
+                "Additional comments"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Mus musculus",
+              "mol_id": {
+                "tax_id": 10090
+              },
+              "descr": "Mus musculus"
+            }
+          ],
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 32338903"
+          ]
+        }
+      }
+    }
+  ]
+}

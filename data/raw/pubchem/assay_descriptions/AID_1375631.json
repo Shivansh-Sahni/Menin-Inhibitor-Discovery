@@ -1,0 +1,107 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1375631,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4189798"
+              }
+            }
+          },
+          "name": "In vivo inhibition of menin interaction with MLL in luciferase expressing human MV411 cells xenografted in NSG mouse assessed as decrease in HOXA9 gene expression in spleen at 80 mg/kg, ip administered for 6 consecutive days by qRT-PCR method relative to vehicle-treated control",
+          "description": [
+            "Title: Complexity of Blocking Bivalent Protein-Protein Interactions: Development of a Highly Potent Inhibitor of the Menin-Mixed-Lineage Leukemia Interaction.",
+            "",
+            "Abstract: The protein-protein interaction between menin and mixed-lineage leukemia 1 (MLL1) plays an important role in development of acute leukemia with translocations of the MLL1 gene and in solid tumors. Here, we report the development of a new generation of menin-MLL1 inhibitors identified by structure-based optimization of the thienopyrimidine class of compounds. This work resulted in compound 28 (MI-1481), which showed very potent inhibition of the menin-MLL1 interaction (IC50 = 3.6 nM), representing the most potent reversible menin-MLL1 inhibitor reported to date. The crystal structure of the menin-28 complex revealed a hydrogen bond with Glu366 and hydrophobic interactions, which contributed to strong inhibitory activity of 28. Compound 28 also demonstrates pronounced activity in MLL leukemia cells and in vivo in MLL leukemia models. Thus, 28 is a valuable menin-MLL1 inhibitor that can be used for potential therapeutic applications and in further studies regarding the role of menin in cancer."
+          ],
+          "comment": [
+            "Journal: J Med Chem",
+            "Year: 2018",
+            "Volume: 61",
+            "Issue: 11",
+            "First Page: 4832",
+            "Last Page: 4850",
+            "DOI: 10.1021/acs.jmedchem.8b00071",
+            "",
+            "Target ChEMBL ID: CHEMBL375",
+            "ChEMBL Target Name: Mus musculus",
+            "ChEMBL Target Type: ORGANISM - Target is a complete organism",
+            "Relationship Type: N - Non-molecular target assigned",
+            "Confidence: Target assigned is non-molecular"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 10090
+              },
+              "comment": "Mus musculus"
+            },
+            {
+              "xref": {
+                "pmid": 29738674
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4189798"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Mus musculus",
+              "mol_id": {
+                "tax_id": 10090
+              },
+              "descr": "Mus musculus"
+            }
+          ],
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 29738674"
+          ]
+        }
+      }
+    }
+  ]
+}

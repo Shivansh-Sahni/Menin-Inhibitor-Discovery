@@ -1,0 +1,144 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1416307,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4262731"
+              }
+            }
+          },
+          "name": "Inhibition of menin (unknown origin)-FITC-tagged MLL1 (unknown origin) protein-protein interaction after 1 hr by fluorescence polarization assay",
+          "description": [
+            "Title: Theoretical models of inhibitory activity for inhibitors of protein-protein interactions: targeting menin-mixed lineage leukemia with small molecules.",
+            "",
+            "Abstract: Development and binding affinity predictions of inhibitors targeting protein-protein interactions (PPI) still represent a major challenge in drug discovery efforts. This work reports application of a predictive non-empirical model of inhibitory activity for PPI inhibitors, exemplified here for small molecules targeting the menin-mixed lineage leukemia (MLL) interaction. Systematic ab initio analysis of menin-inhibitor complexes was performed, revealing the physical nature of these interactions. Notably, the non-empirical protein-ligand interaction energy comprising electrostatic multipole and approximate dispersion terms (E(10)El,MTP + EDas) produced a remarkable correlation with experimentally measured inhibitory activities and enabled accurate activity prediction for new menin-MLL inhibitors. Importantly, this relatively simple and computationally affordable non-empirical interaction energy model outperformed binding affinity predictions derived from commonly used empirical scoring functions. This study demonstrates high relevance of the non-empirical model we developed for binding affinity prediction of inhibitors targeting protein-protein interactions that are difficult to predict using empirical scoring functions."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Medchemcomm",
+            "Year: 2017",
+            "Volume: 8",
+            "Issue: 12",
+            "First Page: 2216",
+            "Last Page: 2227",
+            "DOI: 10.1039/C7MD00170C",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 29456828
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4262731"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Data Validity Comment",
+              "description": [
+                "Comment reflecting whether the values for this activity measurement are likely to be correct"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 29456828"
+          ]
+        }
+      }
+    }
+  ]
+}

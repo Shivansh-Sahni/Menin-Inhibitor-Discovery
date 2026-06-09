@@ -1,0 +1,106 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1963621,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "BindingDB",
+              "source_id": {
+                "str": "BindingDB_12022_1"
+              }
+            }
+          },
+          "name": "Menin-MLL In Vitro Inhibitory Activity from US Patent US20240140953: \"INHIBITORS OF MENIN-MLL INTERACTION\"",
+          "description": [
+            "Each compound was diluted to a final concentration of 5 mM in DMSO. 15 ml Falcon tubes were used for making the dilution. These 5 mM stocks were stored in 2 ml light-protective Eppendorf tubes in multiple 50 ul aliquots to prevent repeated freeze-thaw of the entire stock.The following concentrations were decided for each compound: 0.01 uM, 0.03 uM, 0.1 uM, 0.3 uM, 0.5 uM, 1 uM, 3 uM and 5 uM.First, 2\u00d7 working stocks for each desired concentration were made using the standard RPMI 10% FBS medium as the diluent.Specifically, working stocks of 0.02 uM, 0.06 uM, 0.2 uM, 0.6 uM, 1 uM, 2 uM, 6 uM and 10 uM (2\u00d7 of the desired concentrations mentioned above) were made from the 5 mM stock (see note at the bottom for more details).100 ul of each working stock dilution was added to the respective well containing 100 ul of plated cells, thereby achieving a 1\u00d7 drug concentration. A similar strategy was used for the DMSO control arm."
+          ],
+          "comment": [
+            "Compounds with any of Ki, IC50, Kd, or EC50 activity value <= 10uM are labeled as \"Active\".",
+            "If multiple measurements are available for a given compound, it is labeled as \"Active\" if any of the measurements meet the criterion. Activity values are checked in the order of Ki, IC50, Kd, and EC50. The first entry that meets the above activity threshold is used to determine \"Standard Type\", \"Standard Relation\", and \"PubChem Standard Value\". Otherwise, the first non-empty entry will be used to set those values."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://www.bindingdb.org"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.bindingdb.org/rwd/jsp/dbsearch/assay.jsp?assayid=1&entryid=12022"
+              }
+            },
+            {
+              "xref": {
+                "patent": "US20240140953"
+              },
+              "comment": "INHIBITORS OF MENIN-MLL INTERACTION",
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (i.e. Ki, IC50, Kd, or EC50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "IC50",
+              "type": 1,
+              "unit": 6
+            },
+            {
+              "tid": 4,
+              "name": "Target Accession(s)",
+              "description": [
+                "Protein accession(s) of target"
+              ],
+              "type": 4,
+              "annot": 21
+            },
+            {
+              "tid": 5,
+              "name": "Ligand",
+              "description": [
+                "BindingDB Ligand"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Target",
+              "description": [
+                "BindingDB Target"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "BDB_ENTRY:12022"
+          ]
+        }
+      }
+    }
+  ]
+}
