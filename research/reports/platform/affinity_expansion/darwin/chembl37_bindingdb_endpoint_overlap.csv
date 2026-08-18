@@ -1,5 +1,0 @@
-endpoint,bindingdb_measurement_rows,combined_key_matched_rows,combined_key_unmatched_eligible_rows,both_routes_rows,id_only_rows,inchikey_only_rows
-EC50,143693,98651,45042,36687,36615,25349
-IC50,1013258,759801,253456,322736,232133,204932
-Kd,90909,67214,23695,25962,17028,24224
-Ki,410295,304312,105982,145163,112862,46287

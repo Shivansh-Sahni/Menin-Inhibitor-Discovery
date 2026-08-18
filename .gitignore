@@ -21,6 +21,31 @@ htmlcov/
 # Local data and heavyweight benchmark artifacts.
 /research/data/internal/
 /research/benchmarks/
+/research/data/platform/
+/research/models/platform/
+/research/reports/platform/
+/docs/platform/
+/docs/project/pretraining_readiness_ledger.md
+/pipeline/src/menin_discovery/platform_*.py
+/pipeline/tests/test_platform_*.py
+/pipeline/config/platform*.yaml
+/pipeline/scripts/run_local_herg_quality_transfer_campaign.py
+/pipeline/tests/test_run_local_herg_quality_transfer_campaign.py
+/pipeline/config/herg_first_paper.yaml
+/pipeline/config/non_hpc_readiness.yaml
+/pipeline/scripts/analyze_local_herg_feature_lattice_v81.py
+/pipeline/scripts/build_herg_meeting_package_2026_08_18.py
+/pipeline/scripts/build_local_multicpu_2d_feature_cache.py
+/pipeline/scripts/build_local_multicpu_herg_3d_features.py
+/pipeline/scripts/run_local_herg_discovery_*
+/pipeline/scripts/run_local_herg_domain_mixture_campaign_v9.sh
+/pipeline/scripts/run_local_herg_feature_ablation.py
+/pipeline/scripts/run_local_herg_honest_measurement_campaign_v7.*
+/pipeline/scripts/run_local_herg_mechanistic_family_cv.py
+/pipeline/scripts/run_local_parallel_validation.sh
+/pipeline/scripts/run_local_six_hour_validation.sh
+/pipeline/scripts/verify_platform_specialized.py
+/research/reports/final_verification/
 /pipeline/config/internal_data.local.yaml
 /pipeline/config/internal_data.*.local.yaml
 

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "menin-discovery"
 version = "0.3.0"
-description = "Reproducible protein-molecule evidence, cardiac-safety, PK/ADME, and pretraining-readiness platform with a preserved Menin workflow."
+description = "Mechanistic Menin inhibitor discovery with Menin-focused hERG safety and rat PK modeling."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -31,7 +31,6 @@ dependencies = [
 [project.scripts]
 menin-pipeline = "menin_discovery.cli:main"
 menin-research = "menin_discovery.research_cli:main"
-protein-molecule-platform = "menin_discovery.platform_cli:main"
 
 [project.optional-dependencies]
 dev = [

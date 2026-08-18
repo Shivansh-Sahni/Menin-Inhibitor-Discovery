@@ -1,6 +1,0 @@
-metric,value
-dedup_groups,3912359
-groups_with_repeats,22939
-rows_in_shard_local_conflict_groups,23819
-global_tenfold_conflict_groups,9780
-global_rows_in_tenfold_conflict_groups,23669

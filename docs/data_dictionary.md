@@ -402,7 +402,13 @@ The report stage writes `research/reports/tables/`:
 | `publication_readiness_matrix.csv` | Semantic checks for trained primary tasks, RDKit features, requested holdouts without fallback, uncertainty/domain evidence, linked/verified manifests, quality, environment, and clean revision, plus explicit false blockers for external/prospective validation and approvals. It is not scientific or governance sign-off. |
 
 When analysis is enabled, the report also generates `menin_medchem_property_landscape.png`, `menin_chemical_series_sizes.png`, `menin_activity_cliff_landscape.png`, `menin_followup_tier_counts.png`, and `menin_complete_evidence_frontier.png` under `research/reports/figures/` when their required data are available.
-## Wild-type hERG first-paper layers
+## Supporting hERG evidence for Menin safety models
+
+These historical layer definitions document public hERG evidence used to develop
+and stress-test safety models for Menin inhibitor candidates. They are not a
+standalone hERG product or a claim of broad hERG generalization. The large
+target-agnostic platform artifacts themselves are intentionally excluded from
+this Menin repository.
 
 The paper-facing layers are additive to `herg_hierarchy/v1` and preserve its
 observation-native values.
