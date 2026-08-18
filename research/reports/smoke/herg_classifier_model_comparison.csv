@@ -1,0 +1,5 @@
+candidate,selection_metric,cv_mean,cv_std,n_successful_folds,selected_from_training_cv,holdout_roc_auc,holdout_pr_auc,holdout_balanced_accuracy,holdout_accuracy,holdout_sensitivity,holdout_specificity,holdout_precision,holdout_f1,holdout_matthews_correlation,holdout_brier_score,holdout_log_loss,holdout_expected_calibration_error_10bin,holdout_threshold
+dummy_prior,cv_pr_auc,0.8690953390062334,0.00025017182020979314,3,False,,,,,,,,,,,,,
+logistic_c0p3,cv_pr_auc,0.9522328489127867,0.009127092996729817,3,False,,,,,,,,,,,,,
+logistic_c1,cv_pr_auc,0.9463607490373974,0.011247486973772456,3,False,,,,,,,,,,,,,
+extra_trees,cv_pr_auc,0.9657370170663117,0.0011028960054848829,3,True,0.8635135135135135,0.9673670714502182,0.7286317567567567,0.8862815884476535,0.94375,0.5135135135135135,0.9263803680981595,0.934984520123839,0.48338360882044573,0.08720682258771549,0.3213300852909652,0.07255777801111993,0.5

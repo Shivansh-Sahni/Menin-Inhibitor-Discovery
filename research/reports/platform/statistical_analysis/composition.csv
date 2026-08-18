@@ -1,0 +1,1145 @@
+dataset,dimension,value,rows
+observations,assay_family,binding,2570313
+observations,assay_family,cardiac_electrophysiology_qt_apd,1039
+observations,assay_family,herg_binding,32388
+observations,assay_family,herg_functional,3590
+observations,assay_family,herg_other,4882
+observations,assay_family,other_bioactivity,785299
+observations,assay_family,pk_adme,540861
+observations,development_stage,unknown,3938372
+observations,endpoint,%,1
+observations,endpoint,% Ctrl,29
+observations,endpoint,% bound,10
+observations,endpoint,% of control,2
+observations,endpoint,% of inhibition,2
+observations,endpoint,% of inhibition or stimulation,1
+observations,endpoint,% remaining,19
+observations,endpoint,% turnover,24
+observations,endpoint,%R,2
+observations,endpoint,%max,2
+observations,endpoint,-log(RatioIC50),4
+observations,endpoint,A,1
+observations,endpoint,AC50,1829
+observations,endpoint,APD,93
+observations,endpoint,APD30,3
+observations,endpoint,APD50,31
+observations,endpoint,APD60,42
+observations,endpoint,APD70,9
+observations,endpoint,APD75,69
+observations,endpoint,APD90,23
+observations,endpoint,APD95,299
+observations,endpoint,APDc,98
+observations,endpoint,AUC,44928
+observations,endpoint,AUC c,4
+observations,endpoint,AUC p,4
+observations,endpoint,AUClast,255
+observations,endpoint,AUCt,2
+observations,endpoint,Absoption,2
+observations,endpoint,Absorption,32
+observations,endpoint,Activity,11503
+observations,endpoint,Activity_index,9
+observations,endpoint,Alpha Ki,14
+observations,endpoint,Amount,6
+observations,endpoint,Amount of metabolite,10
+observations,endpoint,Augmentation,4
+observations,endpoint,B-A/A-B,5
+observations,endpoint,BA,79
+observations,endpoint,BAV,6
+observations,endpoint,BBB,5
+observations,endpoint,BBR,3
+observations,endpoint,BPR,5
+observations,endpoint,Ba,7
+observations,endpoint,Binding,119
+observations,endpoint,Bioavailability Increase,2
+observations,endpoint,Bmax,1
+observations,endpoint,Bound,106
+observations,endpoint,Brain level,8
+observations,endpoint,C,4
+observations,endpoint,C ss,3
+observations,endpoint,C(24h),1
+observations,endpoint,C10APD90,5
+observations,endpoint,C20,54
+observations,endpoint,C20 APD95,38
+observations,endpoint,C8h,20
+observations,endpoint,CC50,249
+observations,endpoint,CE logK',18
+observations,endpoint,CI,3
+observations,endpoint,CL,86821
+observations,endpoint,CL free,173
+observations,endpoint,CL(app),11
+observations,endpoint,CL-renal,2
+observations,endpoint,CL/F,113
+observations,endpoint,CLH,14404
+observations,endpoint,CLH(app),180
+observations,endpoint,CL_renal,917
+observations,endpoint,CLb,7
+observations,endpoint,CLd/F,3
+observations,endpoint,CLint,53
+observations,endpoint,CLt/F,2
+observations,endpoint,CRC/CRC0,128
+observations,endpoint,Caco-2 A-B,3
+observations,endpoint,Caco-2 Papp,34
+observations,endpoint,Calculated Ratio,8
+observations,endpoint,Carboxylase activity,4
+observations,endpoint,Cavg,10
+observations,endpoint,Cell Viability,189
+observations,endpoint,Cell permeation,2
+observations,endpoint,Change,3
+observations,endpoint,Clearance,19
+observations,endpoint,Clerance,1
+observations,endpoint,Cmax,29691
+observations,endpoint,Cmax_triphosphate,1
+observations,endpoint,Cmin,2
+observations,endpoint,Cmin ss,5
+observations,endpoint,Cmin(80hr),1
+observations,endpoint,Cmin(84hr),4
+observations,endpoint,Compound Recovery,2
+observations,endpoint,Compound recovery,91
+observations,endpoint,Compound remaining,15
+observations,endpoint,Concentration,53
+observations,endpoint,Control,43
+observations,endpoint,Covalent binding,5
+observations,endpoint,Cp,8
+observations,endpoint,Cp(f),4
+observations,endpoint,Creatinine_CL,4
+observations,endpoint,Css,3
+observations,endpoint,Css min,2
+observations,endpoint,Css-12w,2
+observations,endpoint,Css-48h,2
+observations,endpoint,Css-4w,2
+observations,endpoint,Ct,12
+observations,endpoint,D,3
+observations,endpoint,D10,142
+observations,endpoint,DNA on filter,4
+observations,endpoint,DOSE,22
+observations,endpoint,Decrease,10
+observations,endpoint,Degradation,4
+observations,endpoint,Delta APD90,54
+observations,endpoint,Delta APD95,19
+observations,endpoint,Deuterium retention,30
+observations,endpoint,Distribution,6
+observations,endpoint,Drug absorption,17
+observations,endpoint,Drug degradation,230
+observations,endpoint,Drug excretion,71
+observations,endpoint,Drug metabolism,13442
+observations,endpoint,Drug recovery,756
+observations,endpoint,Drug transport,62
+observations,endpoint,Drug uptake,607
+observations,endpoint,E2:E1,3
+observations,endpoint,EC10,5
+observations,endpoint,EC25,1
+observations,endpoint,EC50,259074
+observations,endpoint,EC90,195
+observations,endpoint,ED15,1
+observations,endpoint,ED50,404
+observations,endpoint,ED70,4
+observations,endpoint,ERH,2134
+observations,endpoint,Efficacy,17
+observations,endpoint,Efflux ratio,30
+observations,endpoint,Efflux ratio plus inhibitor,30
+observations,endpoint,Emax,82
+observations,endpoint,Enantiomeric composition,8
+observations,endpoint,Enhancement,12
+observations,endpoint,Excretion,41
+observations,endpoint,Extraction ratio,2
+observations,endpoint,F,32527
+observations,endpoint,F/dose,9
+observations,endpoint,FC,1134
+observations,endpoint,F_fraction,308
+observations,endpoint,Fa,22
+observations,endpoint,Fabs,9
+observations,endpoint,Fapp,22
+observations,endpoint,Fez,1
+observations,endpoint,Fg,10
+observations,endpoint,Fh,9
+observations,endpoint,Flu intensity,11
+observations,endpoint,Fluorescence,6
+observations,endpoint,Fm,51
+observations,endpoint,Fmax,198
+observations,endpoint,Fmean,1
+observations,endpoint,Fold change,1
+observations,endpoint,Formation,34
+observations,endpoint,Formation of NO2-,36
+observations,endpoint,Formation of NO3-,4
+observations,endpoint,Formation of compound,4
+observations,endpoint,Fos,2
+observations,endpoint,Free,107
+observations,endpoint,Fu,14522
+observations,endpoint,GI,1
+observations,endpoint,GI tolerance,1
+observations,endpoint,GI50,41
+observations,endpoint,GT rate,38
+observations,endpoint,Glucuronidation,9
+observations,endpoint,Glucuronidation rate,10
+observations,endpoint,HEPG2TOX ASSAY - CC50,19978
+observations,endpoint,HEPG2TOX ASSAY - CC90,19978
+observations,endpoint,HMGR activity,10
+observations,endpoint,Hepatic Extraction ratio,45
+observations,endpoint,Hepatocyte stability,6
+observations,endpoint,Hill coefficient,4
+observations,endpoint,IC,32
+observations,endpoint,IC20,164
+observations,endpoint,IC25,33
+observations,endpoint,IC5,1
+observations,endpoint,IC50,1918531
+observations,endpoint,IC60,1
+observations,endpoint,IC80,1
+observations,endpoint,IC90,30
+observations,endpoint,ID50,39
+observations,endpoint,INH,405
+observations,endpoint,IP,113
+observations,endpoint,IZ,2
+observations,endpoint,Imax,29
+observations,endpoint,Inflection point,16
+observations,endpoint,Inhibition,21646
+observations,endpoint,Inhibition of control,1
+observations,endpoint,Inhibitory activity,5
+observations,endpoint,Intact,3
+observations,endpoint,Iron mobilization,10
+observations,endpoint,Jss,10
+observations,endpoint,K,210
+observations,endpoint,"K(p,uu,brain)",20
+observations,endpoint,KA,70
+observations,endpoint,Ka,41
+observations,endpoint,Kcat/Km,2
+observations,endpoint,Kd,187386
+observations,endpoint,Kdiss,1
+observations,endpoint,Ke,25
+observations,endpoint,Kel,54
+observations,endpoint,Ki,672783
+observations,endpoint,Kin,23
+observations,endpoint,Kin x,2
+observations,endpoint,Kin x10e3,32
+observations,endpoint,KinX,1
+observations,endpoint,Kinact,76
+observations,endpoint,Kis,1
+observations,endpoint,Km,430
+observations,endpoint,Km x10e3,10
+observations,endpoint,Km(unbound),4
+observations,endpoint,KmH,10
+observations,endpoint,KmL,10
+observations,endpoint,Kp,433
+observations,endpoint,Ks,36
+observations,endpoint,LBF,88
+observations,endpoint,LC20,21
+observations,endpoint,LC50,27
+observations,endpoint,LM,46
+observations,endpoint,LOAEL,2
+observations,endpoint,LUCIFERASE EXPRESSION CONTROL - IC50,19978
+observations,endpoint,LUCIFERASE EXPRESSION CONTROL - IC90,19978
+observations,endpoint,LUCIFERASE INFECTION ASSAY - IC50,19978
+observations,endpoint,LUCIFERASE INFECTION ASSAY - IC90,19978
+observations,endpoint,LambdaZ,6
+observations,endpoint,Log 1/Km,58
+observations,endpoint,Log BB,2
+observations,endpoint,Log ESA,51
+observations,endpoint,Log IC50,6
+observations,endpoint,Log Pe,69
+observations,endpoint,"Log Pe,max",17
+observations,endpoint,Log Po,17
+observations,endpoint,Log k,11
+observations,endpoint,LogD,31880
+observations,endpoint,LogP,20671
+observations,endpoint,LogP app,214
+observations,endpoint,Logit bioavailability,12
+observations,endpoint,MAPD90,20
+observations,endpoint,MED,10
+observations,endpoint,MET,26
+observations,endpoint,MF,35
+observations,endpoint,MIC,610
+observations,endpoint,Max delta APD95,30
+observations,endpoint,Max response,4
+observations,endpoint,Mean,4
+observations,endpoint,Mean response,8
+observations,endpoint,Mem Rec,2
+observations,endpoint,Metabolic rate,2
+observations,endpoint,Metabolic stability,115
+observations,endpoint,Metabolic turnover,18
+observations,endpoint,Metabolism,230
+observations,endpoint,Metabolite levels,30
+observations,endpoint,Microsomal stability,8
+observations,endpoint,NA,2
+observations,endpoint,NADPH oxidation,4
+observations,endpoint,ND,2
+observations,endpoint,NOAEL,19
+observations,endpoint,NOEC,27
+observations,endpoint,NOL,2
+observations,endpoint,NT,16
+observations,endpoint,Net grain counts,14
+observations,endpoint,O2 consumption,10
+observations,endpoint,OD,20
+observations,endpoint,OSAV,12
+observations,endpoint,Observed at,12
+observations,endpoint,Oral activity,1
+observations,endpoint,Oxidation,1
+observations,endpoint,P,78
+observations,endpoint,PB,78
+observations,endpoint,PCaco-2,1
+observations,endpoint,PDR,9
+observations,endpoint,PPB,14720
+observations,endpoint,Papp,20796
+observations,endpoint,Papp A to B (mean),274
+observations,endpoint,Papp A to B plus inhibitor (mean),30
+observations,endpoint,Papp B to A (mean),94
+observations,endpoint,Papp B to A plus inhibitor (mean),30
+observations,endpoint,Papp e-6,8
+observations,endpoint,Papps,7
+observations,endpoint,Pc,110
+observations,endpoint,Pcaco2,14
+observations,endpoint,Pe,11
+observations,endpoint,Peff,2463
+observations,endpoint,Percent remaining,4
+observations,endpoint,Permeability,577
+observations,endpoint,Permeability coefficient,31
+observations,endpoint,Permeability index,2
+observations,endpoint,Permeability limited,1
+observations,endpoint,Permeability rate,4
+observations,endpoint,Phospholipidosis_index,4
+observations,endpoint,Plasma level,76
+observations,endpoint,Pm,103
+observations,endpoint,Potency,16882
+observations,endpoint,Prolonged QT,1
+observations,endpoint,Propioaldehyde generated,9
+observations,endpoint,Protein bound,1
+observations,endpoint,Pt,9
+observations,endpoint,QH,299
+observations,endpoint,QT,18
+observations,endpoint,QT interval,21
+observations,endpoint,QTc Interval,3
+observations,endpoint,QTc delta,12
+observations,endpoint,QTc interval,20
+observations,endpoint,Quantity,3
+observations,endpoint,R,8
+observations,endpoint,R%,240
+observations,endpoint,RBA,6
+observations,endpoint,RHA,37
+observations,endpoint,RPF,40
+observations,endpoint,Rate,39
+observations,endpoint,Rate of formation,26
+observations,endpoint,Rate of hydrolysis,27
+observations,endpoint,Rate of metabolism,1
+observations,endpoint,Rate of oxidation,18
+observations,endpoint,Ratio,13353
+observations,endpoint,Ratio AUC,25
+observations,endpoint,Ratio AUC(inf),2
+observations,endpoint,Ratio CC50/EC50,24
+observations,endpoint,Ratio CC50/IC50,16
+observations,endpoint,Ratio Cmax,18
+observations,endpoint,Ratio EC50,28
+observations,endpoint,Ratio IC50,1887
+observations,endpoint,Ratio Ki,54
+observations,endpoint,Ratio LC50/IC50,1
+observations,endpoint,Ratio LD50/IC50,1
+observations,endpoint,Ratio_Papp,66
+observations,endpoint,Recovered,89
+observations,endpoint,Recovery,29
+observations,endpoint,Recovery A to B (mean),274
+observations,endpoint,Recovery A to B plus inhibitor (mean),30
+observations,endpoint,Recovery B to A (mean),94
+observations,endpoint,Recovery B to A plus inhibitor (mean),30
+observations,endpoint,Relative Bioavailability,16
+observations,endpoint,Relative F%,45
+observations,endpoint,Relative Potency,11
+observations,endpoint,Relative activity,6
+observations,endpoint,Relative bioavailability,13
+observations,endpoint,Relative metabolic rate,8
+observations,endpoint,Relative oncentration,1
+observations,endpoint,Relative permiability,6
+observations,endpoint,Relative peroxidation,1
+observations,endpoint,Relative potency,90
+observations,endpoint,Relative protection,19
+observations,endpoint,Relative rate metabolism,11
+observations,endpoint,Relative rate of hydrolysis,41
+observations,endpoint,Remaining,538
+observations,endpoint,Remaining (without cofactor),427
+observations,endpoint,Remaining compound,15
+observations,endpoint,Remaining rate,18
+observations,endpoint,Remaining ratio,16
+observations,endpoint,Retention_index,1
+observations,endpoint,Retention_time,495
+observations,endpoint,Rmax,3
+observations,endpoint,S50,4
+observations,endpoint,SUV,1
+observations,endpoint,SUVmax,3
+observations,endpoint,Selectivity,9
+observations,endpoint,Selectivity Index,241
+observations,endpoint,Selectivity ratio,25
+observations,endpoint,Solubility,62193
+observations,endpoint,Stability,35344
+observations,endpoint,Stabilty,183
+observations,endpoint,Stimulation,1
+observations,endpoint,Substrate metabolized at 1hr,4
+observations,endpoint,Survival,55
+observations,endpoint,T,1
+observations,endpoint,T1/2,98991
+observations,endpoint,T1/29,11
+observations,endpoint,T50,12
+observations,endpoint,TC50,39
+observations,endpoint,TDI,736
+observations,endpoint,TI,6
+observations,endpoint,TIME,360
+observations,endpoint,Time,1
+observations,endpoint,Tlag,11
+observations,endpoint,Tmax,15142
+observations,endpoint,Total CL,2
+observations,endpoint,Turnover,4
+observations,endpoint,Unchanged,3
+observations,endpoint,V0,10
+observations,endpoint,V1/2,2
+observations,endpoint,Vc/F,21
+observations,endpoint,Vd,5351
+observations,endpoint,Vd app,1
+observations,endpoint,Vd(app),1
+observations,endpoint,Vd/F,69
+observations,endpoint,Vdss,16644
+observations,endpoint,Vdss/F,6
+observations,endpoint,Viability,4
+observations,endpoint,Vmax,398
+observations,endpoint,Vmax(app),15
+observations,endpoint,Vmax/Km,61
+observations,endpoint,VmaxH,10
+observations,endpoint,VmaxL,10
+observations,endpoint,Vp/F,4
+observations,endpoint,Vss,8
+observations,endpoint,Vss/F,9
+observations,endpoint,Weight,6
+observations,endpoint,XC50,4
+observations,endpoint,[A],11
+observations,endpoint,[EA],11
+observations,endpoint,[GSH],18
+observations,endpoint,delta pIC50 wt-mutant,200
+observations,endpoint,deltaA,14
+observations,endpoint,effect,1
+observations,endpoint,fEC50,5
+observations,endpoint,fLOAEL,2
+observations,endpoint,fNOAEL,2
+observations,endpoint,k_off,16337
+observations,endpoint,kin,44
+observations,endpoint,kinact,1
+observations,endpoint,kon,16337
+observations,endpoint,log K,2
+observations,endpoint,log Kp,200
+observations,endpoint,log Pe,1201
+observations,endpoint,log(activity),1
+observations,endpoint,log(permeability),163
+observations,endpoint,log(ratio),31
+observations,endpoint,logBB,15
+observations,endpoint,logCL,50
+observations,endpoint,logD,7
+observations,endpoint,logP,2
+observations,endpoint,logPapp,950
+observations,endpoint,logPeff,185
+observations,endpoint,logPm,48
+observations,endpoint,max activation,8
+observations,endpoint,pBBB,22
+observations,endpoint,pCC50,5
+observations,endpoint,pIC50,130
+observations,endpoint,pKa,25
+observations,endpoint,pKi,31
+observations,endpoint,pXC50,2
+observations,endpoint,permeability,17941
+observations,endpoint,solubility,8506
+observations,endpoint,standard_binding_free_energy,67848
+observations,evidence_domain,binding,2706128
+observations,evidence_domain,herg,40860
+observations,evidence_domain,other,325961
+observations,evidence_domain,pk_adme,864223
+observations,evidence_domain,qt,1200
+observations,evidence_stage,<missing>,3323508
+observations,evidence_stage,preclinical_ex_vivo,541
+observations,evidence_stage,preclinical_in_vitro,608853
+observations,evidence_stage,preclinical_in_vivo,5470
+observations,inclusion_status,included,2758395
+observations,inclusion_status,quarantined,734448
+observations,inclusion_status,review,445529
+observations,observation_kind,derived,67848
+observations,observation_kind,experimental_summary,3870524
+observations,relation,<,177773
+observations,relation,<=,7536
+observations,relation,=,3016483
+observations,relation,>,656326
+observations,relation,>=,6320
+observations,relation,interval,9586
+observations,relation,not_reported,63522
+observations,relation,~,826
+observations,result_status,reported,3938372
+observations,source,SRC-AF728821208AC735AEE2E0D1,3938372
+observations,unit,%,128723
+observations,unit,%.hr,2
+observations,unit,%/hr,61
+observations,unit,%/min/pmol,16
+observations,unit,%id,9
+observations,unit,%id/cc,4
+observations,unit,%id/g,75
+observations,unit,%id/g/hr,24
+observations,unit,(mg/kg)/(ng/ml)/hr,3
+observations,unit,(mg/kg)/(ug/ml),1
+observations,unit,(mg/kg)/(ug/ml)/min,1
+observations,unit,(ml/min)/kg,1
+observations,unit,(umol/l).min,2
+observations,unit,-60mv,92
+observations,unit,/hr,33
+observations,unit,/m/min,2
+observations,unit,/min,259
+observations,unit,/min/nm,4
+observations,unit,/min/ul,2
+observations,unit,/ml,1
+observations,unit,/mm,4
+observations,unit,/nm/min,25
+observations,unit,/nmol,7
+observations,unit,/s,2
+observations,unit,/um/min,22
+observations,unit,0-24hr,8
+observations,unit,0-infinity,2
+observations,unit,0-tidc,2
+observations,unit,0-tldc,1
+observations,unit,10'-1/min,4
+observations,unit,10'-1mg/ml,1
+observations,unit,10'-1mol/l,1
+observations,unit,10'-2cm/s,11
+observations,unit,10'-2g,1
+observations,unit,10'-2no_unit,1
+observations,unit,10'-3cm/min,14
+observations,unit,10'-3cm/s,2
+observations,unit,10'-3mol/dm3,28
+observations,unit,10'-4/min,18
+observations,unit,10'-4/nm/min,12
+observations,unit,10'-4cm/min,6
+observations,unit,10'-4cm/s,119
+observations,unit,10'-4m,2
+observations,unit,10'-4mg/ml,2
+observations,unit,10'-5/nm/min,7
+observations,unit,10'-5/s,4
+observations,unit,10'-5cm/hr,3
+observations,unit,10'-5cm/min,8
+observations,unit,10'-5cm/s,261
+observations,unit,10'-5m,2
+observations,unit,10'-5no_unit,2
+observations,unit,10'-6/cm,45
+observations,unit,10'-6/s,2
+observations,unit,10'-6cm,2
+observations,unit,10'-6cm/min,22
+observations,unit,10'-6cm/s,9673
+observations,unit,10'-6cm/s2,8
+observations,unit,10'-6cm2/s,2
+observations,unit,10'-6m/s,2
+observations,unit,10'-6nanometer/s,16
+observations,unit,10'-6ul/min,9
+observations,unit,10'-7/nm/min,1
+observations,unit,10'-7/s,4
+observations,unit,10'-7cm/s,320
+observations,unit,10'-7cm2/sec,2
+observations,unit,10'-7m,5
+observations,unit,10'-7mol,1
+observations,unit,10'-7nmol/cm2/min,8
+observations,unit,10'-8cm/s,42
+observations,unit,10'-8m,8
+observations,unit,10'-8m/s,4
+observations,unit,10'-8mol,1
+observations,unit,10'-9cm/s,1
+observations,unit,10'-9meter/s,30
+observations,unit,10'2no_unit,4
+observations,unit,10'3nm,3
+observations,unit,10'3no_unit,22
+observations,unit,10'3ug/ml,1
+observations,unit,10'4nm,10
+observations,unit,10'5nm,6
+observations,unit,10'6cm/s,370
+observations,unit,10-6cm/s,11
+observations,unit,10-6cms-1,3
+observations,unit,10^-10cm/s,6
+observations,unit,10^-3cm/min,31
+observations,unit,10^-3mg/ml,2
+observations,unit,10^-3no_unit,1
+observations,unit,10^-4(mg/kg)/(ng/ml),1
+observations,unit,10^-4(mg/kg)/(ng/ml)/hr,1
+observations,unit,10^-4cm/hr,2
+observations,unit,10^-4l/hr/kg,1
+observations,unit,10^-5cm/hr,1
+observations,unit,10^-5cm/min,54
+observations,unit,10^-5cm/s,91
+observations,unit,10^-6/cm,4
+observations,unit,10^-6cm/min,1
+observations,unit,10^-6cm/s,9982
+observations,unit,10^-6cm2/s,1
+observations,unit,10^-6m/s,1
+observations,unit,10^-6ml/hr/kg,1
+observations,unit,10^-6nanometer/s,5
+observations,unit,10^-6ul/min,36
+observations,unit,10^-7cm/s,115
+observations,unit,10^-8cm/s,57
+observations,unit,10^-9cm/s,12
+observations,unit,10^3ul/min,11
+observations,unit,10^3ul/min/mg,15
+observations,unit,10^4cm2/sec,2
+observations,unit,10^4nm.min,4
+observations,unit,10^4ul/min/mg,1
+observations,unit,10^6cm/s,89
+observations,unit,10^6m/s,3
+observations,unit,10^6nm,1
+observations,unit,10^6no_unit,8
+observations,unit,10^7cm/s,50
+observations,unit,10e-5*cm/min,6
+observations,unit,10e-6*scm-1,4
+observations,unit,10e-6cm/s,120
+observations,unit,10e-6cms-1,34
+observations,unit,10e4*cmmin-1,4
+observations,unit,1e-6cm/s,308
+observations,unit,<missing>,123417
+observations,unit,L/kg,21268
+observations,unit,M,38
+observations,unit,M^-1*s^-1,16337
+observations,unit,a.u,6
+observations,unit,a.u.,10
+observations,unit,abcm/s,4
+observations,unit,au.min,22
+observations,unit,c.p.m.,1
+observations,unit,cm'-6/s,4
+observations,unit,cm(10e3*hr)-1,3
+observations,unit,cm/hr,2
+observations,unit,cm/min,1
+observations,unit,cm/s,342
+observations,unit,cm/s*10e6,119
+observations,unit,cm2,7
+observations,unit,cm2/sec,9
+observations,unit,cmhr-1,45
+observations,unit,cmmin-1,8
+observations,unit,cms-1,495
+observations,unit,cpm,2
+observations,unit,cps,30
+observations,unit,day,1
+observations,unit,day.ng/ml,2
+observations,unit,dpm,9
+observations,unit,fmol,4
+observations,unit,fmol/mg,1
+observations,unit,fmol/min,2
+observations,unit,g,46
+observations,unit,g.hr,12
+observations,unit,g/hr,3
+observations,unit,g/hr/kg,3
+observations,unit,g/kg,3
+observations,unit,g/ml/min,8
+observations,unit,h,110431
+observations,unit,h.fmol/millioncells,12
+observations,unit,hr-1,112
+observations,unit,hr.%id/ml,4
+observations,unit,hr.fmol,17
+observations,unit,hr.kg.ng/ml/mg,5
+observations,unit,hr.kg/l,33
+observations,unit,hr.mmol,2
+observations,unit,hr.ng/g,179
+observations,unit,hr.ng/l,4
+observations,unit,hr.ng/ml,1
+observations,unit,hr.nmol/g,5
+observations,unit,hr.nmol/ml,11
+observations,unit,hr.sec,12
+observations,unit,hr.ug/g,4
+observations,unit,hr/l.kg,4
+observations,unit,hr/l/kg,2
+observations,unit,hr/ml,13
+observations,unit,hr/ng.ml,2
+observations,unit,hr/ug/ml,8
+observations,unit,iu/l,31
+observations,unit,kcal/mol,67848
+observations,unit,kg,2
+observations,unit,kg-1,9
+observations,unit,kg-1hr-1,1
+observations,unit,kg/l,4
+observations,unit,l,390
+observations,unit,l(minmg)-1,2
+observations,unit,l.h-1,2
+observations,unit,l.h/kg,2
+observations,unit,l/1.73m2,2
+observations,unit,l/h,1
+observations,unit,l/hr,532
+observations,unit,l/hr.kg,2
+observations,unit,l/hr/1.73m2,4
+observations,unit,l/hr/kg,25
+observations,unit,l/hr/m2,3
+observations,unit,l/hr/mg,2
+observations,unit,l/kg.hr,47
+observations,unit,l/kg/min,2
+observations,unit,l/m2,5
+observations,unit,l/min,228
+observations,unit,l/min/mg,20
+observations,unit,l/min/umol,9
+observations,unit,lhr-1,1
+observations,unit,lhr-1kg-1,1
+observations,unit,lkg-1,2
+observations,unit,ll/min/million,1
+observations,unit,mL/min/kg,48254
+observations,unit,mM,38
+observations,unit,mcg/ml,5
+observations,unit,meq/l,4773
+observations,unit,mg,41
+observations,unit,mg.hr,1
+observations,unit,mg.hr/kg,3
+observations,unit,mg.kg-1,399
+observations,unit,mg/dl,19
+observations,unit,mg/dl.hr,3
+observations,unit,mg/g,29
+observations,unit,mg/hr/kg,1
+observations,unit,mg/kg/hr,1
+observations,unit,mg/kg/microm.hrs,1
+observations,unit,mg/kg/min,5
+observations,unit,mg/l,14
+observations,unit,mg/min/g,5
+observations,unit,mg/min/kg,7
+observations,unit,mg/min/microl,15
+observations,unit,mg/min/ml,16
+observations,unit,mg/ml,6
+observations,unit,mg/ml/g,4
+observations,unit,mg/ml/kg,12
+observations,unit,mg/ng/ml,3
+observations,unit,mg/ng/ml/hr,4
+observations,unit,mg/ul,5
+observations,unit,mghr-1kg-1,20
+observations,unit,mgkg-1,199
+observations,unit,mgmin-1kg-1,7
+observations,unit,mgml-1,24
+observations,unit,mgml-1kg-1,14
+observations,unit,microg.hr/ml,4
+observations,unit,microg.hr/ml.g,4
+observations,unit,microg.min/ml,1
+observations,unit,microg/cm2,5
+observations,unit,microg/cm2/h,8
+observations,unit,microg/cm3,1
+observations,unit,microg/hr/ml,5
+observations,unit,microg/min/ml,2
+observations,unit,microl/min/g,28
+observations,unit,microl/min/mg,980
+observations,unit,microl/ml/min,9
+observations,unit,microm.hr,2
+observations,unit,microm.hr'2,2
+observations,unit,microm.hr.kg/umol,3
+observations,unit,microm.hr/mg/kg,54
+observations,unit,microm/hr/mg,7
+observations,unit,microm/l.hr,11
+observations,unit,microm/mg/kg,3
+observations,unit,microm/min,27
+observations,unit,microm/min/mg,46
+observations,unit,microm/s,23
+observations,unit,micromol.hr/l/mg/kg,10
+observations,unit,micromol/min,17
+observations,unit,microsec,1
+observations,unit,min,713
+observations,unit,min-1,21
+observations,unit,min.g.nm/mg,18
+observations,unit,min.kg/l,4
+observations,unit,min.ng/g,16
+observations,unit,min.sec,5
+observations,unit,min.ug/ml,1
+observations,unit,min/ml,4
+observations,unit,min/ml/kg,71
+observations,unit,ml,92
+observations,unit,ml.kg/min,13
+observations,unit,ml.min,1
+observations,unit,ml.min-1,4
+observations,unit,ml.min-1.g-1,28834
+observations,unit,ml.min/g,26
+observations,unit,ml.min/kg,47
+observations,unit,ml/(min.mg),11
+observations,unit,ml/cm3,31
+observations,unit,ml/hr,132
+observations,unit,ml/hr.kg,6
+observations,unit,ml/hr/kg,1
+observations,unit,ml/hr/mg,6
+observations,unit,ml/kg,12
+observations,unit,ml/kg.hr,15
+observations,unit,ml/kg.min,34
+observations,unit,ml/mg,3
+observations,unit,ml/mg/kg,59
+observations,unit,ml/min,1776
+observations,unit,ml/min.g,388
+observations,unit,ml/min.kg,384
+observations,unit,ml/min.mg,5
+observations,unit,ml/min.umol,2
+observations,unit,ml/min/1.73m2,1
+observations,unit,ml/min/10^6cells,1
+observations,unit,ml/min/g,36
+observations,unit,ml/min/hr,4
+observations,unit,ml/min/m2,16
+observations,unit,ml/min/mg,67
+observations,unit,ml/min/nmol,6
+observations,unit,ml/mm/kg,5
+observations,unit,ml/umol/min,1
+observations,unit,mlhr-1,1
+observations,unit,mlkg-1,5
+observations,unit,mlmg-1kg-1,5
+observations,unit,mlmin-1,13
+observations,unit,mlmin-1kg-1,3
+observations,unit,mls-1,7
+observations,unit,mm.min,7
+observations,unit,mm2,6
+observations,unit,mmhg,2
+observations,unit,mmhg.day,2
+observations,unit,mmhg.hr,11
+observations,unit,mmhghr-1,19
+observations,unit,mmol/g,2
+observations,unit,mmol/min,10
+observations,unit,mmol/min/mg,3
+observations,unit,mmol/ml,1
+observations,unit,molefraction,9
+observations,unit,ms,253
+observations,unit,ms/s1/2,3
+observations,unit,mss-1,3
+observations,unit,mumindl-1,2
+observations,unit,mv,9
+observations,unit,nM,3114031
+observations,unit,nanometer/sec,4
+observations,unit,nanomol/min,8
+observations,unit,nanoseconds,2
+observations,unit,ng,11
+observations,unit,ng*h/mL,40621
+observations,unit,ng.eq.h.ml-1,6
+observations,unit,ng.eq/ml,1
+observations,unit,ng.h-1.ml-1,1
+observations,unit,ng.hr,9
+observations,unit,ng.hr.kg/mg/ml,35
+observations,unit,ng.hr.kg/ml/mg,6
+observations,unit,ng.hr/g,204
+observations,unit,ng.hr/kg,37
+observations,unit,ng.hr/ml,21
+observations,unit,ng.hr/ml/mg,11
+observations,unit,ng.hr/ml/mg/kg,42
+observations,unit,ng.min/g,16
+observations,unit,ng/10^6cells,1
+observations,unit,ng/10^6cellsin4h,1
+observations,unit,ng/10^6cells×hr,3
+observations,unit,ng/cm2/min,18
+observations,unit,ng/dl,4
+observations,unit,ng/g,426
+observations,unit,ng/g.hr,78
+observations,unit,ng/hr,5
+observations,unit,ng/hr/ml,2
+observations,unit,ng/kg,9
+observations,unit,ng/l,1
+observations,unit,ng/mL,171
+observations,unit,ng/mg,48
+observations,unit,ng/mgprot.,3
+observations,unit,ng/min/kg,6
+observations,unit,ng/ml.hr,6
+observations,unit,ng/ml.kg,4
+observations,unit,ng/ml/hr,1
+observations,unit,ng/ml/mg,4
+observations,unit,ng/ul,10
+observations,unit,ngequiv.hr/g,12
+observations,unit,ngequiv/g,12
+observations,unit,ngg-1,25
+observations,unit,nghrg-1,1
+observations,unit,ngkg-1,1
+observations,unit,ngmin,2
+observations,unit,ngml-1,85
+observations,unit,ngmlkg-1,1
+observations,unit,nl/min,18
+observations,unit,nl/pmol/min,5
+observations,unit,nm(10e6*cells)-1,18
+observations,unit,nm(mgofprotein)-1,8
+observations,unit,nm-1min-1(mgofprotein)-1,5
+observations,unit,nm.hr.kg/mg,14
+observations,unit,nm.hr/g,6
+observations,unit,nm.hr/l,12
+observations,unit,nm.hr/mg/kg,8
+observations,unit,nm.hr/ml,10
+observations,unit,nm.min/ml,4
+observations,unit,nm/l.hr,1
+observations,unit,nm/mg*min,21
+observations,unit,nm/min,15
+observations,unit,nm/min/mg,7
+observations,unit,nm/ml,13
+observations,unit,nm/s,6793
+observations,unit,nmg-1,2
+observations,unit,nmhr-1cm**-2,17
+observations,unit,nmhr-1ml-1,2
+observations,unit,nmhrml,18
+observations,unit,nml-1hr-1,6
+observations,unit,nmmin-1,6
+observations,unit,nmmin-1(mgofprotein)-1,47
+observations,unit,nmmin-1(nmofcytochromep450)-1,9
+observations,unit,nmmin-1mg-1,64
+observations,unit,nmml-1,10
+observations,unit,nmol,15
+observations,unit,nmol.hr,6
+observations,unit,nmol.hr/g,58
+observations,unit,nmol.hr/kg,4
+observations,unit,nmol.min.g-1,16
+observations,unit,nmol/100.000cellsxh,3
+observations,unit,nmol/cm2/hr,2
+observations,unit,nmol/g,118
+observations,unit,nmol/g.hr,19
+observations,unit,nmol/g.min,5
+observations,unit,nmol/g/min,5
+observations,unit,nmol/hr,14
+observations,unit,nmol/hr/l,10
+observations,unit,nmol/kg,1
+observations,unit,nmol/l.min,4
+observations,unit,nmol/mg,4
+observations,unit,nmol/mg.min,36
+observations,unit,nmol/mg/hr,3
+observations,unit,nmol/mg/min,61
+observations,unit,nmol/min,348
+observations,unit,nmol/min*mgofprotein,2
+observations,unit,nmol/min/kg,29
+observations,unit,nmol/min/mg,461
+observations,unit,nmol/sec,4
+observations,unit,nms-1,478
+observations,unit,none,110
+observations,unit,not_given,5
+observations,unit,omegacm2,8
+observations,unit,pM,28
+observations,unit,papp*10e6cm/s,7
+observations,unit,pcms-1,1
+observations,unit,pg/g,2
+observations,unit,pg/ml,19
+observations,unit,pgmin-1(mgofprotein)-1,8
+observations,unit,ph7.4,7
+observations,unit,pi,2
+observations,unit,pl/min,12
+observations,unit,pm/mg,4
+observations,unit,pm/mg/hr,1
+observations,unit,pm/mg/minute,1
+observations,unit,pm/min/mg,1
+observations,unit,pm/min/ml,1
+observations,unit,pm30min-1(mgofdna)-1,18
+observations,unit,pmhr-1g-1,6
+observations,unit,pmhr-1mg-1,1
+observations,unit,pmkg-1,8
+observations,unit,pmmg-1,3
+observations,unit,pmmin-1,26
+observations,unit,pmmin-1(mgofprotein)-1,22
+observations,unit,pmmin-1mg-1,97
+observations,unit,pmml-1,12
+observations,unit,pmnm-1,40
+observations,unit,pmol,294
+observations,unit,pmol.hr,2
+observations,unit,pmol.hr/g,17
+observations,unit,pmol.min,10
+observations,unit,pmol.min.mg-1,10
+observations,unit,pmol.min/mg,6
+observations,unit,pmol/10^6cells,5
+observations,unit,pmol/g,12
+observations,unit,pmol/hr,11
+observations,unit,pmol/mg,47
+observations,unit,pmol/mg.hr,22
+observations,unit,pmol/mg.min,4
+observations,unit,pmol/mg/hr,106
+observations,unit,pmol/mg/min,16
+observations,unit,pmol/min,211
+observations,unit,pmol/min.mg,8
+observations,unit,pmol/min/10^6cells,4
+observations,unit,pmol/min/cm2,9
+observations,unit,pmol/min/g,8
+observations,unit,pmol/min/mg,145
+observations,unit,pmol/min/ug,24
+observations,unit,pmol/ml,6
+observations,unit,pmol/s,32
+observations,unit,pmolequiv,4
+observations,unit,pmolequiv/mg,23
+observations,unit,ppb,1
+observations,unit,ppm,29
+observations,unit,rfu,3
+observations,unit,s,7
+observations,unit,s^-1,16337
+observations,unit,suv.min,13
+observations,unit,u,2
+observations,unit,u-1hr-1ml-1,6
+observations,unit,u/l,13
+observations,unit,uM,121634
+observations,unit,ua.cm'-2,3
+observations,unit,ucm,6
+observations,unit,ucm/s,7366
+observations,unit,ug,84
+observations,unit,ug.h/g,4
+observations,unit,ug.hr/g,72
+observations,unit,ug.hr/kg,27
+observations,unit,ug.hr/ml,4
+observations,unit,ug.hr/ml/day,2
+observations,unit,ug.hr/ml/mg/kg,18
+observations,unit,ug.min/g,9
+observations,unit,ug/(min.mg),10
+observations,unit,ug/10^6cells,4
+observations,unit,ug/cm2.hr,11
+observations,unit,ug/g,94
+observations,unit,ug/g.hr,10
+observations,unit,ug/g.min,2
+observations,unit,ug/hr,9
+observations,unit,ug/hr.kg,18
+observations,unit,ug/kg,7
+observations,unit,ug/l,5
+observations,unit,ug/mL,29928
+observations,unit,ug/mg/day,1
+observations,unit,ug/min,179
+observations,unit,ug/min/mg,36
+observations,unit,ug/ml.hr,1
+observations,unit,ug/ml/hr,3
+observations,unit,ug/ml/min,17
+observations,unit,uga/ml,2
+observations,unit,ugequiv.hr/g,18
+observations,unit,ugequiv/g,9
+observations,unit,ugequiv/l.hr,21
+observations,unit,ugg-1,13
+observations,unit,ugh/g,5
+observations,unit,ughml-1kg-1,2
+observations,unit,ughr-1g-1,18
+observations,unit,ughrml-1,2
+observations,unit,ughrum-1,23
+observations,unit,ugm-1min-1,1
+observations,unit,ugmin/ml,1
+observations,unit,ugming-1,2
+observations,unit,ugml-1,254
+observations,unit,ugweight-1,8
+observations,unit,uhml-1,3
+observations,unit,ul,168
+observations,unit,ul.min-1.(10^6cells)-1,1737
+observations,unit,ul.min.nmol-1,9
+observations,unit,ul/(min.pmol),2
+observations,unit,ul/hr,1
+observations,unit,ul/hr/10^6cells,4
+observations,unit,ul/hr/cm2,92
+observations,unit,ul/mg/min,97
+observations,unit,ul/min,9845
+observations,unit,ul/min.mg,88
+observations,unit,ul/min.ml,4
+observations,unit,ul/min/10e6cells,6
+observations,unit,ul/min/1e6cells,39
+observations,unit,ul/min/kg,61
+observations,unit,ul/min/mgprotein,46
+observations,unit,ul/min/ml,18
+observations,unit,ul/min/pmol,17
+observations,unit,ul/ml,37
+observations,unit,ul/ml.millig,40
+observations,unit,ul/ml/kg,50
+observations,unit,ulmin-1mg-1,7
+observations,unit,ulml-1,2
+observations,unit,um-1kg-1,13
+observations,unit,um.h.kg/mg,6
+observations,unit,um.h/l,2
+observations,unit,um.hr,320
+observations,unit,um.hr.kg,1
+observations,unit,um.hr.kg/mg,225
+observations,unit,um.hr/mg,1
+observations,unit,um.hr/mg.kg,58
+observations,unit,um.hr/ml,74
+observations,unit,um.kg/mg,4
+observations,unit,um.min/ml,4
+observations,unit,um/hr/kg/mg,1
+observations,unit,um/min.mg,24
+observations,unit,um/ml,29
+observations,unit,um/s,23
+observations,unit,umh/(mg/kg),4
+observations,unit,umh/dose,3
+observations,unit,umh/mpk,11
+observations,unit,umhkg/mg,16
+observations,unit,umhr-1ml-1,7
+observations,unit,umhrl-1,12
+observations,unit,umhrml-1,5
+observations,unit,umkg-1,2
+observations,unit,uml,9
+observations,unit,umminl-1,10
+observations,unit,umminum-1,5
+observations,unit,umol,14
+observations,unit,umol.hr/kg,5
+observations,unit,umol/cm2/hr,7
+observations,unit,umol/kg,6
+observations,unit,umol/l.min,2
+observations,unit,umol/l/s,6
+observations,unit,umol/min/g,1
+observations,unit,umol/min/kg,1
+observations,unit,umol/min/mg,35
+observations,unit,umol/min/ml,6
+observations,unit,umol/ml,16
+observations,unit,umolcm2/hr,6
+observations,unit,unhkg/mg,1
+tasks/default,assay_family,binding,2117384
+tasks/default,assay_family,herg_functional,265
+tasks/default,assay_family,other_bioactivity,430527
+tasks/default,assay_family,pk_adme,22
+tasks/default,domain,binding,2247340
+tasks/default,domain,herg,265
+tasks/default,domain,other,300593
+tasks/default,endpoint,EC50,222746
+tasks/default,endpoint,IC50,1569928
+tasks/default,endpoint,Kd,164153
+tasks/default,endpoint,Ki,591371
+tasks/default,label_kind,categorical,120
+tasks/default,label_kind,continuous_censored,603727
+tasks/default,label_kind,continuous_exact,1944351
+tasks/default,observation_kind,experimental_summary,2548198
+tasks/default,relation,<,113691
+tasks/default,relation,<=,5613
+tasks/default,relation,=,1944471
+tasks/default,relation,>,474398
+tasks/default,relation,>=,3409
+tasks/default,relation,interval,6616
+tasks/default,source,SRC-AF728821208AC735AEE2E0D1,2548198
+tasks/default,task,TASK-0F150248605B06D35054AB3A,57001
+tasks/default,task,TASK-16651799910722449EFC3A06,74298
+tasks/default,task,TASK-16D26014A6EE2CCBB0F180D8,21736
+tasks/default,task,TASK-185C1D81F9F284D5C0B37F92,137
+tasks/default,task,TASK-1B148EB4AA206DC14BAAAE7C,360
+tasks/default,task,TASK-24FCDD605CA028A5E5121026,5458
+tasks/default,task,TASK-28F030031D94BE74C58104B5,95999
+tasks/default,task,TASK-3170A418BCD7BD16A41B2DA6,1
+tasks/default,task,TASK-4CF2E06E5EFAC79EBC548ADE,49818
+tasks/default,task,TASK-57C6160C66621BD45C149F77,407926
+tasks/default,task,TASK-5D547122E1CE24483AB2BE65,15
+tasks/default,task,TASK-66C4C3DD1BBEBB893306A8E1,4
+tasks/default,task,TASK-6ADA59E8239A06F9F9A019FE,91936
+tasks/default,task,TASK-719C577BE05E84FE7F1DC58E,62334
+tasks/default,task,TASK-8985AC2B746DC2CF410D1ACE,1107075
+tasks/default,task,TASK-924B30B89C80EF491174298D,129920
+tasks/default,task,TASK-951CAD2EF4E7E86B42C1E78F,59314
+tasks/default,task,TASK-9EF0A903755F8DBA39DDDDC2,120
+tasks/default,task,TASK-A321BAA914C0B898F1266C70,89725
+tasks/default,task,TASK-B0CCA81C5B5A3FAB84D62599,275666
+tasks/default,task,TASK-C2411CFAB88F5910697EFE06,19345
+tasks/default,task,TASK-D1C8BFE0C4E8D334ADE27710,2
+tasks/default,task,TASK-F29117C07D35D4825719C634,8
+tasks/default,task_type,default__binding__ec50__binding__nm__continuous_censored,19345
+tasks/default,task_type,default__binding__ec50__binding__nm__continuous_exact,89725
+tasks/default,task_type,default__binding__ec50__pk_adme__nm__continuous_exact,4
+tasks/default,task_type,default__binding__ic50__binding__nm__continuous_censored,275666
+tasks/default,task_type,default__binding__ic50__binding__nm__continuous_exact,1107075
+tasks/default,task_type,default__binding__ic50__pk_adme__nm__continuous_exact,1
+tasks/default,task_type,default__binding__kd__binding__nm__continuous_censored,95999
+tasks/default,task_type,default__binding__kd__binding__nm__continuous_exact,62334
+tasks/default,task_type,default__binding__kd__other_bioactivity__nm__continuous_censored,360
+tasks/default,task_type,default__binding__kd__other_bioactivity__nm__continuous_exact,5458
+tasks/default,task_type,default__binding__kd__pk_adme__nm__continuous_exact,2
+tasks/default,task_type,default__binding__ki__binding__nm__continuous_censored,59314
+tasks/default,task_type,default__binding__ki__binding__nm__continuous_exact,407926
+tasks/default,task_type,default__binding__ki__other_bioactivity__nm__continuous_censored,74298
+tasks/default,task_type,default__binding__ki__other_bioactivity__nm__continuous_exact,49818
+tasks/default,task_type,default__binding__ki__pk_adme__nm__continuous_exact,15
+tasks/default,task_type,default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm,120
+tasks/default,task_type,default__herg__ic50__herg_functional__nm__continuous_censored,8
+tasks/default,task_type,default__herg__ic50__herg_functional__nm__continuous_exact,137
+tasks/default,task_type,default__other__ec50__other_bioactivity__nm__continuous_censored,21736
+tasks/default,task_type,default__other__ec50__other_bioactivity__nm__continuous_exact,91936
+tasks/default,task_type,default__other__ic50__other_bioactivity__nm__continuous_censored,57001
+tasks/default,task_type,default__other__ic50__other_bioactivity__nm__continuous_exact,129920
+tasks/default,unit,class,120
+tasks/default,unit,nM,2548078
+tasks/derived_sensitivity,assay_family,binding,62334
+tasks/derived_sensitivity,assay_family,herg_binding,1
+tasks/derived_sensitivity,assay_family,herg_other,44
+tasks/derived_sensitivity,assay_family,other_bioactivity,5458
+tasks/derived_sensitivity,assay_family,pk_adme,2
+tasks/derived_sensitivity,domain,binding,67794
+tasks/derived_sensitivity,domain,herg,45
+tasks/derived_sensitivity,endpoint,standard_binding_free_energy,67839
+tasks/derived_sensitivity,label_kind,continuous_exact,67839
+tasks/derived_sensitivity,observation_kind,derived,67839
+tasks/derived_sensitivity,relation,=,67839
+tasks/derived_sensitivity,source,SRC-AF728821208AC735AEE2E0D1,67839
+tasks/derived_sensitivity,task,TASK-004A87834A39CAE50167DE09,1
+tasks/derived_sensitivity,task,TASK-1DCA90F0D65AD70DE64631D2,5458
+tasks/derived_sensitivity,task,TASK-862A7CCDB5290EB3CD6BF292,44
+tasks/derived_sensitivity,task,TASK-9039BC395D75BD7807787ADB,2
+tasks/derived_sensitivity,task,TASK-B46765EBACEE985CE4DCB23A,62334
+tasks/derived_sensitivity,task_type,sensitivity__binding__standard_binding_free_energy__binding__kcal_mol__continuous_exact,62334
+tasks/derived_sensitivity,task_type,sensitivity__binding__standard_binding_free_energy__other_bioactivity__kcal_mol__continuous_exact,5458
+tasks/derived_sensitivity,task_type,sensitivity__binding__standard_binding_free_energy__pk_adme__kcal_mol__continuous_exact,2
+tasks/derived_sensitivity,task_type,sensitivity__herg__standard_binding_free_energy__herg_binding__kcal_mol__continuous_exact,1
+tasks/derived_sensitivity,task_type,sensitivity__herg__standard_binding_free_energy__herg_other__kcal_mol__continuous_exact,44
+tasks/derived_sensitivity,unit,kcal/mol,67839

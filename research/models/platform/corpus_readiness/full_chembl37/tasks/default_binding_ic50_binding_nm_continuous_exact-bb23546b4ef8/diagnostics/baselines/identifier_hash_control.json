@@ -1,0 +1,23 @@
+{
+  "control": "identifier_text_hash",
+  "identifier_digest_eval": "a2ecc4c35793fbd6ebb1d9fb750c28cf82910d398250bb3c66491f1103b4d976",
+  "identifier_digest_train": "682bfd525656984bd7db997687dc74ef688f11127e885ec772e3323b7cbb858d",
+  "interpretation": "identifier_only_negative_control; strong performance requires provenance/leakage review",
+  "metrics": {
+    "calibration_intercept_observation_on_prediction": 4432.9723497250225,
+    "calibration_slope_observation_on_prediction": -0.06676440013472681,
+    "concordance_correlation_coefficient": -0.0038968480456498863,
+    "mae": 6390.087895329393,
+    "mean_signed_error_prediction_minus_observation": 203.61968594859007,
+    "median_absolute_error": 4136.116042549043,
+    "metric_schema_version": "1.0.0",
+    "mse": 164922643.72216913,
+    "n": 2500,
+    "pearson_r": -0.011577162087079606,
+    "r2": -0.03434374215656022,
+    "rmse": 12842.221136632445,
+    "spearman_r": -0.0059059435651608
+  },
+  "n_hash_features": 256,
+  "substantive_training_started": false
+}

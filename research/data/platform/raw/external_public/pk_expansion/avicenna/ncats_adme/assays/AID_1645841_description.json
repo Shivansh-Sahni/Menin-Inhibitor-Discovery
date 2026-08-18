@@ -1,0 +1,2451 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1645841,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "CYP3A4437"
+              }
+            }
+          },
+          "name": "Cytochrome P450 family 3 subfamily A member 4 (CYP3A4) small molecule antagonists: luciferase cell-based qHTS assay",
+          "description": [
+            "National Center for Advancing Translational Sciences [NCATS]",
+            "",
+            " Assay Overview:",
+            "",
+            "Cytochrome P450 (CYP) enzymes are membrane-bound hemeproteins that play a key role in metabolism of drugs and xenobiotics. Assaying the effect of chemicals on CYP isozymes is useful to minimize the adverse drug reactions and toxicities in drug development process. Chemical compounds were tested for their effect on CYP enzyme activities by using P450-Glo (TM) screening systems (Promega Corporation, Madison, WI). These systems provide a luminescent method containing proluciferin substrates and are converted to luciferin products by CYP isozymes. The luciferin products formed are detected with a luciferin detection reagent, and the amount of light produced is proportional to CYP activity. P450-Glo (TM) CYP3A4 screening system (Catalog. No. V9910) was used to detect the compounds that interfere in CYP3A4 activity. The positive control compound used for CYP3A4 assay is ketoconazole (Sigma-Aldrich, St. Louis, MO)."
+          ],
+          "protocol": [
+            "Assay Protocol Summary:",
+            "",
+            "Two ul of enzyme-substrate mix was dispensed into medium binding white/solid 1536-well plates (Greiner Bio-One North America Inc., Monroe, NC) using a Flying Reagent Dispenser (FRD, Aurora Discovery, San Diego, CA). Test compounds dissolved in DMSO and positive control (ketoconazole) were transferred to the assay plates at 23 nl using a Pintool station (Wako, San Diego, CA). The assay plates were incubated at room temperature for 10 min. Then 2 ul of NADPH regeneration solution was added to each well of the assay plates using an FRD and incubated at room temperature for 1 h. The reaction was stopped by adding 4 ul of detection reagent using an FRD and after 20 min incubation at room temperature, the luminescence signal was measured using a ViewLux plate reader (Perkin Elmer, Shelton, CT). Data were expressed as relative luminescence units."
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. See data field \"Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+            "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above.  Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100.  Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39.  Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://ncats.nih.gov/"
+              }
+            },
+            {
+              "xref": {
+                "gene": 1576
+              }
+            },
+            {
+              "xref": {
+                "pmid": 19855396
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Phenotype-Replicate_1",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Potency-Replicate_1",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "Efficacy-Replicate_1",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 4,
+              "name": "Analysis Comment-Replicate_1",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Activity_Score-Replicate_1",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Curve_Description-Replicate_1",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 7,
+              "name": "Fit_LogAC50-Replicate_1",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Fit_HillSlope-Replicate_1",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Fit_R2-Replicate_1",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "Fit_InfiniteActivity-Replicate_1",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 11,
+              "name": "Fit_ZeroActivity-Replicate_1",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 12,
+              "name": "Fit_CurveClass-Replicate_1",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "Excluded_Points-Replicate_1",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "Max_Response-Replicate_1",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 15,
+              "name": "Activity at 0.0000073560 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.35599996914971e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 16,
+              "name": "Activity at 0.0000367800 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.67799984815065e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 17,
+              "name": "Activity at 0.0000735600 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.3559996963013e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 18,
+              "name": "Activity at 0.0001677464 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000167745994986035,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 19,
+              "name": "Activity at 0.0003678000 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000367800006642938,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 20,
+              "name": "Activity at 0.0007362988 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000736299029085785,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 21,
+              "name": "Activity at 0.00153 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00153299001976848,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 22,
+              "name": "Activity at 0.00368 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00367618002928793,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 23,
+              "name": "Activity at 0.00723 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.007234170101583,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 24,
+              "name": "Activity at 0.00914 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00914212968200445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 25,
+              "name": "Activity at 0.018 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0184065997600555,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 26,
+              "name": "Activity at 0.039 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0386148989200592,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 27,
+              "name": "Activity at 0.092 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0919867977499962,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 28,
+              "name": "Activity at 0.191 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.191376999020576,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 29,
+              "name": "Activity at 0.460 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.459571987390518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 30,
+              "name": "Activity at 0.910 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.90973299741745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 31,
+              "name": "Activity at 1.182 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.18163001537323,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 32,
+              "name": "Activity at 2.302 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.30150008201599,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 33,
+              "name": "Activity at 4.834 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.8339900970459,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 34,
+              "name": "Activity at 11.49 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 11.4937000274658,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 35,
+              "name": "Activity at 23.94 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 23.9433002471924,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 36,
+              "name": "Activity at 57.45 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.4469985961914,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 37,
+              "name": "Activity at 115.4 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 115.36799621582,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 38,
+              "name": "Activity at 193.5 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 193.45100402832,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 39,
+              "name": "Activity at 288.3 uM-Replicate_1",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 288.299987792969,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 40,
+              "name": "Compound QC-Replicate_1",
+              "description": [
+                "NCGC designation for data stage: 'qHTS', 'qHTS Verification', 'Secondary Profiling'"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 41,
+              "name": "Phenotype-Replicate_2",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 42,
+              "name": "Potency-Replicate_2",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 43,
+              "name": "Efficacy-Replicate_2",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 44,
+              "name": "Analysis Comment-Replicate_2",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 45,
+              "name": "Activity_Score-Replicate_2",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 46,
+              "name": "Curve_Description-Replicate_2",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 47,
+              "name": "Fit_LogAC50-Replicate_2",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 48,
+              "name": "Fit_HillSlope-Replicate_2",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 49,
+              "name": "Fit_R2-Replicate_2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 50,
+              "name": "Fit_InfiniteActivity-Replicate_2",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 51,
+              "name": "Fit_ZeroActivity-Replicate_2",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 52,
+              "name": "Fit_CurveClass-Replicate_2",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 53,
+              "name": "Excluded_Points-Replicate_2",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 54,
+              "name": "Max_Response-Replicate_2",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 55,
+              "name": "Activity at 0.0000073560 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.35599996914971e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 56,
+              "name": "Activity at 0.0000367800 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.67799984815065e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 57,
+              "name": "Activity at 0.0000735600 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.3559996963013e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 58,
+              "name": "Activity at 0.0001677464 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000167745994986035,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 59,
+              "name": "Activity at 0.0003678000 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000367800006642938,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 60,
+              "name": "Activity at 0.0007362988 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000736299029085785,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 61,
+              "name": "Activity at 0.00153 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00153299001976848,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 62,
+              "name": "Activity at 0.00368 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00367618002928793,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 63,
+              "name": "Activity at 0.00723 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.007234170101583,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 64,
+              "name": "Activity at 0.00914 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00914212968200445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 65,
+              "name": "Activity at 0.018 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0184065997600555,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 66,
+              "name": "Activity at 0.039 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0386148989200592,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 67,
+              "name": "Activity at 0.092 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0919867977499962,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 68,
+              "name": "Activity at 0.191 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.191376999020576,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 69,
+              "name": "Activity at 0.460 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.459571987390518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 70,
+              "name": "Activity at 0.910 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.90973299741745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 71,
+              "name": "Activity at 1.182 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.18163001537323,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 72,
+              "name": "Activity at 2.302 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.30150008201599,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 73,
+              "name": "Activity at 4.834 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.8339900970459,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 74,
+              "name": "Activity at 11.49 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 11.4937000274658,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 75,
+              "name": "Activity at 23.94 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 23.9433002471924,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 76,
+              "name": "Activity at 57.45 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.4469985961914,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 77,
+              "name": "Activity at 115.4 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 115.36799621582,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 78,
+              "name": "Activity at 193.5 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 193.45100402832,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 79,
+              "name": "Activity at 288.3 uM-Replicate_2",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 288.299987792969,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 80,
+              "name": "Phenotype-Replicate_3",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 81,
+              "name": "Potency-Replicate_3",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 82,
+              "name": "Efficacy-Replicate_3",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 83,
+              "name": "Analysis Comment-Replicate_3",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 84,
+              "name": "Activity_Score-Replicate_3",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 85,
+              "name": "Curve_Description-Replicate_3",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 86,
+              "name": "Fit_LogAC50-Replicate_3",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 87,
+              "name": "Fit_HillSlope-Replicate_3",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 88,
+              "name": "Fit_R2-Replicate_3",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 89,
+              "name": "Fit_InfiniteActivity-Replicate_3",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 90,
+              "name": "Fit_ZeroActivity-Replicate_3",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 91,
+              "name": "Fit_CurveClass-Replicate_3",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 92,
+              "name": "Excluded_Points-Replicate_3",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 93,
+              "name": "Max_Response-Replicate_3",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 94,
+              "name": "Activity at 0.0000073560 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.35599996914971e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 95,
+              "name": "Activity at 0.0000367800 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.67799984815065e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 96,
+              "name": "Activity at 0.0000735600 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.3559996963013e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 97,
+              "name": "Activity at 0.0001677464 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000167745994986035,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 98,
+              "name": "Activity at 0.0003678000 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000367800006642938,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 99,
+              "name": "Activity at 0.0007362988 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000736299029085785,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 100,
+              "name": "Activity at 0.00153 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00153299001976848,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 101,
+              "name": "Activity at 0.00368 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00367618002928793,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 102,
+              "name": "Activity at 0.00723 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.007234170101583,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 103,
+              "name": "Activity at 0.00914 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00914212968200445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 104,
+              "name": "Activity at 0.018 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0184065997600555,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 105,
+              "name": "Activity at 0.039 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0386148989200592,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 106,
+              "name": "Activity at 0.092 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0919867977499962,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 107,
+              "name": "Activity at 0.191 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.191376999020576,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 108,
+              "name": "Activity at 0.460 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.459571987390518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 109,
+              "name": "Activity at 0.910 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.90973299741745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 110,
+              "name": "Activity at 1.182 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.18163001537323,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 111,
+              "name": "Activity at 2.302 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.30150008201599,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 112,
+              "name": "Activity at 4.834 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.8339900970459,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 113,
+              "name": "Activity at 11.49 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 11.4937000274658,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 114,
+              "name": "Activity at 23.94 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 23.9433002471924,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 115,
+              "name": "Activity at 57.45 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.4469985961914,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 116,
+              "name": "Activity at 115.4 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 115.36799621582,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 117,
+              "name": "Activity at 193.5 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 193.45100402832,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 118,
+              "name": "Activity at 288.3 uM-Replicate_3",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 288.299987792969,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 119,
+              "name": "Phenotype-Replicate_4",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 120,
+              "name": "Potency-Replicate_4",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 121,
+              "name": "Efficacy-Replicate_4",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 122,
+              "name": "Analysis Comment-Replicate_4",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 123,
+              "name": "Activity_Score-Replicate_4",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 124,
+              "name": "Curve_Description-Replicate_4",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 125,
+              "name": "Fit_LogAC50-Replicate_4",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 126,
+              "name": "Fit_HillSlope-Replicate_4",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 127,
+              "name": "Fit_R2-Replicate_4",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 128,
+              "name": "Fit_InfiniteActivity-Replicate_4",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 129,
+              "name": "Fit_ZeroActivity-Replicate_4",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 130,
+              "name": "Fit_CurveClass-Replicate_4",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 131,
+              "name": "Excluded_Points-Replicate_4",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 132,
+              "name": "Max_Response-Replicate_4",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 133,
+              "name": "Activity at 0.0000073560 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.35599996914971e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 134,
+              "name": "Activity at 0.0000367800 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.67799984815065e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 135,
+              "name": "Activity at 0.0000735600 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.3559996963013e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 136,
+              "name": "Activity at 0.0001677464 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000167745994986035,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 137,
+              "name": "Activity at 0.0003678000 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000367800006642938,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 138,
+              "name": "Activity at 0.0007362988 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000736299029085785,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 139,
+              "name": "Activity at 0.00153 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00153299001976848,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 140,
+              "name": "Activity at 0.00368 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00367618002928793,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 141,
+              "name": "Activity at 0.00723 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.007234170101583,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 142,
+              "name": "Activity at 0.00914 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00914212968200445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 143,
+              "name": "Activity at 0.018 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0184065997600555,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 144,
+              "name": "Activity at 0.039 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0386148989200592,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 145,
+              "name": "Activity at 0.092 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0919867977499962,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 146,
+              "name": "Activity at 0.191 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.191376999020576,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 147,
+              "name": "Activity at 0.460 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.459571987390518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 148,
+              "name": "Activity at 0.910 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.90973299741745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 149,
+              "name": "Activity at 1.182 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.18163001537323,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 150,
+              "name": "Activity at 2.302 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.30150008201599,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 151,
+              "name": "Activity at 4.834 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.8339900970459,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 152,
+              "name": "Activity at 11.49 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 11.4937000274658,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 153,
+              "name": "Activity at 23.94 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 23.9433002471924,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 154,
+              "name": "Activity at 57.45 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.4469985961914,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 155,
+              "name": "Activity at 115.4 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 115.36799621582,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 156,
+              "name": "Activity at 193.5 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 193.45100402832,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 157,
+              "name": "Activity at 288.3 uM-Replicate_4",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 288.299987792969,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 158,
+              "name": "Phenotype-Replicate_5",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 159,
+              "name": "Potency-Replicate_5",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5
+            },
+            {
+              "tid": 160,
+              "name": "Efficacy-Replicate_5",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 161,
+              "name": "Analysis Comment-Replicate_5",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 162,
+              "name": "Activity_Score-Replicate_5",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 163,
+              "name": "Curve_Description-Replicate_5",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 164,
+              "name": "Fit_LogAC50-Replicate_5",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 165,
+              "name": "Fit_HillSlope-Replicate_5",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 166,
+              "name": "Fit_R2-Replicate_5",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 167,
+              "name": "Fit_InfiniteActivity-Replicate_5",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 168,
+              "name": "Fit_ZeroActivity-Replicate_5",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 169,
+              "name": "Fit_CurveClass-Replicate_5",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 170,
+              "name": "Excluded_Points-Replicate_5",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 171,
+              "name": "Max_Response-Replicate_5",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 172,
+              "name": "Activity at 0.0000073560 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.35599996914971e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 173,
+              "name": "Activity at 0.0000367800 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.67799984815065e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 174,
+              "name": "Activity at 0.0000735600 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.3559996963013e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 175,
+              "name": "Activity at 0.0001677464 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000167745994986035,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 176,
+              "name": "Activity at 0.0003678000 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000367800006642938,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 177,
+              "name": "Activity at 0.0007362988 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000736299029085785,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 178,
+              "name": "Activity at 0.00153 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00153299001976848,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 179,
+              "name": "Activity at 0.00368 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00367618002928793,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 180,
+              "name": "Activity at 0.00723 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.007234170101583,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 181,
+              "name": "Activity at 0.00914 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00914212968200445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 182,
+              "name": "Activity at 0.018 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0184065997600555,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 183,
+              "name": "Activity at 0.039 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0386148989200592,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 184,
+              "name": "Activity at 0.092 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0919867977499962,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 185,
+              "name": "Activity at 0.191 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.191376999020576,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 186,
+              "name": "Activity at 0.460 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.459571987390518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 187,
+              "name": "Activity at 0.910 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.90973299741745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 188,
+              "name": "Activity at 1.182 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.18163001537323,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 189,
+              "name": "Activity at 2.302 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.30150008201599,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 190,
+              "name": "Activity at 4.834 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.8339900970459,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 191,
+              "name": "Activity at 11.49 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 11.4937000274658,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 192,
+              "name": "Activity at 23.94 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 23.9433002471924,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 193,
+              "name": "Activity at 57.45 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 57.4469985961914,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 194,
+              "name": "Activity at 115.4 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 115.36799621582,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 195,
+              "name": "Activity at 193.5 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 193.45100402832,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 196,
+              "name": "Activity at 288.3 uM-Replicate_5",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 288.299987792969,
+                "unit": 5,
+                "dr_id": 1
+              }
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "",
+              "mol_id": {
+                "protein_accession": "ABI96208.1"
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot label 1",
+              "dn": "Concentration",
+              "rn": "Response"
+            }
+          ],
+          "project_category": 255,
+          "assay_group": [
+            "P450"
+          ]
+        }
+      }
+    }
+  ]
+}

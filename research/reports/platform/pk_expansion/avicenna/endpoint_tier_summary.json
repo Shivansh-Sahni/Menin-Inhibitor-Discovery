@@ -1,0 +1,28 @@
+{
+  "arithmetic": {
+    "pk_benchmark_rows": "TDC bioavailability 640 + half-life 667 + Vdss 1,130 = 2,437.",
+    "upstream_file_rows": "TDC 110,404 + NCATS 23,994 + OpenADMET 139,770 = 274,168; OpenADMET and cross-source overlap prevent a unique-observation interpretation."
+  },
+  "counts": {
+    "canonical_rows_admitted": 0,
+    "chembl_exact_pk_type_hit_distinct_molecules": 85441,
+    "chembl_exact_pk_type_hits_existing_source_reclassification_candidates": 330261,
+    "context_complete_genuine_systemic_pk_rows_acquired": 0,
+    "dailymed_candidate_tables": 26610,
+    "dailymed_normalized_pk_measurements": 0,
+    "dailymed_quantitative_pk_candidate_document_versions": 41960,
+    "dailymed_quantitative_pk_candidate_sections": 43162,
+    "dailymed_tier_A_machine_detected_unverified_sections": 29664,
+    "pkdb_official_outputs_reported_but_not_anonymously_acquired": 138411,
+    "published_systemic_pk_benchmark_rows_acquired_but_context_incomplete": 2437,
+    "training_labels_admitted": 0,
+    "upstream_adme_or_safety_physical_file_rows_not_deduplicated": 274168
+  },
+  "generated_at_utc": "2026-08-06T19:04:30Z",
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "tier_policy": {
+    "regulatory_evidence": "DailyMed candidate evidence is now versioned and section/table indexed, but remains product-level regulatory evidence until each numerical claim is normalized and human-reviewed.",
+    "systemic_pk": "CL, t1/2, AUC, Cmax, Tmax, Vd/Vdss, and F only when endpoint, units, species, route, matrix, dose, time basis, provenance, and molecule mapping are resolved.",
+    "upstream_adme": "Solubility, permeability, protein binding, CYP/transporter effects, metabolic stability, and in-vitro intrinsic clearance remain separate mechanistic endpoints."
+  }
+}

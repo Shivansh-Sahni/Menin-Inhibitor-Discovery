@@ -1,0 +1,27 @@
+{
+  "acquired_bytes": 7556983,
+  "acquired_md5": null,
+  "acquired_sha256": "dcd68218d72e6d1fbb87190b52ee8ceda21501b17cad4c6c27effd1a84eedd4b",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.bindingdb.org/rwd/bind/downloads/BindingDB_rsid_eaids_202608_tsv.zip",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "BindingDB_rsid_eaids_202608_tsv.zip",
+  "manifest_sha256": "c2dfb70c1b3fabbb2c80759d0b19d439fd9b113acbb4bb298c2c4823b6db9f28",
+  "resolved_url": "https://www.bindingdb.org/rwd/bind/downloads/BindingDB_rsid_eaids_202608_tsv.zip",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "content-length": "7556983",
+    "content-type": "application/zip",
+    "date": "Tue, 04 Aug 2026 18:21:18 GMT",
+    "etag": "W/\"7556983-1785562444356\"",
+    "last-modified": "Sat, 01 Aug 2026 05:34:04 GMT",
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:22Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "BindingDB_rsid_eaids_202608_tsv.zip",
+  "upstream_md5_when_published": null
+}

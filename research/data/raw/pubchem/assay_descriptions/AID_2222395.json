@@ -1,0 +1,91 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2222395,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL6093009"
+              }
+            }
+          },
+          "name": "Suppression of MEN1 gene transcription in human MV4-11 cells assessed as protein synthesis by measuring fold change at 50 ug/ml incubated for 48 hrs relative to control",
+          "description": [
+            "Title: Design and development of a series of 4-(piperazin-1-yl)pyrimidines as irreversible menin inhibitors.",
+            "",
+            "Abstract: The interaction between menin and MLL1 protein plays an important role in AML with MLL rearrangement and NPM1 mutation. Blocking the formation of menin-MLL complex can inhibit proliferation and induce differentiation in these cancer subtypes. In development of anticancer drugs, irreversible inhibitors are gaining spotlight as they may have better activities than the reversible analogs. Therefore, we designed and developed a novel series of covalent menin inhibitors. Among these compounds, 37 emerges as a selective and potent inhibitor of MLL fusion protein-expressing leukemic cells. The cellular study indicates 37 has a distinct mechanism of action, in both reducing menin protein levels and downregulating MEN1 transcription. This effect of 37 is not involved in proteasomal degradation, and may directly affect the synthesis of menin protein, which offers a significant advantage in addressing acquired resistance to menin inhibitors. Further study showed that compound 37 has prolonged anti-leukemic action and exhibits promising in vivo efficacy, making it a valuable probe for further menin-MLL interaction studies."
+          ],
+          "comment": [
+            "Journal: Eur J Med Chem",
+            "Year: 2024",
+            "Volume: 280",
+            "First Page: 116918",
+            "Last Page: 116918",
+            "DOI: 10.1016/j.ejmech.2024.116918"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 39366253
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL6093009"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            }
+          ],
+          "revision": 1,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 39366253"
+          ]
+        }
+      }
+    }
+  ]
+}

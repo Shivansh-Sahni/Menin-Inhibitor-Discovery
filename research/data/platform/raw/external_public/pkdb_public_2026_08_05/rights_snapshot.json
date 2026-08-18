@@ -1,0 +1,11 @@
+{
+  "api_license_pointer_source": "openapi.json#/info/license",
+  "canonical_admission_allowed": false,
+  "closed_licence_seen_in_public_access_probe": true,
+  "data_record_rights_status": "unresolved_requires_record_level_and_terms_review",
+  "document_sha256": "dabf55889a0f306f578b24dc0b30a341cc1d20944d3824c1349bb1ff7498296f",
+  "schema_version": "platform-pkdb-public-candidates/1.0",
+  "scope": "API metadata snapshot only",
+  "source_id": "pkdb_public_api_v1",
+  "terms_pointer_source": "openapi.json#/info/termsOfService"
+}

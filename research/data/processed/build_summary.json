@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "herg_activity": 41078,
+    "herg_compounds": 11549,
+    "menin_activity": 8176,
+    "menin_compounds": 2104,
+    "pk_admet": 204
+  },
+  "processed_schema_version": "2.0"
+}

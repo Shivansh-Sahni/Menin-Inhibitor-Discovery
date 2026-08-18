@@ -1,0 +1,15 @@
+{
+  "archive_file": "chembl_37_sqlite.tar.gz",
+  "archive_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "archive_size_bytes": 5764252857,
+  "calculated_property_policy": "preserved_unmodified_in_raw_archive; compound_properties, pchembl_value, and other calculated fields excluded only from platform activity export and canonical/model views",
+  "citation": "Mendez et al. ChEMBL: towards direct deposition of bioassay data. Nucleic Acids Research 2019; DOI 10.1093/nar/gky1075.",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "required_attribution": "Preserve ChEMBL identifiers and release number; cite DOI 10.1093/nar/gky1075.",
+  "schema_version": "platform-evidence-1.0.0",
+  "source_name": "ChEMBL",
+  "source_url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_sqlite.tar.gz",
+  "source_version": "ChEMBL_37",
+  "verification_status": "verified"
+}

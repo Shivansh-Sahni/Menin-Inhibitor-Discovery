@@ -1,0 +1,104 @@
+{
+  "document_sha256": "6cfbac9535169e1c12af12169aa7eec85bc69159d3c16a9bba221b7d273586af",
+  "interpretation": "overlap quantifies shared identifiers only; it does not justify endpoint pooling or outcome aggregation",
+  "join_semantics": "exact PubChem SID or CID string identity on frozen assay exports",
+  "pairwise": [
+    {
+      "active_cid": {
+        "a_count": 607,
+        "b_count": 1267,
+        "intersection_count": 13,
+        "jaccard": 0.006985491671144546,
+        "union_count": 1861
+      },
+      "active_sid": {
+        "a_count": 664,
+        "b_count": 1267,
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "union_count": 1931
+      },
+      "aid_a": 588834,
+      "aid_b": 720551,
+      "cid": {
+        "a_count": 4743,
+        "b_count": 343666,
+        "intersection_count": 1729,
+        "jaccard": 0.004987308180454598,
+        "union_count": 346680
+      },
+      "sid": {
+        "a_count": 5381,
+        "b_count": 343909,
+        "intersection_count": 1,
+        "jaccard": 2.8629587533532404e-06,
+        "union_count": 349289
+      }
+    },
+    {
+      "active_cid": {
+        "a_count": 607,
+        "b_count": 3260,
+        "intersection_count": 33,
+        "jaccard": 0.008607198748043818,
+        "union_count": 3834
+      },
+      "active_sid": {
+        "a_count": 664,
+        "b_count": 3260,
+        "intersection_count": 0,
+        "jaccard": 0.0,
+        "union_count": 3924
+      },
+      "aid_a": 588834,
+      "aid_b": 720553,
+      "cid": {
+        "a_count": 4743,
+        "b_count": 342084,
+        "intersection_count": 1726,
+        "jaccard": 0.00500143436269382,
+        "union_count": 345101
+      },
+      "sid": {
+        "a_count": 5381,
+        "b_count": 342311,
+        "intersection_count": 1,
+        "jaccard": 2.876117011944514e-06,
+        "union_count": 347691
+      }
+    },
+    {
+      "active_cid": {
+        "a_count": 1267,
+        "b_count": 3260,
+        "intersection_count": 614,
+        "jaccard": 0.1569128545872732,
+        "union_count": 3913
+      },
+      "active_sid": {
+        "a_count": 1267,
+        "b_count": 3260,
+        "intersection_count": 614,
+        "jaccard": 0.1569128545872732,
+        "union_count": 3913
+      },
+      "aid_a": 720551,
+      "aid_b": 720553,
+      "cid": {
+        "a_count": 343666,
+        "b_count": 342084,
+        "intersection_count": 338618,
+        "jaccard": 0.9754733069840867,
+        "union_count": 347132
+      },
+      "sid": {
+        "a_count": 343909,
+        "b_count": 342311,
+        "intersection_count": 338845,
+        "jaccard": 0.9754444044620367,
+        "union_count": 347375
+      }
+    }
+  ],
+  "schema_version": "pubchem-herg-avicenna/1.0"
+}

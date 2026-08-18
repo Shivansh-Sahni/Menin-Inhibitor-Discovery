@@ -1,0 +1,195 @@
+schema_version: herg-first-paper-plan/1.1
+status: configured_not_substantively_trained
+random_seeds: [20260807, 20260817, 20260827, 20260907, 20260917]
+
+scope:
+  protein: human KCNH2/hERG
+  uniprot: Q12809
+  target_variant_policy:
+    confirmed_wild_type: include
+    wild_type_or_unspecified: include_as_separate_scope
+    mutant_or_variant: exclude_fail_closed
+  clinical_qt_is_direct_herg_label: false
+
+inputs:
+  master_release: research/data/platform/processed/herg_hierarchy/v1_3_master
+  quality_tasks: research/data/platform/processed/herg_hierarchy/v1_2_quality_tasks
+  modality_qt: research/data/platform/processed/herg_hierarchy/v1_2_modality_qt
+  split_backbone: research/data/platform/processed/herg_hierarchy/v1_model_ready/structure_consensus_binary_scaffold_split.parquet
+  quality_baselines: research/data/platform/processed/herg_paper/quality_baselines_v1
+  pre_hpc_assets_manifest: research/data/platform/processed/herg_hierarchy/v1_4_pre_hpc_assets/herg_pre_hpc_assets_manifest.json
+  candidate_adjudication_manifest: research/data/platform/processed/herg_hierarchy/v1_5_candidate_adjudication/herg_candidate_adjudication_manifest.json
+  benchmark_v1_5_manifest: research/data/platform/processed/herg_hierarchy/v1_5_benchmark_freeze/benchmark_freeze_v1_5_manifest.json
+  wt_reference_manifest: research/data/platform/processed/herg_hierarchy/v1_5_wt_reference/wt_reference_manifest.json
+  mmp_analysis_manifest: research/data/platform/processed/herg_hierarchy/v1_5_mmp_analysis/mmp_analysis_manifest.json
+  qt_exposure_manifest: research/data/platform/processed/herg_hierarchy/v1_5_qt_exposure_prep/qt_exposure_prep_manifest.json
+  hpc_preflight_manifest: research/data/platform/processed/herg_hierarchy/v1_5_hpc_preflight/hpc_preflight_manifest.json
+  training_surfaces_v1_6_manifest: research/data/platform/processed/herg_hierarchy/v1_6_training_surfaces/herg_training_surfaces_manifest.json
+  feature_contract: research/reports/platform/herg_paper/pre_hpc_contracts/future_feature_contract.json
+  smoke_test_contract: research/reports/platform/herg_paper/pre_hpc_contracts/smoke_test_spec.json
+
+tasks:
+  Q0:
+    artifact: q0_weak_fixed_dose_binary.parquet
+    problem: imbalanced_binary_classification
+    semantic_target: automated_FluxOR_fixed_dose_activity_call
+    primary_metrics: [average_precision, mcc, sensitivity_at_fixed_fpr, brier, ece]
+  Q1:
+    artifact: q1_quantitative_pic50.parquet
+    problem: quantitative_regression_plus_ordinal_zone
+    semantic_target: exact_reported_or_eligible_converted_pic50
+    primary_metrics: [mae, rmse, spearman, r2, within_threefold]
+  Q2:
+    artifact: q2_functional_assay_aware.parquet
+    problem: endpoint_and_censoring_aware_multitask
+    semantic_target: functional_native_endpoint_with_IC50_separate
+    primary_metrics: [censored_log_likelihood, mae, rmse, spearman, interval_coverage]
+  C0:
+    use: context_and_subgroup_evaluation_only
+    direct_training_label: false
+  C1:
+    use: heldout_QT_translation_context_only
+    direct_training_label: false
+
+split_contract:
+  official_strategy: fixed_whole_scaffold_with_structure_entity_override
+  source_declared_splits_are_provenance_only: true
+  exact_structure_overlap_allowed: false
+  scaffold_group_overlap_allowed: false
+  test_used_for_fitting_thresholding_or_checkpoint_selection: false
+  materialized_pre_hpc_challenges:
+    - Q2_ASSAY_GROUP_HOLDOUT
+    - Q2_DOCUMENT_GROUP_HOLDOUT
+    - Q2_DOCUMENT_YEAR_TEMPORAL_COMPLETE_CASE
+    - Q2_CHEMBL37_EXACT_TEMPORAL_COMPLETE_CASE
+    - Q2_AUTOMATED_PATCH_MODALITY_HOLDOUT
+    - Q2_LOW_SIMILARITY_060_SCAFFOLD
+    - Q2_NO_NEAR_DUPLICATE_080_SCAFFOLD
+  blocked_challenges:
+    - Q1_CROSS_SOURCE_HOLDOUT
+    - Q2_MANUAL_VS_AUTOMATED_MODALITY_HOLDOUT
+    - Q2_SOURCE_FAMILY_HOLDOUT
+    - LOW_SIMILARITY_EXTERNAL_HOLDOUT
+    - STRICT_ASSAY_DATE_TEMPORAL_HOLDOUT
+    - PROSPECTIVE_MANUAL_PATCH_GOLD
+
+feature_families:
+  fundamental_2d:
+    enabled: true
+    fit_on_training_only: true
+  morgan_fingerprints:
+    enabled: true
+    radius: 2
+    bit_sizes: [2048]
+  graph_and_smiles_pretraining:
+    enabled: false
+    deferred_reason: substantive_training_or_HPC
+  docking_and_channel_structure:
+    enabled: false
+    deferred_reason: HPC_and_pose_protocol_validation
+analysis_only_chemistry:
+  structural_alerts:
+    enabled: true
+    production_model_input_feature_family: false
+    role: interpretation_and_error_analysis_not_causal_truth
+  matched_molecular_pairs:
+    enabled: true
+    production_model_input_feature_family: false
+    effect_estimation_partition: train_only
+    validation_test_pair_definitions_label_free: true
+
+observation_assay_covariates:
+    enabled: true
+    stored_outside_structure_feature_store: true
+    joined_after_split_assignment: true
+    preprocessing_fit_on_training_only: true
+    fields:
+      - quality_level
+      - endpoint
+      - relation
+      - modality
+      - automation
+      - dose_design
+      - source
+      - reported_host_system
+      - reported_voltage_protocol
+      - reported_temperature
+      - reported_time_or_incubation
+      - reported_recording_configuration
+      - reported_platform
+    unresolved_values_are_missing_indicators_not_imputations: true
+
+pre_hpc_release_contract:
+  feature_contract_version: 1.1.0
+  smoke_spec_version: 1.1.0
+  candidate_evidence_is_gold_standard: false
+  candidate_human_adjudication_completed: false
+  mmp_analysis_is_training_input: false
+  qt_exposure_values_adjudicated: false
+  qt_exposure_margin_computed: false
+  qt_or_clinical_context_used_as_herg_label: false
+  production_model_input_feature_store_generated: false
+  smoke_test_executed: false
+  hpc_preflight_blocking_gates_passed: 2
+  hpc_preflight_blocking_gates_total: 7
+
+experiment_ladder:
+  - train_mean_or_prevalence
+  - regularized_linear_morgan
+  - random_forest_and_xgboost_fixed_budget
+  - similarity_retrieval
+  - d_mpnn_and_attentivefp_equal_budget
+  - representation_fusion
+  - quality_specific_and_shared_encoder_heads
+  - modality_transfer_and_leave_one_method_out
+  - physics_increment_ablation
+  - exposure_aware_qt_translation
+
+required_ablations:
+  - Q0_only_vs_Q1_only_vs_Q2_only
+  - Q0_pretrain_then_Q1_or_Q2
+  - pooled_target_vs_quality_specific_heads
+  - molecule_only_vs_molecule_plus_assay_metadata
+  - fundamental_descriptors_vs_learned_representation_vs_combined
+  - automatic_vs_manual_vs_unresolved_with_matched_structure_analysis
+  - source_balanced_vs_natural_prevalence
+
+comparison_policy:
+  matched_data_required: true
+  identical_test_partitions_required: true
+  identical_tuning_budget_required: true
+  raw_predictions_and_coverage_required: true
+  headline_metric_copying_is_not_comparison: true
+  initial_adapters:
+    - MaxQSARing
+    - Transformer_Morgan
+    - XGB_ISE
+    - HERGAI
+    - hERGBoost
+    - hERGAT
+    - CardioSafe_v1_1
+
+uncertainty_and_statistics:
+  bootstrap_unit: parent_structure_or_scaffold_source_cluster
+  bootstrap_iterations: 5000
+  confidence_level: 0.95
+  multiple_comparison_control: benjamini_hochberg_for_exploratory_families
+  paired_model_comparisons: true
+  subgroup_minimum_n_for_point_claim: 100
+  smaller_subgroups: descriptive_with_uncertainty_only
+
+superiority_gate:
+  current_predictive_superiority_established: false
+  established_now: data_and_experimental_design_advantage
+  claim_must_name_one_frozen_challenge: true
+  require_primary_metric_paired_interval_excludes_zero: true
+  require_noninferior_calibration: true
+  require_no_material_recall_or_coverage_loss: true
+  require_consistent_seed_direction: true
+  require_applicability_domain_reporting: true
+
+execution:
+  substantive_training_authorized: false
+  hpc_enabled: false
+  lightweight_cpu_diagnostics_allowed: true
+  large_model_training_started: false

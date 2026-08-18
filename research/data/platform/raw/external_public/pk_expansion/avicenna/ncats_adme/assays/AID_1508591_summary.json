@@ -1,0 +1,61 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 1508591,
+        "SourceName": "NCGC",
+        "SourceID": "ADME-RLM1",
+        "Name": "NCATS Rat Liver Microsome Stability Profiling",
+        "Description": [
+          "Assay submitter (PI): Xin Xu Ph.D.",
+          "NIH Center for Advancing Translational Sciences",
+          "9800 Medical Center Dr, Rockville MD, 20850.",
+          "",
+          "Hepatic metabolic stability is a key pharmacokinetic parameter in drug discovery. Metabolic stability is usually assessed in microsomal fractions and only the best compounds progress in the drug discovery process. A high-throughput single time point substrate depletion method in rat liver microsomes (RLM) is employed at the National Center for Advancing Translational Sciences (NCATS) as a Tier 1 assay. Between 2012 and 2020, RLM stability (in vitro half-life) data was generated for ~24,000 compounds from more than 250 NCATS projects that cover a wide range of pharmacological targets and cellular pathways. In this study, computational models were developed for predicting RLM stability using four different machine learning methods (including neural networks) and molecular descriptors. In addition, a retrospective time-split validation was performed, and local models were built for projects that performed poorly with the global models. Furthermore, sub-structural analysis revealed inherent medicinal chemistry knowledge potentially useful to chemists in the pursuit of synthesizing metabolically stable compounds. Data for ~2500 compounds along with the global prediction models are publicly available. This is to the best of our knowledge, the first publicly available RLM prediction model built using high-quality data generated in a single lab."
+        ],
+        "Protocol": [
+          "Materials:",
+          "Dimethyl sulfoxide (DMSO, UPLC/MS grade), albendazole, buspirone, propranolol, loperamide, diclofenac, carbamazepine, antipyrine, potassium phosphate monobasic, and potassium phosphate dibasic were purchased from Sigma-Aldrich (St. Louis, MO). Acetonitrile (ACN, UPLC/MS grade) was purchased from Fisher Scientific (Hampton, NH). Gentest rat (Sprague-Dawley) liver microsomes (male, pooled, 20 mg/mL, Catalog #: 452501), Gentest 3P NADPH Regenerating Solution A (Catalog #: 451220) and B (Catalog #: 451200), Axygen reservoirs (low-profile, Catalog #:RES-SW384-LP; high-profile, Catalog #: RES-SW384-HP) for holding reagents, and CoStar assay block plates (Catalog #: 3959) for microsomal incubation were purchased from Corning Inc. (Corning, NY). LC-MS/MS analysis plates (Catalog #: 186002643) were purchased from Waters Inc. (Milford, MA).  ",
+          "",
+          "Microsomal Stability Assay:",
+          "Microsomal stability of the test articles was determined in a high-throughput format using the substrate depletion method (Di et al., 2004). It has been previously shown that in vitro intrinsic clearance does not vary significantly between the three most used rat strains (Richmond et al., 2010). Sprague Dawley was chosen because it is the most common strain used in drug discovery.  Experiments were performed using a Freedom Evo 200 automated platform with a 96-channel (MCA96) head with EVOware software (version 3.2) (Tecan Inc., Mannedorf, Switzerland). The system also includes an Inheco heating block and cooling block (Inheco, Munich, Germany). Six standard controls were tested in each run: buspirone, propranolol, diclofenac, loperamide, carbamazepine and antipyrine. The assay incubation system consisted of 0.5 mg/mL of rat microsomal protein, 1.0 muM drug concentration, and NADPH regeneration system (containing 0.650 mM NADP+, 1.65 mM glucose 6-phosphate, 1.65 mM MgCl2, and 0.2 unit/mL G6PDH) in 100 mM phosphate buffer at pH 7.4. The incubation was carried out at 37  degrees C for 15 min. The reaction was quenched by adding 555 muL of acetonitrile containing 0.28 muM albendazole, an internal standard. After a 20-minute centrifugation at 3000 rpm at 4 degrees C, 30 muL of the supernatant was transferred to an analysis plate and was diluted five-fold using 1:2 v/v acetonitrile/water. Sample quantification and analysis was performed using a previously described method with minor modifications (Shah et al., 2016). t1/2 values were capped at 30 minutes since for a 15-minute assay, the data cannot be extrapolated beyond 30 minutes (Di et al., 2004). Compounds are classified as unstable (t1/2 < 30 min) or stable (t1/2 > 30 min). ",
+          "",
+          "Reference: ",
+          "1: Di, L. et al. Experimental design on single-time-point high-throughput microsomal stability assay. J Pharm Sci 93, 1537-1544 (2004).",
+          "2: Richmond, W., Wogan, M., Isbell, J. & Gordon, W.P. Interstrain differences of in vitro metabolic stability and impact on early drug discovery. J Pharm Sci 99, 4463-4468 (2010).",
+          "3: Shah, P. et al. An Automated High-Throughput Metabolic Stability Assay Using an Integrated High-Resolution Accurate Mass Method and Automated Data Analysis Software. Drug Metab Dispos 44, 1653-1661 (2016)."
+        ],
+        "Comment": [
+          "Disclaimer:",
+          "Although all reasonable efforts have been made to ensure the accuracy and reliability of the data, caution should be exercised when interpreting the results as artifacts are possible from nonspecific effects such as assay signal interference. The interpretations presented here are based on the NCATS analysis methods.",
+          "",
+          "Compound Ranking:",
+          "1. Phenotype compound classification is based on the half-life observed. Compound is \"stable\" if half-life (t1/2) is more than 30 minutes (class = 0); \"unstable\" if t1/2 is less than 30 minutes (class = 1). For this assay, stable compounds are ranked higher than compounds that are unstable. ",
+          "2. PUBCHEM_ACTIVITY_OUTCOME corresponds to the phenotype observed. For all compounds with phenotype \"stable\", PUBCHEM_ACTIVITY_OUTCOME is \"active\". For all compounds with phenotype \"unstable\", PUBCHEM_ACTIVITY_OUTCOME is \"inactive\"."
+        ],
+        "NumberOfTIDs": 4,
+        "HasScore": false,
+        "Method": "screening",
+        "Version": 2,
+        "Revision": 1,
+        "LastDataChange": {
+          "Year": 2023,
+          "Month": 1,
+          "Day": 18
+        },
+        "SIDCountAll": 2531,
+        "SIDCountActive": 754,
+        "SIDCountInactive": 1777,
+        "SIDCountInconclusive": 0,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 2529,
+        "CIDCountActive": 754,
+        "CIDCountInactive": 1776,
+        "CIDCountInconclusive": 0,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

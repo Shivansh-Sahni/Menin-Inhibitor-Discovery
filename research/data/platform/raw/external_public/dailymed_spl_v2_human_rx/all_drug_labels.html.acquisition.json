@@ -1,0 +1,25 @@
+{
+  "acquired_bytes": 103523,
+  "acquired_md5": null,
+  "acquired_sha256": "082b0648c14cd2738a15dc54a2dcb43492e0662b2a912cbf2629923e807b4d88",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "all_drug_labels.html",
+  "manifest_sha256": "b90f4ce2bd9ed60f523cc39c5397efaed08c745a9a416699ef10354576d18ca5",
+  "resolved_url": "https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm",
+  "response_headers": {
+    "content-length": "103523",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 04 Aug 2026 18:34:28 GMT",
+    "server": "nginx + Phusion Passenger(R)",
+    "vary": "Origin"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:34:31Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "all_drug_labels.html",
+  "upstream_md5_when_published": null
+}

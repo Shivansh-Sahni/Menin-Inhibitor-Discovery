@@ -1,0 +1,17 @@
+{
+  "assay_family": "pk_adme",
+  "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+  "endpoint": "Ki",
+  "evidence_domain": "binding",
+  "label_kind": "continuous_exact",
+  "label_unit": "nM",
+  "observation_kind": "experimental_summary",
+  "resolved_task_family": "regression",
+  "schema_version": "task_semantics_decision_v1",
+  "semantic_scan_complete": true,
+  "semantic_scan_record_count": 15,
+  "substantive_training_started": false,
+  "task_eligibility_mode": "default",
+  "task_id": "TASK-5D547122E1CE24483AB2BE65",
+  "task_type": "default__binding__ki__pk_adme__nm__continuous_exact"
+}

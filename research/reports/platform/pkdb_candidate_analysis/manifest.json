@@ -1,0 +1,38 @@
+{
+  "artifact_count": 5,
+  "artifacts": [
+    {
+      "bytes": 1144,
+      "path": "interim/admission_decision.json",
+      "sha256": "186e1c25f305769540118720d62a2357037e24bea7318c5780b557070563ae70"
+    },
+    {
+      "bytes": 1043,
+      "path": "interim/context_availability.json",
+      "sha256": "cf68a0a5531193c6bc5f9f0a52f555b76e4498bb646c6c35d1872327fe6aef78"
+    },
+    {
+      "bytes": 4823,
+      "path": "interim/endpoint_inventory.json",
+      "sha256": "f19b1effe1e3b44a83dc528146ae114280781043595d7b055430b9655c6e0361"
+    },
+    {
+      "bytes": 1951,
+      "path": "report/report.json",
+      "sha256": "29b5340bc3b6f7bc6bdbc3c376a2d306db14ce05d43e71439625729ee049e262"
+    },
+    {
+      "bytes": 1594,
+      "path": "report/summary.md",
+      "sha256": "c1d99393ccc0ace023ce42cddd7ee245e8a2f5ffa6085cb7a3d860e18d32559d"
+    }
+  ],
+  "canonical_observation_rows": 0,
+  "code_sha256": "3765a342bc4bf5815424016c0fa1589cb9e20a8f29f4b0070b1cfea0ffaa1e1a",
+  "document_sha256": "b6f3b34e09ffd6bd216e0a83c1d33a852e6d5ba0a9979a6537ff8547ffffe63b",
+  "input_manifest_file_sha256": "9d15ff259dd55e2734b924a6fe52c5d84291606c49f43ec85fdad94e708a630c",
+  "normalizer_version": "platform_pkdb_candidates/normalize-1.1",
+  "schema_version": "platform-pkdb-public-candidates/1.0",
+  "source_id": "pkdb_public_api_v1",
+  "training_label_rows": 0
+}

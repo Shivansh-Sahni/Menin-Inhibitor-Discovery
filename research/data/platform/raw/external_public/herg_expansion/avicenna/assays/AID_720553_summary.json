@@ -1,0 +1,58 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 720553,
+        "SourceName": "NCGC",
+        "SourceID": "herg-kcnh2-3.1-p2-mutant",
+        "Name": "qHTS for Inhibitors of KCHN2 3.1: Mutant qHTS",
+        "Description": [
+          "",
+          "The recently identified KCNH2 3.1 potassium channel, a brain selective isoform of the KCNH2 (hERG1) potassium channel, has been shown to be increased in the brains of patients with schizophrenia, a genetic risk factor for the emergence of schizophrenia, and to affect neuronal cell activity and brain physiology.  Many antipsychotic drugs that inhibit the neurotransmitter dopamine also bind to hERG1 channel which might help explain their antipsychotic activity but also produces cardiac side effects.  The discovery of the novel KCNH2 3.1 isoform offers a potential new target for the development of antipsychotic drugs without cardiac side effects. This proposal will use a high throughput thallium flux assay developed for KCNH2 to screen compounds that modulate the  activity of KCNH2 3.1.  The wild type KCNH2 channel will also be screened in parallel to help define the selective modulators of this KCNH2 3.1 potassium channel.  The resulting compounds will be validated in electrophysiology experiments.  The availability of animal models will allow future testing in vivo for effects on memory and other aspects of animal physiology linked with psychosis.",
+          "",
+          "NIH Chemical Genomics Center [NCGC]",
+          "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+          "",
+          "MLPCN Grant: MH096539",
+          "Assay Submitter (PI): James Barrow, Johns Hopkins University, Lieber Institute for Brain Development "
+        ],
+        "Protocol": [
+          "U2OS cells were resuspended in cell media containing 10% fetal calf serum (FCS) at a concentration of 2 million cells / mL. The solution was treated with the mutant (3.1) virus at 1.77 x 10^8 / mL and allowed to incubate at room temperature in the dark. After 4 hours of incubation, DMEM + 10% fetal bovine serum (FBS) was added to the cell solution. Three microliter was then dispensed into a 1536 tissue culture treated black assay plates which were incubated overnight at 37 C.  Two microliter of loading buffer (HBSS + HEPES + Red40 dye quencher + FluxOr dye) was added and the assay plates were incubated for 45 min at room temperature in the dark. Twenty-three nanoliter of test compounds and positive control Haloperidol (46 uM final concentration) were added  to  the assay plate followed by a kinetic read (180 sec) using the Hamamatsu FDSS reader. A stimulation buffer was added to the plate and the second kinetic read (2 min) was obtained. The rate constant was calculated from the kinetic reads and normalized to the positive and negative DMSO controls. "
+        ],
+        "Comment": [
+          "Compounds that had a max activity < -70% are considered \"active\" and are assigned a score of 90. ",
+          "Compounds that had a max activity between > -70% and < -50% are considered \"inconclusive\" and are assigned a score of 50.",
+          "Compounds that had a max activity > -50% are considered \"inactive\" and are assigned a score of 10."
+        ],
+        "NumberOfTIDs": 17,
+        "HasScore": true,
+        "Method": "confirmatory",
+        "Target": [
+          {
+            "Accession": "AEL63844",
+            "Name": "potassium voltage-gated channel subfamily H member 2 isoform a, partial"
+          }
+        ],
+        "Version": 1,
+        "Revision": 2,
+        "LastDataChange": {
+          "Year": 2013,
+          "Month": 7,
+          "Day": 31
+        },
+        "SIDCountAll": 342311,
+        "SIDCountActive": 3260,
+        "SIDCountInactive": 336265,
+        "SIDCountInconclusive": 2786,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 342084,
+        "CIDCountActive": 3260,
+        "CIDCountInactive": 336043,
+        "CIDCountInconclusive": 2785,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

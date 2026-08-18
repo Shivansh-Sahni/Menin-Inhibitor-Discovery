@@ -1,0 +1,61 @@
+{
+  "canonical_rows_admitted": 0,
+  "manifest_sha256": "441e07342bef68b031b4d8115b1ae1936bc44f1cc60ff0d062bf5bdb94841f9e",
+  "model_labels_admitted": 0,
+  "report_type": "external_public_acquisition_summary",
+  "schema_version": "platform-external-acquisition/1.0",
+  "source_count": 5,
+  "sources": [
+    {
+      "canonical_rows_admitted": 0,
+      "exact_physical_bytes": 44280360,
+      "exact_physical_file_count": 25,
+      "manifest_sha256": "5a7425f680e6820ea665212e051bd11a2ece2e03d916534456640bdd67297406",
+      "model_labels_admitted": 0,
+      "release_id": "202608",
+      "snapshot_status": "complete_raw_origin_mixture_detected_no_rows_admitted",
+      "source_id": "bindingdb_curated_202608"
+    },
+    {
+      "canonical_rows_admitted": 0,
+      "exact_physical_bytes": 469081796,
+      "exact_physical_file_count": 488,
+      "manifest_sha256": "5b33bcc2ae99fd0bae32e79a8ec4706555436441d7439476ddfdccafbda2d48c",
+      "model_labels_admitted": 0,
+      "release_id": "api-2.0.5",
+      "snapshot_status": "complete_broad_drug_and_heuristic_cardiac_safety_cohorts",
+      "source_id": "clinicaltrials_gov_v2"
+    },
+    {
+      "canonical_rows_admitted": 0,
+      "exact_physical_bytes": 17788919602,
+      "exact_physical_file_count": 26,
+      "manifest_sha256": "d29a97bb83d39a6117c9c8d22a577eba8e9adf69b35291d93a02e3a4541fcb65",
+      "model_labels_admitted": 0,
+      "release_id": "human-rx-full-2026-08-03",
+      "snapshot_status": "complete_raw_archives_crc_and_membership_verified",
+      "source_id": "dailymed_spl_v2_human_rx"
+    },
+    {
+      "canonical_rows_admitted": 0,
+      "exact_physical_bytes": 6228028,
+      "exact_physical_file_count": 7,
+      "manifest_sha256": "d995f3309c5665fea9f6b4d74d64989b0ce20f3266fb1b802a3695a21c6c74dd",
+      "model_labels_admitted": 0,
+      "release_id": "datdaf20260804",
+      "snapshot_status": "acquired_parse_and_relational_audited_with_source_anomalies",
+      "source_id": "drugs_at_fda_bulk"
+    },
+    {
+      "canonical_rows_admitted": 0,
+      "exact_physical_bytes": 686337253,
+      "exact_physical_file_count": 307,
+      "manifest_sha256": "d4000c69e3c51ff1fbd7b68b0c32e78274fdbbdac40b6b1938f462fef816017a",
+      "model_labels_admitted": 0,
+      "release_id": "2026_02",
+      "snapshot_status": "complete_with_explicit_quarantine",
+      "source_id": "uniprotkb_targeted_2026_02"
+    }
+  ],
+  "substantive_training_started": false
+}

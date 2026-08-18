@@ -1,0 +1,50 @@
+{
+  "diagnostic_config": {
+    "binary_label_mapping": [],
+    "fingerprint_bits": 2048,
+    "fingerprint_radius": 2,
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "seed": 20260804
+  },
+  "diagnostic_config_sha256": "960a20e403c02ea6ef7e4147cddddd71534a1b4f0b833a7ca5c7057fd2f36f35",
+  "fingerprint": {
+    "backend": "rdkit_morgan",
+    "bits": 2048,
+    "radius": 2
+  },
+  "schema_version": "capped_diagnostic_feature_config_v1",
+  "selection": {
+    "algorithm": "lowest_full_256_bit_seeded_sha256_record_id",
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "rank_bits": 256,
+    "seed": 20260804,
+    "selected_train_examples": 93,
+    "selected_validation_examples": 14
+  },
+  "substantive_training_started": false,
+  "target": {
+    "binary_label_mapping": {
+      "0": 0,
+      "1": 1
+    },
+    "label_encoding": "explicit_numeric_identity_0_1",
+    "task_family": "classification"
+  },
+  "task_semantics": {
+    "assay_family": "herg_functional",
+    "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+    "endpoint": "IC50",
+    "evidence_domain": "herg",
+    "label_kind": "categorical",
+    "label_unit": "class",
+    "observation_kind": "experimental_summary",
+    "resolved_task_family": "classification",
+    "semantic_scan_complete": true,
+    "semantic_scan_record_count": 120,
+    "task_id": "TASK-9EF0A903755F8DBA39DDDDC2",
+    "task_type": "default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm"
+  },
+  "test_partition_opened": false
+}

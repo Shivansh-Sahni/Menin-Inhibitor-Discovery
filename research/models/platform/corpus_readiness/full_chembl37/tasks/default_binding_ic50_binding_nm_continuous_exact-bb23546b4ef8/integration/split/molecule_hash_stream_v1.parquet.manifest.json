@@ -1,0 +1,143 @@
+{
+  "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+  "bounded_memory": {
+    "configured_batch_rows": 50000,
+    "maximum_observed_batch_rows": 50000,
+    "maximum_observed_input_pandas_deep_bytes": 168565509,
+    "record_id_uniqueness_state": "temporary_sqlite_on_disk"
+  },
+  "claim_readiness": "not_claim_ready_until_separate_cross_partition_near_duplicate_audit_is_complete_and_accepted",
+  "config": {
+    "allow_derived_labels": false,
+    "chemical_cluster_bits": 1024,
+    "chemical_cluster_count": null,
+    "date_column": "document_year",
+    "derived_label_lineage_column": "label_lineage_digest",
+    "intended_use": "new molecule within the observed public task domain at platform scale",
+    "label_column": "label_value",
+    "molecule_id_column": "molecule_id",
+    "name": "molecule_hash_stream_v1",
+    "near_duplicate_max_dense_bytes": 536870912,
+    "near_duplicate_max_pair_comparisons": 20000000,
+    "near_duplicate_max_protein_pair_comparisons": 5000000,
+    "near_duplicate_sequence_jaccard": 0.8,
+    "near_duplicate_tanimoto": 0.8,
+    "protein_id_column": "protein_id",
+    "record_id_column": "observation_id",
+    "seed": 20260804,
+    "sequence_kmer_size": 3,
+    "smiles_column": "standardized_smiles",
+    "source_id_column": "source_id",
+    "strategy": "molecule_grouped",
+    "target_id_column": "canonical_target_id",
+    "task_type": "regression",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+  "exact_group_exclusion": "guaranteed_by_deterministic_group_to_partition_function",
+  "fraction_policy": "approximate_under_stable_group_hash_not_greedy_or_stratified",
+  "group_method_row_counts": {
+    "stable_sha256_group_hash": 1107075
+  },
+  "manifest_path": "molecule_hash_stream_v1.parquet",
+  "manifest_sha256": "68d84b0773f83d799e72a7b2012f1c2e14fa4d67d12c3d7eb48d1207cb233627",
+  "near_duplicate_audit": "separate_required_not_implied_by_group_hash",
+  "observation_kind_counts": {
+    "experimental_summary": 1107075
+  },
+  "partition_counts": {
+    "test": 163912,
+    "train": 776752,
+    "validation": 166411
+  },
+  "record_count": 1107075,
+  "record_id_uniqueness": "complete_disk_backed_primary_key_audit",
+  "row_order_binding": "manifest source_row_index exactly matches source Parquet row order across the deterministically sorted source part contract",
+  "schema_version": "stream_hash_group_split_v1",
+  "source_dataset": {
+    "dataset_sha256": "3b053e5fcea5d678d09389e2f2f06c5eef9d34f157f34f7c442fe7d0d0ce0213",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00000.parquet",
+        "rows": 220,
+        "sha256": "5e4d1bf4f4464decbf414f8bb8a08dc5f1fb424d690dcc7bcc9df6ed38018469"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00012.parquet",
+        "rows": 122266,
+        "sha256": "da599d0309a85067e434ab00ff50963a10d75073605293092fb7a9a997f0d257"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00013.parquet",
+        "rows": 108698,
+        "sha256": "91f74c757d3680fe353aeecc7e840688f850d2ce632a4f47cce3cea663146a30"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00014.parquet",
+        "rows": 68318,
+        "sha256": "ce9b4840ece9966ef6a8e0594262f827b0607488787430343471a66216a0752d"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00015.parquet",
+        "rows": 98445,
+        "sha256": "21f23ab09273a68c583910c2845cc1ab0aab93a9aeaf5e7b814e56a10ae4a006"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00016.parquet",
+        "rows": 130871,
+        "sha256": "e43f6cc6e4c3ebf296cc6f3707a9c914b61388164acf23de1919f2c7c12dd5fb"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00017.parquet",
+        "rows": 112310,
+        "sha256": "2abbfea7e7f63f53713404410c859cb938f780e22147921716eea52781056a17"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00018.parquet",
+        "rows": 105124,
+        "sha256": "fb11aa22720aef9dfbcf86ec2d1725a8f0c939a117664a140cd30523d06e105a"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00019.parquet",
+        "rows": 108609,
+        "sha256": "2afc37c37f5235df7b1b5cb18633aa9306fb9c6d5942046f7171a8aa2648e594"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00020.parquet",
+        "rows": 95536,
+        "sha256": "a8adf41c6df92aa803d9589431b87766effda51a43f98b253aa6b1900968ec24"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00021.parquet",
+        "rows": 74053,
+        "sha256": "5e2c957399a521e14547d055729473860d8c99bd000fd723e66c35e0772e27d3"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ic50_binding_nm_continuous_exact/part-00022.parquet",
+        "rows": 82625,
+        "sha256": "6827f79179a6ae9cb5dfc25a1610280f90c9d30be9386242697adc16c0bb6616"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 1107075
+  },
+  "source_dataset_manifest_path": "../../../../../../../../data/platform/canonical/full_chembl37/build_manifest.json",
+  "source_dataset_sha256": "3b053e5fcea5d678d09389e2f2f06c5eef9d34f157f34f7c442fe7d0d0ce0213",
+  "source_task_path": "../../../../../../../../data/platform/canonical/full_chembl37/tasks/default/default_binding_ic50_binding_nm_continuous_exact",
+  "split_name": "molecule_hash_stream_v1",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "task_signature": {
+    "assay_family": "binding",
+    "endpoint": "IC50",
+    "evidence_domain": "binding",
+    "label_kind": "continuous_exact",
+    "label_unit": "nM",
+    "task_id": "TASK-8985AC2B746DC2CF410D1ACE",
+    "task_type": "default__binding__ic50__binding__nm__continuous_exact"
+  }
+}

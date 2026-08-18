@@ -1,0 +1,9 @@
+table,severity,code,scope,finding_count,affected_row_count
+menin,warning,ambiguous_assay_context,row,214,214
+menin,warning,ambiguous_target,row,284,284
+menin,warning,assay_ambiguity,row,1124,1124
+menin,warning,assay_metadata_conflict,row,1474,1474
+menin,warning,conflicting_repeated_measurement,row,194,194
+menin,warning,missing_assay_description,row,1124,1124
+menin,warning,missing_assay_type,row,1124,1124
+menin,warning,target_identity_derived,row,805,805

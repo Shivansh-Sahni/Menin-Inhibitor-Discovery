@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-binding-kd-other-bioactivity-nm-continuous-censored-deb97092164d/strategies/molecule_grouped/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "7b4ac342e51ec73296cfccdaf27ae4f902d0d4c2e0fd43e73869710081566a68",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 49,
+    "train": 263,
+    "validation": 48
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-binding-kd-other-bioactivity-nm-continuous-censored-deb97092164d/strategies/molecule_grouped/split.parquet.manifest.json",
+  "sidecar_sha256": "f07d15fb6d56c05a860044103bb284b207d508978ad1c0ae09a41f42a378579e",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-binding-kd-other-bioactivity-nm-continuous-censored-deb97092164d/strategies/molecule_grouped/split.parquet",
+  "split_rows": 360,
+  "split_sha256": "259237190d0ffa31dab2c2d72e1f9e912ac126ca20d5d76655df6134c480929e",
+  "status": "materialized",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

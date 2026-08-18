@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "benchmark_challenge_registry.parquet": {
+      "arrow_schema_sha256": "43e85420f4dfe0afcfef60029a324772cc753e7164e000fded76a14e6b414644",
+      "bytes": 8614,
+      "path": "benchmark_challenge_registry.parquet",
+      "rows": 12,
+      "sha256": "e3fa84baffc23c76b9c3eeb0581fe92cec50a0ce469cb7cf8e65d66f2cab60ec"
+    },
+    "frozen_challenge_memberships.parquet": {
+      "arrow_schema_sha256": "2ae8e0c53fba56383e58b07e795f729d8e22c9173288cefa334d581467d9a2f5",
+      "bytes": 109606439,
+      "path": "frozen_challenge_memberships.parquet",
+      "rows": 711047,
+      "sha256": "29ed42d862c8fff58e7452084e2afb58b36507fdce295d8967bb4ddf9f380520"
+    }
+  },
+  "counts": {
+    "blocked_challenges": 3,
+    "materialized_challenges": 9,
+    "membership_rows": 711047
+  },
+  "input": {
+    "bytes": 31936413,
+    "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/task_membership.parquet",
+    "rows": 370167,
+    "sha256": "9c7b660345e84f7bcacdfb9be9054b2ee4529e72317a59ff2faba8c0a756f820"
+  },
+  "manifest_sha256": "277675187ad7b475ebeb59c875291f7b69783a1e40ed853b0cb221efc0bb9b1e",
+  "master_manifest_sha256": "50ea776b1b88dcd97b99e051bdccc729f9f23d87681c1469c6146395482f0eb2",
+  "schema_version": "platform-herg-benchmark-freeze/1.0",
+  "scientific_contract": {
+    "adjudicated_gold_standard_created": false,
+    "labels_embedded": false,
+    "predictive_superiority_established": false,
+    "test_labels_opened_by_builder": false,
+    "training_performed": false
+  }
+}

@@ -1,0 +1,1278 @@
+{
+  "analysis_id": "external_admission_analysis_full_chembl37",
+  "analyzer_code_sha256": "95f51ee7fe2edbf483028abdaae6df3b4b5ec906d96c6bb08e7250fab6086b66",
+  "analyzer_version": "platform_external_admission/1.1",
+  "bindingdb": {
+    "admission_state_counts": {
+      "blocked_rights_or_access_not_cleared": 93023,
+      "excluded_declared_chembl_mirror": 429,
+      "quarantine_origin_specific_rights_pending": 260
+    },
+    "article_rows": 93712,
+    "canonical_observations_admitted": 0,
+    "exact_unique_dual_link_rows": 33075,
+    "identity_linkage_state_counts": {
+      "molecule_exact_inchikey_unique_match__target_accession_ambiguous": 3068,
+      "molecule_exact_inchikey_unique_match__target_accession_unique_match": 33075,
+      "molecule_exact_inchikey_unique_match__target_accession_unmatched": 2501,
+      "molecule_exact_inchikey_unique_match__target_multicomponent_or_multiaccession_review": 2995,
+      "molecule_exact_inchikey_unmatched__target_accession_ambiguous": 2366,
+      "molecule_exact_inchikey_unmatched__target_accession_unique_match": 40061,
+      "molecule_exact_inchikey_unmatched__target_accession_unmatched": 5512,
+      "molecule_exact_inchikey_unmatched__target_multicomponent_or_multiaccession_review": 4083,
+      "molecule_no_valid_inchikey__target_accession_unique_match": 45,
+      "molecule_no_valid_inchikey__target_accession_unmatched": 1,
+      "molecule_no_valid_inchikey__target_multicomponent_or_multiaccession_review": 5
+    },
+    "measurements": {
+      "affinity_rows": 95506,
+      "canonical_observations_admitted": 0,
+      "conflict_interpretation": "candidate only: distinct values may reflect legitimate assay, construct, condition, or document differences and are never collapsed automatically",
+      "endpoint_counts": {
+        "EC50": 4187,
+        "IC50": 63216,
+        "Kd": 2650,
+        "Ki": 25453
+      },
+      "exact_unique_dual_link_measurements": 34265,
+      "model_labels_admitted": 0,
+      "relation_counts": {
+        "<": 494,
+        "=": 82895,
+        ">": 12117
+      },
+      "source_local_exact_signature_duplicate_excess_rows": 1330,
+      "source_local_exact_signature_groups_with_duplicates": 985,
+      "source_local_value_disagreement_candidate_groups": 1548,
+      "source_local_value_disagreement_candidate_measurements": 4682
+    },
+    "model_labels_admitted": 0,
+    "provenance_identifier_completeness": {
+      "article_doi_present": 88544,
+      "pmid_present": 90077
+    },
+    "row_disposition_counts": {
+      "candidate_independent_bindingdb_curated": 93023,
+      "excluded_chembl_cross_source_mirror": 429,
+      "quarantine_taylor_origin_rights_pending": 260
+    }
+  },
+  "blocking_gates": [
+    "source-specific machine-readable rights, intended-use, attribution, and redistribution clearance",
+    "BindingDB molecule standardization plus target/construct/assay/unit/document review",
+    "explicit BindingDB mirror, duplicate, and disagreement adjudication",
+    "ClinicalTrials.gov version-bound results re-extraction and arm/intervention/time-frame/denominator normalization",
+    "human-reviewed intervention-to-molecule identity resolution and clinical endpoint semantics",
+    "Drugs@FDA relational anomaly repair and record-level application/product/action normalization",
+    "DailyMed SPL section parsing, active-ingredient resolution, and regulatory interpretation",
+    "frozen admission policy, independent reproduction, and canonical rebuild QC"
+  ],
+  "canonical_input": {
+    "manifest_path": "research/data/platform/canonical/full_chembl37/build_manifest.json",
+    "manifest_physical_bytes": 3771050,
+    "manifest_physical_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "root": "research/data/platform/canonical/full_chembl37",
+    "snapshot_id": "SNP-55F821E06B1A7CED02D88E81",
+    "verification_scope": "every molecule, protein, and observation Parquet component used",
+    "verified_used_component_count": 38,
+    "verified_used_components": [
+      {
+        "bytes": 11431397,
+        "path": "molecules/part-00000.parquet",
+        "rows": 100000,
+        "sha256": "5610030e2b92d52fb35cda02c3b8a0e52159e67b4f4ee41f01d42c7b524cd2b1"
+      },
+      {
+        "bytes": 11427200,
+        "path": "molecules/part-00001.parquet",
+        "rows": 100000,
+        "sha256": "26cb5b253ca4dcba483d41b104cd37248d9cfab2c42c8c85ae7b8344f38c3e21"
+      },
+      {
+        "bytes": 11457818,
+        "path": "molecules/part-00002.parquet",
+        "rows": 100000,
+        "sha256": "898ba4fbeefe2abd091858594d430d67e2943ca2f3ca0e81c47121b89b0a48fa"
+      },
+      {
+        "bytes": 11444203,
+        "path": "molecules/part-00003.parquet",
+        "rows": 100000,
+        "sha256": "68f53ee75bdc824816dd7b04afcbc917c4c7530f91724ada5f7228e8e65dd211"
+      },
+      {
+        "bytes": 11451508,
+        "path": "molecules/part-00004.parquet",
+        "rows": 100000,
+        "sha256": "a0dea7784a719431ae91e321699333e466e51d605690fbe1490a9614414ae3b8"
+      },
+      {
+        "bytes": 11445357,
+        "path": "molecules/part-00005.parquet",
+        "rows": 100000,
+        "sha256": "af9be0c83adcd71d71e8fddff49bcbe1bb1907360cd5193bf2686ceb8ec3687f"
+      },
+      {
+        "bytes": 11442071,
+        "path": "molecules/part-00006.parquet",
+        "rows": 100000,
+        "sha256": "c8fd32a8a77d8d93a72e262bd89fae1e1ecb39671a0728d172bbb1eff5d4a021"
+      },
+      {
+        "bytes": 11448850,
+        "path": "molecules/part-00007.parquet",
+        "rows": 100000,
+        "sha256": "e61769021eb95f9c9adb9d7f4f47c1868b2ecd57d85fd7b46a6cb3e92d383e21"
+      },
+      {
+        "bytes": 11480179,
+        "path": "molecules/part-00008.parquet",
+        "rows": 100000,
+        "sha256": "7802df9d511841d00941704926beba7108a81a731ce384dcc52aaf16524b15f1"
+      },
+      {
+        "bytes": 11472128,
+        "path": "molecules/part-00009.parquet",
+        "rows": 100000,
+        "sha256": "e2a354e72a29f5ed58ceffb3f60592ee847a65b725db46d49a92a6dc8d274a65"
+      },
+      {
+        "bytes": 11463694,
+        "path": "molecules/part-00010.parquet",
+        "rows": 100000,
+        "sha256": "9e8589866bb9f0b75d4a98530d74450ece45fde3a8d9638abb13682596f28646"
+      },
+      {
+        "bytes": 11450243,
+        "path": "molecules/part-00011.parquet",
+        "rows": 100000,
+        "sha256": "1dd89f274b05a68c2cc86cd21fbef8a0c5e0999f924d09d81424cff41478695b"
+      },
+      {
+        "bytes": 11442780,
+        "path": "molecules/part-00012.parquet",
+        "rows": 100000,
+        "sha256": "457037207c5bae2defb1a38d001229837476aceb150c766295266692ca7c8a9c"
+      },
+      {
+        "bytes": 498024,
+        "path": "molecules/part-00013.parquet",
+        "rows": 4011,
+        "sha256": "e42da42d82bd5b50fbd30082df1a221557f7e0364461b9732b8a005f52ee81d3"
+      },
+      {
+        "bytes": 219963,
+        "path": "observations/part-00000.parquet",
+        "rows": 2498,
+        "sha256": "13878d640708d430da78d9e4cf1d4ac16c6a2598fd44513f6344b409f7ee6f48"
+      },
+      {
+        "bytes": 15513613,
+        "path": "observations/part-00001.parquet",
+        "rows": 199999,
+        "sha256": "a6027ca71e17fde56782a4fa242a351e0cc5632a766bb22b426c774ba93a9343"
+      },
+      {
+        "bytes": 15397478,
+        "path": "observations/part-00002.parquet",
+        "rows": 200000,
+        "sha256": "2c2d10faeb3f58b154060b4dfc10a0ae12d8f4eb1bd3690312447b8043596ca9"
+      },
+      {
+        "bytes": 12980726,
+        "path": "observations/part-00003.parquet",
+        "rows": 200000,
+        "sha256": "e1fb846b7b748d68b4a8e7b0759d79fc474c9b5883c3bcbe218ab16fcaf1bbf2"
+      },
+      {
+        "bytes": 15348528,
+        "path": "observations/part-00004.parquet",
+        "rows": 200000,
+        "sha256": "3facceef65f00df7b9f90bbb7069c20470b6afccf3bcb451f8de1779a55857b0"
+      },
+      {
+        "bytes": 4268856,
+        "path": "observations/part-00005.parquet",
+        "rows": 64472,
+        "sha256": "8e361d2af523ddbc5ab005bac13b3cc53e462498447983a5a9967adc662e0b93"
+      },
+      {
+        "bytes": 3141685,
+        "path": "observations/part-00006.parquet",
+        "rows": 40969,
+        "sha256": "ce495907e519b05462308ba562af1077e067d12d8054849980dca365dfd36b3c"
+      },
+      {
+        "bytes": 14779314,
+        "path": "observations/part-00007.parquet",
+        "rows": 206902,
+        "sha256": "c5dd40cf1e1a459190e0932a5b39e457c6005686dc03069a4d55bf09920d9a01"
+      },
+      {
+        "bytes": 12149254,
+        "path": "observations/part-00008.parquet",
+        "rows": 212531,
+        "sha256": "707e05af85488bef2a7bba434e0b23378266a7d4a0330a320c8651f0b114c07c"
+      },
+      {
+        "bytes": 14641101,
+        "path": "observations/part-00009.parquet",
+        "rows": 210289,
+        "sha256": "9d340580a6bb718828c01517a82093064f3b5914b2443868f95f40b9f941208e"
+      },
+      {
+        "bytes": 17283484,
+        "path": "observations/part-00010.parquet",
+        "rows": 226639,
+        "sha256": "a79e4a0131a67b59c80a6bfdf4126932e696b9a35c38bd5123a5aca57c9b3e9d"
+      },
+      {
+        "bytes": 4758337,
+        "path": "observations/part-00011.parquet",
+        "rows": 65606,
+        "sha256": "a71f302c403a40a287f1d3bea4beef6de54e18357c609e94f83ea38282b31e22"
+      },
+      {
+        "bytes": 13583437,
+        "path": "observations/part-00012.parquet",
+        "rows": 195678,
+        "sha256": "7268271da0d3fb6e8f0e22ea862c65840fb0a43e475f8cdede37d52ae217cf96"
+      },
+      {
+        "bytes": 13642248,
+        "path": "observations/part-00013.parquet",
+        "rows": 195026,
+        "sha256": "c74e0f73e4570488bc18cb37afa7809518cae67ed15d6b6cc43394e4af3d902a"
+      },
+      {
+        "bytes": 13700186,
+        "path": "observations/part-00014.parquet",
+        "rows": 196172,
+        "sha256": "0717cfda14fdbe420db7893fd573875bb8e99cd757e2db84ba051d0a879fe3c7"
+      },
+      {
+        "bytes": 14036914,
+        "path": "observations/part-00015.parquet",
+        "rows": 193254,
+        "sha256": "6bd1dd08ae54955725d8fae0ea998f541515462e23d0f53378eb243e6c67ba53"
+      },
+      {
+        "bytes": 14080718,
+        "path": "observations/part-00016.parquet",
+        "rows": 194049,
+        "sha256": "d4d50476594010745f6104d3e45dd9e2af964bb79073aebb5b247b15a00e06b6"
+      },
+      {
+        "bytes": 14048930,
+        "path": "observations/part-00017.parquet",
+        "rows": 193031,
+        "sha256": "ba90f7042852e832010efd751a4f7e89729e4830893298be3c1ad803ef295f54"
+      },
+      {
+        "bytes": 14071704,
+        "path": "observations/part-00018.parquet",
+        "rows": 194159,
+        "sha256": "805e7e770e47bf90b134d4faba8be0d07fc8ac594b8841c254dcce2138659e8f"
+      },
+      {
+        "bytes": 14421714,
+        "path": "observations/part-00019.parquet",
+        "rows": 194920,
+        "sha256": "cfb3fb4e5d6e67d462409d4fac5f4822f1b754b8a35ccf2799dbf71e354d281a"
+      },
+      {
+        "bytes": 13130249,
+        "path": "observations/part-00020.parquet",
+        "rows": 195473,
+        "sha256": "9edbacd04fecd85ee32c7e531072537d750cb9b02f72138b303d8ecf238d7332"
+      },
+      {
+        "bytes": 13175809,
+        "path": "observations/part-00021.parquet",
+        "rows": 196238,
+        "sha256": "da8e6fd9116d2a50da8577844228d8bb5a128c18961c707089f844355b3bbc18"
+      },
+      {
+        "bytes": 11424704,
+        "path": "observations/part-00022.parquet",
+        "rows": 160467,
+        "sha256": "7add61e73e7241edb41b529f1905e81d3d1022dd28cb6ce2ec6e6a6fff41da41"
+      },
+      {
+        "bytes": 3827631,
+        "path": "proteins/part-00000.parquet",
+        "rows": 9411,
+        "sha256": "9ba160f685afcecd26bac6ca85800e7425a6fd67923f48a8df4efac19748f935"
+      }
+    ]
+  },
+  "clinicaltrials": {
+    "absence_semantics": "missing/unposted module is unknown, never a negative outcome",
+    "broad_and_heuristic_duplicate_memberships": 3879,
+    "canonical_observations_admitted": 0,
+    "cohort_counts": {
+      "broad_all_drug_registry_inventory": 210644,
+      "heuristic_cardiac_safety_inventory": 3879
+    },
+    "cohort_membership_rows": 214523,
+    "heuristic_posted_module_state_counts": {
+      "outcomes=False;adverse_events=False": 2536,
+      "outcomes=True;adverse_events=True": 1343
+    },
+    "heuristic_semantics": "text-search cohort membership is not a cardiac-safety label",
+    "model_labels_admitted": 0,
+    "normalized_adverse_event_records_extracted": 0,
+    "normalized_intervention_to_molecule_links": 0,
+    "normalized_outcome_measure_records_extracted": 0,
+    "outcome_extraction_readiness": "not_ready_inventory_projection_only",
+    "pk_endpoint_values_extracted": 0,
+    "qt_qtc_endpoint_values_extracted": 0,
+    "required_next_gate": "re-extract exact version-bound raw study modules; normalize arms, interventions, time frames, units, denominators, adverse-event groups, and molecule identities; then human QC",
+    "studies_with_both_posted_modules": 1343,
+    "unique_nct_ids": 210644
+  },
+  "cross_source_overlap_candidates": {
+    "canonical_observations_admitted": 0,
+    "canonical_rows_on_exact_identity_endpoint_candidate_keys": 44045,
+    "cross_source_rows_automatically_deduplicated": 0,
+    "exact_value_relation_match_canonical_rows": 28023,
+    "exact_value_relation_match_external_measurements": 20306,
+    "interpretation": "candidate mirror/conflict accounting only; exact identity, endpoint, relation, and numeric agreement does not establish duplicated experimental provenance, while disagreement does not establish error without assay/context review",
+    "model_labels_admitted": 0,
+    "value_or_relation_disagreement_candidate_canonical_rows": 20363,
+    "value_or_relation_disagreement_candidate_external_measurements": 8143
+  },
+  "decision": "not_ready_for_external_canonical_admission_or_model_training",
+  "determinism_contract": "no wall-clock fields; fixed ordered schemas and batch sizes; sorted keys/counters/components; canonical JSON hashing; fail-closed existing-output policy",
+  "field_and_schema_completeness": {
+    "bindingdb/affinity_observations.parquet": {
+      "fields": {
+        "candidate_evidence_admitted": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "endpoint_pooling_key": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "endpoint_source_column": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "endpoint_type": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "measurement_key": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "parse_status": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "parsed_numeric_text": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "raw_value": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "reactant_set_id": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "relation": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "source_field_map_sha256": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "source_member": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "source_row_number_one_based": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "unit": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        },
+        "value_nm": {
+          "blank_string": 0,
+          "non_null": 95506,
+          "null": 0
+        }
+      },
+      "rows": 95506
+    },
+    "bindingdb/article_rows.parquet": {
+      "fields": {
+        "article_doi": {
+          "blank_string": 5168,
+          "non_null": 88544,
+          "null": 5168
+        },
+        "bindingdb_entry_doi": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "bindingdb_monomer_id": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "candidate_evidence_admitted": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "curation_data_source": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "disposition_reason": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "ligand_inchi": {
+          "blank_string": 51,
+          "non_null": 93661,
+          "null": 51
+        },
+        "ligand_inchi_key": {
+          "blank_string": 51,
+          "non_null": 93661,
+          "null": 51
+        },
+        "ligand_inchi_key_syntax_valid": {
+          "blank_string": 0,
+          "non_null": 93661,
+          "null": 51
+        },
+        "ligand_name": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "ligand_smiles": {
+          "blank_string": 56,
+          "non_null": 93656,
+          "null": 56
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "pmid": {
+          "blank_string": 3635,
+          "non_null": 90077,
+          "null": 3635
+        },
+        "publication_date_raw": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "reactant_set_id": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "reactant_set_occurrence": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "reactant_set_total_occurrences": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "repeated_reactant_set_id": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "row_disposition": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_column_count": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_field_map_sha256": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_member": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_record_json": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "source_row_number_one_based": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "structure_representation_status": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "target_accessions_json": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "target_chain_count_raw": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "target_name": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "target_sequences_json": {
+          "blank_string": 0,
+          "non_null": 93712,
+          "null": 0
+        },
+        "target_source_organism": {
+          "blank_string": 42,
+          "non_null": 93670,
+          "null": 42
+        }
+      },
+      "rows": 93712
+    },
+    "clinicaltrials/cohort_membership.parquet": {
+      "fields": {
+        "canonical_observation_admitted": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "cohort_kind": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "cohort_snapshot_key": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "evidence_semantics": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "false_positive_or_context_ambiguity_retained": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "has_posted_adverse_events_module": {
+          "blank_string": 0,
+          "non_null": 3879,
+          "null": 210644
+        },
+        "has_posted_outcome_measures_module": {
+          "blank_string": 0,
+          "non_null": 3879,
+          "null": 210644
+        },
+        "heuristic_term_matches_json": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "nct_id": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "page_index": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "source_record_json": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "source_row_number_one_based": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "study_index_within_page": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        },
+        "study_sha256": {
+          "blank_string": 0,
+          "non_null": 214523,
+          "null": 0
+        }
+      },
+      "rows": 214523
+    },
+    "regulatory/archive_inventory.parquet": {
+      "fields": {
+        "canonical_observation_admitted": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "compressed_or_source_bytes": {
+          "blank_string": 0,
+          "non_null": 6,
+          "null": 12
+        },
+        "evidence_semantics": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "inventory_kind": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "item_id": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "parse_or_verification_status": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "row_or_member_count": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "sha256": {
+          "blank_string": 12,
+          "non_null": 6,
+          "null": 12
+        },
+        "source_anomaly_count": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "source_metadata_json": {
+          "blank_string": 0,
+          "non_null": 18,
+          "null": 0
+        },
+        "uncompressed_bytes": {
+          "blank_string": 0,
+          "non_null": 6,
+          "null": 12
+        }
+      },
+      "rows": 18
+    },
+    "source_inventory.parquet": {
+      "fields": {
+        "bundle_entries_sha256": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "bundle_entry_count": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "bundle_total_bytes": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "canonical_observation_admitted": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "declared_manifest_sha256": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "limitations_json": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "normalization_scope": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "physical_manifest_sha256": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "release_id": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "snapshot_status": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 5,
+          "null": 0
+        }
+      },
+      "rows": 5
+    },
+    "uniprot/accession_resolution.parquet": {
+      "fields": {
+        "entry_type": {
+          "blank_string": 49,
+          "non_null": 14980,
+          "null": 49
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "normalization_disposition": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "replacement_state": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "requested_accession": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "resolution_state": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "returned_primary_accession": {
+          "blank_string": 49,
+          "non_null": 14980,
+          "null": 49
+        },
+        "returned_primary_accessions_json": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "sequence_sha256": {
+          "blank_string": 1053,
+          "non_null": 13976,
+          "null": 1053
+        },
+        "sequence_status": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "silent_identity_replacement_performed": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "source_record_json": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        },
+        "source_row_number_one_based": {
+          "blank_string": 0,
+          "non_null": 15029,
+          "null": 0
+        }
+      },
+      "rows": 15029
+    },
+    "uniprot/returned_entries.parquet": {
+      "fields": {
+        "entry_name": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "entry_type": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "entry_version": {
+          "blank_string": 0,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "organism_scientific_name": {
+          "blank_string": 1007,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "protein_name": {
+          "blank_string": 1007,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "raw_entry_sha256": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "returned_primary_accession": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "sequence": {
+          "blank_string": 1007,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "sequence_length": {
+          "blank_string": 0,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "sequence_md5": {
+          "blank_string": 1007,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "sequence_sha256": {
+          "blank_string": 1007,
+          "non_null": 13976,
+          "null": 1007
+        },
+        "sequence_status": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "sequence_version": {
+          "blank_string": 0,
+          "non_null": 0,
+          "null": 14983
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "source_page_path": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "source_result_index_zero_based": {
+          "blank_string": 0,
+          "non_null": 14983,
+          "null": 0
+        },
+        "taxonomy_id": {
+          "blank_string": 0,
+          "non_null": 13976,
+          "null": 1007
+        }
+      },
+      "rows": 14983
+    },
+    "uniprot/source_membership.parquet": {
+      "fields": {
+        "model_label_admitted": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "normalization_disposition": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "normalized_identifier": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "resolution_state": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "returned_primary_accession": {
+          "blank_string": 50,
+          "non_null": 30297,
+          "null": 50
+        },
+        "sequence_sha256": {
+          "blank_string": 1155,
+          "non_null": 29192,
+          "null": 1155
+        },
+        "silent_identity_replacement_performed": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "source_accession_value": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "source_admission_state": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "source_id": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "source_record_json": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "source_row_number_one_based": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "upstream_source_component_id": {
+          "blank_string": 0,
+          "non_null": 17257,
+          "null": 13090
+        },
+        "upstream_source_file": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "upstream_source_id": {
+          "blank_string": 0,
+          "non_null": 30347,
+          "null": 0
+        },
+        "upstream_source_row_index_zero_based": {
+          "blank_string": 0,
+          "non_null": 17257,
+          "null": 13090
+        },
+        "upstream_source_target_id": {
+          "blank_string": 13090,
+          "non_null": 17257,
+          "null": 13090
+        }
+      },
+      "rows": 30347
+    }
+  },
+  "global_prohibitions": {
+    "absence_treated_as_negative_label": false,
+    "ambiguous_identity_silently_resolved": false,
+    "cross_source_rows_automatically_deduplicated": 0,
+    "endpoint_pooling_performed": false,
+    "external_canonical_observations_admitted": 0,
+    "external_model_labels_admitted": 0,
+    "prediction_treated_as_observed_label": false,
+    "substantive_model_training_authorized": false,
+    "substantive_model_training_performed": false
+  },
+  "identity_candidate_universes": {
+    "accession_candidates_with_ambiguous_canonical_match": 72,
+    "accession_candidates_with_canonical_match": 1332,
+    "bindingdb_target_accession_candidates": 1830,
+    "bindingdb_valid_inchikey_candidates": 46304,
+    "inchikey_candidates_with_ambiguous_canonical_match": 0,
+    "inchikey_candidates_with_canonical_match": 19078
+  },
+  "manifest_sha256": "3d2b9d32cb76c00d03ae0f61cfa9097175f421c4216c3d7f4fbd84c9af5a18f0",
+  "mechanical_analysis_status": "passed",
+  "normalized_input": {
+    "manifest_internal_sha256": "4a9060a154049da0d02721bb66b7072b7cd73599c2502b17f36fa40752f3bc6c",
+    "manifest_path": "research/data/platform/interim/external_public_normalized/external_public_normalized_manifest.json",
+    "manifest_physical_bytes": 12556,
+    "manifest_physical_sha256": "ee611cbd66689fe8e1f1086b41859e1a624b3df576f7a5de22a9186678ff4ea9",
+    "root": "research/data/platform/interim/external_public_normalized",
+    "verification": {
+      "aggregate_artifact_bytes": 60377234,
+      "aggregate_parquet_rows": 464123,
+      "input_verification": "not_requested",
+      "inventory_entries": 9,
+      "manifest_declared_sha256": "4a9060a154049da0d02721bb66b7072b7cd73599c2502b17f36fa40752f3bc6c",
+      "manifest_physical_bytes": 12556,
+      "manifest_physical_sha256": "ee611cbd66689fe8e1f1086b41859e1a624b3df576f7a5de22a9186678ff4ea9",
+      "output_root": "research/data/platform/interim/external_public_normalized",
+      "parquet_artifacts": 8,
+      "schema_version": "platform-external-normalization/1.0",
+      "semantic_verification": {
+        "all_admission_prohibitions_recomputed": true,
+        "bindingdb_affinity_parse_status_counts": {
+          "parsed_candidate": 95506
+        },
+        "bindingdb_candidate_endpoint_counts": {
+          "EC50": 4187,
+          "IC50": 63216,
+          "Kd": 2650,
+          "Ki": 25453
+        },
+        "bindingdb_disposition_counts": {
+          "candidate_independent_bindingdb_curated": 93023,
+          "excluded_chembl_cross_source_mirror": 429,
+          "quarantine_taylor_origin_rights_pending": 260
+        },
+        "bindingdb_repeated_group_member_rows": 312,
+        "clinicaltrials_cohort_counts": {
+          "broad_all_drug_registry_inventory": 210644,
+          "heuristic_cardiac_safety_inventory": 3879
+        },
+        "uniprot_entry_type_counts": {
+          "Inactive": 1007,
+          "UniProtKB reviewed (Swiss-Prot)": 11742,
+          "UniProtKB unreviewed (TrEMBL)": 2234
+        },
+        "uniprot_sequence_hashes_recomputed": 13976,
+        "uniprot_sequence_status_counts": {
+          "inactive_sequence_unavailable_quarantine": 1007,
+          "sequence_ready": 13976
+        }
+      },
+      "status": "passed",
+      "verified_input_count": 0,
+      "zero_label_training_and_identity_replacement_contract": "passed"
+    }
+  },
+  "regulatory": {
+    "active_ingredient_to_molecule_links": 0,
+    "application_product_action_links_normalized": 0,
+    "approval_semantics": "approval/marketing state is not efficacy, safety, PK, or activity",
+    "canonical_observations_admitted": 0,
+    "declared_source_anomalies_by_source": {
+      "dailymed_spl_v2_human_rx": 0,
+      "drugs_at_fda_bulk": 1
+    },
+    "inventory_rows_by_source": {
+      "dailymed_spl_v2_human_rx": 6,
+      "drugs_at_fda_bulk": 12
+    },
+    "model_labels_admitted": 0,
+    "outcome_extraction_readiness": "not_ready_archive_and_table_inventory_only",
+    "parse_or_verification_status_counts": {
+      "dailymed_spl_v2_human_rx:archive_crc_and_membership_verified_not_extracted": 6,
+      "drugs_at_fda_bulk:failed": 1,
+      "drugs_at_fda_bulk:passed": 11
+    },
+    "qt_qtc_or_pk_outcomes_extracted": 0,
+    "record_level_products_or_labels_normalized": 0,
+    "required_next_gate": "repair/quarantine malformed FDA rows, normalize relational keys and active ingredients, parse versioned SPL sections, create exact molecule links, and complete human regulatory QC",
+    "spl_section_texts_normalized": 0
+  },
+  "rights_and_access": {
+    "default_policy": "fail_closed_until_source-specific_evidence_and_human_approval",
+    "sources": {
+      "bindingdb_curated_202608": {
+        "canonical_admission_allowed": false,
+        "gate_reason": "normalized/acquisition manifests contain no machine-readable rights clearance",
+        "model_training_use_allowed": false,
+        "redistribution_allowed": false,
+        "required_rights_evidence": [
+          "license_or_terms_version",
+          "intended_use_permission",
+          "redistribution_permission",
+          "required_attribution",
+          "legal_or_data_steward_approval"
+        ],
+        "rights_status": "unresolved_missing_machine_readable_evidence",
+        "role": "candidate_external_affinity_evidence"
+      },
+      "clinicaltrials_gov_v2": {
+        "canonical_admission_allowed": false,
+        "gate_reason": "normalized/acquisition manifests contain no machine-readable rights clearance",
+        "model_training_use_allowed": false,
+        "redistribution_allowed": false,
+        "required_rights_evidence": [
+          "current_terms_or_public_domain_basis",
+          "required_disclaimer_and_attribution",
+          "participant_level_data_exclusion_confirmation",
+          "legal_or_data_steward_approval"
+        ],
+        "rights_status": "unresolved_missing_machine_readable_evidence",
+        "role": "registry_inventory_not_outcome_labels"
+      },
+      "dailymed_spl_v2_human_rx": {
+        "canonical_admission_allowed": false,
+        "gate_reason": "normalized/acquisition manifests contain no machine-readable rights clearance",
+        "model_training_use_allowed": false,
+        "redistribution_allowed": false,
+        "required_rights_evidence": [
+          "current_terms_or_public_domain_basis",
+          "label_copyright_and_attribution_review",
+          "redistribution_permission",
+          "legal_or_data_steward_approval"
+        ],
+        "rights_status": "unresolved_missing_machine_readable_evidence",
+        "role": "regulatory_archive_inventory_not_safety_labels"
+      },
+      "drugs_at_fda_bulk": {
+        "canonical_admission_allowed": false,
+        "gate_reason": "normalized/acquisition manifests contain no machine-readable rights clearance",
+        "model_training_use_allowed": false,
+        "redistribution_allowed": false,
+        "required_rights_evidence": [
+          "current_terms_or_public_domain_basis",
+          "redistribution_permission",
+          "required_attribution",
+          "legal_or_data_steward_approval"
+        ],
+        "rights_status": "unresolved_missing_machine_readable_evidence",
+        "role": "regulatory_relational_inventory_not_outcome_labels"
+      },
+      "uniprotkb_targeted_2026_02": {
+        "canonical_admission_allowed": false,
+        "gate_reason": "normalized/acquisition manifests contain no machine-readable rights clearance",
+        "model_training_use_allowed": false,
+        "redistribution_allowed": false,
+        "required_rights_evidence": [
+          "license_version",
+          "intended_use_permission",
+          "redistribution_and_attribution_requirements",
+          "legal_or_data_steward_approval"
+        ],
+        "rights_status": "unresolved_missing_machine_readable_evidence",
+        "role": "protein_identity_and_sequence_enrichment"
+      }
+    },
+    "sources_cleared_for_canonical_admission": 0,
+    "sources_cleared_for_model_training": 0,
+    "sources_cleared_for_redistribution": 0
+  },
+  "schema_version": "platform-external-admission-readiness/1.0",
+  "uniprot": {
+    "canonical_observations_admitted": 0,
+    "identity_enrichment_readiness": "candidate_only_rights_and_identity_review_required",
+    "model_labels_admitted": 0,
+    "normalization_disposition_counts": {
+      "ambiguous_accession_quarantine": 3,
+      "identifier_syntax_quarantine": 46,
+      "inactive_sequence_unavailable_quarantine": 1004,
+      "sequence_ready": 13976
+    },
+    "resolution_rows": 15029,
+    "sequence_status_counts": {
+      "ambiguous_not_selected": 3,
+      "inactive_sequence_unavailable_quarantine": 1004,
+      "not_applicable_non_uniprot_identifier": 46,
+      "sequence_ready": 13976
+    },
+    "silent_identity_replacements": 0
+  }
+}

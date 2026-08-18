@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/protein_holdout/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "c32967d4916b111ce1b73460ffbd924197efd6426f54f14162f60a61e5bac50d",
+  "mandatory_candidate": false,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 1148,
+    "train": 3300,
+    "validation": 1010
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/protein_holdout/split.parquet.manifest.json",
+  "sidecar_sha256": "ab31221bdb92988ea46ffb9ee770531c067d04f4f32cd88ec85e7f832568ecfc",
+  "split_materialized": true,
+  "split_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/protein_holdout/split.parquet",
+  "split_rows": 5458,
+  "split_sha256": "a7a0ab9b6267b9ac9652fc715053c0d9b77fc944b7e7226bf31bf1f7378e736d",
+  "status": "materialized",
+  "strategy": "protein_holdout",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

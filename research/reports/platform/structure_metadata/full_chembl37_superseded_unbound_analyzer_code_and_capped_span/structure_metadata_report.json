@@ -1,0 +1,89 @@
+{
+  "canonical_construct_rows_not_exactly_reconciled": 9071,
+  "coordinate_files_downloaded": 0,
+  "coverage_counts": {
+    "canonical_chembl37_protein:accession_missing": 306,
+    "canonical_chembl37_protein:accession_present_unmapped": 3677,
+    "canonical_chembl37_protein:mapped": 5428,
+    "canonical_chembl37_protein:total": 9411,
+    "frozen_external_uniprot_returned_entry:accession_missing": 0,
+    "frozen_external_uniprot_returned_entry:accession_present_unmapped": 7807,
+    "frozen_external_uniprot_returned_entry:mapped": 7176,
+    "frozen_external_uniprot_returned_entry:total": 14983
+  },
+  "decision": "structure_metadata_coverage_ready_for_candidate_use_not_coordinate_or_construct_ready",
+  "documentation_urls": [
+    "https://www.ebi.ac.uk/pdbe/docs/sifts/quick.html",
+    "https://www.ebi.ac.uk/pdbe/docs/sifts/methodology.html",
+    "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement"
+  ],
+  "entry_type_audit": {
+    "entry_count": 257629,
+    "method_counts": {
+      "EM": 35776,
+      "NMR": 14885,
+      "diffraction": 206487,
+      "other": 481
+    },
+    "molecule_type_counts": {
+      "nuc": 5206,
+      "other": 33,
+      "prot": 235476,
+      "prot-nuc": 16914
+    }
+  },
+  "frozen_universe_identity_ambiguity_counts": {
+    "canonical_chembl37_protein:accessions_mapping_to_multiple_frozen_records": 189,
+    "canonical_chembl37_protein:frozen_records_in_multi_record_accession_groups": 378,
+    "frozen_external_uniprot_returned_entry:accessions_mapping_to_multiple_frozen_records": 0,
+    "frozen_external_uniprot_returned_entry:frozen_records_in_multi_record_accession_groups": 0
+  },
+  "limitations": [
+    "SIFTS release uses UniProt 2026.03, while the frozen external UniProt input is 2026_02; accession matches are candidates, not version identity",
+    "canonical ChEMBL protein accessions may reflect a different source cutoff and can map ambiguously to multiple canonical protein records",
+    "outer mapped UniProt span is not observed-residue coverage and can include gaps/unobserved residues",
+    "chain mapping does not verify construct boundaries, mutations, tags, assemblies, ligands, quality, or assay relevance",
+    "wwPDB entry-type method classes are coarse; method-specific quality requires entry metadata/validation reports",
+    "PDB archive mappings are kept separate from predicted structures; no predicted models were acquired"
+  ],
+  "manifest_sha256": "cfb457bbacdc0bc318760d975b5a619a49d766ced715656d4924b227047acf2b",
+  "method_entry_count_sums_per_protein": {
+    "canonical_chembl37_protein:diffraction_entry_count": 90419,
+    "canonical_chembl37_protein:em_entry_count": 47784,
+    "canonical_chembl37_protein:nmr_entry_count": 3218,
+    "canonical_chembl37_protein:other_method_entry_count": 253,
+    "frozen_external_uniprot_returned_entry:diffraction_entry_count": 101246,
+    "frozen_external_uniprot_returned_entry:em_entry_count": 83254,
+    "frozen_external_uniprot_returned_entry:nmr_entry_count": 4087,
+    "frozen_external_uniprot_returned_entry:other_method_entry_count": 282
+  },
+  "methods_sha256": "88af6def4aca9babc33df4f238243fad312fdd37b05f15a7a1f543b71c61a020",
+  "model_labels_admitted": 0,
+  "normalized_manifest_physical_sha256": "6e8e873243237ca90798f471a6f2fe66854706a3c3d06ebbd644043b7aed3b56",
+  "predicted_structure_files_downloaded": 0,
+  "release": {
+    "date": "2026/08/03",
+    "pdb_version": "31.26",
+    "time": "16:01",
+    "uniprot_version": "2026.03"
+  },
+  "rights": {
+    "release_gate": "retain citation and recheck current source terms before redistribution",
+    "statement": "PDBe states that primary and derived archive data are available under CC0 and site terms.",
+    "statement_url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement",
+    "status": "public_domain_cc0_statement_located_human_review_still_required_for_release"
+  },
+  "schema_version": "platform-structure-metadata/1.0",
+  "sifts_audit": {
+    "chains_mapping_to_multiple_uniprot_accessions": 9795,
+    "segment_rows": 1009429,
+    "segments_missing_entry_type_metadata": 0,
+    "segments_with_reversed_uniprot_endpoint_numbering": 72,
+    "unique_uniprot_accessions": 74142
+  },
+  "source_urls": [
+    "https://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_uniprot.tsv.gz",
+    "https://files.wwpdb.org/pub/pdb/derived_data/pdb_entry_type.txt"
+  ],
+  "substantive_model_training_performed": false
+}

@@ -1,0 +1,195 @@
+{
+  "artifact_count": 31,
+  "artifacts": [
+    {
+      "bytes": 10330,
+      "path": "files/approved_pampa_ncats.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "2b1f7275a768da97cc01c0187958e2350f40beddc5f20ade0eb6317cdaa2262c"
+    },
+    {
+      "bytes": 929630,
+      "path": "files/b3db_classification.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "c4ef6b7cc8770c82a168cbc8102fadf81eb8179c4f8ce90631e78094d1968f88"
+    },
+    {
+      "bytes": 118778,
+      "path": "files/b3db_regression.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "3f18e3cff790e6567159c0fdeef3e8216f152d1f9591f75d297a4427088b77c1"
+    },
+    {
+      "bytes": 137899,
+      "path": "files/bbb_martins.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "eb32676c7bf6e2bcd98b7625186bbb2ba4e4644c1d1468dfa18b6be665bd5e98"
+    },
+    {
+      "bytes": 43656,
+      "path": "files/bioavailability_ma.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "43d5b270657a819a48615e7976081b9215456ce4e5cad91a0a36d9fb5bd78508"
+    },
+    {
+      "bytes": 82501,
+      "path": "files/caco2_wang.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "447d9f1af487c06b080145a2361dbe45af5b27afc83e1a975dd29b9ea535d6ab"
+    },
+    {
+      "bytes": 91565,
+      "path": "files/clearance_hepatocyte_az.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "2c217f46600c22e107b72faa2bfb1d9bf799213aee47b601f6e0d6d73b68f274"
+    },
+    {
+      "bytes": 81661,
+      "path": "files/clearance_microsome_az.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "4c9047dc1860cc05d5bdc09aa9cfef86a40740605c2ff06990b1fceb6085db9d"
+    },
+    {
+      "bytes": 760372,
+      "path": "files/cyp1a2_veith.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "a18b335832495d4cfa4ecffccf7cdfa12eb08e84b6703aebcc25564e5f21553e"
+    },
+    {
+      "bytes": 770761,
+      "path": "files/cyp2c19_veith.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "8cf4c9cde4b7693ab37ceeb66efdcc8b05b8848d33f06255d52ba7e6db754ebc"
+    },
+    {
+      "bytes": 45602,
+      "path": "files/cyp2c9_substrate_carbonmangels.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "a4b3d458cbca8cb74850464b15d5ab1f64787ea346cc38eedae29a388412f041"
+    },
+    {
+      "bytes": 739721,
+      "path": "files/cyp2c9_veith.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "272bfd9de9899dd978993e23ccfb2a56680912ef6c8d89c0a9eac7f36c1c55c9"
+    },
+    {
+      "bytes": 45390,
+      "path": "files/cyp2d6_substrate_carbonmangels.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "6eab25986d9a65595140447940f46d134ffd6c7c3fca3f25b5aaabcc30aa57d5"
+    },
+    {
+      "bytes": 799509,
+      "path": "files/cyp2d6_veith.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "1b50a2f02a6d9c02d29fd9e3684d661f64bfe8afb1fea09e5ffb3d54174c411b"
+    },
+    {
+      "bytes": 46047,
+      "path": "files/cyp3a4_substrate_carbonmangels.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "678341b7e40630a70b4e38b20e22dc73fbd8aff13fdd32cd7f6d702b62b5005e"
+    },
+    {
+      "bytes": 746183,
+      "path": "files/cyp3a4_veith.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "4c85a4cea9ffadd36fdd188f96b866d1d8db5d333a6d423172cf4363a585565a"
+    },
+    {
+      "bytes": 53583,
+      "path": "files/half_life_obach.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "79fb8c943b64a9488bce588d747b59af1a782f1ce46bc51137c61fb895ede1df"
+    },
+    {
+      "bytes": 40140,
+      "path": "files/hia_hou.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "9040c5985fd366acf736bca1587902af28450976410fe99db82027e5d9c713b4"
+    },
+    {
+      "bytes": 485307,
+      "path": "files/hlm.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "7e3051533d66d91837223ee430403d1f22f49a10c434345f37231221b1c198a9"
+    },
+    {
+      "bytes": 29004,
+      "path": "files/hydrationfreeenergy_freesolv.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "5b5485a133996a7d19f83466199ee6117279e7dc8693db5107e44f99e680125a"
+    },
+    {
+      "bytes": 297882,
+      "path": "files/lipophilicity_astrazeneca.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "14add1edb356e62f78256ff964c0cbba03c007be3ff48d6d4c18679f307f1d4c"
+    },
+    {
+      "bytes": 143596,
+      "path": "files/pampa_ncats.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "18b0ae755310cad7e4b6c3cdbe4a3c9190609995103c92536d41a4536511d854"
+    },
+    {
+      "bytes": 125532,
+      "path": "files/pgp_broccatelli.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "4fddc785a4f7109a92c60781fad9070a3917309cac5a78ac8e37bba17c54c9c0"
+    },
+    {
+      "bytes": 265195,
+      "path": "files/ppbr_az.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "54c9520f4b6e04419b18bab7335583c3865d86fc53db40f74c2cff1577c8ec1b"
+    },
+    {
+      "bytes": 415891,
+      "path": "files/rlm.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "3bb2accb60769b3b41267065b594a29a6bfa686891d0b3bc857570fb6d65b0e7"
+    },
+    {
+      "bytes": 852658,
+      "path": "files/solubility_aqsoldb.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "0b593f7b55abbe477ba4284aefd7b5450551f4ed21ac4aed80a097931141c9a4"
+    },
+    {
+      "bytes": 89914,
+      "path": "files/vdss_lombardo.tab",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "00bb7e0dea19f78c4c1887e27ecf476135d9de2ef5ecc26d7c645c37bd9cb7af"
+    },
+    {
+      "bytes": 26510,
+      "path": "http_receipts.json",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "5bb53325d4b180c87692dca435cc3e0e2609f06308c07ac3aab6e0d1457a1ed2"
+    },
+    {
+      "bytes": 503564,
+      "path": "provenance/dataverse_dataset_metadata.json",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "3b34aea7d1149c44c2a3b23484253e6aa15e0ddfe63c16cc95d56d3985687311"
+    },
+    {
+      "bytes": 6037,
+      "path": "provenance/github_main_commit.json",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "9a75f01ec7b1d9e809742e2afdb7d41a7d3ca9b104ebbf9534e93bb5911f1ee6"
+    },
+    {
+      "bytes": 44960,
+      "path": "provenance/tdc_metadata.py",
+      "role": "official_TDC_or_Dataverse_artifact",
+      "sha256": "f169cd7464eb5e8ba4339015c65aaf614d52356c5ff42872b89821c278cc692c"
+    }
+  ],
+  "canonical_rows": 0,
+  "document_sha256": "54c1b813782355894d222b454495afbcfe5bd70c010b7fa4c168dcdadafa771a",
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "training_labels": 0
+}

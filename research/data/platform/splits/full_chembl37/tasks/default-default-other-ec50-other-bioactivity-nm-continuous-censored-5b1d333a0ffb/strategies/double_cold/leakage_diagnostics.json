@@ -1,0 +1,175 @@
+{
+  "chemical_near_similarity": {
+    "backend": [
+      "rdkit_morgan"
+    ],
+    "claim_status": "not_claim_ready_from_sampled_near_similarity",
+    "completeness": "sampled_non_exhaustive",
+    "method": "Morgan radius 2, 2048 bits; exact Tanimoto within capped samples",
+    "partition_pairs": {
+      "train_vs_test": {
+        "maximum_sampled_similarity": 0.9923076629638672,
+        "population_cartesian_pairs": 3141192,
+        "population_query_entities": 408,
+        "population_reference_entities": 7699,
+        "query_entities_at_or_above_threshold": 3,
+        "sampled_pair_comparisons": 65536,
+        "sampled_query_entities": 256,
+        "sampled_reference_entities": 256,
+        "status": "completed_deterministic_capped_sample"
+      },
+      "train_vs_validation": {
+        "maximum_sampled_similarity": 0.8947368264198303,
+        "population_cartesian_pairs": 5335407,
+        "population_query_entities": 693,
+        "population_reference_entities": 7699,
+        "query_entities_at_or_above_threshold": 1,
+        "sampled_pair_comparisons": 65536,
+        "sampled_query_entities": 256,
+        "sampled_reference_entities": 256,
+        "status": "completed_deterministic_capped_sample"
+      },
+      "validation_vs_test": {
+        "maximum_sampled_similarity": 0.8070175647735596,
+        "population_cartesian_pairs": 282744,
+        "population_query_entities": 408,
+        "population_reference_entities": 693,
+        "query_entities_at_or_above_threshold": 1,
+        "sampled_pair_comparisons": 65536,
+        "sampled_query_entities": 256,
+        "sampled_reference_entities": 256,
+        "status": "completed_deterministic_capped_sample"
+      }
+    },
+    "population_unique_entities": {
+      "test": 408,
+      "train": 7699,
+      "validation": 693
+    },
+    "sample_cap_per_partition": 256,
+    "sampled_unique_entities": {
+      "test": 256,
+      "train": 256,
+      "validation": 256
+    },
+    "sampling": "smallest_sha256_rank_per_partition_without_seed_search",
+    "threshold": 0.8
+  },
+  "claim_readiness": "not_claim_ready_sampled_near_similarity_requires_independent_exhaustive_or_accepted_indexed_audit",
+  "exact_overlap_audit": {
+    "backend": "temporary_SQLite_distinct_entity_partition_primary_keys",
+    "completeness": "exhaustive",
+    "entities": {
+      "group": {
+        "completeness": "exhaustive_disk_backed",
+        "entities_present_in_multiple_official_partitions": 0,
+        "unique_entities_in_official_partitions": 10268
+      },
+      "molecule": {
+        "completeness": "exhaustive_disk_backed",
+        "entities_present_in_multiple_official_partitions": 0,
+        "unique_entities_in_official_partitions": 8800
+      },
+      "protein": {
+        "completeness": "exhaustive_disk_backed",
+        "entities_present_in_multiple_official_partitions": 0,
+        "unique_entities_in_official_partitions": 371
+      },
+      "source": {
+        "completeness": "exhaustive_disk_backed",
+        "entities_present_in_multiple_official_partitions": 1,
+        "unique_entities_in_official_partitions": 1
+      },
+      "target": {
+        "completeness": "exhaustive_disk_backed",
+        "entities_present_in_multiple_official_partitions": 0,
+        "unique_entities_in_official_partitions": 371
+      }
+    },
+    "excluded_rows_not_treated_as_official_partitions": true,
+    "official_partitions": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "required_zero_overlap_entities": [
+      "group",
+      "molecule",
+      "protein"
+    ]
+  },
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "partition_counts": {
+    "excluded_mixed": 10613,
+    "test": 483,
+    "train": 9860,
+    "validation": 780
+  },
+  "protein_near_similarity": {
+    "claim_status": "not_claim_ready_from_sampled_near_similarity_or_without_alignment",
+    "completeness": "sampled_non_exhaustive",
+    "interpretation": "screening similarity, not aligned percent sequence identity",
+    "method": "normalized_protein_3mer_Jaccard_screen",
+    "partition_pairs": {
+      "train_vs_test": {
+        "maximum_sampled_similarity": 0.9647473560517039,
+        "population_cartesian_pairs": 14229,
+        "population_query_entities_with_nonblank_sequence": 51,
+        "population_reference_entities_with_nonblank_sequence": 279,
+        "query_entities_at_or_above_threshold": 2,
+        "sampled_pair_comparisons": 13056,
+        "sampled_query_entities_with_valid_sequence": 51,
+        "sampled_reference_entities_with_valid_sequence": 256,
+        "status": "completed_deterministic_capped_sample"
+      },
+      "train_vs_validation": {
+        "maximum_sampled_similarity": 0.9866962305986696,
+        "population_cartesian_pairs": 11439,
+        "population_query_entities_with_nonblank_sequence": 41,
+        "population_reference_entities_with_nonblank_sequence": 279,
+        "query_entities_at_or_above_threshold": 4,
+        "sampled_pair_comparisons": 10496,
+        "sampled_query_entities_with_valid_sequence": 41,
+        "sampled_reference_entities_with_valid_sequence": 256,
+        "status": "completed_deterministic_capped_sample"
+      },
+      "validation_vs_test": {
+        "maximum_sampled_similarity": 0.625,
+        "population_cartesian_pairs": 2091,
+        "population_query_entities_with_nonblank_sequence": 51,
+        "population_reference_entities_with_nonblank_sequence": 41,
+        "query_entities_at_or_above_threshold": 0,
+        "sampled_pair_comparisons": 2091,
+        "sampled_query_entities_with_valid_sequence": 51,
+        "sampled_reference_entities_with_valid_sequence": 41,
+        "status": "completed_deterministic_capped_sample"
+      }
+    },
+    "population_unique_entities_with_nonblank_sequence": {
+      "test": 51,
+      "train": 279,
+      "validation": 41
+    },
+    "sample_cap_per_partition": 256,
+    "sampled_unique_entities": {
+      "test": 51,
+      "train": 256,
+      "validation": 41
+    },
+    "sampling": "smallest_sha256_rank_per_partition_without_seed_search",
+    "threshold": 0.8
+  },
+  "record_coverage": {
+    "completeness": "exhaustive_disk_backed_primary_key_join",
+    "extra_assignments": 0,
+    "feature_records": 21736,
+    "missing_assignments": 0,
+    "split_records": 21736
+  },
+  "schema_version": "platform_split_feature_leakage_v1",
+  "strategy": "double_cold",
+  "substantive_training_started": false,
+  "test_feature_access_policy": "test feature identities/structures/sequences may be inspected only for predeclared leakage auditing; test labels are absent from the projection and never accessed",
+  "test_labels_disclosed": false
+}

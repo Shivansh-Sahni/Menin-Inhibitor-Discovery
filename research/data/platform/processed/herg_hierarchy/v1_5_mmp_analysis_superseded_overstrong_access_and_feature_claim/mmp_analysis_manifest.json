@@ -1,0 +1,96 @@
+{
+  "artifacts": {
+    "mmp_pair_registry.parquet": {
+      "arrow_schema_sha256": "b2278f0c74f19edd94c0dd479e7fdb0b2bb2d1c7939c03fdefa346c69b4d4843",
+      "bytes": 2026637,
+      "path": "mmp_pair_registry.parquet",
+      "rows": 48988,
+      "sha256": "8a79da8ecc0ccdda3911e27b468c660aed74d0bbfbb6c51d1ad1889509b1938b"
+    },
+    "skipped_oversized_mmp_cores.parquet": {
+      "arrow_schema_sha256": "eaca46833c5576a39249df7cc5e09010e4ba4465854d09709826db989a304211",
+      "bytes": 3405,
+      "path": "skipped_oversized_mmp_cores.parquet",
+      "rows": 2,
+      "sha256": "a7a04b8960b13eccc0cd9cd7ad77ec2c7f1cba275158d5ea143a46a49ec81a65"
+    },
+    "training_mmp_descriptor_associations.parquet": {
+      "arrow_schema_sha256": "ba0c7c0dcbd4918b6800ef0611fc6415156baca1105df4c6398d5b2c037596f2",
+      "bytes": 4848,
+      "path": "training_mmp_descriptor_associations.parquet",
+      "rows": 8,
+      "sha256": "ea4dec9338261f3008cd7a1db946ab1d38d9710acd80aecf9edb913cb58a6b2d"
+    },
+    "training_mmp_effects.parquet": {
+      "arrow_schema_sha256": "0da1175e7a4e0ef0c72724077462ee9a5fdf03ea2103c5d3dd887b297ae38079",
+      "bytes": 2631637,
+      "path": "training_mmp_effects.parquet",
+      "rows": 43824,
+      "sha256": "07f6946cd6e3accbe07df27b4f05b104af7bb3f07ab37521575d921abdcc5494"
+    }
+  },
+  "counts": {
+    "activity_cliffs_ge_1_pic50_train": 6161,
+    "fragmentation_failures": 0,
+    "mmp_pairs": 48988,
+    "q1_structures": 22081,
+    "skipped_oversized_cores": 2,
+    "test_pair_definitions": 2264,
+    "train_pairs_with_effects": 43824,
+    "validation_pair_definitions": 2900
+  },
+  "inputs": [
+    {
+      "bytes": 10807,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/herg_master_manifest.json",
+      "role": "master_manifest",
+      "sha256": "50ea776b1b88dcd97b99e051bdccc729f9f23d87681c1469c6146395482f0eb2"
+    },
+    {
+      "arrow_schema_sha256": "d37749283ef329d3367e471ed41255a26707a2fc2becec72248446803c0b277d",
+      "bytes": 31936413,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/task_membership.parquet",
+      "role": "task_membership",
+      "rows": 370167,
+      "sha256": "9c7b660345e84f7bcacdfb9be9054b2ee4529e72317a59ff2faba8c0a756f820"
+    },
+    {
+      "arrow_schema_sha256": "d03437bdf339902cd7a445bd5bf9c9a841246ad7e1e779a23da151b56faaf553",
+      "bytes": 55903040,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/structure_master.parquet",
+      "role": "structure_master",
+      "rows": 369546,
+      "sha256": "148f9e26aa8249112dc2bdd26c6cc999cfa8d564a7a5c652d8403a1293727b29"
+    },
+    {
+      "bytes": 20756,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/pipeline/src/menin_discovery/platform_herg_mmp_analysis.py",
+      "role": "builder_implementation",
+      "sha256": "7de925323b85bc9196e42ce5a6edbc4c68fdf2c21bbbd7c24bd4aa210e653b07"
+    }
+  ],
+  "manifest_sha256": "2d60ac740895d1776a4c71af3b55adbfd76e5c2af4687523e87cd2814cb1edfe",
+  "master_manifest_sha256": "5495fc151b4fd2dfafeceb0c327596524e8c734a369df211134961ff901e2ec4",
+  "pair_definition": {
+    "cuts": 1,
+    "deduplication": "one_pair_then_largest_core_lexical_tiebreak",
+    "maximum_pairs_per_core": 2016,
+    "maximum_unique_variable_fragments_per_core": 64,
+    "maximum_variable_fraction": 0.35,
+    "maximum_variable_heavy_atoms": 12,
+    "minimum_core_heavy_atoms": 10
+  },
+  "schema_version": "platform-herg-mmp-analysis/1.0",
+  "scientific_contract": {
+    "effect_estimation_partition": "train_only",
+    "label_columns_opened_by_builder": true,
+    "mechanistic_or_causal_claim": false,
+    "models_trained": false,
+    "new_molecular_features_generated": false,
+    "nontraining_label_values_opened": false,
+    "nontraining_label_values_retained_in_outputs": false,
+    "pair_registry_uses_labels": false,
+    "test_labels_opened": false,
+    "validation_test_pairs_are_definition_only": true
+  }
+}

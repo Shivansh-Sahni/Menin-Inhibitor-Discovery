@@ -1,0 +1,94 @@
+{
+  "artifact_set_sha256": "848799887d01864b593995e55496bde79279e9382e6fa33ab28eed664b2f5bec",
+  "artifacts": [
+    {
+      "arrow_schema_sha256": "2557fd01547f8c9d1477ea82a7a5646b3561a08b1811f10d497afb4a82454408",
+      "bytes": 13706567,
+      "path": "structure_evidence_tiers.parquet",
+      "rows": 369546,
+      "sha256": "a73d11a34160b1bb36f5dda2cabfc0b9b418c8e82c5347f139d875542509804d"
+    },
+    {
+      "arrow_schema_sha256": "c5aa1a229b0e95397618d321e7f939266fb87516db5111d1fb712baab5ec775e",
+      "bytes": 8822,
+      "path": "cross_lineage_t1_candidates.parquet",
+      "rows": 27,
+      "sha256": "691533f68fa3ea2a34830fec7fa0d7571821f1fa690734a8afcac1bd10b071cb"
+    }
+  ],
+  "counts": {
+    "T0_reported_structures": 369546,
+    "clinical_development_annotations": 3056,
+    "cross_lineage_T1_candidates": 27,
+    "cross_lineage_candidate_states": {
+      "concordant_review_candidate": 11,
+      "discordant_review_candidate": 16
+    },
+    "formal_T1_assignments": 0,
+    "formal_T2_assignments": 0,
+    "formal_T3_assignments": 0,
+    "model_labels_admitted": 0,
+    "posted_QT_candidate_records": 221,
+    "structures": 369546,
+    "structures_with_posted_QT_candidates": 95
+  },
+  "dataset_id": "herg_unified_candidate_evidence_tiers",
+  "input_bindings": [
+    {
+      "bytes": 5148,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1/manifest.json",
+      "role": "hierarchy_manifest",
+      "sha256": "02bb75b55fabb73f550df5ef3c1dac9cbe3aa2a64dd96e3a7da21239ba5a77e1"
+    },
+    {
+      "bytes": 27245229,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1/observation_ledger.parquet",
+      "role": "hierarchy_observation_ledger",
+      "sha256": "46e54744581d4ad698fd257a2483c2f688d281a7ec9792d862248eb6c14c4b2a"
+    },
+    {
+      "bytes": 14192742,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1/hierarchy_annotations.parquet",
+      "role": "hierarchy_annotations",
+      "sha256": "4a709fca669a3bd95447b64c431dfb22d7016fb6b7363c76aa1d0023553d11fd"
+    },
+    {
+      "bytes": 3704,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_clinical_links/herg_clinical_links_manifest.json",
+      "role": "clinical_links_manifest",
+      "sha256": "d5c3192ffd529131075a068b483199e308820b65374ebbc41ef398485d4b4507"
+    },
+    {
+      "bytes": 14237882,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_clinical_links/structure_development_annotations.parquet",
+      "role": "clinical_development_annotations",
+      "sha256": "101a558ec70280c8187c041510020bd85f99f6dc02d0204e59b1409acafbefd8"
+    },
+    {
+      "bytes": 100298,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_clinical_links/t2_clinical_cardiac_evidence_candidates.parquet",
+      "role": "clinical_t2_candidates",
+      "sha256": "fbe717ab9e88c45ceb00913091b939bcb29158158b6808da341b4b473aaa8f6b"
+    },
+    {
+      "bytes": 100298,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_clinical_links/t3_posted_qt_trial_result_candidates.parquet",
+      "role": "clinical_t3_posted_qt_candidates",
+      "sha256": "fbe717ab9e88c45ceb00913091b939bcb29158158b6808da341b4b473aaa8f6b"
+    }
+  ],
+  "input_set_sha256": "e5329b4312116e55fe2476aab3b1bf65dc7c9040ea9e25bdae11dcb2480f615b",
+  "manifest_sha256": "f618370473f6612012bbcc19b968cfd2c30be612495d801d17cd094ba02ea33d",
+  "schema_version": "platform-herg-evidence-tiers/1.0",
+  "scientific_contract": {
+    "absence_is_negative_evidence": false,
+    "clinical_development_is_t2": false,
+    "clinical_state": "development_and_posted_QT_QTc_are_annotations_or_review_candidates; neither_is_a_hERG_label_or_formal_T2_T3_assignment",
+    "cross_lineage_state": "cross_lineage_review_candidate_only; upstream_independence_and_modality_comparability_not_adjudicated; never_formal_T1",
+    "formal_highest_assigned_tier": "T0_reported",
+    "formal_t1_assignments": 0,
+    "formal_t2_assignments": 0,
+    "formal_t3_assignments": 0,
+    "posted_qt_is_herg_label": false
+  }
+}

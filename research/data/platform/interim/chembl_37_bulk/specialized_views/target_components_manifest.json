@@ -1,0 +1,92 @@
+{
+  "arrow_schema": {
+    "fields": [
+      {
+        "name": "target_chembl_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_name",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_organism",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_tax_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "component_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "homologue",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "accession",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "sequence",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "sequence_md5sum",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_organism",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_tax_id",
+        "nullable": true,
+        "type": "int64"
+      }
+    ],
+    "format": "apache-arrow-field-contract-v1",
+    "schema_metadata": null,
+    "sha256": "8bc92710e2b980c6e02e5a4dab89be99ec12c722485f7c9e5d1b5cb3d35a2fd0"
+  },
+  "arrow_schema_sha256": "8bc92710e2b980c6e02e5a4dab89be99ec12c722485f7c9e5d1b5cb3d35a2fd0",
+  "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+  "path": "target_components.parquet",
+  "query": "SELECT t.\"chembl_id\" AS \"target_chembl_id\", t.\"pref_name\" AS \"target_name\", t.\"target_type\" AS \"target_type\", t.\"organism\" AS \"target_organism\", t.\"tax_id\" AS \"target_tax_id\", tc.\"component_id\" AS \"component_id\", tc.\"homologue\" AS \"homologue\", cs.\"accession\" AS \"accession\", cs.\"component_type\" AS \"component_type\", cs.\"sequence\" AS \"sequence\", cs.\"sequence_md5sum\" AS \"sequence_md5sum\", cs.\"organism\" AS \"component_organism\", cs.\"tax_id\" AS \"component_tax_id\"\nFROM target_dictionary AS t\nLEFT JOIN target_components AS tc ON t.tid = tc.tid\nLEFT JOIN component_sequences AS cs ON tc.component_id = cs.component_id\nORDER BY t.chembl_id, tc.component_id",
+  "query_sha256": "ef35100801d583682636db464affacf3314c271c00d32866e5d76b5455637650",
+  "row_count": 22622,
+  "schema_normalization_receipt": {
+    "parquet_files": 162,
+    "path": "schema_normalization_receipt.json",
+    "sha256": "f15fdded578000962073676796a879c77c395c4f92a099b20b072a0990a653df",
+    "size_bytes": 141673
+  },
+  "schema_normalized_at_utc": "2026-08-04T19:36:08Z",
+  "schema_version": "platform-evidence-1.0.0",
+  "sha256": "6d7543e77a959de564467455b5152b453e71812143666671386daec20514a658",
+  "size_bytes": 5701232,
+  "source_version": "ChEMBL_37",
+  "view_name": "target_components"
+}

@@ -1,0 +1,517 @@
+{
+  "artifacts": {
+    "BENCHMARK_FREEZE_V1_5.md": {
+      "bytes": 3177,
+      "path": "BENCHMARK_FREEZE_V1_5.md",
+      "sha256": "4ac164ad95500ce7e623c754a8156baac8ca121e703bdc0e322c4906b0f2a200"
+    },
+    "benchmark_blocker_evidence_v1_5.parquet": {
+      "arrow_schema_sha256": "99c2b241de455009a36cb4337d428730c1372255ce67069376bc1fc0f594caef",
+      "bytes": 7555,
+      "path": "benchmark_blocker_evidence_v1_5.parquet",
+      "rows": 6,
+      "sha256": "afcee90edc776211324a8cc856ae1024aa561a60cb6b2502eca403a2edaf79e2"
+    },
+    "benchmark_challenge_registry_v1_5.parquet": {
+      "arrow_schema_sha256": "67ecd6fdb2ab5c31f6e5f67800fc7bcf5a7c79445a125b91606fc5881e318307",
+      "bytes": 15418,
+      "path": "benchmark_challenge_registry_v1_5.parquet",
+      "rows": 13,
+      "sha256": "c3056e951de4afacc2756519674826ee0afbc0504e280fba606c2735d7f499c9"
+    },
+    "context_metadata_evidence_v1_5.parquet": {
+      "arrow_schema_sha256": "2898c7bd8317295f12a69f8fb688ec5bbfb151182dd6978d258a82ec842b8b1d",
+      "bytes": 6931,
+      "path": "context_metadata_evidence_v1_5.parquet",
+      "rows": 8,
+      "sha256": "df047f3cbe08706e6843945a2662d16e692d6786440df2f32ad9a83575c63417"
+    },
+    "frozen_challenge_memberships_v1_5.parquet": {
+      "arrow_schema_sha256": "0026985608943518714c4a12ae1f727dd788c57621df74006be56a8dd30e42d5",
+      "bytes": 1047773,
+      "path": "frozen_challenge_memberships_v1_5.parquet",
+      "rows": 15435,
+      "sha256": "98868f387127d02a155f35d1096f956d76511d026efb492abbbe77bf10a0963d"
+    },
+    "low_similarity_audit_v1_5.parquet": {
+      "arrow_schema_sha256": "beff0910e13741a103f4e25839e9007b786598a7f8dd171da9afac2db6a436e4",
+      "bytes": 91009,
+      "path": "low_similarity_audit_v1_5.parquet",
+      "rows": 797,
+      "sha256": "9bee446a4fe79d984e8c4a57f38ff7954744b1f7a749e18f0e13be38f79b6e39"
+    }
+  },
+  "challenge_metadata": {
+    "Q2_ASSAY_GROUP_HOLDOUT": {
+      "algorithm": "descending_group_size_minimum_normalized_squared_deficit_v1",
+      "groups": 156,
+      "known_context_rows": 3548,
+      "population_rows": 3548,
+      "pre_purge_split_rows": {
+        "test": 669,
+        "train": 2353,
+        "validation": 526
+      },
+      "purge": {
+        "cross_partition_scaffolds": 474,
+        "cross_partition_structures": 581,
+        "post_purge_rows": 1610,
+        "post_purge_split_rows": {
+          "test": 273,
+          "train": 1278,
+          "validation": 59
+        },
+        "purged_rows_union": 1938,
+        "rows_touching_cross_partition_scaffold": 1938,
+        "rows_touching_cross_partition_structure": 1256
+      },
+      "seed": 20260805,
+      "seed_search_performed": false,
+      "unknown_context_rows": 0
+    },
+    "Q2_AUTOMATED_PATCH_MODALITY_HOLDOUT": {
+      "algorithm": "all_automated_patch_to_test_nonautomated_base_train_validation_v1",
+      "pre_purge_split_rows": {
+        "test": 854,
+        "train": 1923,
+        "validation": 281
+      },
+      "purge": {
+        "cross_partition_scaffolds": 48,
+        "cross_partition_structures": 30,
+        "post_purge_rows": 2753,
+        "post_purge_split_rows": {
+          "test": 738,
+          "train": 1763,
+          "validation": 252
+        },
+        "purged_rows_union": 305,
+        "rows_touching_cross_partition_scaffold": 305,
+        "rows_touching_cross_partition_structure": 107
+      }
+    },
+    "Q2_CHEMBL37_EXACT_TEMPORAL_COMPLETE_CASE": {
+      "algorithm": "whole_year_nearest_cumulative_70_85_reserve_one_year_each_v1",
+      "canonical_exact_task_rows": 137,
+      "distinct_years": 8,
+      "eligible_q2_overlap_rows": 131,
+      "known_context_rows": 131,
+      "population_rows": 131,
+      "pre_purge_split_rows": {
+        "test": 43,
+        "train": 71,
+        "validation": 17
+      },
+      "purge": {
+        "cross_partition_scaffolds": 9,
+        "cross_partition_structures": 7,
+        "post_purge_rows": 106,
+        "post_purge_split_rows": {
+          "test": 36,
+          "train": 60,
+          "validation": 10
+        },
+        "purged_rows_union": 25,
+        "rows_touching_cross_partition_scaffold": 25,
+        "rows_touching_cross_partition_structure": 18
+      },
+      "train_max_year": 2008,
+      "unknown_context_rows": 0,
+      "validation_max_year": 2011
+    },
+    "Q2_DOCUMENT_GROUP_HOLDOUT": {
+      "algorithm": "descending_group_size_minimum_normalized_squared_deficit_v1",
+      "groups": 24,
+      "known_context_rows": 3548,
+      "population_rows": 3548,
+      "pre_purge_split_rows": {
+        "test": 800,
+        "train": 2079,
+        "validation": 669
+      },
+      "purge": {
+        "cross_partition_scaffolds": 184,
+        "cross_partition_structures": 157,
+        "post_purge_rows": 2380,
+        "post_purge_split_rows": {
+          "test": 684,
+          "train": 1423,
+          "validation": 273
+        },
+        "purged_rows_union": 1168,
+        "rows_touching_cross_partition_scaffold": 1168,
+        "rows_touching_cross_partition_structure": 372
+      },
+      "seed": 20260805,
+      "seed_search_performed": false,
+      "unknown_context_rows": 0
+    },
+    "Q2_DOCUMENT_YEAR_TEMPORAL_COMPLETE_CASE": {
+      "algorithm": "whole_year_nearest_cumulative_70_85_reserve_one_year_each_v1",
+      "distinct_years": 11,
+      "known_context_rows": 2077,
+      "population_rows": 3548,
+      "pre_purge_split_rows": {
+        "test": 1809,
+        "train": 182,
+        "validation": 86
+      },
+      "purge": {
+        "cross_partition_scaffolds": 66,
+        "cross_partition_structures": 69,
+        "post_purge_rows": 1604,
+        "post_purge_split_rows": {
+          "test": 1507,
+          "train": 86,
+          "validation": 11
+        },
+        "purged_rows_union": 473,
+        "rows_touching_cross_partition_scaffold": 473,
+        "rows_touching_cross_partition_structure": 228
+      },
+      "train_max_year": 2011,
+      "unknown_context_rows": 1471,
+      "validation_max_year": 2014
+    },
+    "Q2_LOW_SIMILARITY_060_SCAFFOLD": {
+      "algorithm": "sequential_validation_then_test_maximum_training_reference_tanimoto_v1",
+      "purge": {
+        "purged_rows_union": 0
+      },
+      "threshold": 0.6
+    },
+    "Q2_NO_NEAR_DUPLICATE_080_SCAFFOLD": {
+      "algorithm": "sequential_validation_then_test_maximum_training_reference_tanimoto_v1",
+      "purge": {
+        "purged_rows_union": 0
+      },
+      "threshold": 0.8
+    }
+  },
+  "configuration": {
+    "analysis_date": "2026-08-09",
+    "fingerprint_backend": "rdkit",
+    "fingerprint_bits": 2048,
+    "fingerprint_radius": 2,
+    "group_split_seed": 20260805,
+    "low_similarity_threshold": 0.6,
+    "minimum_holdout_structures": 30,
+    "near_duplicate_threshold": 0.8,
+    "temporal_rule": "whole_year_nearest_cumulative_70_85_reserve_one_year_each_v1",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "counts": {
+    "blocked_challenges": 6,
+    "eligible_q2_rows": 3548,
+    "eligible_q2_structures": 2776,
+    "exact_q2_overlap_rows": 131,
+    "materialized_challenges": 7,
+    "membership_rows": 15435
+  },
+  "implementation": {
+    "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/pipeline/src/menin_discovery/platform_herg_benchmark_freeze_v15.py",
+    "sha256": "fd5e1dcfb94cb0bc36ef63997bc6f29f112a5fc811e284869c7cbccdcaece689"
+  },
+  "manifest_sha256": "fa64ea392adb166c8a0511054c96396c5d397e6ea27ee70af3a07e6a381de3ea",
+  "projection_contract": {
+    "canonical_exact_task": [
+      "source_record_id"
+    ],
+    "canonical_observations": [
+      "source_record_id",
+      "observation_id",
+      "assay_id",
+      "document_id",
+      "document_year"
+    ],
+    "forbidden_read_columns": [
+      "derived_binary_label",
+      "label_kind",
+      "label_lower_bound",
+      "label_relation",
+      "label_text",
+      "label_unit",
+      "label_upper_bound",
+      "label_value",
+      "native_label",
+      "native_relation",
+      "native_value",
+      "potency_pic50_lower_bound",
+      "potency_pic50_point",
+      "potency_pic50_upper_bound",
+      "potency_relation_pic50",
+      "target_class",
+      "target_pic50_lower_bound",
+      "target_pic50_point",
+      "target_pic50_upper_bound",
+      "target_relation_pic50"
+    ],
+    "observation_master": [
+      "observation_id",
+      "source_family",
+      "source_record_id"
+    ],
+    "structure_master": [
+      "structure_id",
+      "standardized_smiles",
+      "model_split",
+      "scaffold_group_id"
+    ],
+    "task_membership": [
+      "membership_id",
+      "task_id",
+      "quality_level",
+      "source_artifact",
+      "record_id",
+      "observation_id",
+      "structure_id",
+      "target_scope",
+      "source_family",
+      "measurement_technology",
+      "model_split",
+      "scaffold_group_id",
+      "eligible",
+      "use_as_training_label",
+      "clinical_context_only"
+    ]
+  },
+  "roots": {
+    "canonical_root": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37",
+    "exact_task_path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/tasks/default/default_herg_ic50_herg_functional_nm_continuous_exact/part-00006.parquet",
+    "master_root": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master"
+  },
+  "schema_version": "platform-herg-benchmark-freeze/1.5",
+  "scientific_contract": {
+    "adjudicated_gold_standard_created": false,
+    "external_holdout_created": false,
+    "labels_embedded": false,
+    "native_values_or_labels_read": false,
+    "predictive_superiority_established": false,
+    "seed_search_performed": false,
+    "target_bounds_read": false,
+    "target_classes_read": false,
+    "target_relations_read": false,
+    "target_values_read": false,
+    "test_labels_opened": false,
+    "training_performed": false
+  },
+  "similarity_contract": {
+    "backend": "rdkit_morgan",
+    "bits": 2048,
+    "label_columns_read": [],
+    "population_structures": 2776,
+    "radius": 2,
+    "rdkit_version": "2026.03.3",
+    "test_structures": 511,
+    "threshold_selection": "fixed in the v1.5 feature-only contract before artifact materialization; 0.80 also matches the earlier deep-leakage near-duplicate contract",
+    "thresholds": {
+      "060": 0.6,
+      "080": 0.8
+    },
+    "train_structures": 1979,
+    "validation_structures": 286
+  },
+  "source_inputs": [
+    {
+      "bytes": 3771050,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/build_manifest.json",
+      "sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 219963,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00000.parquet",
+      "rows": 2498,
+      "sha256": "13878d640708d430da78d9e4cf1d4ac16c6a2598fd44513f6344b409f7ee6f48"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 15513613,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00001.parquet",
+      "rows": 199999,
+      "sha256": "a6027ca71e17fde56782a4fa242a351e0cc5632a766bb22b426c774ba93a9343"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 15397478,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00002.parquet",
+      "rows": 200000,
+      "sha256": "2c2d10faeb3f58b154060b4dfc10a0ae12d8f4eb1bd3690312447b8043596ca9"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 12980726,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00003.parquet",
+      "rows": 200000,
+      "sha256": "e1fb846b7b748d68b4a8e7b0759d79fc474c9b5883c3bcbe218ab16fcaf1bbf2"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 15348528,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00004.parquet",
+      "rows": 200000,
+      "sha256": "3facceef65f00df7b9f90bbb7069c20470b6afccf3bcb451f8de1779a55857b0"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 4268856,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00005.parquet",
+      "rows": 64472,
+      "sha256": "8e361d2af523ddbc5ab005bac13b3cc53e462498447983a5a9967adc662e0b93"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 3141685,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00006.parquet",
+      "rows": 40969,
+      "sha256": "ce495907e519b05462308ba562af1077e067d12d8054849980dca365dfd36b3c"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14779314,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00007.parquet",
+      "rows": 206902,
+      "sha256": "c5dd40cf1e1a459190e0932a5b39e457c6005686dc03069a4d55bf09920d9a01"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 12149254,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00008.parquet",
+      "rows": 212531,
+      "sha256": "707e05af85488bef2a7bba434e0b23378266a7d4a0330a320c8651f0b114c07c"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14641101,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00009.parquet",
+      "rows": 210289,
+      "sha256": "9d340580a6bb718828c01517a82093064f3b5914b2443868f95f40b9f941208e"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 17283484,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00010.parquet",
+      "rows": 226639,
+      "sha256": "a79e4a0131a67b59c80a6bfdf4126932e696b9a35c38bd5123a5aca57c9b3e9d"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 4758337,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00011.parquet",
+      "rows": 65606,
+      "sha256": "a71f302c403a40a287f1d3bea4beef6de54e18357c609e94f83ea38282b31e22"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 13583437,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00012.parquet",
+      "rows": 195678,
+      "sha256": "7268271da0d3fb6e8f0e22ea862c65840fb0a43e475f8cdede37d52ae217cf96"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 13642248,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00013.parquet",
+      "rows": 195026,
+      "sha256": "c74e0f73e4570488bc18cb37afa7809518cae67ed15d6b6cc43394e4af3d902a"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 13700186,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00014.parquet",
+      "rows": 196172,
+      "sha256": "0717cfda14fdbe420db7893fd573875bb8e99cd757e2db84ba051d0a879fe3c7"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14036914,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00015.parquet",
+      "rows": 193254,
+      "sha256": "6bd1dd08ae54955725d8fae0ea998f541515462e23d0f53378eb243e6c67ba53"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14080718,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00016.parquet",
+      "rows": 194049,
+      "sha256": "d4d50476594010745f6104d3e45dd9e2af964bb79073aebb5b247b15a00e06b6"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14048930,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00017.parquet",
+      "rows": 193031,
+      "sha256": "ba90f7042852e832010efd751a4f7e89729e4830893298be3c1ad803ef295f54"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14071704,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00018.parquet",
+      "rows": 194159,
+      "sha256": "805e7e770e47bf90b134d4faba8be0d07fc8ac594b8841c254dcce2138659e8f"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 14421714,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00019.parquet",
+      "rows": 194920,
+      "sha256": "cfb3fb4e5d6e67d462409d4fac5f4822f1b754b8a35ccf2799dbf71e354d281a"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 13130249,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00020.parquet",
+      "rows": 195473,
+      "sha256": "9edbacd04fecd85ee32c7e531072537d750cb9b02f72138b303d8ecf238d7332"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 13175809,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00021.parquet",
+      "rows": 196238,
+      "sha256": "da8e6fd9116d2a50da8577844228d8bb5a128c18961c707089f844355b3bbc18"
+    },
+    {
+      "arrow_schema_sha256": "2ecc7737b79cf46a4782e5ae21099b2af108bc48f68b4461020c272c4092439b",
+      "bytes": 11424704,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/observations/part-00022.parquet",
+      "rows": 160467,
+      "sha256": "7add61e73e7241edb41b529f1905e81d3d1022dd28cb6ce2ec6e6a6fff41da41"
+    },
+    {
+      "arrow_schema_sha256": "24525673e16b10cec4028b1fa7dba6c3f1c6db9fe48108d3868ea35479675c57",
+      "bytes": 38987,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/canonical/full_chembl37/tasks/default/default_herg_ic50_herg_functional_nm_continuous_exact/part-00006.parquet",
+      "rows": 137,
+      "sha256": "11da5838e9293900af16ff7ffe35631ae6654b8b1e10ea6aab42f4c3f7d99d0c"
+    },
+    {
+      "bytes": 10807,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/herg_master_manifest.json",
+      "sha256": "50ea776b1b88dcd97b99e051bdccc729f9f23d87681c1469c6146395482f0eb2"
+    },
+    {
+      "arrow_schema_sha256": "6d857b0a3baa9f1891c63405109103a5b5d96d1f3bec6d954bc6b3fddf3af185",
+      "bytes": 54254576,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/observation_master.parquet",
+      "rows": 407698,
+      "sha256": "daf2d27e5c0ee263ffd88f8bec16ee863e0d4ce5fb571ed05c79b9871ae81ab2"
+    },
+    {
+      "arrow_schema_sha256": "d03437bdf339902cd7a445bd5bf9c9a841246ad7e1e779a23da151b56faaf553",
+      "bytes": 55903040,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/structure_master.parquet",
+      "rows": 369546,
+      "sha256": "148f9e26aa8249112dc2bdd26c6cc999cfa8d564a7a5c652d8403a1293727b29"
+    },
+    {
+      "arrow_schema_sha256": "d37749283ef329d3367e471ed41255a26707a2fc2becec72248446803c0b277d",
+      "bytes": 31936413,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1_3_master/task_membership.parquet",
+      "rows": 370167,
+      "sha256": "9c7b660345e84f7bcacdfb9be9054b2ee4529e72317a59ff2faba8c0a756f820"
+    }
+  ]
+}

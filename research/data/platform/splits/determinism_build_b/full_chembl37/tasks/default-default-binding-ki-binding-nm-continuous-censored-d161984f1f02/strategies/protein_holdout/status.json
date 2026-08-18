@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-binding-ki-binding-nm-continuous-censored-d161984f1f02/strategies/protein_holdout/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "6da296b5b714a0068d83a89c217bc6e351f29fd4ebcdc9256a92ff3d0f96bbab",
+  "mandatory_candidate": false,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 7749,
+    "train": 41125,
+    "validation": 10440
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-binding-ki-binding-nm-continuous-censored-d161984f1f02/strategies/protein_holdout/split.parquet.manifest.json",
+  "sidecar_sha256": "b813961ac77e25fc70edfa311aaa0d3346c250744402ee978be375d32f20947b",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-binding-ki-binding-nm-continuous-censored-d161984f1f02/strategies/protein_holdout/split.parquet",
+  "split_rows": 59314,
+  "split_sha256": "a606aa7a4c35d8e7bed78b19a7adfc363144571eb9d82d7d7283adb5a79973de",
+  "status": "materialized",
+  "strategy": "protein_holdout",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

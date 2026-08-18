@@ -1,0 +1,136 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1117357,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "10589",
+              "source_id": {
+                "str": "Schmich_2015"
+              },
+              "date": {
+                "std": {
+                  "year": 2015,
+                  "month": 9,
+                  "day": 9
+                }
+              }
+            }
+          },
+          "name": "InfectX: Pathogen infection siRNA screens",
+          "description": [
+            "Pathogen infection siRNA screens for Bartonella henselae, Brucella abortus and Salmonella typhimurium performed within the InfectX consortium (http://www.infectx.ch)."
+          ],
+          "protocol": [
+            "Below, we sketch out the assay protocol. Detailed description can be found in Ramo et al., 2014 and Schmich et al., 2015.",
+            "",
+            "Cell culture:",
+            "Experiments were performed in HeLa CCL-2 (ATCC) cells.",
+            "",
+            "siRNA transfection and infection:",
+            "We used various commercially available siRNA libraries from Ambion, Dharmacon and Qiagen of different scale (genome and kinome wide) and structure (single and pooled). All experiments were conducted in a 384-well plate format. After transfection, pathogen was added to wells.",
+            "",
+            "Imaging:",
+            "Cells were stained for DNA, F-actin and infection specific markers and imaged on Molecular Devices ImageXpress microscopes.",
+            "",
+            "Phenotyping:",
+            "Infectivity phenotypes were derived using CellProfiler from image data. We removed outlier wells, normalized for row and column effects using B scoring from Brideau et al. and scaled by median absolute deviation."
+          ],
+          "comment": [
+            ""
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 26445817
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "NCBI.Gene.ID",
+              "description": [
+                "NCBI Entrez ID of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 2,
+              "name": "SIRNA_SET",
+              "description": [
+                "ID"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Infectivity_Bartonella",
+              "description": [
+                "B-score"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Activity_Bartonella",
+              "description": [
+                "Quantile"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "Infectivity_Brucella",
+              "description": [
+                "B-score"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Activity_Brucella",
+              "description": [
+                "Quantile"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Infectivity_Salmonella",
+              "description": [
+                "B-score"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Activity_Salmonella",
+              "description": [
+                "Quantile"
+              ],
+              "type": 2,
+              "unit": 254
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 8
+        }
+      }
+    }
+  ]
+}

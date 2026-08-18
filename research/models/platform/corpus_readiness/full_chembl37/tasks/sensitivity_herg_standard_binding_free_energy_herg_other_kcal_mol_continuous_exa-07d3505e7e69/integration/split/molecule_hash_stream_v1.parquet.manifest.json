@@ -1,0 +1,88 @@
+{
+  "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+  "bounded_memory": {
+    "configured_batch_rows": 50000,
+    "maximum_observed_batch_rows": 44,
+    "maximum_observed_input_pandas_deep_bytes": 118984,
+    "record_id_uniqueness_state": "temporary_sqlite_on_disk"
+  },
+  "claim_readiness": "not_claim_ready_until_separate_cross_partition_near_duplicate_audit_is_complete_and_accepted",
+  "config": {
+    "allow_derived_labels": true,
+    "chemical_cluster_bits": 1024,
+    "chemical_cluster_count": null,
+    "date_column": "document_year",
+    "derived_label_lineage_column": "label_lineage_digest",
+    "intended_use": "new molecule within the observed public task domain at platform scale",
+    "label_column": "label_value",
+    "molecule_id_column": "molecule_id",
+    "name": "molecule_hash_stream_v1",
+    "near_duplicate_max_dense_bytes": 536870912,
+    "near_duplicate_max_pair_comparisons": 20000000,
+    "near_duplicate_max_protein_pair_comparisons": 5000000,
+    "near_duplicate_sequence_jaccard": 0.8,
+    "near_duplicate_tanimoto": 0.8,
+    "protein_id_column": "protein_id",
+    "record_id_column": "observation_id",
+    "seed": 20260804,
+    "sequence_kmer_size": 3,
+    "smiles_column": "standardized_smiles",
+    "source_id_column": "source_id",
+    "strategy": "molecule_grouped",
+    "target_id_column": "canonical_target_id",
+    "task_type": "regression",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "config_sha256": "d08588531eb3cdb8fb4673f03bf6b8485e09f26bbe092990a7b75a3f3688fe8e",
+  "exact_group_exclusion": "guaranteed_by_deterministic_group_to_partition_function",
+  "fraction_policy": "approximate_under_stable_group_hash_not_greedy_or_stratified",
+  "group_method_row_counts": {
+    "stable_sha256_group_hash": 44
+  },
+  "manifest_path": "molecule_hash_stream_v1.parquet",
+  "manifest_sha256": "89feac029395a98930aee1fe6cca1a4942a91054e0e26ae6ef7ec8b18b285287",
+  "near_duplicate_audit": "separate_required_not_implied_by_group_hash",
+  "observation_kind_counts": {
+    "derived": 44
+  },
+  "partition_counts": {
+    "test": 7,
+    "train": 28,
+    "validation": 9
+  },
+  "record_count": 44,
+  "record_id_uniqueness": "complete_disk_backed_primary_key_audit",
+  "row_order_binding": "manifest source_row_index exactly matches source Parquet row order across the deterministically sorted source part contract",
+  "schema_version": "stream_hash_group_split_v1",
+  "source_dataset": {
+    "dataset_sha256": "89706db44d6cfa8ed9fcb633d43a9ab95509db6474f170baf519c2a348a6f75c",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_herg_standard_binding_free_energy_herg_other_kcal_mol_continuous_exact/part-00006.parquet",
+        "rows": 44,
+        "sha256": "407389d68658a3a4bec6811c006589ef5d95b21163ab96cf974881c526ad1b9e"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 44
+  },
+  "source_dataset_manifest_path": "../../../../../../../../data/platform/canonical/full_chembl37/build_manifest.json",
+  "source_dataset_sha256": "89706db44d6cfa8ed9fcb633d43a9ab95509db6474f170baf519c2a348a6f75c",
+  "source_task_path": "../../../../../../../../data/platform/canonical/full_chembl37/tasks/derived_sensitivity/sensitivity_herg_standard_binding_free_energy_herg_other_kcal_mol_continuous_exact",
+  "split_name": "molecule_hash_stream_v1",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "task_signature": {
+    "assay_family": "herg_other",
+    "endpoint": "standard_binding_free_energy",
+    "evidence_domain": "herg",
+    "label_kind": "continuous_exact",
+    "label_unit": "kcal/mol",
+    "task_id": "TASK-862A7CCDB5290EB3CD6BF292",
+    "task_type": "sensitivity__herg__standard_binding_free_energy__herg_other__kcal_mol__continuous_exact"
+  }
+}

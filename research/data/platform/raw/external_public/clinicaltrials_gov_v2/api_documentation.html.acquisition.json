@@ -1,0 +1,30 @@
+{
+  "acquired_bytes": 94295,
+  "acquired_md5": null,
+  "acquired_sha256": "e6e64acd2df5a4459205bd1aa476d09fc4d6d18d47f4f48fa04a4a1908f73d16",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://clinicaltrials.gov/data-api/api",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "api_documentation.html",
+  "manifest_sha256": "ebb44087bde2007b57a89c03324ce5c0f3bab8eefefc5f3e991697fd8cd572c3",
+  "resolved_url": "https://clinicaltrials.gov/data-api/api",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "no-cache,no-store, max-age=0, must-revalidate",
+    "content-length": "94295",
+    "content-type": "text/html",
+    "date": "Tue, 04 Aug 2026 18:24:52 GMT",
+    "etag": "\"6a5f64ba-17057\"",
+    "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "last-modified": "Tue, 21 Jul 2026 12:23:22 GMT",
+    "server": "istio-envoy",
+    "vary": "Accept-Encoding"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:24:55Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "api_documentation.html",
+  "upstream_md5_when_published": null
+}

@@ -1,0 +1,447 @@
+dimension,value,count
+endpoint,%,1
+endpoint,% Ctrl,29
+endpoint,% bound,10
+endpoint,% of control,2
+endpoint,% of inhibition,2
+endpoint,% of inhibition or stimulation,1
+endpoint,% remaining,19
+endpoint,% turnover,24
+endpoint,%R,2
+endpoint,%max,2
+endpoint,-log(RatioIC50),4
+endpoint,A,1
+endpoint,AC50,1829
+endpoint,APD,93
+endpoint,APD30,3
+endpoint,APD50,31
+endpoint,APD60,42
+endpoint,APD70,9
+endpoint,APD75,69
+endpoint,APD90,23
+endpoint,APD95,299
+endpoint,APDc,98
+endpoint,AUC,44928
+endpoint,AUC c,4
+endpoint,AUC p,4
+endpoint,AUClast,255
+endpoint,AUCt,2
+endpoint,Absoption,2
+endpoint,Absorption,32
+endpoint,Activity,11503
+endpoint,Activity_index,9
+endpoint,Alpha Ki,14
+endpoint,Amount,6
+endpoint,Amount of metabolite,10
+endpoint,Augmentation,4
+endpoint,B-A/A-B,5
+endpoint,BA,79
+endpoint,BAV,6
+endpoint,BBB,5
+endpoint,BBR,3
+endpoint,BPR,5
+endpoint,Ba,7
+endpoint,Binding,119
+endpoint,Bioavailability Increase,2
+endpoint,Bmax,1
+endpoint,Bound,106
+endpoint,Brain level,8
+endpoint,C,4
+endpoint,C ss,3
+endpoint,C(24h),1
+endpoint,C10APD90,5
+endpoint,C20,54
+endpoint,C20 APD95,38
+endpoint,C8h,20
+endpoint,CC50,249
+endpoint,CE logK',18
+endpoint,CI,3
+endpoint,CL,86821
+endpoint,CL free,173
+endpoint,CL(app),11
+endpoint,CL-renal,2
+endpoint,CL/F,113
+endpoint,CLH,14404
+endpoint,CLH(app),180
+endpoint,CL_renal,917
+endpoint,CLb,7
+endpoint,CLd/F,3
+endpoint,CLint,53
+endpoint,CLt/F,2
+endpoint,CRC/CRC0,128
+endpoint,Caco-2 A-B,3
+endpoint,Caco-2 Papp,34
+endpoint,Calculated Ratio,8
+endpoint,Carboxylase activity,4
+endpoint,Cavg,10
+endpoint,Cell Viability,189
+endpoint,Cell permeation,2
+endpoint,Change,3
+endpoint,Clearance,19
+endpoint,Clerance,1
+endpoint,Cmax,29691
+endpoint,Cmax_triphosphate,1
+endpoint,Cmin,2
+endpoint,Cmin ss,5
+endpoint,Cmin(80hr),1
+endpoint,Cmin(84hr),4
+endpoint,Compound Recovery,2
+endpoint,Compound recovery,91
+endpoint,Compound remaining,15
+endpoint,Concentration,53
+endpoint,Control,43
+endpoint,Covalent binding,5
+endpoint,Cp,8
+endpoint,Cp(f),4
+endpoint,Creatinine_CL,4
+endpoint,Css,3
+endpoint,Css min,2
+endpoint,Css-12w,2
+endpoint,Css-48h,2
+endpoint,Css-4w,2
+endpoint,Ct,12
+endpoint,D,3
+endpoint,D10,142
+endpoint,DNA on filter,4
+endpoint,DOSE,22
+endpoint,Decrease,10
+endpoint,Degradation,4
+endpoint,Delta APD90,54
+endpoint,Delta APD95,19
+endpoint,Deuterium retention,30
+endpoint,Distribution,6
+endpoint,Drug absorption,17
+endpoint,Drug degradation,230
+endpoint,Drug excretion,71
+endpoint,Drug metabolism,13442
+endpoint,Drug recovery,756
+endpoint,Drug transport,62
+endpoint,Drug uptake,607
+endpoint,E2:E1,3
+endpoint,EC10,5
+endpoint,EC25,1
+endpoint,EC50,259074
+endpoint,EC90,195
+endpoint,ED15,1
+endpoint,ED50,404
+endpoint,ED70,4
+endpoint,ERH,2134
+endpoint,Efficacy,17
+endpoint,Efflux ratio,30
+endpoint,Efflux ratio plus inhibitor,30
+endpoint,Emax,82
+endpoint,Enantiomeric composition,8
+endpoint,Enhancement,12
+endpoint,Excretion,41
+endpoint,Extraction ratio,2
+endpoint,F,32527
+endpoint,F/dose,9
+endpoint,FC,1134
+endpoint,F_fraction,308
+endpoint,Fa,22
+endpoint,Fabs,9
+endpoint,Fapp,22
+endpoint,Fez,1
+endpoint,Fg,10
+endpoint,Fh,9
+endpoint,Flu intensity,11
+endpoint,Fluorescence,6
+endpoint,Fm,51
+endpoint,Fmax,198
+endpoint,Fmean,1
+endpoint,Fold change,1
+endpoint,Formation,34
+endpoint,Formation of NO2-,36
+endpoint,Formation of NO3-,4
+endpoint,Formation of compound,4
+endpoint,Fos,2
+endpoint,Free,107
+endpoint,Fu,14522
+endpoint,GI,1
+endpoint,GI tolerance,1
+endpoint,GI50,41
+endpoint,GT rate,38
+endpoint,Glucuronidation,9
+endpoint,Glucuronidation rate,10
+endpoint,HEPG2TOX ASSAY - CC50,19978
+endpoint,HEPG2TOX ASSAY - CC90,19978
+endpoint,HMGR activity,10
+endpoint,Hepatic Extraction ratio,45
+endpoint,Hepatocyte stability,6
+endpoint,Hill coefficient,4
+endpoint,IC,32
+endpoint,IC20,164
+endpoint,IC25,33
+endpoint,IC5,1
+endpoint,IC50,1918531
+endpoint,IC60,1
+endpoint,IC80,1
+endpoint,IC90,30
+endpoint,ID50,39
+endpoint,INH,405
+endpoint,IP,113
+endpoint,IZ,2
+endpoint,Imax,29
+endpoint,Inflection point,16
+endpoint,Inhibition,21646
+endpoint,Inhibition of control,1
+endpoint,Inhibitory activity,5
+endpoint,Intact,3
+endpoint,Iron mobilization,10
+endpoint,Jss,10
+endpoint,K,210
+endpoint,"K(p,uu,brain)",20
+endpoint,KA,70
+endpoint,Ka,41
+endpoint,Kcat/Km,2
+endpoint,Kd,187386
+endpoint,Kdiss,1
+endpoint,Ke,25
+endpoint,Kel,54
+endpoint,Ki,672783
+endpoint,Kin,23
+endpoint,Kin x,2
+endpoint,Kin x10e3,32
+endpoint,KinX,1
+endpoint,Kinact,76
+endpoint,Kis,1
+endpoint,Km,430
+endpoint,Km x10e3,10
+endpoint,Km(unbound),4
+endpoint,KmH,10
+endpoint,KmL,10
+endpoint,Kp,433
+endpoint,Ks,36
+endpoint,LBF,88
+endpoint,LC20,21
+endpoint,LC50,27
+endpoint,LM,46
+endpoint,LOAEL,2
+endpoint,LUCIFERASE EXPRESSION CONTROL - IC50,19978
+endpoint,LUCIFERASE EXPRESSION CONTROL - IC90,19978
+endpoint,LUCIFERASE INFECTION ASSAY - IC50,19978
+endpoint,LUCIFERASE INFECTION ASSAY - IC90,19978
+endpoint,LambdaZ,6
+endpoint,Log 1/Km,58
+endpoint,Log BB,2
+endpoint,Log ESA,51
+endpoint,Log IC50,6
+endpoint,Log Pe,69
+endpoint,"Log Pe,max",17
+endpoint,Log Po,17
+endpoint,Log k,11
+endpoint,LogD,31880
+endpoint,LogP,20671
+endpoint,LogP app,214
+endpoint,Logit bioavailability,12
+endpoint,MAPD90,20
+endpoint,MED,10
+endpoint,MET,26
+endpoint,MF,35
+endpoint,MIC,610
+endpoint,Max delta APD95,30
+endpoint,Max response,4
+endpoint,Mean,4
+endpoint,Mean response,8
+endpoint,Mem Rec,2
+endpoint,Metabolic rate,2
+endpoint,Metabolic stability,115
+endpoint,Metabolic turnover,18
+endpoint,Metabolism,230
+endpoint,Metabolite levels,30
+endpoint,Microsomal stability,8
+endpoint,NA,2
+endpoint,NADPH oxidation,4
+endpoint,ND,2
+endpoint,NOAEL,19
+endpoint,NOEC,27
+endpoint,NOL,2
+endpoint,NT,16
+endpoint,Net grain counts,14
+endpoint,O2 consumption,10
+endpoint,OD,20
+endpoint,OSAV,12
+endpoint,Observed at,12
+endpoint,Oral activity,1
+endpoint,Oxidation,1
+endpoint,P,78
+endpoint,PB,78
+endpoint,PCaco-2,1
+endpoint,PDR,9
+endpoint,PPB,14720
+endpoint,Papp,20796
+endpoint,Papp A to B (mean),274
+endpoint,Papp A to B plus inhibitor (mean),30
+endpoint,Papp B to A (mean),94
+endpoint,Papp B to A plus inhibitor (mean),30
+endpoint,Papp e-6,8
+endpoint,Papps,7
+endpoint,Pc,110
+endpoint,Pcaco2,14
+endpoint,Pe,11
+endpoint,Peff,2463
+endpoint,Percent remaining,4
+endpoint,Permeability,577
+endpoint,Permeability coefficient,31
+endpoint,Permeability index,2
+endpoint,Permeability limited,1
+endpoint,Permeability rate,4
+endpoint,Phospholipidosis_index,4
+endpoint,Plasma level,76
+endpoint,Pm,103
+endpoint,Potency,16882
+endpoint,Prolonged QT,1
+endpoint,Propioaldehyde generated,9
+endpoint,Protein bound,1
+endpoint,Pt,9
+endpoint,QH,299
+endpoint,QT,18
+endpoint,QT interval,21
+endpoint,QTc Interval,3
+endpoint,QTc delta,12
+endpoint,QTc interval,20
+endpoint,Quantity,3
+endpoint,R,8
+endpoint,R%,240
+endpoint,RBA,6
+endpoint,RHA,37
+endpoint,RPF,40
+endpoint,Rate,39
+endpoint,Rate of formation,26
+endpoint,Rate of hydrolysis,27
+endpoint,Rate of metabolism,1
+endpoint,Rate of oxidation,18
+endpoint,Ratio,13353
+endpoint,Ratio AUC,25
+endpoint,Ratio AUC(inf),2
+endpoint,Ratio CC50/EC50,24
+endpoint,Ratio CC50/IC50,16
+endpoint,Ratio Cmax,18
+endpoint,Ratio EC50,28
+endpoint,Ratio IC50,1887
+endpoint,Ratio Ki,54
+endpoint,Ratio LC50/IC50,1
+endpoint,Ratio LD50/IC50,1
+endpoint,Ratio_Papp,66
+endpoint,Recovered,89
+endpoint,Recovery,29
+endpoint,Recovery A to B (mean),274
+endpoint,Recovery A to B plus inhibitor (mean),30
+endpoint,Recovery B to A (mean),94
+endpoint,Recovery B to A plus inhibitor (mean),30
+endpoint,Relative Bioavailability,16
+endpoint,Relative F%,45
+endpoint,Relative Potency,11
+endpoint,Relative activity,6
+endpoint,Relative bioavailability,13
+endpoint,Relative metabolic rate,8
+endpoint,Relative oncentration,1
+endpoint,Relative permiability,6
+endpoint,Relative peroxidation,1
+endpoint,Relative potency,90
+endpoint,Relative protection,19
+endpoint,Relative rate metabolism,11
+endpoint,Relative rate of hydrolysis,41
+endpoint,Remaining,538
+endpoint,Remaining (without cofactor),427
+endpoint,Remaining compound,15
+endpoint,Remaining rate,18
+endpoint,Remaining ratio,16
+endpoint,Retention_index,1
+endpoint,Retention_time,495
+endpoint,Rmax,3
+endpoint,S50,4
+endpoint,SUV,1
+endpoint,SUVmax,3
+endpoint,Selectivity,9
+endpoint,Selectivity Index,241
+endpoint,Selectivity ratio,25
+endpoint,Solubility,62193
+endpoint,Stability,35344
+endpoint,Stabilty,183
+endpoint,Stimulation,1
+endpoint,Substrate metabolized at 1hr,4
+endpoint,Survival,55
+endpoint,T,1
+endpoint,T1/2,98991
+endpoint,T1/29,11
+endpoint,T50,12
+endpoint,TC50,39
+endpoint,TDI,736
+endpoint,TI,6
+endpoint,TIME,360
+endpoint,Time,1
+endpoint,Tlag,11
+endpoint,Tmax,15142
+endpoint,Total CL,2
+endpoint,Turnover,4
+endpoint,Unchanged,3
+endpoint,V0,10
+endpoint,V1/2,2
+endpoint,Vc/F,21
+endpoint,Vd,5351
+endpoint,Vd app,1
+endpoint,Vd(app),1
+endpoint,Vd/F,69
+endpoint,Vdss,16644
+endpoint,Vdss/F,6
+endpoint,Viability,4
+endpoint,Vmax,398
+endpoint,Vmax(app),15
+endpoint,Vmax/Km,61
+endpoint,VmaxH,10
+endpoint,VmaxL,10
+endpoint,Vp/F,4
+endpoint,Vss,8
+endpoint,Vss/F,9
+endpoint,Weight,6
+endpoint,XC50,4
+endpoint,[A],11
+endpoint,[EA],11
+endpoint,[GSH],18
+endpoint,delta pIC50 wt-mutant,200
+endpoint,deltaA,14
+endpoint,effect,1
+endpoint,fEC50,5
+endpoint,fLOAEL,2
+endpoint,fNOAEL,2
+endpoint,k_off,16337
+endpoint,kin,44
+endpoint,kinact,1
+endpoint,kon,16337
+endpoint,log K,2
+endpoint,log Kp,200
+endpoint,log Pe,1201
+endpoint,log(activity),1
+endpoint,log(permeability),163
+endpoint,log(ratio),31
+endpoint,logBB,15
+endpoint,logCL,50
+endpoint,logD,7
+endpoint,logP,2
+endpoint,logPapp,950
+endpoint,logPeff,185
+endpoint,logPm,48
+endpoint,max activation,8
+endpoint,pBBB,22
+endpoint,pCC50,5
+endpoint,pIC50,130
+endpoint,pKa,25
+endpoint,pKi,31
+endpoint,pXC50,2
+endpoint,permeability,17941
+endpoint,solubility,8506
+endpoint,standard_binding_free_energy,67848
+evidence_domain,binding,2706128
+evidence_domain,herg,40860
+evidence_domain,other,325961
+evidence_domain,pk_adme,864223
+evidence_domain,qt,1200
+inclusion_status,included,2758395
+inclusion_status,quarantined,734448
+inclusion_status,review,445529
+observation_kind,derived,67848
+observation_kind,experimental_summary,3870524
+quality_grade,identity_resolved,445529
+quality_grade,protocol_sufficient,2758395
+quality_grade,quarantined,734448

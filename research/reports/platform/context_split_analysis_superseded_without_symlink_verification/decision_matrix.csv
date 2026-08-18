@@ -1,0 +1,7 @@
+dataset_key,strategy,status,train,validation,test,excluded_unknown,group_exclusion_passed,strict_chronology_passed
+default::default__herg__ic50__herg_functional__nm__continuous_exact,assay_group_holdout,materialized,104,14,19,0,True,False
+default::default__herg__ic50__herg_functional__nm__continuous_exact,document_group_holdout,materialized,84,35,18,0,True,False
+default::default__herg__ic50__herg_functional__nm__continuous_exact,strict_temporal,materialized,71,17,43,6,True,True
+default::default__binding__kd__binding__nm__continuous_exact,assay_group_holdout,materialized,43377,9562,9395,0,True,False
+default::default__binding__kd__binding__nm__continuous_exact,document_group_holdout,materialized,41945,10296,10093,0,True,False
+default::default__binding__kd__binding__nm__continuous_exact,strict_temporal,materialized,43491,8045,10381,417,True,True

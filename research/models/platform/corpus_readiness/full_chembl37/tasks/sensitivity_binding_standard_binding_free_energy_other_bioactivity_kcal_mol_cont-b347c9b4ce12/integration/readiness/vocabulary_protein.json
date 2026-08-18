@@ -1,0 +1,41 @@
+{
+  "source_model_ready_sha256": "0d66475a341d830753847dd944a25a782efd0269d5f130a54bebaf8b6a6f690c",
+  "substantive_training_started": false,
+  "training_partition_sha256": "0a9366540cfe9a4d847cdcf0795b51f7a061312bc382285b450f62b9e3ee7f6c",
+  "vocabulary": {
+    "fitted_partition": "train",
+    "minimum_frequency": 1,
+    "modality": "protein",
+    "schema_version": "static_vocabulary_v1",
+    "token_to_id": {
+      "<BOS>": 2,
+      "<EOS>": 3,
+      "<MASK>": 4,
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "A": 7,
+      "C": 21,
+      "D": 18,
+      "E": 16,
+      "F": 14,
+      "G": 10,
+      "H": 23,
+      "I": 9,
+      "K": 15,
+      "L": 5,
+      "M": 22,
+      "N": 17,
+      "P": 13,
+      "Q": 20,
+      "R": 12,
+      "S": 6,
+      "T": 11,
+      "V": 8,
+      "W": 24,
+      "X": 25,
+      "Y": 19
+    },
+    "training_corpus_sha256": "ef4ff0d4e3cccb8f32beada5c7c404d33413299cfd25d85ca0fff48e5c933cec"
+  },
+  "vocabulary_sha256": "10a2781eb8cd9336fbf163d741aa3765886ab73fe386bec1eb2f2de4189d3083"
+}

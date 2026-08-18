@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/scaffold/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "a1b2dd120467b696ca61688683deead6d608110a57b486c92aca6a854393313b",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 786,
+    "train": 3807,
+    "validation": 865
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/scaffold/split.parquet.manifest.json",
+  "sidecar_sha256": "7999cb4cc2d01cb572ff3fb12bc3ac6863f9d4e6c3837a78dc5b280528a0e5f2",
+  "split_materialized": true,
+  "split_path": "tasks/derived-sensitivity-sensitivity-binding-standard-binding-free-energy-oth-b347c9b4ce12/strategies/scaffold/split.parquet",
+  "split_rows": 5458,
+  "split_sha256": "23662c75069aae2938ca1abfeb5958c6fcf9ef12baefeb0c372e709237afa43d",
+  "status": "materialized",
+  "strategy": "scaffold",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

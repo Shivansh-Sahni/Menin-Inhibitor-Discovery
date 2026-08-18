@@ -1,0 +1,4 @@
+scope,endpoint,assay_family,label,task_rows
+primary,IC50,electrophysiology_functional,blocker,2412
+primary,IC50,electrophysiology_functional,non_blocker,365
+primary,IC50,electrophysiology_functional,ambiguous_10_to_30_uM,816

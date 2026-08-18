@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1372686,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4186853"
+              }
+            }
+          },
+          "name": "Displacement of FITC-MBM1 from full length human menin measured after 2 hrs by fluorescence polarization assay",
+          "description": [
+            "Title: Targeting protein-protein interaction between MLL1 and reciprocal proteins for leukemia therapy.",
+            "",
+            "Abstract: The mixed lineage leukemia protein-1 (MLL1), as a lysine methyltransferase, predominantly regulates the methylation of histone H3 lysine 4 (H3K4) and functions in hematopoietic stem cell (HSC) self-renewal. MLL1 gene fuses with partner genes that results in the generation of MLL1 fusion proteins (MLL1-FPs), which are frequently detected in acute leukemia. In the progress of leukemogenesis, a great deal of proteins cooperate with MLL1 to form multiprotein complexes serving for the dysregulation of H3K4 methylation, the overexpression of homeobox (HOX) cluster genes, and the consequent generation of leukemia. Hence, disrupting the interactions between MLL1 and the reciprocal proteins has been considered to be a new treatment strategy for leukemia. Here, we reviewed potential protein-protein interactions (PPIs) between MLL1 and its reciprocal proteins, and summarized the inhibitors to target MLL1 PPIs. The druggability of MLL1 PPIs for leukemia were also discussed."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Bioorg Med Chem",
+            "Year: 2018",
+            "Volume: 26",
+            "Issue: 2",
+            "First Page: 356",
+            "Last Page: 365",
+            "DOI: 10.1016/j.bmc.2017.11.045",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 29254892
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4186853"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 29254892"
+          ]
+        }
+      }
+    }
+  ]
+}

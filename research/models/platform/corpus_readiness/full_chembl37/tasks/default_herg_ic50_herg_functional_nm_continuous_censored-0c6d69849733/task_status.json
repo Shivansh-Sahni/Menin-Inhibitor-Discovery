@@ -1,0 +1,72 @@
+{
+  "dataset_key": "default::default__herg__ic50__herg_functional__nm__continuous_censored",
+  "declared_rows": 8,
+  "diagnostic_materialized": false,
+  "integration_materialized": false,
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "default::default__herg__ic50__herg_functional__nm__continuous_censored",
+    "declared_rows": 8,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 0,
+      "train": 8,
+      "validation": 0
+    },
+    "predicted_partition_rows": {
+      "test": 0,
+      "train": 8,
+      "validation": 0
+    },
+    "rows_scanned": 8,
+    "skip_reasons": [
+      "predicted_test_molecule_groups_empty",
+      "predicted_test_rows_insufficient",
+      "predicted_validation_molecule_groups_empty",
+      "predicted_validation_rows_insufficient"
+    ],
+    "substantive_training_started": false,
+    "support_decision": "skip",
+    "task_semantics": {
+      "assay_family": "herg_functional",
+      "endpoint": "IC50",
+      "evidence_domain": "herg",
+      "label_kind": "continuous_censored",
+      "observation_kind": "experimental_summary",
+      "task_id": "TASK-F29117C07D35D4825719C634",
+      "task_type": "default__herg__ic50__herg_functional__nm__continuous_censored"
+    },
+    "unique_molecule_groups": 8,
+    "unique_observation_ids": 8,
+    "unique_protein_groups": 1
+  },
+  "skip_reasons": [
+    "predicted_test_molecule_groups_empty",
+    "predicted_test_rows_insufficient",
+    "predicted_validation_molecule_groups_empty",
+    "predicted_validation_rows_insufficient"
+  ],
+  "status": "skipped_insufficient_fixed_split_support",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "70270a93415cf2d3ceb7fd15401343686d2b3e7bffa64314d6e344eb9b740fac",
+  "task_output_path": "tasks/default_herg_ic50_herg_functional_nm_continuous_censored-0c6d69849733",
+  "task_scope": "default",
+  "task_type": "default__herg__ic50__herg_functional__nm__continuous_censored"
+}

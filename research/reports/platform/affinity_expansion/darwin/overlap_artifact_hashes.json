@@ -1,0 +1,74 @@
+{
+  "algorithm": "SHA-256",
+  "created_date": "2026-08-07",
+  "input_fingerprints": [
+    {
+      "path": "research/data/platform/raw/external_public/affinity_expansion/darwin/bindingdb/BindingDB_All_202608_tsv.zip",
+      "bytes": 592986963,
+      "sha256": "8dc30541d668e5e403ba1fe9a682b76c42a50e1711aac44329c62ba24ccd57db"
+    },
+    {
+      "path": "research/data/platform/raw/chembl_37_bulk/extracted/chembl_37.db",
+      "sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+      "hash_source": "research/data/platform/raw/chembl_37_bulk/extracted/extraction_manifest.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/data/platform/raw/external_public/affinity_expansion/darwin/overlap/bindingdb_chembl_rows.tsv",
+      "bytes": 125074351,
+      "sha256": "62b8ef5531468b1a1f153e7dbfdf1a8ec65cc3c06fd80629b7ce9aa36f9f0bbf"
+    },
+    {
+      "path": "research/data/platform/raw/external_public/affinity_expansion/darwin/overlap/bindingdb_chembl_measurements.tsv",
+      "bytes": 146200776,
+      "sha256": "ba149d17d72748dd0bbeb19c7e816d92db71dd44a3b938f0f0accb628990fe04"
+    },
+    {
+      "path": "research/data/platform/raw/external_public/affinity_expansion/darwin/overlap/chembl37_bindingdb_overlap.sqlite",
+      "bytes": 1403015168,
+      "sha256": "fe1461214698049536864b43632d89e7534b996219c8cef81304afd219cab5f5",
+      "validation": "PRAGMA quick_check = ok"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/extract_bindingdb_chembl_overlap.pl",
+      "bytes": 3239,
+      "sha256": "49a3c5dcd79f619b6ea3752bd335a3a1c1bc1d924ef4332488390d0493755f91"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/compute_chembl37_bindingdb_overlap.sql",
+      "bytes": 10871,
+      "sha256": "1da76f3fc723fdcdc9e0159ddff2b171a1e73a7fde4a683ef2109a5a3963ce28"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/extend_overlap_with_inchikey.sql",
+      "bytes": 5705,
+      "sha256": "b80eed5210881246a0dbe55cffeacd6b8039b4ceba42fd76e046766573e98622"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/finalize_overlap_metrics.sql",
+      "bytes": 2852,
+      "sha256": "4f6d30d11be8ccd8db507fa060117ab5666058696bd11893ed8a3d2702d4f64c"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/chembl37_bindingdb_overlap_metrics.csv",
+      "bytes": 5183,
+      "sha256": "d76bc7373dd19e29e4e351d4ed70c2430e710d0db5899f4d030aed9f70e3dfcb"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/chembl37_bindingdb_endpoint_overlap.csv",
+      "bytes": 326,
+      "sha256": "3502720ef35fa6c233bb36881bda410d6e31ef942df612d9b6a9b23814265e5a"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/chembl37_bindingdb_overlap_audit.json",
+      "bytes": 7515,
+      "sha256": "545c2667d3f5fc9f203cf538d5628cd14f9b3e5994fc8fdbce29cf9b347370c6"
+    },
+    {
+      "path": "research/reports/platform/affinity_expansion/darwin/chembl37_bindingdb_overlap_report.md",
+      "bytes": 4722,
+      "sha256": "51f2aada491b250d038338b4d66987e1ba271f93fce45b70968d5d23487031ec"
+    }
+  ]
+}

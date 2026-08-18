@@ -1,0 +1,156 @@
+{
+  "coverage_class_counts": {
+    "3184": 75,
+    "3184+3210": 22,
+    "3210": 6785,
+    "686": 13,
+    "686+3184+3210": 34,
+    "686+3210": 1030
+  },
+  "csv_sqlite_content_checks": {
+    "herg_chemical.csv": {
+      "matches_sqlite": true,
+      "rows": 7959
+    },
+    "herg_mc4.csv": {
+      "matches_sqlite": true,
+      "rows": 9787
+    },
+    "herg_mc5.csv": {
+      "matches_sqlite": true,
+      "rows": 9787
+    },
+    "herg_sample.csv": {
+      "matches_sqlite": true,
+      "rows": 10952
+    },
+    "herg_sc2.csv": {
+      "matches_sqlite": true,
+      "rows": 1243
+    }
+  },
+  "disposition": "validation only; zero canonical/training admission",
+  "dtxsids_shared_by_all_three": 34,
+  "endpoint_counts": {
+    "3184": {
+      "mc_distinct_chids": 22,
+      "mc_distinct_dtxsids": 22,
+      "mc_distinct_m4ids": 22,
+      "mc_distinct_spids": 22,
+      "mc_hitc_active_ge_0_90": 10,
+      "mc_hitc_inactive_0_to_lt_0_90": 11,
+      "mc_hitc_negative_unintended_direction": 1,
+      "mc_resolved_hitc_active_ge_0_90": 10,
+      "mc_resolved_hitc_inactive_0_to_lt_0_90": 11,
+      "mc_resolved_hitc_negative_unintended_direction": 1,
+      "mc_resolved_sample_rows": 22,
+      "mc_rows": 22,
+      "mc_rows_missing_sample_identity": 0,
+      "mc_sc_shared_dtxsids": 2,
+      "sc_distinct_chids": 111,
+      "sc_distinct_dtxsids": 111,
+      "sc_distinct_s2ids": 119,
+      "sc_distinct_spids": 119,
+      "sc_hitc_active_1": 21,
+      "sc_hitc_inactive_0": 98,
+      "sc_hitc_negative_unintended_direction": 0,
+      "sc_hitc_other_or_null": 0,
+      "sc_resolved_hitc_active_1": 20,
+      "sc_resolved_hitc_inactive_0": 97,
+      "sc_resolved_hitc_negative_unintended_direction": 0,
+      "sc_resolved_sample_rows": 117,
+      "sc_rows": 119,
+      "sc_rows_missing_sample_identity": 2,
+      "union_distinct_dtxsids": 131
+    },
+    "3210": {
+      "mc_distinct_chids": 7871,
+      "mc_distinct_dtxsids": 7871,
+      "mc_distinct_m4ids": 9670,
+      "mc_distinct_spids": 9670,
+      "mc_hitc_active_ge_0_90": 1281,
+      "mc_hitc_inactive_0_to_lt_0_90": 6079,
+      "mc_hitc_negative_unintended_direction": 2310,
+      "mc_resolved_hitc_active_ge_0_90": 1280,
+      "mc_resolved_hitc_inactive_0_to_lt_0_90": 6077,
+      "mc_resolved_hitc_negative_unintended_direction": 2310,
+      "mc_resolved_sample_rows": 9667,
+      "mc_rows": 9670,
+      "mc_rows_missing_sample_identity": 3,
+      "mc_sc_shared_dtxsids": 0,
+      "sc_distinct_chids": 0,
+      "sc_distinct_dtxsids": 0,
+      "sc_distinct_s2ids": 0,
+      "sc_distinct_spids": 0,
+      "sc_hitc_active_1": 0,
+      "sc_hitc_inactive_0": 0,
+      "sc_hitc_negative_unintended_direction": 0,
+      "sc_hitc_other_or_null": 0,
+      "sc_resolved_hitc_active_1": 0,
+      "sc_resolved_hitc_inactive_0": 0,
+      "sc_resolved_hitc_negative_unintended_direction": 0,
+      "sc_resolved_sample_rows": 0,
+      "sc_rows": 0,
+      "sc_rows_missing_sample_identity": 0,
+      "union_distinct_dtxsids": 7871
+    },
+    "686": {
+      "mc_distinct_chids": 93,
+      "mc_distinct_dtxsids": 93,
+      "mc_distinct_m4ids": 95,
+      "mc_distinct_spids": 95,
+      "mc_hitc_active_ge_0_90": 38,
+      "mc_hitc_inactive_0_to_lt_0_90": 38,
+      "mc_hitc_negative_unintended_direction": 19,
+      "mc_resolved_hitc_active_ge_0_90": 37,
+      "mc_resolved_hitc_inactive_0_to_lt_0_90": 37,
+      "mc_resolved_hitc_negative_unintended_direction": 19,
+      "mc_resolved_sample_rows": 93,
+      "mc_rows": 95,
+      "mc_rows_missing_sample_identity": 2,
+      "mc_sc_shared_dtxsids": 93,
+      "sc_distinct_chids": 1077,
+      "sc_distinct_dtxsids": 1077,
+      "sc_distinct_s2ids": 1124,
+      "sc_distinct_spids": 1124,
+      "sc_hitc_active_1": 55,
+      "sc_hitc_inactive_0": 1041,
+      "sc_hitc_negative_unintended_direction": 28,
+      "sc_hitc_other_or_null": 0,
+      "sc_resolved_hitc_active_1": 52,
+      "sc_resolved_hitc_inactive_0": 1040,
+      "sc_resolved_hitc_negative_unintended_direction": 28,
+      "sc_resolved_sample_rows": 1120,
+      "sc_rows": 1124,
+      "sc_rows_missing_sample_identity": 4,
+      "union_distinct_dtxsids": 1077
+    }
+  },
+  "endpoint_membership_file": "endpoint_dtxsid_membership.csv",
+  "endpoint_membership_rows": 7959,
+  "extractor_source_hash_matches_run": true,
+  "hash_mismatches": {},
+  "inclusion_exclusion_reconciled": true,
+  "listed_output_hashes_verified": 9,
+  "pairwise_dtxsid_overlap": [
+    {
+      "aeid_left": 686,
+      "aeid_right": 3184,
+      "shared_dtxsids": 34
+    },
+    {
+      "aeid_left": 686,
+      "aeid_right": 3210,
+      "shared_dtxsids": 1064
+    },
+    {
+      "aeid_left": 3184,
+      "aeid_right": 3210,
+      "shared_dtxsids": 56
+    }
+  ],
+  "status": "pass",
+  "union_dtxsids_all_three_endpoints": 7959,
+  "unresolved_endpoint_rows": 11,
+  "unresolved_unique_spids": 8
+}

@@ -1,0 +1,674 @@
+{
+  "build_id": "build-6237a81ba03d0ccb",
+  "created_at": "2026-07-21T14:43:02Z",
+  "dataset_sha256": "5dea83bd0846a4f8c6e704d92845311bb4ca894bcf2ea06dcd38c0c7c8e80ee3",
+  "file_count": 110,
+  "files": [
+    {
+      "media_type": "application/octet-stream",
+      "path": ".gitattributes",
+      "sha256": "c721e9b05305af553ca665806776e04cf7419e811d98586ed0a44833c1b00466",
+      "size_bytes": 198
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": ".github/workflows/ci.yml",
+      "sha256": "f41dd8e0b9929e086388dff209b7b7bea3924387880d57e4520f9646e6f86023",
+      "size_bytes": 1285
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": ".gitignore",
+      "sha256": "1a45b748d5dad20bec1ff2d8cef59f9a77cd261c1484cc0807c35bd180844e21",
+      "size_bytes": 372
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": ".pre-commit-config.yaml",
+      "sha256": "1b4b2ff84e4fdf38c4d391d7bf5225efb1c3113af95ffda7b4431f96a59c8c8d",
+      "size_bytes": 448
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "CITATION.cff",
+      "sha256": "77c75e66333a5b5f083091f508e01ec43aac83a1fb9dfa63c065ca4494109e8b",
+      "size_bytes": 903
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "Makefile",
+      "sha256": "d2bfc1366d60c11c0cbe73922acf2b85a45d341ef3293b49cb2fe8636240696d",
+      "size_bytes": 975
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "sha256": "2ebcbfbebc3c0da74e469024915ff0b6c7ea485b3718ca11cfbd519e23dfd835",
+      "size_bytes": 13035
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/architecture.md",
+      "sha256": "1552c4a177c2546494b114587e72751a8b3282c07c17d304bbb1bad767a40164",
+      "size_bytes": 12384
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/data_dictionary.md",
+      "sha256": "2967c13173eb9bd6d86a40e4f44482a48c7e4e2cff8316e59a6694b9754ec9a4",
+      "size_bytes": 36329
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/data_source_notice.md",
+      "sha256": "7fb2d43460bcbbd968384b4c745ec053651b2db23607170182034de612650f6f",
+      "size_bytes": 3961
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/external_sources.md",
+      "sha256": "60a8e9d55b78b96bc607eeef8881e9cd2cf56e5490e044795f76765d9b909f9e",
+      "size_bytes": 12878
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/future_work.md",
+      "sha256": "fe1d5b74ff6db29e7fa459c31977173ecfcef05cfa8a98b1ecaa449050a6d991",
+      "size_bytes": 8145
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/herg_benchmark.md",
+      "sha256": "0a30c7159bb3edf54ccdc977468265686a68ee0297aa211d583f31a7443bfca9",
+      "size_bytes": 3054
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/licensing.md",
+      "sha256": "b75cc64ef5e7086f726bc4390bf25fe83eef75c2352ab9f04002f35196e91efc",
+      "size_bytes": 4730
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/limitations.md",
+      "sha256": "42051295ccdcf8c80c713ab0cc290490dc669f13ede9a426c5f7f7b361c2ef93",
+      "size_bytes": 15143
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/methodology.md",
+      "sha256": "787e87cb6aa1cae3f922693a41358b05c5a2c5020d619f251220a86d80412c03",
+      "size_bytes": 29753
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/project/changelog.md",
+      "sha256": "214ef897128203d1408382c8bb33c63984ffa735fb6eef1ba2f5ff74e4f309b6",
+      "size_bytes": 4627
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/project/contributing.md",
+      "sha256": "d8618ede3279fc42c2c764828646cd3773b0fe1f971d11c6f2fd13f69301e5ea",
+      "size_bytes": 5293
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/proprietary_data_intake.md",
+      "sha256": "a7467a7b021b7eb40b1f9e38ed809972d343ddc40cb0912086837762be42fe64",
+      "size_bytes": 16852
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/publication_checklist.md",
+      "sha256": "089780dd60f97700937d327bb44e833055f534b33a97eacd2fda97d7075f586e",
+      "size_bytes": 13692
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/repo_upload_checklist.md",
+      "sha256": "72cdc6aa0d6a88011e343e3f2d43f11c275fa5f48318e8a21d594becf35a2533",
+      "size_bytes": 2707
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/repository_structure.md",
+      "sha256": "fb323950237194845d4c46929aec190466599daa4fe19631bacc9e6403e60c7d",
+      "size_bytes": 3099
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "docs/reproducibility.md",
+      "sha256": "48ef5195073239b22d308826e13cb45c725b0f11f4672667dbbc57cfc5f70ce2",
+      "size_bytes": 15123
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/.gitignore",
+      "sha256": "1e62844607762982abae81f427dbf6122226d4ba79c6c47519519e92cc4b8c34",
+      "size_bytes": 119
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/Makefile",
+      "sha256": "654acbb1a4c6a3318becfd55ced6c0f00e7e589cbfc7145b766e0d4663c414f4",
+      "size_bytes": 537
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/README.md",
+      "sha256": "93d412472005d97e2b96188dbe77c5335adf4c01794fedf7ac01dd7e6cdd9a37",
+      "size_bytes": 9859
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/artifacts/README.md",
+      "sha256": "42eac1b61301a4c05421a0c22a9c6489ba172b1ba7c23b743e9aec3335563c92",
+      "size_bytes": 469
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/config/default.yaml",
+      "sha256": "bffb2d9bdb3d7e61a0f036bac144b2d0e7ac0896fcd01ffd491b36c524539dfb",
+      "size_bytes": 3964
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/config/local_lab.example.yaml",
+      "sha256": "2b372ba21375b1b5b5f84ff7bc3c2508f831c8ad1390256441d0f41b1e4d93d7",
+      "size_bytes": 365
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/docs/architecture.md",
+      "sha256": "e6dab1cd529826f579e745183bf66c537b51c042aa3da5853d33109180b544c9",
+      "size_bytes": 10255
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/docs/data_and_validation.md",
+      "sha256": "5ce2d564aed21e0018cb5a6851cfd79570ed11fc40734b3e5e2021fffb60517b",
+      "size_bytes": 13247
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/docs/implementation_plan.md",
+      "sha256": "c6ecff1a349e615b7e5860346a36bffcfe04e6f3715317bfb119bc0470a0633f",
+      "size_bytes": 13394
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/docs/novelty_and_positioning.md",
+      "sha256": "b072adda45a3eade8beae90277c2d6f4d01cefa100dff5f756ee5228a5a6a172",
+      "size_bytes": 11297
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "packages/menin-edit/docs/roadmap.md",
+      "sha256": "270976b64ab4dcce7f08d0d3806f35d989cd97d84913196f70e0ee393adf4bb4",
+      "size_bytes": 10080
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/examples/request.yaml",
+      "sha256": "5a79f6c2a354260a34413bdccb0196694cf513eeb0ba0ee595c194e59bd515f7",
+      "size_bytes": 1110
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "packages/menin-edit/pyproject.toml",
+      "sha256": "7a868a3d67575b80ba391f74372e2666b2698374e07f8e081ae20605c87505bd",
+      "size_bytes": 915
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/__init__.py",
+      "sha256": "a3483ec20041128ba70873c0d13410d9659796e0357c864268685493d7138e21",
+      "size_bytes": 342
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/chemistry.py",
+      "sha256": "f4f5a5818d74373801d3247405ef25ec1310a42a8d11e4d114d9190f41baea0a",
+      "size_bytes": 8571
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/cli.py",
+      "sha256": "16a734a7cbbd796a68ba1d9e7b1809a2a04fee020dd4ac2da90478be33548d92",
+      "size_bytes": 16600
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/config.py",
+      "sha256": "8f1542984515896e19a99ff18ca344ec7e39b9b2cc8f20660fa6777bdb2df98b",
+      "size_bytes": 4786
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/data.py",
+      "sha256": "9f1cdaa6e0b68f9a7d6db4742de26999c50f9ce67efaa5e3506ca4f2b2b0e316",
+      "size_bytes": 45047
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/edits.py",
+      "sha256": "0a454167e9e94ac45f39138e9d1dd5cb7277dea54c5dee7836c5a5e03fd7cb62",
+      "size_bytes": 16238
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/engine.py",
+      "sha256": "d268f3cfb6d7145d0d0544b4dbb100b57ab84f8d58ae0e0765da7cb3b79fc6a6",
+      "size_bytes": 17019
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/evidence.py",
+      "sha256": "a45ad7a22197d8963f7d1ddc5475a6acb1497d15a147a31409b5983726d0e28b",
+      "size_bytes": 1925
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/explanations.py",
+      "sha256": "07f98c7abb061775cab7541e1a75f4e8d91a1f331bbfad530e51004040c2e152",
+      "size_bytes": 9445
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/local_models.py",
+      "sha256": "b2782ade5bee923816be967fb9487dee25997f72afd9f71c26044aeebf48ad8e",
+      "size_bytes": 33700
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/objectives.py",
+      "sha256": "fd71a1b9f5674f86f0acfe038576207432ad6dcd35a32027bec86903d0499e47",
+      "size_bytes": 9193
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/pareto.py",
+      "sha256": "8a0afd8363cc81405e83c17d8c9e7b1b5014df40843d3ae4194bddab90a83144",
+      "size_bytes": 8477
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/predictors.py",
+      "sha256": "aa507335f6ecb5fbcdde728c78a265f3693c9013600d8c80a71e38320f57f372",
+      "size_bytes": 43594
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/registry.py",
+      "sha256": "cbe901c314c1cfd7796a9487a9669a83fb4efc2e1fc91362ca8a4c4a24fd63a4",
+      "size_bytes": 8831
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/src/menin_edit/schemas.py",
+      "sha256": "3f4e9b9642c20077c0dff0dd3f5dfc2cb2f3a5c556f2b2e067d648f3157d26fa",
+      "size_bytes": 15058
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_chemistry.py",
+      "sha256": "27976bfbd1014d362635c4c70098f22d0f811c274c54e244be8803eabee8e02b",
+      "size_bytes": 2309
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_data.py",
+      "sha256": "9cfa3fdad2668cbea1f7f9004584238c3dccd1e372311a30e075df3132e6156c",
+      "size_bytes": 7896
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_edits.py",
+      "sha256": "c5ef3419b99df024b0afd892cac9abc73f5b172ce5a8cf91972672e0506dd30f",
+      "size_bytes": 6735
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_engine.py",
+      "sha256": "4276607253b90048f6ad8caf63550aa62e6e120c7deb99d369be467cf9333666",
+      "size_bytes": 8374
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_local_models.py",
+      "sha256": "65bcbc5ae1b6dc1b05278652a3373bc4b664ec371413a13f74ce47cb9dde8355",
+      "size_bytes": 6284
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_objectives.py",
+      "sha256": "6c21c8ea9497ead8b4172c42d28e2978b50c8b77efb5c7cc6684489e137a4cbe",
+      "size_bytes": 7272
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_pareto.py",
+      "sha256": "2e6a30f4740df14b54b61e989aedc478d1e88bc6791cbc13d74d8427c8e6536b",
+      "size_bytes": 5096
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_predictors.py",
+      "sha256": "96559db2bd09a9bfb320f5eb846acd81e15aca01a8c25ff59337dce11d2eb963",
+      "size_bytes": 7045
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "packages/menin-edit/tests/test_registry.py",
+      "sha256": "1e32216fdfe764a2e8e0f4cdb96f4146abd34fb6bf612f742dc023652d0e602c",
+      "size_bytes": 2398
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/herg_benchmark.yaml",
+      "sha256": "56b69e5c017451abf1741073ea7eb6b6cffbc8233ed48a23a7d2431ef7164298",
+      "size_bytes": 5830
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/herg_validation.yaml",
+      "sha256": "504a8973d9e2e4b1638a2d5343acc5bdb8af39bf48473d126d4c0fdb31b2022e",
+      "size_bytes": 512
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/herg_validation_smoke.yaml",
+      "sha256": "1a6e31894875e211ff85e2993a5fc766ed970cf1dd6e879e0b3ed7745578d9d2",
+      "size_bytes": 324
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/herg_validation_strong_ml.yaml",
+      "sha256": "e780293d9dc906ddec0d138c4f32ec9efc52f9429fb690f848f213c4ff0d852a",
+      "size_bytes": 337
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/internal_data_template.yaml",
+      "sha256": "335fb6c579ff63fbe54f728f51da1eea08ccebf0faa1d4699c9abbd199414901",
+      "size_bytes": 2175
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/config/pipeline.yaml",
+      "sha256": "bfcf83a9b7779281dbb3e804bde5b8ba30d34306d0f1254ee9a038739bc07ac0",
+      "size_bytes": 4445
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/environments/environment.yml",
+      "sha256": "7194bb59e9c057916174d2d3e39ff45627b1c30c68b85c65446b52cc986b6b9b",
+      "size_bytes": 374
+    },
+    {
+      "media_type": "text/plain",
+      "path": "pipeline/environments/requirements-dev.txt",
+      "sha256": "95e510aac814ea4eca4b23850318f8be61dbe97da2864bfff7d3d2bcafd50c82",
+      "size_bytes": 65
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/environments/requirements.lock",
+      "sha256": "2bcf2137a4c11fb601b81d67f40c019da34836e69255e9d5dfb2c7740a18fe95",
+      "size_bytes": 1018
+    },
+    {
+      "media_type": "text/plain",
+      "path": "pipeline/environments/requirements.txt",
+      "sha256": "630ecf75f882f14fe9fec6e58582234c811f3720cdc542b0c83e52edc0eeed38",
+      "size_bytes": 191
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/scripts/build_herg_indomain_release.py",
+      "sha256": "2a13496d73f4a51bc2d1bb1d0b1d09db0f96942d14b7728a4e1527b714468333",
+      "size_bytes": 5064
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/scripts/build_herg_top10_comparison.py",
+      "sha256": "cb3fe2651b66a0d5b9742fff19358ecdbc78a99bc62707147c5ac9f2259dd808",
+      "size_bytes": 6770
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/scripts/run_herg_benchmark.py",
+      "sha256": "9a5cbcd4b580c9322907a2de1171ef1c12160cac3e616a48931de82233fe40c3",
+      "size_bytes": 1677
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/scripts/run_herg_validation.py",
+      "sha256": "a5fdd85854097090ee4ba40dee1e144da221a5ccda13a9326c4f3ba737fef28f",
+      "size_bytes": 1860
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/scripts/run_pipeline.py",
+      "sha256": "de2c3a1fb7592199d3f931b3763713f098a3d39c8aadf24ea9460146c477a7fc",
+      "size_bytes": 399
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/__init__.py",
+      "sha256": "f37a1978f72219cb4633344c929434a11eb8f49186f82e47fd7d30c6c6ab2da6",
+      "size_bytes": 138
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/analysis.py",
+      "sha256": "9f0ab7e74e529fc7bbe9d51d48ab857f6f629128ab7372b3f63ad5210a874fef",
+      "size_bytes": 74978
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/bindingdb.py",
+      "sha256": "e5f909a4f3c880396ad568ef95f277a064b4988cc4b38e17e28467188e059983",
+      "size_bytes": 3829
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/chembl.py",
+      "sha256": "3722a6c96b749cd0f99bbd24be0405ff617dfa48a09fa76f0d02bef5611be797",
+      "size_bytes": 5658
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/chemistry.py",
+      "sha256": "d003363e1c9b1f0f0ab4f9a30561a841eaeb9370da7676c6b45b39a207b339c7",
+      "size_bytes": 11033
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/cli.py",
+      "sha256": "90205e01197cf59cf680fa9a1551cacc7763ba0fd65e722292f961386cc98291",
+      "size_bytes": 71684
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/config.py",
+      "sha256": "1c5d87413afb7a79822831e3a4ce21d11ccbdfec449d711718147857ba599bc9",
+      "size_bytes": 1850
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/curation.py",
+      "sha256": "fe82d9a0e2d764d425fefb2229877bde69c44049fb58c0eed52697bebc890808",
+      "size_bytes": 62683
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pipeline/src/menin_discovery/default_config.yaml",
+      "sha256": "bfcf83a9b7779281dbb3e804bde5b8ba30d34306d0f1254ee9a038739bc07ac0",
+      "size_bytes": 4445
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/features.py",
+      "sha256": "980de5c4563c13d51af910654509913227172683f3a7623bf65c465142d5a8c8",
+      "size_bytes": 15008
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/herg_benchmark.py",
+      "sha256": "207c1b54c02affbcff3ce605e5b9ea5986b70f9065d07151104bf310932abdd7",
+      "size_bytes": 54289
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/herg_validation.py",
+      "sha256": "dcbcf9ac3489a3ebf97ef36aa4895cb6c86d790a551ada57b1ba37ce306b1fc6",
+      "size_bytes": 52085
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/http.py",
+      "sha256": "5bac8108a0cc76f0116011fcf696386785a3f57dfaa67160bc20d7ce3f896ed9",
+      "size_bytes": 2336
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/internal_data.py",
+      "sha256": "ecb2b9cd5e03971b09edc1572e5edf23e71788ed9cbef6b2c02d443788cbff8f",
+      "size_bytes": 41470
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/modeling.py",
+      "sha256": "533bd79ad0b18af449f9308d7938b254ba4c35ba1bfb40072f8bcb4b9018c45a",
+      "size_bytes": 63259
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/provenance.py",
+      "sha256": "dc5c827cb20b10434bb336d28e68ff86b51bc6f670a3a60ccd6f71498aaac191",
+      "size_bytes": 35100
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/pubchem.py",
+      "sha256": "38fa6782007d27ae48b6a0f33bba9be30e7bd0488077d10324d4f75ebce3f101",
+      "size_bytes": 8594
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/quality.py",
+      "sha256": "86c1d3bb1a2fc1177fd520c5a20bf35c4259adbf81651b73cf38b79c4ada2ced",
+      "size_bytes": 50191
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/reporting.py",
+      "sha256": "f2c7cce4f7a6651bf01db9f105d493f636e9714d977c802d36ab72e741659afa",
+      "size_bytes": 79453
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/settings.py",
+      "sha256": "0e52c2c712fc63f0fe8ae1b17883de5d797c363c488dbcfef39ab29b3a112098",
+      "size_bytes": 15253
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/src/menin_discovery/splitting.py",
+      "sha256": "4e17737dfe904991c8cfe6e7b1d0e2d90bb8889edb1f4fd571ddcf27fd5fbc67",
+      "size_bytes": 22287
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_analysis.py",
+      "sha256": "bea472aec4443dd91bdaac74066c5d018a766dd5057f5a16410d0b0ac77e3269",
+      "size_bytes": 22357
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_chemistry.py",
+      "sha256": "61faf0f206718d762aa202f74a17029ffbfcce0567d4e79e91299238c6a19a11",
+      "size_bytes": 2721
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_curation.py",
+      "sha256": "f388d8213742d77bd5365e8eae3c3b381533071f73a1dc0947c0070963399a26",
+      "size_bytes": 13750
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_features.py",
+      "sha256": "fb1e6d5f0a0c8f666a1fd59bf98b0f649ef85ebd645e0bbcfda487c87183950c",
+      "size_bytes": 1483
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_herg_benchmark.py",
+      "sha256": "1c59270621d269a76c84c2f8904dfcf6dab77e1c11bebb07d3429b75319110a9",
+      "size_bytes": 4489
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_herg_validation.py",
+      "sha256": "dcbcffb4872050252abddd0d73e9184a3c23b9184199676f2147a093a12b0ec2",
+      "size_bytes": 3933
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_internal_data.py",
+      "sha256": "b63184b4891b1a91c9cf398ec7eade33fe7f06f1e06b20923c4cff248b654cf0",
+      "size_bytes": 12150
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_modeling.py",
+      "sha256": "0b6e0a524cf986810f95bea8b4e440be4367e2edca4e6227645e0c0b5e914efa",
+      "size_bytes": 9006
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_provenance.py",
+      "sha256": "ce91fbd3cd3285c67e1a643cf588ddc423d79dedf927f414b4d620736956b06b",
+      "size_bytes": 23537
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_pubchem.py",
+      "sha256": "04b1283d842f1f0e456a1d5b7f43f90871bdf578f6a2491d6ed148a2e1beb239",
+      "size_bytes": 1109
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_quality.py",
+      "sha256": "ecc441f2431953628eefbe6cd7054c894e8834d26c739b44e58a4d31c23ab9d7",
+      "size_bytes": 5206
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_settings.py",
+      "sha256": "41fdd0c40627f1fb9baa063eba422fb1d42290590275b3e7fcf4f64b700a3f2e",
+      "size_bytes": 1569
+    },
+    {
+      "media_type": "text/x-python",
+      "path": "pipeline/tests/test_splitting.py",
+      "sha256": "86c67cc2b263c6b2b7bb4405c9821cca91e577c97380573d65952e94ab4563ae",
+      "size_bytes": 6755
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "pyproject.toml",
+      "sha256": "5b9d7f2964e94d3f2e5de806ccf8d068cabc8deddf74e1af26198a5882d6c427",
+      "size_bytes": 1560
+    }
+  ],
+  "manifest_sha256": "a4c2d0ecea4495342b49dbfa9764d3b8629806c50f84d1064734bb3ea9286f68",
+  "manifest_version": "1.0",
+  "root": ".",
+  "stage": "software",
+  "total_size_bytes": 1389121,
+  "upstream": []
+}

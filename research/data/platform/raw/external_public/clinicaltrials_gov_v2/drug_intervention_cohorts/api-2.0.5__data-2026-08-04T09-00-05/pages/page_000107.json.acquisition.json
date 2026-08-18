@@ -1,0 +1,27 @@
+{
+  "acquired_bytes": 1261337,
+  "acquired_md5": null,
+  "acquired_sha256": "a943453edd2b47ab2dd9d559fd555d629fb4fb364f12069ae3727cc61ea72c6d",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://clinicaltrials.gov/api/v2/studies?query.term=AREA%5BInterventionType%5DDRUG&format=json&pageSize=1000&countTotal=true&sort=LastUpdatePostDate%3Adesc&fields=NCTId%2CStudyType%2CPhase%2COverallStatus%2CStartDate%2CStartDateType%2CPrimaryCompletionDate%2CPrimaryCompletionDateType%2CCompletionDate%2CCompletionDateType%2CStudyFirstSubmitDate%2CStudyFirstSubmitQCDate%2CStudyFirstPostDate%2CStudyFirstPostDateType%2CResultsFirstSubmitDate%2CResultsFirstSubmitQCDate%2CResultsFirstPostDate%2CResultsFirstPostDateType%2CLastUpdateSubmitDate%2CLastUpdatePostDate%2CLastUpdatePostDateType%2CLeadSponsorName%2CLeadSponsorClass%2CCondition%2CInterventionType%2CInterventionName%2CInterventionDescription%2CHasResults&pageToken=ZVdj7o2Elu8o3lp2Wd-su-numpOQJJxuY_Gi3_wfmj6SuP08FCfCF_jS9dNN0iI",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "page_000107.json",
+  "manifest_sha256": "a712016d75c6abf1f8ae5aaf8333fc50b57a92ce288b99aeba26b32434938e67",
+  "partial_restart_reason": null,
+  "resolved_url": "https://clinicaltrials.gov/api/v2/studies?query.term=AREA%5BInterventionType%5DDRUG&format=json&pageSize=1000&countTotal=true&sort=LastUpdatePostDate%3Adesc&fields=NCTId%2CStudyType%2CPhase%2COverallStatus%2CStartDate%2CStartDateType%2CPrimaryCompletionDate%2CPrimaryCompletionDateType%2CCompletionDate%2CCompletionDateType%2CStudyFirstSubmitDate%2CStudyFirstSubmitQCDate%2CStudyFirstPostDate%2CStudyFirstPostDateType%2CResultsFirstSubmitDate%2CResultsFirstSubmitQCDate%2CResultsFirstPostDate%2CResultsFirstPostDateType%2CLastUpdateSubmitDate%2CLastUpdatePostDate%2CLastUpdatePostDateType%2CLeadSponsorName%2CLeadSponsorClass%2CCondition%2CInterventionType%2CInterventionName%2CInterventionDescription%2CHasResults&pageToken=ZVdj7o2Elu8o3lp2Wd-su-numpOQJJxuY_Gi3_wfmj6SuP08FCfCF_jS9dNN0iI",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 19:45:36 GMT",
+    "etag": "\"4/0.34.1/msefgh6w\"",
+    "server": "istio-envoy",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T19:45:39Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "page_000107.json",
+  "upstream_md5_when_published": null
+}

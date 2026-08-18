@@ -1,0 +1,27 @@
+{
+  "acquired_bytes": 71,
+  "acquired_md5": null,
+  "acquired_sha256": "d4d6589e93e87806bbe15fa8d18375af9ce238b3057cd2b1adb1ee9659a908c3",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://clinicaltrials.gov/api/v2/version",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "version_after_probe_000001.json",
+  "manifest_sha256": "12e6618dd532a997e0e16edde11e2a40c3c715701ef21e60d3f25b09b78c2a61",
+  "partial_restart_reason": null,
+  "resolved_url": "https://clinicaltrials.gov/api/v2/version",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 19:53:41 GMT",
+    "etag": "\"4/0.34.1/msefgh6w\"",
+    "server": "istio-envoy",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T19:53:45Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "version_after_probe_000001.json",
+  "upstream_md5_when_published": null
+}

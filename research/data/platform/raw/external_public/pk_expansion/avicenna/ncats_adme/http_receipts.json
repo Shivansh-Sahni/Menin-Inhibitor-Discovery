@@ -1,0 +1,381 @@
+{
+  "document_sha256": "2cdf8ea6eca7bd932aa7dfbc02da0d4b3df7e0fd4faeab617726c3ccd66aa383",
+  "request_count": 25,
+  "requests": [
+    {
+      "bytes": 1273,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/",
+      "http_status": 200,
+      "path": "provenance/public_datasets_index.html",
+      "request_id": "ncats_directory",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/",
+      "response_headers": {
+        "content-type": "text/html",
+        "date": "Thu, 06 Aug 2026 18:53:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:12.584855+00:00",
+      "sha256": "fef77e1d6e44803084acdfb7e38cb2ff81abde298a7eb245b59f98bb1aa68bc5"
+    },
+    {
+      "bytes": 137912,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508591_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1508591_datatable_all.csv",
+      "request_id": "aid_1508591_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508591_datatable_all.csv",
+      "response_headers": {
+        "content-length": "137912",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:09 GMT",
+        "etag": "\"63b859eb-21ab8\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:07 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:14.011129+00:00",
+      "sha256": "5948c28cb2770839bca93ac8962f6a7eac1d367db1add3832a5aff0f38fe8856"
+    },
+    {
+      "bytes": 8214,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508591/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508591_description.json",
+      "request_id": "aid_1508591_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508591/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:11 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:15.085926+00:00",
+      "sha256": "9d136af5f13e10c408054d8f05ec119f00c28ccd6bb06728aaaf9f4b0e62cbe9"
+    },
+    {
+      "bytes": 6768,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508591/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508591_summary.json",
+      "request_id": "aid_1508591_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508591/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:16.019925+00:00",
+      "sha256": "0d827877f5c3a4cb5b7b967fe62ff949692cf0a4407eae4e99882133fb5b7fd8"
+    },
+    {
+      "bytes": 10020,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508603_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1508603_datatable_all.csv",
+      "request_id": "aid_1508603_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508603_datatable_all.csv",
+      "response_headers": {
+        "content-length": "10020",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:13 GMT",
+        "etag": "\"63b859eb-2724\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:07 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:16.514515+00:00",
+      "sha256": "d7670893ee24e1b5b0a8a5607e366cfe16af6cc99de0ac524cdebb4cfdae039f"
+    },
+    {
+      "bytes": 6463,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508603/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508603_description.json",
+      "request_id": "aid_1508603_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508603/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:13 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:17.376466+00:00",
+      "sha256": "17961796d8cc8a109a3e54110def8498131a4b552ef025a3e185888fe54e2e71"
+    },
+    {
+      "bytes": 5196,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508603/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508603_summary.json",
+      "request_id": "aid_1508603_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508603/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:14 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:18.201839+00:00",
+      "sha256": "abf7728710a0520661d68e196407296a875ac023b08a398353239d790d8a35a5"
+    },
+    {
+      "bytes": 276284,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508612_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1508612_datatable_all.csv",
+      "request_id": "aid_1508612_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1508612_datatable_all.csv",
+      "response_headers": {
+        "content-length": "276284",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:15 GMT",
+        "etag": "\"63b859ec-4373c\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:08 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:19.843535+00:00",
+      "sha256": "b1335c2f174481369743cc5b46e11fbfb3b9dcf8c462c1cba1aeb45dfe3a22a3"
+    },
+    {
+      "bytes": 6783,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508612/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508612_description.json",
+      "request_id": "aid_1508612_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508612/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:17 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:20.497741+00:00",
+      "sha256": "01c5afd3324c33793d9be5d02d38849c84979a23a4ea2ca8b8ac55bedab5a559"
+    },
+    {
+      "bytes": 5379,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508612/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1508612_summary.json",
+      "request_id": "aid_1508612_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1508612/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:17 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:21.538307+00:00",
+      "sha256": "9503da5cf783f66b15fb2c437bf0acc1d622063d5d05441b2d00ab54f0027549"
+    },
+    {
+      "bytes": 2450452,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645840_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1645840_datatable_all.csv",
+      "request_id": "aid_1645840_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645840_datatable_all.csv",
+      "response_headers": {
+        "content-length": "2450452",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:18 GMT",
+        "etag": "\"63b859ed-256414\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:33.180669+00:00",
+      "sha256": "1777811172b40bc02f44fe51a8cd9624a8e4ec814a76a015e4bf86a544e1dec4"
+    },
+    {
+      "bytes": 79376,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645840/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645840_description.json",
+      "request_id": "aid_1645840_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645840/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:30 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:34.191733+00:00",
+      "sha256": "ace626ee25d4de10a55d4eb1d55acb88ada97275d4838b3ae5fedb50c2216def"
+    },
+    {
+      "bytes": 3914,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645840/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645840_summary.json",
+      "request_id": "aid_1645840_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645840/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:31 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:35.053087+00:00",
+      "sha256": "84e75676f71be5d8a6853376b251b8f06a1fb64a3bafbbaba60d7c7bbffecb81"
+    },
+    {
+      "bytes": 2517581,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645841_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1645841_datatable_all.csv",
+      "request_id": "aid_1645841_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645841_datatable_all.csv",
+      "response_headers": {
+        "content-length": "2517581",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:32 GMT",
+        "etag": "\"63b859ee-266a4d\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:10 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:45.727181+00:00",
+      "sha256": "9fdf5be08fd6c8cd4b154935bb5b8fa2042bca623654115173343c8c0b043099"
+    },
+    {
+      "bytes": 79383,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645841/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645841_description.json",
+      "request_id": "aid_1645841_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645841/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:42 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:46.399560+00:00",
+      "sha256": "0567e509f11da3c51574c4a2154a2b225cdd802f2cc81c0cb28eb321ac5bcd8d"
+    },
+    {
+      "bytes": 3952,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645841/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645841_summary.json",
+      "request_id": "aid_1645841_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645841/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:43 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:47.152752+00:00",
+      "sha256": "c2ba046a6fe6b09e264a2264e98e4128dfc1052f1988fc083779ceff2b595c0f"
+    },
+    {
+      "bytes": 2473508,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645842_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1645842_datatable_all.csv",
+      "request_id": "aid_1645842_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645842_datatable_all.csv",
+      "response_headers": {
+        "content-length": "2473508",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:44 GMT",
+        "etag": "\"63b859f0-25be24\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:56.082619+00:00",
+      "sha256": "0b208cdd30325d1ca33ca1ae3da9c1fe8b828f8b2ab307557ac286a6f8baa3ba"
+    },
+    {
+      "bytes": 79417,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645842/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645842_description.json",
+      "request_id": "aid_1645842_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645842/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:53 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:56.889548+00:00",
+      "sha256": "ca9c8dec00cbeac7242f7c928a44e3eac9f9e26de9374b1e68e9120b8249c67a"
+    },
+    {
+      "bytes": 3964,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645842/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645842_summary.json",
+      "request_id": "aid_1645842_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645842/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:54 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:57.829688+00:00",
+      "sha256": "c00618a0604aa7b345cf2666033e499da0a55e478358928a071d0db118aebaf3"
+    },
+    {
+      "bytes": 101781,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645848_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1645848_datatable_all.csv",
+      "request_id": "aid_1645848_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645848_datatable_all.csv",
+      "response_headers": {
+        "content-length": "101781",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:55 GMT",
+        "etag": "\"63b859f0-18d95\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:58.505958+00:00",
+      "sha256": "3bf72c4ed6cd6c9e5d0b3ea74f460e9d2975e8bedb2eef48e0db48163341ebd2"
+    },
+    {
+      "bytes": 5915,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645848/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645848_description.json",
+      "request_id": "aid_1645848_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645848/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:55 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:59.122827+00:00",
+      "sha256": "da0eb7b21678d3169f692b1681b1f00e1ca8faf649217d0f4ab6ebfcb6c00588"
+    },
+    {
+      "bytes": 4929,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645848/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645848_summary.json",
+      "request_id": "aid_1645848_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645848/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:56 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:53:59.937949+00:00",
+      "sha256": "8318806172671b811be51560e39e4fe0517db7adafb0a1df075a6b5a3bfa36b9"
+    },
+    {
+      "bytes": 18901,
+      "final_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645871_datatable_all.csv",
+      "http_status": 200,
+      "path": "data/AID_1645871_datatable_all.csv",
+      "request_id": "aid_1645871_data",
+      "request_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/AID_1645871_datatable_all.csv",
+      "response_headers": {
+        "content-length": "18901",
+        "content-type": "application/octet-stream",
+        "date": "Thu, 06 Aug 2026 18:53:57 GMT",
+        "etag": "\"63b859f0-49d5\"",
+        "last-modified": "Fri, 06 Jan 2023 17:27:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:54:00.482395+00:00",
+      "sha256": "e284f28659ebc9f98a61fc998b1308066b3a1dedde8b4c11d8cc032543ee67b2"
+    },
+    {
+      "bytes": 7191,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645871/description/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645871_description.json",
+      "request_id": "aid_1645871_description",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645871/description/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:57 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:54:01.376107+00:00",
+      "sha256": "a021937d9aed60d3bdd515efe1dd43ea3c1ed6daabebdf2e7a2ed4ba1265059b"
+    },
+    {
+      "bytes": 5968,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645871/summary/JSON",
+      "http_status": 200,
+      "path": "assays/AID_1645871_summary.json",
+      "request_id": "aid_1645871_summary",
+      "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1645871/summary/JSON",
+      "response_headers": {
+        "content-type": "application/json",
+        "date": "Thu, 06 Aug 2026 18:53:58 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:54:02.164859+00:00",
+      "sha256": "8dfcaeefb96726d313b8b9a03a7d41493c1a4b986712a5f18a18e5853c6e61e9"
+    }
+  ],
+  "schema_version": "pk-expansion-avicenna/1.0"
+}

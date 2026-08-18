@@ -1,0 +1,90 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 8192,
+    "maximum_observed_example_batch_recursive_bytes": 28938046,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 19077920
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "Ki",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_exact",
+      "label_unit": "nM",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 49818,
+      "task_id": "TASK-4CF2E06E5EFAC79EBC548ADE",
+      "task_type": "default__binding__ki__other_bioactivity__nm__continuous_exact"
+    }
+  },
+  "build_config_sha256": "45cadacd6d4df17c49b82f32b8123cbed80595434c7ce49026fd6831d1831907",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 49818
+  },
+  "partition_counts": {
+    "test": 7527,
+    "train": 34411,
+    "validation": 7880
+  },
+  "physical_partition_manifest_file_sha256": "1451ecde7f04789958f1390038db59f9299d093aebce7263eaba11c90abfe669",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "6820f41826f97d51c51f3888c67e937944df7724e93766762be4f4dcf16cd875",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_exact/part-00007.parquet",
+        "rows": 4481,
+        "sha256": "077e4ca3d6fa3497442a9a91ea1a35fb8baddb1a753e146bc8d0e1afc18710d1"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_exact/part-00008.parquet",
+        "rows": 31255,
+        "sha256": "8cbf23872127e8fec73f8440fa2a82653c8a08864973b32c225a9ba66f01b97c"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_exact/part-00009.parquet",
+        "rows": 11249,
+        "sha256": "660800b5b7fa95233ac6ef290ab70229957aecf9c3108a1ab9b146a3a0be185f"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_exact/part-00010.parquet",
+        "rows": 2802,
+        "sha256": "b1f534a548d508e1072e2765b7381b128b585ab510b6c73118ddd200fcce73a3"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_exact/part-00011.parquet",
+        "rows": 31,
+        "sha256": "1e237099e66cbc0c6c7cd45c4e338ea7696cc21fd81438df8f3af2b0b7140b7b"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 49818
+  },
+  "source_dataset_sha256": "6820f41826f97d51c51f3888c67e937944df7724e93766762be4f4dcf16cd875",
+  "split_manifest_sha256": "ab1999e76345e8ba93bd8d6d6973110097232bd3329c56c46429d953e83879e7",
+  "split_sidecar_sha256": "dc0a89bef64a8e3e583fb683fd970acebe2c160065b57113321070fecad0f013",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "08c13e4b72a26cb0fb09017f4e335074cc8a3abf4a69c20db8b00f05e3d79ddf",
+    "record_count": 49818,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "e50d51e4021e82e3bbe7ca7bc16843b3d847624a6f78ac805f353f89a0f31ce3",
+    "sha256": "81b198ee8f48548b408f6189d8773fd306cb8abeb97997dc0b1c860ec247814d"
+  }
+}

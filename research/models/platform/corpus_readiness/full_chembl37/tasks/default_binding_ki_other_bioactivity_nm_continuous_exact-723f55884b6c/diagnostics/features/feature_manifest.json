@@ -1,0 +1,14 @@
+{
+  "component_hashes": {
+    "descriptors.parquet": "80dabcb831a5360b3a4d3cd93a4dd0ed4ecc27ce53606882566a2ba87c0689ae",
+    "feature_config.json": "8653e346eb0872d54872e6cb3f1b566fddb528d72e220fbee8ddb87305892535",
+    "feature_failure_summary.csv": "992215a362f5313d2d773621b8662eda5aca6e7e67e647dad0ebb457db184438",
+    "fingerprints_rdkit_morgan_r2_2048.npz": "6a6713cea24ba9c808d4649587179bc608b45cfb80c5ce5b85269acc748b948c",
+    "selected_rows.parquet": "6d9d4d03e684eda2577a9b21aa155165b2a8052b2fea4c6e953cbbf5b9af3e14"
+  },
+  "feature_bundle_sha256": "2506b61203c5012f640eea39d5b90072c425d6e247dad9f90359a11a7e319611",
+  "record_count": 12500,
+  "schema_version": "capped_diagnostic_feature_manifest_v1",
+  "substantive_training_started": false,
+  "test_partition_opened": false
+}

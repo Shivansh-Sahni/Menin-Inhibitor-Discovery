@@ -1,0 +1,202 @@
+{
+  "bundle_layout": {
+    "combined_model_ready_corpus": null,
+    "partitions": "model_ready/partitions",
+    "readiness": "readiness",
+    "serialization_receipt": "model_ready/combined_serialization_receipt.json",
+    "split": "split/molecule_hash_stream_v1.parquet"
+  },
+  "claim_readiness": "not_claim_ready_until_separate_cross_partition_near_duplicate_audit_is_complete_and_accepted",
+  "component_inventory": {
+    "model_ready/combined_serialization_receipt.json": {
+      "relative_path": "model_ready/combined_serialization_receipt.json",
+      "sha256": "b959858acf80b5e5fe4bb1d27e17131446e5a62847e0f4b1969529ae82803402",
+      "size_bytes": 5682,
+      "verification_source": "post_materialization_sha256"
+    },
+    "model_ready/partitions/partition_manifest.json": {
+      "relative_path": "model_ready/partitions/partition_manifest.json",
+      "sha256": "21f51d61afcea09f5970a26cc2d1313c9a712c3e8fa9fd999ab364fd28d317a8",
+      "size_bytes": 1106,
+      "verification_source": "post_materialization_sha256"
+    },
+    "model_ready/partitions/test.jsonl": {
+      "relative_path": "model_ready/partitions/test.jsonl",
+      "sha256": "2057edda6d472dbea5e4ca6241f1ec8f6db295dc46ae08f237f10ae69b1bbdbe",
+      "size_bytes": 5506140,
+      "verification_source": "bound_during_physical_routing_no_reopen"
+    },
+    "model_ready/partitions/train.jsonl": {
+      "relative_path": "model_ready/partitions/train.jsonl",
+      "sha256": "b128eb128446e4ea81acfd06e9737f87d258e32d6fe04e00d3f12adbdc40dcab",
+      "size_bytes": 25668134,
+      "verification_source": "post_materialization_sha256"
+    },
+    "model_ready/partitions/validation.jsonl": {
+      "relative_path": "model_ready/partitions/validation.jsonl",
+      "sha256": "aebb7680f6267e38fa1ac3d42d37dc8ceece8bbe7e9e2192ef7a1cd08200a08c",
+      "size_bytes": 5661641,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/length_inventory.json": {
+      "relative_path": "readiness/length_inventory.json",
+      "sha256": "7517dd3f3634f552f51f5b191138f7a944d13979800e210016f55db69be74f32",
+      "size_bytes": 2758,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/streaming_loader_smoke.json": {
+      "relative_path": "readiness/streaming_loader_smoke.json",
+      "sha256": "1d9838804959cbc12857b98c3aefe49820ef3b4980b6b48ae935ba783983848e",
+      "size_bytes": 4285,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/task_semantics.json": {
+      "relative_path": "readiness/task_semantics.json",
+      "sha256": "1a51872aa6b2f536cb5582eee8708ea49bbf38278681f959083a4dc834061fed",
+      "size_bytes": 659,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/vocabulary_protein.json": {
+      "relative_path": "readiness/vocabulary_protein.json",
+      "sha256": "4351ffa6fc7ab17cda411080972e81433ff48dc2dceb028b4455a3b592b95d56",
+      "size_bytes": 1030,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/vocabulary_smiles.json": {
+      "relative_path": "readiness/vocabulary_smiles.json",
+      "sha256": "347c36b4dfde025212b686f5185c185f8f3862c984650292a722eb301f684e94",
+      "size_bytes": 1842,
+      "verification_source": "post_materialization_sha256"
+    },
+    "readiness/vocabulary_text.json": {
+      "relative_path": "readiness/vocabulary_text.json",
+      "sha256": "987344448360ecf3bae7144045fa968342d80d4dc0984453ebb778cce1415e8b",
+      "size_bytes": 702,
+      "verification_source": "post_materialization_sha256"
+    },
+    "split/molecule_hash_stream_v1.parquet": {
+      "relative_path": "split/molecule_hash_stream_v1.parquet",
+      "sha256": "9cdda57f5cf4f795aa8bfaaa15936f592e23d06b7288c2e184e038f8ed8facca",
+      "size_bytes": 832943,
+      "verification_source": "post_materialization_sha256"
+    },
+    "split/molecule_hash_stream_v1.parquet.manifest.json": {
+      "relative_path": "split/molecule_hash_stream_v1.parquet.manifest.json",
+      "sha256": "0364a6b7cdbc83b5a1a81e8e4397558c4e081d0661ff6d2e9b43ed2628b271f5",
+      "size_bytes": 6241,
+      "verification_source": "post_materialization_sha256"
+    }
+  },
+  "component_inventory_policy": "all bundle files except acceptance.json; acceptance is externally hashed on return",
+  "component_inventory_sha256": "a389d08b2e69143295566282b82a7296a2a6471735fa027d6f2256d4b6d85a22",
+  "integration_config": {
+    "intended_use": "new molecule within the observed public task domain at platform scale",
+    "loader_batch_size": 8,
+    "loader_maximum_batches": 4,
+    "require_manifest_bound_directory": true,
+    "seed": 20260804,
+    "serialization_batch_size": 8192,
+    "split_batch_size": 50000,
+    "split_name": "molecule_hash_stream_v1",
+    "split_strategy": "molecule_grouped",
+    "task_eligibility_mode": "default"
+  },
+  "integration_config_sha256": "1f24d9a3db2b06da69833cddf487ffb433cd76fb8859bafac3e13b3a3283b152",
+  "large_model_training_started": false,
+  "loader_smoke_examples": 32,
+  "loader_smoke_status": "passed",
+  "memory_estimate": {
+    "combined_measured_bytes_per_row": 5216.457242582897,
+    "estimate_type": "sample_measured_python_object_extrapolation_not_peak_rss",
+    "extrapolated_combined_gib": 0.0939819639155326,
+    "required_path": "serialize_model_ready_jsonl_streaming",
+    "risk": "unbounded_full_list_materialization_prohibited_for_platform_scale",
+    "sample_input_pandas_deep_bytes": 1063556,
+    "sample_model_ready_recursive_bytes": 1925474,
+    "sample_rows": 573,
+    "target_row_count": 19345
+  },
+  "model_ready_combined_corpus_retained": false,
+  "model_ready_combined_corpus_retired_after_routing": true,
+  "model_ready_manifest_sha256": "924fe22dd121530157417d8f8c7c4928ab494fdff359ddb14b4915b8e7ba43db",
+  "model_ready_record_count": 19345,
+  "model_ready_sha256": "2d406e6cf49974b472da7798e8f26df756aa0e59a7319bd41e953c8f65c362f8",
+  "near_duplicate_audit": "separate_required_not_implied_by_group_hash",
+  "physical_partition_counts": {
+    "test": 2898,
+    "train": 13470,
+    "validation": 2977
+  },
+  "physical_partition_manifest_file_sha256_external": "21f51d61afcea09f5970a26cc2d1313c9a712c3e8fa9fd999ab364fd28d317a8",
+  "schema_version": "platform_model_integration_bundle_v1",
+  "serialization_receipt_file_sha256": "b959858acf80b5e5fe4bb1d27e17131446e5a62847e0f4b1969529ae82803402",
+  "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+  "source_dataset_sha256": "7af885eeccfd2d1b3349a059debead5ea44e5c49a0c1ee364eceecb6f96d6233",
+  "source_part_count": 11,
+  "source_record_count": 19345,
+  "split_config": {
+    "allow_derived_labels": false,
+    "chemical_cluster_bits": 1024,
+    "chemical_cluster_count": null,
+    "date_column": "document_year",
+    "derived_label_lineage_column": "label_lineage_digest",
+    "intended_use": "new molecule within the observed public task domain at platform scale",
+    "label_column": "label_value",
+    "molecule_id_column": "molecule_id",
+    "name": "molecule_hash_stream_v1",
+    "near_duplicate_max_dense_bytes": 536870912,
+    "near_duplicate_max_pair_comparisons": 20000000,
+    "near_duplicate_max_protein_pair_comparisons": 5000000,
+    "near_duplicate_sequence_jaccard": 0.8,
+    "near_duplicate_tanimoto": 0.8,
+    "protein_id_column": "protein_id",
+    "record_id_column": "observation_id",
+    "seed": 20260804,
+    "sequence_kmer_size": 3,
+    "smiles_column": "standardized_smiles",
+    "source_id_column": "source_id",
+    "strategy": "molecule_grouped",
+    "target_id_column": "canonical_target_id",
+    "task_type": "regression",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+  "split_manifest_sha256": "9cdda57f5cf4f795aa8bfaaa15936f592e23d06b7288c2e184e038f8ed8facca",
+  "split_partition_counts": {
+    "test": 2898,
+    "train": 13470,
+    "validation": 2977
+  },
+  "split_sidecar_sha256": "0364a6b7cdbc83b5a1a81e8e4397558c4e081d0661ff6d2e9b43ed2628b271f5",
+  "substantive_training_started": false,
+  "task_eligibility_mode": "default",
+  "task_semantics": {
+    "assay_family": "binding",
+    "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+    "endpoint": "EC50",
+    "evidence_domain": "binding",
+    "label_kind": "continuous_censored",
+    "label_unit": "nM",
+    "observation_kind": "experimental_summary",
+    "resolved_task_family": "regression",
+    "semantic_scan_complete": true,
+    "semantic_scan_record_count": 19345,
+    "task_id": "TASK-C2411CFAB88F5910697EFE06",
+    "task_type": "default__binding__ec50__binding__nm__continuous_censored"
+  },
+  "test_lockbox_after_physical_routing": {
+    "binding_source": "physical routing manifest",
+    "hash_calls": 0,
+    "iteration_calls": 0,
+    "length_status": "not_inspected_locked_test",
+    "open_calls": 0,
+    "relative_path": "model_ready/partitions/test.jsonl"
+  },
+  "vocabulary_digests": {
+    "protein": "c71ef3ce523ab60c6953949eb6d74dd4272057067f026389c7ee9c4e69ca562d",
+    "smiles": "41b2e538fd33c20d39fc4175ccb8ceae3efa78f8521fd635c27e44f434476fa0",
+    "text": "20e9a5808b6350c73e599895f75b75d2a6facf23565ecdbf8201b68e851f3f1f"
+  }
+}

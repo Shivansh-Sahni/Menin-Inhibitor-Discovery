@@ -1,0 +1,17 @@
+Primary local package:
+/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18
+
+Key sources:
+- MEETING_BRIEF.md
+- TECHNICAL_QA.md
+- LITERATURE_COMPARABILITY.md
+- RESULT_TRACEABILITY.csv
+- figures/01_model_progress.png through figures/06_graphical_summary.png
+
+External comparability sources:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11187631/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12291323/
+- https://pubs.acs.org/doi/10.1021/acs.jcim.2c00256
+- https://doi.org/10.1016/j.compbiomed.2024.109416
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12756696/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11245006/

@@ -1,0 +1,180 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1159584,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "1154",
+              "source_id": {
+                "str": "VCFG_BT_PS_20150112"
+              }
+            }
+          },
+          "name": "A screen to identify synthetic lethal interactions with E-cadherin in an MCF10A isogenic cell line",
+          "description": [
+            "Genome wide protein coding siRNA screen to identify synthetic lethal interactions with E-cadherin in an MCF10A isogenic cell line"
+          ],
+          "protocol": [
+            "Description of replicates:",
+            "The transfection is performed in duplicate in 384 well plates for each cell line (A and B for MCF10A, C and D for CDH1-/-)",
+            "",
+            "siRNA library description:",
+            "The human siRNA library (Dharmacon GE) consists of 18,120 individual protein coding genes consisting of the following gene families: Protein kinases (G-003505), GPCR (G-003605), Phosphatases (G-003705), Ion channel (G-003805), Drug targets (G-004655), Remaining genome (G-005005), Protease (G-005105), Ubiquitin conjugation 1 (G-005615), Ubiquitin conjugation 2 (G-005625), Ubiquitin conjugation 3 (G-005635)",
+            "",
+            "siRNA reagent type:",
+            "siRNA - 21 bp chemically synthesized sequences, arrayed format (384 well plates, diluted in 1x siRNA buffer (Dharmacon GE source).",
+            "",
+            "Unique siRNA molecules per reagent pool:",
+            "SMARTpool siRNAs (Dharmacon RNAi Technologies). 4 individual siRNAs targeting each gene, pooled together in one well. Ideally, the 4 sequences will target all isoforms/transcript variants of a gene and they are generally in the coding region.",
+            "",
+            "Number of cells per well:",
+            "700 MCF10A cells per well or 900 CDH1-/- cells per well were plated in a 384 well plate",
+            "",
+            "Assay reagent name:",
+            "Cell Titre Glo",
+            "",
+            "Assay reagent manufacturer:",
+            "Dharmacon RNAi Technologies for siRNA. Promega for Cell Titer Glo.",
+            "",
+            "Type of readout:",
+            "Celltiter-Glo luminescent assay- end point assay for viability that measures ATP in the cell.",
+            "",
+            "Delivery type and protocol:",
+            "All siRNA and lipid/opti-MEM complexing is performed in 1 plate (A plate) and subsequently transferred to assay plates B, C and D.  6ul siRNA (1uM stock) is added to 44ul lipid:opti-MEM mix, mixed and complexed for 20 minutes in plate A. Then 12.5ul is transferred to plates B, C and D.  Final concentration of SMARTpool is 40 nM. All liquid handling steps performing using a Calliper Sciclone ALH3000 liquid handling robot. Cells were reverse transfected by adding 25ul of cells per well to the pre-mixed siRNA/lipid complex using a Biotek 406 (Biotek) dispense workstation.",
+            "",
+            "Cell confluence:",
+            "700 MCF10A cells per well or 900 CDH1-/- cells per well were plated in a 384 well plate",
+            "",
+            "Complexing protocol:",
+            "siRNA is added to pre-diluted lipid in opti-MEM, mixed and complexed for 20 minutes.",
+            "",
+            "Complexing time:",
+            "20 minutes",
+            "",
+            "Delivery reagent name:",
+            "DharmaFECT 3 siRNA Transfection Reagent",
+            "",
+            "Delivery reagent type:",
+            "Lipid",
+            "",
+            "Delivery reagent manufacturer:",
+            "Dharmacon (GE)",
+            "",
+            "Delivery reagent final concentration:",
+            "0.05ul in 37.5ul total volume.",
+            "",
+            "Silencing reagent final concentration:",
+            "40nM",
+            "",
+            "Assay plate manufacturer:",
+            "Corning 3846",
+            "",
+            "Assay plate type:",
+            "White walled, clear bottom 384-well plate. Tissue-culture treated polystyrene, flat bottom, with lid.",
+            "",
+            "Media composition:",
+            "DMEM-F12 with glutamate, 5% horse serum, 20ng/mL EGF, 0.5ug/mL hydrocortisone, 100ng/mL cholera toxin, 10ug/mL insulin",
+            "",
+            "Time of media change:",
+            "24 hours post-transfection."
+          ],
+          "comment": [
+            ""
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 25777964
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "REAGENT_ID",
+              "description": [
+                "Dharmacon GE reagent ID"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "ENTREZ_GENE_ID",
+              "description": [
+                "NCBI Entrez Gene ID of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "NCBI_GENE_SYMBOL",
+              "description": [
+                "Official symbol of target NCBI gene ID"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "PLATE",
+              "description": [
+                "Plate number"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 5,
+              "name": "WELL",
+              "description": [
+                "Well location"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES",
+              "description": [
+                "CTG values of MCF10A cells after siRNA knockdown normalised to the average MCF10A mock control CTG value across all screen plates, then the average of the 2 replicates"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "CDH1_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES",
+              "description": [
+                "CTG values of CDH1 cells after siRNA knockdown normalised to the average CDH1 mock control CTG value across all screen plates, then the average of the 2 replicates"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 8,
+              "name": "VIABILITY_RATIO_FROM_NORMALISED_MCF10A_AND_CDH_VIABILITY",
+              "description": [
+                "MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES/CDH1_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 9,
+              "name": "SYNTHETIC_LETHALITY_BIN",
+              "description": [
+                "synthetic lethality binning criteria i. SL1 bin if MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value 0.85-1.1 and a VIABILITY_RATIO_FROM_NORMALISED_MCF10A_AND_CDH_VIABILITY value less than or equal to 0.85 ii. SL2 bin if MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value of 0.70-0.84 and a VIABILITY_RATIO_FROM_NORMALISED_MCF10A_AND_CDH_VIABILITY value less than or equal to 0.85 iii. SL3 bin if MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value of 0.50-0.69 and a VIABILITY_RATIO_FROM_NORMALISED_MCF10A_AND_CDH_VIABILITY value less than or equal to 0.75 iv. RSL bin if CDH1_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value of greater than or equal to 0.70 and a VIABILITY_RATIO_FROM_NORMALISED_MCF10A_AND_CDH_VIABILITY value greater than or equal to 1.15 v.  TOX bin if MCF10A_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value of less than 0.5 and a CDH1_AVERAGE_CTG_NORMALISED_TO_AVERAGE_MOCK_ACROSS_PLATES value of less than 0.5 iv. else NC bin"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

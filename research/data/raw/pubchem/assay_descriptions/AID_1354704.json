@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1354704,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4149601"
+              }
+            }
+          },
+          "name": "Inhibition of FITC-labelled MLL1 binding to menin (unknown origin) after 120 mins by fluorescence polarization method",
+          "description": [
+            "Title: Piperidine Alkaloids with Diverse Skeletons from Anacyclus pyrethrum.",
+            "",
+            "Abstract: Fifteen new piperidine derivatives, pyracyclumines A-J (1-10), including five pairs of enantiomers, (+)-1/(-)-1 to (+)-5/(-)-5, together with three known compounds, agrocybenine (11), 4,6,6-trimethyl-5,6-dihydro-2(1 H)-pyridone (12), and 3,5,5-trimethyl-1,5-dihydro-2 H-pyrrol-2-one (13), were isolated from the roots of Anacyclus pyrethrum. Pyracyclumines A, B, and H (1, 2, and 8) possess a novel 6/5/6/6 dimeric piperidine skeleton, a unique 6/5/6 dimeric piperidine skeleton, and a 1,4,6-triazaindan skeleton, respectively. Pyracyclumine C (3) is based on a rare cyclopentane-piperidine framework. The structures of the isolated compounds were established by analysis of their NMR and HRESIMS data. The racemic pyracyclumines A-E (1-5) were further separated by chiral HPLC to give the enantiomers (+)-1/(-)-1 to (+)-5/(-)-5, for which the absolute configurations were determined by comparison of their experimental and calculated ECD spectra. The plausible biogenetic pathways of these piperidine alkaloids were proposed starting from the basic units of compounds 12 and 13. All of the isolated compounds were tested for their inhibitory effects on menin-mixed lineage leukemia 1 protein-protein interaction."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: J Nat Prod",
+            "Year: 2018",
+            "Volume: 81",
+            "Issue: 6",
+            "First Page: 1474",
+            "Last Page: 1482",
+            "DOI: 10.1021/acs.jnatprod.8b00239",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 29775308
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4149601"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 29775308"
+          ]
+        }
+      }
+    }
+  ]
+}

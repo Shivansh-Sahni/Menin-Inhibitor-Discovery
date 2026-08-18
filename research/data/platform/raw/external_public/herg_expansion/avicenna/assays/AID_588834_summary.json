@@ -1,0 +1,83 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 588834,
+        "SourceName": "NCGC",
+        "SourceID": "HERG01",
+        "Name": "qHTS Assay for Small Molecule Inhibitors of the Human hERG Channel Activity",
+        "Description": [
+          "NIH Chemical Genomics Center [NCGC]",
+          "National Institutes of Environmental Health Sciences [NIEHS]",
+          "National Toxicology Program [NTP]",
+          "",
+          "NCGC Assay Overview:",
+          "",
+          "We have developed a 1536-well cell-based assay for quantitative high throughput screening (qHTS) to determine in vitro hERG channel blockage as a measure of cardio toxicity with small molecules. This particular assay uses the U2OS cell line which is derived from human osteosarcoma."
+        ],
+        "Protocol": [
+          "NCGC Assay Protocol Summary:",
+          "",
+          "HERG assay (FluxORTM thallium flux assay) was initially developed by Invitrogen/Molecular Probes, and then miniaturized into 1536-well plate in a homogeneous format by NCGC. This assay measures the activity of potassium channel using thallium dye (FluxOR) flux as surrogate measurement for potassium into the cells with a FDSS-7000 kinetic plate reader (Hamamatsu Corp., Hamamatsu City, Japan). The hERG ion channel is transduced into mammalian cells (U2OS) using a baculovirus (Bacmam) construct harboring the hERG K+ ion channel. So far we screened LOPAC1280 library (Sigma), the NTP collection of 1408 compounds, and the NCGC Pharmaceutical Collection (NPC), in which many well defined HERG blockers are present. The rank order potencies of many of these compounds are similar to that of other HERG assays (membrane potential, Rb+ flux, patch clamp, etc). This quick and homogeneous assay is also found to be sensitive, specific, and robust.",
+          "",
+          "Using the FluxORTM thallium flux assay, the activity of potassium channel using thallium dye (FluxOR) flux as surrogate measurement for potassium into the cells was measured in the U2OS cell line transduced with hERG K+ ion channel using a baculovirus (Bacmam) using Opti-MEM medium (Invitrogen) containing 2% fetal calf serum (FCS, HyCone) following loading buffer addition, compound treatment for around 10 minutes and finally adding stimulation buffer. The assay was performed in black clear Kalypsys 1536-well plates. In the screen, Astemizole was used as positive controls. Library compounds were measured for their ability to cause hERG channel blockage in the cell line, as reflected by a decrease in fluorescence intensity, in a concentration-dependent manner. Data were normalized to the controls for basal activity (DMSO only) and 100% inhibition (5uM Astemizole). AC50 values were determined from concentration-response data modeled with the standard Hill equation.",
+          "",
+          "qHTS protocol for hERG-U2OS cellular assay",
+          "",
+          "[Step] [Parameter] [Value] [Description] ",
+          "",
+          "1. Day 1: Replace medium in 70-80% confluent T225 flask with 2.5 mL of hERG-BacMam virus plus 12.5 mL of phosphate buffered saline (PBS) (corresponding roughly to a multiplicity of infection ratio of 100 virus particles/cell)",
+          "2. Incubation: 4 hrs @ room Temperature in Dark",
+          "3. Reagent; Remove virus; wash once with 25 ml DPBS",
+          "4. Reagent; 35 ml culture medium",
+          "5. Incubation; 37oC overnight     ",
+          "6. Day2: Reagent; 3 uL; 2000 U2OS cells/well",
+          "7. Time; 4 hr; 37oC incubation",
+          "8. Loading buffer; 1 uL; 0.7X; ",
+          "9. Incubation: 1hr @ RT in Dark. ",
+          "10. Compounds; 23 nL; 0.59 nM to 92 uM",
+          "11. Controls; 23 nL; Astemizole  1.4 nM to 92 uM ",
+          "12. Time; 10min; 37oC incubation",
+          "13. Read fluorescence Intensity on FDSS for 10 Sec with 1 sec interval",
+          "14. Reagent; 1 uL; stimulation buffer",
+          "15. Read fluorescence Intensity on FDSS for 2 min with 1 sec interval",
+          "16. Detection; Fluorescence Intensity; FDSS"
+        ],
+        "Comment": [
+          "Compound Ranking:",
+          "",
+          "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. See data field \"Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+          "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above.  Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100.  Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39.  Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+        ],
+        "NumberOfTIDs": 35,
+        "HasScore": true,
+        "Method": "confirmatory",
+        "Target": [
+          {
+            "Accession": "NP_001191727",
+            "Name": "potassium voltage-gated channel subfamily H member 2 isoform d"
+          }
+        ],
+        "Version": 2,
+        "Revision": 1,
+        "LastDataChange": {
+          "Year": 2017,
+          "Month": 10,
+          "Day": 17
+        },
+        "SIDCountAll": 5381,
+        "SIDCountActive": 664,
+        "SIDCountInactive": 4107,
+        "SIDCountInconclusive": 610,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 4743,
+        "CIDCountActive": 607,
+        "CIDCountInactive": 3638,
+        "CIDCountInconclusive": 591,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

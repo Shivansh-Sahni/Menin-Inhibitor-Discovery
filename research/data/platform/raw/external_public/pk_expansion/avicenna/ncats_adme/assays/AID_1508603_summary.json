@@ -1,0 +1,58 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 1508603,
+        "SourceName": "NCGC",
+        "SourceID": "ADME-HCS1",
+        "Name": "NCATS Human Liver Cytosol Stability Profiling",
+        "Description": [
+          "Assay submitter (PI):  Pranav Shah Ph.D. ",
+          "NIH Center for Advancing Translational Sciences",
+          "9800 Medical Center Dr, Rockville MD, 20850",
+          "",
+          "Over the last few decades, chemists have become skilled at designing compounds that avoid cytochrome P (CYP) 450 mediated metabolism. Typical screening assays are performed in liver microsomal fractions and it is possible to overlook the contribution of cytosolic enzymes until much later in the drug discovery process. Few data exist on cytosolic enzyme-mediated metabolism and no reliable tools are available to chemists to help design away from such liabilities. In this study, we screened 1450 compounds for liver cytosol-mediated metabolic stability and extracted transformation rules that might help medicinal chemists in optimizing compounds with these liabilities. In vitro half-life data were collected by performing in-house experiments in mouse (CD-1 male) and human (mixed gender) cytosol fractions. Matched molecular pairs analysis was performed in conjunction with qualitative-structure activity relationship modeling to identify chemical structure transformations affecting cytosolic stability. The transformation rules were prospectively validated on the test set. In addition, selected rules were validated on a diverse chemical library and the resulting pairs were experimentally tested to confirm whether the identified transformations could be generalized. The validation results, comprising nearly 250 library compounds and corresponding half-life data, are made publicly available. The datasets were also used to generate in silico classification models, based on different molecular descriptors and machine learning methods, to predict cytosol-mediated liabilities. To the best of our knowledge, this is the first systematic in silico effort to address cytosolic enzyme-mediated liabilities (Shah 2020).",
+          "",
+          "Reference:",
+          "Shah, P., Siramshetty, V.B., Zakharov, A.V. et al. Predicting liver cytosol stability of small molecules. J Cheminform 12, 21 (2020). https://doi.org/10.1186/s13321-020-00426-7"
+        ],
+        "Protocol": [
+          "Mixed gender human liver cytosol fractions (H0610.C) were purchased from Sekisui XenoTech, LLC (Kansas City, USA). We chose the substrate depletion method to determine in vitro half-life. Our assay (384-well format) consisted of two parts; a robotic system for incubation and sample clean up and an integrated LC/MS method to calculate the percent remaining of parent compound. Briefly, each reaction mixture (110 uL) consisted of a test compound (1 uM) and human cytosol fractions (2 mg/mL) in phosphate buffer (100 mM) at pH 7.4. Samples were incubated in 384-well plates at 37 C for 0, 5, 10, 15, 30, and 60 min. Sample analysis and half-life calculations were performed using a previously described method (1). Compounds are classified as unstable (t 1/2 < 30 min) or stable (t 1/2 > 30 min). Compounds are classified as Active (t 1/2 < 120 min) or Inactive (t 1/2 > 120 min). ",
+          "",
+          "Reference: ",
+          "1. Shah, P. et al. An Automated High-Throughput Metabolic Stability Assay Using an Integrated High-Resolution Accurate Mass Method and Automated Data Analysis Software. Drug Metab Dispos 44, 1653-1661 (2016). PMID 27417180"
+        ],
+        "Comment": [
+          "Disclaimer:",
+          "Although all reasonable efforts have been made to ensure the accuracy and reliability of the data, caution should be exercised when interpreting the results as artifacts are possible from nonspecific effects such as assay signal interference. The interpretations presented here are based on the NCATS analysis methods.",
+          "",
+          "Compound Ranking:",
+          "1. Phenotype compound classification is based on the half-life observed. Compound is \"stable\" if half-life is more than 30 minutes (class = 0); \"unstable\" if half-life is less than 30 minutes (class = 1). ",
+          "2. PUBCHEM_ACTIVITY_SCORE is the whole number in minutes of half-life of the compound. PUBCHEM_ACTIVITY_OUTCOME corresponds to the t 1/2. For all compounds with t 1/2 < 120, PUBCHEM_ACTIVITY_OUTCOME is \"active\". For all compounds with half-life 1/2 >= 120, PUBCHEM_ACTIVITY_OUTCOME is \"inactive\"."
+        ],
+        "NumberOfTIDs": 4,
+        "HasScore": true,
+        "Method": "screening",
+        "Version": 2,
+        "Revision": 2,
+        "LastDataChange": {
+          "Year": 2023,
+          "Month": 2,
+          "Day": 7
+        },
+        "SIDCountAll": 189,
+        "SIDCountActive": 80,
+        "SIDCountInactive": 109,
+        "SIDCountInconclusive": 0,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 189,
+        "CIDCountActive": 80,
+        "CIDCountInactive": 109,
+        "CIDCountInconclusive": 0,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,2796 @@
+{
+  "build_id": "build-6237a81ba03d0ccb",
+  "created_at": "2026-07-14T20:02:45Z",
+  "dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+  "file_count": 12,
+  "files": [
+    {
+      "column_count": 2,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "build_summary.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "counts",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "processed_schema_version",
+          "nullable": false
+        }
+      ],
+      "sha256": "d60c346fa919182cfc4e01e47032ca5512c11d51e107387c189120bbd423de4a",
+      "size_bytes": 193
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "data_quality_summary.csv",
+      "row_count": 23,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "dataset",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_structures",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reason",
+          "nullable": false
+        }
+      ],
+      "sha256": "54747d77c3454cb0f174b04db153e7f9fa32fb9dec25bd94c489d53bd93d776d",
+      "size_bytes": 845
+    },
+    {
+      "column_count": 83,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_activity_measurements.csv",
+      "row_count": 41078,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "activity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_format",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_variant_accession",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_variant_mutation",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "bao_format_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_direction",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_name",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_group_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_preferred_source",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "date_provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_original",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "exclusion_reason",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "fragment_count",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "full_structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_censored",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_core_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_redundant",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_duplicate_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_exact",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_target_relevant",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_origin",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "original_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "p_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "parent_compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "pchembl_delta",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "potential_duplicate",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "quality_flags",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "rdkit_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation_original",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "reported_pchembl_value",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_review",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_detail",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_id",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "source_record_conflict",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_record_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_record_parent_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "standard_flag",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "structure_error",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_valid",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_name",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_organism",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_conversion_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_normalized",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "a7bb11cb92134bb4e5dd0a967458d83851975a86328e153e12b401e30ab27264",
+      "size_bytes": 61764490
+    },
+    {
+      "column_count": 83,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_activity_quarantine.csv",
+      "row_count": 23424,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "activity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_format",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_variant_accession",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_variant_mutation",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "bao_format_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_direction",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_name",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_group_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_preferred_source",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "date_provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_original",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "exclusion_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "fragment_count",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "full_structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_censored",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_core_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_redundant",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_duplicate_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_exact",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_target_relevant",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_origin",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "original_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "p_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "parent_compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "pchembl_delta",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "potential_duplicate",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "quality_flags",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "rdkit_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation_original",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "reported_pchembl_value",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_review",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_detail",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_id",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "source_record_conflict",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_record_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_record_parent_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "standard_flag",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "structure_error",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_valid",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_name",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_organism",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_conversion_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_normalized",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "4507d79100fdc3f8b898c2310edc94a0860b9d57fafd7895177b1b5fae690dac",
+      "size_bytes": 38980801
+    },
+    {
+      "column_count": 43,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_compounds_curated.csv",
+      "row_count": 11549,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_blocker_label",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "herg_label_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_value_nm_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_herg_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_herg_median",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": false
+        }
+      ],
+      "sha256": "f89779d1bf21932c5510ba90b2c3834b9adde9490b3288667132a800334dd832",
+      "size_bytes": 7883213
+    },
+    {
+      "column_count": 88,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_activity_measurements.csv",
+      "row_count": 8176,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "activity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "assay_family_override",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_format",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_name",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_relevance",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "assay_variant_accession",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "assay_variant_mutation",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "bao_format_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_direction",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_name",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "cross_source_mirror_group_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "cross_source_mirror_preferred_source",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "date_provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "exclusion_reason",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "fragment_count",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "full_structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_censored",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_core_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_redundant",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_duplicate_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_exact",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_target_relevant",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_origin",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "p_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "parent_compound_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "pchembl_delta",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "potential_duplicate",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "quality_flags",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "rdkit_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation_original",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "reported_pchembl_value",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_review",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_deposit_date",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source_detail",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "source_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source_modify_date",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "source_record_conflict",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_record_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "source_record_parent_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "standard_flag",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_error",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_valid",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_name",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_organism",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_conversion_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_normalized",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "6ba482771de2bf63560a102a24ce7cbc3e9bc6a868f3913f3c7776b46e160c3d",
+      "size_bytes": 18805657
+    },
+    {
+      "column_count": 88,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_activity_quarantine.csv",
+      "row_count": 4378,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "activity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "assay_family_override",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_format",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_name",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_relevance",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "assay_variant_accession",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "assay_variant_mutation",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "bao_format_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_direction",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_name",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_group_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "cross_source_mirror_preferred_source",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_comment",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "data_validity_description",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "date_provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "exclusion_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "fragment_count",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "full_structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_censored",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_core_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_redundant",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_duplicate_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_exact",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_target_relevant",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "measurement_origin",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "p_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "p_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "parent_compound_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "pchembl_delta",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "potential_duplicate",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "quality_flags",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "rdkit_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation_original",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "reported_pchembl_value",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_review",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_deposit_date",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source_detail",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "source_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "source_modify_date",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "source_record_conflict",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_record_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "source_record_parent_id",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "standard_flag",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units_original",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_error",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_valid",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_name",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_organism",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_relevance_reason",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_conversion_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "unit_normalized",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_lower_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_upper_bound",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "2e989a9236648522274398677e88c59d1f7aed304e3cec3af20e7254688b4718",
+      "size_bytes": 10901089
+    },
+    {
+      "column_count": 41,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_compounds_curated.csv",
+      "row_count": 2104,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        }
+      ],
+      "sha256": "ff213e64795051f588c999d3103179078a6c98cc27fa10012b9ae2234daea1be",
+      "size_bytes": 1451135
+    },
+    {
+      "column_count": 31,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "pk_admet_observations.csv",
+      "row_count": 204,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "activity_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_category",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_directionality",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_inclusion_rule",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "admet_quality_flags",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "administration_route",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_context",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_admet_analysis_ready",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "matrix",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "molecule_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "standard_value",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_pref_name",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": false
+        }
+      ],
+      "sha256": "ac18b909e72801c066a101ea41407ccc8d36f7dfc723f3621f83752769157196",
+      "size_bytes": 107088
+    },
+    {
+      "column_count": 31,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "pk_admet_observations_all.csv",
+      "row_count": 306,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "activity_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_category",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_directionality",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_inclusion_rule",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_quality_flags",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "administration_route",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_context",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_admet_analysis_ready",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "matrix",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "molecule_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "standard_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_pref_name",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "a40839493d889260e41f84699783d5cf18be4fdfb78586fad8a31678d1483820",
+      "size_bytes": 167262
+    },
+    {
+      "column_count": 31,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "pk_admet_quarantine.csv",
+      "row_count": 102,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "activity_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_category",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_directionality",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_inclusion_rule",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "admet_quality_flags",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "administration_route",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_context",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_admet_analysis_ready",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "matrix",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "molecule_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "standard_relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_type",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "standard_units",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "standard_value",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_chembl_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_pref_name",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_numeric",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "value_raw",
+          "nullable": true
+        }
+      ],
+      "sha256": "5cb1386c05831ac68281b18fbd1451a3f83a0489502e6df17df81bab42527d92",
+      "size_bytes": 60655
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "source_summary.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "n_compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        }
+      ],
+      "sha256": "4e0ff0ce061fea2178d4b1b4ba40c7ccf621b122e845926f2bdaaf97c88a2f63",
+      "size_bytes": 121
+    }
+  ],
+  "manifest_sha256": "a3d5384d555d4b7b23f07ddef0cf4c6a2783818020fe4b398d0834a51289f078",
+  "manifest_version": "1.0",
+  "root": ".",
+  "stage": "processed",
+  "total_size_bytes": 140122549,
+  "upstream": [
+    {
+      "dataset_sha256": "b6e300982cb4ae312a6ea707189ad5158d27e4d5677c8fad00c968166a055196",
+      "stage": "raw"
+    }
+  ]
+}

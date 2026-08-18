@@ -1,0 +1,43 @@
+{
+  "contract_version": "1.1.0",
+  "as_of": "2026-08-09",
+  "execution_status": "specification_only_no_features_computed",
+  "canonical_parent_join_key": "structure_id",
+  "feature_level_enum": ["parent", "protomer_tautomer", "conformer", "protein_construct", "protein_conformation", "pose", "complex"],
+  "hierarchy": ["parent", "protomer_tautomer", "conformer", "protein_construct", "protein_conformation", "pose", "complex"],
+  "row_key_contract": {"composite_fields":["feature_family","feature_version","feature_level","structure_id","protomer_id","tautomer_id","conformer_id","protein_construct_id","protein_conformation_id","pose_id"],"uniqueness":"unique_after_canonical_null_normalization","feature_block_identity":"feature_family_plus_feature_version","structure_id_is_not_globally_unique":true},
+  "identity_fields_by_scope": {"ligand_only":{"required":["structure_id","standard_inchi_key","standardized_smiles"],"protein_fields_nullable":true},"protein_only":{"required":["protein_construct_id","sequence_accession","sequence_sha256"],"molecule_fields_nullable":true,"duplication_per_structure_forbidden":true},"ligand_protein_complex":{"required":["structure_id","standard_inchi_key","standardized_smiles","protein_construct_id","protein_conformation_id"],"pose_id_required_only_at_pose_level":true}},
+  "nullable_hierarchy_fields_by_level": {
+    "parent": {"protomer_id":true,"tautomer_id":true,"conformer_id":true,"protein_construct_id":true,"protein_conformation_id":true,"pose_id":true},
+    "protomer_tautomer": {"protomer_id":false,"tautomer_id":false,"conformer_id":true,"protein_construct_id":true,"protein_conformation_id":true,"pose_id":true},
+    "conformer": {"protomer_id":false,"tautomer_id":false,"conformer_id":false,"protein_construct_id":true,"protein_conformation_id":true,"pose_id":true},
+    "protein_construct": {"protomer_id":true,"tautomer_id":true,"conformer_id":true,"protein_construct_id":false,"protein_conformation_id":true,"pose_id":true},
+    "protein_conformation": {"protomer_id":true,"tautomer_id":true,"conformer_id":true,"protein_construct_id":false,"protein_conformation_id":false,"pose_id":true},
+    "pose": {"protomer_id":false,"tautomer_id":false,"conformer_id":false,"protein_construct_id":false,"protein_conformation_id":false,"pose_id":false},
+    "complex": {"protomer_id":false,"tautomer_id":false,"conformer_id":false,"protein_construct_id":false,"protein_conformation_id":false,"pose_id":true}
+  },
+  "null_representation":"database_or_arrow_null_never_empty_string_or_sentinel",
+  "software_environment": {"python":{"constraint":"3.11.*","exact_version":"NR"},"rdkit":{"constraint":"2026.03.3","exact_version":"2026.03.3"},"pytorch":{"constraint":"2.7.*","exact_version":"NR"},"pytorch_geometric":{"constraint":"compatible_with_pytorch_2.7","exact_version":"NR"},"transformers":{"constraint":"4.*","exact_version":"NR"},"openmm":{"constraint":"8.*","exact_version":"NR"},"docking_engine":{"constraint":"pinned_before_execution","exact_version":"NR"},"container_digest":"NR","lockfile_sha256":"NR"},
+  "families": [
+    {"id":"morgan_r2_2048","shape":[2048],"dtype":"uint8","units":"binary","allowed_levels":["parent"],"software":"RDKit","version":"2026.03.3"},
+    {"id":"maccs_167","shape":[167],"dtype":"uint8","units":"binary","allowed_levels":["parent"],"software":"RDKit","version":"2026.03.3"},
+    {"id":"rdkit_2d","shape":"resolved_by_feature_schema","dtype":"float32","units":"descriptor_native","allowed_levels":["parent"],"software":"RDKit","version":"2026.03.3"},
+    {"id":"molecular_graph","shape":"variable_nodes_edges","dtype":"mixed","units":"documented_per_channel","allowed_levels":["parent","protomer_tautomer"],"software":"PyTorch_Geometric","version":"NR"},
+    {"id":"smiles_tokens","shape":"variable_length_plus_mask","dtype":"int32","units":"token_id","allowed_levels":["parent","protomer_tautomer"],"software":"Transformers","version":"4.*","exact_revision":"NR"},
+    {"id":"pretrained_molecule_embedding","shape":"model_dimension_NR","dtype":"float32","units":"unitless","allowed_levels":["parent","protomer_tautomer"],"model_revision":"NR"},
+    {"id":"predicted_pka_logd","shape":"provider_schema_NR","dtype":"float32","units":"pKa_and_log10_partition","allowed_levels":["parent","protomer_tautomer"],"provider":"NR"},
+    {"id":"conformer_geometry","shape":"N_atoms_x_3","dtype":"float32","units":"angstrom","allowed_levels":["conformer"],"software":"RDKit_or_OpenMM","version":"NR"},
+    {"id":"conformer_energy","shape":[],"dtype":"float64","units":"kcal_per_mol","allowed_levels":["conformer"],"energy_method":"NR"},
+    {"id":"herg_protein_embedding","shape":"model_dimension_NR","dtype":"float32","units":"unitless","allowed_levels":["protein_construct","protein_conformation"],"wt_sequence_accession":"Q12809","wt_sequence_length":1159,"wt_sequence_sha256":"287332153da38b59cc1be9554cc3a29f14d3b9e2a33150b4d54137773b22d1f7","wt_reference_manifest_sha256":"502b70e765237b615ba3f622eabf284f7321e95d8d7234dc84b7c0fb7874807d","model_revision":"NR"},
+    {"id":"docking_plec","shape":"schema_NR","dtype":"float32_or_sparse","units":"contact_features","allowed_levels":["pose"],"receptor_structure":"NR","engine_version":"NR"},
+    {"id":"physics_scalars","shape":"named_schema_NR","dtype":"float64","units":"explicit_per_field","allowed_levels":["conformer","complex"],"software":"NR"}
+  ],
+  "post_fit_outputs": {"is_input_feature_family":false,"artifact_key":["structure_id","run_id","split_role"],"fields":["uncertainty","calibration","applicability_domain","risk_coverage"],"downstream_use":"training_only_cross_fitted_derived_prediction"},
+  "provenance_required": ["contract_version","feature_family","feature_version","identity_ids","input_checksum","split_manifest_checksum","raw_record_ids","timestamp_utc","config_checksum","git_commit","container_digest","software_versions","random_seed","job_id","worker_id","feature_status","warnings","dtype","shape","units","output_checksum"],
+  "feature_status_enum": ["ok","not_applicable","input_invalid","enumeration_failed","conformer_failed","docking_failed","timeout","oom","software_error","quality_rejected"],
+  "missingness": {"silent_imputation":false,"zero_vector_on_failure":false,"required_outputs":["feature_status","missingness_mask","error_class","bounded_diagnostic"]},
+  "leakage_rules": ["split_before_learned_preprocessing","fit_all_transforms_on_train_only","report_pretraining_overlap","exclude_labels_and_outcomes_from_features","wt_kcnh2_only","label_blind_pose_selection","cross_fit_post_model_features"],
+  "enumeration_conditions": {"pH":7.4,"temperature_K":298.15,"ionic_strength_mol_L":0.15,"maximum_absolute_formal_charge":2,"maximum_retained_states":16,"minimum_predicted_population":0.01,"population_provider":"NR","population_provider_version":"NR","retained_populations":"renormalize_to_one_and_store_original_mass"},
+  "aggregation": {"order":["poses_within_conformer","conformers_within_same_protomer_tautomer_state","states_within_structure_id"],"temperature_K":298.15,"gas_constant_kcal_mol_K":0.00198720425864083,"within_state_energy_zero":"minimum_valid_conformer_energy_for_that_state","within_state_formula":"exp(-(E_i-E_state_min)/(R*T))_then_normalize","cross_state_energy_comparison":false,"state_weights":"pH_specific_predicted_population","primary_regression":"population_weighted_state_means","primary_classification":"population_weighted_state_probabilities","missing_state_population":"primary_missing; optional_uniform_state_sensitivity_separate","missing_within_state_energy":"uniform_conformer_mean_with_flag","required_summaries":["mean","minimum","maximum","standard_deviation","effective_ensemble_size","valid_count","attempted_count","dominant_member_id","conformer_weight","state_weight","retained_population_mass","discarded_population_mass"]},
+  "production_gate": "all_required_exact_versions_non_NR_and_smoke_test_pass"
+}

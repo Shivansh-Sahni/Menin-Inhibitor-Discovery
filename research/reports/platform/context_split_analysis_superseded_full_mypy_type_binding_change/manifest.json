@@ -1,0 +1,27 @@
+{
+  "claim_readiness": false,
+  "component_inventory": {
+    "decision_matrix.csv": {
+      "relative_path": "decision_matrix.csv",
+      "sha256": "4a5c1713810b3b1b1d89d5fff1f02464e1f101aa68aa7e80117585e32d7eecb7",
+      "size_bytes": 862
+    },
+    "report.json": {
+      "relative_path": "report.json",
+      "sha256": "1fe3d029dcfb039b8ae132949d446327b11cb9e3bc2e95fea04fce35a6279b22",
+      "size_bytes": 37654
+    },
+    "summary.md": {
+      "relative_path": "summary.md",
+      "sha256": "7ec6e87e6c39161545b9644d0ec837c04719dce310e88a31b9e072751e77ffec",
+      "size_bytes": 1036
+    }
+  },
+  "component_inventory_sha256": "faf3adb3396f8d3d4aa9474f3f68455a5c8d8532452d492cd3fad427d8a9c580",
+  "configuration_sha256": "522d05ab8352a48946116df4b7a7c9d0ca224c9bfe98c5848bd430ea1dc44131",
+  "context_split_acceptance_sha256": "20b41361a94657fa718423d65111f0ab2491601ba440c6ef04e30a2203b6e92d",
+  "schema_version": "platform_context_split_analysis_manifest_v1",
+  "substantive_training_authorized": false,
+  "substantive_training_ready": false,
+  "substantive_training_started": false
+}

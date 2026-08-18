@@ -1,0 +1,258 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1159578,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "1154",
+              "source_id": {
+                "str": "VCFG_SW_PS_20151201"
+              },
+              "date": {
+                "std": {
+                  "year": 2016,
+                  "month": 11,
+                  "day": 30
+                }
+              }
+            }
+          },
+          "name": "A screen to identify genes that regulate lymphatic endothelial cell migration - Primary Screen",
+          "description": [
+            "Genome wide siRNA screen for modulators of lymphatic endothelial cell migration"
+          ],
+          "protocol": [
+            "Description of replicates:",
+            "The transfection is performed in duplicate in 96 well plates labelled A and B. ",
+            "",
+            "siRNA library description:",
+            "The human siRNA library (Dharmacon GE) consists of 18,120 individual protein coding genes consisting of the following gene families: Protein kinases (G-003505), GPCR (G-003605), Phosphatases (G-003705), Ion channel (G-003805), Drug targets (G-004655), Remaining genome (G005005).",
+            "",
+            "siRNA reagent type:",
+            "siRNA - 21 bp chemically synthesized sequences, arrayed format (96 well plates, diluted in 1x siRNA buffer (Dharmacon GE source).",
+            "",
+            "Unique siRNA molecules per reagent pool:",
+            "SMARTpool siRNAs (Dharmacon RNAi Technologies). 4 individual siRNAs targeting each gene, pooled together in one well. Ideally, the 4 sequences will target all isoforms/transcript variants of a gene and they are generally in the coding region. ",
+            "",
+            "Number of cells per well:",
+            "15000 cells per well were plated in a 96 well plate",
+            "  ",
+            "Compound name:",
+            "",
+            "Assay reagent name:",
+            "Celltracker Green CMFDA, (catalogue #C2925). Hoechst 33342 (catalogue #H3570)  ",
+            "",
+            "Assay reagent manufacturer:",
+            "Dharmacon RNAi Technologies for siRNA. Invitrogen for Celltracker Green CMFDA and Hoechst 33342.",
+            "",
+            "Type of readout:",
+            "High content imaging scratch assay for cell migration and cell number.",
+            "",
+            "Delivery type and protocol:",
+            "All siRNA and lipid/opti-MEM complexing is performed in 1 plate (A plate) and subsequently transferred to assay plate B.  Transfer 8 ul of siRNA stock (1 uM) to assay plate 'A', mix well and transfer 20 ul to assay plate 'B'. Incubate for 20 min at room temperature to complex.  Final concentration of SMARTpool is 40 nM. All liquid handling steps performing using a Calliper Sciclone ALH3000 liquid handling robot. Cells were reverse transfected by adding 80ul of cells (15000 cells) per well to the pre-mixed siRNA/lipid complex using a Biotek 406 (Biotek) dispense workstation.",
+            "",
+            "Cell confluence:",
+            "15000 cells per well were plated in a 96 well plate",
+            "",
+            "Complexing protocol:",
+            "siRNA is added to pre-diluted lipid in opti-MEM, mixed and complexed for 20 minutes.",
+            "",
+            "Complexing time:",
+            "20 minutes",
+            "",
+            "Delivery reagent name:",
+            "DharmaFECT 1 siRNA Transfection Reagent",
+            "",
+            "Delivery reagent type:",
+            "Lipid",
+            "",
+            "Delivery reagent manufacturer:",
+            "Dharmacon (GE)",
+            "",
+            "Delivery reagent final concentration:",
+            "0.2ul in 100ul total volume.",
+            "",
+            "Silencing reagent final concentration:",
+            "40nM",
+            "",
+            "Assay plate manufacturer:",
+            "Corning (catalogue #3916)",
+            "",
+            "Assay plate type:",
+            "96 well, Black/Clear, tissue culture treated imaging plate, flat bottom with lid",
+            "",
+            "Media composition:",
+            "\"Transfection: EGM-2 media (Lonza; catalogue #CC3156), 5% FCS, with EGM-2MV Singlequots of: VEGF, EGF, IGF, FGF2, Hydrocortisone, Ascorbic acid (Lonza; catalogue #CC4147).10mM HEPES also added. (No antibiotics) ",
+            "",
+            "Growth media: as above, plus GA1000 (gentimycin and amphotericin)\"",
+            "",
+            "Time of media change:",
+            "24 hours post-transfection.",
+            "",
+            "Definition of data table columns:",
+            "MIGRATION_AVERAGE_NORMALISED_TO_MOCK",
+            "Average \"area migrated over\" values of technical replicates for each siRNA, normalised to mean \"area migrated over\" value for mock-transfected wells.",
+            "",
+            "MIGRATION_NORMALISED_TO_MOCK_ROBUST_Z_SCORED",
+            "\"Average \"\"area migrated over\"\" values for each siRNA, were normalised to mean \"\"area migrated over\"\" value for mock-transfected wells, and then converted to robust z scores using the formula:",
+            "z = (x - median of population) / MAD",
+            "where MAD = Median Absolute Deviation\"",
+            "",
+            "MIGRATION_Z_SCORE_BIN",
+            "siRNAs were binned as 'Inhibited' (robust z score < -2) or 'Accelerated' (robust z score > 2) ",
+            "",
+            "AVERAGE_CELL_COUNT",
+            "Average \"cell nuclei count\" values of technical replicates for each siRNA.",
+            "",
+            "AVERAGE_CELL_COUNT_BIN",
+            "Cell count binning classification: LOW_CELL_COUNT (low cell number): value < 3300, NC (no change): value > 3300",
+            "",
+            "COMBINED_ACTIVITY_BIN",
+            "Combined (MIGRATION_Z_SCORE_BIN and AVERAGE_CELL_COUNT_BIN) bins, with AVERAGE_CELL_COUNT_BIN taking priority.",
+            "",
+            "SSMD_FLAG",
+            "Wells are flagged as NOT_POSSIBLE when SSMD could not be calculated for that plate due to exclusion of a positive control well",
+            "",
+            "EXCLUDED_WELL_FLAG_SUMMARY",
+            "Wells are flagged with ONE REP when one of the two replicate wells were excluded for technical reasons (e.g. failure to scratch, contamination)",
+            "",
+            "Raw cell migration images are available at:",
+            "http://dx.doi.org/10.6084/m9.figshare.3980184"
+          ],
+          "comment": [
+            ""
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "REAGENT_ID",
+              "description": [
+                "Dharmacon GE reagent id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "ENTREZ_GENE_ID",
+              "description": [
+                "NCBI Entrez Gene database id of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "NCBI_GENE_SYMBOL",
+              "description": [
+                "Official symbol of target NCBI Gene Id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "PLATE",
+              "description": [
+                "Plate number"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 5,
+              "name": "WELL",
+              "description": [
+                "Well location"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "MIGRATION_AVERAGE_NORMALISED_TO_MOCK",
+              "description": [
+                "Migration data for each replicate normalised to Mock, then averaged the normalised values across the 2 replicates. "
+              ],
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "MIGRATION_NORMALISED_TO_MOCK_ROBUST_Z_SCORED",
+              "description": [
+                "Migration data for each replicate normalised to Mock then averaged the normalised values across the 2 replicates. Average normalised control migration values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 8,
+              "name": "MIGRATION_Z_SCORE_BIN",
+              "description": [
+                "Migration robust Z-score binning classification: ACCELERATED (high migration score): value > 2, IMPAIRED (low migration score): value < -2, NC (no change): 2 > value > -2"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "AVERAGE_CELL_COUNT",
+              "description": [
+                "Cell count data for each replicate, then averaged the values across the 2 replicates. "
+              ],
+              "type": 2
+            },
+            {
+              "tid": 10,
+              "name": "AVERAGE_CELL_COUNT_BIN",
+              "description": [
+                "Cell count binning classification: LOW_CELL_COUNT (low cell number): value < 3300, NC (no change): value > 3300"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "COMBINED_ACTIVITY_BIN",
+              "description": [
+                "Combined (MIGRATION_Z_SCORE_BIN and AVERAGE_CELL_COUNT_BIN) bins"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "SSMD_FLAG",
+              "description": [
+                "Wells are flagged as NOT_POSSIBLE when SSMD could not be calculated for that plate"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "EXCLUDED_WELL_FLAG_SUMMARY",
+              "description": [
+                "Wells are flagged with ONE REP when one of the two replicate wells were excluded"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "REPLICATE_A_WELL_EXCLUDED",
+              "type": 4
+            },
+            {
+              "tid": 15,
+              "name": "REPLICATE_B_WELL_EXCLUDED",
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255,
+          "assay_group": [
+            "lymphatic endothelial cell migration regulator screen"
+          ]
+        }
+      }
+    }
+  ]
+}

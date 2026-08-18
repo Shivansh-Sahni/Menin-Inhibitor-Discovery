@@ -1,0 +1,151 @@
+schema_version: platform-non-hpc-readiness-1.0
+evidence_date: 2026-08-05
+project_root: .
+
+scope:
+  intended_use: research_decision_support_for_protein_molecule_evidence_and_model_development
+  prohibited_uses:
+    - clinical_diagnosis
+    - patient_specific_risk_prediction
+    - treatment_or_dosing_recommendation
+    - autonomous_compound_advancement
+  current_corpus: frozen_chembl_37_only
+  external_normalized_evidence_role: admission_candidates_only
+
+training:
+  substantive_large_model_training_authorized: false
+  substantive_large_model_training_started: false
+  allowed_smoke_maximum_parameters: 100000
+  allowed_smoke_maximum_steps: 2
+  test_lockbox_access_during_non_hpc_work: prohibited
+
+task_decision:
+  status: provisional_bounded_cpu_pilot_selected_pending_scientific_owner_approval
+  selected_task_id: default::default__herg__ic50__herg_functional__nm__continuous_exact
+  role: bounded_cpu_pilot_only_not_a_production_clinical_or_cross_target_claim
+  row_count: 137
+  molecule_count: 104
+  protein_count: 1
+  source_count: 1
+  primary_evaluation_strategy: scaffold
+  molecule_grouped_strategy_role: sensitivity_only
+  second_stage_scale_candidate: default::default__binding__kd__binding__nm__continuous_exact
+  selection_requirements:
+    - observed_nonpredicted_labels
+    - endpoint_and_assay_context_homogeneous
+    - adequate_independent_molecule_and_protein_support
+    - materialized_molecule_and_protein_or_double_cold_splits
+    - accepted_exact_and_near_leakage_thresholds
+    - rights_cleared_rows
+    - prespecified_primary_metric_and_claim
+
+external_admission:
+  canonical_observations_admitted: 0
+  model_labels_admitted: 0
+  candidate_layers:
+    clinicaltrials_gov:
+      studies: 3879
+      endpoint_candidates: 10144
+      genuine_endpoint_candidates: 9492
+      canonical_observations_admitted: 0
+      manual_review_required: true
+    drugs_at_fda:
+      normalized_record_and_anomaly_rows: 630928
+      active_ingredient_candidate_rows: 60157
+      canonical_molecule_links_created: 0
+      canonical_observations_admitted: 0
+    pkdb:
+      official_reported_outputs: 138411
+      anonymous_output_records: 0
+      ontology_endpoints_inventoried: 10
+      canonical_observations_admitted: 0
+      access_and_rights_gate_passed: false
+  predictions_as_labels: prohibited
+  missing_clinical_or_regulatory_evidence_as_negative: prohibited
+  automatic_ambiguous_identity_resolution: prohibited
+  human_review_required_for:
+    - conditional_redistribution_rights
+    - ambiguous_molecule_or_product_linkage
+    - clinical_outcome_semantics
+    - pk_context_adequacy
+    - qt_qtc_and_cardiac_outcome_adjudication
+
+leakage:
+  exact_identity_checks: required_exhaustive
+  molecular_similarity_threshold_tanimoto: 0.80
+  molecular_fingerprint:
+    algorithm: morgan
+    radius: 2
+    bits: 2048
+  protein_screening_threshold_kmer_jaccard: 0.80
+  protein_screening_kmer_size: 3
+  screening_is_not_exact_alignment: true
+  threshold_status: computed_and_bound_but_provisional_pending_scientific_acceptance
+  deep_audit:
+    tasks_audited: 28
+    materialized_strategies_audited: 85
+    chemical_audits_exhaustive: 18
+    chemical_audits_not_run_cpu_budget: 13
+    protein_audits_exhaustive: 52
+    protein_audits_deterministically_sampled: 2
+    assay_and_document_overlap_remains: true
+    current_splits_chronological: false
+    model_ready_test_lockbox_opened_or_hashed: false
+  pretrained_corpus_overlap_status: unresolved_until_exact_checkpoint_is_frozen
+
+model_selection:
+  status: literature_review_complete_checkpoint_and_overlap_approval_pending
+  checkpoint_download_authorized: false
+  require_exact_revision_and_weight_hash: true
+  require_license_and_commercial_use_review: true
+  require_training_cutoff_and_corpus_overlap_audit: true
+  require_endpoint_compatibility: true
+  candidates:
+    cpu_or_modest_hardware_first:
+      - ECFP_Morgan_regularized_linear_and_tree_baselines
+      - Chemprop-v2.2.3
+      - ESM-2-35M_or_150M_frozen_encoder
+    later_authorized_structure_comparators:
+      - Boltz-2-v2.2.1
+      - Protenix-v2
+      - Chai-1-v0.6.1
+      - RoseTTAFold-All-Atom_probable_meeting_reference
+    restricted_or_sensitivity_only:
+      - AlphaFold-3-v3.0.2_noncommercial_parameters
+      - NeuralPLexer_noncommercial_checkpoints
+  literature_evidence:
+    source_count: 49
+    model_candidate_count: 17
+    probable_meeting_reference: RoseTTAFold-All-Atom
+    probable_meeting_reference_confidence: moderate_high_not_certain
+
+compute:
+  hpc_required_for_substantive_training: true
+  hpc_allocation_approved: false
+  cpu_analysis_allowed: true
+  bounded_diagnostics_allowed: true
+  large_checkpoint_download_allowed: false
+  required_before_training:
+    - measured_storage_and_throughput
+    - cost_and_resource_budget
+    - monitoring_and_alerting
+    - checkpoint_and_resume_recovery_test
+    - retention_and_failure_policy
+    - responsible_use_approval
+
+release:
+  public_release_approved: false
+  human_staged_inventory_review_required: true
+  repository_license_status: pending_human_approval
+  content_and_model_license_status: pending_human_approval
+  artifact_storage_and_redistribution_status: pending_human_approval
+  independent_clean_clone_required: true
+  secrets_pii_private_correspondence_review_required: true
+
+reproducibility:
+  random_seed: 20260804
+  frozen_python: 3.13.7
+  dependency_lock: pipeline/environments/requirements.lock
+  dependency_lock_sha256: 04da36d2320a625bbfebe4da5135b9396930a778218acd441d65a8fe959e16e5
+  immutable_final_report: research/reports/final_verification/platform_final_artifact_verification.json
+  immutable_final_report_sha256: f27ceb4d46edeb9c0dfb2610ef5d2b02075aace1ee1f1051351ec4876bd945d5

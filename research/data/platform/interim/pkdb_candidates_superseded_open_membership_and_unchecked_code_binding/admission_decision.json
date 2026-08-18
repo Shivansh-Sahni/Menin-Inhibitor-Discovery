@@ -1,0 +1,25 @@
+{
+  "anonymous_output_access_reproducible": false,
+  "anonymous_outputs_probe_count": 0,
+  "anonymous_outputs_returned_records": 0,
+  "blockers": [
+    "official statistics report positive output_count but anonymous outputs endpoint returned zero records",
+    "OpenAPI declares API-wide authentication security",
+    "record-level data reuse rights remain unresolved; public access is not equivalent to open licence"
+  ],
+  "candidate_observation_rows": 0,
+  "canonical_admission": false,
+  "canonical_observation_rows": 0,
+  "compound_identity_links": 0,
+  "document_sha256": "bf6c5fd546edac95ec6450e585617aa8dda563cc7ff92a92742468c77f0d260b",
+  "next_gate": "obtain documented public output access and legal/record-level licence review, then reacquire",
+  "normalizer_version": "platform_pkdb_candidates/normalize-1.0",
+  "openapi_global_security_declared": true,
+  "openapi_version": "v1",
+  "pkdb_reported_output_count": 138411,
+  "record_level_reuse_rights_resolved": false,
+  "schema_version": "platform-pkdb-public-candidates/1.0",
+  "server_software_version": "0.9.8",
+  "source_id": "pkdb_public_api_v1",
+  "training_label_rows": 0
+}

@@ -1,0 +1,131 @@
+{
+  "artifact_count": 20,
+  "artifacts": [
+    {
+      "bytes": 82935,
+      "path": "assays/AID_588834_cids.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "1d262fc9f703b619b7f7e8b14ab7489ea128282d09084bf420ab0f6fdc4a1eae"
+    },
+    {
+      "bytes": 19246,
+      "path": "assays/AID_588834_description.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "6f16a2b887dc11d96a747dc14f9635a984ab0b7e71dfadcf834829049451ac9e"
+    },
+    {
+      "bytes": 1909985,
+      "path": "assays/AID_588834_full.csv",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "aeaebf99ba1055291345dc76303b9485caad532a4ed57bdd4f200967a3cd16dd"
+    },
+    {
+      "bytes": 110127,
+      "path": "assays/AID_588834_sids.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "c3805b71667e0e1a0bbc308de1b08247707d79d56a829e55dca1e9a563d564a6"
+    },
+    {
+      "bytes": 5728,
+      "path": "assays/AID_588834_summary.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "da64dc33775c8253de526b4661b0075b876a31e17a3f067e9338c05bc18ec9fb"
+    },
+    {
+      "bytes": 3043,
+      "path": "assays/AID_720544_description.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "17ad04a16252d6408cd5ad72e3654d04b719a34fe61bdd75d2668b2042a04ebb"
+    },
+    {
+      "bytes": 2724,
+      "path": "assays/AID_720544_summary.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "9a5a71cd07e723850f21d5e900280be3283c760cbdf1d2e448c116d094402152"
+    },
+    {
+      "bytes": 46379087,
+      "path": "assays/AID_720551_concise.csv",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "5f7fa424c8c52394e859867132a0ce6fc8d7b84d08115aa6abd5587c7e06b70e"
+    },
+    {
+      "bytes": 10630,
+      "path": "assays/AID_720551_description.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "5af6c12e542f4452325ce835d06015cc386c31a8644d03899a58f8a61575a6b0"
+    },
+    {
+      "bytes": 4089,
+      "path": "assays/AID_720551_summary.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "289a76f2fc8cdcfd65164bdffb42ebff193fed1a5aadca8832a5b4e576026422"
+    },
+    {
+      "bytes": 45483378,
+      "path": "assays/AID_720553_concise.csv",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "0e9a841ad39ac5a31fadf473c047eb0032c2b224cf09cdc6baa6c9bf00db5694"
+    },
+    {
+      "bytes": 10589,
+      "path": "assays/AID_720553_description.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "d0901997c46f8772f2c88f5a596d5f4cdedc74b700411ba6f298a5d3ca5de428"
+    },
+    {
+      "bytes": 4090,
+      "path": "assays/AID_720553_summary.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "5bb90f9cfbb83dc4f99407856c0cf8bd2e4a58a0f9ec4f95d517289cf2075196"
+    },
+    {
+      "bytes": 95,
+      "path": "discovery/elink_588834_same_project.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "a1f4d8f1b157347a1be39a63eff66838f2b51f9ab39e89bce30cddb4ec1703a1"
+    },
+    {
+      "bytes": 219,
+      "path": "discovery/elink_720544_same_project.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "9a533888fa93be174838b9ec9840a9a15df54eae72621907c63149ecd48c9c1b"
+    },
+    {
+      "bytes": 576,
+      "path": "discovery/esearch_ncgc_herg_kcnh2.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "ec0c106ef285ad3b2a13447396a3d4f51e31e3fd2a9b9411d23759cd562337be"
+    },
+    {
+      "bytes": 8242,
+      "path": "discovery/esummary_selected_family.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "b9f8a45b65aa00684ef099ba757a3bb41e5fbe220a1bc0ec38384b7bf5d89bb1"
+    },
+    {
+      "bytes": 18402,
+      "path": "http_receipts.json",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "a47b0278ab2757858deab8ba5d5be3b1eeed39c574c6c9698129299497d394e6"
+    },
+    {
+      "bytes": 38936,
+      "path": "provenance/ncbi_usage_policy.html",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "8ad8f6f186ca51ec73a5fb8935ecfa17b8cbaad300b7025b381898ab72621869"
+    },
+    {
+      "bytes": 6449,
+      "path": "provenance/ncgc_source_profile.html",
+      "role": "official_http_response_or_hash_bound_receipt",
+      "sha256": "51fc2c490c6811b9a606765f470c18c4ab1d65f399a6cf3b5750c7d7089ed454"
+    }
+  ],
+  "canonical_rows": 0,
+  "document_sha256": "a4540ebe76c0a9b3a2d80997ccf31909b68136968670e79442c3ebfc1fec24d2",
+  "priority_aid": 588834,
+  "schema_version": "pubchem-herg-avicenna/1.0",
+  "source": "PubChem BioAssay / NCBI",
+  "training_labels": 0
+}

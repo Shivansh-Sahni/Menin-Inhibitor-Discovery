@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/derived-sensitivity-sensitivity-herg-standard-binding-free-energy-herg-o-07d3505e7e69/strategies/molecule_grouped/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "5cdd7071a8019ce89f9e4ad6b5790f9d995ef128be2af8d979989fc4ac204ee7",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 7,
+    "train": 28,
+    "validation": 9
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/derived-sensitivity-sensitivity-herg-standard-binding-free-energy-herg-o-07d3505e7e69/strategies/molecule_grouped/split.parquet.manifest.json",
+  "sidecar_sha256": "99003ccb3184e68c5479b2b5444817c67dd4d6863f1d5719752e1ee3b216a38e",
+  "split_materialized": true,
+  "split_path": "tasks/derived-sensitivity-sensitivity-herg-standard-binding-free-energy-herg-o-07d3505e7e69/strategies/molecule_grouped/split.parquet",
+  "split_rows": 44,
+  "split_sha256": "598eae0cb8ba5838164109eae6bce7f016761147ce37227a68194d02da09d943",
+  "status": "materialized",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-08-07",
+  "priority_meaning": {"P0": "required to support the first predictive claims", "P1": "high-value analysis or adapter after split freeze", "P2": "defer until P0/P1 evidence exists"},
+  "items": [
+    {"priority":"P0","work_item":"Parent/scaffold/source/temporal split suite","type":"benchmark infrastructure","comparators":["all"],"success_gate":"immutable manifests; zero parent leakage; archived scaffold/source/temporal audit"},
+    {"priority":"P0","work_item":"Morgan classical baseline ladder","type":"benchmark","comparators":["logistic/ridge","random forest","XGBoost"],"success_gate":"paired-bootstrap improvement over prevalence/median with raw predictions retained"},
+    {"priority":"P0","work_item":"Open deep baseline","type":"benchmark","comparators":["D-MPNN","hERGAT","Transformer_Morgan"],"success_gate":"incremental AP/MCC/calibration benefit on scaffold and source holdouts without test-aware selection"},
+    {"priority":"P0","work_item":"Extreme-imbalance and coverage benchmark","type":"benchmark","comparators":["XGB_ISE","balanced XGBoost","focal-loss model"],"success_gate":"full-coverage and prespecified risk-coverage improvement"},
+    {"priority":"P0","work_item":"Quantitative IC50 benchmark","type":"benchmark","comparators":["hERGBoost-style XGBoost","ridge","RF","D-MPNN"],"success_gate":"lower MAE with no extreme-tail/source degradation"},
+    {"priority":"P0","work_item":"CardioSafe v1.1 matched audit","type":"benchmark","comparators":["CardioSafe_v1_1"],"success_gate":"matched valid-endpoint evaluation with overlap/leakage report"},
+    {"priority":"P1","work_item":"Quality-tier model experiment","type":"analysis","comparators":["Q0","Q1","Q2","nested multitask"],"success_gate":"fixed evaluation cohort; training tier is the only changed variable"},
+    {"priority":"P1","work_item":"Automation and modality transfer matrix","type":"analysis","comparators":["automated","manual","unresolved","flux","patch","binding"],"success_gate":"matched-space domain-shift estimates with missingness explicit"},
+    {"priority":"P1","work_item":"Docking/interaction feature increment","type":"adapter","comparators":["HERGAI PLEC/ClassyPose pattern"],"success_gate":"incremental holdout value after coverage and cost accounting"},
+    {"priority":"P1","work_item":"Censored quantitative loss","type":"adapter","comparators":["UQ4DD Tobit/interval likelihood"],"success_gate":"better censored likelihood/calibration without exact-value MAE loss"},
+    {"priority":"P1","work_item":"Multi-ion-channel transfer","type":"adapter","comparators":["MultiCTox","CToxPred2","CardioSafe"],"success_gate":"hERG holdout gain with no calibration/subgroup degradation"},
+    {"priority":"P1","work_item":"QT evidence bridge","type":"analysis","comparators":["separate hERG/QTc/TdP evidence"],"success_gate":"dose/exposure/study-aware concordance and discordance tables"},
+    {"priority":"P2","work_item":"Cross-assay pretraining","type":"adapter","comparators":["ActFound"],"success_gate":"consistent Q2/source-holdout gain beyond Morgan and D-MPNN"},
+    {"priority":"P2","work_item":"Mechanistic interpretation panel","type":"analysis","comparators":["stable descriptors","SHAP","matched pairs","optional docking"],"success_gate":"fold/source-stable relationships with counterfactual checks"}
+  ]
+}

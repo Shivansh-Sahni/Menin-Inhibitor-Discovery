@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "database_file": "chembl_37.db",
+  "extracted_at_utc": "2026-08-04T16:27:50Z",
+  "files": [
+    {
+      "archive_member": "chembl_37/chembl_37_sqlite/chembl_37.db",
+      "output_file": "chembl_37.db",
+      "sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+      "size_bytes": 30480314368
+    }
+  ],
+  "schema_version": "platform-evidence-1.0.0"
+}

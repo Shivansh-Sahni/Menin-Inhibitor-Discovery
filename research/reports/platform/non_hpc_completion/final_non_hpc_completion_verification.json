@@ -1,0 +1,451 @@
+{
+  "canonical_external_observations_admitted": 0,
+  "critical_artifact_count": 51,
+  "critical_artifacts": {
+    "Makefile": {
+      "bytes": 4554,
+      "path": "Makefile",
+      "sha256": "4b8ac4e2d9773317db0f975257ebad4907e9c970de1ac6ef9876ccebe0d5f6db"
+    },
+    "README.md": {
+      "bytes": 19394,
+      "path": "README.md",
+      "sha256": "93623eaa484e20ebb96607a91ed84444b1dcfa8049eb5f50ea2ee5ff62f9721b"
+    },
+    "docs/project/pretraining_readiness_ledger.md": {
+      "bytes": 40981,
+      "path": "docs/project/pretraining_readiness_ledger.md",
+      "sha256": "4c76fb6fb755a1d4d6853c8d0d50f2599906f66648ddcbdf9e7c310e697795d4"
+    },
+    "pipeline/config/non_hpc_readiness.yaml": {
+      "bytes": 5702,
+      "path": "pipeline/config/non_hpc_readiness.yaml",
+      "sha256": "ffa4c6510167d5733bd330026c774b8faa3a94cd7da08b0b0ac832c92cf02134"
+    },
+    "pipeline/src/menin_discovery/platform_cli.py": {
+      "bytes": 49639,
+      "path": "pipeline/src/menin_discovery/platform_cli.py",
+      "sha256": "8e84cfb0b9940196acc0febb16e98bb0e6e30c17e50f93712d112efa30ab78ba"
+    },
+    "pipeline/src/menin_discovery/platform_clinical_results.py": {
+      "bytes": 62183,
+      "path": "pipeline/src/menin_discovery/platform_clinical_results.py",
+      "sha256": "eaac80f156291712d5660d1bde79ed6bd426d4e939c9fb70d65a7520c3f1d7c7"
+    },
+    "pipeline/src/menin_discovery/platform_context_splits.py": {
+      "bytes": 39987,
+      "path": "pipeline/src/menin_discovery/platform_context_splits.py",
+      "sha256": "f98cce6986c28ba33ce54d715637e259c8569d7bcfc6724a276ee2f9d00ef69a"
+    },
+    "pipeline/src/menin_discovery/platform_deep_leakage.py": {
+      "bytes": 61321,
+      "path": "pipeline/src/menin_discovery/platform_deep_leakage.py",
+      "sha256": "0cd6b3ecfa9333286940c62807e4c2b85e45609a053de1cdf5f171a55191e133"
+    },
+    "pipeline/src/menin_discovery/platform_external_admission.py": {
+      "bytes": 61745,
+      "path": "pipeline/src/menin_discovery/platform_external_admission.py",
+      "sha256": "95f51ee7fe2edbf483028abdaae6df3b4b5ec906d96c6bb08e7250fab6086b66"
+    },
+    "pipeline/src/menin_discovery/platform_non_hpc_completion.py": {
+      "bytes": 22032,
+      "path": "pipeline/src/menin_discovery/platform_non_hpc_completion.py",
+      "sha256": "2735331e6703e53c0a99755033805ed586790427ec50da3e5dde5ce75bf39a94"
+    },
+    "pipeline/src/menin_discovery/platform_pkdb_candidates.py": {
+      "bytes": 35399,
+      "path": "pipeline/src/menin_discovery/platform_pkdb_candidates.py",
+      "sha256": "3765a342bc4bf5815424016c0fa1589cb9e20a8f29f4b0070b1cfea0ffaa1e1a"
+    },
+    "pipeline/src/menin_discovery/platform_regulatory_records.py": {
+      "bytes": 52637,
+      "path": "pipeline/src/menin_discovery/platform_regulatory_records.py",
+      "sha256": "99c83569022354a1ef45560b3bb3400a33462d4d2a0705a1e01d0d20feb11c67"
+    },
+    "pipeline/src/menin_discovery/platform_structure_metadata.py": {
+      "bytes": 41219,
+      "path": "pipeline/src/menin_discovery/platform_structure_metadata.py",
+      "sha256": "1d6dfe240ab328e53941baf2bbc22eae606c342527b1f887087ddfd5ca192524"
+    },
+    "pipeline/tests/test_platform_clinical_results.py": {
+      "bytes": 11309,
+      "path": "pipeline/tests/test_platform_clinical_results.py",
+      "sha256": "b98171aef9b1a8961be69057053c37f002534eb3c2d50978ae922985930fc9af"
+    },
+    "pipeline/tests/test_platform_context_splits.py": {
+      "bytes": 6116,
+      "path": "pipeline/tests/test_platform_context_splits.py",
+      "sha256": "35278710b8f90f7cc7778102fdea292e94ab062f515904ad091890ae54063871"
+    },
+    "pipeline/tests/test_platform_deep_leakage.py": {
+      "bytes": 10366,
+      "path": "pipeline/tests/test_platform_deep_leakage.py",
+      "sha256": "7efaed32e385a1867adf905dc0f8d1db3b0989b208c0fed224ecab9f6cc0c2c2"
+    },
+    "pipeline/tests/test_platform_external_admission.py": {
+      "bytes": 8516,
+      "path": "pipeline/tests/test_platform_external_admission.py",
+      "sha256": "825984674b1b322bda5ec3df8154417ed3ac1f563762d5e282b843303597b852"
+    },
+    "pipeline/tests/test_platform_integration.py": {
+      "bytes": 7779,
+      "path": "pipeline/tests/test_platform_integration.py",
+      "sha256": "f16cc8bb38ae452e9d29ee4943dd86841d4c64cc22440e02eb4eef43d4f635c5"
+    },
+    "pipeline/tests/test_platform_pkdb_candidates.py": {
+      "bytes": 11297,
+      "path": "pipeline/tests/test_platform_pkdb_candidates.py",
+      "sha256": "692ea55485296e7182f2069762b063ee8eb568447a548c127c1282ecdabb09de"
+    },
+    "pipeline/tests/test_platform_regulatory_records.py": {
+      "bytes": 8600,
+      "path": "pipeline/tests/test_platform_regulatory_records.py",
+      "sha256": "331e8d36feaf8fd9c07c8e3a8174e18365d13b6d9909e7d727a5020a3c34f9ad"
+    },
+    "pipeline/tests/test_platform_structure_metadata.py": {
+      "bytes": 7129,
+      "path": "pipeline/tests/test_platform_structure_metadata.py",
+      "sha256": "70b9be1baccd4d7d4b2d110f41b3558d6e08b97cf19c1ce522637546b4eb279b"
+    },
+    "research/data/platform/interim/clinical_results_candidates/clinical_results_candidates_manifest.json": {
+      "bytes": 6303,
+      "path": "research/data/platform/interim/clinical_results_candidates/clinical_results_candidates_manifest.json",
+      "sha256": "81295086d9838f1cb58c201089d2570169c14b91613d0a4aaf9788e0ed560a5a"
+    },
+    "research/data/platform/interim/pkdb_candidates/manifest.json": {
+      "bytes": 1351,
+      "path": "research/data/platform/interim/pkdb_candidates/manifest.json",
+      "sha256": "e7feba3b44d7cf0cc8bdf5b1712f2d1234f3fadaa35a6799225329e5117c875a"
+    },
+    "research/data/platform/interim/regulatory_record_candidates/drugs_at_fda_20260804/regulatory_record_candidates_manifest.json": {
+      "bytes": 3545,
+      "path": "research/data/platform/interim/regulatory_record_candidates/drugs_at_fda_20260804/regulatory_record_candidates_manifest.json",
+      "sha256": "6190a5408aaaffa15c9ca4f6b33e7c7c4b6d76f142c746209e426512a419cbcf"
+    },
+    "research/data/platform/interim/structure_metadata/full_chembl37/structure_metadata_manifest.json": {
+      "bytes": 2577,
+      "path": "research/data/platform/interim/structure_metadata/full_chembl37/structure_metadata_manifest.json",
+      "sha256": "544084f0d964229469fd0d6278594f65b7ada70bb5dccccd86b8114fb8b7a3b5"
+    },
+    "research/data/platform/raw/external_public/pkdb_public_2026_08_05/manifest.json": {
+      "bytes": 4145,
+      "path": "research/data/platform/raw/external_public/pkdb_public_2026_08_05/manifest.json",
+      "sha256": "9d15ff259dd55e2734b924a6fe52c5d84291606c49f43ec85fdad94e708a630c"
+    },
+    "research/data/platform/splits/context_holdout_candidates/acceptance.json": {
+      "bytes": 43969,
+      "path": "research/data/platform/splits/context_holdout_candidates/acceptance.json",
+      "sha256": "8986d77e73873812a23daa87c729d4a9d3fd35203f00f81722a4c06c47aa3cf4"
+    },
+    "research/reports/final_verification/platform_final_artifact_verification.json": {
+      "bytes": 20573,
+      "path": "research/reports/final_verification/platform_final_artifact_verification.json",
+      "sha256": "f27ceb4d46edeb9c0dfb2610ef5d2b02075aace1ee1f1051351ec4876bd945d5"
+    },
+    "research/reports/final_verification/platform_final_artifact_verification_2026_08_05_replay.json": {
+      "bytes": 20573,
+      "path": "research/reports/final_verification/platform_final_artifact_verification_2026_08_05_replay.json",
+      "sha256": "38e9be911d135c503242ec6ec6f8e8d13928c5f05dae999284bbcd8a489a7ae0"
+    },
+    "research/reports/platform/clinical_results_analysis/clinical_results_analysis.md": {
+      "bytes": 7319,
+      "path": "research/reports/platform/clinical_results_analysis/clinical_results_analysis.md",
+      "sha256": "e4776712c8181f3c69a3cb9ead1f2f91ee1955ea7ae28440a14d4e11fad0f5b1"
+    },
+    "research/reports/platform/clinical_results_analysis/verification_report.json": {
+      "bytes": 719,
+      "path": "research/reports/platform/clinical_results_analysis/verification_report.json",
+      "sha256": "c51beaba6a131a4bb9d6228a51a30c468b0d8843f4626ed0097eb23b7058b129"
+    },
+    "research/reports/platform/context_split_analysis/manifest.json": {
+      "bytes": 1091,
+      "path": "research/reports/platform/context_split_analysis/manifest.json",
+      "sha256": "011ae03cd730d8ed01ede5d1102010f30236cf1cd9c6753ffcd0fdd15a238da5"
+    },
+    "research/reports/platform/deep_leakage_analysis/manifest.json": {
+      "bytes": 2523,
+      "path": "research/reports/platform/deep_leakage_analysis/manifest.json",
+      "sha256": "29ce7a2c9fad87d0f3212de956a420edf5e1b74b170bf47fb94080e7d7c31033"
+    },
+    "research/reports/platform/external_admission_analysis/external_admission_analysis_manifest.json": {
+      "bytes": 1942,
+      "path": "research/reports/platform/external_admission_analysis/external_admission_analysis_manifest.json",
+      "sha256": "8cd016192dfa85ac73e5b3679836e1fff40c4c7d5fb28af4fada42a11e31a5cb"
+    },
+    "research/reports/platform/literature_decisions/comprehensive_literature_review.md": {
+      "bytes": 32043,
+      "path": "research/reports/platform/literature_decisions/comprehensive_literature_review.md",
+      "sha256": "43ca6b7148c204bd8930fc4463f46357aa002f4f212316003bb55dcef7af065c"
+    },
+    "research/reports/platform/literature_decisions/decision_recommendations.md": {
+      "bytes": 10589,
+      "path": "research/reports/platform/literature_decisions/decision_recommendations.md",
+      "sha256": "f1fa3e6939339fc77e51fa15f86a46a90e0779accbbb254e162f930f35277f39"
+    },
+    "research/reports/platform/literature_decisions/model_candidate_decision_matrix.csv": {
+      "bytes": 12755,
+      "path": "research/reports/platform/literature_decisions/model_candidate_decision_matrix.csv",
+      "sha256": "6c31c5d9f2de7a1ec4fcc3ee23aa2333f6c9bf5e56d69f806486e69c4d9ef214"
+    },
+    "research/reports/platform/literature_decisions/source_bibliography.json": {
+      "bytes": 28064,
+      "path": "research/reports/platform/literature_decisions/source_bibliography.json",
+      "sha256": "9508ef15077d5f6a5bea3f58961df9a70e7905a0696294d145222b2989a44e03"
+    },
+    "research/reports/platform/non_hpc_completion/acceptance_manifest.json": {
+      "bytes": 1233,
+      "path": "research/reports/platform/non_hpc_completion/acceptance_manifest.json",
+      "sha256": "53e970bd2dfe292252a7822bbc8b3b7224d7df636bfaa71269d9e5b12248a3b7"
+    },
+    "research/reports/platform/non_hpc_completion/compute_and_operations_plan.md": {
+      "bytes": 3722,
+      "path": "research/reports/platform/non_hpc_completion/compute_and_operations_plan.md",
+      "sha256": "ee2a3d7195df9933b90670d0b48841f36e9365de787dab8da50639b09184df47"
+    },
+    "research/reports/platform/non_hpc_completion/external_and_prospective_validation_protocol.md": {
+      "bytes": 5913,
+      "path": "research/reports/platform/non_hpc_completion/external_and_prospective_validation_protocol.md",
+      "sha256": "bca2f64f89da277ed48a27b3c8dcc59ea76b3c5c398f878e2a32ddd0a0d2399b"
+    },
+    "research/reports/platform/non_hpc_completion/governance_and_release_decision_packet.md": {
+      "bytes": 5967,
+      "path": "research/reports/platform/non_hpc_completion/governance_and_release_decision_packet.md",
+      "sha256": "c56ad0d6c8089b0e1d1f06122555c46ad2f122edd88c1d0ab9aafd07280a2b5c"
+    },
+    "research/reports/platform/non_hpc_completion/non_hpc_decision_register.csv": {
+      "bytes": 2949,
+      "path": "research/reports/platform/non_hpc_completion/non_hpc_decision_register.csv",
+      "sha256": "d7691b2bef50fe92869977ac87ca78c5bf828f798e832c6d5fd003b99f055e53"
+    },
+    "research/reports/platform/non_hpc_completion/non_hpc_execution_summary.md": {
+      "bytes": 5023,
+      "path": "research/reports/platform/non_hpc_completion/non_hpc_execution_summary.md",
+      "sha256": "1645796512e55c3ef744454cfe1b368756f4f705708eb4fab35794c2a727f097"
+    },
+    "research/reports/platform/non_hpc_completion/non_hpc_governance_report.json": {
+      "bytes": 614994,
+      "path": "research/reports/platform/non_hpc_completion/non_hpc_governance_report.json",
+      "sha256": "50fe05a7565f741a1a5216391642b487d1b25db9f8ac6ee927fb8a5141ef450e"
+    },
+    "research/reports/platform/non_hpc_completion/non_hpc_governance_summary.md": {
+      "bytes": 1313,
+      "path": "research/reports/platform/non_hpc_completion/non_hpc_governance_summary.md",
+      "sha256": "09667476b9e22bfc833c94f013090b6556fca3ca4578efe7fba5b52b707759a1"
+    },
+    "research/reports/platform/non_hpc_completion/release_inventory.csv": {
+      "bytes": 410764,
+      "path": "research/reports/platform/non_hpc_completion/release_inventory.csv",
+      "sha256": "9452808a6e3b6fba47e9fee266b14778cd29767f83707c56694c520c85cd4e24"
+    },
+    "research/reports/platform/pkdb_candidate_analysis/report.json": {
+      "bytes": 1951,
+      "path": "research/reports/platform/pkdb_candidate_analysis/report.json",
+      "sha256": "29b5340bc3b6f7bc6bdbc3c376a2d306db14ce05d43e71439625729ee049e262"
+    },
+    "research/reports/platform/pkdb_candidate_analysis/summary.md": {
+      "bytes": 1594,
+      "path": "research/reports/platform/pkdb_candidate_analysis/summary.md",
+      "sha256": "c1d99393ccc0ace023ce42cddd7ee245e8a2f5ffa6085cb7a3d860e18d32559d"
+    },
+    "research/reports/platform/regulatory_record_analysis/drugs_at_fda_20260804/regulatory_record_analysis_report.json": {
+      "bytes": 1953,
+      "path": "research/reports/platform/regulatory_record_analysis/drugs_at_fda_20260804/regulatory_record_analysis_report.json",
+      "sha256": "07a4af9a4e1fc5404315b83b8f31829ddb613f8297459652a211e1513d479e56"
+    },
+    "research/reports/platform/structure_metadata/full_chembl37/structure_metadata_report.json": {
+      "bytes": 4693,
+      "path": "research/reports/platform/structure_metadata/full_chembl37/structure_metadata_report.json",
+      "sha256": "6e24e3902083bbf403625d3e98e59fa0cbd9236ecde444fe76a99d9af3c68e3f"
+    }
+  },
+  "document_sha256": "2da870f10d93288bc0f23ec95666746043a31461c570c935480c82d80837e33a",
+  "evidence_date": "2026-08-05",
+  "governance": {
+    "component_count": 3,
+    "manifest_sha256": "53e970bd2dfe292252a7822bbc8b3b7224d7df636bfaa71269d9e5b12248a3b7",
+    "scientific_task_claim_ready": false,
+    "status": "verified",
+    "substantive_training_started": false
+  },
+  "large_model_training_started": false,
+  "literature": {
+    "checkpoint_downloaded": false,
+    "identification_confidence": "moderate_high_not_certain",
+    "model_candidate_count": 17,
+    "probable_meeting_reference": "RoseTTAFold All-Atom",
+    "source_count": 49,
+    "status": "verified"
+  },
+  "model_labels_admitted_from_new_external_layers": 0,
+  "no_training_scan": {
+    "json_documents_scanned": 27,
+    "jsonl_or_routed_test_payloads_opened": false,
+    "large_model_training_started": false,
+    "status": "passed",
+    "substantive_training_started": false
+  },
+  "prior_mechanical_verification": {
+    "reports": [
+      {
+        "bytes": 20573,
+        "path": "research/reports/final_verification/platform_final_artifact_verification.json",
+        "sha256": "f27ceb4d46edeb9c0dfb2610ef5d2b02075aace1ee1f1051351ec4876bd945d5"
+      },
+      {
+        "bytes": 20573,
+        "path": "research/reports/final_verification/platform_final_artifact_verification_2026_08_05_replay.json",
+        "sha256": "38e9be911d135c503242ec6ec6f8e8d13928c5f05dae999284bbcd8a489a7ae0"
+      }
+    ],
+    "status": "verified"
+  },
+  "remaining_human_or_external_gates": [
+    "scientific owner approval of intended task, estimand, claim, metrics, and leakage thresholds",
+    "source, repository, documentation, checkpoint, output, and redistribution rights approval",
+    "manual adjudication of clinical QT/QTc and PK endpoint candidates and group/intervention linkage",
+    "curated Drugs@FDA ingredient-to-structure resolution and regulatory-context review",
+    "documented reproducible PK-DB output access plus record-level reuse-rights review",
+    "task-specific structure/construct/ligand/method/quality reconciliation before coordinate use",
+    "exact checkpoint revision, hashes, cutoff, corpus overlap, endpoint compatibility, and terms freeze",
+    "HPC budget, measured throughput, monitoring, recovery, retention, failure, and responsible-use approval",
+    "independent external or prospective validation before broad scientific or clinical claims",
+    "clean committed release candidate, top-level license, artifact storage, and clean-clone verification",
+    "professor confirmation that RoseTTAFold All-Atom was the model referenced in the meeting"
+  ],
+  "schema_version": "platform_non_hpc_completion_v1",
+  "scope": {
+    "candidate_clinical_regulatory_pk_inventories_complete": true,
+    "clinical_validation_complete": false,
+    "cpu_data_engineering_complete": true,
+    "cpu_evidence_review_complete": true,
+    "cpu_leakage_and_split_analysis_complete": true,
+    "external_or_prospective_validation_complete": false,
+    "public_release_ready": false,
+    "scientific_task_claim_ready": false,
+    "substantive_large_model_training_authorized": false,
+    "substantive_large_model_training_ready": false,
+    "substantive_training_started": false
+  },
+  "status": "bounded_non_hpc_mechanical_work_complete_human_gates_open",
+  "substantive_training_started": false,
+  "training_actions": [],
+  "workstream_verification": {
+    "clinical_results": {
+      "canonical_observations_admitted": 0,
+      "endpoint_candidate_count": 10144,
+      "genuine_endpoint_candidate_count": 9492,
+      "manifest_sha256": "82370be84f3ad8192bb7d12c1d70fde38d2826fb92c81eaff7f55d330585503c",
+      "model_labels_admitted": 0,
+      "physical_manifest_sha256": "81295086d9838f1cb58c201089d2570169c14b91613d0a4aaf9788e0ed560a5a",
+      "row_counts": {
+        "adverse_event_groups.csv.gz": 5772,
+        "arms_groups.csv.gz": 97745,
+        "endpoint_candidates.csv.gz": 10144,
+        "interventions.csv.gz": 9831,
+        "outcome_measures.csv.gz": 31810,
+        "studies.csv.gz": 3879
+      },
+      "verification_status": "pass"
+    },
+    "context_splits": {
+      "data": {
+        "acceptance_sha256": "8986d77e73873812a23daa87c729d4a9d3fd35203f00f81722a4c06c47aa3cf4",
+        "component_count": 14,
+        "materialized_candidates": 6,
+        "schema_version": "platform_context_split_candidates_v1",
+        "status": "verified",
+        "substantive_training_started": false,
+        "test_labels_read": false
+      },
+      "report": {
+        "component_count": 3,
+        "manifest_sha256": "011ae03cd730d8ed01ede5d1102010f30236cf1cd9c6753ffcd0fdd15a238da5",
+        "report_sha256": "fa595229226bb04b448998fa5d3b4de1f55c6d4c43ab79af6da22522740f6924",
+        "schema_version": "platform_context_split_analysis_v1",
+        "status": "verified",
+        "substantive_training_started": false
+      }
+    },
+    "deep_leakage": {
+      "component_count": 3,
+      "configuration_sha256": "847dc1f8b5270e72da4421ed68c7b0b62bedd809f6c382f6c2c7a9be23bc2d6a",
+      "manifest_sha256": "29ce7a2c9fad87d0f3212de956a420edf5e1b74b170bf47fb94080e7d7c31033",
+      "report_sha256": "04a66185823967f075db6d2c1657bd13f32ca9eeef9e97bd0ea83bf144e2d1c7",
+      "schema_version": "platform_deep_leakage_manifest_v1",
+      "status": "verified",
+      "strategies_audited": 85,
+      "substantive_training_started": false,
+      "tasks_audited": 28,
+      "test_labels_read": false
+    },
+    "external_admission": {
+      "artifact_bytes": 44198,
+      "artifact_count": 2,
+      "decision": "not_ready_for_external_canonical_admission_or_model_training",
+      "manifest_internal_sha256": "efcb614aa7e4480e03d8fa378a4b6d8f8d2a006bd7ca52904675f28a1279764e",
+      "manifest_physical_bytes": 1942,
+      "manifest_physical_sha256": "8cd016192dfa85ac73e5b3679836e1fff40c4c7d5fb28af4fada42a11e31a5cb",
+      "status": "passed",
+      "zero_label_and_training_boundary": "passed"
+    },
+    "pkdb": {
+      "byte_identical_replay": true,
+      "canonical_observation_rows": 0,
+      "comparisons": [
+        {
+          "byte_identical": true,
+          "path": "interim/endpoint_inventory.json"
+        },
+        {
+          "byte_identical": true,
+          "path": "interim/context_availability.json"
+        },
+        {
+          "byte_identical": true,
+          "path": "interim/admission_decision.json"
+        },
+        {
+          "byte_identical": true,
+          "path": "interim/manifest.json"
+        },
+        {
+          "byte_identical": true,
+          "path": "report/report.json"
+        },
+        {
+          "byte_identical": true,
+          "path": "report/summary.md"
+        },
+        {
+          "byte_identical": true,
+          "path": "report/manifest.json"
+        }
+      ],
+      "schema_version": "platform-pkdb-public-candidates/1.0",
+      "status": "verified_fail_closed",
+      "training_label_rows": 0
+    },
+    "regulatory_records": {
+      "artifact_count": 7,
+      "artifact_rows": 630928,
+      "canonical_observations_admitted": 0,
+      "model_labels_admitted": 0,
+      "negative_labels_inferred_from_absence": 0,
+      "normalized_manifest_sha256": "6190a5408aaaffa15c9ca4f6b33e7c7c4b6d76f142c746209e426512a419cbcf",
+      "report_sha256": "07a4af9a4e1fc5404315b83b8f31829ddb613f8297459652a211e1513d479e56",
+      "status": "passed",
+      "substantive_model_training_performed": false
+    },
+    "structure_metadata": {
+      "artifact_count": 2,
+      "coordinate_files_downloaded": 0,
+      "model_labels_admitted": 0,
+      "normalized_manifest_sha256": "544084f0d964229469fd0d6278594f65b7ada70bb5dccccd86b8114fb8b7a3b5",
+      "predicted_structure_files_downloaded": 0,
+      "raw_manifest_sha256": "41f51283a36514ff28693d2a2e13c2a6ab8885622254a3b9919b6cb867b74a53",
+      "report_sha256": "6e24e3902083bbf403625d3e98e59fa0cbd9236ecde444fe76a99d9af3c68e3f",
+      "status": "passed",
+      "substantive_model_training_performed": false
+    }
+  }
+}

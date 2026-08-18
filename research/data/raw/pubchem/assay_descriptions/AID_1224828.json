@@ -1,0 +1,149 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1224828,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "11962",
+              "source_id": {
+                "str": "LPS genome wide primary screen-Mouse NFkB readout"
+              },
+              "date": {
+                "std": {
+                  "year": 2017,
+                  "month": 2,
+                  "day": 23
+                }
+              }
+            }
+          },
+          "name": "Genome-wide siRNA screen of genes regulating the Lipopolysaccharide-induced NF-kappaB and TNF-alpha responses in mouse macrophages_Primary screen NFkB readout",
+          "description": [
+            "The mammalian innate immune system senses many bacterial stimuli through the toll-like receptor (TLR) family. Activation of the TLR4 receptor by bacterial lipopolysaccharide (LPS) is the most widely studied TLR pathway due to its central role in host responses to gram-negative bacterial infection and its contribution to endotoxemia and sepsis. Here we describe a genome-wide siRNA screen to identify genes regulating the mouse macrophage TNF-alpha and NF-kappaB responses to LPS. We also conducted a secondary validation screen with six independent siRNAs per gene to facilitate removal of off-target screen hits, and we generated microarray data from the same LPS-treated macrophage cells to facilitate downstream data analysis. These data provide a resource for analyzing gene function in the predominant pathway driving inflammatory signaling and cytokine expression in mouse macrophages."
+          ],
+          "protocol": [
+            "Cell culture and stimulation with TLR ligands",
+            "RAW264.7 G9 cells were maintained in Dulbecco's Modified Eagle medium (DMEM; 4.5 g/l glucose), 10% fetal bovine serum (FBS), 20 mM Hepes, and 2 mM glutamine. LPS was from Alexis Biochemicals (Salmonella minnesota R595 TLRgrade, Cat. No. ALX-581-008-L002).",
+            "",
+            "High-content imaging of RAW G9 cells",
+            "The RAW G9 clone was generated as described previously (N. Li, J. C. Sun, Z. L. Benet, Z. Wang, S. Al-Khodor, S. P. John, M. H. Sung, and I. D. Fraser. Development of a cell system for siRNA screening of pathogen responses in human and mouse macrophages. Scientific reports. 9, 9559 (2015)). The GFP-p65 and Tnf promoter-mCherry reporters in RAW G9 cells were imaged with a BD Pathway 855 bioimager (BD biosciences). BD AttoVision software was used to automatically identify and quantify nuclei stained with Hoechst 33342 (Invitrogen, H3570), GFP-p65, and mCherry fluorescence. GFP located within the area of nuclear staining (eroded by 2 pixels) was defined as nuclear NF-kappaB, whereas GFP within a 2-pixel-wide ring around the area of nuclear staining was defined as cytosolic NF-kappaB. To determine the extent of nuclear translocation of NF-kappaB after TLR ligand stimulation, the ratio of the intensities of nuclear to cytoplasmic GFP-p65 was calculated with BD Image Data Explorer software. For mCherry expression, nuclear mCherry was quantified with the same method that was used for NF-kappaB. Background red fluorescence was subtracted and the average intensity was used as a measure of Tnf promoter activity.",
+            "",
+            "siRNA screens",
+            "The genome-wide siRNA screens were run in 384-well format with duplicates of each siRNA plate prepared to measure the two different reporter readouts from the RAW G9 cells. We used the Dharmacon siGENOME siRNA mouse library, containing a single pool of 4 siRNAs targeting each of 16,872 genes across 55 plates. Replicate plates were run in successive weeks, and passage matched cells were used throughout the screening process to minimize cell line variability. Plates were prepared with siRNAs against target genes in columns 3-22, with controls (at least 3 wells each) in columns 1, 2, 23 and 24. siRNA concentration throughout the primary and secondary screens was fixed at 100 nM, previously identified as optimal for the RAW G9 cell line. Negative controls included transfection lipid alone, non-targeting control siRNA pools NTC2 and NTC5, and siRNA targeting the cyclophilin B gene (Ppib). Positive control target genes were chosen from the canonical TLR4 pathway across a range of expected phenotypic strength; Tlr4, Myd88, and combinations of Irak1+Irak4 and Ikbka+Ikbkg. For the secondary screen, six individual sequences from different vendors (Ambion and Qiagen) were used, and replicate plates were again run in successive weeks. The secondary screen siRNAs were plated in 384-well format with the outer two rows and columns left empty and three central columns (11, 12 and 13) left open for control siRNAs. Negative and positive controls were the same as used for the primary screen. All cell plating and liquid handling steps were conducted with a Multidrop dispenser (Thermo Fisher) and EL406 plate washer/dispenser (Biotek). Plates were imaged on a BD Pathway 855 high content imager and images analysed with Attovision software. ",
+            "",
+            "Data analysis. ",
+            "For the primary siRNA screen, data was first normalized on a per-plate basis to the intra-plate median. We then standardized the values for each replicate experiment using the robust z-score calculation. We evaluated the correlation between replicate plates, and set a minimal correlation (Spearman rank) of 0.55. If plates did not meet this reproducibility threshold, plates were repeated until higher correlation was observed. For the secondary siRNA screen, data was again normalized on a per-plate basis to the intra-plate median, however robust z-score was less satisfactory for hit selection due to the higher frequency of putative hits among the screened genes. Secondary screen scores were therefore generated using a 'fraction of negative control' calculation using values from the NTC control siRNA. ",
+            "",
+            "Primary screen NFkB assay activity defininitions: 0= Z-score between 1 and -1; 25= Z-score greater than 1 or less than -1; 50= Z-score greater than 3.3 or less than -1.56; 75= Z-score greater than 4 or less than -2; 100= Z-score greater than 5 or less than -2.5."
+          ],
+          "comment": [
+            ""
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "gene ID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 2,
+              "name": "taxonomy ID",
+              "type": 4,
+              "annot": 6
+            },
+            {
+              "tid": 3,
+              "name": "SampleSource",
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "Ligand",
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Readout",
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Zscore",
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "LowCellCount",
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "Control",
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "PlateID",
+              "type": 4
+            },
+            {
+              "tid": 10,
+              "name": "Well",
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "GeneSymbol",
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "EntrezID",
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "siRNAID",
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "WellAnno",
+              "type": 4
+            },
+            {
+              "tid": 15,
+              "name": "Rep1Value",
+              "type": 1
+            },
+            {
+              "tid": 16,
+              "name": "Rep2Value",
+              "type": 1
+            },
+            {
+              "tid": 17,
+              "name": "Rep1CellCount",
+              "type": 1
+            },
+            {
+              "tid": 18,
+              "name": "Rep2CellCount",
+              "type": 1
+            }
+          ],
+          "revision": 3,
+          "activity_outcome_method": 3,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

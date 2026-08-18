@@ -1,0 +1,134 @@
+{
+  "all_passed": true,
+  "archive_validation": [
+    {
+      "actual_bytes": 3221045354,
+      "actual_outer_members": 14989,
+      "actual_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+      "archive": "dm_spl_release_human_rx_part1.zip",
+      "expected_bytes": 3221045354,
+      "expected_outer_members": 14989,
+      "expected_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 14989,
+      "passed": true,
+      "scanned_outer_members": 14989
+    },
+    {
+      "actual_bytes": 3221063745,
+      "actual_outer_members": 9605,
+      "actual_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+      "archive": "dm_spl_release_human_rx_part2.zip",
+      "expected_bytes": 3221063745,
+      "expected_outer_members": 9605,
+      "expected_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 9605,
+      "passed": true,
+      "scanned_outer_members": 9605
+    },
+    {
+      "actual_bytes": 3220663350,
+      "actual_outer_members": 9132,
+      "actual_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+      "archive": "dm_spl_release_human_rx_part3.zip",
+      "expected_bytes": 3220663350,
+      "expected_outer_members": 9132,
+      "expected_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 9132,
+      "passed": true,
+      "scanned_outer_members": 9132
+    },
+    {
+      "actual_bytes": 3220858219,
+      "actual_outer_members": 8369,
+      "actual_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+      "archive": "dm_spl_release_human_rx_part4.zip",
+      "expected_bytes": 3220858219,
+      "expected_outer_members": 8369,
+      "expected_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 8369,
+      "passed": true,
+      "scanned_outer_members": 8369
+    },
+    {
+      "actual_bytes": 3220978159,
+      "actual_outer_members": 8716,
+      "actual_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+      "archive": "dm_spl_release_human_rx_part5.zip",
+      "expected_bytes": 3220978159,
+      "expected_outer_members": 8716,
+      "expected_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 8716,
+      "passed": true,
+      "scanned_outer_members": 8716
+    },
+    {
+      "actual_bytes": 1662589295,
+      "actual_outer_members": 3861,
+      "actual_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+      "archive": "dm_spl_release_human_rx_part6.zip",
+      "expected_bytes": 1662589295,
+      "expected_outer_members": 3861,
+      "expected_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 3861,
+      "passed": true,
+      "scanned_outer_members": 3861
+    }
+  ],
+  "checks": {
+    "all_outer_members_have_parsed_inner_xml": true,
+    "all_six_archives_pass_size_sha_member_parse_validation": true,
+    "all_table_hashes_present": true,
+    "candidate_ids_unique": true,
+    "canonical_rows_zero": true,
+    "declared_table_count_matches_table_rows": true,
+    "document_locators_unique": true,
+    "outer_member_count_matches_frozen_manifest": true,
+    "parse_errors_zero": true,
+    "section_document_links_complete": true,
+    "table_keys_unique": true,
+    "table_section_links_complete": true,
+    "training_labels_zero": true
+  },
+  "generated_at_utc": "2026-08-07T13:01:45Z",
+  "internal_counters": {
+    "documents": {
+      "candidate_docs": 41960,
+      "candidate_fda_match": 19652,
+      "clinical_pharmacology": 50840,
+      "explicit_pk": 35024,
+      "fda_match": 23805,
+      "parsed": 54672,
+      "rows": 54672
+    },
+    "sections": {
+      "declared_tables": 26610,
+      "rows": 43162
+    },
+    "tables": {
+      "numeric_token_present": 26203,
+      "pk_endpoint_hit_present": 20334,
+      "rows": 26610,
+      "text_hash_present": 26610,
+      "xml_hash_present": 26610
+    }
+  },
+  "schema_version": "pk-expansion-dailymed-candidates/1.0"
+}

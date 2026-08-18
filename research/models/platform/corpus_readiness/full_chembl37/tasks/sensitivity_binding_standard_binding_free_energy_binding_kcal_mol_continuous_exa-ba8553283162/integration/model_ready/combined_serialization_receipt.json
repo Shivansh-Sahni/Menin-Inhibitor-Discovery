@@ -1,0 +1,90 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 8192,
+    "maximum_observed_example_batch_recursive_bytes": 31305976,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 23243910
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "d08588531eb3cdb8fb4673f03bf6b8485e09f26bbe092990a7b75a3f3688fe8e",
+    "task_eligibility_mode": "derived_sensitivity",
+    "task_semantics": {
+      "assay_family": "binding",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "standard_binding_free_energy",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_exact",
+      "label_unit": "kcal/mol",
+      "observation_kind": "derived",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 62334,
+      "task_id": "TASK-B46765EBACEE985CE4DCB23A",
+      "task_type": "sensitivity__binding__standard_binding_free_energy__binding__kcal_mol__continuous_exact"
+    }
+  },
+  "build_config_sha256": "b021063abc027c99dd6c92939e444d2c056a719fc4c3308a426b88ae2323dd45",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "derived": 62334
+  },
+  "partition_counts": {
+    "test": 7692,
+    "train": 45965,
+    "validation": 8677
+  },
+  "physical_partition_manifest_file_sha256": "f9bd20408fba507cecf208f50477f4e35c9e797bb3a9e6c1d8db110f876bd039",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "5ce4eaec1713e09915dfc9804ead692c30945100192bbaa9e66e39e6158fdddd",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_binding_standard_binding_free_energy_binding_kcal_mol_continuous_exact/part-00007.parquet",
+        "rows": 5558,
+        "sha256": "b400c09d66b600783e3aff2792be9b846685bd3635a0d373192db564550d3849"
+      },
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_binding_standard_binding_free_energy_binding_kcal_mol_continuous_exact/part-00008.parquet",
+        "rows": 12587,
+        "sha256": "14631cc2b613db65d91fb2a5be050e38755d2dca889bba9941d3690791d47dd4"
+      },
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_binding_standard_binding_free_energy_binding_kcal_mol_continuous_exact/part-00009.parquet",
+        "rows": 10713,
+        "sha256": "9581d237658e497ac883c2888b56eb0e21ba48fe4ed139124ec7f42dab0690c7"
+      },
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_binding_standard_binding_free_energy_binding_kcal_mol_continuous_exact/part-00010.parquet",
+        "rows": 26769,
+        "sha256": "59061b460152aed006c600f252b7573f8dad6ef11538e2f4866c79ec8ba617da"
+      },
+      {
+        "relative_path": "tasks/derived_sensitivity/sensitivity_binding_standard_binding_free_energy_binding_kcal_mol_continuous_exact/part-00011.parquet",
+        "rows": 6707,
+        "sha256": "0e5ddd0f7e3edae9a5252ffbc31490084b9752f805bf3b6a224b8113c079d551"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 62334
+  },
+  "source_dataset_sha256": "5ce4eaec1713e09915dfc9804ead692c30945100192bbaa9e66e39e6158fdddd",
+  "split_manifest_sha256": "3806c062e8284f0f5e2f336b9418cc709ad91c5364e5cc2b4f55d21e3b8d259c",
+  "split_sidecar_sha256": "093fdd49907fd8b66de718b3d3a831f94c7086bde4c56db429b497e31223fed9",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "71dfdd3f315e5ca491a04da89cbab1454ee688c8ba18252b3469227d97bd4578",
+    "record_count": 62334,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "a51a0109cff943593f16b6e16ba313bed5e5d409a50a48927d37b5dc43046545",
+    "sha256": "d8215d8a87e2717c2d7ad93a9b5460deca8f1936adbe9563c292cfdfce232b2d"
+  }
+}

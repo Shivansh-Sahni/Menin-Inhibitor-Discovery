@@ -1,0 +1,36 @@
+{
+  "blocked_or_deferred": [
+    {
+      "next_step": "Obtain authorized credentials and explicit record-level rights.",
+      "reason": "Basic-authenticated output endpoint; anonymous probe returned zero rows despite official statistic of 138,411 outputs.",
+      "source": "PK-DB outputs"
+    },
+    {
+      "next_step": "Use an institutional license and legal/data-use review.",
+      "reason": "Credentialed/licensed resource; not defensibly redistributable through an anonymous public acquisition.",
+      "source": "DrugBank"
+    },
+    {
+      "next_step": "Request access or use an authenticated account, then pin commit and license.",
+      "reason": "Anonymous Hugging Face model API returned HTTP 401.",
+      "source": "OpenADMET microsomal-clearance CheMeleon repository"
+    },
+    {
+      "next_step": "Build an AID allow-list using depositor/protocol review before any further acquisition.",
+      "reason": "Stopped deliberately after eight official NCATS AIDs: broad text matches mix depositor semantics, duplicate ChEMBL imports, false positives, and source-specific rights.",
+      "source": "Broad PubChem keyword harvest"
+    },
+    {
+      "next_step": "Use only if API normalization materially improves label-section retrieval.",
+      "reason": "Deferred as duplicative of the frozen DailyMed SPL bulk corpus and not a structured PK-quantity source.",
+      "source": "openFDA label API"
+    },
+    {
+      "next_step": "Keep in pharmacovigilance, not PK training, scope.",
+      "reason": "Spontaneous adverse-event reports do not provide controlled quantitative PK labels.",
+      "source": "FAERS"
+    }
+  ],
+  "generated_at_utc": "2026-08-06T19:04:30Z",
+  "schema_version": "pk-expansion-avicenna/1.0"
+}

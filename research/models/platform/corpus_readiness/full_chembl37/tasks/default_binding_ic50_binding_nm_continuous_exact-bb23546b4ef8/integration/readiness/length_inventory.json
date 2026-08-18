@@ -1,0 +1,121 @@
+{
+  "opened_partitions": [
+    "train",
+    "validation"
+  ],
+  "partitions": {
+    "test": {
+      "length_statistics": null,
+      "record_count_from_routing_manifest": 163912,
+      "selection_use": "prohibited",
+      "status": "not_inspected_locked_test"
+    },
+    "train": {
+      "protein": {
+        "candidate_limit_affected": {
+          "1024": 182797,
+          "2048": 23967,
+          "4096": 3897,
+          "512": 457979
+        },
+        "maximum": 7096,
+        "median": 595,
+        "minimum": 9,
+        "n": 776752,
+        "n_nonempty": 776752,
+        "p90": 1318,
+        "p95": 1620,
+        "p99": 2554
+      },
+      "smiles": {
+        "candidate_limit_affected": {
+          "1024": 0,
+          "128": 10039,
+          "256": 3016,
+          "512": 154
+        },
+        "maximum": 906,
+        "median": 52,
+        "minimum": 1,
+        "n": 776752,
+        "n_nonempty": 776752,
+        "p90": 71,
+        "p95": 81,
+        "p99": 139
+      },
+      "text": {
+        "candidate_limit_affected": {
+          "128": 0,
+          "256": 0,
+          "32": 0,
+          "8": 0
+        },
+        "maximum": 0,
+        "median": 0,
+        "minimum": 0,
+        "n": 776752,
+        "n_nonempty": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0
+      }
+    },
+    "validation": {
+      "protein": {
+        "candidate_limit_affected": {
+          "1024": 39244,
+          "2048": 5094,
+          "4096": 749,
+          "512": 98513
+        },
+        "maximum": 7096,
+        "median": 595,
+        "minimum": 9,
+        "n": 166411,
+        "n_nonempty": 166411,
+        "p90": 1323,
+        "p95": 1616,
+        "p99": 2549
+      },
+      "smiles": {
+        "candidate_limit_affected": {
+          "1024": 0,
+          "128": 2124,
+          "256": 566,
+          "512": 19
+        },
+        "maximum": 906,
+        "median": 52,
+        "minimum": 8,
+        "n": 166411,
+        "n_nonempty": 166411,
+        "p90": 71,
+        "p95": 82,
+        "p99": 137
+      },
+      "text": {
+        "candidate_limit_affected": {
+          "128": 0,
+          "256": 0,
+          "32": 0,
+          "8": 0
+        },
+        "maximum": 0,
+        "median": 0,
+        "minimum": 0,
+        "n": 166411,
+        "n_nonempty": 0,
+        "p90": 0,
+        "p95": 0,
+        "p99": 0
+      }
+    }
+  },
+  "schema_version": "streaming_length_inventory_v1",
+  "selection_policy": "train_statistics_may_inform_smoke_wiring; validation_is_report_only; test_is_not_opened_hashed_or_iterated_after_physical_routing",
+  "special_tokens_counted_in_candidate_limit_affected": 2,
+  "substantive_training_started": false,
+  "test_partition_hashed_after_routing": false,
+  "test_partition_iterated_after_routing": false,
+  "test_partition_opened_after_routing": false
+}

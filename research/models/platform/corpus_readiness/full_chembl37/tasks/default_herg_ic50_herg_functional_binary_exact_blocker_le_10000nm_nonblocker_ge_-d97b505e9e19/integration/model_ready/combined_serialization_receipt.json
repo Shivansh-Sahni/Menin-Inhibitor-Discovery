@@ -1,0 +1,70 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 120,
+    "maximum_observed_example_batch_recursive_bytes": 485230,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 355671
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "2452c50d9cfca847827d3c35b2208e91fd3a51eb178f73a0b5119594ace0e55c",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "herg_functional",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "IC50",
+      "evidence_domain": "herg",
+      "label_kind": "categorical",
+      "label_unit": "class",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "classification",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 120,
+      "task_id": "TASK-9EF0A903755F8DBA39DDDDC2",
+      "task_type": "default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm"
+    }
+  },
+  "build_config_sha256": "7f13413b957345417aca44d25478a024a64c2df80fd8e3a0d1c4bf3f5af0cfac",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 120
+  },
+  "partition_counts": {
+    "test": 13,
+    "train": 93,
+    "validation": 14
+  },
+  "physical_partition_manifest_file_sha256": "2f2a9aec2e479a325374ecde19c52b89ca84cad323446d2c40dd7c53bda784c5",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "aa7ea17cff7a07a92aba2e4b158e5d80e012dadb4286dd7187f3120da15babef",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_30000nm/part-00006.parquet",
+        "rows": 120,
+        "sha256": "3c5d42e6b1d4172500963226fbebd726746cbfa6292105b42b16f4db16ffc69a"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 120
+  },
+  "source_dataset_sha256": "aa7ea17cff7a07a92aba2e4b158e5d80e012dadb4286dd7187f3120da15babef",
+  "split_manifest_sha256": "f808da0e95ac8bf40a7f90891a3a42773387e38bdd267c8992dc3f5791420e6c",
+  "split_sidecar_sha256": "2b169c6b12bf6a2db790be367fe3cb9ce089e54c252708a054d3b4227c6919dd",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "91c14d34132fff168d5fefa4e453a417da73a26e5a6ba41b17b930568579db2e",
+    "record_count": 120,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "b36d326be71ebe5343af3258a1cc99e828438cd543f7173bf8c7b239647de2eb",
+    "sha256": "1d751877c167e304e168877f5b0fb31d69adb76eafb2c97a93623830768acca3"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "artifact_set_sha256": "ee1c5b40fec4cdd01a422ff049b56a42a1e7a28163dd9cf85d64ad7f3636523b",
+  "artifacts": [
+    {
+      "arrow_schema_sha256": "2d80f1bb0751beb6b6c4ab100f67c1c6d46a1d9555733b37f5725eb5ce2a18b1",
+      "bytes": 27245229,
+      "path": "observation_ledger.parquet",
+      "rows": 407956,
+      "sha256": "46e54744581d4ad698fd257a2483c2f688d281a7ec9792d862248eb6c14c4b2a"
+    },
+    {
+      "arrow_schema_sha256": "c7eaed163cc03ccb5898a38cecdef1d1ef6217b4209cfc2cfedad60be0d368ae",
+      "bytes": 11701774,
+      "path": "structure_consensus_binary.parquet",
+      "rows": 339373,
+      "sha256": "eac60c3d6beb9f9cff9e7ad69d35a4b26a99c8a852d52f73c7a79944077663ff"
+    },
+    {
+      "arrow_schema_sha256": "187888b356b193d70b530bd68033afff0520943e5597fed4ab720fb4b6c1ef34",
+      "bytes": 1393817,
+      "path": "quantitative_pic50.parquet",
+      "rows": 23186,
+      "sha256": "0036b469377b1239e5ad36a94398fa50b2b2e6711a61d678cde717b497b36cfb"
+    },
+    {
+      "arrow_schema_sha256": "b3b701cfbf873fc8db1b75c3f394ce4ca3962b8cc43c6cf6fcc0d69d0d981ccc",
+      "bytes": 14192742,
+      "path": "hierarchy_annotations.parquet",
+      "rows": 369546,
+      "sha256": "4a709fca669a3bd95447b64c431dfb22d7016fb6b7363c76aa1d0023553d11fd"
+    }
+  ],
+  "counts": {
+    "T0_reported_observations": 407956,
+    "T1_candidate_observations": 343294,
+    "binary_consensus_structures": 339373,
+    "hierarchy_structures": 369546,
+    "observations": 407956,
+    "primary_conflict_structures": 24,
+    "pubchem_structure_source_rows": 343666,
+    "quantitative_pic50_observations": 23186,
+    "valid_structure_observations": 407854
+  },
+  "dataset_id": "herg_assay_native_hierarchy",
+  "input_set_sha256": "473bb5754de685d6c049b8f882422a038671bf5341db426fabd0cb88f6948540",
+  "inputs": [
+    {
+      "bytes": 46379087,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/herg_expansion/avicenna/assays/AID_720551_concise.csv",
+      "role": "pubchem_aid720551_outcomes",
+      "sha256": "5f7fa424c8c52394e859867132a0ce6fc8d7b84d08115aa6abd5587c7e06b70e"
+    },
+    {
+      "bytes": 47395411,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/herg_hierarchy/source_profile/pubchem_aid720551_structures/aid720551_pubchem_structures.csv",
+      "role": "pubchem_cid_structures",
+      "sha256": "595efcd06b0a1a8662220559e8de08afd10a0e680120af884d3be594b5b3fd7f"
+    },
+    {
+      "bytes": 2781876,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/herg_expansion/anscombe/zenodo_8359714/extracted/dataset/hERG/data_herg_dev.csv",
+      "role": "quantitative_pic50",
+      "sha256": "9d7275d1f539e903330edf250b5106264f2fae9f1ce5408daf9329a952f5e447"
+    },
+    {
+      "bytes": 28180,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/herg_expansion/anscombe/zenodo_8359714/extracted/dataset/hERG/eval_set_herg_60.csv",
+      "role": "quantitative_pic50",
+      "sha256": "0bdf036d7d0a97d14a83edb4321de137853b17a0444880d62cb3a08e303490a9"
+    },
+    {
+      "bytes": 50513,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/herg_expansion/anscombe/zenodo_8359714/extracted/dataset/hERG/eval_set_herg_70.csv",
+      "role": "quantitative_pic50",
+      "sha256": "e3f7d41cc3ed6abf672789477f91ae371eff089797009c37ba346df79e2f8c39"
+    },
+    {
+      "bytes": 1794226,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/interim/chembl_37_bulk/specialized_views/herg_all_endpoints/herg_all_endpoints_000111169_029330473.parquet",
+      "role": "chembl_herg_specialized_view",
+      "sha256": "bc414e4780412c08cf4b96ff1ce041baac5cdf7a24c518b756a873b11d50d02c"
+    }
+  ],
+  "manifest_sha256": "961b85413018565eceee6a14b53cf05f2f3e2e14d81c21c5aad5207376ce08f5",
+  "rdkit_version": "2026.03.3",
+  "schema_version": "platform-herg-hierarchy/1.0",
+  "scientific_contract": {
+    "assay_native_observations_preserved": true,
+    "binary_consensus_source": "PubChem AID 720551 source-reported outcomes only",
+    "binary_to_pic50_conversion_performed": false,
+    "chembl_pic50_conversion": "exact positive wild-type functional IC50 in nM/uM only",
+    "clinical_claim": "none; hERG assay evidence is not QT/QTc or torsades risk",
+    "cross_assay_binary_pooling_performed": false,
+    "explicitly_excluded_inputs": [
+      "EPA hERG",
+      "strict canonical hERG task views"
+    ],
+    "fixed_dose_to_pic50_conversion_performed": false,
+    "hergai_role": "optional secondary provenance only",
+    "hierarchy_status": "T0 reported with conservative T1 candidate annotations; no admission",
+    "ki_binding_inhibition_pooled_into_pic50": false
+  },
+  "standardization_version": "rdkit-cleanup-fragment-parent-uncharge-isomeric-v1",
+  "threshold_policy": {
+    "blocker_max_um": 10.0,
+    "blocker_min_pic50": 5.0,
+    "gap_policy": "unlabeled",
+    "nonblocker_max_pic50": 4.522878745280337,
+    "nonblocker_min_um": 30.0
+  }
+}

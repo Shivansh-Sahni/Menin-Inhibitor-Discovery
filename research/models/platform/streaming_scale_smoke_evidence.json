@@ -1,0 +1,62 @@
+{
+  "bounded_memory_claim_scope": "Measured batch/object telemetry and exact count reconciliation for this synthetic execution only",
+  "data_kind": "synthetic_homogeneous_regression_task",
+  "execution_date": "2026-08-04",
+  "full_materialization_memory_estimate": {
+    "combined_measured_bytes_per_row": 2972.423,
+    "extrapolated_combined_gib_at_3100000_rows": 8.58168238773942,
+    "method": "1000-row pandas-deep plus recursive Python-object sample extrapolation; not peak RSS",
+    "policy": "full-list materialization prohibited at platform scale"
+  },
+  "loader_smoke": {
+    "batch_size": 8,
+    "batches": 4,
+    "examples_seen": 32,
+    "performance_evidence": false,
+    "status": "passed"
+  },
+  "model_ready_streaming": {
+    "configured_batch_rows": 4093,
+    "elapsed_seconds": 9.58301154198125,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 4093,
+    "maximum_observed_example_batch_recursive_bytes": 10242985,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 2962133,
+    "partition_counts": {
+      "test": 15072,
+      "train": 69801,
+      "validation": 15130
+    }
+  },
+  "notes": [
+    "The source Parquet used irregular 13337-row row groups to exercise lockstep cursors across batch boundaries.",
+    "Three training-only vocabularies were fit by repeatable streaming iteration before the capped loader smoke.",
+    "Arrow emitted sandbox-only CPU-cache sysctl warnings; execution completed successfully.",
+    "Elapsed time and peak RSS are local engineering observations, not portable throughput claims."
+  ],
+  "process_peak_rss": {
+    "bytes": 444022784,
+    "includes_synthetic_dataframe_construction": true,
+    "mebibytes": 423.453125
+  },
+  "record_count": 100003,
+  "schema_version": "streaming_scale_smoke_evidence_v1",
+  "scientific_or_model_performance_evidence": false,
+  "split": {
+    "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+    "configured_batch_rows": 7777,
+    "elapsed_seconds": 1.4872683330322616,
+    "fraction_policy": "approximate_under_stable_group_hash_not_greedy_or_stratified",
+    "maximum_observed_batch_rows": 7777,
+    "maximum_observed_input_pandas_deep_bytes": 3639768,
+    "near_duplicate_audit": "not_run_separate_required",
+    "partition_counts": {
+      "test": 15072,
+      "train": 69801,
+      "validation": 15130
+    },
+    "record_id_uniqueness": "complete_disk_backed_primary_key_audit"
+  },
+  "split_to_model_ready_count_reconciliation": "exact",
+  "substantive_training_started": false
+}

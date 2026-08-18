@@ -1,0 +1,1171 @@
+{
+  "archive_member_table": {
+    "member_count": 12,
+    "members": [
+      {
+        "archive_member_path": "ActionTypes_Lookup.txt",
+        "column_count": 4,
+        "columns": [
+          "ActionTypes_LookupID",
+          "ActionTypes_LookupDescription",
+          "SupplCategoryLevel1Code",
+          "SupplCategoryLevel2Code"
+        ],
+        "data_row_count": 59,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "ApplicationDocs.txt",
+        "column_count": 8,
+        "columns": [
+          "ApplicationDocsID",
+          "ApplicationDocsTypeID",
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo",
+          "ApplicationDocsTitle",
+          "ApplicationDocsURL",
+          "ApplicationDocsDate"
+        ],
+        "data_row_count": 80715,
+        "delimiter": "\t",
+        "encoding": "cp1252",
+        "malformed_width_examples": [
+          {
+            "expected_width": 8,
+            "first_field": "84630",
+            "logical_record_number_one_based": 78723,
+            "observed_width": 9,
+            "row_sha256": "1833d92e6116331d1bf50f0ca07d5953fb82c7aa8bc2346e6d50914f3ab5f508"
+          }
+        ],
+        "malformed_width_rows": 1,
+        "parse_integrity": "failed"
+      },
+      {
+        "archive_member_path": "Applications.txt",
+        "column_count": 4,
+        "columns": [
+          "ApplNo",
+          "ApplType",
+          "ApplPublicNotes",
+          "SponsorName"
+        ],
+        "data_row_count": 29253,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "ApplicationsDocsType_Lookup.txt",
+        "column_count": 2,
+        "columns": [
+          "ApplicationDocsType_Lookup_ID",
+          "ApplicationDocsType_Lookup_Description"
+        ],
+        "data_row_count": 62,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "Join_Submission_ActionTypes_Lookup.txt",
+        "column_count": 5,
+        "columns": [
+          "SubmissionType",
+          "j_submissionActionTypeID",
+          "ApplNo",
+          "SubmissionNo",
+          "ActionTypes_LookupID"
+        ],
+        "data_row_count": 208723,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "MarketingStatus.txt",
+        "column_count": 3,
+        "columns": [
+          "MarketingStatusID",
+          "ApplNo",
+          "ProductNo"
+        ],
+        "data_row_count": 52218,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "MarketingStatus_Lookup.txt",
+        "column_count": 2,
+        "columns": [
+          "MarketingStatusID",
+          "MarketingStatusDescription"
+        ],
+        "data_row_count": 5,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "Products.txt",
+        "column_count": 8,
+        "columns": [
+          "ApplNo",
+          "ProductNo",
+          "Form",
+          "Strength",
+          "ReferenceDrug",
+          "DrugName",
+          "ActiveIngredient",
+          "ReferenceStandard"
+        ],
+        "data_row_count": 51619,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "SubmissionClass_Lookup.txt",
+        "column_count": 3,
+        "columns": [
+          "SubmissionClassCodeID",
+          "SubmissionClassCode",
+          "SubmissionClassCodeDescription"
+        ],
+        "data_row_count": 28,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "SubmissionPropertyType.txt",
+        "column_count": 5,
+        "columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo",
+          "SubmissionPropertyTypeCode",
+          "SubmissionPropertyTypeID"
+        ],
+        "data_row_count": 317015,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "Submissions.txt",
+        "column_count": 8,
+        "columns": [
+          "ApplNo",
+          "SubmissionClassCodeID",
+          "SubmissionType",
+          "SubmissionNo",
+          "SubmissionStatus",
+          "SubmissionStatusDate",
+          "SubmissionsPublicNotes",
+          "ReviewPriority"
+        ],
+        "data_row_count": 193242,
+        "delimiter": "\t",
+        "encoding": "cp1252",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      },
+      {
+        "archive_member_path": "TE.txt",
+        "column_count": 4,
+        "columns": [
+          "ApplNo",
+          "ProductNo",
+          "MarketingStatusID",
+          "TECode"
+        ],
+        "data_row_count": 26508,
+        "delimiter": "\t",
+        "encoding": "utf-8-sig",
+        "malformed_width_examples": [],
+        "malformed_width_rows": 0,
+        "parse_integrity": "passed"
+      }
+    ],
+    "normalized_table_names": [
+      "actiontypes_lookup",
+      "applicationdocs",
+      "applications",
+      "applicationsdocstype_lookup",
+      "join_submission_actiontypes_lookup",
+      "marketingstatus",
+      "marketingstatus_lookup",
+      "products",
+      "submissionclass_lookup",
+      "submissionpropertytype",
+      "submissions",
+      "te"
+    ],
+    "parse_integrity": "failed",
+    "parser_version": "platform_external_acquisition/1.0",
+    "row_shape_status": "source_anomalies_retained_for_quarantine",
+    "source_width_anomaly_rows": 1,
+    "table_tokenization_status": "passed_all_rows_tokenized",
+    "total_data_rows": 959447,
+    "total_malformed_width_rows": 1,
+    "txt_table_count": 12
+  },
+  "bundle_inventory": {
+    "entries": [
+      {
+        "artifact_role": "source_HTTP_artifact",
+        "bytes": 6058109,
+        "path": "datdaf20260804.zip",
+        "sha256": "b27321cd7b1f02b301bac79f853ad39ed77bd0558d23ae8747d21de7fa744120"
+      },
+      {
+        "artifact_role": "source_HTTP_acquisition_sidecar",
+        "bytes": 1166,
+        "path": "datdaf20260804.zip.acquisition.json",
+        "sha256": "418f19b0d5adbe6dd3a8c94b0800eda8a96b1c04323793da850814085f04bfb9"
+      },
+      {
+        "artifact_role": "archive_member_content_inventory",
+        "bytes": 4097,
+        "line_count": 12,
+        "path": "datdaf20260804.zip.members.jsonl",
+        "sha256": "b7b96409ab60c2e50311478a1eef54a49cdeb38acbbbbf0ef3b60f96d2f1fe3c"
+      },
+      {
+        "artifact_role": "source_HTTP_artifact",
+        "bytes": 34672,
+        "path": "drugsfda_data_files.html",
+        "sha256": "61defb4823444dd56b200f81dfd9c28df02311ab76326b35ee65a7ba2e8ccd2c"
+      },
+      {
+        "artifact_role": "source_HTTP_acquisition_sidecar",
+        "bytes": 1196,
+        "path": "drugsfda_data_files.html.acquisition.json",
+        "sha256": "a400d0efa3b25c3fcf81128b948ac4689777d92993fba2d947ce55645c05a403"
+      },
+      {
+        "artifact_role": "source_HTTP_artifact",
+        "bytes": 127626,
+        "path": "drugsfda_erd_20250110.bin",
+        "sha256": "e4ccf9e12ad5f565d514d1cddcf4524d38205e8dfaa042d99f14f0470def4a7c"
+      },
+      {
+        "artifact_role": "source_HTTP_acquisition_sidecar",
+        "bytes": 1162,
+        "path": "drugsfda_erd_20250110.bin.acquisition.json",
+        "sha256": "bb3f57d2363d5ae15ee4c71d5ff754690951432582892484c8def838384101c8"
+      }
+    ],
+    "entries_sha256": "efea99ce3b3606743bff843de611083225c1a911070641e891eec07bb8735896",
+    "entry_count": 7,
+    "excluded_paths": [
+      "drugs_at_fda_bulk_manifest.json"
+    ],
+    "exclusion_reason": "source manifest is self-referential and bound by manifest_sha256",
+    "included_artifacts": "every regular file recursively below source root",
+    "inventory_schema_version": "platform-external-acquisition/1.0",
+    "root": ".",
+    "symlink_policy": "rejected",
+    "total_bytes": 6228028,
+    "unpromoted_partial_policy": "rejected"
+  },
+  "canonical_mapping_status": "not_attempted",
+  "canonical_rows_admitted": 0,
+  "data_definitions_version": "2025-01-10",
+  "erd_digest": "e4ccf9e12ad5f565d514d1cddcf4524d38205e8dfaa042d99f14f0470def4a7c",
+  "exact_physical_bytes": 6228028,
+  "exact_physical_file_count": 7,
+  "exact_source_artifact_bytes": 6220407,
+  "exact_source_artifact_count": 3,
+  "files": [
+    {
+      "acquired_bytes": 34672,
+      "acquired_md5": null,
+      "acquired_sha256": "61defb4823444dd56b200f81dfd9c28df02311ab76326b35ee65a7ba2e8ccd2c",
+      "acquisition_sidecar_manifest_sha256": "82d6f4ec66403be0ab53b8f4f8070f46e05208c7cb3b4df9b75a238e5f0a63a2",
+      "acquisition_status": "downloaded_verified",
+      "artifact_role": "official_release_landing_page",
+      "canonical_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "local_path": "drugsfda_data_files.html",
+      "resolved_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+      "response_headers": {
+        "cache-control": "public, max-age=61747",
+        "content-length": "34672",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 04 Aug 2026 18:21:06 GMT",
+        "etag": "\"1785843012\"",
+        "expires": "Wed, 05 Aug 2026 11:30:13 GMT",
+        "last-modified": "Tue, 04 Aug 2026 11:30:12 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding"
+      },
+      "response_status": 200,
+      "resumed_from_bytes": 0,
+      "retrieval_utc": "2026-08-04T18:21:09Z",
+      "schema_version": "platform-external-acquisition/1.0",
+      "upstream_filename": "drugsfda_data_files.html",
+      "upstream_md5_when_published": null
+    },
+    {
+      "acquired_bytes": 127626,
+      "acquired_md5": null,
+      "acquired_sha256": "e4ccf9e12ad5f565d514d1cddcf4524d38205e8dfaa042d99f14f0470def4a7c",
+      "acquisition_sidecar_manifest_sha256": "f5c3c5dc01d76a88c824143b25991d494d1289b6eb5f1cd1bc27e04aa81fc6d8",
+      "acquisition_status": "downloaded_verified",
+      "artifact_role": "official_entity_relationship_diagram_as_of_2025-01-10",
+      "canonical_url": "https://www.fda.gov/media/102072/download",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "local_path": "drugsfda_erd_20250110.bin",
+      "resolved_url": "https://www.fda.gov/media/102072/download",
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "content-disposition": "inline; filename=\"FDA ERD Diagram_2025_1.png\"",
+        "content-length": "127626",
+        "content-type": "image/png",
+        "date": "Tue, 04 Aug 2026 18:37:47 GMT",
+        "expires": "Tue, 04 Aug 2026 18:37:47 GMT",
+        "last-modified": "Fri, 10 Jan 2025 19:32:33 GMT",
+        "server": "nginx"
+      },
+      "response_status": 200,
+      "resumed_from_bytes": 0,
+      "retrieval_utc": "2026-08-04T18:37:50Z",
+      "schema_version": "platform-external-acquisition/1.0",
+      "upstream_filename": "drugsfda_erd_20250110.bin",
+      "upstream_md5_when_published": null
+    },
+    {
+      "acquired_bytes": 6058109,
+      "acquired_md5": null,
+      "acquired_sha256": "b27321cd7b1f02b301bac79f853ad39ed77bd0558d23ae8747d21de7fa744120",
+      "acquisition_sidecar_manifest_sha256": "97330153573fa10bbb7545ed90fe7e9e41088861a8fd5c81f2c6a514dff7376f",
+      "acquisition_status": "downloaded_verified",
+      "archive_integrity": {
+        "archive_bytes": 6058109,
+        "archive_sha256": "b27321cd7b1f02b301bac79f853ad39ed77bd0558d23ae8747d21de7fa744120",
+        "directory_member_count": 0,
+        "duplicate_member_names": 0,
+        "file_member_count": 12,
+        "inventory_bytes": 4097,
+        "inventory_path": "datdaf20260804.zip.members.jsonl",
+        "inventory_sha256": "b7b96409ab60c2e50311478a1eef54a49cdeb38acbbbbf0ef3b60f96d2f1fe3c",
+        "member_count": 12,
+        "total_member_compressed_bytes": 6056663,
+        "total_member_uncompressed_bytes": 43092265,
+        "unsafe_member_paths": 0,
+        "zip_crc_and_stream_integrity": "passed"
+      },
+      "artifact_role": "complete_relational_archive",
+      "canonical_url": "https://www.fda.gov/media/89850/download?attachment=",
+      "expected_bytes": null,
+      "expected_sha256": null,
+      "local_path": "datdaf20260804.zip",
+      "resolved_url": "https://www.fda.gov/media/89850/download?attachment=",
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "content-disposition": "inline; filename=datdaf20260804.zip",
+        "content-length": "6058109",
+        "content-type": "application/zip",
+        "date": "Tue, 04 Aug 2026 18:21:06 GMT",
+        "expires": "Tue, 04 Aug 2026 18:21:06 GMT",
+        "last-modified": "Tue, 04 Aug 2026 11:26:19 GMT",
+        "server": "nginx"
+      },
+      "response_status": 200,
+      "resumed_from_bytes": 0,
+      "retrieval_utc": "2026-08-04T18:21:09Z",
+      "schema_version": "platform-external-acquisition/1.0",
+      "upstream_filename": "datdaf20260804.zip",
+      "upstream_md5_when_published": null
+    }
+  ],
+  "landing_page_snapshot": {
+    "acquired_bytes": 34672,
+    "acquired_md5": null,
+    "acquired_sha256": "61defb4823444dd56b200f81dfd9c28df02311ab76326b35ee65a7ba2e8ccd2c",
+    "acquisition_sidecar_manifest_sha256": "82d6f4ec66403be0ab53b8f4f8070f46e05208c7cb3b4df9b75a238e5f0a63a2",
+    "acquisition_status": "downloaded_verified",
+    "artifact_role": "official_release_landing_page",
+    "canonical_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+    "expected_bytes": null,
+    "expected_sha256": null,
+    "local_path": "drugsfda_data_files.html",
+    "resolved_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+    "response_headers": {
+      "cache-control": "public, max-age=61747",
+      "content-length": "34672",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Tue, 04 Aug 2026 18:21:06 GMT",
+      "etag": "\"1785843012\"",
+      "expires": "Wed, 05 Aug 2026 11:30:13 GMT",
+      "last-modified": "Tue, 04 Aug 2026 11:30:12 GMT",
+      "server": "nginx",
+      "vary": "Accept-Encoding"
+    },
+    "response_status": 200,
+    "resumed_from_bytes": 0,
+    "retrieval_utc": "2026-08-04T18:21:09Z",
+    "schema_version": "platform-external-acquisition/1.0",
+    "upstream_filename": "drugsfda_data_files.html",
+    "upstream_md5_when_published": null
+  },
+  "manifest_sha256": "d995f3309c5665fea9f6b4d74d64989b0ce20f3266fb1b802a3695a21c6c74dd",
+  "model_labels_admitted": 0,
+  "official_landing_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+  "parser_version": "platform_external_acquisition/1.0",
+  "raw_bytes_immutable": true,
+  "relational_key_and_join_audit": {
+    "foreign_key_reports": [
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 80714,
+        "join_integrity": "passed",
+        "malformed_width_rows_excluded": 1,
+        "missing_reference_examples": [],
+        "missing_reference_rows": 0,
+        "source_columns": [
+          "ApplicationDocsTypeID"
+        ],
+        "source_rows": 80715,
+        "source_table": "ApplicationDocs.txt",
+        "target_columns": [
+          "ApplicationDocsType_Lookup_ID"
+        ],
+        "target_table": "ApplicationsDocsType_Lookup.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 80714,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 1,
+        "missing_reference_examples": [
+          [
+            "020916"
+          ],
+          [
+            "205476"
+          ],
+          [
+            "021972"
+          ]
+        ],
+        "missing_reference_rows": 3,
+        "source_columns": [
+          "ApplNo"
+        ],
+        "source_rows": 80715,
+        "source_table": "ApplicationDocs.txt",
+        "target_columns": [
+          "ApplNo"
+        ],
+        "target_table": "Applications.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 80714,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 1,
+        "missing_reference_examples": [
+          [
+            "022165",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "077327",
+            "ORIG",
+            "1"
+          ],
+          [
+            "202121",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "202121",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "022165",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "022165",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "022165",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "022165",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "202121",
+            "SUPPL",
+            "1"
+          ],
+          [
+            "125057",
+            "SUPPL",
+            "28"
+          ]
+        ],
+        "missing_reference_rows": 152,
+        "source_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "source_rows": 80715,
+        "source_table": "ApplicationDocs.txt",
+        "target_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "target_table": "Submissions.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 51619,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "040850"
+          ],
+          [
+            "040853"
+          ],
+          [
+            "071403"
+          ],
+          [
+            "077089"
+          ],
+          [
+            "200171"
+          ],
+          [
+            "204086"
+          ],
+          [
+            "204086"
+          ],
+          [
+            "205476"
+          ],
+          [
+            "205476"
+          ],
+          [
+            "205581"
+          ]
+        ],
+        "missing_reference_rows": 11,
+        "source_columns": [
+          "ApplNo"
+        ],
+        "source_rows": 51619,
+        "source_table": "Products.txt",
+        "target_columns": [
+          "ApplNo"
+        ],
+        "target_table": "Applications.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 52218,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "021584",
+            "001"
+          ],
+          [
+            "021841",
+            "001"
+          ],
+          [
+            "021972",
+            "001"
+          ],
+          [
+            "021972",
+            "002"
+          ],
+          [
+            "078940",
+            "001"
+          ],
+          [
+            "090738",
+            "001"
+          ],
+          [
+            "090738",
+            "002"
+          ],
+          [
+            "090831",
+            "001"
+          ],
+          [
+            "091003",
+            "001"
+          ],
+          [
+            "201999",
+            "001"
+          ]
+        ],
+        "missing_reference_rows": 599,
+        "source_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "source_rows": 52218,
+        "source_table": "MarketingStatus.txt",
+        "target_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "target_table": "Products.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 52218,
+        "join_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [],
+        "missing_reference_rows": 0,
+        "source_columns": [
+          "MarketingStatusID"
+        ],
+        "source_rows": 52218,
+        "source_table": "MarketingStatus.txt",
+        "target_columns": [
+          "MarketingStatusID"
+        ],
+        "target_table": "MarketingStatus_Lookup.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 193242,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "000415"
+          ],
+          [
+            "000654"
+          ],
+          [
+            "000740"
+          ],
+          [
+            "000763"
+          ],
+          [
+            "000767"
+          ],
+          [
+            "001205"
+          ],
+          [
+            "001205"
+          ],
+          [
+            "001205"
+          ],
+          [
+            "001374"
+          ],
+          [
+            "001384"
+          ]
+        ],
+        "missing_reference_rows": 5380,
+        "source_columns": [
+          "ApplNo"
+        ],
+        "source_rows": 193242,
+        "source_table": "Submissions.txt",
+        "target_columns": [
+          "ApplNo"
+        ],
+        "target_table": "Applications.txt"
+      },
+      {
+        "blank_reference_rows": 11887,
+        "checked_nonblank_reference_rows": 181355,
+        "join_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [],
+        "missing_reference_rows": 0,
+        "source_columns": [
+          "SubmissionClassCodeID"
+        ],
+        "source_rows": 193242,
+        "source_table": "Submissions.txt",
+        "target_columns": [
+          "SubmissionClassCodeID"
+        ],
+        "target_table": "SubmissionClass_Lookup.txt"
+      },
+      {
+        "blank_reference_rows": 1,
+        "checked_nonblank_reference_rows": 208722,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "071450",
+            "SUPPL",
+            "5"
+          ],
+          [
+            "084999",
+            "SUPPL",
+            "29"
+          ],
+          [
+            "087499",
+            "SUPPL",
+            "13"
+          ],
+          [
+            "088726",
+            "SUPPL",
+            "16"
+          ],
+          [
+            "071134",
+            "SUPPL",
+            "7"
+          ],
+          [
+            "071766",
+            "SUPPL",
+            "2"
+          ],
+          [
+            "071019",
+            "SUPPL",
+            "19"
+          ],
+          [
+            "084315",
+            "SUPPL",
+            "106"
+          ],
+          [
+            "087184",
+            "SUPPL",
+            "33"
+          ],
+          [
+            "084591",
+            "SUPPL",
+            "75"
+          ]
+        ],
+        "missing_reference_rows": 493,
+        "source_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "source_rows": 208723,
+        "source_table": "Join_Submission_ActionTypes_Lookup.txt",
+        "target_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "target_table": "Submissions.txt"
+      },
+      {
+        "blank_reference_rows": 296,
+        "checked_nonblank_reference_rows": 208427,
+        "join_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [],
+        "missing_reference_rows": 0,
+        "source_columns": [
+          "ActionTypes_LookupID"
+        ],
+        "source_rows": 208723,
+        "source_table": "Join_Submission_ActionTypes_Lookup.txt",
+        "target_columns": [
+          "ActionTypes_LookupID"
+        ],
+        "target_table": "ActionTypes_Lookup.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 317015,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "008604",
+            "SUPPL",
+            "24"
+          ],
+          [
+            "011601",
+            "SUPPL",
+            "21"
+          ],
+          [
+            "011971",
+            "SUPPL",
+            "26"
+          ],
+          [
+            "012122",
+            "SUPPL",
+            "22"
+          ],
+          [
+            "018031",
+            "SUPPL",
+            "21"
+          ],
+          [
+            "018415",
+            "SUPPL",
+            "16"
+          ],
+          [
+            "018487",
+            "SUPPL",
+            "17"
+          ],
+          [
+            "018823",
+            "SUPPL",
+            "12"
+          ],
+          [
+            "022165",
+            "SUPPL",
+            "0"
+          ],
+          [
+            "022453",
+            "SUPPL",
+            "5"
+          ]
+        ],
+        "missing_reference_rows": 256,
+        "source_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "source_rows": 317015,
+        "source_table": "SubmissionPropertyType.txt",
+        "target_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "target_table": "Submissions.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 26508,
+        "join_integrity": "source_orphans_retained",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [
+          [
+            "020702",
+            "005"
+          ],
+          [
+            "021146",
+            "005"
+          ],
+          [
+            "071570",
+            "001"
+          ],
+          [
+            "071610",
+            "001"
+          ],
+          [
+            "076452",
+            "001"
+          ],
+          [
+            "078273",
+            "001"
+          ],
+          [
+            "078273",
+            "002"
+          ],
+          [
+            "204399",
+            "001"
+          ],
+          [
+            "205645",
+            "002"
+          ],
+          [
+            "215049",
+            "002"
+          ]
+        ],
+        "missing_reference_rows": 12,
+        "source_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "source_rows": 26508,
+        "source_table": "TE.txt",
+        "target_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "target_table": "Products.txt"
+      },
+      {
+        "blank_reference_rows": 0,
+        "checked_nonblank_reference_rows": 26508,
+        "join_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "missing_reference_examples": [],
+        "missing_reference_rows": 0,
+        "source_columns": [
+          "MarketingStatusID"
+        ],
+        "source_rows": 26508,
+        "source_table": "TE.txt",
+        "target_columns": [
+          "MarketingStatusID"
+        ],
+        "target_table": "MarketingStatus_Lookup.txt"
+      }
+    ],
+    "official_contract_source": "frozen Drugs@FDA landing-page definitions as of 2025-01-10",
+    "parser_version": "platform_external_acquisition/1.0",
+    "primary_key_reports": [
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ActionTypes_LookupID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 59,
+        "table": "ActionTypes_Lookup.txt",
+        "unique_nonblank_keys": 59
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplicationDocsID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "source_anomalies_retained",
+        "malformed_width_rows_excluded": 1,
+        "source_rows": 80715,
+        "table": "ApplicationDocs.txt",
+        "unique_nonblank_keys": 80714
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplNo"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 29253,
+        "table": "Applications.txt",
+        "unique_nonblank_keys": 29253
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplicationDocsType_Lookup_ID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 62,
+        "table": "ApplicationsDocsType_Lookup.txt",
+        "unique_nonblank_keys": 62
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "j_submissionActionTypeID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 208723,
+        "table": "Join_Submission_ActionTypes_Lookup.txt",
+        "unique_nonblank_keys": 208723
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 52218,
+        "table": "MarketingStatus.txt",
+        "unique_nonblank_keys": 52218
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "MarketingStatusID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 5,
+        "table": "MarketingStatus_Lookup.txt",
+        "unique_nonblank_keys": 5
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplNo",
+          "ProductNo"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 51619,
+        "table": "Products.txt",
+        "unique_nonblank_keys": 51619
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "SubmissionClassCodeID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 28,
+        "table": "SubmissionClass_Lookup.txt",
+        "unique_nonblank_keys": 28
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo",
+          "SubmissionPropertyTypeCode",
+          "SubmissionPropertyTypeID"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 317015,
+        "table": "SubmissionPropertyType.txt",
+        "unique_nonblank_keys": 317015
+      },
+      {
+        "blank_key_rows": 0,
+        "declared_key_columns": [
+          "ApplNo",
+          "SubmissionType",
+          "SubmissionNo"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "passed",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 193242,
+        "table": "Submissions.txt",
+        "unique_nonblank_keys": 193242
+      },
+      {
+        "blank_key_rows": 16,
+        "declared_key_columns": [
+          "ApplNo",
+          "ProductNo",
+          "MarketingStatusID",
+          "TECode"
+        ],
+        "duplicate_key_rows": 0,
+        "key_integrity": "source_anomalies_retained",
+        "malformed_width_rows_excluded": 0,
+        "source_rows": 26508,
+        "table": "TE.txt",
+        "unique_nonblank_keys": 26492
+      }
+    ],
+    "relational_integrity_status": "source_anomalies_or_orphans_retained",
+    "total_blank_primary_key_rows": 16,
+    "total_malformed_width_rows_excluded_from_key_audit": 1,
+    "total_missing_foreign_key_rows_across_relations": 6906,
+    "total_primary_duplicate_rows": 0
+  },
+  "release_date": "2026-08-04",
+  "release_id": "datdaf20260804",
+  "schema_version": "platform-external-acquisition/1.0",
+  "semantic_and_rights_boundaries": {
+    "citation": "Drugs@FDA data files page, update date, application/product IDs, retrieval date.",
+    "default_label_admission": "never_a_molecular_activity_efficacy_safety_or_PK_label; approval and marketing status are product-, formulation-, indication-, time-, and jurisdiction-specific",
+    "evidence_admission": "Regulatory application/product/action evidence only after relational and molecule/product/formulation mapping QC.",
+    "license_boundary": "Preserve FDA source, site policy, disclaimer, and product context.",
+    "license_review_state": "US_federal_public_data_site_policy_and_institutional_review_required"
+  },
+  "snapshot_status": "acquired_parse_and_relational_audited_with_source_anomalies",
+  "source_data_last_updated": "2026-08-04",
+  "source_id": "drugs_at_fda_bulk"
+}

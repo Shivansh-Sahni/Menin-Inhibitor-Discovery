@@ -1,0 +1,202 @@
+{
+  "build_id": "build-6237a81ba03d0ccb",
+  "created_at": "2026-07-14T20:16:39Z",
+  "dataset_sha256": "03f5e65fbdaaf774feb8f94c1ee2e2e18271ce3b62b4fb3938e9a0ad2fc071b2",
+  "file_count": 4,
+  "files": [
+    {
+      "column_count": 15,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "herg_classifier_manifest.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "artifact",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "calibration",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "cross_validation",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "dataset_columns_hashed",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "dataset_columns_requested",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "dataset_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "environment",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "estimator_class",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "features",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "reproduction_requirements",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "schema_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_metric",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "task",
+          "nullable": false
+        }
+      ],
+      "sha256": "9c38af01bdc92e3534e30139418e3c8d26cafa5cd63f9348536a00f9e85e24b8",
+      "size_bytes": 7207
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "herg_liability_extra_trees_calibrated.skops",
+      "sha256": "4d42f8423be2b6f8ed1abdfe2c6ab52a591db4b603991205181195ce19911d8b",
+      "size_bytes": 4156105
+    },
+    {
+      "media_type": "application/octet-stream",
+      "path": "menin_activity_ic50_biochemical_binding_extra_trees.skops",
+      "sha256": "9479d425386b81f167be6e1a3f84693596c657437d7722b02ab2f64b11a7d73b",
+      "size_bytes": 2566023
+    },
+    {
+      "column_count": 14,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "menin_activity_ic50_biochemical_binding_manifest.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "artifact",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "cross_validation",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "dataset_columns_hashed",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "dataset_columns_requested",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "dataset_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "environment",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "estimator_class",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "features",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "array",
+          "name": "reproduction_requirements",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "schema_version",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_metric",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "task",
+          "nullable": false
+        }
+      ],
+      "sha256": "a77c51e4660f473db88ee4614aa5f9442035388165e19faf2d79877de4e02b97",
+      "size_bytes": 7268
+    }
+  ],
+  "manifest_sha256": "b89dcf57c1eed8b8a7a75658617312b85badffa7bf1f080325df84317b89c2a7",
+  "manifest_version": "1.0",
+  "root": ".",
+  "stage": "models",
+  "total_size_bytes": 6736603,
+  "upstream": [
+    {
+      "dataset_sha256": "e5cef5a4559c4e3a8ab675996f461983f5d7abe48617670beb36dd9f79291efd",
+      "stage": "software"
+    },
+    {
+      "dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+      "stage": "processed"
+    }
+  ]
+}

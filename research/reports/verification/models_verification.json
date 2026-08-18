@@ -1,0 +1,25 @@
+{
+  "checked_files": 28,
+  "expected_files": 28,
+  "issue_count": 2,
+  "issues": [
+    {
+      "actual": "447404f79a2d9fa17a1aa485be0fce7fc4cabb3181e2418e3acfc73e75811110",
+      "code": "manifest_scope_changed",
+      "expected": "c2b964d69539bc0745a6a364cb7b1546f3bb5def9d80cc9e949fcb0b74fcc427",
+      "message": "The current release model bundle differs from its manifest.",
+      "path": null
+    },
+    {
+      "actual": null,
+      "code": "model_lineage_invalid",
+      "expected": null,
+      "message": "Unsupported or stale release-model files: ['pk_herg/herg/conventional_exact_pic50_metrics.csv', 'pk_herg/herg/conventional_exact_pic50_predictions.parquet', 'pk_herg/herg/dmpnn_predictions.parquet', 'pk_herg/herg/herg_model_ladder_summary.csv', 'pk_herg/herg/herg_process_observables.csv', 'pk_herg/herg/joint_pic50_inhibition_predictions.parquet', 'pk_herg/herg/markov_states_architecture.csv', 'pk_herg/herg/markov_transitions_architecture.csv', 'pk_herg/herg/optimizer_predictions_long.csv', 'pk_herg/herg/optimizer_predictions_long.parquet', 'pk_herg/herg/public_sun_reproduction/classification_source_holdout_metrics.csv', 'pk_herg/herg/public_sun_reproduction/classification_source_holdout_predictions.parquet', 'pk_herg/herg/public_sun_reproduction/regression_source_holdout_metrics.csv', 'pk_herg/herg/public_sun_reproduction/regression_source_holdout_predictions.parquet', 'pk_herg/herg/public_sun_reproduction/reproduction_limitations.md', 'pk_herg/herg/receptor_ensemble.csv', 'pk_herg/herg/structure_2d_censored_predictions.parquet', 'pk_herg/pk/iv_auc_dose_normalized/final_fit_predictions.parquet', 'pk_herg/pk/iv_auc_dose_normalized/hierarchical_metrics.csv', 'pk_herg/pk/iv_auc_dose_normalized/hierarchical_scaffold_bootstrap.parquet', 'pk_herg/pk/iv_auc_dose_normalized/hierarchical_variance_components.csv', 'pk_herg/pk/iv_auc_dose_normalized/hierarchical_vs_conventional_compound_balanced.csv', 'pk_herg/pk/iv_auc_dose_normalized/structure_2d_hierarchical_predictions.parquet', 'pk_herg/pk/iv_auc_dose_normalized/structure_2d_metrics.csv', 'pk_herg/pk/iv_auc_dose_normalized/structure_2d_predictions.parquet', 'pk_herg/pk/optimizer_predictions_long.csv', 'pk_herg/pk/optimizer_predictions_long.parquet', 'pk_herg/pk/pk_hierarchical_promotion_gates.csv', 'pk_herg/pk/pk_identifiability_contract.csv', 'pk_herg/pk/pk_model_ladder_summary.csv', 'pk_herg/pk/pk_physics_promotion_gates.csv', 'pk_herg/pk/po_auc_dose_normalized/final_fit_predictions.parquet', 'pk_herg/pk/po_auc_dose_normalized/hierarchical_metrics.csv', 'pk_herg/pk/po_auc_dose_normalized/hierarchical_scaffold_bootstrap.parquet', 'pk_herg/pk/po_auc_dose_normalized/hierarchical_variance_components.csv', 'pk_herg/pk/po_auc_dose_normalized/hierarchical_vs_conventional_compound_balanced.csv', 'pk_herg/pk/po_auc_dose_normalized/structure_2d_hierarchical_predictions.parquet', 'pk_herg/pk/po_auc_dose_normalized/structure_2d_metrics.csv', 'pk_herg/pk/po_auc_dose_normalized/structure_2d_predictions.parquet', 'pk_herg/pk/po_cmax_dose_normalized/final_fit_predictions.parquet', 'pk_herg/pk/po_cmax_dose_normalized/hierarchical_metrics.csv', 'pk_herg/pk/po_cmax_dose_normalized/hierarchical_scaffold_bootstrap.parquet', 'pk_herg/pk/po_cmax_dose_normalized/hierarchical_variance_components.csv', 'pk_herg/pk/po_cmax_dose_normalized/hierarchical_vs_conventional_compound_balanced.csv', 'pk_herg/pk/po_cmax_dose_normalized/structure_2d_hierarchical_predictions.parquet', 'pk_herg/pk/po_cmax_dose_normalized/structure_2d_metrics.csv', 'pk_herg/pk/po_cmax_dose_normalized/structure_2d_predictions.parquet', 'pk_herg/pk/po_tmax/final_fit_predictions.parquet', 'pk_herg/pk/po_tmax/hierarchical_metrics.csv', 'pk_herg/pk/po_tmax/hierarchical_scaffold_bootstrap.parquet', 'pk_herg/pk/po_tmax/hierarchical_variance_components.csv', 'pk_herg/pk/po_tmax/hierarchical_vs_conventional_compound_balanced.csv', 'pk_herg/pk/po_tmax/structure_2d_hierarchical_predictions.parquet', 'pk_herg/pk/po_tmax/structure_2d_metrics.csv', 'pk_herg/pk/po_tmax/structure_2d_predictions.parquet', 'pk_herg/pk/vdss/final_fit_predictions.parquet', 'pk_herg/pk/vdss/hierarchical_metrics.csv', 'pk_herg/pk/vdss/hierarchical_scaffold_bootstrap.parquet', 'pk_herg/pk/vdss/hierarchical_variance_components.csv', 'pk_herg/pk/vdss/hierarchical_vs_conventional_compound_balanced.csv', 'pk_herg/pk/vdss/structure_2d_hierarchical_predictions.parquet', 'pk_herg/pk/vdss/structure_2d_metrics.csv', 'pk_herg/pk/vdss/structure_2d_predictions.parquet']",
+      "path": null
+    }
+  ],
+  "manifest_verification_version": "1.0",
+  "stage": "models",
+  "valid": false,
+  "verified_at": "2026-08-04T15:31:17Z"
+}

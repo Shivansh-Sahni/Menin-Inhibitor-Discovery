@@ -1,0 +1,30 @@
+{
+  "spec_version":"1.1.0",
+  "as_of":"2026-08-09",
+  "execution_status":"specified_not_run",
+  "valid_training_fixture":{"allowed_molecule_count":{"minimum":10,"default":32,"maximum":100},"selection":"deterministic hash-ranked valid structures sampled from training partition only","required_strata":["valid_neutral","ionizable_acid","ionizable_base","zwitterion","stereochemistry_present","stereochemistry_unknown","multi_fragment_before_parent_standardization","large_flexible","aromatic_cationic"]},
+  "negative_control_fixture":{"separate_from_valid_count":true,"membership":"deterministic quarantined records or explicitly synthetic structures only","never_training_or_evaluation_data":true,"controls":["invalid_smiles","unsupported_atom_or_valence","unresolvable_mixture","forced_timeout_stub_if_supported"],"expected_result":"explicit_non_ok_status_without_published_zero_vector"},
+  "label_blinding":"feature generation receives identity and structure only; labels and test membership unavailable",
+  "runs":2,
+  "cheap_families_required":["morgan_r2_2048","maccs_167","rdkit_2d","molecular_graph","smiles_tokens"],
+  "conditional_families":["pretrained_molecule_embedding_if_pinned","one_conformer_family_if_pinned","docking_for_10_or_fewer_only_if_all_versions_and_license_pinned"],
+  "prohibited":["full_dataset_generation","hyperparameter_search","test_set_scoring","unbounded_conformer_generation","production_docking","feature_selection_using_labels"],
+  "assertions":[
+    "valid_structure_ids_equal_ok_outputs_plus_explicit_failures",
+    "negative_controls_are_disjoint_from_valid_training_fixture",
+    "no_duplicate_composite_feature_row_keys",
+    "every_row_has_provenance_and_status",
+    "dtype_shape_units_match_contract",
+    "integer_feature_checksums_equal_between_runs",
+    "floating_outputs_equal_within_preregistered_tolerance",
+    "no_nan_or_inf_when_status_ok",
+    "failures_are_not_zero_vectors",
+    "aggregation_counts_match_attempted_and_valid_members",
+    "no_label_or_outcome_columns_in_feature_artifacts",
+    "split_manifest_checksum_matches",
+    "resume_from_checkpoint_matches_uninterrupted_output",
+    "temporary_files_do_not_publish_as_complete"
+  ],
+  "pass_policy":"all_required_assertions_pass; any waiver creates a new contract version",
+  "expected_resources":"estimate: 4 CPU, 16 GB RAM, less than 5 GB storage, 10-60 minutes per family; optional one GPU for model-load validation only"
+}

@@ -1,0 +1,81 @@
+{
+  "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+  "bounded_memory": {
+    "configured_batch_rows": 50000,
+    "maximum_observed_batch_rows": 50000,
+    "maximum_observed_input_pandas_deep_bytes": 69833868,
+    "record_id_uniqueness_state": "temporary_sqlite_on_disk"
+  },
+  "canonical_task_dataset_sha256": "eb63ab97177231f254dd6b8677cf00cf07e05cfe88edfb128a2dc462495dfdda",
+  "claim_readiness": "not_claim_ready_until_separate_cross_partition_near_duplicate_audit_is_complete_and_accepted",
+  "config": {
+    "allow_derived_labels": false,
+    "chemical_cluster_bits": 1024,
+    "chemical_cluster_count": null,
+    "date_column": "document_year",
+    "derived_label_lineage_column": "label_lineage_digest",
+    "intended_use": "unseen molecule identity within the accepted task domain",
+    "label_column": "label_value",
+    "molecule_id_column": "molecule_id",
+    "name": "molecule_grouped_fixed_v1",
+    "near_duplicate_max_dense_bytes": 536870912,
+    "near_duplicate_max_pair_comparisons": 20000000,
+    "near_duplicate_max_protein_pair_comparisons": 5000000,
+    "near_duplicate_sequence_jaccard": 0.8,
+    "near_duplicate_tanimoto": 0.8,
+    "protein_id_column": "protein_id",
+    "record_id_column": "record_id",
+    "seed": 20260804,
+    "sequence_kmer_size": 3,
+    "smiles_column": "standardized_smiles",
+    "source_id_column": "source_id",
+    "strategy": "molecule_grouped",
+    "target_id_column": "canonical_target_id",
+    "task_type": "regression",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "config_sha256": "c3e9bf8f3c5ffc099555cf2a79f73e3415e95d95c7473fd45d4f3deeb947eb9a",
+  "dataset_key": "default::default__other__ic50__other_bioactivity__nm__continuous_censored",
+  "exact_group_exclusion": "guaranteed_by_deterministic_group_to_partition_function",
+  "feature_projection_path": "tasks/default-default-other-ic50-other-bioactivity-nm-continuous-censored-beec6eba0e70/features.parquet",
+  "feature_projection_sha256": "1813c41219c146c73cf0720ca7b9d29c79377c37b60d3e14680cd66a628a17c3",
+  "fraction_policy": "approximate_under_stable_group_hash_not_greedy_or_stratified",
+  "group_method_row_counts": {
+    "stable_sha256_group_hash": 57001
+  },
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "manifest_path": "split.parquet",
+  "manifest_sha256": "6716f27c9a52b2f88eb5492e08ab738e1c2bf71e29336d8bee0914d3ad3b79ce",
+  "near_duplicate_audit": "separate_required_not_implied_by_group_hash",
+  "observation_kind_counts": {
+    "curated_assertion": 57001
+  },
+  "partition_counts": {
+    "test": 8609,
+    "train": 39756,
+    "validation": 8636
+  },
+  "record_count": 57001,
+  "record_id_uniqueness": "complete_disk_backed_primary_key_audit",
+  "routing_input_policy": "transient feature-derived compatibility projection; canonical labels never requested, read, copied, partitioned, summarized, or published",
+  "row_order_binding": "manifest source_row_index exactly matches source Parquet row order across the deterministically sorted source part contract",
+  "schema_version": "stream_hash_group_split_v1",
+  "source_dataset_sha256": "851ab001c0d3d86b74e65248c3793ddf89c9725f913ad26f5186eb18f7d5c65e",
+  "split_name": "molecule_grouped_fixed_v1",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "suite_schema_version": "platform_split_suite_v1",
+  "task_signature": {
+    "assay_family": "feature_only_routing",
+    "endpoint": "default__other__ic50__other_bioactivity__nm__continuous_censored",
+    "evidence_domain": "feature_only_routing",
+    "label_kind": "feature_only_placeholder_not_a_label",
+    "label_unit": "feature_only_not_a_label",
+    "task_id": "feature-routing-beec6eba0e70f480",
+    "task_type": "default__other__ic50__other_bioactivity__nm__continuous_censored"
+  },
+  "test_labels_disclosed": false
+}

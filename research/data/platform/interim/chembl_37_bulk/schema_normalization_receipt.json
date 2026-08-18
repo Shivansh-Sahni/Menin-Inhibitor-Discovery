@@ -1,0 +1,3086 @@
+{
+  "aggregate": {
+    "all_value_preservation_checks_passed": true,
+    "new_size_bytes": 898981029,
+    "old_size_bytes": 901842144,
+    "parquet_files": 162,
+    "rows_across_overlapping_exports": 31402047
+  },
+  "arrow_schema_contracts": {
+    "activity": {
+      "fields": [
+        {
+          "name": "activity_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "action_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "activity_comment",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "bao_endpoint",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "data_validity_comment",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "potential_duplicate",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "qudt_units",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "record_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "relation",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "src_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "standard_flag",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "standard_relation",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "standard_text_value",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "standard_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "standard_units",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "standard_upper_value",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "standard_value",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "text_value",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "toid",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "units",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "uo_units",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "upper_value",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "value",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "modality",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_description",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_test_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_category",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_organism",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_tax_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "assay_strain",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_tissue",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_cell_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "assay_subcellular_fraction",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "relationship_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "src_assay_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "cell_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "tissue_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "variant_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "assay_group",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "bao_format",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "confidence_score",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "target_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_pref_name",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_organism",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_tax_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "molecule_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "molecule_pref_name",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "canonical_smiles",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "standard_inchi_key",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_journal",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_year",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "document_doi",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "pubmed_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "patent_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_title",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "document_chembl_release_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "activity_source_name",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "activity_source_description",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_accessions",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_sequences",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_types",
+          "nullable": true,
+          "type": "large_string"
+        }
+      ],
+      "format": "apache-arrow-field-contract-v1",
+      "schema_metadata": null,
+      "sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0"
+    },
+    "molecule_development_annotations": {
+      "fields": [
+        {
+          "name": "molecule_row_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "molecule_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "molecule_pref_name",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "molecule_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "max_phase",
+          "nullable": true,
+          "type": "double"
+        },
+        {
+          "name": "first_approval",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "withdrawn_flag",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "black_box_warning",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "therapeutic_flag",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "annotation_role",
+          "nullable": true,
+          "type": "large_string"
+        }
+      ],
+      "format": "apache-arrow-field-contract-v1",
+      "schema_metadata": null,
+      "sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e"
+    },
+    "target_components": {
+      "fields": [
+        {
+          "name": "target_chembl_id",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_name",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_organism",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "target_tax_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "component_id",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "homologue",
+          "nullable": true,
+          "type": "int64"
+        },
+        {
+          "name": "accession",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_type",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "sequence",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "sequence_md5sum",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_organism",
+          "nullable": true,
+          "type": "large_string"
+        },
+        {
+          "name": "component_tax_id",
+          "nullable": true,
+          "type": "int64"
+        }
+      ],
+      "format": "apache-arrow-field-contract-v1",
+      "schema_metadata": null,
+      "sha256": "8bc92710e2b980c6e02e5a4dab89be99ec12c722485f7c9e5d1b5cb3d35a2fd0"
+    }
+  },
+  "files": [
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "5c1cce52f790ffedf9a40597e4e1aa40f7a21f48b7e25f5700d399c60de8da23",
+      "new_size_bytes": 9073908,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "7cb2734af51a4390bb5fff4c10c643c107654a9e3c85aaee3cf2892d5e880f4d",
+      "old_size_bytes": 9093094,
+      "path": "activity_facts/activities_000031863_000232323.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5232115,
+        "old_coerced_null_cells": 5232115
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "22e783d29817abe94d127e00cab9d9587558d33f1e4160559a847df59604e60b",
+      "new_size_bytes": 8974192,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "523560f4875a0f5b1d6f048ee5d638e160dc2a906ddabe317029d68fd07dcd7b",
+      "old_size_bytes": 8995021,
+      "path": "activity_facts/activities_000232324_000432426.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5213284,
+        "old_coerced_null_cells": 5213284
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b43a9eff2b9ea4efe31647ecfe593db893cebbc0182b17463e70d0a394666c53",
+      "new_size_bytes": 8976694,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "ef3ddffd7c04841f776d7c9764e40b7ea7ef9d201228424c83feddb68d56b566",
+      "old_size_bytes": 8996608,
+      "path": "activity_facts/activities_000432427_000632609.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5227938,
+        "old_coerced_null_cells": 5227938
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "361bb02a0e8351c4ddacd9b85045e8c9c93ba2f633db08872dff9b728cee42b3",
+      "new_size_bytes": 8824018,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "46296531c906552539222884cfd0b2449b3b4ac1d21f1490945fe4f6c52ee706",
+      "old_size_bytes": 8842761,
+      "path": "activity_facts/activities_000632610_000832704.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5227426,
+        "old_coerced_null_cells": 5227426
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "7b67932daa7947c3971be85a76945bd0a3c36633e16a6d8e2b4525c77eb9ebf9",
+      "new_size_bytes": 9129589,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "5f8697ae8ea9e95521fee8053c9f508856a21dac0e202ee16444d6e9c3ae0be7",
+      "old_size_bytes": 9150691,
+      "path": "activity_facts/activities_000832705_001032885.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5208817,
+        "old_coerced_null_cells": 5208817
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "bf6b3c37aa52e53f811884c0624c2bd2a89a13860d0923d16161a31cd0a0e03e",
+      "new_size_bytes": 9090064,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "f6437437d7bca1c35f77ba08ec46c285b72c4e1362b365b24e56f3aad16fb4e4",
+      "old_size_bytes": 9109780,
+      "path": "activity_facts/activities_001032886_001233404.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5218918,
+        "old_coerced_null_cells": 5218918
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "393f535c44ec7a49751a299ee065e76da2f33f02be760511a96499e4451f540b",
+      "new_size_bytes": 7407853,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "03f0d28f974f73b17788eeddd9ab93e91c888527ad2a82b7117f2721786089bb",
+      "old_size_bytes": 7426316,
+      "path": "activity_facts/activities_001233405_001601062.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5128586,
+        "old_coerced_null_cells": 5128586
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "04e1350c8056ada26123442ef2939b667bb7de5d6bf311f4dc62ef3899757728",
+      "new_size_bytes": 5674985,
+      "old_arrow_schema_sha256": "528ff68202620f2a178c0be75aa0632dc49e9e1be6ae1fc95bb699ec7a807769",
+      "old_sha256": "5632301e344444415a29f2a7ec5bd8d82e4525140d258091e9865f8b2d1cd33b",
+      "old_size_bytes": 5693252,
+      "path": "activity_facts/activities_001601063_001838469.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5033451,
+        "old_coerced_null_cells": 5033451
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "aefacaad8136ca8646714be08b8cedadb7b4363cd29f6657dd587f3786eb96c1",
+      "new_size_bytes": 5198063,
+      "old_arrow_schema_sha256": "528ff68202620f2a178c0be75aa0632dc49e9e1be6ae1fc95bb699ec7a807769",
+      "old_sha256": "39b78ae9f03fbe7507839fdf06bb14b6b33a6c248fa97db96ccd500cad5ba847",
+      "old_size_bytes": 5216146,
+      "path": "activity_facts/activities_001838470_002038472.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5029741,
+        "old_coerced_null_cells": 5029741
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1446a3caebe97eea9187908ac56dea2aeb796dde4d4cf366e2bccf1ccdf1db20",
+      "new_size_bytes": 5446292,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "926555508f0470f5d990834d4a7c90bb11334e7ccc922169aaf2161c7d8c69f1",
+      "old_size_bytes": 5466300,
+      "path": "activity_facts/activities_002038473_002238475.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5095997,
+        "old_coerced_null_cells": 5095997
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "98d6f3ff57eb033e632c18afe93be75efceefb7625788880a1981ad1380829cb",
+      "new_size_bytes": 5540695,
+      "old_arrow_schema_sha256": "38410998a69f8993ec796ede303c56ac23ad228a726ee10b6f66e6239fce31ee",
+      "old_sha256": "1c3f9aad7b83c2ce4d1e556f5be91d815c93c1fa93612d20c98564799dfa224e",
+      "old_size_bytes": 5557831,
+      "path": "activity_facts/activities_002238476_002438566.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5076447,
+        "old_coerced_null_cells": 5076447
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f172ee4577ca71f44f55511ebf6320edd70398f2d371e823d9be1ab1b01c72fb",
+      "new_size_bytes": 5464763,
+      "old_arrow_schema_sha256": "8054d20f83d4c1ea68366e9d7048e311763a66a623228e95bf350d3cd1b2ff26",
+      "old_sha256": "c06af0c5029549f948c363c678643009faf67e704d18b3ee0e8154580ed486d5",
+      "old_size_bytes": 5482595,
+      "path": "activity_facts/activities_002438567_002638569.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5138481,
+        "old_coerced_null_cells": 5138481
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "916b289ae2ee3f24f006b8096bb498181c8f0fbee8204dbf6d592f19f2085c26",
+      "new_size_bytes": 6151799,
+      "old_arrow_schema_sha256": "528ff68202620f2a178c0be75aa0632dc49e9e1be6ae1fc95bb699ec7a807769",
+      "old_sha256": "e4046c6f22029d8f776fd79ce7b4abbef5fbf71313988ebf4714cbb26c4d9dca",
+      "old_size_bytes": 6170961,
+      "path": "activity_facts/activities_002638570_002919811.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4995273,
+        "old_coerced_null_cells": 4995273
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1ffa53fdfa560faa0779a7fb0d6d2e926907137f58c01065b228788753c1ba5e",
+      "new_size_bytes": 5114597,
+      "old_arrow_schema_sha256": "528ff68202620f2a178c0be75aa0632dc49e9e1be6ae1fc95bb699ec7a807769",
+      "old_sha256": "a982b1cd493249b29ce4e87a8a25761f270e0de0a3bcef9a4cd2f0b78fade6f8",
+      "old_size_bytes": 5131728,
+      "path": "activity_facts/activities_002919812_003198668.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5087560,
+        "old_coerced_null_cells": 5087560
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "145ed951de62fd1efe3b97a65c0b5e0bbf0083f60c13982c4ed87ca51d407634",
+      "new_size_bytes": 4941661,
+      "old_arrow_schema_sha256": "528ff68202620f2a178c0be75aa0632dc49e9e1be6ae1fc95bb699ec7a807769",
+      "old_sha256": "e9a6505f7533419be21d83923fe95d13bd0935c20a8d201fa23e35d51a459b16",
+      "old_size_bytes": 4960271,
+      "path": "activity_facts/activities_003198669_003404782.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5097066,
+        "old_coerced_null_cells": 5097066
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "4ead187d751dd2d14a5257e2bb42638462b9bd68eca39981c65cbfc7308f035f",
+      "new_size_bytes": 5182982,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "a5f32753b1ec0d871b84d0183d0071f7577c2737c58e9fa42dab8fdf64b7fed3",
+      "old_size_bytes": 5201419,
+      "path": "activity_facts/activities_003404783_003622900.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5067070,
+        "old_coerced_null_cells": 5067070
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6c387bd49212c341a48e3a703e14c50736318e6a3993fa8417b1c18af0034a2a",
+      "new_size_bytes": 7641506,
+      "old_arrow_schema_sha256": "5f20528a34ef26de5ffedd27c80c19b1b1bf2c73e12da55b04816b9bb4951aef",
+      "old_sha256": "ba720653e52558a9818a0a31f90edcb41b1ea9b77d3acba3eb12df96a89ae6dd",
+      "old_size_bytes": 7659155,
+      "path": "activity_facts/activities_003622901_003837628.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5244618,
+        "old_coerced_null_cells": 5244618
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c6a75f0695ba6a5a433cf943b1e64a4642f73b1f8b978f3caa61be4af79aba6c",
+      "new_size_bytes": 7584190,
+      "old_arrow_schema_sha256": "e483fb119fc063d7c8e8e22eccf95de23331ca8f8cc3abab6c5a1f482282fa48",
+      "old_sha256": "8188060ac1e372048f6ab199e0b3921d883cfaaafd3287ddfc241f6f285ea15e",
+      "old_size_bytes": 7600674,
+      "path": "activity_facts/activities_003837629_004046770.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5267258,
+        "old_coerced_null_cells": 5267258
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1a303c834f03575160a8a744d72546dad47a24996e19c91061c1c78e71d95193",
+      "new_size_bytes": 7608496,
+      "old_arrow_schema_sha256": "6d3621af8c0e92badfb935a73666704cdd086e08ee997452930ddf13a5626660",
+      "old_sha256": "2431d010f73bb7d27a8b41d5372a4ece21025dbcea830d1319cc2a969a5128c1",
+      "old_size_bytes": 7626077,
+      "path": "activity_facts/activities_004046771_004247107.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5305856,
+        "old_coerced_null_cells": 5305856
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9d82f4a3fda7f45928ced203f75afd838027b1bbe2e6f49ad4b4b1a5c3c0b9e1",
+      "new_size_bytes": 7773797,
+      "old_arrow_schema_sha256": "6d3621af8c0e92badfb935a73666704cdd086e08ee997452930ddf13a5626660",
+      "old_sha256": "ab06ff2caacc2fecd3aaf1cdde131188e5c54a45eeff80322bf788ad74942a4e",
+      "old_size_bytes": 7791388,
+      "path": "activity_facts/activities_004247108_004488957.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5320850,
+        "old_coerced_null_cells": 5320850
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "387440bb2732c1cf20bb9bf199419c69d0fc5fe3520a191d426b776e2cd1a76b",
+      "new_size_bytes": 7659363,
+      "old_arrow_schema_sha256": "5f20528a34ef26de5ffedd27c80c19b1b1bf2c73e12da55b04816b9bb4951aef",
+      "old_sha256": "ded40c1e4cf28a331e084d082bd34deda9c0d14d38d7148b5e5f4197e7103aec",
+      "old_size_bytes": 7677006,
+      "path": "activity_facts/activities_004488958_004696086.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5247317,
+        "old_coerced_null_cells": 5247317
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0f1ad35d159c7d14410852c14b3bf94c629d7b7b17eeb8e4f04792c04e2ee00e",
+      "new_size_bytes": 7622589,
+      "old_arrow_schema_sha256": "5f20528a34ef26de5ffedd27c80c19b1b1bf2c73e12da55b04816b9bb4951aef",
+      "old_sha256": "62a1ccbe99202919a86f9c7f33f4691e2f69813ce6ae8e502fc7b1a24142174b",
+      "old_size_bytes": 7640233,
+      "path": "activity_facts/activities_004696087_004914843.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5202327,
+        "old_coerced_null_cells": 5202327
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "599160a7f8cb4a923c776237ef754f81504884f83060f0534372239f6db4972f",
+      "new_size_bytes": 7180540,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "ff87be1394436b56c47fc2792b58273bb9b407ffc42d08d1a8787f790b01ca67",
+      "old_size_bytes": 7198980,
+      "path": "activity_facts/activities_004914844_005126654.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5201648,
+        "old_coerced_null_cells": 5201648
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "cf70212b3ecc3e5c546103cf0d84670078496c6634a623f337c63e353f323c17",
+      "new_size_bytes": 5296665,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "5541c899ad65221e0b7c65b65fc713f40645e347f3b30da4b2ef181f92ceccb2",
+      "old_size_bytes": 5315366,
+      "path": "activity_facts/activities_005126655_005368244.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5170533,
+        "old_coerced_null_cells": 5170533
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1e716f6ce4c8a905af9d02c9b8077be12d872371b4fc246a79da1e623eb65e92",
+      "new_size_bytes": 7750042,
+      "old_arrow_schema_sha256": "6d3621af8c0e92badfb935a73666704cdd086e08ee997452930ddf13a5626660",
+      "old_sha256": "2a148b05f07cc35633f492365cf9e52f7b33a357de3fa7aa55212d595e2e1bda",
+      "old_size_bytes": 7767648,
+      "path": "activity_facts/activities_005368245_005571379.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5654475,
+        "old_coerced_null_cells": 5654475
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b8994a98f738a31fb238015fdcc239cf489cb53d81db2261cd8f14584a8ad245",
+      "new_size_bytes": 7695159,
+      "old_arrow_schema_sha256": "6d3621af8c0e92badfb935a73666704cdd086e08ee997452930ddf13a5626660",
+      "old_sha256": "b5983190aee0eec8616f16c06ab871721acf3d646a9c551586daf351574d38c6",
+      "old_size_bytes": 7712742,
+      "path": "activity_facts/activities_005571380_005771914.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5886342,
+        "old_coerced_null_cells": 5886342
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1a35a05ce2e8efa3dd2126ae828c23bd544c0943062eef16bb2cf3303db2aaf5",
+      "new_size_bytes": 7782113,
+      "old_arrow_schema_sha256": "6d3621af8c0e92badfb935a73666704cdd086e08ee997452930ddf13a5626660",
+      "old_sha256": "17a59611509abcf10b5a8664977ec904120c9bff1db997ce2e6960790a29ffca",
+      "old_size_bytes": 7799717,
+      "path": "activity_facts/activities_005771915_005975688.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5580845,
+        "old_coerced_null_cells": 5580845
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "345bbeb6b583fe893c1fc20e4894d9313b0246390080b6f794e86c1e30b9dc51",
+      "new_size_bytes": 5428236,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "db9f265571a383c1fe3115692f21a60876ae3f36b589c664121b3864831ec3e3",
+      "old_size_bytes": 5447402,
+      "path": "activity_facts/activities_005975689_006267602.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5554972,
+        "old_coerced_null_cells": 5554972
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "98e038682dcadfdf0f6ae1a1f64dcad6b774a178d71e92f72fb56b1e88336a54",
+      "new_size_bytes": 6203082,
+      "old_arrow_schema_sha256": "58e118f2fd410401e86969d35c7f2692d205f23abaa6aaba9b6d13247969f99a",
+      "old_sha256": "6dd29f2d32155f29289cb2868b1e730daebdbe25810188ad525161fa58bbae58",
+      "old_size_bytes": 6221843,
+      "path": "activity_facts/activities_006267603_006492657.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5226225,
+        "old_coerced_null_cells": 5226225
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f1ca2da2ada7537a40db8d50e7707e49af419c6415565fe5dc39bcbcdc8ecb7a",
+      "new_size_bytes": 7598594,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "3f34805871dc34b2e8c89d9a468091fde278100c464683c47dd248c7a99057a3",
+      "old_size_bytes": 7616128,
+      "path": "activity_facts/activities_006492658_006692657.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5721394,
+        "old_coerced_null_cells": 5721394
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "e8327a4ee64132f77ac2d66ce8ff74ff1804dfaa32312be1be65f7c3111bc95e",
+      "new_size_bytes": 7778994,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "6c314bfde731612f6120814ad5c7073888140e35e4ba23234495893f5f326547",
+      "old_size_bytes": 7796535,
+      "path": "activity_facts/activities_006692658_006906153.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5917631,
+        "old_coerced_null_cells": 5917631
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b1c766c1c08993edb7778a811f61d34afc98ab05fdfef47077f1ea654e8494f0",
+      "new_size_bytes": 7793600,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "da8d94e32846eb463b4aa0850773be41ae57d4eae511c04603801a7dfd7e8736",
+      "old_size_bytes": 7811147,
+      "path": "activity_facts/activities_006906154_007107972.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5700597,
+        "old_coerced_null_cells": 5700597
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "7a112be4e4e812100a0c287590260ea3f1c4a5baf847e349eb49a1511c5d00fc",
+      "new_size_bytes": 7800207,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "13daa85cced1f2b0bbbd689ca6a3366499217eb415c3d012ad9ad3b078cb7b26",
+      "old_size_bytes": 7817733,
+      "path": "activity_facts/activities_007107973_007343540.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5676998,
+        "old_coerced_null_cells": 5676998
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9d55d7d51290ae761ec89152c36887a0cf68242bb81647a18eb7d5caab31afe9",
+      "new_size_bytes": 7669188,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "c23fea0233f07dd4d2001de56e9f7335c7bddd1ce5543149906982aa680fcf3f",
+      "old_size_bytes": 7686717,
+      "path": "activity_facts/activities_007343541_007544835.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 6007579,
+        "old_coerced_null_cells": 6007579
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f44de22c173f3cd741fa2b7dea3e74aa3b0503eee1205c0a2324727e3a2cb44a",
+      "new_size_bytes": 1830970,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "fab0f7bf703d4dd161fb841b2a1aaf26821639db8f3b7a8a2ddec9600d2be1f9",
+      "old_size_bytes": 1849178,
+      "path": "activity_facts/activities_007544836_007745186.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5723430,
+        "old_coerced_null_cells": 5723430
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b62f018331a8c800c52bfdef6fac5694893baf8a42e630c162c45595bb2f4965",
+      "new_size_bytes": 3050373,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "6aaaf56fcbbff1c383074812e3c737714f5457db406294ba27577abc3311f478",
+      "old_size_bytes": 3068764,
+      "path": "activity_facts/activities_007745187_008009369.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5373066,
+        "old_coerced_null_cells": 5373066
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c4e1fc7802a752d97a166ee1fdc5057b565ad7a210773b36d0a92c6bef6da29a",
+      "new_size_bytes": 2478684,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "691d68211f86861bb35c77e3032552482cdd6d57bc6e415bab2e3da0520a572b",
+      "old_size_bytes": 2496907,
+      "path": "activity_facts/activities_008009370_008209369.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5294143,
+        "old_coerced_null_cells": 5294143
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c1cd2f26c3dd88282582f664e5969e60401161d2945208aa4b8ae90b2110afaa",
+      "new_size_bytes": 7089932,
+      "old_arrow_schema_sha256": "de5824f5d6e26c83ac6b7c5395b130a08da53ba7121cce865adf7baa1bdc5dc9",
+      "old_sha256": "547a61107c529255bf967987673bdeae68b00cdf1832f277a50b438049c0ccf6",
+      "old_size_bytes": 7108048,
+      "path": "activity_facts/activities_008209370_008409950.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5774660,
+        "old_coerced_null_cells": 5774660
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "53aa77ff0b9fa7bc9aac6408e2b93c283f73925e330427c8cff4ffc6a7025813",
+      "new_size_bytes": 7315130,
+      "old_arrow_schema_sha256": "91ed312458f6402c3361012a9f09e9fc55bf25fe3701b09abec8fbbf351906c8",
+      "old_sha256": "902d7d60c6f15a178a0dc9bcee025b3af517af84c17be0c29e38db798d959c6b",
+      "old_size_bytes": 7332658,
+      "path": "activity_facts/activities_008409951_008609953.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5807940,
+        "old_coerced_null_cells": 5807940
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "267101032053bb7c619f708d2656a4c32c2d19827d833e20f49452438e732f69",
+      "new_size_bytes": 6920920,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "ba6992b91c08683ae81d7bdf3b2267d27c94491bed2848b54d6fc4d5136ac924",
+      "old_size_bytes": 6938340,
+      "path": "activity_facts/activities_008609954_008809974.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5809301,
+        "old_coerced_null_cells": 5809301
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9ff4ebd6aca3ace8a85e01f82dc4823ac337183915bcf641eaf43d490802f909",
+      "new_size_bytes": 7263777,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "b9c4feff53fbd041b466b8950d89eb5b5189262a47ff662d19b772d8c1ad3606",
+      "old_size_bytes": 7281210,
+      "path": "activity_facts/activities_008809975_009009974.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5808227,
+        "old_coerced_null_cells": 5808227
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "945d8e57bb6b968aab228c44f9e8d8ed9a21a1c777e757873a3ae8d0ee2bcc35",
+      "new_size_bytes": 7360654,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "32bc6fc0f8d1692d63875049b082b91fd394dea9a98c855a1857077a32a94e20",
+      "old_size_bytes": 7378064,
+      "path": "activity_facts/activities_009009975_009209996.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5809845,
+        "old_coerced_null_cells": 5809845
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c6ab08fa855eb1bfc4e943687075b32608c97b25dcc7b32c82a195fff83d08a0",
+      "new_size_bytes": 6888293,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "2b746329589d7a3b4d366fbe6fe6083feb0c811eedca783d234e13b342b7a77a",
+      "old_size_bytes": 6905718,
+      "path": "activity_facts/activities_009209997_009409996.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5810475,
+        "old_coerced_null_cells": 5810475
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "e05e415ca03adf5ded7d31ceafde18bd07edfc359d70a2abd4812ce415d27e8b",
+      "new_size_bytes": 5670889,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "de85083679045cc26fb348d7f4a1f67f044048d47f4cc28b2dd7ffd8e6072b8d",
+      "old_size_bytes": 5688316,
+      "path": "activity_facts/activities_009409997_009609996.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5800078,
+        "old_coerced_null_cells": 5800078
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "48fda796e2f394d713102b2a211fd6fd58da2dcfb632f2ee48e05122354fd0f4",
+      "new_size_bytes": 6594984,
+      "old_arrow_schema_sha256": "91ed312458f6402c3361012a9f09e9fc55bf25fe3701b09abec8fbbf351906c8",
+      "old_sha256": "c37041b8bdd43edffb2839dd94b2c70568633457ab1f02e5df76b829a9cc8b47",
+      "old_size_bytes": 6612502,
+      "path": "activity_facts/activities_009609997_009815771.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5799958,
+        "old_coerced_null_cells": 5799958
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "eda6295aa3fd28ea5d47c62cb78b743fa584b0ac1a80710a588544f36586e387",
+      "new_size_bytes": 7528115,
+      "old_arrow_schema_sha256": "91ed312458f6402c3361012a9f09e9fc55bf25fe3701b09abec8fbbf351906c8",
+      "old_sha256": "a4f704c0d952da0e62eaf07b428285df380c782342b70d4e5965e20a22aca0b7",
+      "old_size_bytes": 7545643,
+      "path": "activity_facts/activities_009815772_010018620.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5809227,
+        "old_coerced_null_cells": 5809227
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6ab0a8179faff3c27de0b699cdf7fefa20688ccef64670b7c8bbd3d11d5b7187",
+      "new_size_bytes": 7321108,
+      "old_arrow_schema_sha256": "91ed312458f6402c3361012a9f09e9fc55bf25fe3701b09abec8fbbf351906c8",
+      "old_sha256": "f586b349a8d700feb92123eb810b56ad94240a8e7ea217fd2ead418da7833c1a",
+      "old_size_bytes": 7338634,
+      "path": "activity_facts/activities_010018621_010218620.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5808975,
+        "old_coerced_null_cells": 5808975
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "2366b29df23e53a53a724adf1bba1f14e9afdd77e0a7af625d9ee658ccb1ce9f",
+      "new_size_bytes": 7517044,
+      "old_arrow_schema_sha256": "91ed312458f6402c3361012a9f09e9fc55bf25fe3701b09abec8fbbf351906c8",
+      "old_sha256": "c5d1e13c58f6d1d12e103f22a471d1a020289f0321956912561f817244e8b0c0",
+      "old_size_bytes": 7534578,
+      "path": "activity_facts/activities_010218621_010418620.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5809498,
+        "old_coerced_null_cells": 5809498
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "427efd7fa8e77fe0fa06f3dbe646be2b3f2f153bea07b3b9e5a9f4f7aa32381f",
+      "new_size_bytes": 7553015,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "892262f21a6ad028bcf429a5fcb8edb39e6c59f448203127fcec64bfbf26ceab",
+      "old_size_bytes": 7570440,
+      "path": "activity_facts/activities_010418621_010618620.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5820415,
+        "old_coerced_null_cells": 5820415
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "33ce14d884332048a3a6ac4671d382cf4a6b4ed35b2e9aa27ff56a37d1ec0089",
+      "new_size_bytes": 7533949,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "c5508ed57380b6d4fc7d7c0e88b26aeb4406cf466ea2301b9776b8ee1246f757",
+      "old_size_bytes": 7551361,
+      "path": "activity_facts/activities_010618621_010818673.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5816260,
+        "old_coerced_null_cells": 5816260
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9c7593f7b8b0a7c02f7dc66690e5bd95e4fe82babc9c71d9945ab29a85cfb15b",
+      "new_size_bytes": 5485467,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "fcda365a1bee71131840114552007ddc508b55a4a54c810b0e594ab44f66968c",
+      "old_size_bytes": 5504536,
+      "path": "activity_facts/activities_010818674_011019031.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4947671,
+        "old_coerced_null_cells": 4947671
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0064669c783fb7bb45809f33e8948d238026c0b6ed969246ff57a90546841e15",
+      "new_size_bytes": 7711798,
+      "old_arrow_schema_sha256": "adcf8da83ab64de0b3b73af3c87fe994ac3f50a6aac50e937863f23b15d57cb1",
+      "old_sha256": "bbe27027d1b91ec7a2b8190ac032118208205352f7affdd97f30e1096508d468",
+      "old_size_bytes": 7729929,
+      "path": "activity_facts/activities_011019032_011478011.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5744524,
+        "old_coerced_null_cells": 5744524
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "006f29b0e23c1464f8721a546045abd6a827f551c551f4f98e65fe58c759927e",
+      "new_size_bytes": 7901321,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "44151dfa3bc161cbe53b4b0c4001d9e24c13ffd77765194c1e3740649daf35ec",
+      "old_size_bytes": 7918852,
+      "path": "activity_facts/activities_011478012_011678690.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5793938,
+        "old_coerced_null_cells": 5793938
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "ff93842415b17f47e19a14f329d1a0edfbaa7138c95900685c1fcbc25db4f6df",
+      "new_size_bytes": 7664586,
+      "old_arrow_schema_sha256": "93dee7348340b1a802ffb5db6fe7735b8ef9f3eec5ebe02e2883cc7b83f1161c",
+      "old_sha256": "f469979320e412bacf0c3dc15fbf9c0b6a3203f02d76e29f8d8e7ed3f6d32842",
+      "old_size_bytes": 7682163,
+      "path": "activity_facts/activities_011678691_011878690.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5611351,
+        "old_coerced_null_cells": 5611351
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "011ccae7ba8b73a282f1ca3e5b941e1bf22fd3db3e5e1f1e0a1f6efbe4c565f0",
+      "new_size_bytes": 7130784,
+      "old_arrow_schema_sha256": "58e118f2fd410401e86969d35c7f2692d205f23abaa6aaba9b6d13247969f99a",
+      "old_sha256": "ca5618186a7f968a367d8d8d2d6fa06e54574dacf0e4684fae68282ccb9dbaa9",
+      "old_size_bytes": 7149252,
+      "path": "activity_facts/activities_011878691_012096175.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5464286,
+        "old_coerced_null_cells": 5464286
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6b03e2aa3b1148ef0d23e13c4f9c27c353b9ce163f0f15dc731b464f57cb774f",
+      "new_size_bytes": 3890821,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "60bf84ae6908a62e454d8dfeae4846a2da1018496b17c556838be51e8c44f39b",
+      "old_size_bytes": 3909466,
+      "path": "activity_facts/activities_012096176_012398520.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4775185,
+        "old_coerced_null_cells": 4775185
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "fe5fae9e33ad13833e89b2ae21ce37793b0903109b1bec7299602ed0922dfce3",
+      "new_size_bytes": 4676378,
+      "old_arrow_schema_sha256": "25fc01a3cca1b128563c898e94fe2b1272e89735b8d43e8150a8167f04930196",
+      "old_sha256": "c5ecaf374c48bd378291f1a29c730e7fc9e6e8ce7ec15fbc64a27b10775338aa",
+      "old_size_bytes": 4695314,
+      "path": "activity_facts/activities_012398521_012598585.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5037487,
+        "old_coerced_null_cells": 5037487
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "acaaa0a86f81e68b937fcb923132bb2696f6f70e0d36ceaf3e68b88b2a4eca7a",
+      "new_size_bytes": 6237398,
+      "old_arrow_schema_sha256": "b3fd1fcfb907ba33382d08fd57eb9a4e1801d69577f8d701a230af73da185b62",
+      "old_sha256": "218ecd972a001e2a49320c90150f992ac554e9c6929e8b25de1bc46e8421392d",
+      "old_size_bytes": 6255718,
+      "path": "activity_facts/activities_012598586_012798658.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5253387,
+        "old_coerced_null_cells": 5253387
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "06f62ba6d53a9d7c72691fb461ee738b5ad59f90bf2fb7c215dc113dde83a441",
+      "new_size_bytes": 7864377,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "23e38a327fcd7360f2b670a8041d5c6a1d636de3197774d2d2b70ce3e2766d14",
+      "old_size_bytes": 7881907,
+      "path": "activity_facts/activities_012798659_012998658.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 6044462,
+        "old_coerced_null_cells": 6044462
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "555d2813760ee30b783599bdba495cfd12efe08b6d9526b4a97e99822c9a7c70",
+      "new_size_bytes": 7891877,
+      "old_arrow_schema_sha256": "ebe3ec5cfe6c76646bd68876a3b54ec343ac1976995a2cf5af587d1ae575e8a1",
+      "old_sha256": "78507898fd9aa6db8746387e64ff840fdfa6f0e9e95b4a1c84492e6e83d18ff2",
+      "old_size_bytes": 7909399,
+      "path": "activity_facts/activities_012998659_013198658.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5982432,
+        "old_coerced_null_cells": 5982432
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9a742d70f72062c49ab08bdb8092a25c3f07cdcda73e2484e9432eeb914a56c6",
+      "new_size_bytes": 5144163,
+      "old_arrow_schema_sha256": "58e118f2fd410401e86969d35c7f2692d205f23abaa6aaba9b6d13247969f99a",
+      "old_sha256": "465e7ab49e84d23f69d610f619488bf9f2038b03030b9944e637a821c5a24188",
+      "old_size_bytes": 5162641,
+      "path": "activity_facts/activities_013198659_013401320.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4769368,
+        "old_coerced_null_cells": 4769368
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "da2d8fcf76e916eab668e8bdf8af03d5c8c587cb44c6ca85bff82d4fb56be9e7",
+      "new_size_bytes": 5171868,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "1d8616d7eba1d2b97a510e0b0bd14909a179b03bd9ad6495f8bd284714c9ee3f",
+      "old_size_bytes": 5190469,
+      "path": "activity_facts/activities_013401321_013902498.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4826282,
+        "old_coerced_null_cells": 4826282
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "160efbabcdbf14df6c2c715fea8ec942e46cdca3d59df81616677e8e0f99aa85",
+      "new_size_bytes": 6238199,
+      "old_arrow_schema_sha256": "58e118f2fd410401e86969d35c7f2692d205f23abaa6aaba9b6d13247969f99a",
+      "old_sha256": "61e9526b0c094930d132fe2a5d8deabe0a99d8cc0f00b097449befbd11f41f82",
+      "old_size_bytes": 6256634,
+      "path": "activity_facts/activities_013902499_014122109.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5584179,
+        "old_coerced_null_cells": 5584179
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "fb754fc30638c868d2671a701a4894ab1dd9cee146371298c75aafa3fd080425",
+      "new_size_bytes": 7947808,
+      "old_arrow_schema_sha256": "ec4318f1db549a543eeaa198d1f71710d032e4cec76eff035e3bd560e4318141",
+      "old_sha256": "bfeaf034495d5a87e76b145c0cc0e08f9e03cec10a18798bde0b0183181fed38",
+      "old_size_bytes": 7965239,
+      "path": "activity_facts/activities_014122110_014374273.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 6117521,
+        "old_coerced_null_cells": 6117521
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "fe84f773bbb065a961e559b0fff8c8e188df6e0fefbf921a55adfd0af74694d2",
+      "new_size_bytes": 6289109,
+      "old_arrow_schema_sha256": "c1eaa183de5cb39028ea4c86934910c3af389c9e655d94685fbe2b989ae1c319",
+      "old_sha256": "0e1085b57c19b90ee6a1408a37f1d06ce38bec9bc65f143c078e26ed4840fedc",
+      "old_size_bytes": 6307663,
+      "path": "activity_facts/activities_014374274_014667891.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5271518,
+        "old_coerced_null_cells": 5271518
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f3abff20ac289008e9e54dda998f171d0b8845120ceaf5abc73e1ea19083bee5",
+      "new_size_bytes": 5133164,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "36778152b823f02d6cbaa857551e105f98703e336e43c17a7b471c6c818f8087",
+      "old_size_bytes": 5150377,
+      "path": "activity_facts/activities_014667892_015030893.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5021741,
+        "old_coerced_null_cells": 5021741
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "849dacaaafbef155e654bc49cfc03eb37c927b8c2c6f03a209fe298ca162ce23",
+      "new_size_bytes": 5198845,
+      "old_arrow_schema_sha256": "77ed15934006764c8f9a11bdb8003dac237eda82d0c65d9ae758da4df2800cf6",
+      "old_sha256": "5a3475c377374db30bd0f410b117fc5b2b17474cc5d1b0cddb6e1c41fcc7762a",
+      "old_size_bytes": 5217752,
+      "path": "activity_facts/activities_015030894_015230984.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4916472,
+        "old_coerced_null_cells": 4916472
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "d6e7ab3b9e5076f07eef5c6c6e5dc5a9dabc5026ce799ab64b570786b3e77910",
+      "new_size_bytes": 6399003,
+      "old_arrow_schema_sha256": "58e118f2fd410401e86969d35c7f2692d205f23abaa6aaba9b6d13247969f99a",
+      "old_sha256": "94cbcf439af7ec8d235e5aba704509f72aa3a0a955478d5c59b87d6859239b2b",
+      "old_size_bytes": 6417654,
+      "path": "activity_facts/activities_015230985_015487502.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5167618,
+        "old_coerced_null_cells": 5167618
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "29426ca7452e30162ad3995db2aa38c196d5626400e7b2360d21001eaa6e5943",
+      "new_size_bytes": 6534745,
+      "old_arrow_schema_sha256": "c1eaa183de5cb39028ea4c86934910c3af389c9e655d94685fbe2b989ae1c319",
+      "old_sha256": "c9c6da5db8201101c5f8465735b8a9d3c00bc8f9bb3e62ce1a165a9c5ce3295c",
+      "old_size_bytes": 6551076,
+      "path": "activity_facts/activities_015487503_015709208.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5533851,
+        "old_coerced_null_cells": 5533851
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "a9ac6d9e44c2de8488e0115bccfc6972973797a47dc19950e1f264a85e091120",
+      "new_size_bytes": 7342221,
+      "old_arrow_schema_sha256": "d2c902d68934097f0a3cf21cbb8250459e2d386c75ca020e670e67d60fa78923",
+      "old_sha256": "5365b473101e2836690c729648b856b4ced1ed81f255896634b05775e69c337e",
+      "old_size_bytes": 7361048,
+      "path": "activity_facts/activities_015709209_016461189.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4937278,
+        "old_coerced_null_cells": 4937278
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6a677597aaeeba17db1969c153c8f7a0081e462c74d4e6f2751dd72436629aaa",
+      "new_size_bytes": 5170402,
+      "old_arrow_schema_sha256": "3a895e37077d01a21d4a8f08e33f48d0a5244ce3632d7d4b70fb765b53a8771a",
+      "old_sha256": "b2fdbd06fb91c297da2944d73058d62d99d0b5ea9a6480295c7b48eb3ddea305",
+      "old_size_bytes": 5189992,
+      "path": "activity_facts/activities_016461190_016664504.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4903373,
+        "old_coerced_null_cells": 4903373
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "58080b74932b680cb8cdc97dbe17fce66f271428b33f796127bc33d3b6db7f78",
+      "new_size_bytes": 4443023,
+      "old_arrow_schema_sha256": "240ae24418b14c0dc749167beba0de040608ebece6bea026bb55ae29716e1144",
+      "old_sha256": "cff67a405e22bb199af4a240ed1942f20e39f19210c1c6bd9af65d36aa0dea1c",
+      "old_size_bytes": 4461572,
+      "path": "activity_facts/activities_016664505_017143406.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5226698,
+        "old_coerced_null_cells": 5226698
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6914b6e3ae842808020a0c9d4e0b90e16a7677db6957c9f7d8b1dc590afe2f3e",
+      "new_size_bytes": 1273079,
+      "old_arrow_schema_sha256": "5d2c930ed7bc41cdd091ce5ae08aa0f3f05d74a6867e67671674ebe39ff42413",
+      "old_sha256": "853991b3079dd53ebfb2b4c1c7bb3f00c4c2b0880a02d7fe4a7e00931b91c798",
+      "old_size_bytes": 1290530,
+      "path": "activity_facts/activities_017143407_017343418.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4795238,
+        "old_coerced_null_cells": 4795238
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1eb5b57f34d4890dfe86fcabe98bd110f97f8a01812b26ad5ca206e394aa8dfc",
+      "new_size_bytes": 1157822,
+      "old_arrow_schema_sha256": "5d2c930ed7bc41cdd091ce5ae08aa0f3f05d74a6867e67671674ebe39ff42413",
+      "old_sha256": "cf97f3cca4eedc0b9d9b5d8716fb2e97b75ddd974006e346954b8e758fc1db8f",
+      "old_size_bytes": 1175273,
+      "path": "activity_facts/activities_017343419_017543418.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5275402,
+        "old_coerced_null_cells": 5275402
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6795f1b7ba6ae77ec2265b708367b3de5f22c142857b06ac09eadec802906abc",
+      "new_size_bytes": 5367753,
+      "old_arrow_schema_sha256": "49e6369d8a162f59ff048a47259c8c5084b98ad62aa56f6ba30f961529375fd8",
+      "old_sha256": "0abb6fb4193e3fdf90b3320549bb2e834caf81fc5f1e42615944453471f8e271",
+      "old_size_bytes": 5389123,
+      "path": "activity_facts/activities_017543419_017771654.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5435659,
+        "old_coerced_null_cells": 5435659
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "4305ca166ce18a031d96f298a8c9612e05cfb3ad9b88233b5ce83beb50b2204b",
+      "new_size_bytes": 5630659,
+      "old_arrow_schema_sha256": "be680330d223d9e298509e2033111f54b02169c96554a44c68efff20d35bbc46",
+      "old_sha256": "d72a26265c69c2993dd6120bce474666a140a990412ede735f481a9a228b6d4d",
+      "old_size_bytes": 5648271,
+      "path": "activity_facts/activities_017771655_017971764.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4785443,
+        "old_coerced_null_cells": 4785443
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b5f3f762b53a90c231bac3450593ae99f4330e652b8cf403753003a99c073144",
+      "new_size_bytes": 4989870,
+      "old_arrow_schema_sha256": "90e7f1807b16a1c729cd9863309773d174c9844dd0f35f61f69d97377eb8d16e",
+      "old_sha256": "028f37fef0f63b2a587e782e3242e47e3a67f2891c3746d38edc064073534be1",
+      "old_size_bytes": 5007582,
+      "path": "activity_facts/activities_017971765_018172089.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5146589,
+        "old_coerced_null_cells": 5146589
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c63062ec591f6097fb4c8c13d8b26a846d3de0c96adcc08eed987cbcc21f2294",
+      "new_size_bytes": 4865444,
+      "old_arrow_schema_sha256": "90e7f1807b16a1c729cd9863309773d174c9844dd0f35f61f69d97377eb8d16e",
+      "old_sha256": "134a728c468248cc2ec104f4d9dad41907579796f46bcfd33740f8f19ff66e6f",
+      "old_size_bytes": 4884067,
+      "path": "activity_facts/activities_018172090_018372375.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5113820,
+        "old_coerced_null_cells": 5113820
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "30794ed38a778c48e4d8a2deb4b244fe342fc7513dc9522638e5593dc8a3913f",
+      "new_size_bytes": 4944247,
+      "old_arrow_schema_sha256": "90e7f1807b16a1c729cd9863309773d174c9844dd0f35f61f69d97377eb8d16e",
+      "old_sha256": "77b36bd624757466048c2f49012da1724fbeaef279ae5e25d6f65dbcb393c70e",
+      "old_size_bytes": 4963179,
+      "path": "activity_facts/activities_018372376_018572423.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5143907,
+        "old_coerced_null_cells": 5143907
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "cae0c2c403575544c1e864792a6cb047c23778a8c99786483a4bb140b4a34800",
+      "new_size_bytes": 3997155,
+      "old_arrow_schema_sha256": "2e11ea4a709a61d0c03df579571bbabd743598f6d7a692b3a6118cc6a5c282a8",
+      "old_sha256": "283d1801e19396584efbb46dbc7f2b78a799e6e6d5169b3914253fd9904e9116",
+      "old_size_bytes": 4015524,
+      "path": "activity_facts/activities_018572424_018772834.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5165796,
+        "old_coerced_null_cells": 5165796
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c08dede322b396751b01d5bd2183c5887bd17f6f1b2bfaaf57a99a09424e7424",
+      "new_size_bytes": 5122416,
+      "old_arrow_schema_sha256": "c7a3bc11a91029b25ec14adabfc98d7d81ac2a348334cb96dfddfad2e394a5dd",
+      "old_sha256": "05de5c2150b731e4cfa848aca9c16bac72497ae7fc2b1e0b032f440f84c8de1d",
+      "old_size_bytes": 5141667,
+      "path": "activity_facts/activities_018772835_018983672.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5093757,
+        "old_coerced_null_cells": 5093757
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "16626b9c10e6a5817d6c559835b7f243f08df9fd8cbe50b156236c73f39f4b34",
+      "new_size_bytes": 5122311,
+      "old_arrow_schema_sha256": "90e7f1807b16a1c729cd9863309773d174c9844dd0f35f61f69d97377eb8d16e",
+      "old_sha256": "5fd03ac81a4ef9b0243ffd2ef736fe1620743ac6ccb0e1a75dade7eb31354ea9",
+      "old_size_bytes": 5143823,
+      "path": "activity_facts/activities_018983673_019183695.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5151943,
+        "old_coerced_null_cells": 5151943
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "57a832f50d93b7d6011c57188219c86e5ade44c9b5fa45abb02f03e5ba59c553",
+      "new_size_bytes": 5167420,
+      "old_arrow_schema_sha256": "51c35672a7765de67d86f17146872f45da657b8c3a1a06853ce0cff06d4c746b",
+      "old_sha256": "ac3bcdcbab441615cfe240606046608295f4751c3888c4466a70120bcba06520",
+      "old_size_bytes": 5186769,
+      "path": "activity_facts/activities_019183696_019412568.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5213965,
+        "old_coerced_null_cells": 5213965
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0c601235a4f7f2f59651a4467a36087348a226cce20e9dd8f36a66870eb466bc",
+      "new_size_bytes": 4719465,
+      "old_arrow_schema_sha256": "673fa89a3d52d842e93c6b8eb1564fed10210982bbb366967257d99f2916ba31",
+      "old_sha256": "0443cdea3bfe349b71fa24ab8fc5366884ab13863cb16af4f9db1a229bbee036",
+      "old_size_bytes": 4737762,
+      "path": "activity_facts/activities_019412569_020207134.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4897071,
+        "old_coerced_null_cells": 4897071
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "15b4f75a506c4e86d5ab3570020ab283bf54d273fed4c97a5fb38f59ace8d1e5",
+      "new_size_bytes": 6385594,
+      "old_arrow_schema_sha256": "d15498513f398dca5f0830ef9400bae90152077b60837382cac684f0becb7165",
+      "old_sha256": "3508a1f99ca04b68e1cd9c1a5a9a12693bc81151e24285ab5c2286e27fcb2974",
+      "old_size_bytes": 6403311,
+      "path": "activity_facts/activities_020207135_020407139.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4500732,
+        "old_coerced_null_cells": 4500732
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "b5b98446742109fd7aaaacb2d5d4616211bdc5bf6b3ae8d84ff75151f122e02f",
+      "new_size_bytes": 6865910,
+      "old_arrow_schema_sha256": "b40555cc1aafffbc6bc56c9883e046bf91fe1f16a7668a282c10dae9b3590cad",
+      "old_sha256": "a004d59ca005856a5546e3b5b23e287bd783b028a7e778146ac86bdd88e0653f",
+      "old_size_bytes": 6884075,
+      "path": "activity_facts/activities_020407140_020636953.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4623936,
+        "old_coerced_null_cells": 4623936
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "8e4839dc0e1e69ab2bcd9bb4ef2e2cac339cbcc40ee00aeb4c8b2eab152e6117",
+      "new_size_bytes": 7349579,
+      "old_arrow_schema_sha256": "90e7f1807b16a1c729cd9863309773d174c9844dd0f35f61f69d97377eb8d16e",
+      "old_sha256": "fde9505819d8d1d2d5080b6c778f687c38a923f8ba7f126bd0ec0d7e991e52a0",
+      "old_size_bytes": 7368343,
+      "path": "activity_facts/activities_020636954_020902925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5368959,
+        "old_coerced_null_cells": 5368959
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f0840322e9f49662185eddc7000c1ec898e63e37345fd54d61f0e5ce01a32c53",
+      "new_size_bytes": 8463044,
+      "old_arrow_schema_sha256": "29a5583196488a08eed23c743ddeff932045376080850233a0d89c0525e7df87",
+      "old_sha256": "24c30308d117ebebc935daf031824a75190d2b18ec01106ebe7cc0e6ef9d2de5",
+      "old_size_bytes": 8480377,
+      "path": "activity_facts/activities_020902926_021102925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5461903,
+        "old_coerced_null_cells": 5461903
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1e74f51e43463b3b22b2b31633b989c4380c80896a678ba3986231891a7e4992",
+      "new_size_bytes": 8401721,
+      "old_arrow_schema_sha256": "29a5583196488a08eed23c743ddeff932045376080850233a0d89c0525e7df87",
+      "old_sha256": "42e7870a83298a36954d39c57a7dac260629687f70788a6edbe4612c2cb269e5",
+      "old_size_bytes": 8419068,
+      "path": "activity_facts/activities_021102926_021302925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5494278,
+        "old_coerced_null_cells": 5494278
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "1d843a671708e6f2379caf8b209ababff9590afc40d22869589e5c1ff5a11143",
+      "new_size_bytes": 8407404,
+      "old_arrow_schema_sha256": "29a5583196488a08eed23c743ddeff932045376080850233a0d89c0525e7df87",
+      "old_sha256": "db6df13a834a4436a68dc25f8d787d1feabd6d2b1fc59640da464c5717f3ee8a",
+      "old_size_bytes": 8424751,
+      "path": "activity_facts/activities_021302926_021502925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5487130,
+        "old_coerced_null_cells": 5487130
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "5e1573b43bfc2ef1b87b0e70a6e42ed98207531fbb6c138ee4aeed0a3718039d",
+      "new_size_bytes": 8379070,
+      "old_arrow_schema_sha256": "29a5583196488a08eed23c743ddeff932045376080850233a0d89c0525e7df87",
+      "old_sha256": "c57162c9405f3fbf79da84ea4a8ce3244f8a735afc0f3f3a8c6d4e257e5e96c4",
+      "old_size_bytes": 8396413,
+      "path": "activity_facts/activities_021502926_021702925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5462334,
+        "old_coerced_null_cells": 5462334
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "637063fb4d6ac7d93dd5947b30fc10103706dc173958974ba3fbc9a6aadae754",
+      "new_size_bytes": 8423383,
+      "old_arrow_schema_sha256": "29a5583196488a08eed23c743ddeff932045376080850233a0d89c0525e7df87",
+      "old_sha256": "4d71f8cbeca501433116ffef712c0223a3ed31077405a1f1c5b7464a70b907da",
+      "old_size_bytes": 8440716,
+      "path": "activity_facts/activities_021702926_021902925.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5461861,
+        "old_coerced_null_cells": 5461861
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "422bfb03d48a220d24f57b50d74413dd841444a2713e08288b32d705f5d1273c",
+      "new_size_bytes": 8027585,
+      "old_arrow_schema_sha256": "8c744793218e617f0ee5bf9759a5ca3621d340bf6f8d28766e3fa697643e495e",
+      "old_sha256": "3ee4afe6605b313a8e7e3e2bbbed4a7fd08faca0fe429ebe22e18f6832caa97b",
+      "old_size_bytes": 8045909,
+      "path": "activity_facts/activities_021902926_022397148.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5372831,
+        "old_coerced_null_cells": 5372831
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "5858906882a3ca94ae2f4309248c31077adc9aabd77461154c771ad0d384138a",
+      "new_size_bytes": 4986851,
+      "old_arrow_schema_sha256": "f87ce712ab4de321bfc803174c3b378e630e1fdf457e5d073b77eff06602f474",
+      "old_sha256": "48fcdaa5cd3c9df306f5ac7ca1ad54b0a6ca34779ed508bf9be83a4dba3d9daa",
+      "old_size_bytes": 5004822,
+      "path": "activity_facts/activities_022397149_022855878.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5091902,
+        "old_coerced_null_cells": 5091902
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "cf1f2ef881e644f5a6705a79e11d267274b09d18084587ee62ed2659457ce54b",
+      "new_size_bytes": 5338251,
+      "old_arrow_schema_sha256": "88220958ef65cdb7733ae1f729a95a180459979ce5ffb078a01f0689f3a954e7",
+      "old_sha256": "a1fc698ee824ec50325643bcfb7751883acede0247b090399ff4aaecb352f7de",
+      "old_size_bytes": 5356991,
+      "path": "activity_facts/activities_022855879_023126237.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5329431,
+        "old_coerced_null_cells": 5329431
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "36e827bb7a429f66a9054a6bde3a50db9fe6fd4b35424122f84ffa517a812b41",
+      "new_size_bytes": 4861319,
+      "old_arrow_schema_sha256": "bf6e717e31b12ceb9fe4c39c0b5140c4d1eac6cd7844fca6453d5e8791ee06ea",
+      "old_sha256": "28233ea77d9fe0ebb0a538c2128fbe767ab130f4e47d882e66243f2890fe81ec",
+      "old_size_bytes": 4875938,
+      "path": "activity_facts/activities_023126238_023326249.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5090288,
+        "old_coerced_null_cells": 5090288
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0a3805fd889d2f8eb77fd045935d620bb80248d8e5719fc2c8aed19a5d16e708",
+      "new_size_bytes": 5754979,
+      "old_arrow_schema_sha256": "69fa0ad54a4acfad15953c2d8f4566021cd7b922444217e100ecea1c443cdd76",
+      "old_sha256": "3e2c08c64a975a2db3eda10832537ad45d8319d91d378c98845afab0a66997ca",
+      "old_size_bytes": 5772866,
+      "path": "activity_facts/activities_023326250_023526261.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5271055,
+        "old_coerced_null_cells": 5271055
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "86bded5617639c4bbe224eea7b48a22cd4cc14d2577133987cb9591218169aaf",
+      "new_size_bytes": 5610597,
+      "old_arrow_schema_sha256": "a9c5fe2147b59b86dcebbb8f2430d1c44cd17f65fcb108ef7a623e939b69affd",
+      "old_sha256": "eedd4b4cc06691692c8170f802a39505d92b31e8a253752ef8aeed1213608eea",
+      "old_size_bytes": 5627354,
+      "path": "activity_facts/activities_023526262_024165770.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4510896,
+        "old_coerced_null_cells": 4510896
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "bbf2b8b264d7adc97af4b99a7a83f67aa85888ee25e2f4c4e326642d1a88660c",
+      "new_size_bytes": 1536393,
+      "old_arrow_schema_sha256": "8c744793218e617f0ee5bf9759a5ca3621d340bf6f8d28766e3fa697643e495e",
+      "old_sha256": "beed532a2a680b8b1482d386894aa0699af7f9077c0791109c372c955f6ac3f0",
+      "old_size_bytes": 1554728,
+      "path": "activity_facts/activities_024165771_024365782.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4432457,
+        "old_coerced_null_cells": 4432457
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f824d4895d16536b9dad2327bf91400d031f0fcb6f69c23fe4782a005f965079",
+      "new_size_bytes": 3017652,
+      "old_arrow_schema_sha256": "34722b50b182c463e324e66a69ffab65fd1de21dff74d74f4ed73d96d88c2e1e",
+      "old_sha256": "bb8064d9c41e0d8191f2484265ee99851f2585e2e03c0674fc562fd5bc31ba2b",
+      "old_size_bytes": 3036103,
+      "path": "activity_facts/activities_024365783_024629760.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4714439,
+        "old_coerced_null_cells": 4714439
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "ac26ed15a6fde13e1441a860a03f0db181df5f7b910cdb612d375f46ee7f0ff1",
+      "new_size_bytes": 5087939,
+      "old_arrow_schema_sha256": "cf94d676f51db50477fbf9746e71aa5fd97a187e105ac54bc2a472981f3477ec",
+      "old_sha256": "519bfffaf66900e6a2e15023ca8ea93eb220a129062e71718d9400eea156d1be",
+      "old_size_bytes": 5106462,
+      "path": "activity_facts/activities_024629761_024854403.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5007600,
+        "old_coerced_null_cells": 5007600
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c95339c6e787ab4b7df86f1b833fa1120155505f38d54c75850d02ef0367c244",
+      "new_size_bytes": 5615401,
+      "old_arrow_schema_sha256": "8c744793218e617f0ee5bf9759a5ca3621d340bf6f8d28766e3fa697643e495e",
+      "old_sha256": "547ded60b29618db1f9e161991f70cf25bdcb82d1db58c48b0b1f9264917c6ad",
+      "old_size_bytes": 5634640,
+      "path": "activity_facts/activities_024854404_025059294.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4994412,
+        "old_coerced_null_cells": 4994412
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0bd75fdb2bd700c7eafd870b8442193fec5973a13e64f2f1b52a3803e42e75d3",
+      "new_size_bytes": 2897091,
+      "old_arrow_schema_sha256": "cf94d676f51db50477fbf9746e71aa5fd97a187e105ac54bc2a472981f3477ec",
+      "old_sha256": "99acf022bed1ebb3ba43ebc42605b3424207fa41f3791ac15b9f36fca5e4f5b3",
+      "old_size_bytes": 2915342,
+      "path": "activity_facts/activities_025059295_025259299.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4822850,
+        "old_coerced_null_cells": 4822850
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "f4a974c06f0c969405474a3755ee2205d965b27bd804b81f3a0430a2b8d34e8f",
+      "new_size_bytes": 2879356,
+      "old_arrow_schema_sha256": "cf94d676f51db50477fbf9746e71aa5fd97a187e105ac54bc2a472981f3477ec",
+      "old_sha256": "ce9a79785abd0eb99294dd581dacf61f65149f320e087f472252915e932ecc9f",
+      "old_size_bytes": 2896956,
+      "path": "activity_facts/activities_025259300_025484233.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4879600,
+        "old_coerced_null_cells": 4879600
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "eb06c1ec1b20d3d3f66acc0e8abbe5e94f5e2a8a0b9fac057ed0794682e0c92e",
+      "new_size_bytes": 5221327,
+      "old_arrow_schema_sha256": "f87ce712ab4de321bfc803174c3b378e630e1fdf457e5d073b77eff06602f474",
+      "old_sha256": "9b019c047a65bb466e25b374b3a054a25b7e32dc57c8f0047c5f32b3709c5d68",
+      "old_size_bytes": 5238854,
+      "path": "activity_facts/activities_025484234_025684240.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5091565,
+        "old_coerced_null_cells": 5091565
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "88d21de7ca0323cf1755c98979ccadc92f55a44e06ee626d12010acae263dac6",
+      "new_size_bytes": 5232695,
+      "old_arrow_schema_sha256": "54f737dc817a0e36aaa2b3a0edf062487566b294c3e2096d5e45c5d4850db9b9",
+      "old_sha256": "6bd2f70e698518b3ce0405b36c0dd6b3387182864708c01ab0205c481ef88d46",
+      "old_size_bytes": 5251894,
+      "path": "activity_facts/activities_025684241_025921184.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4975918,
+        "old_coerced_null_cells": 4975918
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9dd3a8a8c6932f5e171f6087bf53251feb193b941c974f2509629cf2a4053e7a",
+      "new_size_bytes": 5221478,
+      "old_arrow_schema_sha256": "686e6a0563c080650c7ca03bbb71747391cc421d348d4c988c033e5aec3a400f",
+      "old_sha256": "e9ba9193d1470204873898dfa8f88a5400e54f6991f45e5e90fac7dfdfb2a0b2",
+      "old_size_bytes": 5244036,
+      "path": "activity_facts/activities_025921185_026149104.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5064012,
+        "old_coerced_null_cells": 5064012
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "cb2ff88a5ec41e70fddbc905e75de89db25d41b430c68c4c4509e4b51d3fc828",
+      "new_size_bytes": 3680457,
+      "old_arrow_schema_sha256": "2927f3ee43efcc3f259e2628ffe8d37c23f00c2404d610fdea7beb6112630c04",
+      "old_sha256": "3ee9457f910c0990633c4429e2d91b4cb10482beeaa0def86103448e7b7abc84",
+      "old_size_bytes": 3697890,
+      "path": "activity_facts/activities_026149105_026403328.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4854477,
+        "old_coerced_null_cells": 4854477
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0f303aa0d33bb577b4144e6c3903fd849d9b312877184cdf9e5f0d19fce85be6",
+      "new_size_bytes": 1637134,
+      "old_arrow_schema_sha256": "432db6e22dae1e7cf6b499548b07f71688c27b5369336de1630d41df19ff59d1",
+      "old_sha256": "d2901bc6ae203a25c63621ced0175fd9b76999e16dd02d2c9b74add71d787508",
+      "old_size_bytes": 1653232,
+      "path": "activity_facts/activities_026403329_026603328.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4865289,
+        "old_coerced_null_cells": 4865289
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9e79d4dc4a57e06b77a659516c12e49c8171fc0b42a7e672a27d713221d0c634",
+      "new_size_bytes": 3534737,
+      "old_arrow_schema_sha256": "5e9cf6951313b92bfc867945d79cb04b010d7f16c3f53e46db308a6a7f69fed3",
+      "old_sha256": "08c2e94d6bbcc12538da7a199afb5876670b10eec5332d9e294b7ff54d090e4f",
+      "old_size_bytes": 3551642,
+      "path": "activity_facts/activities_026603329_026803394.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5868616,
+        "old_coerced_null_cells": 5868616
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "64917051df98d151c702f599faf3888ef6138ec3e5fad5be364c29c1a7f82ea8",
+      "new_size_bytes": 3277746,
+      "old_arrow_schema_sha256": "f85eb4e2fd26c9861fee3672f77d69f6f468e80fce2f252903fddeb79a28ca14",
+      "old_sha256": "18d3beb2e1f6a27eeb25b60cbb0c16170d20082b08ab43b4ffa91dc9fb62907f",
+      "old_size_bytes": 3295988,
+      "path": "activity_facts/activities_026803395_027003394.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5760270,
+        "old_coerced_null_cells": 5760270
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "e823f68ed736a146e035489cda5d57a9ca3a829e8c4fe4f7f9b6b8664de25084",
+      "new_size_bytes": 3269296,
+      "old_arrow_schema_sha256": "c03a347b6ddabf6b1cd7e65a573ff8ed5a9deeab8b0bbfb2a3cc873579159080",
+      "old_sha256": "ac41dccd0a2c7e7b4b0b07bb1b02f6e5fcecbce8277af0a7c82887e222ded1e1",
+      "old_size_bytes": 3286755,
+      "path": "activity_facts/activities_027003395_027203394.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5772580,
+        "old_coerced_null_cells": 5772580
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c3d09361391b4fda023ef4858db52836383170f4802e42e9fb3a4a7bef26c792",
+      "new_size_bytes": 3384671,
+      "old_arrow_schema_sha256": "9b3261a77b4b66dc2df2464b246f4efd13282e69dbdf5cf0f40e633b85c69768",
+      "old_sha256": "8b2c83966d18a6a37252751462534bf6f6d8274e513337348d712ee7c26508b3",
+      "old_size_bytes": 3401803,
+      "path": "activity_facts/activities_027203395_027403457.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5733791,
+        "old_coerced_null_cells": 5733791
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "6a3a929591c18e70a163456dffbc363b66bad70a79835157fddd7a28442eb82b",
+      "new_size_bytes": 3321693,
+      "old_arrow_schema_sha256": "5e9cf6951313b92bfc867945d79cb04b010d7f16c3f53e46db308a6a7f69fed3",
+      "old_sha256": "2499597e9b1bf50a2f457f2572b52c92ab04433e2e0950951794ff82fbaedf47",
+      "old_size_bytes": 3339234,
+      "path": "activity_facts/activities_027403458_027603457.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5801059,
+        "old_coerced_null_cells": 5801059
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "e1ba4dacfcb7000042918ea316a17d7b48a6600c7ebfdf3bac0c07d6cb9fd7a5",
+      "new_size_bytes": 3416666,
+      "old_arrow_schema_sha256": "9b3261a77b4b66dc2df2464b246f4efd13282e69dbdf5cf0f40e633b85c69768",
+      "old_sha256": "517f61029d71e4e28a4bc68d368fe97b2fd6953efb253a4c5bef7dee7d06a98c",
+      "old_size_bytes": 3433787,
+      "path": "activity_facts/activities_027603458_027803469.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5785821,
+        "old_coerced_null_cells": 5785821
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "27fd3b32ac3eb4e69fac659280e02ee788626770d5843f979b1de9acbd2beedb",
+      "new_size_bytes": 3335787,
+      "old_arrow_schema_sha256": "bb98565058b4b3e0930a550d2716f376e377a388f378d8227fb31e0881d57c1e",
+      "old_sha256": "3fdc037cf4c045c1e2f360cffd561c8c7bbf53a35329b0436e5ddba95dc90671",
+      "old_size_bytes": 3353314,
+      "path": "activity_facts/activities_027803470_028003469.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5772745,
+        "old_coerced_null_cells": 5772745
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "47164bb74a3ee1110e945ad9599d91c91baea4105a7b49e4da9f2f10a6ff6b16",
+      "new_size_bytes": 3341772,
+      "old_arrow_schema_sha256": "9b3261a77b4b66dc2df2464b246f4efd13282e69dbdf5cf0f40e633b85c69768",
+      "old_sha256": "44df7844b795344efb56dc2c77dea58f951ed657f7d5c891435d139ee7c75f2f",
+      "old_size_bytes": 3359425,
+      "path": "activity_facts/activities_028003470_028204171.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5784478,
+        "old_coerced_null_cells": 5784478
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "398590f69bc6b5b9db631a5fabb3ea091524dc44944c7fd0dbbb6286fd965b9c",
+      "new_size_bytes": 3398095,
+      "old_arrow_schema_sha256": "d0b432553e294a52c516c2f9262ef7bc95e178f912ee12856c91d0a12f37eaf6",
+      "old_sha256": "681d68879d2c5220985ba67350f16ebf6f6421192d7fcd6f0ee02c2da311be6a",
+      "old_size_bytes": 3415605,
+      "path": "activity_facts/activities_028204172_028404171.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5792424,
+        "old_coerced_null_cells": 5792424
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9996f03775c59186f4662b4bc40996c8391d3b7528363986e312afd98ff44b9e",
+      "new_size_bytes": 3364132,
+      "old_arrow_schema_sha256": "e09dea2ee9b6e7f144f9b19dce81378e6d7a6b58b48b9b58c446a461ad8f6555",
+      "old_sha256": "c3400466a1a7a01184efa11858c6568d5ecdee597d89290d3246e704bf53f031",
+      "old_size_bytes": 3381453,
+      "path": "activity_facts/activities_028404172_028604171.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5756773,
+        "old_coerced_null_cells": 5756773
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "7467d858f4b65872496640f9b3f12e70a2a3dcb8acf4bef93aa04e330e7da31d",
+      "new_size_bytes": 3380353,
+      "old_arrow_schema_sha256": "9b3261a77b4b66dc2df2464b246f4efd13282e69dbdf5cf0f40e633b85c69768",
+      "old_sha256": "66d139663756bdbc63dcdf61e3d95c9bac5140d30a2737d0d18cca7dd1548143",
+      "old_size_bytes": 3395295,
+      "path": "activity_facts/activities_028604172_028804171.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5774501,
+        "old_coerced_null_cells": 5774501
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "0c6da0860c88de8d8f8d35a2470b27301ae95a0d0fbfdc4d486f4859df3940e2",
+      "new_size_bytes": 3382112,
+      "old_arrow_schema_sha256": "70f45339900ecb8a9f76183fbcd0a3cf4c898aadda2fbe0921503ab31ad54f03",
+      "old_sha256": "542948046e8fba32f63c41a3e02f6b7e78049ce822f1cdef67bf077e53fbdd4e",
+      "old_size_bytes": 3400017,
+      "path": "activity_facts/activities_028804172_029004171.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5849489,
+        "old_coerced_null_cells": 5849489
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "ca59cd0ce2c1b8bdfa0f96db1dbfbc3f5cff8fde4a5f0a4830e8aefa36c79814",
+      "new_size_bytes": 4980312,
+      "old_arrow_schema_sha256": "d5a6354c5979057ce1992103d0661f925f8cf6497b551d7b3aa88c3d9a0a3807",
+      "old_sha256": "de8df1c20d98af5b763b2091e5cd639a6927d6f2b9fa985440b7957aa777094b",
+      "old_size_bytes": 4999689,
+      "path": "activity_facts/activities_029004172_029204197.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5269186,
+        "old_coerced_null_cells": 5269186
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "9b9b1ccb2935d241d683c621b97928436d1fde8fdab97df100702c9b9990bb49",
+      "new_size_bytes": 3420383,
+      "old_arrow_schema_sha256": "7da64e762064af6f1c7a326f3d159f8657b9f2888d521f509cc0f4fbbbf092da",
+      "old_sha256": "8e391286e111e8db0658710ed298408fc8d9a6bafa8ba25da2273eebd8e4e7a9",
+      "old_size_bytes": 3437972,
+      "path": "activity_facts/activities_029204198_029331268.parquet",
+      "rows": 127044,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 3271168,
+        "old_coerced_null_cells": 3271168
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c716bf620d203525dae507a49a5466c0694c0bebf1960b46b852abbfeeb65dec",
+      "new_size_bytes": 148785,
+      "old_arrow_schema_sha256": "ab3fe1d2452f43865aa7eeec631842da5af2a4e39355dacc2a059287159e2282",
+      "old_sha256": "380e13ad209e3831a7c1d43753651e970b108c111608c960cf9dbbea14e9e8bb",
+      "old_size_bytes": 168712,
+      "path": "specialized_views/cardiac_qt_apd_inventory/cardiac_qt_apd_inventory_000120053_029176087.parquet",
+      "rows": 2498,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 62776,
+        "old_coerced_null_cells": 62776
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "bc414e4780412c08cf4b96ff1ce041baac5cdf7a24c518b756a873b11d50d02c",
+      "new_size_bytes": 1794226,
+      "old_arrow_schema_sha256": "bc82a58cb978d106734d7c33cb72954df75596f5630282241f5dcdf14e390222",
+      "old_sha256": "d97b00000453144503ca9d2b76581ab37bd088f10ddd64779e103bfa403b1ea9",
+      "old_size_bytes": 1814904,
+      "path": "specialized_views/herg_all_endpoints/herg_all_endpoints_000111169_029330473.parquet",
+      "rows": 41078,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 924926,
+        "old_coerced_null_cells": 924926
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "c6c3e2aa202be0c6c70867210ab1d5ce6390dd14097c7667be67bcd4315790ec",
+      "new_size_bytes": 1327913,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "8983db4fc62c085934fb79461281ee7e61f15b0c776585e46fba3d52a54006ef",
+      "old_size_bytes": 1332848,
+      "path": "specialized_views/molecule_development_annotations/molecules_000000001_000230504.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 591108,
+        "old_coerced_null_cells": 591108
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "4b083f160f36919b6a64ff394936bf741b3645971300bf31a20f201ee8ec193a",
+      "new_size_bytes": 1346314,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "18f51275fe3d43150d614f4b47a07dcadfb77aeb7788ffa03516517b3481d6eb",
+      "old_size_bytes": 1351256,
+      "path": "specialized_views/molecule_development_annotations/molecules_000230505_000449721.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 591199,
+        "old_coerced_null_cells": 591199
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "e78757b17ac38c437616eda8fd761b562d9689ff746b56f66793f202a427eaee",
+      "new_size_bytes": 1283563,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "a25b0dc266525a905c7bf9ca677a6d1efb5da582a68abe3ed08bf7ba96f66449",
+      "old_size_bytes": 1288511,
+      "path": "specialized_views/molecule_development_annotations/molecules_000449722_000668153.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 587126,
+        "old_coerced_null_cells": 587126
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "6522117450c0a13e325be71e4ddf8201841371667806749ca288c599cb5415aa",
+      "new_size_bytes": 822075,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "7147805734e8a831eddd80883021b9cf4df84a37f596c042dddd9d321071ce66",
+      "old_size_bytes": 827014,
+      "path": "specialized_views/molecule_development_annotations/molecules_000668154_000894343.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 594609,
+        "old_coerced_null_cells": 594609
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "553910f8544b7b2a2e2395086e10a88ab9257e3b61ede6c072fe8d5284d634e4",
+      "new_size_bytes": 790734,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "b88ca2220e81b52d5b59694801ad97b554a96e7e60176e23b90f9612f5a0e0a5",
+      "old_size_bytes": 795644,
+      "path": "specialized_views/molecule_development_annotations/molecules_000894344_001115314.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 598132,
+        "old_coerced_null_cells": 598132
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "4ce7384c13c313c5acb4da39183272b18c17ba94680b602ea3cfe638b02dc79a",
+      "new_size_bytes": 799372,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "a4a69722162ff35b2ac92f37a0007618a1a536afb8277d7490192460684d5a4b",
+      "old_size_bytes": 804276,
+      "path": "specialized_views/molecule_development_annotations/molecules_001115315_001367481.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 595213,
+        "old_coerced_null_cells": 595213
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "9484c822ba314ac77c5e701c93100a202e16cfc726bab64209d98782f73a00f2",
+      "new_size_bytes": 868898,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "532cdc1cd2ef91480f41cbac4f864cc61d6a19b66e05607bcf74fc329a78e7e0",
+      "old_size_bytes": 873820,
+      "path": "specialized_views/molecule_development_annotations/molecules_001367482_001686671.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 583274,
+        "old_coerced_null_cells": 583274
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "b0eb4e65236823a359dc5285c557ab704f274fea3e78b1899ffbc6bb9bcad562",
+      "new_size_bytes": 742190,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "ed60e83969501f1bb1ddd3aeb4d439225053fbd043a0f928b5fec0dd54ffc9d7",
+      "old_size_bytes": 747075,
+      "path": "specialized_views/molecule_development_annotations/molecules_001686672_001955846.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 598810,
+        "old_coerced_null_cells": 598810
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "9526fd968f451d622db5661b59b717800f565e0a436b92867e53f0b10aa0d616",
+      "new_size_bytes": 890903,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "ed4db64fd40bf639748899038b8e35b77677fcb8c933068c966e10d650f592a2",
+      "old_size_bytes": 895788,
+      "path": "specialized_views/molecule_development_annotations/molecules_001955847_002174784.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 599022,
+        "old_coerced_null_cells": 599022
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "197003db2bbab8bce278cbbd1ea149f79ba7eb9d5ef1772d744647dd0f37ac2b",
+      "new_size_bytes": 745575,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "9e697c1173f36a428f77a8b3ee8aa6fa710739ef7c6bd512f75b1f6cbc6e49ee",
+      "old_size_bytes": 750493,
+      "path": "specialized_views/molecule_development_annotations/molecules_002174785_002381176.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 595815,
+        "old_coerced_null_cells": 595815
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "8fb5470b3d67b63c4110aefd806598f2c6919223ce35f4d695d0b655069b979f",
+      "new_size_bytes": 746492,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "b7ef0237869087baa4472faf74f064b31e945b9a7d96b502b6a7452f18c4e75a",
+      "old_size_bytes": 751383,
+      "path": "specialized_views/molecule_development_annotations/molecules_002381177_002589003.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 597792,
+        "old_coerced_null_cells": 597792
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "1d7cb435dc1e9ae1a41cb18b4ee729d0d3e61d975a2d23f94f324d82effb0277",
+      "new_size_bytes": 695873,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "004027513b20970f34dd616d4c731539df7650c334b71984cbd6b5ff459085b2",
+      "old_size_bytes": 700767,
+      "path": "specialized_views/molecule_development_annotations/molecules_002589004_002792662.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 650882,
+        "old_coerced_null_cells": 650882
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "f79937774505e2ee48364fc93c96e78984afc230e42aab1f33b4655391976c8d",
+      "new_size_bytes": 719330,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "12a99ad43a5271caae506d402381593c01be2379ca536145dff6cb9e0d734173",
+      "old_size_bytes": 724218,
+      "path": "specialized_views/molecule_development_annotations/molecules_002792663_003008766.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 797458,
+        "old_coerced_null_cells": 797458
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "f5c44d8bbc1c00a2ee103e8143f37a9aaa8aef7ae968e29279aa26c092fd99cb",
+      "new_size_bytes": 695318,
+      "old_arrow_schema_sha256": "f6d0bfd56969f4eb0d1cbdd93c962b30762f45f2a540f414986d56e755dbcb38",
+      "old_sha256": "b5751f901cc0b4ab8a1a91e8af1051627573df7496a67d991ab59cb4f0847432",
+      "old_size_bytes": 700144,
+      "path": "specialized_views/molecule_development_annotations/molecules_003008767_003209077.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 799958,
+        "old_coerced_null_cells": 799958
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "342a2a1d5e7cebe5013c3415cb602b821d0f5da5273c46fd4356e7f5329b2a0e",
+      "new_sha256": "71dc69709fadf2012d60ad03a6728ff293704c50f1ad86837fa49a6e888620a2",
+      "new_size_bytes": 565802,
+      "old_arrow_schema_sha256": "f8d13bebdf9cd81368fbd741dae90715ef1ed99f35918ffbdf59dead4d2e2469",
+      "old_sha256": "be6d1aa48d5ca59dd13647e2deb66fb4983cd742831144d7858aa962b3d6b68f",
+      "old_size_bytes": 569232,
+      "path": "specialized_views/molecule_development_annotations/molecules_003209078_003332240.parquet",
+      "rows": 121148,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 482355,
+        "old_coerced_null_cells": 482355
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "99dc41fe92f046393fb20809184f1126ec27854f083a6a90fb4f97e9c0379f08",
+      "new_size_bytes": 8005843,
+      "old_arrow_schema_sha256": "0030f35299353b47d9fc40f256035e07e112cf592f0b3223abadd1106a943e3a",
+      "old_sha256": "d66a250094f22da831edbd9726649853a2385cf0f742d46e0c660dfe892de5af",
+      "old_size_bytes": 8028841,
+      "path": "specialized_views/pk_adme_candidates/pk_adme_candidates_000031884_007992324.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5086374,
+        "old_coerced_null_cells": 5086374
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "bd416c7ca1961fee4e5ca19bbb3c020fbcab044fbed9a18f3200a8b725f85ac0",
+      "new_size_bytes": 6844468,
+      "old_arrow_schema_sha256": "6e5af5a9a7e74b336237542671cb7b84b52deb2827d130197449411aef655221",
+      "old_sha256": "20d9054a23fdbb10ea995e67f48c06c2a21a621051cc8b00511e39fc6ac5f4e6",
+      "old_size_bytes": 6867610,
+      "path": "specialized_views/pk_adme_candidates/pk_adme_candidates_007992325_018143808.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5073915,
+        "old_coerced_null_cells": 5073915
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "19191110ad8ea99cae8ba27351dd94bf6917419da66487e89802fada46eec863",
+      "new_size_bytes": 4692077,
+      "old_arrow_schema_sha256": "54553f90ffb4e19be1269001d96b18d723cdbaf127fafc4749ba8098ea7e2b1c",
+      "old_sha256": "fdc03510d38c21c7393e67a6dd611df73b1a76582ca7c0db9a871625b3c64ddb",
+      "old_size_bytes": 4769361,
+      "path": "specialized_views/pk_adme_candidates/pk_adme_candidates_018143809_019717623.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5121707,
+        "old_coerced_null_cells": 5121707
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "22fd91b8ec5208c355624498cc81b98b4378075c98da432b08c4704d34b0a60d",
+      "new_size_bytes": 6055121,
+      "old_arrow_schema_sha256": "d3c810b7032eb9610373c8ef7c92ca465a7e5cd45e8dbd8ec48d769dbe32e9cc",
+      "old_sha256": "eccdca9b0b8f874f6b80918adb96786ef6fdf24869b04bff85faa261c2836628",
+      "old_size_bytes": 6076658,
+      "path": "specialized_views/pk_adme_candidates/pk_adme_candidates_019717624_026941656.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 5293796,
+        "old_coerced_null_cells": 5293796
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "d7d2b3976225d8fad6e818857da980110d84bebf3019ecd0afc536ab19b53e35",
+      "new_size_bytes": 1710439,
+      "old_arrow_schema_sha256": "fd0bd15cefddde86fc2b3785aa7d41aadf8523b7a8f1cfa584c1a4d7a3f29805",
+      "old_sha256": "e84d149c2739366d587c2021417996a7032f420e88e0dc9146905110762344db",
+      "old_size_bytes": 1730475,
+      "path": "specialized_views/pk_adme_candidates/pk_adme_candidates_026941657_029325552.parquet",
+      "rows": 64472,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 1709810,
+        "old_coerced_null_cells": 1709810
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "74f7f175b4e4f02b2610176ca28847ef8287d0fa27011891f5808b2aaa6def83",
+      "new_size_bytes": 9953569,
+      "old_arrow_schema_sha256": "3bdd20bb2ffb0c2a00d26b597a33fa1d1d00320a09eebd5b20604587408bf7fb",
+      "old_sha256": "e580c610d4ed13ba677736923625b5c327e50badaa6eb6af59c134f00f6fd169",
+      "old_size_bytes": 9981185,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_000031863_001675579.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4514270,
+        "old_coerced_null_cells": 4514270
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "c8e823b1f501aca223b65d223f192e8bd256ff4a7906c0edd89cfcde4ee691e4",
+      "new_size_bytes": 8971102,
+      "old_arrow_schema_sha256": "3bdd20bb2ffb0c2a00d26b597a33fa1d1d00320a09eebd5b20604587408bf7fb",
+      "old_sha256": "56d2795600407074283a010f0219fe07260a197550fc8990ac1b917d9359d6d4",
+      "old_size_bytes": 8995604,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_001675583_003408572.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4336691,
+        "old_coerced_null_cells": 4336691
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "05ebb32b94e2f1b4607af1863a22d759cd9502620394411f6e295a0f2e962509",
+      "new_size_bytes": 7755663,
+      "old_arrow_schema_sha256": "9739ff4d160386d23cca4bdc062411a6960920bee097eb3e136e84742edb589a",
+      "old_sha256": "1d4032f7e60b1ab50ff9b3301130c519aa9b50b7508aae43fb038c4f87ed9a21",
+      "old_size_bytes": 7777149,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_003408573_010991991.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4448754,
+        "old_coerced_null_cells": 4448754
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "d40a58cac204b3cfd31f44f9e64dce34b5ba90d95b7da77cec5730f93c933f67",
+      "new_size_bytes": 10455944,
+      "old_arrow_schema_sha256": "9739ff4d160386d23cca4bdc062411a6960920bee097eb3e136e84742edb589a",
+      "old_sha256": "31f14703118ef039986509230ec2dc6b087f74a07be897adcb8397fcd5044f26",
+      "old_size_bytes": 10473744,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_010991992_015680072.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4196399,
+        "old_coerced_null_cells": 4196399
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "5a4264c498017c74bbe4580b80c666cf5a2e8c773c5a36b7e581a94c50043ffe",
+      "new_size_bytes": 8853953,
+      "old_arrow_schema_sha256": "d1dae6333ee8842c1d88d582f2b5ad27ca199633843ee320bfcb90fdf2ca9bb1",
+      "old_sha256": "eb93946e47a2c00b39f3c001c0213027b8e0870cda37d620ee0e4422228f2b78",
+      "old_size_bytes": 8876778,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_015680073_017738806.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4384928,
+        "old_coerced_null_cells": 4384928
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "222828a2aca1c6e9a66fb3fd242da487b32cd2cc002b368bbb01014d3f42b936",
+      "new_size_bytes": 9959953,
+      "old_arrow_schema_sha256": "50939554aa89c3d8fb4ec3c41f57e96b6b1165b977e5df668dd0f1408535d3ed",
+      "old_sha256": "bc31e4d2617bd56321f548a72cc4a64fde36bfd36b5ae8982f09d2a256bf7dae",
+      "old_size_bytes": 9984382,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_017738807_019211672.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4384928,
+        "old_coerced_null_cells": 4384928
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "7ebd29d817f7e64abb8132f0dfcfafcc940a2c450473d256aeeff2cc4658b5b9",
+      "new_size_bytes": 11575258,
+      "old_arrow_schema_sha256": "a4104946fd209594ecbc5d70ce60b032414b49913a1c29de1368fb1f2c91850b",
+      "old_sha256": "2fa033988c70a24a93bcc4afed268272b0003d216f5fd71f9f5cb32336d6c6cc",
+      "old_size_bytes": 11601176,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_019211731_024958654.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4268370,
+        "old_coerced_null_cells": 4268370
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "853b46f98030d7b22053ea99afa8f6c3d180b509d845267efddf52de22683656",
+      "new_size_bytes": 11794432,
+      "old_arrow_schema_sha256": "49952e0f54f9819e9a1da0740b4a50ab9cba985c2f0609d8e7a2631fe82a3c1e",
+      "old_sha256": "90561557a410864538d8ba01e2ea9dd7ec28e2e103b6bde46d3470f9720852df",
+      "old_size_bytes": 11812514,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_024958655_026869003.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4277060,
+        "old_coerced_null_cells": 4277060
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "33d2e47399f25d7e7e8fd0820abbcd67bf7890829e5acceba748f16e5e89db33",
+      "new_size_bytes": 7003505,
+      "old_arrow_schema_sha256": "266d3b0e8e66b6e8835287a79313a231be417f152c90257c0e6dbaf1804f0e81",
+      "old_sha256": "e82f8c2ccc3309b594c92a6d376d4562e6c8167718c96b6480319d34641de6c0",
+      "old_size_bytes": 7025048,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_026869006_027676103.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4511318,
+        "old_coerced_null_cells": 4511318
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "cc858340ce6b0826f38e31822652e60800b9e8ea14eb9d8b7470c013a2cb8811",
+      "new_size_bytes": 6823087,
+      "old_arrow_schema_sha256": "8b109b8e2ad4545fec04a6a5337cc290c434743ccfd58c71201f11c3883bab3f",
+      "old_sha256": "fd7c00c789a61d6f0009dc8f17ad83ed924301d0d62bfe8779d0833f858a280d",
+      "old_size_bytes": 6843322,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_027676106_028490624.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4508733,
+        "old_coerced_null_cells": 4508733
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "eb98c87274399cb1fe7c35672e3dd69edbf64462df628ecf02722d2125d6ecd6",
+      "new_size_bytes": 6092692,
+      "old_arrow_schema_sha256": "4d2517dc14df1759c1c887403b84e8aa01b22c302b3316e63f4e2088e323ea18",
+      "old_sha256": "cc0c95dbc5d9f06ba77cfaaeac2782a83c2168f43e2de7cc888023cbfa662037",
+      "old_size_bytes": 6113743,
+      "path": "specialized_views/single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_028490627_029331168.parquet",
+      "rows": 164194,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 3650222,
+        "old_coerced_null_cells": 3650222
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "bb7db65b08c9ca74c864bc36288dbb6f83ed5178bc88f0a8858b4a1b97b13609",
+      "new_size_bytes": 8417602,
+      "old_arrow_schema_sha256": "3bdd20bb2ffb0c2a00d26b597a33fa1d1d00320a09eebd5b20604587408bf7fb",
+      "old_sha256": "1a938f2259e78b611585d2f0e8c4d2a0c13ed7378d46d126505f4f7b6199b302",
+      "old_size_bytes": 8442163,
+      "path": "specialized_views/single_protein_kd_ki/single_protein_kd_ki_000031889_002461356.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4424801,
+        "old_coerced_null_cells": 4424801
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "e0f668e6df948e80557b39409a2db292d41eb8601f1b300b01b78ee5faccf559",
+      "new_size_bytes": 4322300,
+      "old_arrow_schema_sha256": "9739ff4d160386d23cca4bdc062411a6960920bee097eb3e136e84742edb589a",
+      "old_sha256": "e2d216802a26df718a4e30db21bf94b5943841d377cd21866846c1c33dc8095d",
+      "old_size_bytes": 4343728,
+      "path": "specialized_views/single_protein_kd_ki/single_protein_kd_ki_002461357_009629124.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4618426,
+        "old_coerced_null_cells": 4618426
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "28f6adbf3863a179aec1e0c9933107deef3fea6a38313f5530c13aebc5397f5c",
+      "new_size_bytes": 6685590,
+      "old_arrow_schema_sha256": "f10088c00b476104d6c969b5fca29deeac39c0700b79a1c7e3db7c75833baf72",
+      "old_sha256": "e41bd8f27c3a96a8676a345eec62b914f8ec54bbc4fe3c8860e8395a2a01ddf3",
+      "old_size_bytes": 6700807,
+      "path": "specialized_views/single_protein_kd_ki/single_protein_kd_ki_009629125_017922384.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4135725,
+        "old_coerced_null_cells": 4135725
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "d3fd4048a45b61236bc909590036128516922fb2a51b323e092003e8dd3ac790",
+      "new_size_bytes": 10149160,
+      "old_arrow_schema_sha256": "017b97d7b2f5c55e64b35e026789ac6c034a02d2c96139dc6ade75bcf0892b4b",
+      "old_sha256": "cb4dec7c8572d263c282f8dd7a1441a922c85cc5ec7e00f207a9b6d626f56ecf",
+      "old_size_bytes": 10173878,
+      "path": "specialized_views/single_protein_kd_ki/single_protein_kd_ki_017922385_027830996.parquet",
+      "rows": 200000,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 4180448,
+        "old_coerced_null_cells": 4180448
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "new_sha256": "d4edfb251956ec8ef7605866c3f957bf56ec41ba66a209ce85fde5772f5e9b18",
+      "new_size_bytes": 2283360,
+      "old_arrow_schema_sha256": "b7f46dd741941135dcefeb6da3fd25a99ff1462e3ecea16733b03519c1461bfc",
+      "old_sha256": "9dd2624c274ef85103b89c72be7aba60a2b6a1e9bac20dfd05ffaee7d714180d",
+      "old_size_bytes": 2303247,
+      "path": "specialized_views/single_protein_kd_ki/single_protein_kd_ki_027830999_029331268.parquet",
+      "rows": 58991,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 1314060,
+        "old_coerced_null_cells": 1314060
+      }
+    },
+    {
+      "declared_arrow_schema_sha256": "8bc92710e2b980c6e02e5a4dab89be99ec12c722485f7c9e5d1b5cb3d35a2fd0",
+      "new_sha256": "6d7543e77a959de564467455b5152b453e71812143666671386daec20514a658",
+      "new_size_bytes": 5701232,
+      "old_arrow_schema_sha256": "a5154bb27b9391db8730442dbf84bdf767d89641a5f50418f55c6edd996e95a8",
+      "old_sha256": "0c302d00fe3cbd6fd187450fb2d480f545f6b74c935b892f269dc79552f27306",
+      "old_size_bytes": 5707747,
+      "path": "specialized_views/target_components.parquet",
+      "rows": 22622,
+      "value_preservation": {
+        "coerced_old_equals_new": true,
+        "method": "exact Arrow Table.equals after safe cast to declared schema",
+        "new_null_cells": 43395,
+        "old_coerced_null_cells": 43395
+      }
+    }
+  ],
+  "generated_at_utc": "2026-08-04T19:36:08Z",
+  "proof_boundary": "schema-only rewrite; every new Parquet table exactly equals the safely coerced old Arrow table, including null masks",
+  "schema_version": "platform-evidence-1.0.0",
+  "source_identity": {
+    "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+    "pre_normalization_activity_manifest_sha256": "cfdc4da0d3180659b5e50452d6812098db6e52bc05396a90fc0250169780f8fb",
+    "pre_normalization_specialized_summary_sha256": "b1884a5a11808884f983f11bb9e08df49d9d151bba414b7275761d3046894383",
+    "source_version": "ChEMBL_37"
+  },
+  "status": "complete"
+}

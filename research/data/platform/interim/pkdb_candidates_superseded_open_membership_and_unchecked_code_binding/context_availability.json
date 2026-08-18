@@ -1,0 +1,30 @@
+{
+  "coverage_measurement_status": "not_measurable_from_anonymous_zero-record output response",
+  "document_sha256": "13df79af9a859dc62b72a04b94384ebbc7534a3d96881f62e2009e38e0a429c7",
+  "fields_required_before_future_observation_admission": [
+    "study_sid",
+    "study_access",
+    "study_licence",
+    "species",
+    "route",
+    "matrix_or_tissue",
+    "dose_value_and_unit",
+    "time_value_and_unit",
+    "endpoint_sid",
+    "endpoint_value_and_unit",
+    "raw_record_pointer"
+  ],
+  "numeric_values_emitted": 0,
+  "public_count_consistency_audit": {
+    "interpretation": "query/statistics definitions or access filters differ; counts are not interchangeable",
+    "intervention_counts_match": false,
+    "interventions_query_reported_count": 4762,
+    "statistics_intervention_count": 2392,
+    "statistics_study_count": 819,
+    "studies_query_reported_count": 803,
+    "study_counts_match": false
+  },
+  "schema_version": "platform-pkdb-public-candidates/1.0",
+  "source_id": "pkdb_public_api_v1",
+  "unknown_is_not_absent": true
+}

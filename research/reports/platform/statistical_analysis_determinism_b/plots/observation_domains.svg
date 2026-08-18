@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="30" font-family="sans-serif" font-size="18">Canonical observation evidence domains</text>
+<text x="20" y="49" font-family="sans-serif" font-size="11">population=3938372; displayed=5; deterministic cap=20</text>
+<text x="10" y="71" font-family="monospace" font-size="11">binding</text>
+<rect x="300" y="58" width="630.0" height="18" fill="#35618f"/>
+<text x="935.0" y="72" font-family="monospace" font-size="11">2706128</text>
+<text x="10" y="99" font-family="monospace" font-size="11">pk_adme</text>
+<rect x="300" y="86" width="201.195" height="18" fill="#35618f"/>
+<text x="506.195" y="100" font-family="monospace" font-size="11">864223</text>
+<text x="10" y="127" font-family="monospace" font-size="11">other</text>
+<rect x="300" y="114" width="75.885" height="18" fill="#35618f"/>
+<text x="380.885" y="128" font-family="monospace" font-size="11">325961</text>
+<text x="10" y="155" font-family="monospace" font-size="11">herg</text>
+<rect x="300" y="142" width="9.512" height="18" fill="#35618f"/>
+<text x="314.512" y="156" font-family="monospace" font-size="11">40860</text>
+<text x="10" y="183" font-family="monospace" font-size="11">qt</text>
+<rect x="300" y="170" width="0.279" height="18" fill="#35618f"/>
+<text x="305.279" y="184" font-family="monospace" font-size="11">1200</text>
+</svg>

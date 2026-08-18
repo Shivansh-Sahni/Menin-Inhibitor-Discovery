@@ -1,0 +1,96 @@
+{
+  "dataset_key": "default::default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm",
+  "declared_rows": 120,
+  "diagnostic_acceptance_path": "tasks/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_-d97b505e9e19/diagnostics/acceptance.json",
+  "diagnostic_acceptance_sha256": "b714dc3705f7d0d8ae0a86e3ae6f604ffa8be7fc51f7d3d0a219c25ffdd8d602",
+  "diagnostic_disposition_materialized": false,
+  "diagnostic_materialized": true,
+  "diagnostic_path": "tasks/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_-d97b505e9e19/diagnostics",
+  "diagnostic_reason": "",
+  "diagnostic_status": "completed_diagnostic_only",
+  "integration_acceptance_path": "tasks/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_-d97b505e9e19/integration/acceptance.json",
+  "integration_acceptance_sha256": "81869940a70047c0bdb3eb2ac758e0609b376d284efc2b4d230a8cdd6a4ef5bf",
+  "integration_materialized": true,
+  "integration_path": "tasks/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_-d97b505e9e19/integration",
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "default::default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm",
+    "declared_rows": 120,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 12,
+      "train": 69,
+      "validation": 10
+    },
+    "predicted_partition_rows": {
+      "test": 13,
+      "train": 93,
+      "validation": 14
+    },
+    "rows_scanned": 120,
+    "skip_reasons": [],
+    "substantive_training_started": false,
+    "support_decision": "integrate",
+    "task_semantics": {
+      "assay_family": "herg_functional",
+      "endpoint": "IC50",
+      "evidence_domain": "herg",
+      "label_kind": "categorical",
+      "observation_kind": "experimental_summary",
+      "task_id": "TASK-9EF0A903755F8DBA39DDDDC2",
+      "task_type": "default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm"
+    },
+    "unique_molecule_groups": 91,
+    "unique_observation_ids": 120,
+    "unique_protein_groups": 1
+  },
+  "skip_reasons": [],
+  "status": "integrated_and_diagnostic_completed",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "f5e5893b5c36cd8cba8fe4fec1c8bfabdddac1abd2b4bc6733d9b94d1228f7b5",
+  "task_output_path": "tasks/default_herg_ic50_herg_functional_binary_exact_blocker_le_10000nm_nonblocker_ge_-d97b505e9e19",
+  "task_scope": "default",
+  "task_type": "default__herg__ic50__herg_functional__binary_exact__blocker_le_10000nm__nonblocker_ge_30000nm",
+  "test_partition_opened_by_diagnostics": false,
+  "training_label_support": {
+    "binary_label_mapping": [],
+    "capped_training_label_counts": {
+      "0": 18,
+      "1": 75
+    },
+    "label_kind": "categorical",
+    "maximum_categorical_label_cardinality": 32,
+    "selection_seed": 20260804,
+    "skip_reasons": [],
+    "status": "supported",
+    "substantive_training_started": false,
+    "test_labels_read": false,
+    "test_partition_opened_or_hashed": false,
+    "training_label_counts": {
+      "0": 18,
+      "1": 75
+    },
+    "training_labels_read": true,
+    "training_rows_declared": 93,
+    "training_rows_scanned": 93,
+    "training_scan_complete": true,
+    "validation_labels_read": false
+  }
+}

@@ -1,0 +1,4 @@
+source,source_rows,eligible_rows,structures,excluded_rows
+BindingDB,1126,1124,934,2
+ChEMBL,1776,747,688,1029
+PubChem,5274,1927,2058,3347

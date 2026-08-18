@@ -1,0 +1,106 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1801033,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "BindingDB",
+              "source_id": {
+                "str": "BindingDB_6769_2"
+              }
+            }
+          },
+          "name": "Homogeneous Time-Resolve Fluorescence (HTRF) Assay from US Patent US8993552: \"Compositions and methods for treatment of leukemia\"",
+          "description": [
+            "One potential limitation of the above FP assay is the risk of selection of compounds that may interfere with the FP assays and produce so called false-positives. Therefore, during development of embodiments of the present invention, a time-resolved fluorescence resonance energy transfer (TR-FRET) assay was utilized as a secondary, assay (e.g. for confirmation of results), commercialized by CIS-BIO as homogeneous time-resolve fluorescence (HTRF) assay. In some embodiments, the HTRF assay may be the primary assay and the FP assay is used as a secondary assay to confirm results. HTRF is based on the non-radiative energy transfer of the long-lived emission from the Europium cryptate (Eu3+-cryptate) donor to the allophycocyanin (XL665) acceptor, combined with time-resolved detection. When these two fluorophores are brought together by a biomolecular interaction, a portion of the energy captured by the Eu3+-cryptate during excitation at 337 nm is released through fluorescence emission."
+          ],
+          "comment": [
+            "Compounds with any of Ki, IC50, Kd, or EC50 activity value <= 10uM are labeled as \"Active\".",
+            "If multiple measurements are available for a given compound, it is labeled as \"Active\" if any of the measurements meet the criterion. Activity values are checked in the order of Ki, IC50, Kd, and EC50. The first entry that meets the above activity threshold is used to determine \"Standard Type\", \"Standard Relation\", and \"PubChem Standard Value\". Otherwise, the first non-empty entry will be used to set those values."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://www.bindingdb.org"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.bindingdb.org/rwd/jsp/dbsearch/assay.jsp?assayid=2&entryid=6769"
+              }
+            },
+            {
+              "xref": {
+                "patent": "US8993552"
+              },
+              "comment": "Compositions and methods for treatment of leukemia",
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (i.e. Ki, IC50, Kd, or EC50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "IC50",
+              "type": 1,
+              "unit": 6
+            },
+            {
+              "tid": 4,
+              "name": "Target Accession(s)",
+              "description": [
+                "Protein accession(s) of target"
+              ],
+              "type": 4,
+              "annot": 21
+            },
+            {
+              "tid": 5,
+              "name": "Ligand",
+              "description": [
+                "BindingDB Ligand"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Target",
+              "description": [
+                "BindingDB Target"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "BDB_ENTRY:6769"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "arrow_schema": {
+    "fields": [
+      {
+        "name": "activity_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "action_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "activity_comment",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "bao_endpoint",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "data_validity_comment",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "potential_duplicate",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "qudt_units",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "record_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "relation",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "src_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "standard_flag",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "standard_relation",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "standard_text_value",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "standard_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "standard_units",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "standard_upper_value",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "standard_value",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "text_value",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "toid",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "units",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "uo_units",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "upper_value",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "value",
+        "nullable": true,
+        "type": "double"
+      },
+      {
+        "name": "modality",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_chembl_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_description",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_test_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_category",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_organism",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_tax_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "assay_strain",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_tissue",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_cell_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "assay_subcellular_fraction",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "relationship_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "src_assay_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "cell_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "tissue_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "variant_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "assay_group",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "bao_format",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "confidence_score",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "target_chembl_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_pref_name",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_organism",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "target_tax_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "molecule_chembl_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "molecule_pref_name",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "canonical_smiles",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "standard_inchi_key",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_chembl_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_journal",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_year",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "document_doi",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "pubmed_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "patent_id",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_title",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_type",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "document_chembl_release_id",
+        "nullable": true,
+        "type": "int64"
+      },
+      {
+        "name": "activity_source_name",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "activity_source_description",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_accessions",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_sequences",
+        "nullable": true,
+        "type": "large_string"
+      },
+      {
+        "name": "component_types",
+        "nullable": true,
+        "type": "large_string"
+      }
+    ],
+    "format": "apache-arrow-field-contract-v1",
+    "schema_metadata": null,
+    "sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0"
+  },
+  "completed_at_utc": "2026-08-04T17:06:28Z",
+  "count_query": "SELECT COUNT(*)\nFROM activities AS a\nLEFT JOIN assays AS s ON a.assay_id = s.assay_id\nLEFT JOIN target_dictionary AS t ON s.tid = t.tid\nWHERE upper(t.target_type) = 'SINGLE PROTEIN' AND upper(a.standard_type) IN ('IC50','EC50') AND a.standard_value IS NOT NULL AND a.standard_value > 0 AND lower(a.standard_units) IN ('pm','picomolar','nm','nanomolar','um','micromolar','mm','millimolar','m','molar')",
+  "database_sha256": "4be13df3b68e25dcd0bff44bf094033b5aebe98f415acdc8c1cdf380e0c15142",
+  "part_count": 11,
+  "parts": [
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 31863,
+      "last_activity_id": 1675579,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_000031863_001675579.parquet",
+      "rows": 200000,
+      "sha256": "74f7f175b4e4f02b2610176ca28847ef8287d0fa27011891f5808b2aaa6def83",
+      "size_bytes": 9953569
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 1675583,
+      "last_activity_id": 3408572,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_001675583_003408572.parquet",
+      "rows": 200000,
+      "sha256": "c8e823b1f501aca223b65d223f192e8bd256ff4a7906c0edd89cfcde4ee691e4",
+      "size_bytes": 8971102
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 3408573,
+      "last_activity_id": 10991991,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_003408573_010991991.parquet",
+      "rows": 200000,
+      "sha256": "05ebb32b94e2f1b4607af1863a22d759cd9502620394411f6e295a0f2e962509",
+      "size_bytes": 7755663
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 10991992,
+      "last_activity_id": 15680072,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_010991992_015680072.parquet",
+      "rows": 200000,
+      "sha256": "d40a58cac204b3cfd31f44f9e64dce34b5ba90d95b7da77cec5730f93c933f67",
+      "size_bytes": 10455944
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 15680073,
+      "last_activity_id": 17738806,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_015680073_017738806.parquet",
+      "rows": 200000,
+      "sha256": "5a4264c498017c74bbe4580b80c666cf5a2e8c773c5a36b7e581a94c50043ffe",
+      "size_bytes": 8853953
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 17738807,
+      "last_activity_id": 19211672,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_017738807_019211672.parquet",
+      "rows": 200000,
+      "sha256": "222828a2aca1c6e9a66fb3fd242da487b32cd2cc002b368bbb01014d3f42b936",
+      "size_bytes": 9959953
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 19211731,
+      "last_activity_id": 24958654,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_019211731_024958654.parquet",
+      "rows": 200000,
+      "sha256": "7ebd29d817f7e64abb8132f0dfcfafcc940a2c450473d256aeeff2cc4658b5b9",
+      "size_bytes": 11575258
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 24958655,
+      "last_activity_id": 26869003,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_024958655_026869003.parquet",
+      "rows": 200000,
+      "sha256": "853b46f98030d7b22053ea99afa8f6c3d180b509d845267efddf52de22683656",
+      "size_bytes": 11794432
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 26869006,
+      "last_activity_id": 27676103,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_026869006_027676103.parquet",
+      "rows": 200000,
+      "sha256": "33d2e47399f25d7e7e8fd0820abbcd67bf7890829e5acceba748f16e5e89db33",
+      "size_bytes": 7003505
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 27676106,
+      "last_activity_id": 28490624,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_027676106_028490624.parquet",
+      "rows": 200000,
+      "sha256": "cc858340ce6b0826f38e31822652e60800b9e8ea14eb9d8b7470c013a2cb8811",
+      "size_bytes": 6823087
+    },
+    {
+      "arrow_schema_sha256": "035a7a46e432919a5cf322570fac6a450bd8f47f32fbe55effc49c78af51d4b0",
+      "first_activity_id": 28490627,
+      "last_activity_id": 29331168,
+      "path": "single_protein_ic50_ec50_candidates/single_protein_ic50_ec50_candidates_028490627_029331168.parquet",
+      "rows": 164194,
+      "sha256": "eb98c87274399cb1fe7c35672e3dd69edbf64462df628ecf02722d2125d6ecd6",
+      "size_bytes": 6092692
+    }
+  ],
+  "query": "SELECT a.\"activity_id\" AS \"activity_id\", a.\"action_type\" AS \"action_type\", a.\"activity_comment\" AS \"activity_comment\", a.\"bao_endpoint\" AS \"bao_endpoint\", a.\"data_validity_comment\" AS \"data_validity_comment\", a.\"potential_duplicate\" AS \"potential_duplicate\", a.\"qudt_units\" AS \"qudt_units\", a.\"record_id\" AS \"record_id\", a.\"relation\" AS \"relation\", a.\"src_id\" AS \"src_id\", a.\"standard_flag\" AS \"standard_flag\", a.\"standard_relation\" AS \"standard_relation\", a.\"standard_text_value\" AS \"standard_text_value\", a.\"standard_type\" AS \"standard_type\", a.\"standard_units\" AS \"standard_units\", a.\"standard_upper_value\" AS \"standard_upper_value\", a.\"standard_value\" AS \"standard_value\", a.\"text_value\" AS \"text_value\", a.\"toid\" AS \"toid\", a.\"type\" AS \"type\", a.\"units\" AS \"units\", a.\"uo_units\" AS \"uo_units\", a.\"upper_value\" AS \"upper_value\", a.\"value\" AS \"value\", a.\"modality\" AS \"modality\", s.\"chembl_id\" AS \"assay_chembl_id\", s.\"description\" AS \"assay_description\", s.\"assay_type\" AS \"assay_type\", s.\"assay_test_type\" AS \"assay_test_type\", s.\"assay_category\" AS \"assay_category\", s.\"assay_organism\" AS \"assay_organism\", s.\"assay_tax_id\" AS \"assay_tax_id\", s.\"assay_strain\" AS \"assay_strain\", s.\"assay_tissue\" AS \"assay_tissue\", s.\"assay_cell_type\" AS \"assay_cell_type\", s.\"assay_subcellular_fraction\" AS \"assay_subcellular_fraction\", s.\"relationship_type\" AS \"relationship_type\", s.\"src_assay_id\" AS \"src_assay_id\", s.\"cell_id\" AS \"cell_id\", s.\"tissue_id\" AS \"tissue_id\", s.\"variant_id\" AS \"variant_id\", s.\"assay_group\" AS \"assay_group\", s.\"bao_format\" AS \"bao_format\", s.\"confidence_score\" AS \"confidence_score\", t.\"chembl_id\" AS \"target_chembl_id\", t.\"pref_name\" AS \"target_pref_name\", t.\"target_type\" AS \"target_type\", t.\"organism\" AS \"target_organism\", t.\"tax_id\" AS \"target_tax_id\", m.\"chembl_id\" AS \"molecule_chembl_id\", m.\"pref_name\" AS \"molecule_pref_name\", cs.\"canonical_smiles\" AS \"canonical_smiles\", cs.\"standard_inchi_key\" AS \"standard_inchi_key\", d.\"chembl_id\" AS \"document_chembl_id\", d.\"journal\" AS \"document_journal\", d.\"year\" AS \"document_year\", d.\"doi\" AS \"document_doi\", d.\"pubmed_id\" AS \"pubmed_id\", d.\"patent_id\" AS \"patent_id\", d.\"title\" AS \"document_title\", d.\"doc_type\" AS \"document_type\", d.\"chembl_release_id\" AS \"document_chembl_release_id\", sd.\"src_short_name\" AS \"activity_source_name\", sd.\"src_description\" AS \"activity_source_description\", comp.component_accessions AS \"component_accessions\", comp.component_sequences AS \"component_sequences\", comp.component_types AS \"component_types\"\nFROM activities AS a\nLEFT JOIN assays AS s ON a.assay_id = s.assay_id\nLEFT JOIN target_dictionary AS t ON s.tid = t.tid\nLEFT JOIN molecule_dictionary AS m ON a.molregno = m.molregno\nLEFT JOIN compound_structures AS cs ON a.molregno = cs.molregno\nLEFT JOIN docs AS d ON a.doc_id = d.doc_id\nLEFT JOIN \"source\" AS sd ON a.src_id = sd.src_id\nLEFT JOIN (\n    SELECT ordered.tid,\n           GROUP_CONCAT(ordered.accession, ';') AS component_accessions,\n           GROUP_CONCAT(ordered.sequence, ';') AS component_sequences,\n           GROUP_CONCAT(ordered.component_type, ';') AS component_types\n    FROM (\n        SELECT tc.tid,\n               COALESCE(cs.accession, '') AS accession,\n               COALESCE(cs.sequence, '') AS sequence,\n               COALESCE(cs.component_type, '') AS component_type\n        FROM target_components AS tc\n        LEFT JOIN component_sequences AS cs ON tc.component_id = cs.component_id\n        ORDER BY tc.tid, tc.component_id, cs.accession\n    ) AS ordered\n    GROUP BY ordered.tid\n) AS comp ON t.tid = comp.tid\nWHERE a.activity_id > ? AND (upper(t.target_type) = 'SINGLE PROTEIN' AND upper(a.standard_type) IN ('IC50','EC50') AND a.standard_value IS NOT NULL AND a.standard_value > 0 AND lower(a.standard_units) IN ('pm','picomolar','nm','nanomolar','um','micromolar','mm','millimolar','m','molar'))\nORDER BY a.activity_id\nLIMIT ?",
+  "query_sha256": "0d01a565c091e8300d2f15cafb2721c45137a98bb1277ba9c1b822166bac2c8e",
+  "row_count": 2164194,
+  "schema_normalization_receipt": {
+    "parquet_files": 162,
+    "path": "schema_normalization_receipt.json",
+    "sha256": "f15fdded578000962073676796a879c77c395c4f92a099b20b072a0990a653df",
+    "size_bytes": 141673
+  },
+  "schema_normalized_at_utc": "2026-08-04T19:36:05Z",
+  "schema_version": "platform-evidence-1.0.0",
+  "scientific_boundary": "IC50 and EC50 potency/activity candidates remain separate and are never labeled binding affinity.",
+  "source_version": "ChEMBL_37",
+  "view_name": "single_protein_ic50_ec50_candidates"
+}

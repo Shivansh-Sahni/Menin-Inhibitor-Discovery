@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-binding-ki-other-bioactivity-nm-continuous-censored-62431e6d9bce/strategies/scaffold/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "47495aa4101186a1991581a92e6dce588fabb3ad1c2d47487f6cbe9a10db7083",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 10013,
+    "train": 47854,
+    "validation": 16431
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-binding-ki-other-bioactivity-nm-continuous-censored-62431e6d9bce/strategies/scaffold/split.parquet.manifest.json",
+  "sidecar_sha256": "48b3ac02c4246f1db9e0123a681d9edf8c0958ca780196d337477d4e42f1bcd3",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-binding-ki-other-bioactivity-nm-continuous-censored-62431e6d9bce/strategies/scaffold/split.parquet",
+  "split_rows": 74298,
+  "split_sha256": "5f8bcd322cd34e8a0cd2fb3b5b8919160e7cd116ccce87a2fce8a8b3501823ba",
+  "status": "materialized",
+  "strategy": "scaffold",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

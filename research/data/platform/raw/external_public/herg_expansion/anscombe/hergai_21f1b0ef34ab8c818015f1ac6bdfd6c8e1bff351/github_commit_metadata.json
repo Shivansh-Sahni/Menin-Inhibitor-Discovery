@@ -1,0 +1,101 @@
+{
+  "sha": "21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351",
+  "node_id": "C_kwDONs2fQdoAKDIxZjFiMGVmMzRhYjhjODE4MDE1ZjFhYzZiZGZkNmM4ZTFiZmYzNTE",
+  "commit": {
+    "author": {
+      "name": "Viet-Khoa Tran-Nguyen",
+      "email": "107869465+vktrannguyen@users.noreply.github.com",
+      "date": "2026-01-01T21:45:32Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-01-01T21:45:32Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "891293d79f6d5e5cf9e9f92b3e25bf77f287cfa7",
+      "url": "https://api.github.com/repos/vktrannguyen/HERGAI/git/trees/891293d79f6d5e5cf9e9f92b3e25bf77f287cfa7"
+    },
+    "url": "https://api.github.com/repos/vktrannguyen/HERGAI/git/commits/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpVur8CRC1aQ7uu5UhlAAAJbcQAFO3vDmfv75GquCe4X1HPtDz\n3XXg1UjgxnQZkU9me5UGHteDjd3VyjUAzd9CRjhFmvfIeIOqUrzCEz+VeQncV8rr\nTd2bZs6Dz81GhlnESl5OZpNXDjp2e2i1Fmp0VPoO4uAWg3VFew9F/2X9Afd0y1mY\nJGdebvHwnQ98tTE+Q0TFbt6BGGTPnJgKq0VRkP+waC3zFTQaJbvNVfK6NqGmWz3O\nxFDHSWGDXYuiwBAsLRlGGQzGHp984twWV5fOKmtjO/8ByTlyygnQfvA6bZpggI58\n5PIuEvpNzD7FXnZb8vy+YadxV/dS5H/OJlMuVuqf9kPTpG8TKPMv933vxH6/nOoy\n8zTFx9uPfoUwTqUXWbuO5z9lBjO08hxHEXzEeC8FPKVrfSw3Z20MGlU01Dq/e2yD\nR4IZgW7g/p7uyKJ0QZ/50assKdYZgdc/Nid4Xf45Nys0kGIvmZUi5RYl+UuI0Gcp\nL0Qale23gx0o+wEasQeGMAPeSXhxpS3myT9Agb8NR+ovSddCRm79EJ7PiAIULc6x\n5S4iYe96r6pjTkpMW8aJS9qOcH2ZUAQTLfLpoISgxRX0ERQY5DXSiuF4P45Qm9l7\niLf3laPV3/p+Hl9pF9ldIPsftGJuJyaIZv+DsYKfKH3/bMGlvbsH3ouwBR4mac88\nqIsipUlnltj5LUbURBty\n=mYVw\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 891293d79f6d5e5cf9e9f92b3e25bf77f287cfa7\nparent c71d91382e75373717f3a827e1600030ab3ec1b1\nauthor Viet-Khoa Tran-Nguyen <107869465+vktrannguyen@users.noreply.github.com> 1767303932 +0100\ncommitter GitHub <noreply@github.com> 1767303932 +0100\n\nUpdate README.md",
+      "verified_at": "2026-01-01T21:45:32Z"
+    }
+  },
+  "url": "https://api.github.com/repos/vktrannguyen/HERGAI/commits/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351",
+  "html_url": "https://github.com/vktrannguyen/HERGAI/commit/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351",
+  "comments_url": "https://api.github.com/repos/vktrannguyen/HERGAI/commits/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351/comments",
+  "author": {
+    "login": "vktrannguyen",
+    "id": 107869465,
+    "node_id": "U_kgDOBm31GQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/107869465?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/vktrannguyen",
+    "html_url": "https://github.com/vktrannguyen",
+    "followers_url": "https://api.github.com/users/vktrannguyen/followers",
+    "following_url": "https://api.github.com/users/vktrannguyen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vktrannguyen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/vktrannguyen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/vktrannguyen/subscriptions",
+    "organizations_url": "https://api.github.com/users/vktrannguyen/orgs",
+    "repos_url": "https://api.github.com/users/vktrannguyen/repos",
+    "events_url": "https://api.github.com/users/vktrannguyen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/vktrannguyen/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c71d91382e75373717f3a827e1600030ab3ec1b1",
+      "url": "https://api.github.com/repos/vktrannguyen/HERGAI/commits/c71d91382e75373717f3a827e1600030ab3ec1b1",
+      "html_url": "https://github.com/vktrannguyen/HERGAI/commit/c71d91382e75373717f3a827e1600030ab3ec1b1"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "3cb96d1ee58b28c26c41716ce4263a1f0cee8cb8",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/vktrannguyen/HERGAI/blob/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351/README.md",
+      "raw_url": "https://github.com/vktrannguyen/HERGAI/raw/21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351/README.md",
+      "contents_url": "https://api.github.com/repos/vktrannguyen/HERGAI/contents/README.md?ref=21f1b0ef34ab8c818015f1ac6bdfd6c8e1bff351",
+      "patch": "@@ -58,7 +58,7 @@ To use our code, you need to install **Python (v.3.7)** and set up a proper envi\n \n ---------------------------------------------------------------------------------------------------------------------------------------------------\n \n-This work was carried out at the Unité de Biologie Fonctionnelle et Adaptative (BFA), INSERM U1133, CNRS UMR8251, Université Paris Cité, France. The latest version of all data and source code provided herein was updated and made available free of charge in January 2025, and is subject to copyright.\n+This work was carried out at the Unité de Biologie Fonctionnelle et Adaptative (BFA), INSERM ERL 1133, CNRS UMR 8251, Université Paris Cité, France. The latest version of all data and source code provided herein was updated and made available free of charge in January 2025, and is subject to copyright.\n \n \n "
+    }
+  ]
+}

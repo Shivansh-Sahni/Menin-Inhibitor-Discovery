@@ -1,0 +1,374 @@
+{"kind":"deck","id":"pr/qx28wo","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"hERG Prediction Platform","textShapes":6}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"text":"hERG Prediction Platform","textPreview":"hERG Prediction Platform","textChars":24,"textLines":1,"bbox":[48,84,540,132]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"text":"Nine Iterations of Honest Model Development","textPreview":"Nine Iterations of Honest Model Development","textChars":43,"textLines":1,"bbox":[48,236,540,54]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"text":"Continuous potency prediction, transparent failure domains, and a clear experimental path","textPreview":"Continuous potency prediction, transparent failure domains, and a clear experimental path","textChars":89,"textLines":1,"bbox":[48,318,520,108]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"18,801 Structures","textPreview":"18,801 Structures","textChars":17,"textLines":1,"bbox":[48,488,210,34]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"8,455 Scaffolds","textPreview":"8,455 Scaffolds","textChars":15,"textLines":1,"bbox":[270,488,210,34]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"text":"5 Nested Folds","textPreview":"5 Nested Folds","textChars":14,"textLines":1,"bbox":[48,536,210,34]}
+{"kind":"shape","id":"sh/sryl4zqx","slide":1,"bbox":[620,42,614,612]}
+{"kind":"image","id":"im/jqxw72dk","slide":1,"name":"","bbox":[640,144.78,574,406.43]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"Open with the development arc: the work moved from data governance and 2D baselines through physics, measurement modeling, exhaustive feature combinations, and domain specialists. The core contribution is an honest broad prediction platform with clearly measured limits.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/06_graphical_summary.png\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Nine Iterations of Model Development","textShapes":28}
+{"kind":"textbox","id":"sh/je9crql0","slide":2,"text":"Nine Iterations of Model Development","textPreview":"Nine Iterations of Model Development","textChars":36,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/tw7ud0va","slide":2,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"bbox":[46,132,372,156]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"V1","textPreview":"V1","textChars":2,"textLines":1,"bbox":[64,148,54,34]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"text":"Dataset Governance","textPreview":"Dataset Governance","textChars":18,"textLines":1,"bbox":[122,148,278,34]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"Structure identities, provenance, frozen splits, and leakage controls.","textPreview":"Structure identities, provenance, frozen splits, and leakage controls.","textChars":70,"textLines":1,"bbox":[64,192,336,82]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[446,132,372,156]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"text":"V2","textPreview":"V2","textChars":2,"textLines":1,"bbox":[464,148,54,34]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"Tuned 2D XGBoost","textPreview":"Tuned 2D XGBoost","textChars":16,"textLines":1,"bbox":[522,148,278,34]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"text":"First strong scaffold anchor at approximately 0.446 MAE.","textPreview":"First strong scaffold anchor at approximately 0.446 MAE.","textChars":56,"textLines":1,"bbox":[464,192,336,82]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"bbox":[846,132,372,156]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"V3","textPreview":"V3","textChars":2,"textLines":1,"bbox":[864,148,54,34]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"text":"Broader Model Search","textPreview":"Broader Model Search","textChars":20,"textLines":1,"bbox":[922,148,278,34]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"text":"More model families and features did not improve the honest anchor.","textPreview":"More model families and features did not improve the honest anchor.","textChars":67,"textLines":1,"bbox":[864,192,336,82]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"bbox":[46,316,372,156]}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"text":"V4","textPreview":"V4","textChars":2,"textLines":1,"bbox":[64,332,54,34]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"text":"24-Conformer Surface","textPreview":"24-Conformer Surface","textChars":20,"textLines":1,"bbox":[122,332,278,34]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"text":"Fresh ligand 3D features generated across 24,901 quantitative structures.","textPreview":"Fresh ligand 3D features generated across 24,901 quantitative structures.","textChars":73,"textLines":1,"bbox":[64,376,336,82]}
+{"kind":"shape","id":"sh/do3q9szq","slide":2,"bbox":[446,316,372,156]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"text":"V5","textPreview":"V5","textChars":2,"textLines":1,"bbox":[464,332,54,34]}
+{"kind":"textbox","id":"sh/s72xofmh","slide":2,"text":"Feature Attribution","textPreview":"Feature Attribution","textChars":19,"textLines":1,"bbox":[522,332,278,34]}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"text":"Held-out ablations isolated the unique contribution of each block.","textPreview":"Held-out ablations isolated the unique contribution of each block.","textChars":66,"textLines":1,"bbox":[464,376,336,82]}
+{"kind":"shape","id":"sh/65kfmpor","slide":2,"bbox":[846,316,372,156]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"text":"V6","textPreview":"V6","textChars":2,"textLines":1,"bbox":[864,332,54,34]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"text":"Fundamental Optimization","textPreview":"Fundamental Optimization","textChars":24,"textLines":1,"bbox":[922,332,278,34]}
+{"kind":"textbox","id":"sh/fadgzu58","slide":2,"text":"Physics-focused combinations tested redundancy and failure modes.","textPreview":"Physics-focused combinations tested redundancy and failure modes.","textChars":65,"textLines":1,"bbox":[864,376,336,82]}
+{"kind":"shape","id":"sh/u94fqp4n","slide":2,"bbox":[46,500,372,156]}
+{"kind":"textbox","id":"sh/p0vy54na","slide":2,"text":"V7","textPreview":"V7","textChars":2,"textLines":1,"bbox":[64,516,54,34]}
+{"kind":"textbox","id":"sh/4zmxwzmp","slide":2,"text":"Measurement Objectives","textPreview":"Measurement Objectives","textChars":22,"textLines":1,"bbox":[122,516,278,34]}
+{"kind":"textbox","id":"sh/mlgvq147","slide":2,"text":"Accuracy and safety-tail objectives separated instead of hidden.","textPreview":"Accuracy and safety-tail objectives separated instead of hidden.","textChars":64,"textLines":1,"bbox":[64,560,336,82]}
+{"kind":"shape","id":"sh/nmpcj6ls","slide":2,"bbox":[446,500,372,156]}
+{"kind":"textbox","id":"sh/onydsbmd","slide":2,"text":"V8","textPreview":"V8","textChars":2,"textLines":1,"bbox":[464,516,54,34]}
+{"kind":"textbox","id":"sh/9o7ulg3y","slide":2,"text":"Feature Lattice","textPreview":"Feature Lattice","textChars":15,"textLines":1,"bbox":[522,516,278,34]}
+{"kind":"textbox","id":"sh/a9gvulkj","slide":2,"text":"2,048 coalitions mapped what works, what fails, and for whom.","textPreview":"2,048 coalitions mapped what works, what fails, and for whom.","textChars":61,"textLines":1,"bbox":[464,560,336,82]}
+{"kind":"shape","id":"sh/ba9cn6l4","slide":2,"bbox":[846,500,372,156]}
+{"kind":"textbox","id":"sh/wbidwb29","slide":2,"text":"V9","textPreview":"V9","textChars":2,"textLines":1,"bbox":[864,516,54,34]}
+{"kind":"textbox","id":"sh/xcrupg3u","slide":2,"text":"Domain Mixture","textPreview":"Domain Mixture","textChars":14,"textLines":1,"bbox":[922,516,278,34]}
+{"kind":"textbox","id":"sh/id0vylkf","slide":2,"text":"Specialists, local analogs, and applicability context reached 0.4328 MAE.","textPreview":"Specialists, local analogs, and applicability context reached 0.4328 MAE.","textChars":73,"textLines":1,"bbox":[864,560,336,82]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Use this as the narrative spine for the meeting. V1 to V3 established the governed baseline. V4 to V6 tested ligand-only physics and feature causality. V7 to V9 focused on measurement heterogeneity, exhaustive combinations, domain specialists, and local evidence.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/local_runs/herg_feature_lattice_analysis_v81_superseded_cross_fold_mmp/ANALYSIS.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/local_runs/herg_honest_measurement_campaign_v7_1/analysis.json\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"Best Honest Internal Performance","textShapes":11}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"text":"Best Honest Internal Performance","textPreview":"Best Honest Internal Performance","textChars":32,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/14ryd8fq","slide":3,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/298ryl4v","slide":3,"bbox":[784,136,214,148]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"0.4328","textPreview":"0.4328","textChars":6,"textLines":1,"bbox":[804,154,174,60]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"Nested Stack MAE","textPreview":"Nested Stack MAE","textChars":16,"textLines":1,"bbox":[804,218,174,52]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"bbox":[1018,136,214,148]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"text":"91.8%","textPreview":"91.8%","textChars":5,"textLines":1,"bbox":[1038,154,174,60]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"Within 1.0 Log","textPreview":"Within 1.0 Log","textChars":14,"textLines":1,"bbox":[1038,218,174,52]}
+{"kind":"shape","id":"sh/n2l4fq98","slide":3,"bbox":[784,306,214,148]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"text":"69.8%","textPreview":"69.8%","textChars":5,"textLines":1,"bbox":[804,324,174,60]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"text":"Within 0.5 Log","textPreview":"Within 0.5 Log","textChars":14,"textLines":1,"bbox":[804,388,174,52]}
+{"kind":"shape","id":"sh/83ulovat","slide":3,"bbox":[1018,306,214,148]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"text":"0.4370","textPreview":"0.4370","textChars":6,"textLines":1,"bbox":[1038,324,174,60]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"text":"Deployable XGBoost MAE","textPreview":"Deployable XGBoost MAE","textChars":22,"textLines":1,"bbox":[1038,388,174,52]}
+{"kind":"shape","id":"sh/x8nml0ra","slide":3,"bbox":[784,484,448,130]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"text":"0.0114 MAE Improvement","textPreview":"0.0114 MAE Improvement","textChars":22,"textLines":1,"bbox":[806,504,404,40]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"text":"V9 versus V8; 95% scaffold CI 0.0086 to 0.0141. Every outer fold improved.","textPreview":"V9 versus V8; 95% scaffold CI 0.0086 to 0.0141. Every outer fold improved.","textChars":74,"textLines":1,"bbox":[806,554,404,50]}
+{"kind":"image","id":"im/10bu183q","slide":3,"name":"","bbox":[46,180.19,704,419.62]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"The nested stack is the strongest unbiased internal evidence. The frozen deployable molecular model is a single XGBoost artifact and is slightly weaker. Do not present the stack as an external or prospective result.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/RESULT_TRACEABILITY.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/01_model_progress.png\n[/Sources]"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Evaluation Designed to Resist Leakage","textShapes":21}
+{"kind":"textbox","id":"sh/knex8j21","slide":4,"text":"Evaluation Designed to Resist Leakage","textPreview":"Evaluation Designed to Resist Leakage","textChars":37,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/3elcv65w","slide":4,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"bbox":[46,132,268,128]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"text":"18,801","textPreview":"18,801","textChars":6,"textLines":1,"bbox":[66,150,228,60]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"Exact Training Structures","textPreview":"Exact Training Structures","textChars":25,"textLines":1,"bbox":[66,214,228,32]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"bbox":[332,132,268,128]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"text":"8,455","textPreview":"8,455","textChars":5,"textLines":1,"bbox":[352,150,228,60]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"text":"Scaffold Groups","textPreview":"Scaffold Groups","textChars":15,"textLines":1,"bbox":[352,214,228,32]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"bbox":[618,132,268,128]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[638,150,228,60]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"Nested Outer Folds","textPreview":"Nested Outer Folds","textChars":18,"textLines":1,"bbox":[638,214,228,32]}
+{"kind":"shape","id":"sh/i94r6xgz","slide":4,"bbox":[904,132,328,128]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[924,150,288,60]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"text":"Validation Or Test Labels Opened","textPreview":"Validation Or Test Labels Opened","textChars":32,"textLines":1,"bbox":[924,214,288,32]}
+{"kind":"shape","id":"sh/cnyp8jep","slide":4,"bbox":[92,382,1088,0]}
+{"kind":"shape","id":"sh/a5kr2xg3","slide":4,"bbox":[54,348,68,68]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[54,365,68,32]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"text":"Structure Collapse","textPreview":"Structure Collapse","textChars":18,"textLines":1,"bbox":[54,444,258,34]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"text":"Replicate observations become one structure-level target.","textPreview":"Replicate observations become one structure-level target.","textChars":57,"textLines":1,"bbox":[54,490,258,110]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"bbox":[354,348,68,68]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[354,365,68,32]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"text":"Scaffold Separation","textPreview":"Scaffold Separation","textChars":19,"textLines":1,"bbox":[354,444,258,34]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"text":"Related chemotypes stay together in a single held-out fold.","textPreview":"Related chemotypes stay together in a single held-out fold.","textChars":59,"textLines":1,"bbox":[354,490,258,110]}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"bbox":[654,348,68,68]}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[654,365,68,32]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"text":"Inner Selection","textPreview":"Inner Selection","textChars":15,"textLines":1,"bbox":[654,444,258,34]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"text":"Features, parameters, and mixtures are chosen without outer labels.","textPreview":"Features, parameters, and mixtures are chosen without outer labels.","textChars":67,"textLines":1,"bbox":[654,490,258,110]}
+{"kind":"shape","id":"sh/tsrqlc7u","slide":4,"bbox":[954,348,68,68]}
+{"kind":"textbox","id":"sh/sri9s7q9","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[954,365,68,32]}
+{"kind":"textbox","id":"sh/ilwf69kv","slide":4,"text":"Single Outer Prediction","textPreview":"Single Outer Prediction","textChars":23,"textLines":1,"bbox":[954,444,258,34]}
+{"kind":"textbox","id":"sh/jm5gze1g","slide":4,"text":"Every structure is evaluated once in its untouched scaffold context.","textPreview":"Every structure is evaluated once in its untouched scaffold context.","textChars":68,"textLines":1,"bbox":[954,490,258,110]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"This design deliberately produces harder and more transferable estimates than random splitting. It prevents replicated measurements and close scaffold relatives from appearing as independent evidence.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/TECHNICAL_QA.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n[/Sources]"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Feature Families Ranked by Unique Held-Out Impact","textShapes":36}
+{"kind":"textbox","id":"sh/98z298bu","slide":5,"text":"Feature Families Ranked by Unique Held-Out Impact","textPreview":"Feature Families Ranked by Unique Held-Out Impact","textChars":49,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/kjqlc3ax","slide":5,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"bbox":[46,134,210,52]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"Feature Test","textPreview":"Feature Test","textChars":12,"textLines":1,"bbox":[56,142,190,36]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"bbox":[256,134,222,52]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"MAE Change","textPreview":"MAE Change","textChars":10,"textLines":1,"bbox":[266,142,202,36]}
+{"kind":"shape","id":"sh/032tgr6d","slide":5,"bbox":[478,134,186,52]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"95% Scaffold CI","textPreview":"95% Scaffold CI","textChars":15,"textLines":1,"bbox":[488,142,166,36]}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"bbox":[664,134,274,52]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"text":"Evidence","textPreview":"Evidence","textChars":8,"textLines":1,"bbox":[674,142,254,36]}
+{"kind":"shape","id":"sh/x4vedgvm","slide":5,"bbox":[938,134,296,52]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"text":"What We Learn","textPreview":"What We Learn","textChars":13,"textLines":1,"bbox":[948,142,276,36]}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"bbox":[46,186,210,76]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"text":"Remove RDKit2D","textPreview":"Remove RDKit2D","textChars":14,"textLines":1,"bbox":[56,194,190,60]}
+{"kind":"shape","id":"sh/58vehgvy","slide":5,"bbox":[256,186,222,76]}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"text":"+0.0250","textPreview":"+0.0250","textChars":7,"textLines":1,"bbox":[266,194,202,60]}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"bbox":[478,186,186,76]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"text":"+0.0204 to +0.0295","textPreview":"+0.0204 to +0.0295","textChars":18,"textLines":1,"bbox":[488,194,166,60]}
+{"kind":"shape","id":"sh/tcfel0vu","slide":5,"bbox":[664,186,274,76]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"text":"Reliable In 5 Of 5 Folds","textPreview":"Reliable In 5 Of 5 Folds","textChars":24,"textLines":1,"bbox":[674,194,254,60]}
+{"kind":"shape","id":"sh/gfi5grih","slide":5,"bbox":[938,186,296,76]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"text":"Global physicochemical structure is the strongest unique foundation.","textPreview":"Global physicochemical structure is the strongest unique foundation.","textChars":68,"textLines":1,"bbox":[948,194,276,60]}
+{"kind":"shape","id":"sh/ud0ne10b","slide":5,"bbox":[46,262,210,76]}
+{"kind":"textbox","id":"sh/pkr6tgjy","slide":5,"text":"Remove Morgan","textPreview":"Remove Morgan","textChars":13,"textLines":1,"bbox":[56,270,190,60]}
+{"kind":"shape","id":"sh/4ji5kbid","slide":5,"bbox":[256,262,222,76]}
+{"kind":"textbox","id":"sh/3i94r61s","slide":5,"text":"+0.0065","textPreview":"+0.0065","textChars":7,"textLines":1,"bbox":[266,270,202,60]}
+{"kind":"shape","id":"sh/2h0ni107","slide":5,"bbox":[478,262,186,76]}
+{"kind":"textbox","id":"sh/5o7mhcju","slide":5,"text":"+0.0031 to +0.0101","textPreview":"+0.0031 to +0.0101","textChars":18,"textLines":1,"bbox":[488,270,166,60]}
+{"kind":"shape","id":"sh/kny587i9","slide":5,"bbox":[664,262,274,76]}
+{"kind":"textbox","id":"sh/atcjidg7","slide":5,"text":"Reliable In 4 Of 5 Folds","textPreview":"Reliable In 4 Of 5 Folds","textChars":24,"textLines":1,"bbox":[674,270,254,60]}
+{"kind":"shape","id":"sh/vu5kbihc","slide":5,"bbox":[938,262,296,76]}
+{"kind":"textbox","id":"sh/wve1knyx","slide":5,"text":"Local substructure context adds independent scaffold-transfer signal.","textPreview":"Local substructure context adds independent scaffold-transfer signal.","textChars":69,"textLines":1,"bbox":[948,270,276,60]}
+{"kind":"shape","id":"sh/xwn2dszi","slide":5,"bbox":[46,338,210,76]}
+{"kind":"textbox","id":"sh/ihw3mxg3","slide":5,"text":"Add Old Ligand 3D","textPreview":"Add Old Ligand 3D","textChars":17,"textLines":1,"bbox":[56,346,190,60]}
+{"kind":"shape","id":"sh/ji5kf2ho","slide":5,"bbox":[256,338,222,76]}
+{"kind":"textbox","id":"sh/kjelony9","slide":5,"text":"-0.0052","textPreview":"-0.0052","textChars":7,"textLines":1,"bbox":[266,346,202,60]}
+{"kind":"shape","id":"sh/5kn2hszu","slide":5,"bbox":[478,338,186,76]}
+{"kind":"textbox","id":"sh/e1sjatgz","slide":5,"text":"-0.0078 to -0.0026","textPreview":"-0.0078 to -0.0026","textChars":18,"textLines":1,"bbox":[488,346,166,60]}
+{"kind":"shape","id":"sh/zmlk3yhk","slide":5,"bbox":[664,338,274,76]}
+{"kind":"textbox","id":"sh/fid07u98","slide":5,"text":"Reliable Deterioration","textPreview":"Reliable Deterioration","textChars":22,"textLines":1,"bbox":[674,346,254,60]}
+{"kind":"shape","id":"sh/ehkzepsn","slide":5,"bbox":[938,338,296,76]}
+{"kind":"textbox","id":"sh/1kvi94re","slide":5,"text":"Generic or unstable 3D can actively dilute a strong 2D model.","textPreview":"Generic or unstable 3D can actively dilute a strong 2D model.","textChars":61,"textLines":1,"bbox":[948,346,276,60]}
+{"kind":"shape","id":"sh/gjmhgzqt","slide":5,"bbox":[46,414,210,76]}
+{"kind":"textbox","id":"sh/3md0bu94","slide":5,"text":"Add Polarity and Contacts","textPreview":"Add Polarity and Contacts","textChars":25,"textLines":1,"bbox":[56,422,190,60]}
+{"kind":"shape","id":"sh/2l4zip8j","slide":5,"bbox":[256,414,222,76]}
+{"kind":"textbox","id":"sh/povid4ra","slide":5,"text":"-0.0007","textPreview":"-0.0007","textChars":7,"textLines":1,"bbox":[266,422,202,60]}
+{"kind":"shape","id":"sh/onmhkzqp","slide":5,"bbox":[478,414,186,76]}
+{"kind":"textbox","id":"sh/bqx0fe9g","slide":5,"text":"-0.0022 to +0.0008","textPreview":"-0.0022 to +0.0008","textChars":18,"textLines":1,"bbox":[488,422,166,60]}
+{"kind":"shape","id":"sh/qp4jm98v","slide":5,"bbox":[664,414,274,76]}
+{"kind":"textbox","id":"sh/8f6hcj6t","slide":5,"text":"No Stable Gain","textPreview":"No Stable Gain","textChars":14,"textLines":1,"bbox":[674,422,254,60]}
+{"kind":"shape","id":"sh/9gfy5o7e","slide":5,"bbox":[938,414,296,76]}
+{"kind":"textbox","id":"sh/mdoza9o3","slide":5,"text":"These ligand-only physics proxies are mostly redundant after 2D chemistry.","textPreview":"These ligand-only physics proxies are mostly redundant after 2D chemistry.","textChars":74,"textLines":1,"bbox":[948,422,276,60]}
+{"kind":"shape","id":"sh/nexg3epo","slide":5,"bbox":[46,490,210,76]}
+{"kind":"textbox","id":"sh/0r6h8z6x","slide":5,"text":"Add Energy and Flexibility","textPreview":"Add Energy and Flexibility","textChars":26,"textLines":1,"bbox":[56,498,190,60]}
+{"kind":"shape","id":"sh/lcfy147i","slide":5,"bbox":[256,490,222,76]}
+{"kind":"textbox","id":"sh/yp4z69or","slide":5,"text":"-0.0004","textPreview":"-0.0004","textChars":7,"textLines":1,"bbox":[266,498,202,60]}
+{"kind":"shape","id":"sh/zqxgzupc","slide":5,"bbox":[478,490,186,76]}
+{"kind":"textbox","id":"sh/cnmh4z61","slide":5,"text":"-0.0019 to +0.0012","textPreview":"-0.0019 to +0.0012","textChars":18,"textLines":1,"bbox":[488,498,166,60]}
+{"kind":"shape","id":"sh/dovyx476","slide":5,"bbox":[664,490,274,76]}
+{"kind":"textbox","id":"sh/t8n6lwvy","slide":5,"text":"No Stable Gain","textPreview":"No Stable Gain","textChars":14,"textLines":1,"bbox":[674,498,254,60]}
+{"kind":"shape","id":"sh/s7u5crud","slide":5,"bbox":[938,490,296,76]}
+{"kind":"textbox","id":"sh/r6lojmds","slide":5,"text":"Force-field summaries do not improve broad aggregate transfer.","textPreview":"Force-field summaries do not improve broad aggregate transfer.","textChars":62,"textLines":1,"bbox":[948,498,276,60]}
+{"kind":"shape","id":"sh/65cnahc7","slide":5,"bbox":[46,566,210,76]}
+{"kind":"textbox","id":"sh/5436hcv2","slide":5,"text":"Add Selected Interactions","textPreview":"Add Selected Interactions","textChars":25,"textLines":1,"bbox":[56,574,190,60]}
+{"kind":"shape","id":"sh/43u587uh","slide":5,"bbox":[256,566,222,76]}
+{"kind":"textbox","id":"sh/j2lofmdw","slide":5,"text":"+0.0003","textPreview":"+0.0003","textChars":7,"textLines":1,"bbox":[266,574,202,60]}
+{"kind":"shape","id":"sh/i1cn6hcb","slide":5,"bbox":[478,566,186,76]}
+{"kind":"textbox","id":"sh/p076tgv6","slide":5,"text":"-0.0013 to +0.0020","textPreview":"-0.0013 to +0.0020","textChars":18,"textLines":1,"bbox":[488,574,166,60]}
+{"kind":"shape","id":"sh/ozepkbul","slide":5,"bbox":[664,566,274,76]}
+{"kind":"textbox","id":"sh/m583eds3","slide":5,"text":"No Stable Gain","textPreview":"No Stable Gain","textChars":14,"textLines":1,"bbox":[674,574,254,60]}
+{"kind":"shape","id":"sh/76hk7ito","slide":5,"bbox":[938,566,296,76]}
+{"kind":"textbox","id":"sh/87qlgna9","slide":5,"text":"Interaction hypotheses may matter locally, not as a global block.","textPreview":"Interaction hypotheses may matter locally, not as a global block.","textChars":65,"textLines":1,"bbox":[948,574,276,60]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"Positive MAE change means prediction worsened when an included block was removed or improved when an omitted block was added, depending on the named test. The decisive positive evidence is RDKit2D and Morgan. The generic 3D and physics blocks did not show broad independent value.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/feature_family_effects.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n[/Sources]"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"What Ligand-Only Physics Added","textShapes":7}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"text":"What Ligand-Only Physics Added","textPreview":"What Ligand-Only Physics Added","textChars":30,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/i54bylor","slide":6,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"bbox":[812,134,420,138]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"text":"24 Conformers","textPreview":"24 Conformers","textChars":13,"textLines":1,"bbox":[838,156,368,48]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"text":"Fresh conformer surface across 24,901 quantitative structures","textPreview":"Fresh conformer surface across 24,901 quantitative structures","textChars":61,"textLines":1,"bbox":[838,212,368,44]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"bbox":[812,294,420,138]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"No Aggregate Gain","textPreview":"No Aggregate Gain","textChars":17,"textLines":1,"bbox":[838,316,368,48]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"Shape, WHIM, energy, flexibility, and charge-contact blocks were unstable or redundant","textPreview":"Shape, WHIM, energy, flexibility, and charge-contact blocks were unstable or redundant","textChars":86,"textLines":1,"bbox":[838,372,368,48]}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"bbox":[812,454,420,170]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"text":"Scientific Interpretation","textPreview":"Scientific Interpretation","textChars":25,"textLines":1,"bbox":[838,478,368,34]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"text":"The negative result narrows the next experiment: improve microstate, receptor-state, membrane, and assay context instead of adding more generic ligand descriptors.","textPreview":"The negative result narrows the next experiment: improve microstate, receptor-state, membrane, and assay context instead of adding more g...","textChars":163,"textLines":1,"bbox":[838,526,368,82]}
+{"kind":"image","id":"im/a5sbipcr","slide":6,"name":"","bbox":[46,137.68,736,512.63]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"This is not evidence that physics is unimportant. It is evidence that generic ligand-only conformer summaries do not add stable global information after strong 2D representations. Receptor-aware and microstate-aware physics remain untested because preparation and environment contracts were not yet satisfied.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/feature_family_effects.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/local_runs/herg_quantitative_24conformer_v4/manifest.json\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/02_feature_family_effects.png\n[/Sources]"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Applicability Domain Defines Reliability","textShapes":9}
+{"kind":"textbox","id":"sh/p8fih03e","slide":7,"text":"Applicability Domain Defines Reliability","textPreview":"Applicability Domain Defines Reliability","textChars":40,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/id4ju1oz","slide":7,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/ydkbm5sv","slide":7,"bbox":[824,134,192,146]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"0.379","textPreview":"0.379","textChars":5,"textLines":1,"bbox":[844,152,152,60]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"text":"In-Domain MAE","textPreview":"In-Domain MAE","textChars":13,"textLines":1,"bbox":[844,216,152,50]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"bbox":[1036,134,196,146]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"text":"0.560","textPreview":"0.560","textChars":5,"textLines":1,"bbox":[1056,152,156,60]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"text":"Flagged MAE","textPreview":"Flagged MAE","textChars":11,"textLines":1,"bbox":[1056,216,156,50]}
+{"kind":"shape","id":"sh/baxkjqlk","slide":7,"bbox":[824,304,408,148]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"text":"91.3%","textPreview":"91.3%","textChars":5,"textLines":1,"bbox":[844,322,368,60]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"text":"Coverage of the Nominal 90% Interval","textPreview":"Coverage of the Nominal 90% Interval","textChars":36,"textLines":1,"bbox":[844,386,368,52]}
+{"kind":"shape","id":"sh/cbq1sv25","slide":7,"bbox":[824,478,408,144]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"text":"Operational Rule","textPreview":"Operational Rule","textChars":16,"textLines":1,"bbox":[848,500,360,34]}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"text":"Report the prediction together with the label-blind domain flag. Interval width alone was not a useful error ranking.","textPreview":"Report the prediction together with the label-blind domain flag. Interval width alone was not a useful error ranking.","textChars":117,"textLines":1,"bbox":[848,548,360,62]}
+{"kind":"image","id":"im/gb25wj6t","slide":7,"name":"","bbox":[46,140.38,748,495.23]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"The domain flag is label blind and operationally meaningful. It identifies a 0.181 MAE gap between supported and extrapolative predictions. Global interval coverage is calibrated, but interval width alone does not rank errors well.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/domain_flag_performance.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/risk_coverage.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/03_risk_coverage.png\n[/Sources]"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Remaining Errors Are Structured","textShapes":8}
+{"kind":"textbox","id":"sh/1k7edwv2","slide":8,"text":"Remaining Errors Are Structured","textPreview":"Remaining Errors Are Structured","textChars":31,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/lgbepgvm","slide":8,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/ri9g7uhw","slide":8,"bbox":[868,136,364,120]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"1.046","textPreview":"1.046","textChars":5,"textLines":1,"bbox":[890,154,114,56]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"text":"MAE With Replicate Spread Above 1 Log","textPreview":"MAE With Replicate Spread Above 1 Log","textChars":37,"textLines":1,"bbox":[1014,160,194,72]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[868,278,364,120]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"text":"0.518","textPreview":"0.518","textChars":5,"textLines":1,"bbox":[890,296,114,56]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"MAE At 700 Da Or Higher","textPreview":"MAE At 700 Da Or Higher","textChars":23,"textLines":1,"bbox":[1014,302,194,72]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"bbox":[868,420,364,120]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"text":"0.560","textPreview":"0.560","textChars":5,"textLines":1,"bbox":[890,438,114,56]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"text":"MAE In Flagged Extrapolation","textPreview":"MAE In Flagged Extrapolation","textChars":28,"textLines":1,"bbox":[1014,444,194,72]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"bbox":[868,562,364,86]}
+{"kind":"textbox","id":"sh/0jydkreh","slide":8,"text":"500 To 700 Da Remains Competitive","textPreview":"500 To 700 Da Remains Competitive","textChars":33,"textLines":1,"bbox":[890,584,320,44]}
+{"kind":"image","id":"im/yp8rix47","slide":8,"name":"","bbox":[46,142.27,794,501.46]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"The largest errors are not random. Label disagreement, potency extremes, lower similarity, flexibility, and the very heavy tail dominate. Performance through 500 to 700 Da remains credible; the 700 Da and higher subgroup is small and should be reported with uncertainty.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/label_disagreement_summary.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/subgroup_sensitivity.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/local_runs/herg_heavy_compound_sidecar_v9/HEAVY_COMPOUND_REPORT.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/04_failure_modes.png\n[/Sources]"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"Local Analogs Improve Covered Chemistry","textShapes":9}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"text":"Local Analogs Improve Covered Chemistry","textPreview":"Local Analogs Improve Covered Chemistry","textChars":39,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/98ji147e","slide":9,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"bbox":[820,134,190,146]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"text":"41.7%","textPreview":"41.7%","textChars":5,"textLines":1,"bbox":[840,152,150,60]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"text":"Structures With Analog Support","textPreview":"Structures With Analog Support","textChars":30,"textLines":1,"bbox":[840,216,150,50]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"bbox":[1030,134,202,146]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"text":"7,847","textPreview":"7,847","textChars":5,"textLines":1,"bbox":[1050,152,162,60]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"text":"Supported Structures","textPreview":"Supported Structures","textChars":20,"textLines":1,"bbox":[1050,216,162,50]}
+{"kind":"shape","id":"sh/oza1gfyh","slide":9,"bbox":[820,304,412,146]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"text":"0.400 To 0.381 MAE","textPreview":"0.400 To 0.381 MAE","textChars":18,"textLines":1,"bbox":[844,328,364,44]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"text":"Broad anchor to analog-assisted prediction on supported structures","textPreview":"Broad anchor to analog-assisted prediction on supported structures","textChars":66,"textLines":1,"bbox":[844,384,364,46]}
+{"kind":"shape","id":"sh/3y107axw","slide":9,"bbox":[820,476,412,148]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"text":"Activity-Cliff Direction Remains Weak","textPreview":"Activity-Cliff Direction Remains Weak","textChars":37,"textLines":1,"bbox":[844,500,364,34]}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"text":"Use local analogs as a supported specialist, not as causal transformation rules.","textPreview":"Use local analogs as a supported specialist, not as causal transformation rules.","textChars":80,"textLines":1,"bbox":[844,548,364,56]}
+{"kind":"image","id":"im/ned87qxk","slide":9,"name":"","bbox":[46,145.71,744,492.58]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"Analog support produces a useful local prediction improvement, but only on 41.7 percent of the structures. The remaining transformation-direction results are not strong enough for causal medicinal chemistry rules.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/mmp_covered_structure_performance.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/figures/05_mmp_analog_assistance.png\n[/Sources]"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"Published Competitors Use Different Evidence Surfaces","textShapes":43}
+{"kind":"textbox","id":"sh/fid8ji5o","slide":10,"text":"Published Competitors Use Different Evidence Surfaces","textPreview":"Published Competitors Use Different Evidence Surfaces","textChars":53,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/yd8rmh47","slide":10,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"bbox":[46,128,142,58]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"text":"Tool and Task","textPreview":"Tool and Task","textChars":13,"textLines":1,"bbox":[56,136,122,42]}
+{"kind":"shape","id":"sh/ydcnatkn","slide":10,"bbox":[188,128,158,58]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"Labeled Data","textPreview":"Labeled Data","textChars":12,"textLines":1,"bbox":[198,136,138,42]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"bbox":[346,128,210,58]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"text":"Publicized Result","textPreview":"Publicized Result","textChars":17,"textLines":1,"bbox":[356,136,190,42]}
+{"kind":"shape","id":"sh/m1cnetkj","slide":10,"bbox":[556,128,222,58]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"text":"Benchmark Tailoring","textPreview":"Benchmark Tailoring","textChars":19,"textLines":1,"bbox":[566,136,202,42]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"bbox":[778,128,212,58]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"text":"Features","textPreview":"Features","textChars":8,"textLines":1,"bbox":[788,136,192,42]}
+{"kind":"shape","id":"sh/r6pcv6lw","slide":10,"bbox":[990,128,242,58]}
+{"kind":"textbox","id":"sh/0bit8b2d","slide":10,"text":"Real-World Limitation","textPreview":"Real-World Limitation","textChars":21,"textLines":1,"bbox":[1000,136,222,42]}
+{"kind":"shape","id":"sh/1cru1g3y","slide":10,"bbox":[46,186,142,76]}
+{"kind":"textbox","id":"sh/e9gb61k7","slide":10,"text":"Our Platform\nContinuous pIC50","textPreview":"Our Platform | Continuous pIC50","textChars":29,"textLines":2,"bbox":[56,194,122,60]}
+{"kind":"shape","id":"sh/fapcz6ls","slide":10,"bbox":[188,186,158,76]}
+{"kind":"textbox","id":"sh/ozitcv29","slide":10,"text":"18,801\nstructures","textPreview":"18,801 | structures","textChars":17,"textLines":2,"bbox":[198,194,138,60]}
+{"kind":"shape","id":"sh/p0ru503u","slide":10,"bbox":[346,186,210,76]}
+{"kind":"textbox","id":"sh/xwnupgvy","slide":10,"text":"0.4328 MAE\nNested scaffold","textPreview":"0.4328 MAE | Nested scaffold","textChars":26,"textLines":2,"bbox":[356,194,190,60]}
+{"kind":"shape","id":"sh/wvetgbud","slide":10,"bbox":[556,186,222,76]}
+{"kind":"textbox","id":"sh/bu5cnqd8","slide":10,"text":"Low\nStructure collapse; sealed outcomes","textPreview":"Low | Structure collapse; sealed outcomes","textChars":39,"textLines":2,"bbox":[566,194,202,60]}
+{"kind":"shape","id":"sh/atwbelcn","slide":10,"bbox":[778,186,212,76]}
+{"kind":"textbox","id":"sh/lk7ut0va","slide":10,"text":"RDKit2D, Morgan, specialists, domain flag","textPreview":"RDKit2D, Morgan, specialists, domain flag","textChars":41,"textLines":1,"bbox":[788,194,192,60]}
+{"kind":"shape","id":"sh/kjytkvup","slide":10,"bbox":[990,186,242,76]}
+{"kind":"textbox","id":"sh/jypcrqd4","slide":10,"text":"Internal only; WT-or-unspecified; external series still needed","textPreview":"Internal only; WT-or-unspecified; external series still needed","textChars":62,"textLines":1,"bbox":[1000,194,222,60]}
+{"kind":"shape","id":"sh/yxgbilcj","slide":10,"bbox":[46,338,142,76]}
+{"kind":"textbox","id":"sh/1o3ahwvq","slide":10,"text":"Pred-hERG 5.0\nRegression","textPreview":"Pred-hERG 5.0 | Regression","textChars":24,"textLines":2,"bbox":[56,346,122,60]}
+{"kind":"shape","id":"sh/0nut8rul","slide":10,"bbox":[188,338,158,76]}
+{"kind":"textbox","id":"sh/q9srixs3","slide":10,"text":"7,609\nrecords","textPreview":"7,609 | records","textChars":13,"textLines":2,"bbox":[198,346,138,60]}
+{"kind":"shape","id":"sh/ru18r2to","slide":10,"bbox":[346,338,210,76]}
+{"kind":"textbox","id":"sh/cva9k7a9","slide":10,"text":"0.35 MAE\n0.44 RMSE","textPreview":"0.35 MAE | 0.44 RMSE","textChars":18,"textLines":2,"bbox":[356,346,190,60]}
+{"kind":"shape","id":"sh/dwjqtcbu","slide":10,"bbox":[556,338,222,76]}
+{"kind":"textbox","id":"sh/exsrmhsf","slide":10,"text":"High\nTask curation; random 80/20 split","textPreview":"High | Task curation; random 80/20 split","textChars":38,"textLines":2,"bbox":[566,346,202,60]}
+{"kind":"shape","id":"sh/zyl8vmt0","slide":10,"bbox":[778,338,212,76]}
+{"kind":"textbox","id":"sh/0zu9ora5","slide":10,"text":"ECFP, FCFP, SVM, consensus","textPreview":"ECFP, FCFP, SVM, consensus","textChars":26,"textLines":1,"bbox":[788,346,192,60]}
+{"kind":"shape","id":"sh/103qxcbq","slide":10,"bbox":[990,338,242,76]}
+{"kind":"textbox","id":"sh/u187adsv","slide":10,"text":"Random split; pooled assay types; current repository lacks full assets","textPreview":"Random split; pooled assay types; current repository lacks full assets","textChars":70,"textLines":1,"bbox":[1000,346,222,60]}
+{"kind":"shape","id":"sh/f2h8jitg","slide":10,"bbox":[46,414,142,76]}
+{"kind":"textbox","id":"sh/bmpgrah8","slide":10,"text":"hERGBoost\nRegression","textPreview":"hERGBoost | Regression","textChars":20,"textLines":2,"bbox":[56,422,122,60]}
+{"kind":"shape","id":"sh/algfy50n","slide":10,"bbox":[188,414,158,76]}
+{"kind":"textbox","id":"sh/xo7ytkzy","slide":10,"text":"10,798\nmolecules","textPreview":"10,798 | molecules","textChars":16,"textLines":2,"bbox":[198,422,138,60]}
+{"kind":"shape","id":"sh/wnyx0fit","slide":10,"bbox":[346,414,210,76]}
+{"kind":"textbox","id":"sh/jq9gvuh4","slide":10,"text":"0.438 MAE\nExternal n=706","textPreview":"0.438 MAE | External n=706","textChars":24,"textLines":2,"bbox":[356,422,190,60]}
+{"kind":"shape","id":"sh/ip0f2p0j","slide":10,"bbox":[556,414,222,76]}
+{"kind":"textbox","id":"sh/5cryx4za","slide":10,"text":"Moderate\nExternal set; grouping policy unclear","textPreview":"Moderate | External set; grouping policy unclear","textChars":46,"textLines":2,"bbox":[566,422,202,60]}
+{"kind":"shape","id":"sh/kbix4zyp","slide":10,"bbox":[778,414,212,76]}
+{"kind":"textbox","id":"sh/7e9gzuhg","slide":10,"text":"Descriptors, fingerprints, XGBoost","textPreview":"Descriptors, fingerprints, XGBoost","textChars":34,"textLines":1,"bbox":[788,422,192,60]}
+{"kind":"shape","id":"sh/6d0f6pgv","slide":10,"bbox":[990,414,242,76]}
+{"kind":"textbox","id":"sh/4j2xwzet","slide":10,"text":"External R2 0.394; extreme-potency RMSE 1.154","textPreview":"External R2 0.394; extreme-potency RMSE 1.154","textChars":45,"textLines":1,"bbox":[1000,422,222,60]}
+{"kind":"shape","id":"sh/pkbep4fe","slide":10,"bbox":[46,490,142,76]}
+{"kind":"textbox","id":"sh/2hkfu9w3","slide":10,"text":"HERGAI\nBinary at 20 µM","textPreview":"HERGAI | Binary at 20 µM","textChars":22,"textLines":2,"bbox":[56,498,122,60]}
+{"kind":"shape","id":"sh/3itwnex8","slide":10,"bbox":[188,490,158,76]}
+{"kind":"textbox","id":"sh/gfixszex","slide":10,"text":"299,927\n0.65% active","textPreview":"299,927 | 0.65% active","textChars":20,"textLines":2,"bbox":[198,498,138,60]}
+{"kind":"shape","id":"sh/hgrel4fi","slide":10,"bbox":[346,490,210,76]}
+{"kind":"textbox","id":"sh/ud0vqpwr","slide":10,"text":"86.4% recall\nAUC 0.863","textPreview":"86.4% recall | AUC 0.863","textChars":22,"textLines":2,"bbox":[356,498,190,60]}
+{"kind":"shape","id":"sh/fe9wjuxc","slide":10,"bbox":[556,490,222,76]}
+{"kind":"textbox","id":"sh/sridofel","slide":10,"text":"High\nExtreme imbalance; pose selection","textPreview":"High | Extreme imbalance; pose selection","textChars":38,"textLines":2,"bbox":[566,498,202,60]}
+{"kind":"shape","id":"sh/tsrehkf6","slide":10,"bbox":[778,490,212,76]}
+{"kind":"textbox","id":"sh/98julg7a","slide":10,"text":"Docking PLEC, RF, XGB, DNN stack","textPreview":"Docking PLEC, RF, XGB, DNN stack","textChars":32,"textLines":1,"bbox":[788,498,192,60]}
+{"kind":"shape","id":"sh/87atcb6p","slide":10,"bbox":[990,490,242,76]}
+{"kind":"textbox","id":"sh/n61cj6p4","slide":10,"text":"Binary screening task; asymmetric active and negative evidence","textPreview":"Binary screening task; asymmetric active and negative evidence","textChars":62,"textLines":1,"bbox":[1000,498,222,60]}
+{"kind":"shape","id":"sh/mlsba18j","slide":10,"bbox":[46,566,142,76]}
+{"kind":"textbox","id":"sh/lkzuhw7y","slide":10,"text":"XGB-ISE\nBinary at 10 µM","textPreview":"XGB-ISE | Binary at 10 µM","textChars":23,"textLines":2,"bbox":[56,574,122,60]}
+{"kind":"shape","id":"sh/0jqt8bqd","slide":10,"bbox":[188,566,158,76]}
+{"kind":"textbox","id":"sh/zihcf6ps","slide":10,"text":"290,731\nmolecules","textPreview":"290,731 | molecules","textChars":17,"textLines":2,"bbox":[198,574,138,60]}
+{"kind":"shape","id":"sh/yh8bm18n","slide":10,"bbox":[346,566,210,76]}
+{"kind":"textbox","id":"sh/5g3ut072","slide":10,"text":"MCC 0.72\nSelected strata","textPreview":"MCC 0.72 | Selected strata","textChars":24,"textLines":2,"bbox":[356,574,190,60]}
+{"kind":"shape","id":"sh/4fudkv6x","slide":10,"bbox":[556,566,222,76]}
+{"kind":"textbox","id":"sh/2l4rexof","slide":10,"text":"Very High\nBest result covers 64% of external set","textPreview":"Very High | Best result covers 64% of external set","textChars":48,"textLines":2,"bbox":[566,574,202,60]}
+{"kind":"shape","id":"sh/3mxsn25k","slide":10,"bbox":[778,566,212,76]}
+{"kind":"textbox","id":"sh/on69g765","slide":10,"text":"Selected descriptors, balanced XGB ensemble","textPreview":"Selected descriptors, balanced XGB ensemble","textChars":43,"textLines":1,"bbox":[788,574,192,60]}
+{"kind":"shape","id":"sh/pofapcnq","slide":10,"bbox":[990,566,242,76]}
+{"kind":"textbox","id":"sh/eh4rado3","slide":10,"text":"Coverage selection and pooled HTS labels limit broad deployment","textPreview":"Coverage selection and pooled HTS labels limit broad deployment","textChars":63,"textLines":1,"bbox":[1000,574,222,60]}
+{"kind":"shape","id":"sh/zehsvm5s","slide":10,"name":"sun-2026-cell-1","bbox":[46,262,142,76]}
+{"kind":"textbox","id":"sh/nyt0jit0","slide":10,"name":"sun-2026-text-1","text":"Sun et al. 2026\nRegression","textPreview":"Sun et al. 2026 | Regression","textChars":26,"textLines":2,"bbox":[56,270,122,60]}
+{"kind":"shape","id":"sh/mxkzqdsf","slide":10,"name":"sun-2026-cell-2","bbox":[188,262,158,76]}
+{"kind":"textbox","id":"sh/90bilsbq","slide":10,"name":"sun-2026-text-2","text":"7,772 train\n1,097 external unique","textPreview":"7,772 train | 1,097 external unique","textChars":33,"textLines":2,"bbox":[198,270,138,60]}
+{"kind":"shape","id":"sh/8z21snal","slide":10,"name":"sun-2026-cell-3","bbox":[346,262,210,76]}
+{"kind":"textbox","id":"sh/zu90fito","slide":10,"name":"sun-2026-text-3","text":"0.383 internal MAE\n0.50 corrected external","textPreview":"0.383 internal MAE | 0.50 corrected external","textChars":42,"textLines":2,"bbox":[356,270,190,60]}
+{"kind":"shape","id":"sh/yt0zmds3","slide":10,"name":"sun-2026-cell-4","bbox":[556,262,222,76]}
+{"kind":"textbox","id":"sh/lwbih8bu","slide":10,"name":"sun-2026-text-4","text":"High\nRandom split; 10 external values corrected","textPreview":"High | Random split; 10 external values corrected","textChars":47,"textLines":2,"bbox":[566,270,202,60]}
+{"kind":"shape","id":"sh/0v2ho3a9","slide":10,"name":"sun-2026-cell-5","bbox":[778,262,212,76]}
+{"kind":"textbox","id":"sh/bq90byts","slide":10,"name":"sun-2026-text-5","text":"Atom-type counts, correction factors, RBF-SVR","textPreview":"Atom-type counts, correction factors, RBF-SVR","textChars":45,"textLines":1,"bbox":[788,270,192,60]}
+{"kind":"shape","id":"sh/q50zits7","slide":10,"name":"sun-2026-cell-6","bbox":[990,262,242,76]}
+{"kind":"textbox","id":"sh/gbexszq5","slide":10,"name":"sun-2026-text-6","text":"MW 200–600; external conflicts; incomplete feature generator","textPreview":"MW 200–600; external conflicts; incomplete feature generator","textChars":60,"textLines":1,"bbox":[1000,270,222,60]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"Benchmark tailoring is a neutral description of how much the reported result depends on curation, split choice, thresholding, selective coverage, or class construction. It is not an accusation of misconduct. Use the exact published task beside every number.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/LITERATURE_COMPARABILITY.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_paper/model_landscape_v2/model_comparison_matrix.csv\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC11187631/\n- https://doi.org/10.1016/j.compbiomed.2024.109416\n- https://doi.org/10.1186/s13321-025-01063-8\n- https://doi.org/10.1038/s41598-025-99766-3\n- Sun, Wang, and Shen (2026), Modeling hERG Channel Liability, DOI: https://doi.org/10.1021/acs.jcim.6c00163\n- Local evidence audit: /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/literature/herg/predictive_modeling/2026_sun_wang_shen_jcim_6c00163/evidence_review.md\n[/Sources]"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"Accuracy and Safety Require Separate Operating Modes","textShapes":13}
+{"kind":"textbox","id":"sh/zaxs3yhc","slide":11,"text":"Accuracy and Safety Require Separate Operating Modes","textPreview":"Accuracy and Safety Require Separate Operating Modes","textChars":52,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/tsnip0ny","slide":11,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"bbox":[46,134,566,476]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"text":"Global Accuracy Model","textPreview":"Global Accuracy Model","textChars":21,"textLines":1,"bbox":[78,168,502,42]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"text":"0.433","textPreview":"0.433","textChars":5,"textLines":1,"bbox":[78,252,220,80]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"Global MAE","textPreview":"Global MAE","textChars":10,"textLines":1,"bbox":[78,342,220,34]}
+{"kind":"textbox","id":"sh/o7ih0r6h","slide":11,"text":"1.425","textPreview":"1.425","textChars":5,"textLines":1,"bbox":[340,252,220,80]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"Tail MAE","textPreview":"Tail MAE","textChars":8,"textLines":1,"bbox":[340,342,220,34]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"text":"Best default for broad continuous potency prediction","textPreview":"Best default for broad continuous potency prediction","textChars":52,"textLines":1,"bbox":[78,454,482,66]}
+{"kind":"shape","id":"sh/ofqtgnyt","slide":11,"bbox":[638,134,594,476]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"text":"Safety and Tail Model","textPreview":"Safety and Tail Model","textChars":21,"textLines":1,"bbox":[670,168,530,42]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"text":"+0.011","textPreview":"+0.011","textChars":6,"textLines":1,"bbox":[670,252,230,80]}
+{"kind":"textbox","id":"sh/nehs7iho","slide":11,"text":"Global MAE Cost","textPreview":"Global MAE Cost","textChars":15,"textLines":1,"bbox":[670,342,230,34]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"text":"1.354","textPreview":"1.354","textChars":5,"textLines":1,"bbox":[940,252,230,80]}
+{"kind":"textbox","id":"sh/1cfa58zi","slide":11,"text":"Tail MAE","textPreview":"Tail MAE","textChars":8,"textLines":1,"bbox":[940,342,230,34]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"text":"Better balance at potency extremes; worse average error","textPreview":"Better balance at potency extremes; worse average error","textChars":55,"textLines":1,"bbox":[670,454,500,66]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"The safety-selected objective improves the potency tails but pays a statistically supported global cost. The defensible product design is two transparent modes rather than one hidden objective.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/tables/safety_objective_tradeoff.csv\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n[/Sources]"}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Recommended Next Experiments","textShapes":17}
+{"kind":"textbox","id":"sh/uh0na1g3","slide":12,"text":"Recommended Next Experiments","textPreview":"Recommended Next Experiments","textChars":28,"textLines":1,"bbox":[46,34,1188,62]}
+{"kind":"shape","id":"sh/7u94zmhs","slide":12,"bbox":[46,108,1188,0]}
+{"kind":"shape","id":"sh/0f2lgnmp","slide":12,"bbox":[46,132,1186,110]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[68,156,56,58]}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"text":"External Functional Series","textPreview":"External Functional Series","textChars":26,"textLines":1,"bbox":[146,150,310,34]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"text":"Freeze an explicit human-WT patch-clamp series and evaluate once.","textPreview":"Freeze an explicit human-WT patch-clamp series and evaluate once.","textChars":65,"textLines":1,"bbox":[146,190,430,40]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"Tests real-world transfer and ends the internal-metric debate.","textPreview":"Tests real-world transfer and ends the internal-metric debate.","textChars":62,"textLines":1,"bbox":[620,156,574,66]}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"bbox":[46,264,1186,110]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[68,288,56,58]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"text":"Measurement Model","textPreview":"Measurement Model","textChars":17,"textLines":1,"bbox":[146,282,310,34]}
+{"kind":"textbox","id":"sh/xw3q94ne","slide":12,"text":"Adjudicate construct, modality, source, cell system, and protocol context.","textPreview":"Adjudicate construct, modality, source, cell system, and protocol context.","textChars":74,"textLines":1,"bbox":[146,322,430,40]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"text":"Separates chemistry error from assay and label error.","textPreview":"Separates chemistry error from assay and label error.","textChars":53,"textLines":1,"bbox":[620,288,574,66]}
+{"kind":"shape","id":"sh/bulo7u58","slide":12,"bbox":[46,396,1186,110]}
+{"kind":"textbox","id":"sh/orapcf6h","slide":12,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[68,420,56,58]}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"text":"Activity-Cliff Specialist","textPreview":"Activity-Cliff Specialist","textChars":25,"textLines":1,"bbox":[146,414,310,34]}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"text":"Acquire matched pairs in the highest-error and highest-value chemical series.","textPreview":"Acquire matched pairs in the highest-error and highest-value chemical series.","textChars":77,"textLines":1,"bbox":[146,454,430,40]}
+{"kind":"textbox","id":"sh/nq1o3a5w","slide":12,"text":"Targets the 41.7% analog-supported domain where local models already help.","textPreview":"Targets the 41.7% analog-supported domain where local models already help.","textChars":74,"textLines":1,"bbox":[620,420,574,66]}
+{"kind":"shape","id":"sh/0nap8f6l","slide":12,"bbox":[46,528,1186,110]}
+{"kind":"textbox","id":"sh/1oj61kn6","slide":12,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[68,552,56,58]}
+{"kind":"textbox","id":"sh/hkbm5wzu","slide":12,"text":"Receptor and Microstate Physics","textPreview":"Receptor and Microstate Physics","textChars":31,"textLines":1,"bbox":[146,546,310,34]}
+{"kind":"textbox","id":"sh/gj25cry9","slide":12,"text":"Prepare receptor states, ligand microstates, membrane context, and pinned software.","textPreview":"Prepare receptor states, ligand microstates, membrane context, and pinned software.","textChars":83,"textLines":1,"bbox":[146,586,430,40]}
+{"kind":"textbox","id":"sh/fit436ho","slide":12,"text":"Tests physics that the ligand-only conformer campaign could not represent.","textPreview":"Tests physics that the ligand-only conformer campaign could not represent.","textChars":74,"textLines":1,"bbox":[620,552,574,66]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"Close with an explicit decision request. The first two experiments address the largest evidence gaps. Activity-cliff modeling builds on the successful local-analog signal. Receptor physics should start only after receptor, microstate, membrane, and environment preparation is complete.\n\n[Sources]\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/MEETING_BRIEF.md\n- /Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/reports/platform/herg_meeting_2026_08_18/TECHNICAL_QA.md\n[/Sources]"}

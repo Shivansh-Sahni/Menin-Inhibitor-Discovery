@@ -1,0 +1,69 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2930,
+      "path": "research/data/platform/processed/training_surfaces/v1_0_platform_registry/platform_training_registry.json",
+      "role": "integrated_machine_registry",
+      "sha256": "1c35f7870adddbd42d527fec1eed59f7d48a14bf54449cf7284bda1013bbc15e"
+    },
+    {
+      "bytes": 3517,
+      "path": "research/data/platform/processed/training_surfaces/v1_0_platform_registry/PLATFORM_TRAINING_SURFACES.md",
+      "role": "integrated_prose_report",
+      "sha256": "7db6a04a0dad4662aa04a38589465bfce5fbfaacc9e89a068b07ef2c12e1e0a0"
+    }
+  ],
+  "inputs": [
+    {
+      "bytes": 18415,
+      "path": "pipeline/src/menin_discovery/platform_training_surface_registry.py",
+      "role": "builder_implementation",
+      "sha256": "e44593b914a1495729c0c440f9e4ac71c30f348f14fed4f13e563c8cb2501dc6"
+    },
+    {
+      "bytes": 4089,
+      "path": "pipeline/config/platform_training_surfaces.yaml",
+      "role": "platform_configuration",
+      "sha256": "5b5047665afb7e0f434432c8beeaf5c51657ce0775ee857093e50c38d60a5009"
+    },
+    {
+      "bytes": 13283,
+      "path": "research/data/platform/processed/herg_hierarchy/v1_6_training_surfaces/herg_training_surfaces_manifest.json",
+      "role": "herg_release_manifest",
+      "sha256": "97aba6eaebf7879ba91412b0878eac571da15adf076783f0b38c57551308489b"
+    },
+    {
+      "bytes": 3670,
+      "path": "research/data/platform/processed/pk_adme/v1_0_trainable_surfaces/artifact_manifest.json",
+      "role": "pk_adme_release_manifest",
+      "sha256": "092afe7c76d297abd062898ac1b1536ef935e0a9bb6510ceeee779a44c552516"
+    },
+    {
+      "bytes": 1440,
+      "path": "research/data/platform/processed/pk_adme/v1_0_trainable_surfaces/release_summary.json",
+      "role": "pk_adme_release_summary",
+      "sha256": "471ab50e827c60b351bc7e60bd5b266687a06ca896446cb027b7f19f3f1ed583"
+    },
+    {
+      "bytes": 66199,
+      "path": "research/data/platform/processed/affinity_training/v1_0_chembl37_bindingdb202608/affinity_training_manifest.json",
+      "role": "affinity_release_manifest",
+      "sha256": "5c9b9c1fc6bd6130c5d72eaf9b671ea7b701bed23af6b07ea920410c09618604"
+    },
+    {
+      "bytes": 9779,
+      "path": "research/data/platform/processed/multimodal/v1_0_adjacent_training_surfaces/adjacent_training_manifest.json",
+      "role": "multimodal_release_manifest",
+      "sha256": "6e6d13a5824d27abc89f057955c9ead6623da0305ae6be5c9e2d37d6dd70f709"
+    },
+    {
+      "bytes": 7928,
+      "path": "research/reports/platform/herg_paper/pre_hpc_contracts/future_feature_contract.json",
+      "role": "future_feature_contract",
+      "sha256": "b32060b3cd3467987b5b452cafae453e59e81856aa73a2fc6a29f85d71fdb064"
+    }
+  ],
+  "manifest_sha256": "c519c33b363d1fedce89f15747f69330cd361d115ca0d5151724959d70d0c1f5",
+  "release_version": "v1_0_platform_registry",
+  "schema_version": "platform-training-surface-registry/1.0"
+}

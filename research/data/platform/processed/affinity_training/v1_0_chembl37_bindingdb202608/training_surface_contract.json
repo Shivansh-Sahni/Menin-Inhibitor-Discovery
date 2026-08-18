@@ -1,0 +1,81 @@
+{
+  "eligibility_contract": {
+    "ec50_primary_affinity_eligible": false,
+    "redistribution": "source terms and row provenance are preserved; non-curated BindingDB imports require source-specific distribution review",
+    "rights_quarantined_sources": [
+      "Taylor Research Group, UCSD"
+    ],
+    "scientific_training_eligible": "valid current-policy parent structure, single reported protein chain, accession or sequence, positive parseable endpoint-specific nM label, supported relation, and strong mirror screen",
+    "sequence_model_eligible": "scientific eligibility plus reported or unambiguously resolved sequence"
+  },
+  "endpoint_contract": {
+    "EC50": "auxiliary_assay_dependent_half_maximal_effect_nM_not_affinity",
+    "IC50": "primary_assay_dependent_half_maximal_inhibition_nM",
+    "Kd": "primary_equilibrium_dissociation_constant_nM",
+    "Ki": "primary_inhibition_constant_nM",
+    "binding_free_energy_precomputed": false,
+    "binding_free_energy_reason": "Delta-G derivation requires an explicit thermodynamic endpoint, standard state, and temperature; IC50, Ki, and EC50 are not silently converted",
+    "pooling_across_endpoints_allowed": false
+  },
+  "execution_boundary": {
+    "hpc_executed": false,
+    "hyperparameter_search_performed": false,
+    "model_fitting_performed": false,
+    "predictive_superiority_established": false,
+    "production_features_generated": false
+  },
+  "identity_contract": {
+    "homology_boundary": "exact accession/sequence leakage is blocked now; sequence-similarity cluster splits remain a later HPC preprocessing step",
+    "homology_clustering_completed": false,
+    "ligand_parent_policy": "rdkit-cleanup-neutralize-v2-fragment-parent-1-tautomer-0",
+    "scaffold": "Bemis-Murcko; acyclic structures and rare RDKit scaffold-extraction failures use the exact standardized parent as a conservative no-leak fallback",
+    "target_leakage_group": "connected component over exact accession tokens and exact sequence SHA-256 tokens",
+    "target_record": "reported accession set plus exact reported sequence hash",
+    "tautomers_collapsed": false,
+    "unambiguous_sequence_resolution": "an accession-only record receives a sequence only when its connected component has exactly one reported sequence"
+  },
+  "label_contract": {
+    "censored_values_promoted_to_points": false,
+    "exact": "lower=value=upper",
+    "interval_censored": "both bounds retained; no midpoint imputation",
+    "left_censored": "relation < or <=; upper bound retained",
+    "positive_values_only": true,
+    "relations": [
+      "<",
+      "<=",
+      "=",
+      ">",
+      ">=",
+      "interval"
+    ],
+    "right_censored": "relation > or >=; lower bound retained",
+    "unit": "nM"
+  },
+  "mirror_contract": {
+    "bindingdb_rows_declared_as_chembl": "excluded_without_counting_as_independent",
+    "equal_values_without_shared_document": "not treated as duplicates",
+    "measurement_lineage_group": "materialized on every retained observation",
+    "same_document_exact_non_chembl_mirrors": "one retained; later rows excluded",
+    "strong_cross_source_key": "current-policy parent structure + exact accession-or-sequence token + endpoint + relation/bounds + normalized DOI/PMID/patent",
+    "unknown_document_replicates": "retained because experimental identity is not established"
+  },
+  "prediction_unit": "one_documented_ligand_target_endpoint_measurement",
+  "release_id": "chembl37_bindingdb202608_affinity_v1_0",
+  "schema_version": "platform-affinity-training-surfaces/1.0",
+  "split_contract": {
+    "double_cold": "eligible only when independently assigned ligand-scaffold and target-component partitions agree; mixed assignments are explicitly null",
+    "exact_accession_or_sequence_component_cross_target_cold_split_allowed": false,
+    "exact_structure_cross_ligand_cold_split_allowed": false,
+    "label_columns_read_for_assignment": false,
+    "ligand_cold_group": "scaffold_group_id",
+    "policy_version": "affinity-scaffold-target-cold/1.0",
+    "ratios": {
+      "test": 10,
+      "train": 80,
+      "validation": 10
+    },
+    "scaffold_cross_ligand_cold_split_allowed": false,
+    "seed": "20260809-affinity-v1",
+    "target_cold_group": "target_leakage_group_id"
+  }
+}

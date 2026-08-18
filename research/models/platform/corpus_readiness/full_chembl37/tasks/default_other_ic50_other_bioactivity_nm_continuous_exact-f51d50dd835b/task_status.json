@@ -1,0 +1,87 @@
+{
+  "dataset_key": "default::default__other__ic50__other_bioactivity__nm__continuous_exact",
+  "declared_rows": 129920,
+  "diagnostic_acceptance_path": "tasks/default_other_ic50_other_bioactivity_nm_continuous_exact-f51d50dd835b/diagnostics/acceptance.json",
+  "diagnostic_acceptance_sha256": "cd2b45430dd7c5a9c85c3cad22d2e801a312f7ec0644d307b9c59cc259c6c336",
+  "diagnostic_disposition_materialized": false,
+  "diagnostic_materialized": true,
+  "diagnostic_path": "tasks/default_other_ic50_other_bioactivity_nm_continuous_exact-f51d50dd835b/diagnostics",
+  "diagnostic_reason": "",
+  "diagnostic_status": "completed_diagnostic_only",
+  "integration_acceptance_path": "tasks/default_other_ic50_other_bioactivity_nm_continuous_exact-f51d50dd835b/integration/acceptance.json",
+  "integration_acceptance_sha256": "af2b641442744eaf68888054da9bb2d8893593f96b34c30c40958fe6600b92a3",
+  "integration_materialized": true,
+  "integration_path": "tasks/default_other_ic50_other_bioactivity_nm_continuous_exact-f51d50dd835b/integration",
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "default::default__other__ic50__other_bioactivity__nm__continuous_exact",
+    "declared_rows": 129920,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 12232,
+      "train": 56748,
+      "validation": 12088
+    },
+    "predicted_partition_rows": {
+      "test": 19812,
+      "train": 90659,
+      "validation": 19449
+    },
+    "rows_scanned": 129920,
+    "skip_reasons": [],
+    "substantive_training_started": false,
+    "support_decision": "integrate",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "endpoint": "IC50",
+      "evidence_domain": "other",
+      "label_kind": "continuous_exact",
+      "observation_kind": "experimental_summary",
+      "task_id": "TASK-924B30B89C80EF491174298D",
+      "task_type": "default__other__ic50__other_bioactivity__nm__continuous_exact"
+    },
+    "unique_molecule_groups": 81068,
+    "unique_observation_ids": 129920,
+    "unique_protein_groups": 1405
+  },
+  "skip_reasons": [],
+  "status": "integrated_and_diagnostic_completed",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "9bec0dc6b340b573de45454487853c9b670c05debaafb421a9e208ee2fcbe531",
+  "task_output_path": "tasks/default_other_ic50_other_bioactivity_nm_continuous_exact-f51d50dd835b",
+  "task_scope": "default",
+  "task_type": "default__other__ic50__other_bioactivity__nm__continuous_exact",
+  "test_partition_opened_by_diagnostics": false,
+  "training_label_support": {
+    "capped_training_label_counts": {},
+    "label_kind": "continuous_exact",
+    "maximum_categorical_label_cardinality": 32,
+    "selection_seed": 20260804,
+    "skip_reasons": [],
+    "status": "not_applicable_non_categorical_no_label_scan",
+    "substantive_training_started": false,
+    "test_labels_read": false,
+    "test_partition_opened_or_hashed": false,
+    "training_label_counts": {},
+    "training_labels_read": false,
+    "training_rows_scanned": 0,
+    "validation_labels_read": false
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "admission_boundary": "Candidate sections, evidence spans, table hashes, and application joins are review aids only. No numeric value was normalized into CL/t1/2/AUC/Cmax/Tmax/Vd/F; canonical rows and training labels remain zero.",
+  "by_archive": [
+    {
+      "archive": "dm_spl_release_human_rx_part1.zip",
+      "candidate_documents": 10661,
+      "candidate_sections": 11035,
+      "candidate_tables": 7677,
+      "documents_with_clinical_pharmacology_section": 13335,
+      "documents_with_explicit_pk_section": 7966,
+      "outer_members_declared": 14989,
+      "outer_members_scanned": 14989,
+      "xml_parsed": 14989
+    },
+    {
+      "archive": "dm_spl_release_human_rx_part2.zip",
+      "candidate_documents": 7595,
+      "candidate_sections": 7818,
+      "candidate_tables": 4484,
+      "documents_with_clinical_pharmacology_section": 9308,
+      "documents_with_explicit_pk_section": 6317,
+      "outer_members_declared": 9605,
+      "outer_members_scanned": 9605,
+      "xml_parsed": 9605
+    },
+    {
+      "archive": "dm_spl_release_human_rx_part3.zip",
+      "candidate_documents": 6991,
+      "candidate_sections": 7203,
+      "candidate_tables": 4156,
+      "documents_with_clinical_pharmacology_section": 8391,
+      "documents_with_explicit_pk_section": 5753,
+      "outer_members_declared": 9132,
+      "outer_members_scanned": 9132,
+      "xml_parsed": 9132
+    },
+    {
+      "archive": "dm_spl_release_human_rx_part4.zip",
+      "candidate_documents": 6539,
+      "candidate_sections": 6683,
+      "candidate_tables": 3947,
+      "documents_with_clinical_pharmacology_section": 7790,
+      "documents_with_explicit_pk_section": 5889,
+      "outer_members_declared": 8369,
+      "outer_members_scanned": 8369,
+      "xml_parsed": 8369
+    },
+    {
+      "archive": "dm_spl_release_human_rx_part5.zip",
+      "candidate_documents": 6908,
+      "candidate_sections": 7077,
+      "candidate_tables": 4239,
+      "documents_with_clinical_pharmacology_section": 8232,
+      "documents_with_explicit_pk_section": 6187,
+      "outer_members_declared": 8716,
+      "outer_members_scanned": 8716,
+      "xml_parsed": 8716
+    },
+    {
+      "archive": "dm_spl_release_human_rx_part6.zip",
+      "candidate_documents": 3266,
+      "candidate_sections": 3346,
+      "candidate_tables": 2107,
+      "documents_with_clinical_pharmacology_section": 3784,
+      "documents_with_explicit_pk_section": 2912,
+      "outer_members_declared": 3861,
+      "outer_members_scanned": 3861,
+      "xml_parsed": 3861
+    }
+  ],
+  "candidate_definition": {
+    "explicit": "Top-most section with pharmacokinetics title or LOINC 43682-4, at least one PK endpoint term, and >=2 numeric tokens or a table.",
+    "fallback": "Clinical Pharmacology title or LOINC 34090-1 meeting the quantitative endpoint test only when no qualifying explicit PK descendant was selected.",
+    "important_limit": "Keyword/regex inventory only. Numeric values are not parsed into PK labels and context flags are not human-verified.",
+    "pk_endpoints": [
+      "auc",
+      "cmax",
+      "tmax",
+      "half_life",
+      "clearance",
+      "volume_distribution",
+      "bioavailability"
+    ]
+  },
+  "candidate_document_provenance_presence": {
+    "active_ingredients_present": 10976,
+    "approval_ids_present": 41351,
+    "author_organizations_present": 41956,
+    "document_id_present": 41960,
+    "document_title_present": 40669,
+    "drugsfda_matches_present": 19652,
+    "effective_time_present": 41960,
+    "product_codes_present": 41744,
+    "product_names_present": 41744,
+    "set_id_present": 41960,
+    "version_number_present": 41960
+  },
+  "candidate_section_provenance_presence": {
+    "document_id_present": 43162,
+    "effective_time_present": 43162,
+    "inner_xml_sha256_present": 43162,
+    "normalized_section_text_sha256_present": 43162,
+    "section_id_present": 43162,
+    "set_id_present": 43162,
+    "version_number_present": 43162
+  },
+  "candidate_sections_by_context_flag_nonexclusive": {
+    "all_core_context_flags_in_same_section": 29664,
+    "animal_species_mentioned": 9343,
+    "dose_mentioned": 37412,
+    "human_population_mentioned": 34808,
+    "matrix_mentioned": 42316,
+    "population_subgroup_mentioned": 34315,
+    "route_mentioned": 39133,
+    "unit_like_mentioned": 43162
+  },
+  "candidate_sections_by_effective_year": {
+    "1998": 1,
+    "2004": 1,
+    "2005": 2,
+    "2006": 72,
+    "2007": 84,
+    "2008": 73,
+    "2009": 210,
+    "2010": 978,
+    "2011": 733,
+    "2012": 880,
+    "2013": 496,
+    "2014": 513,
+    "2015": 529,
+    "2016": 427,
+    "2017": 743,
+    "2018": 707,
+    "2019": 1155,
+    "2020": 1158,
+    "2021": 1519,
+    "2022": 2087,
+    "2023": 3758,
+    "2024": 7682,
+    "2025": 9865,
+    "2026": 9489
+  },
+  "candidate_sections_by_endpoint_combination": {
+    "auc": 198,
+    "auc+bioavailability": 18,
+    "auc+bioavailability+clearance+cmax": 35,
+    "auc+bioavailability+clearance+cmax+half_life": 2500,
+    "auc+bioavailability+clearance+cmax+half_life+tmax": 2118,
+    "auc+bioavailability+clearance+cmax+half_life+tmax+volume_distribution": 5977,
+    "auc+bioavailability+clearance+cmax+half_life+volume_distribution": 5520,
+    "auc+bioavailability+clearance+cmax+tmax": 97,
+    "auc+bioavailability+clearance+cmax+tmax+volume_distribution": 27,
+    "auc+bioavailability+clearance+cmax+volume_distribution": 37,
+    "auc+bioavailability+clearance+half_life": 126,
+    "auc+bioavailability+clearance+half_life+tmax": 2,
+    "auc+bioavailability+clearance+half_life+tmax+volume_distribution": 42,
+    "auc+bioavailability+clearance+half_life+volume_distribution": 482,
+    "auc+bioavailability+clearance+volume_distribution": 1,
+    "auc+bioavailability+cmax": 173,
+    "auc+bioavailability+cmax+half_life": 592,
+    "auc+bioavailability+cmax+half_life+tmax": 406,
+    "auc+bioavailability+cmax+half_life+tmax+volume_distribution": 335,
+    "auc+bioavailability+cmax+half_life+volume_distribution": 166,
+    "auc+bioavailability+cmax+tmax": 96,
+    "auc+bioavailability+cmax+tmax+volume_distribution": 17,
+    "auc+bioavailability+cmax+volume_distribution": 74,
+    "auc+bioavailability+half_life": 493,
+    "auc+bioavailability+half_life+tmax": 1,
+    "auc+bioavailability+half_life+volume_distribution": 2,
+    "auc+bioavailability+volume_distribution": 6,
+    "auc+clearance": 96,
+    "auc+clearance+cmax": 585,
+    "auc+clearance+cmax+half_life": 904,
+    "auc+clearance+cmax+half_life+tmax": 794,
+    "auc+clearance+cmax+half_life+tmax+volume_distribution": 1154,
+    "auc+clearance+cmax+half_life+volume_distribution": 1658,
+    "auc+clearance+cmax+tmax": 68,
+    "auc+clearance+cmax+tmax+volume_distribution": 10,
+    "auc+clearance+cmax+volume_distribution": 81,
+    "auc+clearance+half_life": 96,
+    "auc+clearance+half_life+tmax": 16,
+    "auc+clearance+half_life+tmax+volume_distribution": 3,
+    "auc+clearance+half_life+volume_distribution": 281,
+    "auc+clearance+tmax": 1,
+    "auc+clearance+tmax+volume_distribution": 1,
+    "auc+clearance+volume_distribution": 7,
+    "auc+cmax": 663,
+    "auc+cmax+half_life": 734,
+    "auc+cmax+half_life+tmax": 672,
+    "auc+cmax+half_life+tmax+volume_distribution": 179,
+    "auc+cmax+half_life+volume_distribution": 103,
+    "auc+cmax+tmax": 98,
+    "auc+cmax+tmax+volume_distribution": 4,
+    "auc+half_life": 89,
+    "auc+half_life+tmax": 13,
+    "auc+half_life+volume_distribution": 12,
+    "bioavailability": 457,
+    "bioavailability+clearance": 13,
+    "bioavailability+clearance+cmax": 1,
+    "bioavailability+clearance+cmax+half_life": 538,
+    "bioavailability+clearance+cmax+half_life+tmax": 42,
+    "bioavailability+clearance+cmax+half_life+tmax+volume_distribution": 845,
+    "bioavailability+clearance+cmax+half_life+volume_distribution": 548,
+    "bioavailability+clearance+cmax+tmax+volume_distribution": 3,
+    "bioavailability+clearance+cmax+volume_distribution": 17,
+    "bioavailability+clearance+half_life": 782,
+    "bioavailability+clearance+half_life+tmax+volume_distribution": 16,
+    "bioavailability+clearance+half_life+volume_distribution": 466,
+    "bioavailability+clearance+volume_distribution": 57,
+    "bioavailability+cmax": 51,
+    "bioavailability+cmax+half_life": 539,
+    "bioavailability+cmax+half_life+tmax": 167,
+    "bioavailability+cmax+half_life+tmax+volume_distribution": 33,
+    "bioavailability+cmax+half_life+volume_distribution": 60,
+    "bioavailability+cmax+tmax": 3,
+    "bioavailability+cmax+tmax+volume_distribution": 34,
+    "bioavailability+half_life": 769,
+    "bioavailability+half_life+tmax": 7,
+    "bioavailability+half_life+tmax+volume_distribution": 2,
+    "bioavailability+half_life+volume_distribution": 131,
+    "bioavailability+volume_distribution": 35,
+    "clearance": 368,
+    "clearance+cmax": 18,
+    "clearance+cmax+half_life": 478,
+    "clearance+cmax+half_life+tmax": 119,
+    "clearance+cmax+half_life+tmax+volume_distribution": 282,
+    "clearance+cmax+half_life+volume_distribution": 612,
+    "clearance+cmax+tmax": 1,
+    "clearance+cmax+tmax+volume_distribution": 1,
+    "clearance+cmax+volume_distribution": 8,
+    "clearance+half_life": 1641,
+    "clearance+half_life+tmax": 13,
+    "clearance+half_life+tmax+volume_distribution": 7,
+    "clearance+half_life+volume_distribution": 793,
+    "clearance+tmax": 10,
+    "clearance+tmax+volume_distribution": 1,
+    "clearance+volume_distribution": 46,
+    "cmax": 289,
+    "cmax+half_life": 1045,
+    "cmax+half_life+tmax": 268,
+    "cmax+half_life+tmax+volume_distribution": 35,
+    "cmax+half_life+volume_distribution": 152,
+    "cmax+tmax": 164,
+    "cmax+volume_distribution": 5,
+    "half_life": 3023,
+    "half_life+tmax": 4,
+    "half_life+volume_distribution": 229,
+    "tmax": 3,
+    "volume_distribution": 68
+  },
+  "candidate_sections_by_endpoint_hit_nonexclusive": {
+    "auc": 27863,
+    "bioavailability": 24959,
+    "clearance": 30445,
+    "cmax": 32235,
+    "half_life": 39116,
+    "tmax": 14191,
+    "volume_distribution": 20665
+  },
+  "candidate_sections_by_selection_reason": {
+    "clinical_pharmacology_quantitative_fallback": 9283,
+    "explicit_pharmacokinetics_section": 33879
+  },
+  "context_completeness_tiers": {
+    "A_all_core_machine_detected_unverified": 29664,
+    "B_endpoint_unit_matrix_human_and_partial_administration_context": 4324,
+    "C_quantitative_endpoint_candidate_with_major_context_gap": 9174
+  },
+  "context_tier_definitions": {
+    "A_all_core_machine_detected_unverified": "Human/population, route, dose, matrix, and unit-like terms all detected in the same candidate section. This is not human validation.",
+    "B_endpoint_unit_matrix_human_and_partial_administration_context": "Endpoint, units, matrix, and human/population detected, with route or dose but not both.",
+    "C_quantitative_endpoint_candidate_with_major_context_gap": "Quantitative endpoint candidate that fails the stricter A/B context rules."
+  },
+  "counts": {
+    "bounded_evidence_spans": 313014,
+    "candidate_document_versions": 41960,
+    "candidate_documents_with_at_least_one_tier_A_section": 29334,
+    "candidate_documents_with_exact_drugsfda_application_match": 19652,
+    "candidate_sections": 43162,
+    "candidate_tables": 26610,
+    "canonical_rows": 0,
+    "documents_with_clinical_pharmacology_section": 50840,
+    "documents_with_exact_drugsfda_application_match": 23805,
+    "documents_with_explicit_pharmacokinetics_section": 35024,
+    "frozen_outer_archives": 6,
+    "inner_xml_members_parsed": 54672,
+    "latest_available_candidate_documents": 40247,
+    "latest_available_candidate_sections": 41395,
+    "outer_members_scanned": 54672,
+    "parse_errors": 0,
+    "set_ids_with_multiple_candidate_versions": 1708,
+    "set_ids_with_multiple_versions_all_documents": 2319,
+    "training_labels": 0,
+    "unique_document_ids": 54672,
+    "unique_set_ids_all_documents": 52347,
+    "unique_set_ids_candidate_documents": 40247
+  },
+  "generated_at_utc": "2026-08-07T13:01:45Z",
+  "important_limitations": [
+    "Regex selection can miss values expressed without recognized endpoint terms and can retain unrelated numbers inside a selected section.",
+    "Context flags report term presence, not that every context term applies to every quantitative value.",
+    "Latest-available view is based only on the frozen bulk corpus and is not asserted to be the currently marketed or regulator-preferred label.",
+    "Drugs@FDA links require an exact numeric approval ID in SPL; absence of a match is not evidence of no approval.",
+    "Multiple label versions and multiple products may share ingredients; no molecular deduplication or structure mapping was attempted."
+  ],
+  "latest_available_context_completeness_tiers": {
+    "A_all_core_machine_detected_unverified": 28470,
+    "B_endpoint_unit_matrix_human_and_partial_administration_context": 4128,
+    "C_quantitative_endpoint_candidate_with_major_context_gap": 8797
+  },
+  "schema_version": "pk-expansion-dailymed-candidates/1.0",
+  "scope": "Full six-archive DailyMed human-prescription SPL candidate evidence scan with exact Drugs@FDA application-number joins; no measurement extraction.",
+  "source_bindings": {
+    "archives": [
+      {
+        "actual_bytes": 3221045354,
+        "actual_outer_members": 14989,
+        "actual_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+        "archive": "dm_spl_release_human_rx_part1.zip",
+        "expected_bytes": 3221045354,
+        "expected_outer_members": 14989,
+        "expected_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 14989,
+        "passed": true,
+        "scanned_outer_members": 14989
+      },
+      {
+        "actual_bytes": 3221063745,
+        "actual_outer_members": 9605,
+        "actual_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+        "archive": "dm_spl_release_human_rx_part2.zip",
+        "expected_bytes": 3221063745,
+        "expected_outer_members": 9605,
+        "expected_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 9605,
+        "passed": true,
+        "scanned_outer_members": 9605
+      },
+      {
+        "actual_bytes": 3220663350,
+        "actual_outer_members": 9132,
+        "actual_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+        "archive": "dm_spl_release_human_rx_part3.zip",
+        "expected_bytes": 3220663350,
+        "expected_outer_members": 9132,
+        "expected_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 9132,
+        "passed": true,
+        "scanned_outer_members": 9132
+      },
+      {
+        "actual_bytes": 3220858219,
+        "actual_outer_members": 8369,
+        "actual_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+        "archive": "dm_spl_release_human_rx_part4.zip",
+        "expected_bytes": 3220858219,
+        "expected_outer_members": 8369,
+        "expected_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 8369,
+        "passed": true,
+        "scanned_outer_members": 8369
+      },
+      {
+        "actual_bytes": 3220978159,
+        "actual_outer_members": 8716,
+        "actual_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+        "archive": "dm_spl_release_human_rx_part5.zip",
+        "expected_bytes": 3220978159,
+        "expected_outer_members": 8716,
+        "expected_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 8716,
+        "passed": true,
+        "scanned_outer_members": 8716
+      },
+      {
+        "actual_bytes": 1662589295,
+        "actual_outer_members": 3861,
+        "actual_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+        "archive": "dm_spl_release_human_rx_part6.zip",
+        "expected_bytes": 1662589295,
+        "expected_outer_members": 3861,
+        "expected_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+        "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+        "parse_errors": 0,
+        "parsed_inner_xml_members": 3861,
+        "passed": true,
+        "scanned_outer_members": 3861
+      }
+    ],
+    "dailymed_manifest": {
+      "bytes": 25387,
+      "path": "research/data/platform/raw/external_public/dailymed_spl_v2_human_rx/dailymed_spl_v2_human_rx_manifest.json",
+      "sha256": "f2a2c2fca158bfd524c3d1d8acd4edb7bcf8c2db3a4212bc6595cf7cef359886"
+    },
+    "drugsfda_manifest": {
+      "bytes": 33928,
+      "path": "research/data/platform/raw/external_public/drugs_at_fda_bulk/drugs_at_fda_bulk_manifest.json",
+      "sha256": "406f87317a0f16b7c99a38dd5ec34aa86f0174f4158b6c97a6a17413528bcab8"
+    }
+  },
+  "table_inventory": {
+    "numeric_token_present": 26203,
+    "pk_endpoint_hit_present": 20334,
+    "rows": 26610,
+    "text_hash_present": 26610,
+    "xml_hash_present": 26610
+  },
+  "top_section_code_title_pairs": [
+    {
+      "candidate_sections": 22650,
+      "section_code": "43682-4",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 7008,
+      "section_code": "34090-1",
+      "section_title": "CLINICAL PHARMACOLOGY"
+    },
+    {
+      "candidate_sections": 3540,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 1394,
+      "section_code": "42229-5",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 1026,
+      "section_code": "34090-1",
+      "section_title": ""
+    },
+    {
+      "candidate_sections": 945,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 526,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics and Metabolism"
+    },
+    {
+      "candidate_sections": 468,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and Metabolism"
+    },
+    {
+      "candidate_sections": 426,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics:"
+    },
+    {
+      "candidate_sections": 362,
+      "section_code": "43682-4",
+      "section_title": ""
+    },
+    {
+      "candidate_sections": 338,
+      "section_code": "<NULL>",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 320,
+      "section_code": "34090-1",
+      "section_title": "12 CLINICAL PHARMACOLOGY"
+    },
+    {
+      "candidate_sections": 270,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics and Metabolism"
+    },
+    {
+      "candidate_sections": 231,
+      "section_code": "34090-1",
+      "section_title": "CLINICAL PHARMACOLOGY SECTION"
+    },
+    {
+      "candidate_sections": 191,
+      "section_code": "43682-4",
+      "section_title": "PHARMACOKINETICS"
+    },
+    {
+      "candidate_sections": 189,
+      "section_code": "34090-1",
+      "section_title": "Clinical Pharmacology"
+    },
+    {
+      "candidate_sections": 189,
+      "section_code": "34090-1",
+      "section_title": "CLINICAL PHARMACOLOGY:"
+    },
+    {
+      "candidate_sections": 159,
+      "section_code": "34090-1",
+      "section_title": "12. Clinical Pharmacology"
+    },
+    {
+      "candidate_sections": 132,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in Special Populations"
+    },
+    {
+      "candidate_sections": 118,
+      "section_code": "34090-1",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 100,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in Elderly"
+    },
+    {
+      "candidate_sections": 97,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and Drug Metabolism"
+    },
+    {
+      "candidate_sections": 93,
+      "section_code": "43681-6",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 86,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics:"
+    },
+    {
+      "candidate_sections": 78,
+      "section_code": "42229-5",
+      "section_title": "7.1 Pharmacokinetic-related Interactions"
+    },
+    {
+      "candidate_sections": 71,
+      "section_code": "42229-5",
+      "section_title": "12.4 Pharmacokinetics in Special Populations"
+    },
+    {
+      "candidate_sections": 67,
+      "section_code": "42229-5",
+      "section_title": "8.6 Gender Difference in Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 65,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in Pediatric Patients"
+    },
+    {
+      "candidate_sections": 64,
+      "section_code": "<NULL>",
+      "section_title": "8.6 Gender Difference in Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 62,
+      "section_code": "43682-4",
+      "section_title": "PHARMACOKINETICS AND DRUG METABOLISM"
+    },
+    {
+      "candidate_sections": 60,
+      "section_code": "42229-5",
+      "section_title": "7.4 Pharmacokinetic Interactions"
+    },
+    {
+      "candidate_sections": 57,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and metabolism"
+    },
+    {
+      "candidate_sections": 54,
+      "section_code": "34090-1",
+      "section_title": "Pharmacokinetics and Metabolism"
+    },
+    {
+      "candidate_sections": 51,
+      "section_code": "34090-1",
+      "section_title": "Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 51,
+      "section_code": "42229-5",
+      "section_title": "PHARMACOKINETICS AND DRUG METABOLISM"
+    },
+    {
+      "candidate_sections": 48,
+      "section_code": "43682-4",
+      "section_title": "12.2 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 43,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 42,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in Children"
+    },
+    {
+      "candidate_sections": 42,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics and Metabolism:"
+    },
+    {
+      "candidate_sections": 42,
+      "section_code": "34073-7",
+      "section_title": "Effect of Other Drugs on the Pharmacokinetics of Clonazepam:"
+    },
+    {
+      "candidate_sections": 42,
+      "section_code": "42229-5",
+      "section_title": "7.2 Pharmacokinetic Drug Interactions"
+    },
+    {
+      "candidate_sections": 41,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics and Drug Metabolism"
+    },
+    {
+      "candidate_sections": 38,
+      "section_code": "43682-4",
+      "section_title": "12.3. Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 33,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and Metabolism:"
+    },
+    {
+      "candidate_sections": 32,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics and metabolism"
+    },
+    {
+      "candidate_sections": 30,
+      "section_code": "42229-5",
+      "section_title": "PHARMACOKINETICS"
+    },
+    {
+      "candidate_sections": 28,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and metabolism:"
+    },
+    {
+      "candidate_sections": 25,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics in Pediatric Patients"
+    },
+    {
+      "candidate_sections": 24,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics and Metabolism:"
+    },
+    {
+      "candidate_sections": 24,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in the Middle Ear Fluid"
+    },
+    {
+      "candidate_sections": 23,
+      "section_code": "34090-1",
+      "section_title": "12 Clinical Pharmacology"
+    },
+    {
+      "candidate_sections": 21,
+      "section_code": "43682-4",
+      "section_title": "PHARMACOKINETICS AND METABOLISM"
+    },
+    {
+      "candidate_sections": 21,
+      "section_code": "43682-4",
+      "section_title": "Geriatric Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 19,
+      "section_code": "42229-5",
+      "section_title": "Pediatric Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 19,
+      "section_code": "43682-4",
+      "section_title": "PHARMACOKINETICS:"
+    },
+    {
+      "candidate_sections": 17,
+      "section_code": "43682-4",
+      "section_title": "1 2 .3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 17,
+      "section_code": "34090-1",
+      "section_title": "CLINICAL PHARMACOLOGY*"
+    },
+    {
+      "candidate_sections": 16,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics in Elderly"
+    },
+    {
+      "candidate_sections": 16,
+      "section_code": "42229-5",
+      "section_title": "Comparison of Intravenous, Intramuscular and Oral Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 15,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics :"
+    },
+    {
+      "candidate_sections": 15,
+      "section_code": "34090-1",
+      "section_title": "12. CLINICAL PHARMACOLOGY"
+    },
+    {
+      "candidate_sections": 15,
+      "section_code": "42229-5",
+      "section_title": "5.4 Pharmacokinetic Drug-Drug Interactions"
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics."
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "42229-5",
+      "section_title": "Geriatric Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics -"
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics and metabolism:"
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "42229-5",
+      "section_title": "Comparison of IV, IM and Oral Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 14,
+      "section_code": "43682-4",
+      "section_title": "﻿Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 13,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics in Pediatric Patients"
+    },
+    {
+      "candidate_sections": 13,
+      "section_code": "43682-4",
+      "section_title": "12.3 PHARMACOKINETICS"
+    },
+    {
+      "candidate_sections": 12,
+      "section_code": "43682-4",
+      "section_title": "PHARMACOKINETICS SECTION"
+    },
+    {
+      "candidate_sections": 12,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics in Special Populations"
+    },
+    {
+      "candidate_sections": 12,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics, General"
+    },
+    {
+      "candidate_sections": 11,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics/Metabolism"
+    },
+    {
+      "candidate_sections": 11,
+      "section_code": "42229-5",
+      "section_title": "Human Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 11,
+      "section_code": "<NULL>",
+      "section_title": "Pediatric Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 11,
+      "section_code": "43682-4",
+      "section_title": "1 2 . 3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 11,
+      "section_code": "34090-1",
+      "section_title": "12.4 Pharmacokinetics in Special Populations"
+    },
+    {
+      "candidate_sections": 10,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics/Metabolism"
+    },
+    {
+      "candidate_sections": 9,
+      "section_code": "42229-5",
+      "section_title": "Pediatric Pharmacokinetics:"
+    },
+    {
+      "candidate_sections": 9,
+      "section_code": "34090-1",
+      "section_title": "CLINICAL PHARMACOLOGY IN ADULTS"
+    },
+    {
+      "candidate_sections": 9,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics and metabolism:"
+    },
+    {
+      "candidate_sections": 9,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics and Drug Metabolism:"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "42229-5",
+      "section_title": "Effect of Other Drugs on the Pharmacokinetics of Clonazepam"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43682-4",
+      "section_title": "Geriatric Pharmacokinetics:"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43684-0",
+      "section_title": "Pharmacokinetics in Special Populations"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "42229-5",
+      "section_title": "12.3 Pharmacokinetics and Metabolism"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43682-4",
+      "section_title": "2. Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43681-6",
+      "section_title": "12.2 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43682-4",
+      "section_title": "12.2 Pharmacodynamics"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43679-0",
+      "section_title": "12.3 Pharmacokinetics"
+    },
+    {
+      "candidate_sections": 8,
+      "section_code": "43682-4",
+      "section_title": "Geriatric Pharmacology"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "34090-1",
+      "section_title": "Pharmacokinetics:"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "34090-1",
+      "section_title": "Clinical Pharmacology Section"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "43682-4",
+      "section_title": "Pharmacokinetics and Drug Metabolism:"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "<NULL>",
+      "section_title": "Pharmacokinetics in Children"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics of Entacapone"
+    },
+    {
+      "candidate_sections": 7,
+      "section_code": "42229-5",
+      "section_title": "Pharmacokinetics in Pediatric Patients with PMA ≤32 weeks, or >32 to ≤40 weeks"
+    },
+    {
+      "candidate_sections": 6,
+      "section_code": "34090-1",
+      "section_title": "14 CLINICAL STUDIES"
+    },
+    {
+      "candidate_sections": 6,
+      "section_code": "43682-4",
+      "section_title": "12.3 Pharmacokinetics and Metabolism"
+    }
+  ]
+}

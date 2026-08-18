@@ -1,0 +1,541 @@
+{
+  "document_sha256": "a28d7a8b1386e15cfd72c264cf6fec8456a5b456dfce3d9731080a4ead712706",
+  "request_count": 30,
+  "requests": [
+    {
+      "bytes": 44960,
+      "final_url_without_presigned_query": "https://raw.githubusercontent.com/mims-harvard/TDC/main/tdc/metadata.py",
+      "http_status": 200,
+      "path": "tdc_adme/provenance/tdc_metadata.py",
+      "request_id": "tdc_metadata_py_main",
+      "request_url": "https://raw.githubusercontent.com/mims-harvard/TDC/main/tdc/metadata.py",
+      "response_headers": {
+        "content-length": "8925",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Thu, 06 Aug 2026 18:49:33 GMT",
+        "etag": "W/\"c3a6a07f48a9dd6b0f1128f15e2bc89cf6801592a2ae289fe9a03542d1337a2a\""
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:36.497537+00:00",
+      "sha256": "f169cd7464eb5e8ba4339015c65aaf614d52356c5ff42872b89821c278cc692c"
+    },
+    {
+      "bytes": 6037,
+      "final_url_without_presigned_query": "https://api.github.com/repos/mims-harvard/TDC/commits/main",
+      "http_status": 200,
+      "path": "tdc_adme/provenance/github_main_commit.json",
+      "request_id": "tdc_github_main_commit",
+      "request_url": "https://api.github.com/repos/mims-harvard/TDC/commits/main",
+      "response_headers": {
+        "content-length": "2300",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 06 Aug 2026 18:48:58 GMT",
+        "etag": "W/\"3f876bfe15397e5949eebab552007f1f8ee132bc3df79f2177229a27494a5114\"",
+        "last-modified": "Fri, 18 Apr 2025 19:02:03 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:37.093307+00:00",
+      "sha256": "9a75f01ec7b1d9e809742e2afdb7d41a7d3ca9b104ebbf9534e93bb5911f1ee6"
+    },
+    {
+      "bytes": 503564,
+      "final_url_without_presigned_query": "https://dataverse.harvard.edu/api/datasets/:persistentId/",
+      "http_status": 200,
+      "path": "tdc_adme/provenance/dataverse_dataset_metadata.json",
+      "request_id": "tdc_dataverse_dataset_metadata",
+      "request_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/21LKWG",
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8",
+        "date": "Thu, 06 Aug 2026 18:49:37 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:40.777768+00:00",
+      "sha256": "3b34aea7d1149c44c2a3b23484253e6aa15e0ddfe63c16cc95d56d3985687311"
+    },
+    {
+      "bytes": 137899,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176647324b7-bb8083e739a0",
+      "http_status": 200,
+      "path": "tdc_adme/files/bbb_martins.tab",
+      "request_id": "tdc_bbb_martins",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259566",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''bbb_martins.tab",
+        "content-length": "137899",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:39 GMT",
+        "etag": "\"4c7ddf7260f9573476ba2d4ca877957f\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:41.985172+00:00",
+      "sha256": "eb32676c7bf6e2bcd98b7625186bbb2ba4e4644c1d1468dfa18b6be665bd5e98"
+    },
+    {
+      "bytes": 929630,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/1RVMJ0/18c86dbcb85-dcf577d342b6",
+      "http_status": 200,
+      "path": "tdc_adme/files/b3db_classification.tab",
+      "request_id": "tdc_b3db_classification",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/7878566",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''b3db_classification.tab",
+        "content-length": "929630",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:41 GMT",
+        "etag": "\"0d1c54b67d0ccfad8dcc153f0b4d900d\"",
+        "last-modified": "Sun, 15 Feb 2026 19:30:29 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:43.803062+00:00",
+      "sha256": "c4ef6b7cc8770c82a168cbc8102fadf81eb8179c4f8ce90631e78094d1968f88"
+    },
+    {
+      "bytes": 118778,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/1RVMJ0/18c86dbc997-042622b944fa",
+      "http_status": 200,
+      "path": "tdc_adme/files/b3db_regression.tab",
+      "request_id": "tdc_b3db_regression",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/7878567",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''b3db_regression.tab",
+        "content-length": "118778",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:42 GMT",
+        "etag": "\"3346dc1eb530ddccc2d4e5662a122704\"",
+        "last-modified": "Sun, 15 Feb 2026 19:30:29 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:44.732197+00:00",
+      "sha256": "3f18e3cff790e6567159c0fdeef3e8216f152d1f9591f75d297a4427088b77c1"
+    },
+    {
+      "bytes": 43656,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1766473ccec-7b876a2d69f5",
+      "http_status": 200,
+      "path": "tdc_adme/files/bioavailability_ma.tab",
+      "request_id": "tdc_bioavailability_ma",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259567",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''bioavailability_ma.tab",
+        "content-length": "43656",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:43 GMT",
+        "etag": "\"e1f3ee03667caf09ee007f4a14bca530\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:19 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:45.862927+00:00",
+      "sha256": "43d5b270657a819a48615e7976081b9215456ce4e5cad91a0a36d9fb5bd78508"
+    },
+    {
+      "bytes": 82501,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17664746be4-cd68d798ba9a",
+      "http_status": 200,
+      "path": "tdc_adme/files/caco2_wang.tab",
+      "request_id": "tdc_caco2_wang",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259569",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''caco2_wang.tab",
+        "content-length": "82501",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:44 GMT",
+        "etag": "\"11681ff33d65be3a751a3fb0e45fa1a6\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:46.786367+00:00",
+      "sha256": "447d9f1af487c06b080145a2361dbe45af5b27afc83e1a975dd29b9ea535d6ab"
+    },
+    {
+      "bytes": 143596,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/18441153c37-497f2cead18a",
+      "http_status": 200,
+      "path": "tdc_adme/files/pampa_ncats.tab",
+      "request_id": "tdc_pampa_ncats",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/6695858",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''pampa_ncats.tab",
+        "content-length": "143596",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:45 GMT",
+        "etag": "\"6178592b5716158d0d604321b60fbff8\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:22 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:47.810376+00:00",
+      "sha256": "18b0ae755310cad7e4b6c3cdbe4a3c9190609995103c92536d41a4536511d854"
+    },
+    {
+      "bytes": 10330,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1844114d67a-97ffadf248ef",
+      "http_status": 200,
+      "path": "tdc_adme/files/approved_pampa_ncats.tab",
+      "request_id": "tdc_approved_pampa_ncats",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/6695857",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''approved_pampa_ncats.tab",
+        "content-length": "10330",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:46 GMT",
+        "etag": "\"ec813b5c6f829f92490faf03302d0960\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:26 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:48.719585+00:00",
+      "sha256": "2b1f7275a768da97cc01c0187958e2350f40beddc5f20ade0eb6317cdaa2262c"
+    },
+    {
+      "bytes": 760372,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17664782813-92938de5cafd",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp1a2_veith.tab",
+      "request_id": "tdc_cyp1a2_veith",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259573",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp1a2_veith.tab",
+        "content-length": "760372",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:47 GMT",
+        "etag": "\"ab58d48970ff880fd5a03f3f6eaadb76\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:15 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:49.905377+00:00",
+      "sha256": "a18b335832495d4cfa4ecffccf7cdfa12eb08e84b6703aebcc25564e5f21553e"
+    },
+    {
+      "bytes": 770761,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176647c3eda-af9c16361249",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp2c19_veith.tab",
+      "request_id": "tdc_cyp2c19_veith",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259576",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp2c19_veith.tab",
+        "content-length": "770761",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:48 GMT",
+        "etag": "\"fe0c4420effb5df2417fa9c9a2ba07ae\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:51.053802+00:00",
+      "sha256": "8cf4c9cde4b7693ab37ceeb66efdcc8b05b8848d33f06255d52ba7e6db754ebc"
+    },
+    {
+      "bytes": 739721,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176647e70e3-f9f5fa3fe51c",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp2c9_veith.tab",
+      "request_id": "tdc_cyp2c9_veith",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259577",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp2c9_veith.tab",
+        "content-length": "739721",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:49 GMT",
+        "etag": "\"87d21d2666e8e2bfc76f7d693e060c0c\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:11 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:52.120204+00:00",
+      "sha256": "272bfd9de9899dd978993e23ccfb2a56680912ef6c8d89c0a9eac7f36c1c55c9"
+    },
+    {
+      "bytes": 799509,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176647ffd98-bbd27649ef11",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp2d6_veith.tab",
+      "request_id": "tdc_cyp2d6_veith",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259580",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp2d6_veith.tab",
+        "content-length": "799509",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:50 GMT",
+        "etag": "\"9f82eae1ecccec93c8fc4249955e8694\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:19 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:53.137655+00:00",
+      "sha256": "1b50a2f02a6d9c02d29fd9e3684d661f64bfe8afb1fea09e5ffb3d54174c411b"
+    },
+    {
+      "bytes": 746183,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17664810dc6-c50ed8338708",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp3a4_veith.tab",
+      "request_id": "tdc_cyp3a4_veith",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259582",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp3a4_veith.tab",
+        "content-length": "746183",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:51 GMT",
+        "etag": "\"73258e31495abd95072a6e06acbee83a\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:14 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:54.338619+00:00",
+      "sha256": "4c85a4cea9ffadd36fdd188f96b866d1d8db5d333a6d423172cf4363a585565a"
+    },
+    {
+      "bytes": 45602,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1766481d2d7-61ebee8716e5",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp2c9_substrate_carbonmangels.tab",
+      "request_id": "tdc_cyp2c9_substrate_carbonmangels",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259584",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp2c9_substrate_carbonmangels.tab",
+        "content-length": "45602",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:53 GMT",
+        "etag": "\"3f13c61b816868eb5d7b3b0c61023c04\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:55.584027+00:00",
+      "sha256": "a4b3d458cbca8cb74850464b15d5ab1f64787ea346cc38eedae29a388412f041"
+    },
+    {
+      "bytes": 45390,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176647ecf32-36d490bf29d9",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp2d6_substrate_carbonmangels.tab",
+      "request_id": "tdc_cyp2d6_substrate_carbonmangels",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259578",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp2d6_substrate_carbonmangels.tab",
+        "content-length": "45390",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:54 GMT",
+        "etag": "\"d1f45520803a0d47c2056abf8f5548c7\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:07 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:56.870443+00:00",
+      "sha256": "6eab25986d9a65595140447940f46d134ffd6c7c3fca3f25b5aaabcc30aa57d5"
+    },
+    {
+      "bytes": 46047,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17664807ce1-d6d88c23f946",
+      "http_status": 200,
+      "path": "tdc_adme/files/cyp3a4_substrate_carbonmangels.tab",
+      "request_id": "tdc_cyp3a4_substrate_carbonmangels",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259581",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''cyp3a4_substrate_carbonmangels.tab",
+        "content-length": "46047",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:55 GMT",
+        "etag": "\"25cfb80ef8f04e035d5944228194ca95\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:57.814920+00:00",
+      "sha256": "678341b7e40630a70b4e38b20e22dc73fbd8aff13fdd32cd7f6d702b62b5005e"
+    },
+    {
+      "bytes": 40140,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1766486d32d-154fa6fe0949",
+      "http_status": 200,
+      "path": "tdc_adme/files/hia_hou.tab",
+      "request_id": "tdc_hia_hou",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259591",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''hia_hou.tab",
+        "content-length": "40140",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:56 GMT",
+        "etag": "\"ff67500a5c7b1321114a9d1b4078d92e\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:07 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:49:59.158276+00:00",
+      "sha256": "9040c5985fd366acf736bca1587902af28450976410fe99db82027e5d9c713b4"
+    },
+    {
+      "bytes": 29004,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1766488b8e7-2a81c0a63a18",
+      "http_status": 200,
+      "path": "tdc_adme/files/hydrationfreeenergy_freesolv.tab",
+      "request_id": "tdc_hydrationfreeenergy_freesolv",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259594",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''hydrationfreeenergy_freesolv.tab",
+        "content-length": "29004",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:58 GMT",
+        "etag": "\"2f2a6325ea440b41e22cb14c7775d591\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:16 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:00.632382+00:00",
+      "sha256": "5b5485a133996a7d19f83466199ee6117279e7dc8693db5107e44f99e680125a"
+    },
+    {
+      "bytes": 297882,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17664897402-e1174409287c",
+      "http_status": 200,
+      "path": "tdc_adme/files/lipophilicity_astrazeneca.tab",
+      "request_id": "tdc_lipophilicity_astrazeneca",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259595",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''lipophilicity_astrazeneca.tab",
+        "content-length": "297882",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:49:59 GMT",
+        "etag": "\"77e72d4ec76530271bf4e296b62368ff\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:08 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:01.868019+00:00",
+      "sha256": "14add1edb356e62f78256ff964c0cbba03c007be3ff48d6d4c18679f307f1d4c"
+    },
+    {
+      "bytes": 125532,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176648c1368-affad17c5c95",
+      "http_status": 200,
+      "path": "tdc_adme/files/pgp_broccatelli.tab",
+      "request_id": "tdc_pgp_broccatelli",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259597",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''pgp_broccatelli.tab",
+        "content-length": "125532",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:00 GMT",
+        "etag": "\"6915ccf0b5d6b9c8fe4d98cb5759a88a\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:12 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:02.999204+00:00",
+      "sha256": "4fddc785a4f7109a92c60781fad9070a3917309cac5a78ac8e37bba17c54c9c0"
+    },
+    {
+      "bytes": 852658,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1766494dac2-1ffabe78d169",
+      "http_status": 200,
+      "path": "tdc_adme/files/solubility_aqsoldb.tab",
+      "request_id": "tdc_solubility_aqsoldb",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4259610",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''solubility_aqsoldb.tab",
+        "content-length": "852658",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:01 GMT",
+        "etag": "\"f7a675706bfe7e75c278f16dd2477b03\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:15 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:04.333855+00:00",
+      "sha256": "0b593f7b55abbe477ba4284aefd7b5450551f4ed21ac4aed80a097931141c9a4"
+    },
+    {
+      "bytes": 265195,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/18276f6e334-34b40472d3a7",
+      "http_status": 200,
+      "path": "tdc_adme/files/ppbr_az.tab",
+      "request_id": "tdc_ppbr_az",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/6413140",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''ppbr_az.tab",
+        "content-length": "265195",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:03 GMT",
+        "etag": "\"f3b700ea6b1f624fdbcf6a1c67937b00\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:15 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:05.569622+00:00",
+      "sha256": "54c9520f4b6e04419b18bab7335583c3865d86fc53db40f74c2cff1577c8ec1b"
+    },
+    {
+      "bytes": 81661,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17677e93a32-c1a3f89098fb",
+      "http_status": 200,
+      "path": "tdc_adme/files/clearance_microsome_az.tab",
+      "request_id": "tdc_clearance_microsome_az",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4266186",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''clearance_microsome_az.tab",
+        "content-length": "81661",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:05 GMT",
+        "etag": "\"dea064639a6b136e6cca73e384867da5\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:09 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:07.393192+00:00",
+      "sha256": "4c9047dc1860cc05d5bdc09aa9cfef86a40740605c2ff06990b1fceb6085db9d"
+    },
+    {
+      "bytes": 91565,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/17677e93bfc-58ea7300f15b",
+      "http_status": 200,
+      "path": "tdc_adme/files/clearance_hepatocyte_az.tab",
+      "request_id": "tdc_clearance_hepatocyte_az",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4266187",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''clearance_hepatocyte_az.tab",
+        "content-length": "91565",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:06 GMT",
+        "etag": "\"7036ab2a23f6db37843d0ecc072bbddc\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:13 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:09.132966+00:00",
+      "sha256": "2c217f46600c22e107b72faa2bfb1d9bf799213aee47b601f6e0d6d73b68f274"
+    },
+    {
+      "bytes": 53583,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/176786133a5-aa930dfe179d",
+      "http_status": 200,
+      "path": "tdc_adme/files/half_life_obach.tab",
+      "request_id": "tdc_half_life_obach",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4266799",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''half_life_obach.tab",
+        "content-length": "53583",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:08 GMT",
+        "etag": "\"7872345be7e2f62215e91f12ac865ce1\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:08 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:10.737700+00:00",
+      "sha256": "79fb8c943b64a9488bce588d747b59af1a782f1ce46bc51137c61fb895ede1df"
+    },
+    {
+      "bytes": 89914,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/21LKWG/1767d5f139f-e45147e4f24d",
+      "http_status": 200,
+      "path": "tdc_adme/files/vdss_lombardo.tab",
+      "request_id": "tdc_vdss_lombardo",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/4267387",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''vdss_lombardo.tab",
+        "content-length": "89914",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:10 GMT",
+        "etag": "\"268fbc1b70e45c870373b238ffd36313\"",
+        "last-modified": "Sun, 15 Feb 2026 20:09:07 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:12.500880+00:00",
+      "sha256": "00bb7e0dea19f78c4c1887e27ecf476135d9de2ef5ecc26d7c645c37bd9cb7af"
+    },
+    {
+      "bytes": 485307,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/ADMGMU/18f9c61e7f4-4c9c355bf98b",
+      "http_status": 200,
+      "path": "tdc_adme/files/hlm.tab",
+      "request_id": "tdc_hlm",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/10218426",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''hlm.tab",
+        "content-length": "485307",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:12 GMT",
+        "etag": "\"92723e8e3e66ae6fbae2814393a55750\"",
+        "last-modified": "Mon, 16 Feb 2026 07:48:36 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:15.993890+00:00",
+      "sha256": "7e3051533d66d91837223ee430403d1f22f49a10c434345f37231221b1c198a9"
+    },
+    {
+      "bytes": 415891,
+      "final_url_without_presigned_query": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/ADMGMU/18f9c61e988-c07edae8ca99",
+      "http_status": 200,
+      "path": "tdc_adme/files/rlm.tab",
+      "request_id": "tdc_rlm",
+      "request_url": "https://dataverse.harvard.edu/api/access/datafile/10218425",
+      "response_headers": {
+        "content-disposition": "attachment; filename*=UTF-8''rlm.tab",
+        "content-length": "415891",
+        "content-type": "text/tab-separated-values",
+        "date": "Thu, 06 Aug 2026 18:50:15 GMT",
+        "etag": "\"b861e49d08b7bf949dc2a59c681aaa66\"",
+        "last-modified": "Mon, 16 Feb 2026 07:48:36 GMT"
+      },
+      "retrieved_at_utc": "2026-08-06T18:50:17.353553+00:00",
+      "sha256": "3bb2accb60769b3b41267065b594a29a6bfa686891d0b3bc857570fb6d65b0e7"
+    }
+  ],
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "source": "TDC official GitHub metadata and Harvard Dataverse"
+}

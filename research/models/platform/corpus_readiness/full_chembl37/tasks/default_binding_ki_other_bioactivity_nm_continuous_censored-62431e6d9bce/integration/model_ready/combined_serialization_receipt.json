@@ -1,0 +1,90 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 8192,
+    "maximum_observed_example_batch_recursive_bytes": 28655375,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 19071662
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "Ki",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_censored",
+      "label_unit": "nM",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 74298,
+      "task_id": "TASK-16651799910722449EFC3A06",
+      "task_type": "default__binding__ki__other_bioactivity__nm__continuous_censored"
+    }
+  },
+  "build_config_sha256": "f0b3e42e3fae4deef61ef45cb570b49255ed10f03b1e86ec4be5ae629092b559",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 74298
+  },
+  "partition_counts": {
+    "test": 11512,
+    "train": 50654,
+    "validation": 12132
+  },
+  "physical_partition_manifest_file_sha256": "a0e5f32915b8bdf40b6b203b6c08cd4cd61331792bc1a9e53a745e7dcccfe356",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "7c641819c0494be0fc0ef04d751d4e64b879297f91a81cf48b6ba32b8fb2048e",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_censored/part-00007.parquet",
+        "rows": 840,
+        "sha256": "13ef0b163261dab1bf2b5b1a04b3e6499431eaff5a8f3833d206ceb8bf98fba5"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_censored/part-00008.parquet",
+        "rows": 56408,
+        "sha256": "857b66fca25af71c256a24aeac3dedfe30dc6f18582dca19d9c698949fcdf88f"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_censored/part-00009.parquet",
+        "rows": 16207,
+        "sha256": "92bacd06989a7c84ea44a904ce132cf6bb76c3cc37a005212de7f938447c546b"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_censored/part-00010.parquet",
+        "rows": 842,
+        "sha256": "658e5f104154a2c240fa0eb9922ebd70c85e0f16ac4a7bfa4a06e7034e983ab1"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_other_bioactivity_nm_continuous_censored/part-00011.parquet",
+        "rows": 1,
+        "sha256": "f7ff52b49b833ece3749d2f53fc572baa7caf94fc71a404954c12f4134884f98"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 74298
+  },
+  "source_dataset_sha256": "7c641819c0494be0fc0ef04d751d4e64b879297f91a81cf48b6ba32b8fb2048e",
+  "split_manifest_sha256": "7dacae1142f89482bcc7d79c1c0d80fff1e74aae15be40efc5c11518db69a66c",
+  "split_sidecar_sha256": "3cfa29fabe97a95a6b53b866da07fa3d7bd1b550d6a0457d79a210707bb8d757",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "f5259bd26cfae0bce2d60de51a4d7867de50af172a8f4b3e2d0886cfefceea81",
+    "record_count": 74298,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "9e0e035914e3a8c37bf7eaa75812b630e57f80ba6da35a0e5867e0795afc6e84",
+    "sha256": "429235eaf6afbca728b9831140b6b2889c58953b8b06f487db7dc1cad8c0b304"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "dataset_key": "derived_sensitivity::sensitivity__binding__standard_binding_free_energy__other_bioactivity__kcal_mol__continuous_exact",
+  "declared_rows": 5458,
+  "diagnostic_acceptance_path": "tasks/sensitivity_binding_standard_binding_free_energy_other_bioactivity_kcal_mol_cont-b347c9b4ce12/diagnostics/diagnostic_status.json",
+  "diagnostic_acceptance_sha256": "6cabd288eece9d880e998555c3fe785b2b1ef891f9651df60b6edadd03a6cda6",
+  "diagnostic_disposition_materialized": false,
+  "diagnostic_materialized": true,
+  "diagnostic_path": "tasks/sensitivity_binding_standard_binding_free_energy_other_bioactivity_kcal_mol_cont-b347c9b4ce12/diagnostics",
+  "diagnostic_reason": "skipped_derived_sensitivity_not_primary_diagnostic",
+  "diagnostic_status": "skipped",
+  "integration_acceptance_path": "tasks/sensitivity_binding_standard_binding_free_energy_other_bioactivity_kcal_mol_cont-b347c9b4ce12/integration/acceptance.json",
+  "integration_acceptance_sha256": "983235af54fe74dba5a51f62a5aa2adf5c67aa18c9e04d2483a60ec1baa6765b",
+  "integration_materialized": true,
+  "integration_path": "tasks/sensitivity_binding_standard_binding_free_energy_other_bioactivity_kcal_mol_cont-b347c9b4ce12/integration",
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "derived_sensitivity::sensitivity__binding__standard_binding_free_energy__other_bioactivity__kcal_mol__continuous_exact",
+    "declared_rows": 5458,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 522,
+      "train": 2583,
+      "validation": 497
+    },
+    "predicted_partition_rows": {
+      "test": 819,
+      "train": 3932,
+      "validation": 707
+    },
+    "rows_scanned": 5458,
+    "skip_reasons": [],
+    "substantive_training_started": false,
+    "support_decision": "integrate",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "endpoint": "standard_binding_free_energy",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_exact",
+      "observation_kind": "derived",
+      "task_id": "TASK-1DCA90F0D65AD70DE64631D2",
+      "task_type": "sensitivity__binding__standard_binding_free_energy__other_bioactivity__kcal_mol__continuous_exact"
+    },
+    "unique_molecule_groups": 3602,
+    "unique_observation_ids": 5458,
+    "unique_protein_groups": 242
+  },
+  "skip_reasons": [],
+  "status": "integrated_with_diagnostic_skipped",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "bb34306c3df3bd4bddd11479c484a238ccce218ceedc67dfe31d9656e6106f11",
+  "task_output_path": "tasks/sensitivity_binding_standard_binding_free_energy_other_bioactivity_kcal_mol_cont-b347c9b4ce12",
+  "task_scope": "derived_sensitivity",
+  "task_type": "sensitivity__binding__standard_binding_free_energy__other_bioactivity__kcal_mol__continuous_exact",
+  "test_partition_opened_by_diagnostics": false,
+  "training_label_support": {
+    "capped_training_label_counts": {},
+    "label_kind": "continuous_exact",
+    "maximum_categorical_label_cardinality": 32,
+    "selection_seed": 20260804,
+    "skip_reasons": [],
+    "status": "not_applicable_non_categorical_no_label_scan",
+    "substantive_training_started": false,
+    "test_labels_read": false,
+    "test_partition_opened_or_hashed": false,
+    "training_label_counts": {},
+    "training_labels_read": false,
+    "training_rows_scanned": 0,
+    "validation_labels_read": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "control": "single_training_label_permutation",
+  "interpretation": "sanity_control_only; unexpected performance triggers leakage review but one draw is not a p-value",
+  "metrics": {
+    "calibration_intercept_observation_on_prediction": 18939.113728532764,
+    "calibration_slope_observation_on_prediction": -0.028767406547082666,
+    "concordance_correlation_coefficient": -0.014775660187056302,
+    "mae": 125294.32242771001,
+    "mean_signed_error_prediction_minus_observation": 2271.1059940799996,
+    "median_absolute_error": 84685.8046875,
+    "metric_schema_version": "1.0.0",
+    "mse": 86152406649.7603,
+    "n": 2500,
+    "pearson_r": -0.016911314411540576,
+    "r2": -0.3655485956546394,
+    "rmse": 293517.3021301475,
+    "spearman_r": -0.04838186518227334
+  },
+  "seed": 20365533,
+  "substantive_training_started": false
+}

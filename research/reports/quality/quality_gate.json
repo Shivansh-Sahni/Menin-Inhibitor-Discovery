@@ -1,0 +1,63 @@
+{
+  "gate_scope": "analysis-eligible rows; source-inventory findings remain visible",
+  "generated_at": "2026-07-14T22:41:32Z",
+  "passed": true,
+  "source_inventory": {
+    "herg": {
+      "finding_count": 25241,
+      "passed": false,
+      "row_count": 41078,
+      "severity_counts": {
+        "error": 13668,
+        "warning": 11573
+      }
+    },
+    "menin": {
+      "finding_count": 24186,
+      "passed": false,
+      "row_count": 8176,
+      "severity_counts": {
+        "error": 8099,
+        "info": 9,
+        "warning": 16078
+      }
+    },
+    "pk": {
+      "finding_count": 191,
+      "passed": false,
+      "row_count": 306,
+      "severity_counts": {
+        "error": 113,
+        "info": 2,
+        "warning": 76
+      }
+    }
+  },
+  "tables": {
+    "herg": {
+      "finding_count": 5300,
+      "passed": true,
+      "row_count": 17654,
+      "severity_counts": {
+        "warning": 5300
+      }
+    },
+    "menin": {
+      "finding_count": 6343,
+      "passed": true,
+      "row_count": 3798,
+      "severity_counts": {
+        "warning": 6343
+      }
+    },
+    "pk": {
+      "finding_count": 25,
+      "passed": true,
+      "row_count": 204,
+      "severity_counts": {
+        "info": 2,
+        "warning": 23
+      }
+    }
+  }
+}

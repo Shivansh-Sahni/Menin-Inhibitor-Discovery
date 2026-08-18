@@ -1,0 +1,3 @@
+task,requested_split,actual_split,status,model,n_compounds,n_train,n_test,mae,rmse,r2,spearman_r,roc_auc,pr_auc,balanced_accuracy,brier_score,expected_calibration_error_10bin
+menin_IC50_biochemical_binding,scaffold,scaffold,trained,extra_trees,849,680,169,0.7472334677280236,0.9264794639286565,0.5500896243732908,0.7358000565684274,,,,,
+herg_IC50_electrophysiology_functional,scaffold,scaffold,trained,extra_trees,2777,2223,554,,,,,0.8635135135135135,0.9673670714502182,0.6907094594594595,0.08080669263484377,0.04108530104328892

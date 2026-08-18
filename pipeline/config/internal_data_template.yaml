@@ -1,0 +1,72 @@
+# Copy this file outside version control and replace source column names and
+# registry entries with the lab's explicit data dictionary. Never put the
+# pseudonymization key, salt, credentials, names, initials, or emails here.
+
+columns:
+  smiles: structure_smiles
+  value: result_value
+  units: result_units
+  relation: result_relation
+  endpoint: endpoint_name
+  compound_id: source_compound_id
+  batch_id: source_batch_id
+  assay_id: source_assay_id
+  row_id: source_measurement_id
+  measurement_date: measurement_date
+  replicate: replicate_number
+  target_name: target_name
+  target_id: target_identifier
+  assay_family: assay_family
+  cohort_role: cohort_role
+
+# Defaults are applied only when a canonical field has no mapped source column.
+# If all measurements are exact, for example, remove the relation mapping above
+# and explicitly set `relation: "="` here. Units should normally come from each
+# row; an assay-registry `units` value is allowed only when the protocol fixes it.
+defaults: {}
+
+required_fields:
+  - smiles
+  - value
+  - units
+  - relation
+  - endpoint
+  - batch_id
+  - assay_id
+  - cohort_role
+
+require_registered_assay: true
+require_registered_endpoint: true
+require_rdkit: true
+strip_salts: true
+canonicalize_tautomer: false
+
+# Every incoming assay code must be registered before import. The commented
+# entry illustrates the metadata contract; do not treat it as lab data.
+assay_registry: {}
+#  REPLACE_WITH_SOURCE_ASSAY_CODE:
+#    endpoint: IC50
+#    target_name: Menin
+#    target_id: O00255
+#    assay_family: biochemical_inhibition
+#    allowed_units: [pM, nM, uM, mM, M]
+
+# Endpoint aliases are exact (case-insensitive) registry keys. Add a separate
+# entry for every source spelling rather than relying on name inference.
+endpoint_registry:
+  IC50:
+    canonical_name: IC50
+    family: inhibitory_potency
+    allowed_units: [pM, nM, uM, mM, M]
+  Ki:
+    canonical_name: Ki
+    family: binding_affinity
+    allowed_units: [pM, nM, uM, mM, M]
+  Kd:
+    canonical_name: Kd
+    family: binding_affinity
+    allowed_units: [pM, nM, uM, mM, M]
+  EC50:
+    canonical_name: EC50
+    family: functional_potency
+    allowed_units: [pM, nM, uM, mM, M]

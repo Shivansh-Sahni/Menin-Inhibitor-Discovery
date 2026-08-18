@@ -1,0 +1,17 @@
+{
+  "assay_family": "binding",
+  "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+  "endpoint": "EC50",
+  "evidence_domain": "binding",
+  "label_kind": "continuous_censored",
+  "label_unit": "nM",
+  "observation_kind": "experimental_summary",
+  "resolved_task_family": "regression",
+  "schema_version": "task_semantics_decision_v1",
+  "semantic_scan_complete": true,
+  "semantic_scan_record_count": 19345,
+  "substantive_training_started": false,
+  "task_eligibility_mode": "default",
+  "task_id": "TASK-C2411CFAB88F5910697EFE06",
+  "task_type": "default__binding__ec50__binding__nm__continuous_censored"
+}

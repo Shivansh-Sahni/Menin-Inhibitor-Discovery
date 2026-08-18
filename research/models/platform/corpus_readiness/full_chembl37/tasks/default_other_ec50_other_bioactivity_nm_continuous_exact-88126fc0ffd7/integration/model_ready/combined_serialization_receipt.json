@@ -1,0 +1,110 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 8192,
+    "maximum_observed_example_batch_recursive_bytes": 28486796,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 20430126
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "EC50",
+      "evidence_domain": "other",
+      "label_kind": "continuous_exact",
+      "label_unit": "nM",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 91936,
+      "task_id": "TASK-6ADA59E8239A06F9F9A019FE",
+      "task_type": "default__other__ec50__other_bioactivity__nm__continuous_exact"
+    }
+  },
+  "build_config_sha256": "7644a9b996eadb8450423e6bf61883f3d6a70585ab919391ba375032ac7590a1",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 91936
+  },
+  "partition_counts": {
+    "test": 13984,
+    "train": 64318,
+    "validation": 13634
+  },
+  "physical_partition_manifest_file_sha256": "8b644a6e6006feaf276ceaff811e037759577c4b36db5d0dcf6159b65ee908bd",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "e787f674c89a5ffa653d754f66b45008f4c1083236cfe34b8f548e31efabeccc",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00012.parquet",
+        "rows": 9503,
+        "sha256": "fe37e6aa83ee02bffe3fdc736b4106892e64457e38bb7d9fed50811ca0359bf4"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00013.parquet",
+        "rows": 16727,
+        "sha256": "080561e66e38c5871210a27d81ec5977a5ea85512a61610da6ffb5436f5df422"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00014.parquet",
+        "rows": 21371,
+        "sha256": "82e809108650a4341d319440a4b700fae53fe5900a301cc09f07c38d77550131"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00015.parquet",
+        "rows": 11184,
+        "sha256": "c566d44107db8d86a99e20538a84fac5ef3459237b92f8681c6835b93da6d737"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00016.parquet",
+        "rows": 6772,
+        "sha256": "ecfce6d42306588bc61ecc76ff764fa6ec4e62c0d53baacf6085d5d4af7f77f9"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00017.parquet",
+        "rows": 10219,
+        "sha256": "41975c24f6227441d8adf68b40af5d0f21469e3f915dec2bf51effaa91f6c373"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00018.parquet",
+        "rows": 10001,
+        "sha256": "9f35300640cd353b379ae459c62e0e0925d524d598a926a14ad052f84c9b2bfd"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00019.parquet",
+        "rows": 4799,
+        "sha256": "4cec59cb7c7335084f4caa8ddea211019f348db33bfac8b68d3a736c3c29a470"
+      },
+      {
+        "relative_path": "tasks/default/default_other_ec50_other_bioactivity_nm_continuous_exact/part-00022.parquet",
+        "rows": 1360,
+        "sha256": "04425390ec01cfc7ada29ba2cc863e97f0b5779e42b29e8013c2b6759e765943"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 91936
+  },
+  "source_dataset_sha256": "e787f674c89a5ffa653d754f66b45008f4c1083236cfe34b8f548e31efabeccc",
+  "split_manifest_sha256": "8bc84d4847a58f2c830dfdcb1e3a375d92b5238718a6a74687c10d5f4a8d10bb",
+  "split_sidecar_sha256": "1dc812a4460cfa529e7f80ecce913603345eef4b5ca12a2cc99d6bcd5507833c",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "e1acd0d54a82ade76eb5fb18395c6dedb0590f56f4fc05802d047ee17b4a28b7",
+    "record_count": 91936,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "129994b5e4ec77dc404fff1028fba127949671a3cbd7d0821e21e2fa69d5d1ad",
+    "sha256": "1a9a5f82574f3316952b796446056961f46435ce5dc4f640602c1098f4400686"
+  }
+}

@@ -1,0 +1,9 @@
+task_scope,stage_or_reason_kind,value,rows
+default,eligible,<all>,2548198
+default,excluded,<all>,54
+default,excluded_combination,missing_protein_sequence,54
+default,excluded_reason,missing_protein_sequence,54
+derived_sensitivity,eligible,<all>,67839
+derived_sensitivity,excluded,<all>,9
+derived_sensitivity,excluded_combination,missing_protein_sequence,9
+derived_sensitivity,excluded_reason,missing_protein_sequence,9

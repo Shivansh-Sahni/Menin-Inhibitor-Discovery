@@ -1,0 +1,158 @@
+{
+  "all_passed": true,
+  "archive_validation": [
+    {
+      "actual_bytes": 3221045354,
+      "actual_outer_members": 14989,
+      "actual_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+      "archive": "dm_spl_release_human_rx_part1.zip",
+      "expected_bytes": 3221045354,
+      "expected_outer_members": 14989,
+      "expected_sha256": "c0126f17add23aba5def75134d5a078e5eac25b7dcfd0396e66863054fe84f89",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 14989,
+      "passed": true,
+      "scanned_outer_members": 14989
+    },
+    {
+      "actual_bytes": 3221063745,
+      "actual_outer_members": 9605,
+      "actual_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+      "archive": "dm_spl_release_human_rx_part2.zip",
+      "expected_bytes": 3221063745,
+      "expected_outer_members": 9605,
+      "expected_sha256": "7bce8193f883dda891fd092f219c8ed45fc863570568254b1c91d36b2ffb2846",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 9605,
+      "passed": true,
+      "scanned_outer_members": 9605
+    },
+    {
+      "actual_bytes": 3220663350,
+      "actual_outer_members": 9132,
+      "actual_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+      "archive": "dm_spl_release_human_rx_part3.zip",
+      "expected_bytes": 3220663350,
+      "expected_outer_members": 9132,
+      "expected_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 9132,
+      "passed": true,
+      "scanned_outer_members": 9132
+    },
+    {
+      "actual_bytes": 3220858219,
+      "actual_outer_members": 8369,
+      "actual_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+      "archive": "dm_spl_release_human_rx_part4.zip",
+      "expected_bytes": 3220858219,
+      "expected_outer_members": 8369,
+      "expected_sha256": "8aacd68da156360082a7564931cc55be983e903cea0ec951ee5202acd6cae94b",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 8369,
+      "passed": true,
+      "scanned_outer_members": 8369
+    },
+    {
+      "actual_bytes": 3220978159,
+      "actual_outer_members": 8716,
+      "actual_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+      "archive": "dm_spl_release_human_rx_part5.zip",
+      "expected_bytes": 3220978159,
+      "expected_outer_members": 8716,
+      "expected_sha256": "6fb64df81a31d365dc71463d2c959d1b5d10162d8016534d4f7defe287416d47",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 8716,
+      "passed": true,
+      "scanned_outer_members": 8716
+    },
+    {
+      "actual_bytes": 1662589295,
+      "actual_outer_members": 3861,
+      "actual_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+      "archive": "dm_spl_release_human_rx_part6.zip",
+      "expected_bytes": 1662589295,
+      "expected_outer_members": 3861,
+      "expected_sha256": "d9f24e50398af807d929d595c8981cd7b6aa0bd40a08c223aa3f93016059a234",
+      "inner_xml_crc_policy": "Every selected inner XML member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "outer_member_crc_policy": "Every outer member was fully read by Python zipfile; CRC mismatch would have raised and been counted as a scan error.",
+      "parse_errors": 0,
+      "parsed_inner_xml_members": 3861,
+      "passed": true,
+      "scanned_outer_members": 3861
+    }
+  ],
+  "checks": {
+    "all_outer_members_have_parsed_inner_xml": true,
+    "all_six_archives_pass_size_sha_member_parse_validation": true,
+    "all_table_hashes_present": true,
+    "candidate_ids_unique": true,
+    "canonical_rows_zero": true,
+    "declared_table_count_matches_table_rows": true,
+    "document_locators_unique": true,
+    "outer_member_count_matches_frozen_manifest": true,
+    "parse_errors_zero": true,
+    "section_document_links_complete": true,
+    "table_keys_unique": true,
+    "table_section_links_complete": true,
+    "training_labels_zero": true
+  },
+  "declared_raw_artifact_count": 6,
+  "declared_raw_total_bytes": 429985912,
+  "generated_at_utc": "2026-08-07T13:03:24Z",
+  "implementation_bindings": {
+    "exact_merge_validator": {
+      "bytes": 18210,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_merge_validator_exact.py",
+      "sha256": "e133eb26adbf5003fda4d34568e27cbc956957d9fd78cd6a3acef23b8d8b76a1"
+    },
+    "exact_scanner": {
+      "bytes": 27063,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_scanner_exact.py",
+      "sha256": "81b691fbc6b19b24530b2a309dea3282c29b37ff45e07b1661ee94645bc2d07d"
+    },
+    "fail_closed_replay_cli": {
+      "bytes": 16005,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_cli.py",
+      "sha256": "c0edc0271e9747b6a4d543be622c9625f464c7f1a5c0898de5b84eccbe9dfa61"
+    }
+  },
+  "reproducibility_replay": {
+    "bounded_smoke": {
+      "all_passed": true,
+      "archive": "dm_spl_release_human_rx_part6.zip",
+      "canonical_rows": 0,
+      "candidate_sections": 10,
+      "candidate_tables": 17,
+      "inner_xml_members_parsed": 10,
+      "limit": 10,
+      "outer_members_scanned": 10,
+      "parse_errors": 0,
+      "training_labels": 0
+    },
+    "fail_closed_negative_test_exit_code": 2,
+    "full_validation_only_replay": {
+      "all_passed": true,
+      "bytes": 4491,
+      "path": "research/reports/platform/pk_expansion/avicenna/dailymed_pk_candidate_validation_replay.json",
+      "raw_evidence_rows_changed": 0,
+      "sha256": "4700057d0b76257e4f004f1b22a856545b8cf77f422b7adc8f67521c91d1c7ba"
+    }
+  },
+  "raw_artifact_manifest": {
+    "bytes": 1260,
+    "path": "research/data/platform/raw/external_public/pk_expansion/avicenna/dailymed_pk_candidate_evidence/manifest.json",
+    "sha256": "629221baa96ddfed32b66281c5cfe382624c48151bad9dd88e67aef41c686d48"
+  },
+  "schema_version": "pk-expansion-dailymed-candidates/1.0"
+}

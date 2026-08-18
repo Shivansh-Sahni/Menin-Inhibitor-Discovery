@@ -1,0 +1,182 @@
+{
+  "actual_bytes": 5764252857,
+  "actual_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "archive_file": "chembl_37_sqlite.tar.gz",
+  "assembly_status": "assembled_and_verified",
+  "expected_bytes": 5764252857,
+  "expected_sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+  "parts": [
+    {
+      "end_byte": 181243903,
+      "file": "chembl_37_sqlite.part00",
+      "sha256": "d14655d2a8f2731b6284c968a72811edbb19915081b6be2ebae6390b15715797",
+      "size_bytes": 181243904,
+      "start_byte": 0
+    },
+    {
+      "end_byte": 450887755,
+      "file": "chembl_37_sqlite.part00a",
+      "sha256": "27e63eb50d9ced793f6961281a8208a36f3a03d8b5dd9f75b87454dc7fe81a77",
+      "size_bytes": 269643852,
+      "start_byte": 181243904
+    },
+    {
+      "end_byte": 720531607,
+      "file": "chembl_37_sqlite.part00b",
+      "sha256": "0cb097c3a0a42b32864700c56e38ca1b849af15dc5973b4a47686d5ceb345a3e",
+      "size_bytes": 269643852,
+      "start_byte": 450887756
+    },
+    {
+      "end_byte": 897032343,
+      "file": "chembl_37_sqlite.part01",
+      "sha256": "df7cd347e8baa78d4269e51ddaa306e0301b63a741c55b9dee618c162b87549a",
+      "size_bytes": 176500736,
+      "start_byte": 720531608
+    },
+    {
+      "end_byte": 1169047779,
+      "file": "chembl_37_sqlite.part01a",
+      "sha256": "2a3541070d351d2142a6efaabfc99acc47c00e054b69ab0cf2b3f6279bcedf6b",
+      "size_bytes": 272015436,
+      "start_byte": 897032344
+    },
+    {
+      "end_byte": 1441063214,
+      "file": "chembl_37_sqlite.part01b",
+      "sha256": "b98355302c42fbde3bbbab8f0cf683c2fcf30eadfd6588a510f3a38069750cba",
+      "size_bytes": 272015435,
+      "start_byte": 1169047780
+    },
+    {
+      "end_byte": 1631260974,
+      "file": "chembl_37_sqlite.part02",
+      "sha256": "dc1c6fc3a52f7afc9272675c18d141dfe30b8c6e9f2ef5f2b92dee4715e35d4f",
+      "size_bytes": 190197760,
+      "start_byte": 1441063215
+    },
+    {
+      "end_byte": 1896427898,
+      "file": "chembl_37_sqlite.part02a",
+      "sha256": "b774e5c93c0cf7f57fbd8ce9067be90b4f20898af1fa6f68789714c9d52f92fc",
+      "size_bytes": 265166924,
+      "start_byte": 1631260975
+    },
+    {
+      "end_byte": 2161594821,
+      "file": "chembl_37_sqlite.part02b",
+      "sha256": "3551d19474085c1c27190734c34c1c390315570d3633ffa26df23d050974c028",
+      "size_bytes": 265166923,
+      "start_byte": 1896427899
+    },
+    {
+      "end_byte": 2357023173,
+      "file": "chembl_37_sqlite.part03",
+      "sha256": "038251ef27d768457823d5a5f42c0665274675aec3f0a9a6f3686f681b848b07",
+      "size_bytes": 195428352,
+      "start_byte": 2161594822
+    },
+    {
+      "end_byte": 2619574801,
+      "file": "chembl_37_sqlite.part03a",
+      "sha256": "13e4a50d66dd869bf93265a73838c7bcb2d0eb071c5ab69e1960d6541d38ae5d",
+      "size_bytes": 262551628,
+      "start_byte": 2357023174
+    },
+    {
+      "end_byte": 2882126428,
+      "file": "chembl_37_sqlite.part03b",
+      "sha256": "2ffd4af341049f0d697e8be41e40b85a78041360009d82d0f2ec00aa4287a635",
+      "size_bytes": 262551627,
+      "start_byte": 2619574802
+    },
+    {
+      "end_byte": 3066397276,
+      "file": "chembl_37_sqlite.part04",
+      "sha256": "fec4f48f51f8dabfcc9f86b2aa22112fbe395e6a5cc9dde92a1bb727456f6993",
+      "size_bytes": 184270848,
+      "start_byte": 2882126429
+    },
+    {
+      "end_byte": 3334527656,
+      "file": "chembl_37_sqlite.part04a",
+      "sha256": "7165b7f8968cc0931310d72908a5043d61f05e4d7b888e76404e30964c65f9be",
+      "size_bytes": 268130380,
+      "start_byte": 3066397277
+    },
+    {
+      "end_byte": 3602658035,
+      "file": "chembl_37_sqlite.part04b",
+      "sha256": "86197cef4551eea0133c74d02230ddcbf6ee547688a93543b15f55a8e440fa54",
+      "size_bytes": 268130379,
+      "start_byte": 3334527657
+    },
+    {
+      "end_byte": 3806429939,
+      "file": "chembl_37_sqlite.part05",
+      "sha256": "266823dfa4a1671c45e647391a8c41df517fa821f087c7273c14940afcb7ec5c",
+      "size_bytes": 203771904,
+      "start_byte": 3602658036
+    },
+    {
+      "end_byte": 4064809791,
+      "file": "chembl_37_sqlite.part05a",
+      "sha256": "bd4c61c2b2259f9bfe479d058a1c090d894cc27f83b1c67f55fe6845fa814ace",
+      "size_bytes": 258379852,
+      "start_byte": 3806429940
+    },
+    {
+      "end_byte": 4323189642,
+      "file": "chembl_37_sqlite.part05b",
+      "sha256": "b9f43d28c1d3fb43d71d8144cf27273a93196372fdc16c8fe192489f12b38b58",
+      "size_bytes": 258379851,
+      "start_byte": 4064809792
+    },
+    {
+      "end_byte": 4507108234,
+      "file": "chembl_37_sqlite.part06",
+      "sha256": "0fe88eb61c60936425cfc33a8a71581c1e99256e731a34ea82beb441053d33b3",
+      "size_bytes": 183918592,
+      "start_byte": 4323189643
+    },
+    {
+      "end_byte": 4775414742,
+      "file": "chembl_37_sqlite.part06a",
+      "sha256": "01eef88df7e10f51a57a9248cca23a07490e5b4912538eb9e4e804928ef8daca",
+      "size_bytes": 268306508,
+      "start_byte": 4507108235
+    },
+    {
+      "end_byte": 5043721249,
+      "file": "chembl_37_sqlite.part06b",
+      "sha256": "cd461f197e419461e472ab155616471f9219947dcef226a9485ede20a3c040b4",
+      "size_bytes": 268306507,
+      "start_byte": 4775414743
+    },
+    {
+      "end_byte": 5219816481,
+      "file": "chembl_37_sqlite.part07",
+      "sha256": "c0bc9fc51be751687b904a9b19c7482fffbdd722b503fae4fad560c7dd4551ac",
+      "size_bytes": 176095232,
+      "start_byte": 5043721250
+    },
+    {
+      "end_byte": 5492034669,
+      "file": "chembl_37_sqlite.part07a",
+      "sha256": "d6a461d0792392a3ceb647dd6c3cc77a8eb7b4ee2672b81fe5c0a7cbf52f4fc1",
+      "size_bytes": 272218188,
+      "start_byte": 5219816482
+    },
+    {
+      "end_byte": 5764252856,
+      "file": "chembl_37_sqlite.part07b",
+      "sha256": "e1a70f88d80478426f5d3ac4790132e1a0f547a6cf433af5aec3257c5c34a1dd",
+      "size_bytes": 272218187,
+      "start_byte": 5492034670
+    }
+  ],
+  "sha256_valid": true,
+  "size_valid": true,
+  "source_url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_sqlite.tar.gz",
+  "valid": true
+}

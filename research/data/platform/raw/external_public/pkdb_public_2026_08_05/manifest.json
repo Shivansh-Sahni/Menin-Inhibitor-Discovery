@@ -1,0 +1,114 @@
+{
+  "acquisition_version": "platform_pkdb_candidates/acquire-1.0",
+  "artifact_count": 17,
+  "artifacts": [
+    {
+      "bytes": 12781,
+      "path": "http_receipts.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "c82fed4cb48d46969397ca55ff41716878976ccbc708fb5b8028171b1429b6d5"
+    },
+    {
+      "bytes": 477,
+      "path": "info_nodes/auc-end.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "c28611ecfc5efc11861f32f78788f25b2b990699df9c78e06ae51aed834aefa9"
+    },
+    {
+      "bytes": 447,
+      "path": "info_nodes/auc-inf.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "23e898df09fc1000b008f42830ef994f2ecee4d67e8bb8b662e870f7244bf164"
+    },
+    {
+      "bytes": 673,
+      "path": "info_nodes/bioavailability.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "ccc8d288af7f15f5da645260481fc34b3f74688db853e016dda4884277b80634"
+    },
+    {
+      "bytes": 782,
+      "path": "info_nodes/clearance.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "9b5a4a29f3c9a1ec7e756a171a192dc97650aef73badb64f74626288e9897821"
+    },
+    {
+      "bytes": 472,
+      "path": "info_nodes/cmax.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "ee0cd471538cb1e85b10a33a162ec89b2989c23fdbf231f33310404fe046cbbc"
+    },
+    {
+      "bytes": 494,
+      "path": "info_nodes/fraction-unbound.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "d4c7fbffb12cd14b1a4d605b943570491b286cab128d85e1f00cd7548a5b121b"
+    },
+    {
+      "bytes": 800,
+      "path": "info_nodes/thalf.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "e6f9db79d509a354dff76f0cb9e0b3bfe07aca323048b3550dd047bf72546489"
+    },
+    {
+      "bytes": 463,
+      "path": "info_nodes/tmax.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "6ed458b0811d9b9617b5a0407236bf80e11a197a5c6b539fd04723947ca415fc"
+    },
+    {
+      "bytes": 676,
+      "path": "info_nodes/vd-ss.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "d5cc97b6365d1263b4f41c2419d2a65067661d43a89d54b480623d863fbf1bcf"
+    },
+    {
+      "bytes": 697,
+      "path": "info_nodes/vd.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "cd5f1c74b4da9a1edf609bbc4857d725d38af5d402602a449bb524b2e6f6d0cf"
+    },
+    {
+      "bytes": 653,
+      "path": "interventions_context_probe_sanitized.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "16db449baafea7e8d66bae71468720a98894d3cbad683141975733c8322c5bb6"
+    },
+    {
+      "bytes": 91824,
+      "path": "openapi.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "6d92f501d92abfba7f6ea85cc41fd56e3e4e9a8dfe2d98f3f2702e6d73592bbf"
+    },
+    {
+      "bytes": 103,
+      "path": "outputs_anonymous_probe.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "efb307a04dcdd103a6a31e5878d4e3738a8f086fbcbeb84a1876be4bf546ff16"
+    },
+    {
+      "bytes": 532,
+      "path": "rights_snapshot.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "9252074e269b52a4c36c0c5b571cab535701db4812187575f92f0becd096ae0f"
+    },
+    {
+      "bytes": 227,
+      "path": "statistics.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "f84432ad22afac3c9eab398224bc42344384fa05b4d4970507b50740d925483e"
+    },
+    {
+      "bytes": 641,
+      "path": "studies_access_probe_sanitized.json",
+      "role": "frozen_official_or_sanitized_source_artifact",
+      "sha256": "c9133e4ed989cbc4a7ee76df141aed0bfbfd9b98360218d8eed38ab77577df86"
+    }
+  ],
+  "canonical_observation_count": 0,
+  "document_sha256": "fa54f914fc4b619ae0ca3e990e237311b8d02375189f0961ea768b04fa3d7a81",
+  "official_origin": "https://pk-db.com",
+  "schema_version": "platform-pkdb-public-candidates/1.0",
+  "source_id": "pkdb_public_api_v1",
+  "training_label_count": 0
+}

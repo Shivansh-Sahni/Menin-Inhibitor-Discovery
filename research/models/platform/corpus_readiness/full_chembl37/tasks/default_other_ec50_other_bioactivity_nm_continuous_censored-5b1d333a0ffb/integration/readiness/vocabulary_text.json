@@ -1,0 +1,20 @@
+{
+  "source_model_ready_sha256": "6eb0634cfe48ff67bf731c357566c541cced95ca08c07f907de99ca24c893dfd",
+  "substantive_training_started": false,
+  "training_partition_sha256": "ad068599e06e4a24f265f753e96c24213bb49c81182266463b7016339ce43ac1",
+  "vocabulary": {
+    "fitted_partition": "train",
+    "minimum_frequency": 1,
+    "modality": "text",
+    "schema_version": "static_vocabulary_v1",
+    "token_to_id": {
+      "<BOS>": 2,
+      "<EOS>": 3,
+      "<MASK>": 4,
+      "<PAD>": 0,
+      "<UNK>": 1
+    },
+    "training_corpus_sha256": "0c311bc65a688cd87b1b5a01f94e21ae01e6c4bda9bb8bdcd53a70d1e3b102d0"
+  },
+  "vocabulary_sha256": "b1e1af21f2e1f7c962caa5669b1c0d727881dad00a5cd6498f88c9a9a991184b"
+}

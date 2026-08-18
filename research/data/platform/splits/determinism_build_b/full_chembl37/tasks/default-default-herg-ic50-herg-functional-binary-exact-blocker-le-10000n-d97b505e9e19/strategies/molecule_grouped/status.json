@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-herg-ic50-herg-functional-binary-exact-blocker-le-10000n-d97b505e9e19/strategies/molecule_grouped/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "f6aea019a3bc8823bce8d3ab660b570e04d49f4a8deddcf08a7700a56ab655df",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 13,
+    "train": 93,
+    "validation": 14
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-herg-ic50-herg-functional-binary-exact-blocker-le-10000n-d97b505e9e19/strategies/molecule_grouped/split.parquet.manifest.json",
+  "sidecar_sha256": "4d8abd6834af6094b20ea8d8cce4d0de22f66067a2d4a02d7468efcfbf758e8c",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-herg-ic50-herg-functional-binary-exact-blocker-le-10000n-d97b505e9e19/strategies/molecule_grouped/split.parquet",
+  "split_rows": 120,
+  "split_sha256": "fe23d57798908841fbafcebe8f9eec5bc29260c580b30cc725efcf7f0de368f7",
+  "status": "materialized",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

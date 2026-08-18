@@ -1,0 +1,109 @@
+{
+  "lincs": {
+    "default_generalization": "compound_scaffold_cold",
+    "dose_time_cell_are_inputs_not_targets": true,
+    "matrices": [
+      {
+        "all_instances": 1319138,
+        "compressed_gctx_requires_staging_or_stream_capable_loader": true,
+        "landmark_genes": 978,
+        "matrix_bindings": [
+          {
+            "bytes": 103748263,
+            "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse92742/GSE92742_Broad_LINCS_Level2_GEX_delta_n49216x978.gctx.gz",
+            "sha256": "d7b5dfb1c76ebf5ce20b295902906223b0aaef074dd37d6cdde2c576a54bc100"
+          },
+          {
+            "bytes": 2450720264,
+            "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse92742/GSE92742_Broad_LINCS_Level2_GEX_epsilon_n1269922x978.gctx.gz",
+            "sha256": "4f26731ed54cb65e65e25395b0a4ee19bfb37eae9dd9a142a75340f078d874c8"
+          }
+        ],
+        "matrix_expanded_to_profile_gene_long_format": false,
+        "matrix_paths": [
+          "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse92742/GSE92742_Broad_LINCS_Level2_GEX_delta_n49216x978.gctx.gz",
+          "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse92742/GSE92742_Broad_LINCS_Level2_GEX_epsilon_n1269922x978.gctx.gz"
+        ],
+        "matrix_values_or_axis_membership_scanned": false,
+        "metadata_derived_structure_linked_positions": 648082458,
+        "release_accession": "GSE92742",
+        "structure_linked_compound_instances": 662661,
+        "target": "level2_expression_value_by_landmark_gene"
+      },
+      {
+        "all_instances": 345976,
+        "compressed_gctx_requires_staging_or_stream_capable_loader": true,
+        "landmark_genes": 978,
+        "matrix_bindings": [
+          {
+            "bytes": 668884165,
+            "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse70138/GSE70138_Broad_LINCS_Level2_GEX_n345976x978_2017-03-06.gctx.gz",
+            "sha256": "aea95e65cdb6522a38e114d8ab024eba737d913531119c1342392f6f436b2b03"
+          }
+        ],
+        "matrix_expanded_to_profile_gene_long_format": false,
+        "matrix_paths": [
+          "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/lincs_gse70138/GSE70138_Broad_LINCS_Level2_GEX_n345976x978_2017-03-06.gctx.gz"
+        ],
+        "matrix_values_or_axis_membership_scanned": false,
+        "metadata_derived_structure_linked_positions": 306763392,
+        "release_accession": "GSE70138",
+        "structure_linked_compound_instances": 313664,
+        "target": "level2_expression_value_by_landmark_gene"
+      }
+    ],
+    "metadata_derived_structure_linked_positions": 954845850,
+    "prediction_unit": "compound_dose_time_cell_profile_by_landmark_gene"
+  },
+  "prism": {
+    "cell_context_is_input_not_target": true,
+    "default_generalization": "compound_scaffold_cold",
+    "matrices": [
+      {
+        "cell_metadata_rows": 588,
+        "cell_rows": 578,
+        "matrix_bytes": 41254209,
+        "matrix_expanded_to_long_format": false,
+        "matrix_only_unresolved_cell_rows": 0,
+        "matrix_path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/prism_repurposing/primary-screen-replicate-collapsed-logfold-change.csv",
+        "matrix_sha256": "25efc741b372b30d38629cb139a388e989663fba597e55fff5f6c2bb7cdeb75a",
+        "observed_finite_values": 2632171,
+        "phase": "primary",
+        "possible_values": 2708508,
+        "streaming_loader_required": true,
+        "structure_linked_training_values": 2588180,
+        "target": "replicate_collapsed_logfold_change",
+        "treatment_columns": 4686
+      },
+      {
+        "cell_metadata_rows": 596,
+        "cell_rows": 489,
+        "matrix_bytes": 91620551,
+        "matrix_expanded_to_long_format": false,
+        "matrix_only_unresolved_cell_rows": 8,
+        "matrix_path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/high_value_expansion/lead/prism_repurposing/secondary-screen-replicate-collapsed-logfold-change.csv",
+        "matrix_sha256": "a358beb9efbc96b3d777cbb0212e4cd724080f17970d241627ccd17855d21939",
+        "observed_finite_values": 5874229,
+        "phase": "secondary",
+        "possible_values": 6360912,
+        "streaming_loader_required": true,
+        "structure_linked_training_values": 5784423,
+        "target": "replicate_collapsed_logfold_change",
+        "treatment_columns": 13008
+      }
+    ],
+    "prediction_unit": "compound_treatment_by_cell_line",
+    "structure_linked_training_values": 8372603
+  },
+  "purpose": "structure_linked_training_surfaces_for_future_multimodal_platform",
+  "schema_version": "platform-adjacent-training-surfaces/1.0",
+  "shared_contract": {
+    "exact_structure_or_scaffold_cross_split_allowed": false,
+    "hpc_executed": false,
+    "production_features_generated": false,
+    "rights_boundary": "PRISM publisher metadata records CC BY 4.0; LINCS/GEO source provenance and checksum records are bound, but downstream release must retain attribution.",
+    "split_group": "cross_modality_exact_structure_Bemis_Murcko_and_normalized_Broad_compound_identity_connected_component",
+    "substantive_training_started": false,
+    "targets_expanded_or_duplicated": false
+  }
+}

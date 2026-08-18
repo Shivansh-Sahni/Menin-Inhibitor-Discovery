@@ -1,0 +1,14 @@
+feature,n_finite,fraction_finite,exact_target_copy,pearson_correlation,high_absolute_correlation,requires_review
+aromatic_ring_count,12500,1.0,False,-0.059530444557726235,False,False
+exact_mol_wt,12500,1.0,False,-0.049890641575774025,False,False
+formal_charge,12500,1.0,False,-0.0032795941042337235,False,False
+fraction_csp3,12500,1.0,False,-0.03604630546340204,False,False
+h_bond_acceptors,12500,1.0,False,-0.04010642074097107,False,False
+h_bond_donors,12500,1.0,False,-0.01806102341813387,False,False
+heavy_atom_count,12500,1.0,False,-0.05023862262600396,False,False
+invalid_structure,12500,1.0,False,,False,False
+logp,12500,1.0,False,-0.02871786145616617,False,False
+mol_wt,12500,1.0,False,-0.049905836907660976,False,False
+ring_count,12500,1.0,False,-0.07318591227604185,False,False
+rotatable_bonds,12500,1.0,False,-0.030584906653064695,False,False
+tpsa,12500,1.0,False,-0.02569739110665104,False,False

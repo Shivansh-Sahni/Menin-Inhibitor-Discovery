@@ -1,0 +1,16 @@
+table,severity,code,scope,finding_count,affected_row_count
+menin,error,missing_numeric_value,row,3720,3720
+menin,error,missing_required_value,row,2726,2726
+menin,error,missing_structure,row,1382,1382
+menin,error,missing_unit,row,3,3
+menin,error,unexpected_target,row,268,268
+menin,warning,ambiguous_assay_context,row,244,244
+menin,warning,ambiguous_target,row,284,284
+menin,warning,assay_ambiguity,row,1126,1126
+menin,warning,assay_metadata_conflict,row,4799,4799
+menin,warning,conflicting_repeated_measurement,row,194,194
+menin,warning,missing_assay_description,row,1126,1126
+menin,warning,missing_assay_type,row,1126,1126
+menin,warning,missing_unit,row,3295,3295
+menin,warning,target_identity_derived,row,3884,3884
+menin,info,mass_concentration_requires_molecular_weight,row,9,9

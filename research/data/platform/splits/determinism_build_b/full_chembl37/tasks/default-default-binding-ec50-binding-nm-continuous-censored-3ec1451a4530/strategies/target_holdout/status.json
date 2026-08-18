@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-binding-ec50-binding-nm-continuous-censored-3ec1451a4530/strategies/target_holdout/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "aec9ec339a1a23118c635b29f763438d4d68eccdb0965d64fdc9b9c37ccf19a5",
+  "mandatory_candidate": false,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 3069,
+    "train": 13269,
+    "validation": 3007
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-binding-ec50-binding-nm-continuous-censored-3ec1451a4530/strategies/target_holdout/split.parquet.manifest.json",
+  "sidecar_sha256": "978741fbacdba256c64d90fb6d7a0b03288138245398b8971dddb9305d7fae1b",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-binding-ec50-binding-nm-continuous-censored-3ec1451a4530/strategies/target_holdout/split.parquet",
+  "split_rows": 19345,
+  "split_sha256": "162220df9fb21e487bd4ba1a104a4e112f61e27e00e3c0c6369a2d55560360a4",
+  "status": "materialized",
+  "strategy": "target_holdout",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

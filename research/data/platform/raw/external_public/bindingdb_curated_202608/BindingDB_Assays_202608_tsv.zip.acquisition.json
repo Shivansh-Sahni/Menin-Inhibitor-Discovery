@@ -1,0 +1,27 @@
+{
+  "acquired_bytes": 10067687,
+  "acquired_md5": null,
+  "acquired_sha256": "e6ce48748603b669fa2d333c1759a946125d0e56d73eed8f795c6cb92e677252",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.bindingdb.org/rwd/bind/downloads/BindingDB_Assays_202608_tsv.zip",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "BindingDB_Assays_202608_tsv.zip",
+  "manifest_sha256": "478b8fece88c01e6ceae3a62c9d04a21ce5f48476698b906e5b3bee5ce1dbbc2",
+  "resolved_url": "https://www.bindingdb.org/rwd/bind/downloads/BindingDB_Assays_202608_tsv.zip",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "content-length": "10067687",
+    "content-type": "application/zip",
+    "date": "Tue, 04 Aug 2026 18:21:14 GMT",
+    "etag": "W/\"10067687-1785562424963\"",
+    "last-modified": "Sat, 01 Aug 2026 05:33:44 GMT",
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:17Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "BindingDB_Assays_202608_tsv.zip",
+  "upstream_md5_when_published": null
+}

@@ -1,0 +1,377 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1508588,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "1154",
+              "source_id": {
+                "str": "BRAFV600-vemurafenib-primary"
+              },
+              "date": {
+                "std": {
+                  "year": 2020,
+                  "month": 8,
+                  "day": 30
+                }
+              }
+            }
+          },
+          "name": "RNAi screen for vemurafenib enhancer genes in BRAFV600 melanoma - Primary Screen",
+          "description": [
+            "Genome wide protein coding siRNA screen for genes that enhance the effects of vemurafenib on cell viability and glycolysis in human BRAFV600 melanoma cells"
+          ],
+          "protocol": [
+            "Description of replicates:",
+            "The transfection is performed in 6x replicate 384 well plates. This gives duplicates for no treatment cell count (T0) (plates 1 and 2), control treated (plates 3 and 4)) and vemurafenib treated (plates 5 and 6)",
+            "",
+            "siRNA library description:",
+            "The human siRNA library (Dharmacon GE) consists of 18,120 individual protein coding genes.",
+            "",
+            "siRNA reagent type:",
+            "siRNA - 21 bp chemically synthesized sequences, arrayed format (384 well plates, diluted in 1x siRNA buffer (Dharmacon GE source).",
+            "",
+            "Unique siRNA molecules per reagent pool:",
+            "SMARTpool siRNAs (Dharmacon RNAi Technologies). 4 individual siRNAs targeting each gene, pooled together in one well. Ideally, the 4 sequences will target all isoforms/transcript variants of a gene and they are generally in the coding region.",
+            "",
+            "Number of cells per well:",
+            "450 cells per well were plated in a 384 well plate",
+            "",
+            "Cell line:",
+            "WM266.4",
+            "",
+            "Compound name:",
+            "Vemurafenib, 300nM added 48 hours after transfection and left for a further 48hrs prior to assay measurement for cell number (using DAPI nuclei staining) and glycolysis (using lactate absorbance assay). IC25",
+            "",
+            "Assay reagent name:",
+            "L-lactate assay kit (Eton Biosciences #1200014002); DAPI DNA dye (Invitrogen)",
+            "",
+            "Assay reagent manufacturer:",
+            "Dharmacon RNAi Technologies for siRNA. Eton Biosciences for Lactate assay.",
+            "",
+            "Type of readout:",
+            "Cell number assay - end point assay for cell number; T0 (pre-treatment) cell count was subtracted from T48 (post-treatment) cell count to measure cell viability (deltaT).",
+            "Lactate assay - end point assay measuring lactate concentration as absorbance in growth media",
+            "",
+            "Delivery type and protocol:",
+            "A forward transfection was used for this screen, where cells are seeded 24h prior to transfection. RNAi MAX transfection lipid was prepared in Opti-MEM at a ratio of 1 uL:1,250 uL, equating to a final concentration of 0.03 uL lipid in 37.5 uL per well. The RNAi MAX-Opti-MEM mix was incubated for 5 min, before 75 ul was dispensed into each well of a V bottom 384 well plate (\"complexing plate\") using a  BioTek 406 multi-well dispenser. Next, 10.2 ul of siRNA (1 uM) was transferred from the library plates to the complexing plates using a  Caliper Sciclone ALH3000 liquid handling robot, mixed, and incubated for 20 min at room temperature. After 20 min, 12.5 uL of lipid/siRNA complexes was added to 6x assay plates containing cells in 25 uL media, giving a final concentration of 40nM siRNA in 37.5 uL",
+            "",
+            "Cell confluence:",
+            "450 cells per well were plated in a 384 well plate",
+            "",
+            "Complexing protocol:",
+            "siRNA is added to pre-diluted lipid in opti-MEM, mixed and complexed for 20 minutes.",
+            "",
+            "Complexing time:",
+            "20 minutes",
+            "",
+            "Delivery reagent name:",
+            "RNAi MAX transfection lipid",
+            "",
+            "Delivery reagent type:",
+            "Lipid",
+            "",
+            "Delivery reagent manufacturer:",
+            "Invitrogen",
+            "",
+            "Delivery reagent final concentration:",
+            "0.03ul in 37.5ul total volume.",
+            "",
+            "Silencing reagent final concentration:",
+            "40nM",
+            "",
+            "Assay plate manufacturer:",
+            "Corning 3764",
+            "",
+            "Assay plate type:",
+            "384-well, black-walled, tissue-culture treated plates, with clear flat bottom wells, sterile, with lid",
+            "",
+            "Media composition:",
+            "For culture and seeding: RPMI, 10% FBS, 1% glutamax (Life Technologies)",
+            "For drug treatment during screen: phenol-free RPMI 1640 (GIBCO #11835), containing 10% FBS, 1% glutamax (Life Technologies)",
+            "",
+            "Time of media change:",
+            "24 hours post-transfection",
+            "",
+            "Time of drug treatment:",
+            "48 hours post-transfection",
+            "",
+            "Assay end point:",
+            "96 hours post-transfection"
+          ],
+          "comment": [
+            "Assay activity outcome, determined based on the Control and Drug FC bin for viability (deltaT) and lactate per cell. Reporting only the drug enhancer outcome for viability (deltaT) and glycolysis (lactate per cell)."
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "REAGENT_ID",
+              "description": [
+                "Dharmacon GE reagent id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "ENTREZ_GENE_ID",
+              "description": [
+                "NCBI Entrez Gene database id of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "NCBI_GENE_SYMBOL",
+              "description": [
+                "Official symbol of target NCBI Gene Id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "PLATE",
+              "description": [
+                "Plate number"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 5,
+              "name": "WELL",
+              "description": [
+                "Well location"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "CONTROL_AVERAGE_CELL_VIABILITY_(DELTA-T)_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Control treated (siRNA + Vemurafenib) cell viability data (DeltaT = T48 cell count - T0 cell count) for each replicate normalised to siOTP-NT, then normalised values are averaged across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "CONTROL_AVERAGE_CELL_VIABILITY_(DELTA-T)_NORMALISED_TO_OTP-NT_ROBUST_Z_SCORED",
+              "description": [
+                "Control treated (siRNA + Vemurafenib) cell viability data (deltaT = T48 cell count - T0 cell count) for each replicate normalised to siOTP-NT, then normalised values are averaged across the 2 replicates. Average normalised drug cell viability values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 8,
+              "name": "CONTROL_CELL_VIABILITY_(DELTA-T)_FC_BIN",
+              "description": [
+                "Control deltaT cell viability bin - cHi (FC > 1.1), cCV1 (0.8 < FC > 1.1), cCV2 (0.8 < FC > 0.5), cCV3 (0.5 < FC > 0.2), cLC (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "DRUG_AVERAGE_CELL_VIABILITY_(DELTA-T)_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Drug treated (siRNA + Vemurafenib) cell viability data (DeltaT = T48 cell count - T0 cell count) for each replicate normalised to siOTP-NT, then normalised values are averaged across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 10,
+              "name": "DRUG_AVERAGE_CELL_VIABILITY_(DELTA-T)_NORMALISED_TO_OTP-NT_ROBUST_Z_SCORED",
+              "description": [
+                "Drug treated (siRNA + Vemurafenib) cell viability data (deltaT = T48 cell count - T0 cell count) for each replicate normalised to siOTP-NT, then normalised values are averaged across the 2 replicates. Average normalised drug cell viability values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 11,
+              "name": "DRUG_CELL_VIABILITY_(DELTA-T)_FC_BIN",
+              "description": [
+                "Drug deltaT cell viability bin - dHi (FC > 1.1), dCV1 (0.8 < FC > 1.1), dCV2 (0.8 < FC > 0.5), dCV3 (0.5 < FC > 0.2), dLC (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "CONTROL_AVERAGE_LACTATE_PER_CELL_RATIO_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Control (siRNA alone) lactate per cell ratio data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates. "
+              ],
+              "type": 1
+            },
+            {
+              "tid": 13,
+              "name": "CONTROL_AVERAGE_LACTATE_PER_CELL_RATIO_NORMALISED_TO_OTP-NT_ROBUST_Z_SCORED",
+              "description": [
+                "Control (siRNA alone) lactate per cell ratio data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates. Average normalised control lactate per cell values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 14,
+              "name": "CONTROL_LACTATE_PER_CELL_RATIO_FC_BIN",
+              "description": [
+                "Control lactate per cell ratio FC bin - cLAC1 (FC > 1.1), cLAC2 (0.8 < FC > 1.1), cLAC3 (0.8 < FC > 0.5), cLAC4 (0.5 < FC > 0.2), cLAC5 (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 15,
+              "name": "DRUG_AVERAGE_LACTATE_PER_CELL_RATIO_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Drug (siRNA + vemurafenib) lactate per cell ratio data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates. "
+              ],
+              "type": 1
+            },
+            {
+              "tid": 16,
+              "name": "DRUG_AVERAGE_LACTATE_PER_CELL_RATIO_NORMALISED_TO_OTP-NT_ROBUST_Z_SCORED",
+              "description": [
+                "Drug (siRNA + vemurafenib) lactate per cell ratio data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates. Average normalised DRUG lactate per cell values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 17,
+              "name": "DRUG_LACTATE_PER_CELL_RATIO_FC_BIN",
+              "description": [
+                "Drug lactate per cell ratio FC bin - dLAC1 (FC > 1.1), dLAC2 (0.8 < FC > 1.1), dLAC3 (0.8 < FC > 0.5), dLAC4 (0.5 < FC > 0.2), dLAC5 (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 18,
+              "name": "CONTROL_AVERAGE_CELL_COUNT_NORMALISED_TO_OTP-NT_ROBUST_Z_SCORED",
+              "description": [
+                "Control (siRNA alone) cell count data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates. Average normalised control cell count values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 19,
+              "name": "CONTROL_AVERAGE_CELL_COUNT_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Control (siRNA alone) cell count data for each replicate normalised to OTP-NT, then the normalised values are averaged across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 20,
+              "name": "CONTROL_CELL_COUNT_FC_BIN",
+              "description": [
+                "Control T48 cell count bin -  Hi (FC > 1.1), CV1 (0.8 < FC > 1.1), CV2 (0.8 < FC > 0.5), CV3 (0.5 < FC > 0.2), LC (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 21,
+              "name": "DRUG_AVERAGE_CELL_COUNT_NORMALISED_TO_OTP-NT",
+              "description": [
+                "Drug treated (siRNA + Vemurafenib) cell number data for each replicate normalised to siOTP-NT, then normalised values are averaged across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 22,
+              "name": "DRUG_CELL_COUNT_FC_BIN",
+              "description": [
+                "Drug T48 cell count bin - Hi (FC > 1.1), CV1 (0.8 < FC > 1.1), CV2 (0.8 < FC > 0.5), CV3 (0.5 < FC > 0.2), LC (FC < 0.2)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 23,
+              "name": "T0_AVERAGE_RAW_CELL_COUNT",
+              "description": [
+                "Raw T0 cell count (pre-treatment) data averaged across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 24,
+              "name": "T0_AVERAGE_CELL_COUNT_NORMALISED_TO_OTP-NT",
+              "description": [
+                "T0 cell count (pre-treatment) data averaged across the 2 replicates, then normalised to OTP-NT."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 25,
+              "name": "CONTROL_RAW_CELL_COUNT_REP_1",
+              "description": [
+                "Control (siRNA alone) raw cell count data for replicate 1"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 26,
+              "name": "CONTROL_RAW_LACTATE_PER_CELL_RATIO_REP_1",
+              "description": [
+                "Control (siRNA alone) raw lactate per cell data for replicate 1"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 27,
+              "name": "CONTROL_RAW_CELL_COUNT_REP_2",
+              "description": [
+                "Control (siRNA alone) raw cell count data for replicate 2"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 28,
+              "name": "CONTROL_RAW_LACTATE_PER_CELL_RATIO_REP_2",
+              "description": [
+                "Control (siRNA alone) raw lactate per cell data for replicate 2"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 29,
+              "name": "DRUG_RAW_CELL_COUNT_REP_1",
+              "description": [
+                "Drug (siRNA + vemurafenib) raw cell count data for replicate 1"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 30,
+              "name": "DRUG_RAW_LACTATE_PER_CELL_RATIO_REP_1",
+              "description": [
+                "Drug (siRNA + vemurafenib) raw lactate per cell data for replicate 1"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 31,
+              "name": "DRUG_RAW_CELL_COUNT_REP_2",
+              "description": [
+                "Drug (siRNA + vemurafenib) raw cell count data for replicate 2"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 32,
+              "name": "DRUG_RAW_LACTATE_PER_CELL_RATIO_REP_2",
+              "description": [
+                "Drug (siRNA + vemurafenib) raw lactate per cell data for replicate 2"
+              ],
+              "type": 1
+            }
+          ],
+          "revision": 2,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

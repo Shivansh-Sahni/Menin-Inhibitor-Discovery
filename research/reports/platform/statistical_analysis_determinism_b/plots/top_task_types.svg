@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="30" font-family="sans-serif" font-size="18">Top emitted task types</text>
+<text x="20" y="49" font-family="sans-serif" font-size="11">population=2616037; displayed=20; deterministic cap=20</text>
+<text x="10" y="71" font-family="monospace" font-size="11">default__binding__ic50__binding__nm__conti</text>
+<rect x="300" y="58" width="630.0" height="18" fill="#35618f"/>
+<text x="935.0" y="72" font-family="monospace" font-size="11">1107075</text>
+<text x="10" y="99" font-family="monospace" font-size="11">default__binding__ki__binding__nm__continu</text>
+<rect x="300" y="86" width="232.137" height="18" fill="#35618f"/>
+<text x="537.137" y="100" font-family="monospace" font-size="11">407926</text>
+<text x="10" y="127" font-family="monospace" font-size="11">default__binding__ic50__binding__nm__conti</text>
+<rect x="300" y="114" width="156.872" height="18" fill="#35618f"/>
+<text x="461.872" y="128" font-family="monospace" font-size="11">275666</text>
+<text x="10" y="155" font-family="monospace" font-size="11">default__other__ic50__other_bioactivity__n</text>
+<rect x="300" y="142" width="73.933" height="18" fill="#35618f"/>
+<text x="378.933" y="156" font-family="monospace" font-size="11">129920</text>
+<text x="10" y="183" font-family="monospace" font-size="11">default__binding__kd__binding__nm__continu</text>
+<rect x="300" y="170" width="54.63" height="18" fill="#35618f"/>
+<text x="359.63" y="184" font-family="monospace" font-size="11">95999</text>
+<text x="10" y="211" font-family="monospace" font-size="11">default__other__ec50__other_bioactivity__n</text>
+<rect x="300" y="198" width="52.318" height="18" fill="#35618f"/>
+<text x="357.318" y="212" font-family="monospace" font-size="11">91936</text>
+<text x="10" y="239" font-family="monospace" font-size="11">default__binding__ec50__binding__nm__conti</text>
+<rect x="300" y="226" width="51.06" height="18" fill="#35618f"/>
+<text x="356.06" y="240" font-family="monospace" font-size="11">89725</text>
+<text x="10" y="267" font-family="monospace" font-size="11">default__binding__ki__other_bioactivity__n</text>
+<rect x="300" y="254" width="42.281" height="18" fill="#35618f"/>
+<text x="347.281" y="268" font-family="monospace" font-size="11">74298</text>
+<text x="10" y="295" font-family="monospace" font-size="11">default__binding__kd__binding__nm__continu</text>
+<rect x="300" y="282" width="35.472" height="18" fill="#35618f"/>
+<text x="340.472" y="296" font-family="monospace" font-size="11">62334</text>
+<text x="10" y="323" font-family="monospace" font-size="11">sensitivity__binding__standard_binding_fre</text>
+<rect x="300" y="310" width="35.472" height="18" fill="#35618f"/>
+<text x="340.472" y="324" font-family="monospace" font-size="11">62334</text>
+<text x="10" y="351" font-family="monospace" font-size="11">default__binding__ki__binding__nm__continu</text>
+<rect x="300" y="338" width="33.754" height="18" fill="#35618f"/>
+<text x="338.754" y="352" font-family="monospace" font-size="11">59314</text>
+<text x="10" y="379" font-family="monospace" font-size="11">default__other__ic50__other_bioactivity__n</text>
+<rect x="300" y="366" width="32.437" height="18" fill="#35618f"/>
+<text x="337.437" y="380" font-family="monospace" font-size="11">57001</text>
+<text x="10" y="407" font-family="monospace" font-size="11">default__binding__ki__other_bioactivity__n</text>
+<rect x="300" y="394" width="28.35" height="18" fill="#35618f"/>
+<text x="333.35" y="408" font-family="monospace" font-size="11">49818</text>
+<text x="10" y="435" font-family="monospace" font-size="11">default__other__ec50__other_bioactivity__n</text>
+<rect x="300" y="422" width="12.369" height="18" fill="#35618f"/>
+<text x="317.369" y="436" font-family="monospace" font-size="11">21736</text>
+<text x="10" y="463" font-family="monospace" font-size="11">default__binding__ec50__binding__nm__conti</text>
+<rect x="300" y="450" width="11.009" height="18" fill="#35618f"/>
+<text x="316.009" y="464" font-family="monospace" font-size="11">19345</text>
+<text x="10" y="491" font-family="monospace" font-size="11">default__binding__kd__other_bioactivity__n</text>
+<rect x="300" y="478" width="3.106" height="18" fill="#35618f"/>
+<text x="308.106" y="492" font-family="monospace" font-size="11">5458</text>
+<text x="10" y="519" font-family="monospace" font-size="11">sensitivity__binding__standard_binding_fre</text>
+<rect x="300" y="506" width="3.106" height="18" fill="#35618f"/>
+<text x="308.106" y="520" font-family="monospace" font-size="11">5458</text>
+<text x="10" y="547" font-family="monospace" font-size="11">default__binding__kd__other_bioactivity__n</text>
+<rect x="300" y="534" width="0.205" height="18" fill="#35618f"/>
+<text x="305.205" y="548" font-family="monospace" font-size="11">360</text>
+<text x="10" y="575" font-family="monospace" font-size="11">default__herg__ic50__herg_functional__nm__</text>
+<rect x="300" y="562" width="0.078" height="18" fill="#35618f"/>
+<text x="305.078" y="576" font-family="monospace" font-size="11">137</text>
+<text x="10" y="603" font-family="monospace" font-size="11">default__herg__ic50__herg_functional__bina</text>
+<rect x="300" y="590" width="0.068" height="18" fill="#35618f"/>
+<text x="305.068" y="604" font-family="monospace" font-size="11">120</text>
+</svg>

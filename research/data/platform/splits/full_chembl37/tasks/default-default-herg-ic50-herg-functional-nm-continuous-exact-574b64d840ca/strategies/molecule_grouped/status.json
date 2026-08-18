@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-herg-ic50-herg-functional-nm-continuous-exact-574b64d840ca/strategies/molecule_grouped/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "96e84349a2d62636c8aefc4de339fc994b5ae8d90aa40b22e11a14fe26c1efcc",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 15,
+    "train": 107,
+    "validation": 15
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-herg-ic50-herg-functional-nm-continuous-exact-574b64d840ca/strategies/molecule_grouped/split.parquet.manifest.json",
+  "sidecar_sha256": "86e6fef4c02132e3fb61c3a9a68bba616cd38f3bd1c0ba9b9d3826e5f72eb2d5",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-herg-ic50-herg-functional-nm-continuous-exact-574b64d840ca/strategies/molecule_grouped/split.parquet",
+  "split_rows": 137,
+  "split_sha256": "0bb4553549f04aa6be7855e31fc70e0d8ccca4f0303149c15638c9d7ad93ad64",
+  "status": "materialized",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

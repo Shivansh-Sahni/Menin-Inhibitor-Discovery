@@ -1,0 +1,534 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 588834,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "HERG01"
+              }
+            }
+          },
+          "name": "qHTS Assay for Small Molecule Inhibitors of the Human hERG Channel Activity",
+          "description": [
+            "NIH Chemical Genomics Center [NCGC]",
+            "National Institutes of Environmental Health Sciences [NIEHS]",
+            "National Toxicology Program [NTP]",
+            "",
+            "NCGC Assay Overview:",
+            "",
+            "We have developed a 1536-well cell-based assay for quantitative high throughput screening (qHTS) to determine in vitro hERG channel blockage as a measure of cardio toxicity with small molecules. This particular assay uses the U2OS cell line which is derived from human osteosarcoma."
+          ],
+          "protocol": [
+            "NCGC Assay Protocol Summary:",
+            "",
+            "HERG assay (FluxORTM thallium flux assay) was initially developed by Invitrogen/Molecular Probes, and then miniaturized into 1536-well plate in a homogeneous format by NCGC. This assay measures the activity of potassium channel using thallium dye (FluxOR) flux as surrogate measurement for potassium into the cells with a FDSS-7000 kinetic plate reader (Hamamatsu Corp., Hamamatsu City, Japan). The hERG ion channel is transduced into mammalian cells (U2OS) using a baculovirus (Bacmam) construct harboring the hERG K+ ion channel. So far we screened LOPAC1280 library (Sigma), the NTP collection of 1408 compounds, and the NCGC Pharmaceutical Collection (NPC), in which many well defined HERG blockers are present. The rank order potencies of many of these compounds are similar to that of other HERG assays (membrane potential, Rb+ flux, patch clamp, etc). This quick and homogeneous assay is also found to be sensitive, specific, and robust.",
+            "",
+            "Using the FluxORTM thallium flux assay, the activity of potassium channel using thallium dye (FluxOR) flux as surrogate measurement for potassium into the cells was measured in the U2OS cell line transduced with hERG K+ ion channel using a baculovirus (Bacmam) using Opti-MEM medium (Invitrogen) containing 2% fetal calf serum (FCS, HyCone) following loading buffer addition, compound treatment for around 10 minutes and finally adding stimulation buffer. The assay was performed in black clear Kalypsys 1536-well plates. In the screen, Astemizole was used as positive controls. Library compounds were measured for their ability to cause hERG channel blockage in the cell line, as reflected by a decrease in fluorescence intensity, in a concentration-dependent manner. Data were normalized to the controls for basal activity (DMSO only) and 100% inhibition (5uM Astemizole). AC50 values were determined from concentration-response data modeled with the standard Hill equation.",
+            "",
+            "qHTS protocol for hERG-U2OS cellular assay",
+            "",
+            "[Step] [Parameter] [Value] [Description] ",
+            "",
+            "1. Day 1: Replace medium in 70-80% confluent T225 flask with 2.5 mL of hERG-BacMam virus plus 12.5 mL of phosphate buffered saline (PBS) (corresponding roughly to a multiplicity of infection ratio of 100 virus particles/cell)",
+            "2. Incubation: 4 hrs @ room Temperature in Dark",
+            "3. Reagent; Remove virus; wash once with 25 ml DPBS",
+            "4. Reagent; 35 ml culture medium",
+            "5. Incubation; 37oC overnight     ",
+            "6. Day2: Reagent; 3 uL; 2000 U2OS cells/well",
+            "7. Time; 4 hr; 37oC incubation",
+            "8. Loading buffer; 1 uL; 0.7X; ",
+            "9. Incubation: 1hr @ RT in Dark. ",
+            "10. Compounds; 23 nL; 0.59 nM to 92 uM",
+            "11. Controls; 23 nL; Astemizole  1.4 nM to 92 uM ",
+            "12. Time; 10min; 37oC incubation",
+            "13. Read fluorescence Intensity on FDSS for 10 Sec with 1 sec interval",
+            "14. Reagent; 1 uL; stimulation buffer",
+            "15. Read fluorescence Intensity on FDSS for 2 min with 1 sec interval",
+            "16. Detection; Fluorescence Intensity; FDSS"
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. See data field \"Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+            "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above.  Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100.  Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39.  Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "http://www.ncgc.nih.gov"
+              }
+            },
+            {
+              "xref": {
+                "gene": 3757
+              }
+            },
+            {
+              "xref": {
+                "pmid": 19583963
+              }
+            },
+            {
+              "xref": {
+                "pmid": 21362439
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 4,
+              "name": "Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Activity_Score",
+              "description": [
+                "Activity score."
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 7,
+              "name": "Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 11,
+              "name": "Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 12,
+              "name": "Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 15,
+              "name": "Activity at 0.0001000000 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.99999974737875e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 16,
+              "name": "Activity at 0.0003000000 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000300000014249235,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 17,
+              "name": "Activity at 0.0006116734 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000611672992818058,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 18,
+              "name": "Activity at 0.00133 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00133137998636812,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 19,
+              "name": "Activity at 0.00297 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00296970992349088,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 20,
+              "name": "Activity at 0.00673 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00672705983743072,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 21,
+              "name": "Activity at 0.015 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0148954996839166,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 22,
+              "name": "Activity at 0.033 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0334639996290207,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 23,
+              "name": "Activity at 0.075 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0746228024363518,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 24,
+              "name": "Activity at 0.167 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.167220994830132,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 25,
+              "name": "Activity at 0.369 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.368624985218048,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 26,
+              "name": "Activity at 0.412 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.412200003862381,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 27,
+              "name": "Activity at 0.836 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.835825026035309,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 28,
+              "name": "Activity at 1.842 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.84212005138397,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 29,
+              "name": "Activity at 2.061 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.06100010871887,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 30,
+              "name": "Activity at 4.179 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 4.17906999588013,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 31,
+              "name": "Activity at 9.216 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.21586990356445,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 32,
+              "name": "Activity at 20.61 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 20.6056995391846,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 33,
+              "name": "Activity at 46.08 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 46.0833015441895,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 34,
+              "name": "Activity at 92.17 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 92.1699981689453,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 35,
+              "name": "Compound QC",
+              "description": [
+                "NCGC designation for data stage: 'qHTS', 'qHTS Verification', 'Secondary Profiling'"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "",
+              "mol_id": {
+                "protein_accession": "NP_001191727.1"
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot label 1",
+              "dn": "Concentration",
+              "rn": "Response"
+            }
+          ],
+          "project_category": 255,
+          "categorized_comment": [
+            {
+              "title": "Assay Type",
+              "comment": [
+                "Functional"
+              ]
+            },
+            {
+              "title": "Assay Cell Type",
+              "comment": [
+                "U2OS"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

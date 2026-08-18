@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "baseline_robustness_matrix_csv": {
+      "path": "baseline_robustness_matrix.csv",
+      "sha256": "e368868ce35eed599eafd04e1ce995fc4c28428837fcc2afd6eddcc1c85b7339"
+    },
+    "feature_registry_csv": {
+      "path": "../../data/platform/features/static/feature_registry.csv",
+      "sha256": "f907bd3d01cfcc370c671ac7d54707bf6ab8f0ec9b3b0292109d004cb953523b"
+    },
+    "feature_registry_metadata": {
+      "path": "../../data/platform/features/static/feature_registry_metadata.json",
+      "sha256": "6318c58e2812cb5a3e7d28dbcf4e6718033004353253fc0b8e9bd4366e705ede"
+    },
+    "model_candidate_registry_csv": {
+      "path": "model_candidate_registry.csv",
+      "sha256": "9661e192dba8926beb8e13ab50bbc28b8b678d019bf6ce9a6721d7ab56aef33d"
+    },
+    "model_candidate_registry_json": {
+      "path": "model_candidate_registry.json",
+      "sha256": "ac3da9647e921c5a341afcb0b68e82bbbd1a7836e5cd7fc17c940ad4fe5bd3e0"
+    },
+    "model_metric_registry_csv": {
+      "path": "model_metric_registry.csv",
+      "sha256": "36a87ea5661c9cfb6dd490ff50c389850f67758fb3b67a0920922514fc5f9d4d"
+    }
+  },
+  "environment": {
+    "executable_name": "python",
+    "feature_registry_sha256": "ee9ec1c59bb6790cac45595f179bfbfd9eccca725c72f4dbadbdce71d13fc674",
+    "implementation": "CPython",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "platform": "macOS-15.7.5-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7",
+    "rdkit": "2026.03.3",
+    "torch": "2.13.0",
+    "torch_cuda_available": false,
+    "torch_mps_available": false
+  },
+  "evidence_checked_date": "2026-08-04",
+  "schema_version": "static_pretraining_readiness_manifest_v1",
+  "substantive_training_started": false
+}

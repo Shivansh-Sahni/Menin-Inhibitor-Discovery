@@ -1,0 +1,150 @@
+{
+  "baseline_metadata_file_sha256": "d83047f80a193ce0c0e5616347b517a556a3768b0d1c7a5ffe24ae7338a537ff",
+  "component_inventory": {
+    "baselines/baseline_metadata.json": {
+      "relative_path": "baselines/baseline_metadata.json",
+      "sha256": "d83047f80a193ce0c0e5616347b517a556a3768b0d1c7a5ffe24ae7338a537ff",
+      "size_bytes": 2587,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/dummy_median.joblib": {
+      "relative_path": "baselines/dummy_median.joblib",
+      "sha256": "51fa41bdb66d3040d8e9d8ec67156d2391b10d6d45c27d5ad37ce76043b84eb4",
+      "size_bytes": 17449,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/identifier_hash_control.json": {
+      "relative_path": "baselines/identifier_hash_control.json",
+      "sha256": "c236b86fca622b735d27e4d37c882e9cb2952673fd6dec5c241a90162eac6abd",
+      "size_bytes": 995,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/label_permutation_control.json": {
+      "relative_path": "baselines/label_permutation_control.json",
+      "sha256": "06aaf2659de4baba126e8c93441648649a926caf1cd16cdbacc0d8b49bf24f8b",
+      "size_bytes": 813,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/metrics.csv": {
+      "relative_path": "baselines/metrics.csv",
+      "sha256": "7505f4fb161e2f01c7229fdd1ac24bd060f387e370370fd65f2174ce48310713",
+      "size_bytes": 1316,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/ridge_fixed.joblib": {
+      "relative_path": "baselines/ridge_fixed.joblib",
+      "sha256": "356545ab4b3a48287114e764d96b26df80704a1143f6d76fed4de6fae9c27cef",
+      "size_bytes": 75278,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/validation_error_analysis.parquet": {
+      "relative_path": "baselines/validation_error_analysis.parquet",
+      "sha256": "ca10eae5902f143103c0a6cf2597ed1faaf5d3e87945b0b62d844f4603abb57d",
+      "size_bytes": 14204,
+      "verification_source": "post_materialization_sha256"
+    },
+    "baselines/validation_predictions.parquet": {
+      "relative_path": "baselines/validation_predictions.parquet",
+      "sha256": "dfb08c3c1336dce838ee1214149bf705619ed1dbc53f1584c2a99de02875b411",
+      "size_bytes": 11599,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/descriptors.parquet": {
+      "relative_path": "features/descriptors.parquet",
+      "sha256": "e8c75dd1b32858ae873c44ea09f33b23fd4cd166e80db19b0d03c2ba6dec595c",
+      "size_bytes": 14787,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/feature_config.json": {
+      "relative_path": "features/feature_config.json",
+      "sha256": "40fcc79da0ee4b2e68dc11f634b9f92e423350da83e70f90c6cead50e763b2f6",
+      "size_bytes": 1491,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/feature_failure_summary.csv": {
+      "relative_path": "features/feature_failure_summary.csv",
+      "sha256": "29ce3396dc1b062effb11f24de368c0262300e12b21a0b6a6333679dff800fe4",
+      "size_bytes": 260,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/feature_manifest.json": {
+      "relative_path": "features/feature_manifest.json",
+      "sha256": "7946f8d18a3f6430a780870a3e1bc09866f4be448ee8a362970cd03dcf1141d1",
+      "size_bytes": 787,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/fingerprints_rdkit_morgan_r2_2048.npz": {
+      "relative_path": "features/fingerprints_rdkit_morgan_r2_2048.npz",
+      "sha256": "1aaf186ef4254840688a58f3322a83a5fa09be87c91236749166e1f2ade5d1fd",
+      "size_bytes": 1727,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/numeric_target_leakage_scan.csv": {
+      "relative_path": "features/numeric_target_leakage_scan.csv",
+      "sha256": "e99784d8775c75a91f809d11c9b6e25df29a601ea42c0fe741e8ad9f00a3d328",
+      "size_bytes": 837,
+      "verification_source": "post_materialization_sha256"
+    },
+    "features/selected_rows.parquet": {
+      "relative_path": "features/selected_rows.parquet",
+      "sha256": "93f7b5597a96c4af9817980cfc245971f012bc232308f510d111ee98b74966e5",
+      "size_bytes": 14723,
+      "verification_source": "post_materialization_sha256"
+    }
+  },
+  "component_inventory_policy": "all diagnostic bundle files except acceptance.json; acceptance is externally hashed on return",
+  "component_inventory_sha256": "abec4d0c02f51100e9196776f5616aefd9b2b454a04379b0d5fb34a1ca3e9e13",
+  "diagnostic_config": {
+    "binary_label_mapping": [],
+    "fingerprint_bits": 2048,
+    "fingerprint_radius": 2,
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "seed": 20260804
+  },
+  "diagnostic_config_sha256": "960a20e403c02ea6ef7e4147cddddd71534a1b4f0b833a7ca5c7057fd2f36f35",
+  "feature_bundle_sha256": "f43ecee88be329439cdbfdc31208b5b29aa2c31873dc72dc4f28b62d0b6aa5d8",
+  "feature_manifest_file_sha256": "7946f8d18a3f6430a780870a3e1bc09866f4be448ee8a362970cd03dcf1141d1",
+  "hyperparameter_sweep_performed": false,
+  "integration_acceptance_sha256": "caa030ab8e6b384358f729ee87d1d555eb2dcf55586cfcec45ba0b293907b69f",
+  "interpretation": "lightweight_diagnostic_not_scientific_or_prospective_evidence",
+  "large_model_training_started": false,
+  "metrics_file_sha256": "7505f4fb161e2f01c7229fdd1ac24bd060f387e370370fd65f2174ce48310713",
+  "model_selection_performed": false,
+  "opened_partitions": [
+    "train",
+    "validation"
+  ],
+  "predictions_file_sha256": "dfb08c3c1336dce838ee1214149bf705619ed1dbc53f1584c2a99de02875b411",
+  "schema_version": "platform_model_diagnostic_bundle_v1",
+  "selection": {
+    "algorithm": "lowest_full_256_bit_seeded_sha256_record_id",
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "rank_bits": 256,
+    "seed": 20260804,
+    "selected_train_examples": 10,
+    "selected_validation_examples": 2
+  },
+  "status": "completed_diagnostic_only",
+  "substantive_training_started": false,
+  "target": {
+    "label_encoding": "identity_continuous_exact",
+    "task_family": "regression"
+  },
+  "task_semantics": {
+    "assay_family": "pk_adme",
+    "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+    "endpoint": "Ki",
+    "evidence_domain": "binding",
+    "label_kind": "continuous_exact",
+    "label_unit": "nM",
+    "observation_kind": "experimental_summary",
+    "resolved_task_family": "regression",
+    "semantic_scan_complete": true,
+    "semantic_scan_record_count": 15,
+    "task_id": "TASK-5D547122E1CE24483AB2BE65",
+    "task_type": "default__binding__ki__pk_adme__nm__continuous_exact"
+  },
+  "test_partition_opened": false
+}

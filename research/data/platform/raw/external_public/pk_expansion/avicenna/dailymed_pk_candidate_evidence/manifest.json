@@ -1,0 +1,41 @@
+{
+  "artifact_count": 6,
+  "artifacts": [
+    {
+      "bytes": 81632728,
+      "path": "document_inventory.jsonl",
+      "sha256": "394520ec2f14d2d1809d7221738bd4d745e3d4c931d784152bae36fd18924462"
+    },
+    {
+      "bytes": 50895520,
+      "path": "latest_available_candidate_documents.jsonl",
+      "sha256": "7ba118041976aadc4099aabea5b758bf276e3e881588804a060ef2e02346071f"
+    },
+    {
+      "bytes": 32383,
+      "path": "scan_summary.json",
+      "sha256": "e638de2f743ef169466d6fb9551d5ec0a05f893d46b1fc48811559134d26061a"
+    },
+    {
+      "bytes": 272607645,
+      "path": "section_candidates.jsonl",
+      "sha256": "0ac911931a40cf473e2e4521165b949cdb0a0323df9f958dfa94982e8a4f512c"
+    },
+    {
+      "bytes": 24811359,
+      "path": "table_candidates.jsonl",
+      "sha256": "5f42d04649d541ccd001523c70ba965b3fbc8efd2b8f8edc3584bdc6bd7d1c85"
+    },
+    {
+      "bytes": 6277,
+      "path": "validation.json",
+      "sha256": "9afdc6d24301051f9da84ebe8b80789ba9c100e886a2218bd9d1bf19f4426a0f"
+    }
+  ],
+  "canonical_rows": 0,
+  "generated_at_utc": "2026-08-07T13:01:45Z",
+  "manifest_excluded_as_self_referential": "manifest.json",
+  "schema_version": "pk-expansion-dailymed-candidates/1.0",
+  "total_bytes": 429985912,
+  "training_labels": 0
+}

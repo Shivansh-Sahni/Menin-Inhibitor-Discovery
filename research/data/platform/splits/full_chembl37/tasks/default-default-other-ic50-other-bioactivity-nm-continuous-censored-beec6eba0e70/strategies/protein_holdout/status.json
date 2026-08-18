@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-other-ic50-other-bioactivity-nm-continuous-censored-beec6eba0e70/strategies/protein_holdout/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "5ec265d8483746dab7323960d8ed797c10a5590ccb0f62e9b6b573fd5501f52d",
+  "mandatory_candidate": false,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 4577,
+    "train": 44910,
+    "validation": 7514
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-other-ic50-other-bioactivity-nm-continuous-censored-beec6eba0e70/strategies/protein_holdout/split.parquet.manifest.json",
+  "sidecar_sha256": "f54d25e79272563651d148d1761d2035e483851115a97f7e80c641e096035604",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-other-ic50-other-bioactivity-nm-continuous-censored-beec6eba0e70/strategies/protein_holdout/split.parquet",
+  "split_rows": 57001,
+  "split_sha256": "4950af19bbf714501c74f8eab00cd5e1b4004bc87f5e91d2a72afb693f2b8fb7",
+  "status": "materialized",
+  "strategy": "protein_holdout",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

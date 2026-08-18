@@ -1,0 +1,47 @@
+{
+  "captured_at_utc": "2026-08-04T15:43:19Z",
+  "confidentiality_guard": "only rights-verified ChEMBL bytes are copied; internal, BindingDB, PubChem, and Sun bytes are not copied",
+  "file_count": 6,
+  "files": [
+    {
+      "origin_path": "research/data/raw/chembl/chembl_herg_activities.csv",
+      "sha256": "2c7525e3a0a2bb60af5347893c9631796a907940d6ebea8dc65dcf22446bee83",
+      "size_bytes": 33619849,
+      "snapshot_path": "local_legacy/chembl/chembl_herg_activities.csv"
+    },
+    {
+      "origin_path": "research/data/raw/chembl/chembl_menin_activities.csv",
+      "sha256": "27f1330abe634506333fe566f28ccd75a69c1c71cb9c1a73baf4deb45bae00f8",
+      "size_bytes": 2759018,
+      "snapshot_path": "local_legacy/chembl/chembl_menin_activities.csv"
+    },
+    {
+      "origin_path": "research/data/raw/chembl/chembl_menin_molecule_all_activities.csv",
+      "sha256": "9ae40e448342ace3a9dd71b1ba0d0c0711ddeacb69a486664bc4296aca23a290",
+      "size_bytes": 11233525,
+      "snapshot_path": "local_legacy/chembl/chembl_menin_molecule_all_activities.csv"
+    },
+    {
+      "origin_path": "research/data/raw/chembl/chembl_status.json",
+      "sha256": "f4d07ed4cb29cf7042056fddb87fc8dc0da391afb75087727f57da95f424489e",
+      "size_bytes": 230,
+      "snapshot_path": "local_legacy/chembl/chembl_status.json"
+    },
+    {
+      "origin_path": "research/data/raw/chembl/chembl_target_search_herg.json",
+      "sha256": "7af7f7fd4460987805e9fa71d4286460921dca9665efbad63ebd9421d4b2279c",
+      "size_bytes": 473322,
+      "snapshot_path": "local_legacy/chembl/chembl_target_search_herg.json"
+    },
+    {
+      "origin_path": "research/data/raw/chembl/chembl_target_search_menin.json",
+      "sha256": "c738d5f8fea43f72edadd7e4bc78853c4a7cfb104e5d1bb1b2a165f0396f6942",
+      "size_bytes": 123972,
+      "snapshot_path": "local_legacy/chembl/chembl_target_search_menin.json"
+    }
+  ],
+  "missing_allow_list_paths": [],
+  "schema_version": "platform-evidence-1.0.0",
+  "snapshot_policy": "explicit-public-allow-list-byte-identical-v1",
+  "total_size_bytes": 48209916
+}

@@ -1,0 +1,5 @@
+dimension,value,rows,analysis_scope
+formula,delta_g_kcal_mol=R_kcal_mol_K*T_K*ln(Kd_M/1_M),67848,Kd_derived_free_energy_sensitivity_only
+standard_state,1 mol/L,67848,Kd_derived_free_energy_sensitivity_only
+temperature_source,reference_temperature_approximation,63693,Kd_derived_free_energy_sensitivity_only
+temperature_source,source_reported_assay_temperature,4155,Kd_derived_free_energy_sensitivity_only

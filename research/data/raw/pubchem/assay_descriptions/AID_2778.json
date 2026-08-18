@@ -1,0 +1,622 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2778,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "MENN9471"
+              },
+              "date": {
+                "std": {
+                  "year": 2010,
+                  "month": 6,
+                  "day": 23
+                }
+              }
+            }
+          },
+          "name": "Confirmation of Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Confirmation in an HTRF (commercial TR-FRET) Assay using His-tagged menin and biotin-labeled MLL peptide",
+          "description": [
+            "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias",
+            "NIH Chemical Genomics Center [NCGC]",
+            "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+            "",
+            "MLPCN Grant: MH084875-01A1",
+            "Assay Submitter (PI): Jolanta Grembecka, Tomasz Cierpicki, University of Virginia",
+            "",
+            "Translocations of the MLL (Mixed Lineage Leukemia) gene are frequently found in human leukemias affecting both children and adults. Fusion of MLL to one of more than 60 genes results in generation of oncogenic proteins upregulating Hox genes, which are vital to blood cell development. Patients harboring fusion of the MLL gene suffer from aggressive leukemias and respond poorly to available therapies. All of the oncogenic fusion proteins have a preserved N-terminal fragment of MLL that has been identified to interact with menin. It has been recently discovered that association with menin is critical to the leukemogenic activity of the MLL fusion oncoproteins. Selective targeting of the menin-MLL interaction could provide an attractive therapeutic approach to develop novel drugs for MLL-related leukemias. Small molecules blocking the menin-MLL interaction should reverse the oncogenic potential of MLL fusion proteins.",
+            "",
+            "We have developed and optimized a fluorescence polarization-based assay for the identification of Menin-MLL inhibitors. The assay was run employing two different MLL-derived peptides. The present assay uses a 12 amino acid peptide labeled with fluorescein at its N-terminus. This peptide consists of the menin high affinity binding motif from MLL and is potently bound by menin. Another peptide with a mutated sequence, labeled with Texas Red, was used in parallel as a less stringent screen for inhibitors. ",
+            "",
+            "The present assay uses an alternate technology to confirm hits from the primary screen - homogeneous time resolved fluorescence (HTRF)."
+          ],
+          "protocol": [
+            "The Menin protein, the MLL-wild type (w.t.) derived peptide (N-terminal 12 amino acids), the MLL-derived peptide labeled with Texas Red and the MLL-w.t. peptide labeled with Fluorescein were kindly supplied by laboratory of Dr. Jolanta Grembecka, University of Virginia. All protein and peptide solutions were stored in single use aliquots at -80C. The Eu3+ Cyrptate-conjugated mouse monoclonal antibody anti-6 Histidine (Eu3+-AB) and the Streptavidin-XL665 conjugate (XL665) were purchased from Cisbio International (Bedford, MA). All antibody and XL665 conjugate solution stocks were stored in single use aliquots at -20C. The Buffer components for all assays were purchased from Sigma-Aldrich (St. Louis, MO) and Invitrogen (Carlsbad, CA).",
+            "",
+            "HTRF Assay Reagents:",
+            "1. HTRF reaction buffer: 50 mM Tris-HCl pH 7.5, 50 mM NaCl, 1mM DTT.",
+            "Before use, 0.05% BSA is added.",
+            "2. His6-Menin protein, MLL-w.t. labeled with biotin.",
+            "Stored in singe use aliquots at -80C.",
+            "3. MLL-w.t. unlabeled peptide as positive control: 10 uM final in HTRF buffer.",
+            "",
+            "HTRF Assay Protocol:",
+            "1. Prepare His6-Menin at 200 nM, MLL-w.t.-biotin at 80 nM in HTRF buffer.",
+            "2. Prepare His6-Menin at 200 nM, MLL-w.t.-biotin at 80 nM and 10 uM MLL-w.t. unlabeled mixture in HTRF buffer.",
+            "3. Dispense 10 ul per well of reagent in step 1 in columns 2, 4-24 in a black 384 well plate, dispense 10 ul per well of reagents from steps 2 in column 1. Incubate plate at ambient for 15 minutes.",
+            "4. Transfer 1 uL per well of compound to plate and incubate at ambient for 1 hr.",
+            "5. Dispense 10uL of the donor (6His-Cryptate, 3.5 nM final conc.) and acceptor (SA_XL, 10nM final conc.) complex in the HTRF buffer with 0.01% BSA. Incubate for 1h."
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. See data field \"Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+            "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above.  Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100.  Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39.  Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 1766
+              }
+            },
+            {
+              "xref": {
+                "aid": 1768
+              }
+            },
+            {
+              "xref": {
+                "aid": 2076
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://www.ncgc.nih.gov"
+              }
+            },
+            {
+              "xref": {
+                "gene": 4297
+              },
+              "comment": "myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila) [Homo sapiens]"
+            },
+            {
+              "xref": {
+                "gene": 4221
+              },
+              "comment": "multiple endocrine neoplasia I [Homo sapiens]"
+            },
+            {
+              "xref": {
+                "pmid": 16239140
+              }
+            },
+            {
+              "xref": {
+                "mim": 159555
+              }
+            },
+            {
+              "xref": {
+                "mim": 131100
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 4,
+              "name": "Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 10,
+              "name": "Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 11,
+              "name": "Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 14,
+              "name": "Activity at 0.0000106889 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.06889001472155e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 15,
+              "name": "Activity at 0.0000320667 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.2066698622657e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 16,
+              "name": "Activity at 0.0000962002 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 9.62002013693564e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 17,
+              "name": "Activity at 0.0002886007 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000288601004285738,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 18,
+              "name": "Activity at 0.0008658020 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000865801994223148,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 19,
+              "name": "Activity at 0.00260 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00259740999899805,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 20,
+              "name": "Activity at 0.00779 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00779221998527646,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 21,
+              "name": "Activity at 0.015 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0149779999628663,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 22,
+              "name": "Activity at 0.032 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0315411016345024,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 23,
+              "name": "Activity at 0.075 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0748262032866478,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 24,
+              "name": "Activity at 0.150 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.149672999978065,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 25,
+              "name": "Activity at 0.246 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.245894998311996,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 26,
+              "name": "Activity at 0.492 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.492036014795303,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 27,
+              "name": "Activity at 0.984 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.98377001285553,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 28,
+              "name": "Activity at 1.967 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.96745002269745,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 29,
+              "name": "Activity at 3.937 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.93686008453369,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 30,
+              "name": "Activity at 7.870 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.87016010284424,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 31,
+              "name": "Activity at 15.74 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 15.7419004440308,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 32,
+              "name": "Activity at 31.48 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 31.4806003570557,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 33,
+              "name": "Activity at 62.95 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 62.9491996765137,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 34,
+              "name": "Activity at 125.9 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 125.887001037598,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 35,
+              "name": "Activity at 191.7 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 191.718002319336,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 36,
+              "name": "Activity at 383.4 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 383.436004638672,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 37,
+              "name": "Compound QC",
+              "description": [
+                "NCGC designation for data stage: 'qHTS', 'qHTS Verification', 'Secondary Profiling'"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "histone-lysine N-methyltransferase MLL [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_005924.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "menin isoform 1 [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_000235.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot Labels 1",
+              "dn": "Concentration",
+              "rn": "Response"
+            }
+          ],
+          "grant_number": [
+            "MH084875-01A1"
+          ],
+          "project_category": 2
+        }
+      }
+    }
+  ]
+}

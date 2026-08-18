@@ -1,0 +1,24 @@
+{
+  "acquired_bytes": 31553,
+  "acquired_md5": null,
+  "acquired_sha256": "a0df53fe00d7dcfcca17c46894da806b631ea61f9e6de30b8966503b68177d11",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp?all_download=yes",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "bindingdb_download_page.html",
+  "manifest_sha256": "e9cad08a7bcaa60887f0c72fa21a8819a64ad5d000943388706c353c4111696e",
+  "resolved_url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp?all_download=yes",
+  "response_headers": {
+    "content-type": "text/html;charset=UTF-8",
+    "date": "Tue, 04 Aug 2026 18:21:07 GMT",
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5",
+    "transfer-encoding": "chunked"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:10Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "bindingdb_download_page.html",
+  "upstream_md5_when_published": null
+}

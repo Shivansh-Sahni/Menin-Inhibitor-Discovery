@@ -1,0 +1,393 @@
+{
+  "applicability_domain": {
+    "definition": "Inside domain when maximum training-set Tanimoto is at least the configured 0.050 quantile of sampled training nearest-neighbor similarities.",
+    "fingerprint_backend": "rdkit_morgan",
+    "holdout_fraction_inside_domain": 0.6998011928429424,
+    "similarity_threshold": 0.2604166567325592
+  },
+  "artifact": {
+    "filename": "herg_liability_logistic_c0p3_calibrated.skops",
+    "format": "skops",
+    "path": "research/models/evaluations/temporal/herg_liability_logistic_c0p3_calibrated.skops",
+    "path_is_repository_relative": true,
+    "sha256": "e69464c6555eff3435fd8bbe75740151c937f1830be14b3329945fc50bd6bb71",
+    "skops_fallback_reason": null,
+    "trust_boundary": "Load only after reviewing skops.io.get_untrusted_types for this project-defined transformer."
+  },
+  "best_C": 0.3,
+  "calibration": {
+    "method": "none",
+    "reason": "ValueError: cross_val_predict only works for partitions"
+  },
+  "class_counts": {
+    "0": 365,
+    "1": 2412
+  },
+  "cross_validation": {
+    "cv_sha256": "738bdf6f85cd55195b30caf5ab1b7cbadb83472c5ee61dca0479f3759fc2b194",
+    "fallback_reason": null,
+    "identity_column": "structure_id",
+    "maximum_structure_overlap": 0,
+    "n_splits": 3,
+    "n_unique_structures": 2274,
+    "requested_strategy": "temporal",
+    "strategy": "temporal",
+    "time_column": "document_year"
+  },
+  "features": {
+    "backend": "rdkit_morgan",
+    "descriptor_columns": [
+      "mol_wt",
+      "exact_mol_wt",
+      "logp",
+      "tpsa",
+      "h_bond_donors",
+      "h_bond_acceptors",
+      "rotatable_bonds",
+      "ring_count",
+      "aromatic_ring_count",
+      "fraction_csp3",
+      "heavy_atom_count",
+      "formal_charge",
+      "invalid_structure"
+    ],
+    "fallback_used": false,
+    "fingerprint_bits": 2048,
+    "morgan_radius": 2
+  },
+  "interpretation": "Calibrated liability screen with explicit domain diagnostics; external and prospective hERG validation is required for decision use.",
+  "label_policy": "<=10000 nM blocker, >=30000 nM non-blocker, intermediate values omitted",
+  "menin_prediction_scope": {
+    "input_task_rows": 2104,
+    "menin_assay_family": "biochemical_binding",
+    "menin_endpoint": "IC50",
+    "unique_structures_scored": 849
+  },
+  "model": "logistic_c0p3",
+  "n_compounds": 2777,
+  "n_test": 503,
+  "n_train": 2274,
+  "negative_label": "non-blocker class under the recorded label policy",
+  "positive_label": "blocker class under the recorded label policy",
+  "provenance": {
+    "fast_mode": false,
+    "git_dirty": true,
+    "git_revision": "01210746809b7acec64c86a0e7f4b97a6fb5574f",
+    "processed_build_id": "build-6237a81ba03d0ccb",
+    "processed_dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+    "processed_manifest_sha256": "73fc2edc1043dd4d32769936fdbcd67be1fe716015b047adf7931954e338cf45",
+    "resolved_settings": {
+      "analysis": {
+        "activity_cliffs": {
+          "connectivity_minimum_delta_pactivity": 1.0,
+          "minimum_delta_pactivity": 2.0,
+          "similarity_threshold": 0.8
+        },
+        "clustering": {
+          "similarity_threshold": 0.65
+        },
+        "enabled": true,
+        "fingerprint_bits": 2048,
+        "fingerprint_radius": 2,
+        "herg_assay_family": "electrophysiology_functional",
+        "herg_endpoint": "IC50",
+        "matched_molecular_pairs": {
+          "max_variable_fraction": 0.35,
+          "max_variable_heavy_atoms": 12,
+          "min_core_heavy_atoms": 10
+        },
+        "medicinal_chemistry": {
+          "alert_catalogs": [
+            "PAINS",
+            "BRENK",
+            "NIH"
+          ],
+          "property_windows": {
+            "h_bond_acceptors": {
+              "max": 12,
+              "min": 0
+            },
+            "h_bond_donors": {
+              "max": 5,
+              "min": 0
+            },
+            "logp": {
+              "max": 6,
+              "min": -1
+            },
+            "mol_wt": {
+              "max": 650,
+              "min": 150
+            },
+            "rotatable_bonds": {
+              "max": 14,
+              "min": 0
+            },
+            "tpsa": {
+              "max": 160,
+              "min": 15
+            }
+          }
+        },
+        "menin_assay_family": "biochemical_binding",
+        "menin_endpoint": "IC50",
+        "prioritization": {
+          "high_herg_probability": 0.7,
+          "lower_herg_probability": 0.3,
+          "maximum_activity_range_log10": 1.0,
+          "maximum_property_violations": 1,
+          "potency_desirability_lower": 6.0,
+          "potency_desirability_upper": 9.0,
+          "require_no_pains": true,
+          "sensitivity": {
+            "emphasis_factor": 2.0
+          },
+          "strong_pactivity": 7.0,
+          "weights": {
+            "evidence": 0.1,
+            "herg": 0.25,
+            "potency": 0.35,
+            "property": 0.15,
+            "qed": 0.15
+          }
+        },
+        "prospective_selection": {
+          "enabled": true,
+          "maximum_per_scaffold_series": 2,
+          "quotas": {
+            "activity_cliff_confirmation": 8,
+            "liability_characterization": 8,
+            "negative_control": 6,
+            "novel_scaffold_exploration": 8,
+            "pk_bridge": 6,
+            "potent_safety_gap": 12
+          }
+        },
+        "reference_compounds": [
+          {
+            "approval_context": "KMT2A-translocated relapsed/refractory acute leukemia (2024-11-15); NPM1-mutant relapsed/refractory AML (2025-10-24)",
+            "name": "revumenib",
+            "pubchem_cid": 132212657,
+            "pubchem_inchi_key": "FRVSRBKUQZKTOW-UHFFFAOYSA-N",
+            "pubchem_isomeric_smiles": "CCN(C(C)C)C(=O)C1=C(C=CC(=C1)F)OC2=CN=CN=C2N3CC4(C3)CCN(CC4)CC5CCC(CC5)NS(=O)(=O)CC",
+            "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/132212657",
+            "regulatory_status": "FDA approved",
+            "regulatory_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-revumenib-relapsed-or-refractory-acute-myeloid-leukemia-susceptible-npm1-mutation",
+            "source_checked_at": "2026-07-14"
+          },
+          {
+            "approval_context": "NPM1-mutant relapsed/refractory AML (2025-11-13)",
+            "name": "ziftomenib",
+            "pubchem_cid": 138497449,
+            "pubchem_inchi_key": "BGGALFIXXQOTPY-NRFANRHFSA-N",
+            "pubchem_isomeric_smiles": "CC1=C(C=CC2=C1C=C(N2C[C@H](C)N3CCN(CC3)S(=O)(=O)C)C#N)CN4CCC(CC4)NC5=C6C=C(SC6=NC(=N5)NC)CC(F)(F)F",
+            "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/138497449",
+            "regulatory_status": "FDA approved",
+            "regulatory_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220305s000lbl.pdf",
+            "source_checked_at": "2026-07-14"
+          }
+        ],
+        "series_minimum_size": 3
+      },
+      "curation": {
+        "accepted_chembl_validity_comments": [
+          "",
+          "Manually validated"
+        ],
+        "canonicalize_tautomers": false,
+        "core_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "exact_policy": "strict_exact",
+        "exclude_assay_variants": true,
+        "herg_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "max_within_compound_log_spread": 2.0,
+        "menin_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "pubchem_require_menin_relevance": true,
+        "reject_potential_duplicates": true,
+        "require_rdkit": true,
+        "standardize_structures": true,
+        "strip_salts": true
+      },
+      "herg": {
+        "blocker_max_nm": 10000.0,
+        "nonblocker_min_nm": 30000.0,
+        "primary_assay_family": "electrophysiology_functional",
+        "primary_endpoint": "IC50",
+        "run_pooled_sensitivity": true
+      },
+      "modeling": {
+        "analyze_all_eligible_endpoint_assay_tasks": true,
+        "applicability_domain_quantile": 0.05,
+        "bootstrap_iterations": 500,
+        "cv_folds": 3,
+        "evaluation_splits": [
+          "scaffold",
+          "chemical",
+          "temporal",
+          "random"
+        ],
+        "feature_backend": "rdkit",
+        "fingerprint_bits": 2048,
+        "fingerprint_radius": 2,
+        "menin_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "menin_task_assay_families": {
+          "EC50": "cellular_functional",
+          "IC50": "biochemical_binding",
+          "Kd": "biochemical_binding",
+          "Ki": "biochemical_binding"
+        },
+        "min_classification_compounds": 120,
+        "min_regression_compounds": 80,
+        "primary_menin_assay_family": "biochemical_binding",
+        "primary_menin_endpoint": "IC50",
+        "primary_split": "scaffold",
+        "run_clean_label_sensitivity": true,
+        "run_cross_source_mirror_sensitivity": true,
+        "test_size": 0.2,
+        "tree_estimators": 200,
+        "uncertainty_coverage": 0.9
+      },
+      "paths": {
+        "analysis": "research/analysis",
+        "models": "research/models",
+        "processed": "research/data/processed",
+        "raw": "research/data/raw",
+        "reports": "research/reports"
+      },
+      "project": {
+        "name": "menin-discovery",
+        "random_state": 13
+      }
+    },
+    "resolved_settings_sha256": "aa98c6336b75ac567ba600cf5e77a6208edbd4e0fed2dfc68c3ad2cfdcf0e225",
+    "software_dataset_sha256": "5dea83bd0846a4f8c6e704d92845311bb4ca894bcf2ea06dcd38c0c7c8e80ee3",
+    "software_manifest_sha256": "d1c6e93bdb3804da8cce6092b2a20c4ca2bbde774f5337c624001ec3dc2a1254"
+  },
+  "risk_band_note": "0.30/0.70 risk bands are communication bands, not experimentally optimized decision thresholds.",
+  "schema_version": "2.0",
+  "split": {
+    "actual_test_fraction": 0.1811307166006482,
+    "cutoff_year": 2022,
+    "fallback_reason": null,
+    "identity_column": "structure_id",
+    "known_year_range": [
+      1997,
+      2025
+    ],
+    "n_missing_time_assigned_to_train": 0,
+    "n_rows": 2777,
+    "n_test": 503,
+    "n_train": 2274,
+    "n_unique_structures": 2777,
+    "random_state": 13,
+    "requested_strategy": "temporal",
+    "requested_test_fraction": 0.2,
+    "selection_score": 0.018869283399351816,
+    "split_sha256": "b7065ca74fefb416652412f7cc6955536f32bc1b0829f9854c89333ce99429ec",
+    "strategy": "temporal",
+    "structure_identity_overlap": 0,
+    "time_basis": "earliest known year per structure",
+    "time_column": "document_year"
+  },
+  "status": "trained",
+  "task": {
+    "assay_family": "electrophysiology_functional",
+    "conflict_policy": "exclude structures with both blocker and non-blocker labels",
+    "endpoint": "IC50",
+    "identity_column": "structure_id",
+    "input_rows": 11549,
+    "label_policy": "<=10000 nM blocker, >=30000 nM non-blocker, intermediate values omitted",
+    "labeled_rows_after_endpoint_assay_filter": 2777,
+    "n_conflicting_structures_excluded": 0,
+    "n_resolved_structures": 2777,
+    "n_structures": 2777
+  },
+  "test_balanced_accuracy": 0.5512820512820513,
+  "test_metric_bootstrap_95_ci": {
+    "balanced_accuracy": {
+      "lower_95": 0.48932379883203975,
+      "n_successful_resamples": 500,
+      "upper_95": 0.6159248368924573
+    },
+    "brier_score": {
+      "lower_95": 0.17282611865700911,
+      "n_successful_resamples": 500,
+      "upper_95": 0.24223009944797316
+    },
+    "f1": {
+      "lower_95": 0.7561848878539037,
+      "n_successful_resamples": 500,
+      "upper_95": 0.8466094840796867
+    },
+    "n_resampling_groups": 315,
+    "pr_auc": {
+      "lower_95": 0.8573014415311578,
+      "n_successful_resamples": 500,
+      "upper_95": 0.9328992561543316
+    },
+    "resampling_unit": "chemical_scaffold_group",
+    "roc_auc": {
+      "lower_95": 0.5642597043186949,
+      "n_successful_resamples": 500,
+      "upper_95": 0.7184883220013727
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.6938369781312127,
+    "balanced_accuracy": 0.5512820512820513,
+    "brier_score": 0.20637259636258198,
+    "confusion_matrix": {
+      "fn": 96,
+      "fp": 58,
+      "tn": 29,
+      "tp": 320
+    },
+    "expected_calibration_error_10bin": 0.17780934887543484,
+    "f1": 0.8060453400503779,
+    "log_loss": 0.6797061542693204,
+    "matthews_correlation": 0.08976370493796137,
+    "pr_auc": 0.896344002613755,
+    "precision": 0.8465608465608465,
+    "roc_auc": 0.6412466843501328,
+    "sensitivity": 0.7692307692307693,
+    "specificity": 0.3333333333333333,
+    "threshold": 0.5
+  },
+  "test_roc_auc": 0.6412466843501328,
+  "uncalibrated_selected_model_test_metrics": {
+    "accuracy": 0.6938369781312127,
+    "balanced_accuracy": 0.5512820512820513,
+    "brier_score": 0.20637259636258198,
+    "confusion_matrix": {
+      "fn": 96,
+      "fp": 58,
+      "tn": 29,
+      "tp": 320
+    },
+    "expected_calibration_error_10bin": 0.17780934887543484,
+    "f1": 0.8060453400503779,
+    "log_loss": 0.6797061542693204,
+    "matthews_correlation": 0.08976370493796137,
+    "pr_auc": 0.896344002613755,
+    "precision": 0.8465608465608465,
+    "roc_auc": 0.6412466843501328,
+    "sensitivity": 0.7692307692307693,
+    "specificity": 0.3333333333333333,
+    "threshold": 0.5
+  }
+}

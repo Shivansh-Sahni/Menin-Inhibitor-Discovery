@@ -1,0 +1,26 @@
+{
+  "acquired_bytes": 7592090,
+  "acquired_md5": null,
+  "acquired_sha256": "375c9a62861145258e13038c200b730dab7ee3ef978c0fa644ed857a1683bd1c",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.bindingdb.org/rwd/bind/BindingDBTargetSequences.fasta",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "BindingDBTargetSequences.fasta",
+  "manifest_sha256": "f93f235e78a6ee036adceb1df26d13a5ec36132b642011c546a0356874945f51",
+  "resolved_url": "https://www.bindingdb.org/rwd/bind/BindingDBTargetSequences.fasta",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "content-length": "7592090",
+    "date": "Tue, 04 Aug 2026 18:21:21 GMT",
+    "etag": "W/\"7592090-1777619194892\"",
+    "last-modified": "Fri, 01 May 2026 07:06:34 GMT",
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:24Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "BindingDBTargetSequences.fasta",
+  "upstream_md5_when_published": null
+}

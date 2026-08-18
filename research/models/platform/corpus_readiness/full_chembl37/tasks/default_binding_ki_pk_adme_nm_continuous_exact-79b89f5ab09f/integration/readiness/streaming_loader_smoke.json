@@ -1,0 +1,146 @@
+{
+  "batch_shapes": [
+    {
+      "label_lower_bound": [
+        8
+      ],
+      "label_mask": [
+        8
+      ],
+      "label_relations": [
+        8
+      ],
+      "label_texts": [
+        8
+      ],
+      "label_upper_bound": [
+        8
+      ],
+      "labels": [
+        8
+      ],
+      "outcome_kinds": [
+        8
+      ],
+      "protein_attention_mask": [
+        8,
+        544
+      ],
+      "protein_input_ids": [
+        8,
+        544
+      ],
+      "protein_present_mask": [
+        8
+      ],
+      "record_ids": [
+        8
+      ],
+      "smiles_attention_mask": [
+        8,
+        384
+      ],
+      "smiles_input_ids": [
+        8,
+        384
+      ],
+      "smiles_present_mask": [
+        8
+      ],
+      "task_ids": [
+        8
+      ],
+      "text_attention_mask": [
+        8,
+        8
+      ],
+      "text_input_ids": [
+        8,
+        8
+      ],
+      "text_present_mask": [
+        8
+      ]
+    },
+    {
+      "label_lower_bound": [
+        2
+      ],
+      "label_mask": [
+        2
+      ],
+      "label_relations": [
+        2
+      ],
+      "label_texts": [
+        2
+      ],
+      "label_upper_bound": [
+        2
+      ],
+      "labels": [
+        2
+      ],
+      "outcome_kinds": [
+        2
+      ],
+      "protein_attention_mask": [
+        2,
+        544
+      ],
+      "protein_input_ids": [
+        2,
+        544
+      ],
+      "protein_present_mask": [
+        2
+      ],
+      "record_ids": [
+        2
+      ],
+      "smiles_attention_mask": [
+        2,
+        112
+      ],
+      "smiles_input_ids": [
+        2,
+        112
+      ],
+      "smiles_present_mask": [
+        2
+      ],
+      "task_ids": [
+        2
+      ],
+      "text_attention_mask": [
+        2,
+        8
+      ],
+      "text_input_ids": [
+        2,
+        8
+      ],
+      "text_present_mask": [
+        2
+      ]
+    }
+  ],
+  "batches": 2,
+  "collator_config": {
+    "include_graph": false,
+    "max_protein_tokens": 544,
+    "max_smiles_tokens": 384,
+    "max_text_tokens": 8,
+    "pad_to_multiple_of": 8,
+    "truncation_policy": "error"
+  },
+  "collator_config_sha256": "b955046d5c3c6dee1dce6a1cb2e27fda3d280489614d30dd32a3f8fc936ce5c4",
+  "examples_seen": 10,
+  "limit_policy": "training_maximum_plus_special_tokens_rounded_to_8_for_smoke_only",
+  "maximum_examples_guard": 32,
+  "performance_evidence": false,
+  "smoke_only": true,
+  "status": "passed",
+  "streaming": true,
+  "substantive_training_started": false
+}

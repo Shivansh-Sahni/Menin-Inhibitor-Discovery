@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "Q12809_KCNH2_HUMAN.fasta": {
+      "bytes": 1245,
+      "path": "Q12809_KCNH2_HUMAN.fasta",
+      "sha256": "b359441668c52c8455bad414f854cea7f132448098ea4abacc6d43c84179357d"
+    },
+    "wt_kcnh2_reference.json": {
+      "bytes": 2332,
+      "path": "wt_kcnh2_reference.json",
+      "sha256": "a807770f55ce17b81bb0f6a7c79902040e9e450ff203a2b05a45938a91d09594"
+    }
+  },
+  "counts": {
+    "amino_acids": 1159,
+    "reference_sequences": 1
+  },
+  "inputs": [
+    {
+      "bytes": 6264489,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/uniprotkb_targeted_2026_02/pages/page_000089.json",
+      "sha256": "afb38d9c14510a2940a4f5ab4d0cfef064ed3be92fff7a0f3463e75e608d5a41"
+    },
+    {
+      "bytes": 6868,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/external_public/uniprotkb_targeted_2026_02/pages/page_000089.manifest.json",
+      "sha256": "18f61a4b628597745d9ef65508d710c163cb6b37e7c8c403b6d6656605086e67"
+    }
+  ],
+  "manifest_sha256": "502b70e765237b615ba3f622eabf284f7321e95d8d7234dc84b7c0fb7874807d",
+  "reference": {
+    "entry_name": "KCNH2_HUMAN",
+    "mutants_admitted": 0,
+    "primary_accession": "Q12809",
+    "sequence_sha256": "287332153da38b59cc1be9554cc3a29f14d3b9e2a33150b4d54137773b22d1f7",
+    "taxonomy_id": 9606
+  },
+  "schema_version": "platform-herg-wt-reference/1.0",
+  "scientific_contract": {
+    "canonical_sequence_frozen": true,
+    "docking_enabled": false,
+    "protein_features_computed": false,
+    "receptor_selected": false
+  }
+}

@@ -1,0 +1,5 @@
+feature_family,resolved_column,n_records,n_present,fraction_present,status
+molecule,standardized_smiles,4639,4639,1.0,available
+protein_sequence,protein_sequence,4639,4639,1.0,available
+protein_id,protein_id,4639,4639,1.0,available
+assay_text,,4639,0,0.0,column_unavailable

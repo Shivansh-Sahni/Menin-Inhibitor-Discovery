@@ -1,0 +1,233 @@
+schema_version: protein-molecule-platform-config-1.0
+
+project:
+  name: protein-molecule-evidence-platform
+  root: .
+  random_seed: 20260804
+  substantive_large_model_training_authorized: false
+
+paths:
+  raw: research/data/platform/raw
+  interim: research/data/platform/interim
+  canonical: research/data/platform/canonical
+  quality: research/data/platform/qc
+  features: research/data/platform/features
+  splits: research/data/platform/splits
+  model_ready: research/data/platform/model_ready
+  models: research/models/platform
+  reports: research/reports/platform
+
+release:
+  public_only: true
+  allowed_access_classes:
+    - public_redistributable
+  prohibited_input_roots:
+    - research/data/internal
+    - research/data/pk_herg
+    - research/data/platform/raw/restricted
+    - research/data/platform/raw/local_legacy/bindingdb
+    - research/data/platform/raw/local_legacy/pubchem
+    - research/data/platform/raw/sun_2026
+  code_license_status: requires_human_review
+  third_party_data_policy: preserve_source_terms_and_row_lineage
+
+sources:
+  bounded_chembl_panel:
+    enabled: true
+    source_version: ChEMBL_37
+    page_size: 40
+    max_records_per_target_endpoint: 120
+    sampling_role: connector_schema_qc_fixture_not_population_sample
+  full_chembl_bulk:
+    connector_enabled: true
+    acquisition_status: official_archive_size_and_sha256_verified
+    extraction_status: sqlite_extracted_hashed_and_integrity_checked
+    source_version: ChEMBL_37
+    expected_archive_bytes: 5764252857
+    expected_archive_sha256: 33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281
+    export_chunk_size: 200000
+  rights_pending_sources:
+    admit_to_public_build: false
+    names:
+      - BindingDB_targeted_exports
+      - PubChem_contributor_mixed_snapshot
+      - Sun_Wang_Shen_supplement
+
+evidence:
+  allowed_training_observation_kinds:
+    - experimental_raw
+    - experimental_summary
+    - curated_assertion
+  prediction_as_label: prohibited
+  derived_labels:
+    default_enabled: false
+    require_lineage_digest: true
+  endpoint_pooling: prohibited
+  missing_clinical_evidence_implies_preclinical: false
+
+tasks:
+  model_input_contract:
+    current_default_task_modality: molecule_plus_protein
+    required_fields:
+      - standardized_smiles
+      - standard_inchi_key
+      - protein_sequence
+    missing_input_policy: retain_source_observation_and_lineage_but_materialize_reasoned_task_exclusion
+    ligand_only_default_tasks: []
+  binding_and_potency:
+    endpoints:
+      - Kd
+      - Ki
+      - IC50
+      - EC50
+    keep_endpoints_separate: true
+    canonical_concentration_unit: nM
+    exact_view_relations:
+      - "="
+    approximate_view_relations:
+      - "~"
+    censored_view_relations:
+      - "<"
+      - "<="
+      - ">"
+      - ">="
+      - interval
+  binding_free_energy:
+    enabled: true
+    eligible_source_endpoints:
+      - Kd
+    required_relation: "="
+    standard_state_molar: 1.0
+    reference_temperature_kelvin: 298.15
+    missing_temperature_policy: derived_approximation_with_explicit_flag
+    prohibit_ic50_ec50_conversion: true
+  herg:
+    keep_assay_families_separate: true
+    continuous_activity_scope:
+      endpoint: IC50
+      assay_family: herg_functional
+      admitted_relations:
+        - "="
+        - "<"
+        - "<="
+        - ">"
+        - ">="
+        - interval
+      exact_label_kind: continuous_exact
+      censored_label_kind: continuous_censored
+    classification_task_scope:
+      endpoint: IC50
+      assay_family: herg_functional
+      admitted_relations:
+        - "="
+      label_kind: categorical
+      exact_values_only: true
+    blocker_max_nm: 10000.0
+    nonblocker_min_nm: 30000.0
+    intermediate_exact_value_policy: excluded_from_classifier_retained_in_continuous_task
+    threshold_crossing_or_censored_interval_policy: excluded_from_classifier_retained_in_censored_task
+    clinical_cardiotoxicity_claim: prohibited
+  pk_adme:
+    context_required_by_family:
+      in_vitro_adme:
+        - biological_system
+        - species
+        - method
+        - concentration
+        - concentration_unit
+        - matrix
+        - analyte
+        - statistic_type
+      in_vivo_or_clinical_pk:
+        - species
+        - strain_or_population
+        - matrix
+        - route
+        - dose
+        - dose_unit
+        - formulation
+        - regimen
+        - analyte
+        - sampling_schedule_or_adequacy
+        - fed_fasted_status_when_relevant
+        - statistic_type
+    incomplete_context_policy: inventory_or_quarantine
+  qt_qtc_apd:
+    source_view: explicit_endpoint_inventory
+    infer_from_herg: false
+    default_task_eligible: false
+  clinical:
+    registry_is_result: false
+    enabled_for_training: false
+
+features:
+  default_families:
+    - standardized_smiles
+    - molecular_graph
+    - morgan_fingerprint
+    - rdkit_descriptors
+    - protein_sequence
+  free_text_default_enabled: false
+  learned_embeddings_precomputed: false
+  fit_preprocessors_on: train_only
+  truncation_policy: error
+  max_smiles_tokens: 256
+  max_protein_tokens: 1024
+  max_text_tokens: 256
+
+splits:
+  seed: 20260804
+  fractions:
+    train: 0.70
+    validation: 0.15
+    test: 0.15
+  official_manifests_are_immutable: true
+  strategies:
+    - molecule_grouped
+    - scaffold
+    - chemical_cluster
+    - temporal
+    - source_holdout
+    - protein_holdout
+    - target_holdout
+    - double_cold
+  temporal_unknown_date_policy: excluded_unknown_date
+  near_duplicate_tanimoto: 0.80
+  near_duplicate_sequence_kmer_jaccard: 0.80
+  near_duplicate_sequence_role: screening_candidate_generation_only
+  scale_claim_requires_exact_alignment_verification: true
+
+diagnostic_baselines:
+  enabled: true
+  hyperparameter_sweep: false
+  tree_estimators: 100
+  tree_max_depth: 12
+  tree_min_samples_leaf: 2
+  interpretation: diagnostic_pipeline_validation_only
+  controls:
+    - single_training_label_permutation
+    - identifier_text_hash
+
+pretraining_interface:
+  serialization: canonical_jsonl_utf8_v1
+  public_access_class: public_redistributable
+  vocabulary_fit_partition: train
+  substantive_training_authorized: false
+  loader_smoke_max_examples: 32
+  tiny_training_smoke_max_steps: 2
+  tiny_training_smoke_max_parameters: 100000
+  checkpoint_resume_policy: exact_contract_only
+  external_models_are_frozen_evaluation_candidates:
+    - Chai-1
+    - Boltz-2
+    - Nesso-1
+
+readiness:
+  require_full_tests: true
+  require_ruff: true
+  require_mypy: true
+  require_deterministic_double_build: true
+  require_public_dependency_scan: true
+  require_manifest_verification: true
+  require_human_license_approval_for_public_release: true
+  require_exact_model_checkpoint_and_license_before_training: true

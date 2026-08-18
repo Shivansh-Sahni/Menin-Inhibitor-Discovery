@@ -1,0 +1,526 @@
+{
+  "schema_version": "platform_literature_source_bibliography_v1",
+  "review_title": "Comprehensive literature and model decision review",
+  "access_date": "2026-08-05",
+  "evidence_policy": "Primary papers, official repositories/model cards, regulator guidance, official database documentation, and source licenses only.",
+  "limitations": [
+    "This is a decision-focused rapid review, not a registered PRISMA systematic review.",
+    "No multi-gigabyte checkpoint or large dataset was downloaded and no model benchmark was reproduced.",
+    "A moving repository main branch is marked unpinned unless an official release was discoverable.",
+    "License summaries are research-planning notes and are not legal advice."
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "Generalized biomolecular modeling and design with RoseTTAFold All-Atom",
+      "source_type": "peer_reviewed_primary_paper",
+      "publication_or_version": "Science 384, eadl2528 (2024)",
+      "doi": "10.1126/science.adl2528",
+      "url": "https://doi.org/10.1126/science.adl2528",
+      "accessed": "2026-08-05",
+      "supports": ["RFAA scope", "121800 protein-small-molecule structures", "training clustering", "meeting-reference identification"]
+    },
+    {
+      "source_id": "S02",
+      "title": "RoseTTAFold-All-Atom official repository",
+      "source_type": "official_repository",
+      "publication_or_version": "main branch; exact commit not exposed by reviewed page",
+      "url": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom",
+      "accessed": "2026-08-05",
+      "supports": ["inputs and outputs", "weight availability", "GPU and database setup", "known limitations"]
+    },
+    {
+      "source_id": "S03",
+      "title": "RoseTTAFold-All-Atom license",
+      "source_type": "official_license",
+      "publication_or_version": "BSD license, copyright 2024 University of Washington",
+      "url": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom/blob/main/LICENSE",
+      "accessed": "2026-08-05",
+      "license": "BSD; text explicitly covers source code and model weights referenced in README",
+      "supports": ["code and weight redistribution decision"]
+    },
+    {
+      "source_id": "S04",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "source_type": "peer_reviewed_primary_paper",
+      "publication_or_version": "Nature 630, 493-500 (2024)",
+      "doi": "10.1038/s41586-024-07487-w",
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "accessed": "2026-08-05",
+      "supports": ["AlphaFold 3 scope", "2021 structural cutoff", "2019 PoseBusters cutoff", "training and evaluation design"]
+    },
+    {
+      "source_id": "S05",
+      "title": "AlphaFold 3 official repository and model-parameter terms",
+      "source_type": "official_repository_and_license",
+      "publication_or_version": "v3.0.2; weights terms last modified 2024-11-09",
+      "url": "https://github.com/google-deepmind/alphafold3",
+      "terms_url": "https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md",
+      "accessed": "2026-08-05",
+      "license": "Apache-2.0 inference source; separate gated noncommercial model-parameter/output terms",
+      "supports": ["release version", "hardware boundary", "noncommercial restriction", "redistribution restriction", "downstream structure-model training restriction"]
+    },
+    {
+      "source_id": "S06",
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "source_type": "peer_reviewed_primary_paper",
+      "publication_or_version": "Nature 596, 583-589 (2021)",
+      "doi": "10.1038/s41586-021-03819-2",
+      "url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "accessed": "2026-08-05",
+      "supports": ["AlphaFold 2 historical alternative for the remembered structure count"]
+    },
+    {
+      "source_id": "S07",
+      "title": "Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction",
+      "source_type": "primary_preprint",
+      "publication_or_version": "bioRxiv v1, posted 2025-06-18",
+      "doi": "10.1101/2025.06.14.659707",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1",
+      "accessed": "2026-08-05",
+      "license": "CC BY 4.0 preprint",
+      "supports": ["joint structure and affinity model", "reported FEP comparison", "open weights/code claim", "affinity-data curation caveats"]
+    },
+    {
+      "source_id": "S08",
+      "title": "Boltz official repository and prediction documentation",
+      "source_type": "official_repository",
+      "publication_or_version": "v2.2.1, released 2025-09-08",
+      "url": "https://github.com/jwohlwend/boltz",
+      "documentation_url": "https://github.com/jwohlwend/boltz/blob/main/docs/prediction.md",
+      "accessed": "2026-08-05",
+      "license": "MIT for code and weights",
+      "supports": ["checkpoint availability", "inputs and affinity outputs", "sampling defaults", "CPU/GPU/TPU options", "evaluation/training-code status"]
+    },
+    {
+      "source_id": "S09",
+      "title": "Chai-1 official repository",
+      "source_type": "official_repository_and_model_card",
+      "publication_or_version": "v0.6.1, released 2025-03-18",
+      "url": "https://github.com/chaidiscovery/chai-lab",
+      "accessed": "2026-08-05",
+      "license": "Apache 2.0 for code and model weights",
+      "supports": ["inputs", "weights", "restrained inference", "hardware recommendations", "version and license"]
+    },
+    {
+      "source_id": "S10",
+      "title": "Protenix official repository and supported-model registry",
+      "source_type": "official_repository_and_model_card",
+      "publication_or_version": "v2.0.0 / protenix-v2, released 2026-04-08",
+      "url": "https://github.com/bytedance/Protenix",
+      "model_registry_url": "https://github.com/bytedance/Protenix/blob/main/docs/supported_models.md",
+      "accessed": "2026-08-05",
+      "license": "Apache 2.0 for code and model parameters",
+      "supports": ["model versions", "parameter counts", "2021-09-30 and 2025-06-30 cutoffs", "training/inference availability"]
+    },
+    {
+      "source_id": "S11",
+      "title": "OpenFold3-preview official repository",
+      "source_type": "official_repository_and_model_card",
+      "publication_or_version": "v0.4.1, released 2026-04-09",
+      "url": "https://github.com/aqlaboratory/openfold-3",
+      "accessed": "2026-08-05",
+      "license": "Apache 2.0",
+      "supports": ["research-preview status", "weights and training code", "training-data route", "supported modalities"]
+    },
+    {
+      "source_id": "S12",
+      "title": "State-specific protein-ligand complex structure prediction with a multiscale deep generative model",
+      "source_type": "peer_reviewed_primary_paper_and_official_repository",
+      "publication_or_version": "Nature Machine Intelligence 6, 195-208 (2024); publication checkpoint",
+      "doi": "10.1038/s42256-024-00792-z",
+      "url": "https://www.nature.com/articles/s42256-024-00792-z",
+      "repository_url": "https://github.com/zrqiao/NeuralPLexer",
+      "checkpoint_url": "https://doi.org/10.5281/zenodo.10373581",
+      "accessed": "2026-08-05",
+      "license": "Published checkpoints and evaluation artifacts CC BY-NC-SA 4.0",
+      "supports": ["NeuralPLexer architecture", "inputs and outputs", "checkpoint availability and terms"]
+    },
+    {
+      "source_id": "S13",
+      "title": "DiffDock official repository",
+      "source_type": "official_repository_with_primary_paper_links",
+      "publication_or_version": "v1.1.3, released 2024-09-04",
+      "url": "https://github.com/gcorso/DiffDock",
+      "paper_url": "https://arxiv.org/abs/2210.01776",
+      "accessed": "2026-08-05",
+      "license": "MIT for code and weights",
+      "supports": ["pose-generation scope", "version", "weights", "ESM-2 dependency", "license"]
+    },
+    {
+      "source_id": "S14",
+      "title": "Evaluating generalization in protein-ligand cofolding methods",
+      "source_type": "peer_reviewed_primary_benchmark_paper",
+      "publication_or_version": "Nature Structural & Molecular Biology 33, 782-794 (2026), version of record 2026-05-08",
+      "doi": "10.1038/s41594-026-01797-5",
+      "url": "https://www.nature.com/articles/s41594-026-01797-5",
+      "data_url": "https://doi.org/10.5281/zenodo.14794785",
+      "code_url": "https://github.com/plinder-org/runs-n-poses",
+      "accessed": "2026-08-05",
+      "supports": ["2600-system post-cutoff benchmark", "memorization finding", "training-similarity stratification", "benchmark artifact availability"]
+    },
+    {
+      "source_id": "S15",
+      "title": "PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences",
+      "source_type": "peer_reviewed_primary_benchmark_paper",
+      "publication_or_version": "Chemical Science 15, 3130-3139 (2024)",
+      "doi": "10.1039/D3SC04185A",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d3sc04185a",
+      "accessed": "2026-08-05",
+      "license": "CC BY 3.0 article",
+      "supports": ["chemical and physical validity checks", "low-sequence-identity generalization warning", "RMSD insufficiency"]
+    },
+    {
+      "source_id": "S15A",
+      "title": "Data splitting to avoid information leakage with DataSAIL",
+      "source_type": "peer_reviewed_primary_methods_paper",
+      "publication_or_version": "Nature Communications 16, 3337 (2025)",
+      "doi": "10.1038/s41467-025-58606-8",
+      "url": "https://www.nature.com/articles/s41467-025-58606-8",
+      "accessed": "2026-08-05",
+      "supports": ["similarity-aware splits", "two-dimensional drug-target splitting", "leakage minimization"]
+    },
+    {
+      "source_id": "S16",
+      "title": "PLINDER: the protein-ligand interactions dataset and evaluation resource",
+      "source_type": "primary_dataset_paper_and_official_repository",
+      "publication_or_version": "2024-06/v2 current release documented by repository",
+      "url": "https://github.com/plinder-org/plinder",
+      "paper_url": "https://openreview.net/pdf?id=7UvbaTrNbP",
+      "accessed": "2026-08-05",
+      "license": "Component-aware: curated data and source-derived annotations carry Apache/CC BY/CC BY-SA notices documented in repository",
+      "supports": ["more than 400000 systems", "similarity metadata", "split design", "known affinity parsing bug", "component licensing"]
+    },
+    {
+      "source_id": "S17",
+      "title": "MoleculeNet: a benchmark for molecular machine learning",
+      "source_type": "peer_reviewed_primary_benchmark_paper",
+      "publication_or_version": "Chemical Science 9, 513-530 (2018)",
+      "doi": "10.1039/C7SC02664A",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a",
+      "accessed": "2026-08-05",
+      "supports": ["molecular benchmark design", "scaffold splitting baseline"]
+    },
+    {
+      "source_id": "S18",
+      "title": "Evolutionary Scale Modeling official ESM repository",
+      "source_type": "official_repository",
+      "publication_or_version": "archived repository; ESM-2 model family",
+      "url": "https://github.com/facebookresearch/esm",
+      "accessed": "2026-08-05",
+      "license": "MIT",
+      "supports": ["ESM-2 checkpoint family", "archival status", "protein embedding workflow"]
+    },
+    {
+      "source_id": "S19",
+      "title": "facebook/esm2_t33_650M_UR50D official model card",
+      "source_type": "official_model_card",
+      "publication_or_version": "650M checkpoint; floating Hub name unless revision pinned",
+      "url": "https://huggingface.co/facebook/esm2_t33_650M_UR50D",
+      "accessed": "2026-08-05",
+      "license": "MIT",
+      "supports": ["model size", "checkpoint variants", "download and inference interface"]
+    },
+    {
+      "source_id": "S20",
+      "title": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+      "source_type": "peer_reviewed_primary_paper_and_official_repository",
+      "publication_or_version": "IEEE TPAMI 44, 7112-7127 (2022)",
+      "doi": "10.1109/TPAMI.2021.3095381",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34232869/",
+      "repository_url": "https://github.com/agemagician/ProtTrans",
+      "accessed": "2026-08-05",
+      "license": "Official repository states pretrained models use Academic Free License v3.0",
+      "supports": ["ProtT5 embeddings", "checkpoint availability", "license decision"]
+    },
+    {
+      "source_id": "S21",
+      "title": "Uni-Mol official repository",
+      "source_type": "official_repository_and_model_card",
+      "publication_or_version": "original v0.1 checkpoints; Uni-Mol2 weights announced 2024-10-10",
+      "url": "https://github.com/deepmodeling/Uni-Mol",
+      "accessed": "2026-08-05",
+      "license": "MIT",
+      "supports": ["weights", "209M conformations", "3M pockets", "Uni-Mol2 800M conformations and 1.1B parameters", "compute example"]
+    },
+    {
+      "source_id": "S22",
+      "title": "Uni-Mol: A Universal 3D Molecular Representation Learning Framework",
+      "source_type": "peer_reviewed_primary_conference_paper",
+      "publication_or_version": "ICLR 2023",
+      "url": "https://openreview.net/forum?id=6K2RM6wVqKu",
+      "accessed": "2026-08-05",
+      "supports": ["3D molecular and pocket pretraining", "downstream representation scope"]
+    },
+    {
+      "source_id": "S23",
+      "title": "MoLFormer official repository",
+      "source_type": "official_repository",
+      "publication_or_version": "main branch; exact checkpoint revision not exposed by reviewed page",
+      "url": "https://github.com/IBM/molformer",
+      "accessed": "2026-08-05",
+      "supports": ["pretraining on more than 1.1B PubChem/ZINC molecules", "checkpoint and data workflow", "artifact-term uncertainty"]
+    },
+    {
+      "source_id": "S24",
+      "title": "Large-scale chemical language representations capture molecular structure and properties",
+      "source_type": "peer_reviewed_primary_paper",
+      "publication_or_version": "Nature Machine Intelligence 4 (2022)",
+      "doi": "10.1038/s42256-022-00580-7",
+      "url": "https://www.nature.com/articles/s42256-022-00580-7",
+      "accessed": "2026-08-05",
+      "supports": ["MoLFormer method", "pretraining scale", "property-representation scope"]
+    },
+    {
+      "source_id": "S25",
+      "title": "Chemprop official repository",
+      "source_type": "official_repository",
+      "publication_or_version": "v2.2.3, released 2026-03-26",
+      "url": "https://github.com/chemprop/chemprop",
+      "accessed": "2026-08-05",
+      "license": "MIT",
+      "supports": ["D-MPNN baseline", "current release", "fixed split support", "training and uncertainty features"]
+    },
+    {
+      "source_id": "S26",
+      "title": "Contrastive learning in protein language space predicts interactions between drugs and protein targets",
+      "source_type": "peer_reviewed_primary_paper_and_official_repository",
+      "publication_or_version": "PNAS 120, e2220778120 (2023); ConPLex_v1_BindingDB checkpoint",
+      "doi": "10.1073/pnas.2220778120",
+      "url": "https://doi.org/10.1073/pnas.2220778120",
+      "repository_url": "https://github.com/samsledje/ConPLex",
+      "accessed": "2026-08-05",
+      "license": "MIT repository",
+      "supports": ["sequence plus SMILES input", "interaction output", "BindingDB checkpoint", "large-screening design"]
+    },
+    {
+      "source_id": "S27",
+      "title": "Chai-1: Decoding the molecular interactions of life",
+      "source_type": "primary_technical_report_preprint",
+      "publication_or_version": "bioRxiv 2024",
+      "doi": "10.1101/2024.10.10.615955",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.10.10.615955",
+      "technical_report_url": "https://chaiassets.com/chai-1/paper/technical_report_v1.pdf",
+      "accessed": "2026-08-05",
+      "supports": ["Chai architecture", "features", "training cutoff and evaluation details"]
+    },
+    {
+      "source_id": "S28",
+      "title": "HERGAI: an artificial intelligence tool for structure-based prediction of hERG inhibitors",
+      "source_type": "peer_reviewed_primary_paper_and_official_repository",
+      "publication_or_version": "Journal of Cheminformatics 17, 110 (2025); repository data updated 2025-01 and archived 2026-01-01",
+      "doi": "10.1186/s13321-025-01063-8",
+      "url": "https://doi.org/10.1186/s13321-025-01063-8",
+      "repository_url": "https://github.com/vktrannguyen/HERGAI",
+      "accessed": "2026-08-05",
+      "license": "MIT repository",
+      "supports": ["hERG corpus sizes", "model inputs and output", "open code/data", "archived status", "overlap warning"]
+    },
+    {
+      "source_id": "S29",
+      "title": "E14 and S7B Clinical and Nonclinical Evaluation of QT/QTc Interval Prolongation and Proarrhythmic Potential: Questions and Answers",
+      "source_type": "official_regulatory_guidance",
+      "publication_or_version": "FDA final guidance, August 2022; ICH adopted 2022-02-21",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e14-and-s7b-clinical-and-nonclinical-evaluation-qtqtc-interval-prolongation-and-proarrhythmic",
+      "ich_url": "https://database.ich.org/sites/default/files/E14-S7B_QAs_Step4_2022_0221.pdf",
+      "accessed": "2026-08-05",
+      "supports": ["hERG best-practice context", "integrated QT risk assessment", "clinical/nonclinical distinction"]
+    },
+    {
+      "source_id": "S30",
+      "title": "Developing a Mechanistic Model-Based Approach to Assess Cardiac Safety of New Drugs",
+      "source_type": "official_regulator_science_page",
+      "publication_or_version": "FDA CiPA overview",
+      "url": "https://www.fda.gov/science-research/about-science-research-fda/developing-mechanistic-model-based-approach-assess-cardiac-safety-new-drugs",
+      "data_format_url": "https://www.fda.gov/media/130504/download?attachment=",
+      "accessed": "2026-08-05",
+      "supports": ["four-component CiPA framework", "multi-ion-channel and clinical integration", "open ion-channel format"]
+    },
+    {
+      "source_id": "S31",
+      "title": "hERGCentral: a large database to store, retrieve, and analyze compound-human ether-a-go-go related gene channel interactions",
+      "source_type": "peer_reviewed_primary_database_paper",
+      "publication_or_version": "Assay and Drug Development Technologies 9, 580-588 (2011)",
+      "doi": "10.1089/adt.2011.0425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22149888/",
+      "accessed": "2026-08-05",
+      "supports": ["more than 300000 electrophysiology-screened compounds", "assay provenance", "historical data-source scale"]
+    },
+    {
+      "source_id": "S32",
+      "title": "Construction of an integrated database for hERG blocking small molecules",
+      "source_type": "peer_reviewed_primary_database_paper",
+      "publication_or_version": "PLOS ONE 13, e0199348 (2018)",
+      "doi": "10.1371/journal.pone.0199348",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6034787/",
+      "accessed": "2026-08-05",
+      "supports": ["hERG source integration", "hERGCentral site availability warning", "assay-type heterogeneity", "post-standardization counts"]
+    },
+    {
+      "source_id": "S33",
+      "title": "PubChem AID 588834: qHTS assay for small-molecule inhibitors of the human hERG channel",
+      "source_type": "official_database_record",
+      "publication_or_version": "PubChem BioAssay live record",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/bioassay/588834",
+      "accessed": "2026-08-05",
+      "supports": ["source-specific public hERG assay candidate"]
+    },
+    {
+      "source_id": "S34",
+      "title": "Therapeutics Data Commons ADMET Benchmark Group",
+      "source_type": "official_benchmark_documentation",
+      "publication_or_version": "TDC documentation accessed 2026-08-05; current docs identify TDC 0.4.1 metadata",
+      "url": "https://tdcommons.ai/benchmark/admet_group/overview/",
+      "metadata_url": "https://tdc.readthedocs.io/en/latest/_modules/tdc/metadata.html",
+      "accessed": "2026-08-05",
+      "supports": ["22 ADMET endpoints", "hERG size 648", "scaffold split", "half-life/clearance/Vdss endpoint availability"]
+    },
+    {
+      "source_id": "S35",
+      "title": "BindingDB in 2024: a FAIR knowledgebase of protein-small molecule binding data",
+      "source_type": "peer_reviewed_primary_database_paper",
+      "publication_or_version": "Nucleic Acids Research 53, D1633-D1644 (2025 issue; online 2024)",
+      "doi": "10.1093/nar/gkae1075",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701568/",
+      "accessed": "2026-08-05",
+      "supports": ["BindingDB scope and license posture", "PDBbind redistribution prohibition", "binding endpoint semantics"]
+    },
+    {
+      "source_id": "S36",
+      "title": "QT Database v1.0.0",
+      "source_type": "official_dataset_page",
+      "publication_or_version": "v1.0.0, published 1999-11-16",
+      "doi": "10.13026/C24K53",
+      "url": "https://www.physionet.org/content/qtdb/1.0.0/",
+      "accessed": "2026-08-05",
+      "license": "Open Data Commons Attribution License v1.0",
+      "supports": ["105 ECG records", "waveform annotations", "QT algorithm use boundary"]
+    },
+    {
+      "source_id": "S37",
+      "title": "ChEMBL assay/activity documentation and ChEMBL 37 release",
+      "source_type": "official_database_documentation",
+      "publication_or_version": "ChEMBL 37",
+      "url": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions",
+      "release_notes_url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_release_notes.txt",
+      "accessed": "2026-08-05",
+      "license": "Official records expose ChEMBL Creative Commons attribution/share-alike terms",
+      "supports": ["pChEMBL definition", "assay confidence", "endpoint types", "release pinning", "license"]
+    },
+    {
+      "source_id": "S38",
+      "title": "PubChem download, provenance, and data-submission policies",
+      "source_type": "official_database_policy",
+      "publication_or_version": "live policy pages accessed 2026-08-05",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/docs/downloads",
+      "submission_policy_url": "https://pubchem.ncbi.nlm.nih.gov/docs/data-submission-policy",
+      "ncbi_policy_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "accessed": "2026-08-05",
+      "license": "NCBI imposes no blanket molecular-data restriction but cannot transfer contributor rights; source-specific terms may apply",
+      "supports": ["depositor-level provenance", "source-specific licensing", "bulk-download caveats"]
+    },
+    {
+      "source_id": "S39",
+      "title": "RCSB PDB usage policies",
+      "source_type": "official_database_policy",
+      "publication_or_version": "live policy accessed 2026-08-05",
+      "url": "https://www2.rcsb.org/pages/usage-policy",
+      "accessed": "2026-08-05",
+      "license": "RCSB PDB data and programmatic API data available under CC0; software has separate open-source licenses",
+      "supports": ["PDB data reuse", "API licensing", "provenance requirements"]
+    },
+    {
+      "source_id": "S40",
+      "title": "IUPAC Gold Book: standard equilibrium constant",
+      "source_type": "official_terminology_standard",
+      "publication_or_version": "IUPAC Compendium of Chemical Terminology, 5th ed. online term S05915",
+      "doi": "10.1351/goldbook.S05915",
+      "url": "https://goldbook.iupac.org/terms/view/S05915",
+      "accessed": "2026-08-05",
+      "supports": ["relationship between standard Gibbs energy and dimensionless equilibrium constant", "Kd-derived free-energy policy"]
+    },
+    {
+      "source_id": "S41",
+      "title": "ClinicalTrials.gov API and study data structure",
+      "source_type": "official_government_api_documentation",
+      "publication_or_version": "API v2 documentation accessed 2026-08-05",
+      "url": "https://clinicaltrials.gov/data-api/about-api",
+      "download_url": "https://clinicaltrials.gov/data-api/how-download-study-records",
+      "schema_url": "https://clinicaltrials.gov/data-api/about-api/study-data-structure",
+      "terms_url": "https://clinicaltrials.gov/about-site/terms-conditions",
+      "accessed": "2026-08-05",
+      "supports": ["clinical trial acquisition interface", "field schema", "terms boundary", "result-versus-absence interpretation"]
+    },
+    {
+      "source_id": "S42",
+      "title": "DailyMed RESTful web services",
+      "source_type": "official_government_api_documentation",
+      "publication_or_version": "REST API v2",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+      "accessed": "2026-08-05",
+      "supports": ["current and historical SPL retrieval", "SETID/version provenance", "label extraction interface"]
+    },
+    {
+      "source_id": "S43",
+      "title": "PK-DB: pharmacokinetics database for individualized and stratified computational modeling",
+      "source_type": "peer_reviewed_primary_database_paper",
+      "publication_or_version": "Nucleic Acids Research 49, D1358-D1364 (2021)",
+      "doi": "10.1093/nar/gkaa990",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7779054/",
+      "accessed": "2026-08-05",
+      "license": "PK-DB software stack LGPL-3.0; per-study access can vary",
+      "supports": ["PK schema", "time courses and derived parameters", "unit validation", "public/private study caveat", "REST access"]
+    },
+    {
+      "source_id": "S44",
+      "title": "PK-DB REST API",
+      "source_type": "official_database_api_documentation",
+      "publication_or_version": "API v1",
+      "url": "https://pk-db.com/api/v1/swagger/",
+      "accessed": "2026-08-05",
+      "license": "API page states LGPLv3 for software; data rights require study-level review",
+      "supports": ["study/group/individual/intervention/output/time-course schema", "download interface"]
+    },
+    {
+      "source_id": "S45",
+      "title": "UniProt license and disclaimer",
+      "source_type": "official_database_license",
+      "publication_or_version": "page last modified 2024-12-18",
+      "url": "https://www.uniprot.org/help/license",
+      "accessed": "2026-08-05",
+      "license": "CC BY 4.0 for copyrightable database components; patents and other rights may still apply",
+      "supports": ["protein data redistribution decision", "attribution and third-party rights caveat"]
+    },
+    {
+      "source_id": "S46",
+      "title": "RDKit: open-source cheminformatics",
+      "source_type": "official_software_project",
+      "publication_or_version": "project version must be pinned by the platform environment",
+      "url": "https://www.rdkit.org/",
+      "repository_url": "https://github.com/rdkit/rdkit",
+      "accessed": "2026-08-05",
+      "license": "BSD-3-Clause",
+      "supports": ["deterministic molecular standardization and fingerprint baseline tooling"]
+    },
+    {
+      "source_id": "S47",
+      "title": "Extended-connectivity fingerprints",
+      "source_type": "peer_reviewed_primary_methods_paper",
+      "publication_or_version": "Journal of Chemical Information and Modeling 50, 742-754 (2010)",
+      "doi": "10.1021/ci100050t",
+      "url": "https://doi.org/10.1021/ci100050t",
+      "accessed": "2026-08-05",
+      "supports": ["ECFP molecular representation and analog-similarity baseline"]
+    },
+    {
+      "source_id": "S48",
+      "title": "The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods",
+      "source_type": "peer_reviewed_primary_database_paper",
+      "publication_or_version": "Nucleic Acids Research 52, D1180-D1192 (2024)",
+      "doi": "10.1093/nar/gkad1004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37933841/",
+      "accessed": "2026-08-05",
+      "supports": ["ChEMBL curation scope", "FAIR/open data context", "multiple bioactivity data types"]
+    }
+  ]
+}

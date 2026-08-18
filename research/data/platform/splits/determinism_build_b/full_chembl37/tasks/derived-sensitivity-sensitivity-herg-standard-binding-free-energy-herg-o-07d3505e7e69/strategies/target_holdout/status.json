@@ -1,0 +1,22 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [
+      "fewer_than_three_unique_target_entities"
+    ],
+    "supported": false
+  },
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "mandatory_candidate": false,
+  "reasons": [
+    "fewer_than_three_unique_target_entities"
+  ],
+  "seed_search_performed": false,
+  "split_materialized": false,
+  "status": "skipped_inapplicable",
+  "strategy": "target_holdout",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

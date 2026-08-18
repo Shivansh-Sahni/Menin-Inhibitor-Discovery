@@ -1,0 +1,26 @@
+{
+  "acquired_bytes": 175633,
+  "acquired_md5": null,
+  "acquired_sha256": "31d2120be5384c2c22bed089191bfeeef675e3960da9432509b564e666b12398",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://clinicaltrials.gov/api/v2/studies/metadata",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "studies_metadata.json",
+  "manifest_sha256": "6b6350b7667bada6401586e4f69c380b117168e735549cce6ed218aba971425b",
+  "resolved_url": "https://clinicaltrials.gov/api/v2/studies/metadata",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Tue, 04 Aug 2026 18:24:52 GMT",
+    "etag": "\"4/0.34.1/msefgh6w\"",
+    "server": "istio-envoy",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:24:56Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "studies_metadata.json",
+  "upstream_md5_when_published": null
+}

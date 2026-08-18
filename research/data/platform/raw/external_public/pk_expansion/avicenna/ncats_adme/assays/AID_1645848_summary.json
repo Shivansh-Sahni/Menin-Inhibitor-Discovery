@@ -1,0 +1,58 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 1645848,
+        "SourceName": "NCGC",
+        "SourceID": "ADME-solubility1",
+        "Name": "NCATS Kinetic Aqueous Solubility Profiling",
+        "Description": [
+          "Assay submitter (PI): Pranav Shah Ph.D.",
+          "NIH Center for Advancing Translational Sciences, 9800 Medical Center Dr, Rockville MD, 20850",
+          "",
+          "Aqueous solubility is one of the most important properties in drug discovery, as it has profound impact on various drug properties, including biological activity, pharmacokinetics (PK), toxicity, and in vivo efficacy. Both kinetic and thermodynamic solubilities are determined during different stages of drug discovery and development. Since kinetic solubility is more relevant in preclinical drug discovery research, especially during the structure optimization process, we have developed predictive models for kinetic solubility with in-house data generated from 11,780 compounds collected from over 200 NCATS intramural research projects. This represents one of the largest kinetic solubility datasets of high quality and integrity. Based on the customized atom type descriptors, the support vector classification (SVC) models were trained on 80% of the whole dataset, and exhibited high predictive performance for estimating the solubility of the remaining 20% compounds within the test set. The values of the area under the receiver operating characteristic curve (AUC-ROC) for the compounds in the test sets reached 0.93 and 0.91, when the threshold for insoluble compounds was set to 10 and 50 mug/mL respectively. The predictive models of aqueous solubility can be used to identify insoluble compounds in drug discovery pipeline, provide design ideas for improving solubility by analyzing the atom types associated with poor solubility and prioritize compound libraries to be purchased or synthesized (1).",
+          "",
+          "Reference:",
+          "1. Sun H, Shah P, Nguyen K, Yu KR, Kerns E, Kabir M, Wang Y, Xu X. Predictive models of aqueous solubility of organic compounds built on A large dataset of high integrity. Bioorg Med Chem. 2019 Jul 15;27(14):3110-3114. doi: 10.1016/j.bmc.2019.05.037. Epub 2019 May 27. PMID: 31176566."
+        ],
+        "Protocol": [
+          "Kinetic Aqueous Solubility Assay: ",
+          "",
+          "Pion's patented microSOL assay was used for kinetic solubility determination. In this assay, the classical saturation shake-flask solubility method was adapted as previously described by Avdeef et al., 2001. Test compounds were prepared in 10 mM DMSO stock and diluted to a final drug concentration of 150 microM in the aqueous solution (pH 7.4, 100 mM phosphate buffer). Samples were incubated at room temperature for 6 h and vacuum-filtered using Tecan Te-Vac to remove any precipitates. The concentration of the compound in the filtrate was measured via UV absorbance (lambda: 250-498 nm). The filtrate drug concentration was determined by comparing the fully solubilized reference plate which contained 17 microM of compound dissolved in spectroscopically pure n-propanol. All compounds were tested in duplicates. The kinetic solubility (microg/mL) of compounds was calculated using the microSOL Evolution software. The three experimental controls used were albendazole (low solubility), phenazopyridine (moderate solubility) and furosemide (high solubility) (1).",
+          "",
+          "Reference: ",
+          "1. Avdeef A. Absorption and Drug Development, Solubility, Permeability and Charge State. Hoboken: John Wiley & Sons; 2001."
+        ],
+        "Comment": [
+          "Compound Ranking:",
+          "",
+          "1. Compounds are classified into different phenotypes according to the solubility observed. (A) Low: 0 - 10 ug / mL solubility; (B) Moderate / High:  > 10 - 100 ug/ mL solubility. (C) N/A: solubility is not determined due to various reasons including precipitation from buffer, non-specific binding, etc.",
+          "2. Active compounds are compounds with Moderate / High phenotype (class = 0). Inactive compounds are those belonging to the Low category (class = 1). ",
+          "3. PUBCHEM_ACTIVITY_SCORE is the whole number in Solubility (microg/mL) of the compound."
+        ],
+        "NumberOfTIDs": 3,
+        "HasScore": true,
+        "Method": "screening",
+        "Version": 2,
+        "Revision": 1,
+        "LastDataChange": {
+          "Year": 2023,
+          "Month": 2,
+          "Day": 3
+        },
+        "SIDCountAll": 2532,
+        "SIDCountActive": 1056,
+        "SIDCountInactive": 1400,
+        "SIDCountInconclusive": 76,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 2530,
+        "CIDCountActive": 1055,
+        "CIDCountInactive": 1400,
+        "CIDCountInconclusive": 76,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

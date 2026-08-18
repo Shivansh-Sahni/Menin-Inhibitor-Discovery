@@ -1,0 +1,85 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 189,
+    "maximum_observed_example_batch_recursive_bytes": 633397,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 437555
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "other_bioactivity",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "Kd",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_censored",
+      "label_unit": "nM",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 360,
+      "task_id": "TASK-1B148EB4AA206DC14BAAAE7C",
+      "task_type": "default__binding__kd__other_bioactivity__nm__continuous_censored"
+    }
+  },
+  "build_config_sha256": "18ece3460fdea163e13a3e782bd2af674282f2fa96f705001df1153353d77787",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 360
+  },
+  "partition_counts": {
+    "test": 49,
+    "train": 263,
+    "validation": 48
+  },
+  "physical_partition_manifest_file_sha256": "7822cf5496fcc8d731d9a10ca1584733aec35d35647f2b9f370842546602a238",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "c7c82b0f160919529ef299977e80a24c911e8949fa150f8c559710703534af34",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_binding_kd_other_bioactivity_nm_continuous_censored/part-00007.parquet",
+        "rows": 125,
+        "sha256": "909ea45e14d8f64a257f8e9b9d0352ae1f8cac89db43ba06861ecacf4fc3d889"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_kd_other_bioactivity_nm_continuous_censored/part-00008.parquet",
+        "rows": 17,
+        "sha256": "4933f9aea20be5a5345d300918b22345a266884474af76fc595fe6d4913ed89e"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_kd_other_bioactivity_nm_continuous_censored/part-00009.parquet",
+        "rows": 29,
+        "sha256": "16f2c3de7d415b17adc208c0eb62c5a046f78c05a3e2cf98e77eb390fb9e62e1"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_kd_other_bioactivity_nm_continuous_censored/part-00010.parquet",
+        "rows": 189,
+        "sha256": "31c06d2756d6d634292e5c537c1f7b329b100df7e969e36de1e342fc9149dfb6"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 360
+  },
+  "source_dataset_sha256": "c7c82b0f160919529ef299977e80a24c911e8949fa150f8c559710703534af34",
+  "split_manifest_sha256": "6d952f77a5f4bbb22cf9deb76e94d8af43cea664cc2ed4438729736e609259d1",
+  "split_sidecar_sha256": "80738fdcd49482d837c43f9309edf355b510ca7f5ef35e30dd4e0e7705439bb4",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "797af01b815744c4b5a187c8c5965c3d50062f80c7e8d6d16209b9e08882b53d",
+    "record_count": 360,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "15654eceb5242ceba1f250c29457b08858ce2db931532a618d6e332fc9123a70",
+    "sha256": "198bc69c873d263d1041812c6861c5b5c7ba04e4ac0f4e4e0268ad713896ece2"
+  }
+}

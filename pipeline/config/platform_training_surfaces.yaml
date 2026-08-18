@@ -1,0 +1,95 @@
+schema_version: platform-training-surfaces/1.0
+status: trainable_data_surfaces_prepared_features_and_models_pending
+as_of: 2026-08-09
+
+canonical_releases:
+  herg:
+    manifest: research/data/platform/processed/herg_hierarchy/v1_6_training_surfaces/herg_training_surfaces_manifest.json
+    role: wild_type_hERG_reporting_and_quality_hierarchy
+  pk_adme:
+    manifest: research/data/platform/processed/pk_adme/v1_0_trainable_surfaces/artifact_manifest.json
+    summary: research/data/platform/processed/pk_adme/v1_0_trainable_surfaces/release_summary.json
+    role: endpoint_specific_pk_adme_modeling_surfaces
+  affinity:
+    manifest: research/data/platform/processed/affinity_training/v1_0_chembl37_bindingdb202608/affinity_training_manifest.json
+    role: target_conditioned_kd_ki_ic50_and_auxiliary_ec50
+  multimodal:
+    manifest: research/data/platform/processed/multimodal/v1_0_adjacent_training_surfaces/adjacent_training_manifest.json
+    role: cell_context_viability_and_expression_pretraining_surfaces
+
+scale_policy:
+  broad_family_minimum_observations: 100000
+  desired_family_scale: millions_where_physically_supported
+  do_not_inflate_by:
+    - counting_documents_as_measurements
+    - summing_known_source_mirrors
+    - expanding_metadata_positions_into_unscanned_numeric_labels
+    - pooling_incompatible_endpoints_or_units
+    - promoting_context_or_candidates_into_labels
+
+task_boundaries:
+  herg:
+    protein_scope: human_wild_type_KCNH2_Q12809
+    mutant_policy: quarantine
+    broad_training: assay_aware_fixed_dose_or_native_numeric
+    nested_quality_axes:
+      - reporting_level
+      - preclinical_status
+      - functional_measurement
+      - standardized_quantitative_pIC50
+      - automated_vs_manual_measurement
+      - clinical_QT_context_not_a_hERG_label
+  pk_adme:
+    train_one_task_or_reviewed_multitask_objective: true
+    required_conditioning_when_available: [species, matrix, route, dose, time]
+    clinical_origin_PK_is_allowed_and_flagged: true
+    clinical_outcome_QT_hERG_safety_labels_created: false
+  affinity:
+    molecule_and_protein_required: true
+    primary_endpoints: [Kd, Ki, IC50]
+    auxiliary_endpoints: [EC50]
+    endpoint_pooling_without_review: false
+    sequence_and_target_identity_required_for_general_model: true
+  multimodal:
+    prism_viability_and_lincs_expression_are_separate_objectives: true
+    lincs_positions_are_metadata_derived_not_scanned_finite_labels: true
+
+product_contract:
+  primary_inputs: [molecule_structure, protein_sequence_or_structure, requested_task]
+  optional_context: [assay_protocol, species, matrix, route, dose, time, cell_line]
+  planned_outputs:
+    - endpoint_specific_prediction
+    - uncertainty_and_applicability_domain
+    - nearest_training_analogs_and_provenance
+    - reporting_quality_and_measurement_context
+    - optimization_candidates_with_constraints
+  development_sequence:
+    - data_and_split_freeze
+    - non_HPC_baselines_and_competitor_reproduction
+    - HPC_feature_generation
+    - molecular_and_protein_representation_training
+    - physics_and_structure_increment_ablation
+    - calibrated_multitask_inference
+    - prospective_or_external_validation
+    - researcher_facing_software
+
+feature_boundary:
+  contract: research/reports/platform/herg_paper/pre_hpc_contracts/future_feature_contract.json
+  production_feature_store_generated: false
+  hpc_feature_generation_pending: true
+  assay_covariates_stored_outside_structure_feature_store: true
+  future_families:
+    - fundamental_2d
+    - fingerprints_and_substructures
+    - molecular_graphs_and_smiles_pretraining
+    - protein_sequence_and_structure_embeddings
+    - conformers_protomers_and_3d_fields
+    - docking_and_interaction_features
+    - physics_energy_and_dynamics_features
+
+execution:
+  substantive_training_started: false
+  hpc_executed: false
+  current_authorization: data_preparation_validation_and_lightweight_diagnostics_only
+  superiority_established: data_scale_provenance_quality_hierarchy_and_evaluation_design_only
+  predictive_superiority_requires_frozen_external_or_challenge_evaluation: true

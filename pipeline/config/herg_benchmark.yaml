@@ -1,0 +1,175 @@
+run:
+  random_state: 13
+  blocker_max_um: 10.0
+  nonblocker_min_um: 30.0
+  confidential_priority_weight: 5.0
+
+profiles:
+  smoke:
+    cv_folds: 2
+    cv_repeats: 1
+    split_strategy: scaffold
+    production_ensemble_size: 2
+    feature_sets:
+      - rdkit_2d_descriptors
+    model_families:
+      - dummy
+      - logistic
+      - random_forest
+  quick:
+    cv_folds: 3
+    cv_repeats: 1
+    split_strategy: stratified
+    production_ensemble_size: 3
+    feature_sets:
+      - rdkit_2d_descriptors
+      - morgan_1024_r2
+      - morgan_1024_plus_rdkit
+    model_families:
+      - dummy
+      - logistic
+      - random_forest
+      - svm
+      - knn
+      - xgboost
+      - lightgbm
+      - clustering
+      - rnn
+  strong_ml:
+    cv_folds: 5
+    cv_repeats: 3
+    split_strategy: stratified
+    production_ensemble_size: 5
+    feature_sets:
+      - rdkit_2d_descriptors
+      - morgan_1024_r2
+      - morgan_1024_plus_rdkit
+    model_families:
+      - logistic
+      - random_forest
+      - extra_trees
+      - svm
+      - xgboost
+      - lightgbm
+  full:
+    cv_folds: 5
+    cv_repeats: 3
+    split_strategy: scaffold
+    production_ensemble_size: 5
+    feature_sets:
+      - rdkit_2d_descriptors
+      - maccs_167
+      - morgan_1024_r2
+      - morgan_2048_r2
+      - morgan_1024_plus_rdkit
+      - morgan_2048_plus_rdkit
+    model_families:
+      - dummy
+      - logistic
+      - random_forest
+      - svm
+      - knn
+      - xgboost
+      - lightgbm
+      - clustering
+      - rnn
+
+models:
+  dummy:
+    feature_sets: [rdkit_2d_descriptors]
+    grid:
+      strategy: [prior]
+  logistic:
+    quick_grid:
+      - C: [0.1]
+      - C: [10.0]
+    strong_ml_grid:
+      - C: [0.03]
+      - C: [0.3]
+      - C: [3.0]
+    full_grid:
+      C: [0.03, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0]
+  random_forest:
+    quick_grid:
+      - {n_estimators: [200], max_depth: [4], min_samples_leaf: [3], max_features: [sqrt]}
+      - {n_estimators: [600], max_depth: [null], min_samples_leaf: [1], max_features: [sqrt]}
+    strong_ml_grid:
+      - {n_estimators: [300], max_depth: [5], min_samples_leaf: [3], max_features: [sqrt]}
+      - {n_estimators: [800], max_depth: [10], min_samples_leaf: [2], max_features: [0.3]}
+      - {n_estimators: [1200], max_depth: [null], min_samples_leaf: [1], max_features: [sqrt]}
+    full_grid:
+      n_estimators: [200, 600]
+      max_depth: [4, 8, null]
+      min_samples_leaf: [1, 3, 6]
+      max_features: [sqrt, 0.3]
+  extra_trees:
+    strong_ml_grid:
+      - {n_estimators: [300], max_depth: [5], min_samples_leaf: [3], max_features: [sqrt]}
+      - {n_estimators: [800], max_depth: [10], min_samples_leaf: [2], max_features: [0.3]}
+      - {n_estimators: [1200], max_depth: [null], min_samples_leaf: [1], max_features: [sqrt]}
+  svm:
+    quick_grid:
+      - {C: [0.5], kernel: [linear], gamma: [scale]}
+      - {C: [5.0], kernel: [rbf], gamma: [scale]}
+    strong_ml_grid:
+      - {C: [0.1], kernel: [linear], gamma: [scale]}
+      - {C: [1.0], kernel: [linear], gamma: [scale]}
+      - {C: [3.0], kernel: [rbf], gamma: [scale]}
+    full_grid:
+      C: [0.1, 0.5, 1.0, 5.0, 20.0]
+      kernel: [linear, rbf]
+      gamma: [scale, 0.01]
+  knn:
+    quick_grid:
+      - {n_neighbors: [25], weights: [uniform], metric: [cosine]}
+      - {n_neighbors: [5], weights: [distance], metric: [cosine]}
+    full_grid:
+      n_neighbors: [3, 5, 9, 15, 25, 41]
+      weights: [uniform, distance]
+      metric: [cosine, euclidean]
+  xgboost:
+    quick_grid:
+      - {n_estimators: [150], max_depth: [3], learning_rate: [0.08], min_child_weight: [3]}
+      - {n_estimators: [450], max_depth: [6], learning_rate: [0.04], min_child_weight: [1]}
+    strong_ml_grid:
+      - {n_estimators: [300], max_depth: [2], learning_rate: [0.05], min_child_weight: [5]}
+      - {n_estimators: [500], max_depth: [3], learning_rate: [0.03], min_child_weight: [3]}
+      - {n_estimators: [800], max_depth: [4], learning_rate: [0.02], min_child_weight: [1]}
+    full_grid:
+      n_estimators: [150, 300, 600]
+      max_depth: [2, 4, 6]
+      learning_rate: [0.03, 0.08, 0.15]
+      min_child_weight: [1, 3, 8]
+      subsample: [0.75, 1.0]
+      colsample_bytree: [0.6, 0.9]
+  lightgbm:
+    quick_grid:
+      - {n_estimators: [150], max_depth: [4], num_leaves: [15], learning_rate: [0.08]}
+      - {n_estimators: [450], max_depth: [-1], num_leaves: [63], learning_rate: [0.04]}
+    strong_ml_grid:
+      - {n_estimators: [300], max_depth: [4], num_leaves: [15], learning_rate: [0.05], min_child_samples: [20]}
+      - {n_estimators: [500], max_depth: [8], num_leaves: [31], learning_rate: [0.03], min_child_samples: [10]}
+      - {n_estimators: [800], max_depth: [-1], num_leaves: [63], learning_rate: [0.02], min_child_samples: [5]}
+    full_grid:
+      n_estimators: [150, 300, 600]
+      max_depth: [4, 8, -1]
+      num_leaves: [15, 31, 63]
+      learning_rate: [0.03, 0.08, 0.15]
+      min_child_samples: [5, 15, 30]
+      subsample: [0.75, 1.0]
+      colsample_bytree: [0.6, 0.9]
+  clustering:
+    quick_grid:
+      - {n_clusters: [6], svd_components: [16], C: [0.5]}
+      - {n_clusters: [18], svd_components: [48], C: [5.0]}
+    full_grid:
+      n_clusters: [4, 6, 10, 18, 30]
+      svd_components: [12, 24, 48, 96]
+      C: [0.1, 1.0, 10.0]
+  rnn:
+    quick_grid:
+      - {cell: [gru], embedding_dim: [8], hidden_dim: [16], layers: [1], epochs: [3], learning_rate: [0.003], batch_size: [128]}
+      - {cell: [gru], embedding_dim: [16], hidden_dim: [32], layers: [2], dropout: [0.2], epochs: [6], learning_rate: [0.002], batch_size: [128]}
+    full_grid:
+      - {cell: [gru], embedding_dim: [16, 32], hidden_dim: [32, 64], layers: [1], epochs: [12, 24], learning_rate: [0.001, 0.003]}
+      - {cell: [lstm], embedding_dim: [32, 64], hidden_dim: [64, 128], layers: [1, 2], dropout: [0.0, 0.2], epochs: [12, 24], learning_rate: [0.001, 0.003]}

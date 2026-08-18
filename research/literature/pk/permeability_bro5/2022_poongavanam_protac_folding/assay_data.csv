@@ -1,0 +1,5 @@
+PROTAC ,SMILES,Solubility (mg/L),"Solubility, SEM (mg/L)","BRD4 (BD1), IC50 (nM)","BRD4 (BD1), IC50 SEM (nM)","BRD4 (BD2), IC50 (nM)","BRD4 (BD2), IC50 SEM (nM)","CRBN (cell), IC50 (uM)","CRBN (cell), IC50 SEM (uM)","CRBN (bio), IC50 (uM)","CRBN (bio), IC50 SEM (uM)","CRBN, Ratio cell/bio","PAMPA (-LogPe, cm/s)","PAMPA, SEM (-LogPe, cm/s)",Caco2 AB (nm/s),"Caco2 AB, SEM (nm/s)",Caco-2 BA (nm/s),"Caco-2 BA, SEM (nm/s)",ER,"ER, SEM",Ppassive (nm/s),"Ppassive, SEM (nm/s)"
+1,O=C(C(N1C(C2=CC=CC(NCCOCCOCCOCCC(N(CC3)CCN3C(C=C4)=CC=C4C5=NN(C(NC)=O)[C@@H](C)CC6=CC(OC)=C(OC)C=C65)=O)=C2C1=O)=O)CC7)NC7=O,56.1,13.3,37.8,4.6,188,11.5,0.924,0.119,0.244,0.0282,3.8,6.56,0.04,2.58,0.40,370,99.7,165,72.3,29.6,1.47
+2,O=C(C(N1C(C2=CC=CC(NC(COCCOCC(N(CC3)CCN3C(C=C4)=CC=C4C5=NN(C(NC)=O)[C@@H](C)CC6=CC(OC)=C(OC)C=C65)=O)=O)=C2C1=O)=O)CC7)NC7=O,31.3,11.6,9.95,0.35,108,4.50,16.9,1.41,1.41,0.207,12,,,1.28,0.24,96.5,2.50,78.1,13.5,11.1,1.23
+3,O=C(C(N1C(C2=CC=CC(OCC(NCCCCC(N(CC3)CCN3C(C=C4)=CC=C4C5=NN(C(NC)=O)[C@@H](C)CC6=CC(OC)=C(OC)C=C65)=O)=O)=C2C1=O)=O)CC7)NC7=O,62.6,2.66,33.7,1.58,118,41.1,18.0,0.207,0.667,0.0659,27,>7.37,,1.03,0.31,42.1,7.00,47.8,15,6.46,1.43
+,,,,,,,,,,,,,,,,,,,,,,

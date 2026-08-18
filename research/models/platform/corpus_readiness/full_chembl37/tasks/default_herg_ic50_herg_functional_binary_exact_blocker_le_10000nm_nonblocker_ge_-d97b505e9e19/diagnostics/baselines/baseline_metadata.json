@@ -1,0 +1,71 @@
+{
+  "config": {
+    "class_imbalance": "balanced_class_weight",
+    "classification_threshold": 0.5,
+    "include_tree_baseline": false,
+    "logistic_c": 1.0,
+    "ridge_alpha": 1.0,
+    "seed": 20260804,
+    "task_type": "classification",
+    "tree_estimators": 100,
+    "tree_max_depth": 12,
+    "tree_min_samples_leaf": 2
+  },
+  "dataset_sha256": "aa7ea17cff7a07a92aba2e4b158e5d80e012dadb4286dd7187f3120da15babef",
+  "diagnostic_config": {
+    "binary_label_mapping": [],
+    "fingerprint_bits": 2048,
+    "fingerprint_radius": 2,
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "seed": 20260804
+  },
+  "diagnostic_config_sha256": "960a20e403c02ea6ef7e4147cddddd71534a1b4f0b833a7ca5c7057fd2f36f35",
+  "evaluation_outcome_kind_counts": {
+    "experimental_summary": 14
+  },
+  "feature_artifact_sha256": "499f0e3b780238df289b2efdee979a6c8a7aba5b8b1b8787af8993c910a9784f",
+  "feature_bundle_sha256": "499f0e3b780238df289b2efdee979a6c8a7aba5b8b1b8787af8993c910a9784f",
+  "feature_manifest_file_sha256": "3cc2aa7b2f17d22dbaba3216aed34445f6084212d1474fc7f3def21e81bc8dfe",
+  "feature_set": "capped_rdkit_morgan_r2_2048",
+  "hyperparameter_sweep_performed": false,
+  "integration_acceptance_sha256": "81869940a70047c0bdb3eb2ac758e0609b376d284efc2b4d230a8cdd6a4ef5bf",
+  "interpretation": "lightweight_diagnostic_not_scientific_or_prospective_evidence",
+  "large_model_training_started": false,
+  "model_artifacts": {
+    "dummy_prior.joblib": "b24683ac6f0041bb21c3eaad064050bec4b204b76ed9c844ec5c96f3e9a78a8b",
+    "logistic_fixed.joblib": "49234967b376b6fdda2009222d7334814f8eeb2b1af342b416528073cf245bbc"
+  },
+  "model_selection_performed": false,
+  "n_evaluation": 14,
+  "n_features": 2048,
+  "n_train": 93,
+  "opened_partitions": [
+    "train",
+    "validation"
+  ],
+  "preprocessing": {
+    "imputation": "training_fitted_median_with_missing_indicators",
+    "linear_scaling": "training_fitted_standard_scaler_without_centering",
+    "tree_scaling": "none"
+  },
+  "preprocessing_sha256": "d2cc0dcc640d337ee4289a23657daf930890fc5bf45b808b43ccc6c319777a94",
+  "schema_version": "capped_diagnostic_baseline_metadata_v1",
+  "sparse_input": true,
+  "split_manifest_sha256": "f808da0e95ac8bf40a7f90891a3a42773387e38bdd267c8992dc3f5791420e6c",
+  "split_name": "molecule_hash_stream_v1",
+  "substantive_training_started": false,
+  "target": {
+    "binary_label_mapping": {
+      "0": 0,
+      "1": 1
+    },
+    "label_encoding": "explicit_numeric_identity_0_1",
+    "task_family": "classification"
+  },
+  "task_id": "TASK-9EF0A903755F8DBA39DDDDC2",
+  "test_partition_opened": false,
+  "training_outcome_kind_counts": {
+    "experimental_summary": 93
+  }
+}

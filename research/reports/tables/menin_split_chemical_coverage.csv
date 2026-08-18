@@ -1,0 +1,3 @@
+requested_split_strategy,actual_split_strategy,split,scaffold_grouping_method,rows,structures,scaffolds
+scaffold,scaffold,test,bemis_murcko,169,169,51
+scaffold,scaffold,train,bemis_murcko,680,680,201

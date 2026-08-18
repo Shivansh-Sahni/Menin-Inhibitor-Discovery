@@ -1,0 +1,15 @@
+criterion,satisfied,evidence_or_action
+Defined biological endpoint,True,Primary tasks are IC50 × biochemical_binding and scoped hERG IC50 × electrophysiology_functional.
+Unambiguous RDKit algorithm,True,Both trained primary manifests must record RDKit Morgan features and selected algorithms.
+Complete requested holdouts,True,Every configured split must train and must not silently fall back.
+Applicability domain,True,Both primary tasks record nearest-neighbor domain policy and coverage.
+Uncertainty,True,Primary Menin metrics include scaffold-group bootstrap intervals and conformal prediction intervals.
+Build-linked provenance,False,"Processed, model, and report manifests plus model provenance must share a content build."
+Upstream manifest verification,True,"Raw, processed, software, and model inputs must verify before report generation; the final report bundle is verified as the release's last step."
+Data quality audit,True,The analysis-eligible quality gate must pass; source-inventory exclusions remain reported.
+Environment lock,True,The frozen environment lock must be included in the verified software manifest.
+Chemical-intelligence decision trace,True,"Primary-task properties, series, cliffs, evidence gaps, Pareto fronts, and applicability-aware tiers must be content-linked."
+Clean source revision,False,A publication release must be rebuilt from a clean committed revision.
+Independent external validation,False,No independent Menin or hERG external test set has been reserved.
+Prospective experimental validation,False,Requires new lab measurements after model lock.
+Authorship and licensing approval,False,Requires explicit project-owner and Wang-lab decisions.

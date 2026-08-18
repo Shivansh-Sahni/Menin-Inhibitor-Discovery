@@ -1,0 +1,35 @@
+{
+  "lockbox_policy": "training receives train; model selection receives train+validation; test remains physically separate",
+  "partition_counts": {
+    "test": 8609,
+    "train": 39756,
+    "validation": 8636
+  },
+  "partitions": {
+    "test": {
+      "path": "test.jsonl",
+      "record_count": 8609,
+      "sha256": "4c02a4739ae6817cd4e5b2de9fe5ad7e315a087e6eac24abc30a889be59a5fdd",
+      "size_bytes": 18169134
+    },
+    "train": {
+      "path": "train.jsonl",
+      "record_count": 39756,
+      "sha256": "588fdf9c09b1223fbc27dd8d20a9212ce7a23dd43d703e879e1f2ce9322b43f7",
+      "size_bytes": 83835905
+    },
+    "validation": {
+      "path": "validation.jsonl",
+      "record_count": 8636,
+      "sha256": "365154f424c94ae62a0e5b17e2962eb55649b7e88ed7ef4aeea4d36afb8da9be",
+      "size_bytes": 18133237
+    }
+  },
+  "schema_version": "physical_model_ready_partitions_v1",
+  "substantive_training_started": false,
+  "transient_combined_source": {
+    "record_count": 57001,
+    "retained_in_final_bundle": false,
+    "sha256": "4d0a3f868de6b8c7643790d31e94a44a83a31b2672ff4e49a4c0f700fd3e57ae"
+  }
+}

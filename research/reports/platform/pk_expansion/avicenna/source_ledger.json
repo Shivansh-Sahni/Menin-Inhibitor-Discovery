@@ -1,0 +1,196 @@
+{
+  "admission_totals": {
+    "canonical_rows": 0,
+    "training_labels": 0
+  },
+  "generated_at_utc": "2026-08-06T19:04:30Z",
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "scope": "Credential-free, CPU-feasible public PK/ADME acquisition and census; no canonical/training mutation.",
+  "sources": [
+    {
+      "canonical_rows": 0,
+      "context": "All 27 tables lack explicit route, dose, and unit columns. The three PK benchmark sets are useful but not context-complete systemic-PK observations.",
+      "official_url": "https://tdcommons.ai/single_pred_tasks/overview/",
+      "physical_table_rows": 112841,
+      "raw_path": "research/data/platform/raw/external_public/pk_expansion/avicenna/tdc_adme",
+      "rights": "conditional: TDC code is MIT, but TDC instructs users to verify each underlying dataset licence; raw benchmark files are not admitted canonically",
+      "source_id": "tdc_adme_harvard_dataverse",
+      "status": "acquired_raw_not_admitted",
+      "systemic_pk_quantity_benchmark_rows": 2437,
+      "upstream_adme_benchmark_rows": 110404,
+      "version": "c310c35f27e3f506411018ac43d97b8ba23ca652"
+    },
+    {
+      "canonical_rows": 0,
+      "context": "Assay protocol carries biological context; tables do not establish in-vivo species/route/matrix/dose PK context.",
+      "official_url": "https://opendata.ncats.nih.gov/public/adme/data/public_datasets/",
+      "physical_table_rows": 23994,
+      "raw_path": "research/data/platform/raw/external_public/pk_expansion/avicenna/ncats_adme",
+      "rights": "Public NCATS/PubChem source; retain depositor, assay, and NCBI provenance and complete source-specific rights review before redistribution.",
+      "source_id": "ncats_opendata_pubchem_adme",
+      "status": "acquired_raw_not_admitted",
+      "systemic_pk_quantity_benchmark_rows": 0,
+      "upstream_adme_assay_rows": 23994,
+      "version": "8 frozen PubChem AIDs acquired 2026-08-06"
+    },
+    {
+      "canonical_rows": 0,
+      "context": "File-row count includes paired X/y tables, raw/train/test overlap, and compound/well-level overlap; it is not a unique-compound or unique-observation count.",
+      "official_url": "https://openadmet.org/datasetsmodels/",
+      "physical_table_rows": 139770,
+      "raw_path": "research/data/platform/raw/external_public/pk_expansion/avicenna/openadmet",
+      "rights": {
+        "expansionrx_dataset": "CC-BY-4.0",
+        "microsomal_clearance_model": "blocked: catalog says Apache-2.0 but anonymous Hugging Face API returned 401",
+        "model_repositories": "Apache-2.0 as tagged; their curated ChEMBL-derived training tables still require ChEMBL attribution/share-alike review",
+        "octant_dataset": "Hugging Face repository tag CC-BY-4.0 conflicts with OpenADMET catalog Apache-2.0; apply the more specific dataset-repository CC-BY-4.0 pending confirmation"
+      },
+      "source_id": "openadmet_public_repositories",
+      "status": "acquired_raw_not_admitted",
+      "systemic_pk_quantity_benchmark_rows": 0,
+      "upstream_adme_or_safety_file_rows": 139770,
+      "version": {
+        "cyp_inhibition_chemeleon": {
+          "gated": false,
+          "id": "openadmet/cyp1a2-cyp2d6-cyp3a4-cyp3c9-chemeleon-baseline",
+          "private": false,
+          "sha": "12265ee807889b4a3765b308c69d00022b99c176",
+          "tags": [
+            "chemistry",
+            "biology",
+            "en",
+            "doi:10.57967/hf/7796",
+            "license:apache-2.0",
+            "region:us"
+          ]
+        },
+        "expansionrx_full": {
+          "gated": false,
+          "id": "openadmet/openadmet-expansionrx-challenge-data",
+          "private": false,
+          "sha": "6b898ccc43d10d25b230fb09e22a6e30c30022b5",
+          "tags": [
+            "license:cc-by-4.0",
+            "size_categories:10K<n<100K",
+            "format:csv",
+            "modality:tabular",
+            "modality:text",
+            "library:datasets",
+            "library:pandas",
+            "library:polars",
+            "library:mlcroissant",
+            "doi:10.57967/hf/9687",
+            "region:us",
+            "admet",
+            "drug discovery"
+          ]
+        },
+        "octant_cyp": {
+          "gated": false,
+          "id": "openadmet/Octant_CYP_inhibition_reactivity_blog_release",
+          "private": false,
+          "sha": "96dc1cceaa545a22041d1e16a9c2524a658403f8",
+          "tags": [
+            "license:cc-by-4.0",
+            "size_categories:10K<n<100K",
+            "format:csv",
+            "modality:tabular",
+            "modality:text",
+            "library:datasets",
+            "library:pandas",
+            "library:polars",
+            "library:mlcroissant",
+            "doi:10.57967/hf/9647",
+            "region:us"
+          ]
+        },
+        "permeability_logd_ppb": {
+          "gated": false,
+          "id": "openadmet/permeability-logd-ppb-chemeleon-baseline",
+          "private": false,
+          "sha": "6fb7782db474a9c9198d4ace3a5c6b6a6abb304b",
+          "tags": [
+            "chemistry",
+            "drug-discovery",
+            "admet",
+            "multitask-learning",
+            "openadmet",
+            "en",
+            "license:apache-2.0",
+            "region:us"
+          ]
+        }
+      }
+    },
+    {
+      "canonical_rows": 0,
+      "context": "Species is often present, but route and dose are not structured; mixed semantics and incompatible units make the 330,261 exact-type hits candidates, not verified systemic-PK rows.",
+      "database_activity_rows": 24527044,
+      "exact_pk_type_screen_distinct_molecules": 85441,
+      "exact_pk_type_screen_rows": 330261,
+      "official_url": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_sqlite.tar.gz",
+      "raw_path": "research/data/platform/raw/chembl_37_bulk/extracted/chembl_37.db",
+      "rights": "CC BY-SA 3.0; preserve identifiers, release, attribution, and share-alike obligations.",
+      "source_id": "chembl_37_reclassification_screen",
+      "status": "existing_raw_bound_candidate_census_not_admitted",
+      "systemic_pk_quantity_rows_verified": 0,
+      "version": "ChEMBL 37"
+    },
+    {
+      "anonymous_output_rows_acquired": 0,
+      "canonical_rows": 0,
+      "context": "PK-DB is the strongest context-rich target, but the OpenAPI schema applies Basic authentication and the anonymous output probe returns zero rows.",
+      "official_statistics_output_count": 138411,
+      "official_url": "https://pk-db.com",
+      "raw_path": "research/data/platform/raw/external_public/pkdb_public_2026_08_05",
+      "rights": "API snapshot reports a closed licence; record-level rights and terms remain unresolved.",
+      "source_id": "pkdb_public_api_v1",
+      "status": "blocked_anonymous_output_access",
+      "systemic_pk_quantity_rows_acquired": 0,
+      "version": "PK-DB API 0.9.8"
+    },
+    {
+      "candidate_document_versions": 41960,
+      "candidate_evidence_path": "research/data/platform/raw/external_public/pk_expansion/avicenna/dailymed_pk_candidate_evidence",
+      "candidate_sections": 43162,
+      "candidate_tables": 26610,
+      "canonical_rows": 0,
+      "context": "Full versioned evidence inventory completed with 0 parse errors. Candidate sections retain SPL/product/time/section/table provenance, but no quantitative PK value has been normalized or validated.",
+      "exact_drugsfda_matched_candidate_documents": 19652,
+      "latest_available_candidate_set_ids": 40247,
+      "official_url": "https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm",
+      "parsed_spl_xml_documents": 54672,
+      "raw_path": "research/data/platform/raw/external_public/dailymed_spl_v2_human_rx",
+      "rights": {
+        "citation": "DailyMed SETID/version URL, label effective date, SPL author, retrieval date.",
+        "default_label_admission": "prohibited_at_acquisition; prose or section presence is not a normalized molecule-level safety, PK, efficacy, or cardiotoxicity label",
+        "evidence_admission": "Versioned label-section evidence only after temporal, section-identity, product, and mapping QC.",
+        "license_boundary": "Human-prescription SPL scope only; preserve FDA/NLM attribution, label author, SETID/version, and XML provenance.",
+        "license_review_state": "NLM_DailyMed_terms_copyright_and_API_review_required"
+      },
+      "source_id": "dailymed_human_rx_spl",
+      "status": "full_corpus_quantitative_pk_candidate_evidence_indexed_not_structured_pk_labels",
+      "systemic_pk_quantity_rows_structured": 0,
+      "tier_A_machine_detected_unverified_sections": 29664,
+      "verified_archive_members": 54672,
+      "version": "human-rx-full-2026-08-03"
+    },
+    {
+      "canonical_rows": 0,
+      "context": "Application/product/action metadata supports regulatory-stage joins but is not quantitative PK.",
+      "official_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+      "raw_path": "research/data/platform/raw/external_public/drugs_at_fda_bulk",
+      "rights": {
+        "citation": "Drugs@FDA data files page, update date, application/product IDs, retrieval date.",
+        "default_label_admission": "never_a_molecular_activity_efficacy_safety_or_PK_label; approval and marketing status are product-, formulation-, indication-, time-, and jurisdiction-specific",
+        "evidence_admission": "Regulatory application/product/action evidence only after relational and molecule/product/formulation mapping QC.",
+        "license_boundary": "Preserve FDA source, site policy, disclaimer, and product context.",
+        "license_review_state": "US_federal_public_data_site_policy_and_institutional_review_required"
+      },
+      "source_id": "drugs_at_fda_bulk",
+      "status": "existing_bulk_bound_regulatory_metadata_not_pk_labels",
+      "systemic_pk_quantity_rows_structured": 0,
+      "version": "datdaf20260804"
+    }
+  ]
+}

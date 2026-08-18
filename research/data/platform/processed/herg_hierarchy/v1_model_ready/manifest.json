@@ -1,0 +1,78 @@
+{
+  "artifact": {
+    "arrow_schema_sha256": "d27bedcc723166c6bd03e73b4d546d8b4eae2c7a8cc29a7601d75e098a40377e",
+    "bytes": 22355182,
+    "path": "structure_consensus_binary_scaffold_split.parquet",
+    "rows": 339373,
+    "sha256": "ed266de4d9532146fb0026fbeff90dd72afbc5eff1bace26f878e7517083a44b"
+  },
+  "dataset_id": "herg_aid720551_consensus_scaffold_split",
+  "input": {
+    "bytes": 11701774,
+    "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1/structure_consensus_binary.parquet",
+    "rows": 339373,
+    "sha256": "eac60c3d6beb9f9cff9e7ad69d35a4b26a99c8a852d52f73c7a79944077663ff"
+  },
+  "manifest_sha256": "3a96a3a972840c10e7850f78981517dfa5c234b6279285b2b1fdfcb4e05a162d",
+  "qc": {
+    "acyclic_exact_proxy_rows": 613,
+    "class_counts": {
+      "0": 338135,
+      "1": 1238
+    },
+    "exact_structure_overlap_count": 0,
+    "exact_structure_proxy_rows": 0,
+    "groups": 95136,
+    "per_split": {
+      "test": {
+        "class_counts": {
+          "0": 40750,
+          "1": 148
+        },
+        "fraction": 0.1205104707799383,
+        "groups": 9377,
+        "rows": 40898
+      },
+      "train": {
+        "class_counts": {
+          "0": 264638,
+          "1": 987
+        },
+        "fraction": 0.7826933786718449,
+        "groups": 76320,
+        "rows": 265625
+      },
+      "validation": {
+        "class_counts": {
+          "0": 32747,
+          "1": 103
+        },
+        "fraction": 0.09679615054821686,
+        "groups": 9439,
+        "rows": 32850
+      }
+    },
+    "rows": 339373,
+    "scaffold_group_overlap_count": 0,
+    "scaffold_method_row_counts": {
+      "bemis_murcko": 338760,
+      "bemis_murcko_with_exact_acyclic": 613
+    }
+  },
+  "schema_version": "platform-herg-scaffold-split/1.0",
+  "split_policy": {
+    "algorithm": "fixed_sha256_whole_scaffold_group_v1",
+    "boundaries": "train:[0,0.8), validation:[0.8,0.9), test:[0.9,1)",
+    "class_balance_preserved": true,
+    "fractions": {
+      "test": 0.1,
+      "train": 0.8,
+      "validation": 0.1
+    },
+    "group_definition": "Bemis-Murcko; exact canonical structure proxy for acyclic or invalid structures",
+    "hash_draw": "first_64_bits_unsigned_big_endian_divided_by_2^64",
+    "label_stratification": false,
+    "salt": "platform-herg-aid720551-scaffold-split-v1",
+    "seed_search": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "assay_family": "binding",
+  "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+  "endpoint": "standard_binding_free_energy",
+  "evidence_domain": "binding",
+  "label_kind": "continuous_exact",
+  "label_unit": "kcal/mol",
+  "observation_kind": "derived",
+  "resolved_task_family": "regression",
+  "schema_version": "task_semantics_decision_v1",
+  "semantic_scan_complete": true,
+  "semantic_scan_record_count": 62334,
+  "substantive_training_started": false,
+  "task_eligibility_mode": "derived_sensitivity",
+  "task_id": "TASK-B46765EBACEE985CE4DCB23A",
+  "task_type": "sensitivity__binding__standard_binding_free_energy__binding__kcal_mol__continuous_exact"
+}

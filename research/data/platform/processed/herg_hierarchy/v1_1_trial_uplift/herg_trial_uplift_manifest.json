@@ -1,0 +1,96 @@
+{
+  "artifacts": [
+    {
+      "bytes": 498676,
+      "path": "trial_structure_link_candidates.parquet",
+      "rows": 4191,
+      "sha256": "594e07b9127886ca30abea9d161e97869cd80ef75d3d1073e52943144397fb8b"
+    },
+    {
+      "bytes": 334956,
+      "path": "trial_structure_link_audit.parquet",
+      "rows": 9831,
+      "sha256": "9b5cd18d72ece52c2c2e062aa765eb4e2fb4cb72ac5887f7f19efe21b585ee67"
+    }
+  ],
+  "candidate_only": true,
+  "clinical_labels_admitted": 0,
+  "headline": {
+    "all_chembl_linked_intervention_records": 3995,
+    "all_chembl_linked_nct_count": 2277,
+    "all_chembl_unique_parent_structures": 1177,
+    "current_local_herg_intersection_records": 2481,
+    "current_local_herg_intersection_unique_structures": 571,
+    "disclosure": "all-ChEMBL structure coverage is not equivalent to local reported hERG evidence; the local hERG intersection is disclosed separately",
+    "practical_over_1000_structure_threshold_met": true,
+    "selected_rule_tier": "cleaned_dose_formulation_parenthetical_or_sponsor_code"
+  },
+  "herg_labels_admitted": 0,
+  "input_bindings": [
+    {
+      "bytes": 685689,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/interim/clinical_results_candidates/interventions.csv.gz",
+      "sha256": "97dc8a7633aef8bcac254f160d8004790617be4a955c9c60d3eca7b15fa30cb5"
+    },
+    {
+      "bytes": 899382,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/interim/clinical_results_candidates/studies.csv.gz",
+      "sha256": "f8f45a4afcdd43bb1564e62f43b6716e6cbac6f9200f7e7d8d7a6a7d0bb10239"
+    },
+    {
+      "bytes": 30480314368,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/raw/chembl_37_bulk/extracted/chembl_37.db",
+      "sha256": "2a4c5127eb9f538f652b548968b746b6eee88a2be0e6643edb7abaf01b24f3a3"
+    },
+    {
+      "bytes": 14192742,
+      "path": "/Users/shivanshsahni/Downloads/Personal/Wang/Menin/research/data/platform/processed/herg_hierarchy/v1/hierarchy_annotations.parquet",
+      "sha256": "4a709fca669a3bd95447b64c431dfb22d7016fb6b7363c76aa1d0023553d11fd"
+    }
+  ],
+  "manifest_sha256": "7cf7b5e5115167428fabecc6f904fa37e0eaa4d7b1a0b0eb86e761597bc0e0e2",
+  "model_labels_admitted": 0,
+  "parser_version": "platform_herg_trial_uplift/1.0",
+  "row_counts": {
+    "trial_structure_link_audit.parquet": 9831,
+    "trial_structure_link_candidates.parquet": 4191
+  },
+  "rules": {
+    "absence_semantics": "no local hERG intersection means unknown, never hERG-negative",
+    "alias_sources": "ChEMBL preferred names and molecule_synonyms only",
+    "ambiguity": "preserved as candidate molecule sets; never collapsed arbitrarily",
+    "excluded": "non-DRUG interventions plus placebo, vehicle, saline, and named excipients",
+    "structure_identity": "ChEMBL hierarchy parent then RDKit Cleanup/FragmentParent/Uncharger"
+  },
+  "schema_version": "platform-herg-trial-uplift/1.0",
+  "tier_statistics": {
+    "cleaned_dose_formulation_parenthetical_or_sponsor_code": {
+      "linked_intervention_record_count": 3995,
+      "linked_nct_count": 2277,
+      "local_herg_linked_record_count": 2481,
+      "local_herg_unique_structure_count": 571,
+      "unique_parent_structure_count": 1177
+    },
+    "component_set": {
+      "linked_intervention_record_count": 4191,
+      "linked_nct_count": 2361,
+      "local_herg_linked_record_count": 2671,
+      "local_herg_unique_structure_count": 602,
+      "unique_parent_structure_count": 1216
+    },
+    "exact_parent_standardized": {
+      "linked_intervention_record_count": 2869,
+      "linked_nct_count": 1773,
+      "local_herg_linked_record_count": 1906,
+      "local_herg_unique_structure_count": 492,
+      "unique_parent_structure_count": 978
+    },
+    "punctuation_normalized": {
+      "linked_intervention_record_count": 2888,
+      "linked_nct_count": 1785,
+      "local_herg_linked_record_count": 1919,
+      "local_herg_unique_structure_count": 502,
+      "unique_parent_structure_count": 995
+    }
+  }
+}

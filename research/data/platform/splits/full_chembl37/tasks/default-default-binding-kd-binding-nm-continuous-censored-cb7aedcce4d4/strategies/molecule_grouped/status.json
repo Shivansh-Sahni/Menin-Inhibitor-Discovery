@@ -1,0 +1,32 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [],
+    "supported": true
+  },
+  "exact_overlap_status": "passed_exhaustive",
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "leakage_diagnostics_path": "tasks/default-default-binding-kd-binding-nm-continuous-censored-cb7aedcce4d4/strategies/molecule_grouped/leakage_diagnostics.json",
+  "leakage_diagnostics_sha256": "7a7c6f2f3e01f282a63f221507fc60bdd83c1168e4bc767090a154404a3109eb",
+  "mandatory_candidate": true,
+  "near_similarity_status": "sampled_non_exhaustive_not_claim_ready",
+  "partition_counts": {
+    "test": 12779,
+    "train": 71431,
+    "validation": 11789
+  },
+  "reasons": [],
+  "seed_search_performed": false,
+  "sidecar_path": "tasks/default-default-binding-kd-binding-nm-continuous-censored-cb7aedcce4d4/strategies/molecule_grouped/split.parquet.manifest.json",
+  "sidecar_sha256": "a11a65fe3433ea719df574f42ee9954191e592cd25321f0905cab06659f26674",
+  "split_materialized": true,
+  "split_path": "tasks/default-default-binding-kd-binding-nm-continuous-censored-cb7aedcce4d4/strategies/molecule_grouped/split.parquet",
+  "split_rows": 95999,
+  "split_sha256": "b3ef3b8f34baae240de657b486b4ea96781060d43f5d15ce6d6dc6ae8114f93e",
+  "status": "materialized",
+  "strategy": "molecule_grouped",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

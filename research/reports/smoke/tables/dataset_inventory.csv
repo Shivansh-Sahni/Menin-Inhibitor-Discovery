@@ -1,0 +1,6 @@
+dataset,rows,unique_structures,modeling_eligible_rows
+menin_measurements,8176,2123,3798.0
+menin_endpoint_assay_tasks,2104,1184,
+herg_measurements,41078,26060,17654.0
+herg_endpoint_assay_tasks,11549,11053,
+pk_admet_observations,204,40,

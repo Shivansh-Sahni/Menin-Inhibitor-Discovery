@@ -1,0 +1,29 @@
+{
+  "acquired_bytes": 6058109,
+  "acquired_md5": null,
+  "acquired_sha256": "b27321cd7b1f02b301bac79f853ad39ed77bd0558d23ae8747d21de7fa744120",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.fda.gov/media/89850/download?attachment=",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "datdaf20260804.zip",
+  "manifest_sha256": "97330153573fa10bbb7545ed90fe7e9e41088861a8fd5c81f2c6a514dff7376f",
+  "resolved_url": "https://www.fda.gov/media/89850/download?attachment=",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "public, max-age=0",
+    "content-disposition": "inline; filename=datdaf20260804.zip",
+    "content-length": "6058109",
+    "content-type": "application/zip",
+    "date": "Tue, 04 Aug 2026 18:21:06 GMT",
+    "expires": "Tue, 04 Aug 2026 18:21:06 GMT",
+    "last-modified": "Tue, 04 Aug 2026 11:26:19 GMT",
+    "server": "nginx"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:09Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "datdaf20260804.zip",
+  "upstream_md5_when_published": null
+}

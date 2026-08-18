@@ -1,0 +1,22 @@
+{
+  "applicability": {
+    "evaluated": true,
+    "reasons": [
+      "rdkit_scaffold_exception_requires_exact_smiles_proxy"
+    ],
+    "supported": false
+  },
+  "fixed_seed": 20260804,
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "mandatory_candidate": true,
+  "reasons": [
+    "rdkit_scaffold_exception_requires_exact_smiles_proxy"
+  ],
+  "seed_search_performed": false,
+  "split_materialized": false,
+  "status": "skipped_inapplicable_mandatory_candidate",
+  "strategy": "scaffold",
+  "substantive_training_started": false,
+  "test_labels_disclosed": false
+}

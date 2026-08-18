@@ -1,0 +1,90 @@
+{
+  "bounded_memory": {
+    "configured_batch_rows": 8192,
+    "full_record_or_line_digest_lists_materialized": false,
+    "maximum_observed_batch_rows": 8192,
+    "maximum_observed_example_batch_recursive_bytes": 27475301,
+    "maximum_observed_input_and_manifest_pandas_deep_bytes": 24132368
+  },
+  "build_config": {
+    "near_duplicate_audit": "pending_separate_required",
+    "source_build_manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "split_config_sha256": "6820199b8ae726e3289231c18df604ebbb1fdb3385b84e3ae7b738109199dba3",
+    "task_eligibility_mode": "default",
+    "task_semantics": {
+      "assay_family": "binding",
+      "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+      "endpoint": "Ki",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_censored",
+      "label_unit": "nM",
+      "observation_kind": "experimental_summary",
+      "resolved_task_family": "regression",
+      "semantic_scan_complete": true,
+      "semantic_scan_record_count": 59314,
+      "task_id": "TASK-951CAD2EF4E7E86B42C1E78F",
+      "task_type": "default__binding__ki__binding__nm__continuous_censored"
+    }
+  },
+  "build_config_sha256": "38fa714c13e639ffc1546a0361fe8e29b27407100c0489de6fe5e02f1abe43b2",
+  "excluded_partition_counts": {},
+  "final_payload_policy": "only physically separated train validation and sealed test JSONL payloads are retained",
+  "outcome_kind_counts": {
+    "experimental_summary": 59314
+  },
+  "partition_counts": {
+    "test": 8852,
+    "train": 41399,
+    "validation": 9063
+  },
+  "physical_partition_manifest_file_sha256": "ebb6f835c0a6eb1438365d6d7cfa09b081a1dd06ff6cc495fbec5f8c4ea37305",
+  "schema_version": "transient_model_ready_serialization_receipt_v1",
+  "serialization_format": "canonical_jsonl_utf8_v1",
+  "serialization_implementation": "bounded_memory_parquet_lockstep_v1",
+  "source_dataset": {
+    "dataset_sha256": "bd15a1ebbbe1f21f3343557925cea5798bb27eef3d49e838b2bb20aa2278c533",
+    "input_kind": "manifest_bound_directory",
+    "manifest_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "parts": [
+      {
+        "relative_path": "tasks/default/default_binding_ki_binding_nm_continuous_censored/part-00007.parquet",
+        "rows": 17931,
+        "sha256": "b66f3684381ee56e7ccbc5c5d280ef6e553ca12d3a01f01b4fe0279d1e3a9ef6"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_binding_nm_continuous_censored/part-00008.parquet",
+        "rows": 5901,
+        "sha256": "dd519949f7a7e1b073a32a11df6b0590e993c52b7a6814272eed30a082356c53"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_binding_nm_continuous_censored/part-00009.parquet",
+        "rows": 12304,
+        "sha256": "c69fbfc943f58fc95052c6a3171e825270d56a36fd7fb3df33e28e01325d9710"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_binding_nm_continuous_censored/part-00010.parquet",
+        "rows": 15869,
+        "sha256": "bef4537b4632326da3d696ebcd9259d9a1a38931e689eb227c631c551e61d34f"
+      },
+      {
+        "relative_path": "tasks/default/default_binding_ki_binding_nm_continuous_censored/part-00011.parquet",
+        "rows": 7309,
+        "sha256": "9d77f5be3f4ff09372f76b0f7a0fda92d8caa83ec775915d50199c1e517ad7c7"
+      }
+    ],
+    "schema_version": "manifest_bound_parquet_dataset_v1",
+    "total_rows": 59314
+  },
+  "source_dataset_sha256": "bd15a1ebbbe1f21f3343557925cea5798bb27eef3d49e838b2bb20aa2278c533",
+  "split_manifest_sha256": "35e99eeb2b8974f5f3c8063f07e323dce2e6eb1836c6e3cb4ce9ac16c2d1096e",
+  "split_sidecar_sha256": "263053435717429e28ae86e3289b1ed72e5b86aecfe41d1012659b54e7aa2e23",
+  "substantive_training_started": false,
+  "transient_combined_artifact": {
+    "ordered_line_digest_sha256": "2e295fbff9ca5e16f586f9962fd81279f1035968287dcacfdd301713b36e92fc",
+    "record_count": 59314,
+    "removed_after_verified_physical_routing": true,
+    "retained_in_final_bundle": false,
+    "serialization_sidecar_sha256_before_removal": "265994f676b9655a5a761fa7fa285bf313a5aaf9a7784c35e6d68fe784ed363a",
+    "sha256": "89b0039852a22bd4df1b6fec2e08f41b6a2e10c47b3705d2b9e0f53aabe23b95"
+  }
+}

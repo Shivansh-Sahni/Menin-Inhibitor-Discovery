@@ -1,0 +1,17 @@
+{
+  "assay_family": "other_bioactivity",
+  "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+  "endpoint": "Kd",
+  "evidence_domain": "binding",
+  "label_kind": "continuous_exact",
+  "label_unit": "nM",
+  "observation_kind": "experimental_summary",
+  "resolved_task_family": "regression",
+  "schema_version": "task_semantics_decision_v1",
+  "semantic_scan_complete": true,
+  "semantic_scan_record_count": 5458,
+  "substantive_training_started": false,
+  "task_eligibility_mode": "default",
+  "task_id": "TASK-24FCDD605CA028A5E5121026",
+  "task_type": "default__binding__kd__other_bioactivity__nm__continuous_exact"
+}

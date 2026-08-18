@@ -1,0 +1,19 @@
+{
+  "acquired_bytes": 0,
+  "acquired_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "acquisition_status": "official_documented_endpoint_unavailable",
+  "artifact_role": "openapi_endpoint_failure_evidence",
+  "canonical_url": "https://clinicaltrials.gov/api/oas/v2/ctg-oas-v2.yaml",
+  "local_path": "ctg-oas-v2.http-error",
+  "manifest_sha256": "bfff18a118f4e500fbf0687f30393b89d89342582d2774e4160160de7b2c03c5",
+  "resolved_url": "https://clinicaltrials.gov/api/oas/v2/ctg-oas-v2.yaml",
+  "response_headers": {
+    "content-length": "0",
+    "date": "Tue, 04 Aug 2026 18:24:53 GMT",
+    "etag": "\"4/0.34.1/msefgh6w\"",
+    "server": "istio-envoy"
+  },
+  "response_status": 404,
+  "retrieval_utc": "2026-08-04T18:24:57Z",
+  "schema_version": "platform-external-acquisition/1.0"
+}

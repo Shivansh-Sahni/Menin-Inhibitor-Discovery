@@ -1,0 +1,1116 @@
+{
+  "connector_version": "chembl-bounded-panel-1.0",
+  "coverage_boundary": "bounded deterministic offset sample for connector/schema/QC readiness; not random, exhaustive, or suitable for population-frequency claims",
+  "errors": [],
+  "queries": [
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1615381__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 0,
+          "sha256": "b0d739f3610428b00b02d4768572fb17de06f3b9354d2113770e49b5763303be"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1615381&standard_type=EC50&order_by=activity_id&limit=40&offset=0",
+      "sampled_offsets": [
+        0
+      ],
+      "sampled_records_before_id_dedup": 0,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1615381",
+      "target_family": "scaffold_protein",
+      "target_name": "Menin",
+      "total_matching_records": 0
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1615381__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "ac1bb9f5488e302480e04d2be614a74c43356ce2d6d8208dcab0940eb0e51e58"
+        },
+        {
+          "file": "activity_pages/CHEMBL1615381__IC50__offset_340.json",
+          "offset": 340,
+          "returned_records": 40,
+          "sha256": "ec7d908af0b267c9ac2d73ec2060108957fb2d5b8a2bde9d15e7d9f67f770d5a"
+        },
+        {
+          "file": "activity_pages/CHEMBL1615381__IC50__offset_679.json",
+          "offset": 679,
+          "returned_records": 40,
+          "sha256": "344ef79f59048041f7b10acfcb0f762ee069395007dbf2464deccaf113b1081e"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1615381&standard_type=IC50&order_by=activity_id&limit=40&offset=679",
+      "sampled_offsets": [
+        0,
+        340,
+        679
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1615381",
+      "target_family": "scaffold_protein",
+      "target_name": "Menin",
+      "total_matching_records": 719
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1615381__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 20,
+          "sha256": "0ccc1f99cb206d154e30783774998bb9421d0e9126e3d56fbdf1f850940a6056"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1615381&standard_type=Kd&order_by=activity_id&limit=40&offset=0",
+      "sampled_offsets": [
+        0
+      ],
+      "sampled_records_before_id_dedup": 20,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1615381",
+      "target_family": "scaffold_protein",
+      "target_name": "Menin",
+      "total_matching_records": 20
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1615381__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "5411770242249b5da3c443156330399b1080094949e76cc50295460ec810ae1f"
+        },
+        {
+          "file": "activity_pages/CHEMBL1615381__Ki__offset_40.json",
+          "offset": 40,
+          "returned_records": 35,
+          "sha256": "4233974ba3c5f81257aab67d6d1528369793231f047361bb0cf12361501fcb20"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1615381&standard_type=Ki&order_by=activity_id&limit=40&offset=40",
+      "sampled_offsets": [
+        0,
+        40
+      ],
+      "sampled_records_before_id_dedup": 75,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1615381",
+      "target_family": "scaffold_protein",
+      "target_name": "Menin",
+      "total_matching_records": 75
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1862__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "9f1a202fe287159c02011a7322908289e6cb1aaf74079de9a297e1e6d3da019b"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__EC50__offset_40.json",
+          "offset": 40,
+          "returned_records": 21,
+          "sha256": "edaf5d43b330a73d6791d8c5fe81de2ff76178fcdc8ccd4172523fc7c4754fdd"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1862&standard_type=EC50&order_by=activity_id&limit=40&offset=40",
+      "sampled_offsets": [
+        0,
+        40
+      ],
+      "sampled_records_before_id_dedup": 61,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1862",
+      "target_family": "nonreceptor_tyrosine_kinase",
+      "target_name": "ABL1",
+      "total_matching_records": 61
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1862__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "4b6aa1a7f1316c6d054a79f67f0e9f7171135c684664e74c902d40db6d5b839b"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__IC50__offset_2628.json",
+          "offset": 2628,
+          "returned_records": 40,
+          "sha256": "d3013f51ee83b0b307271f07c6faafb81193d09f4bb05aaf5de1543f508ff03d"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__IC50__offset_5255.json",
+          "offset": 5255,
+          "returned_records": 40,
+          "sha256": "3a86dc2b7c8f61516ed211a3d6ae580ffbc83f18aded3610cd6d22ea471ae9dd"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1862&standard_type=IC50&order_by=activity_id&limit=40&offset=5255",
+      "sampled_offsets": [
+        0,
+        2628,
+        5255
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1862",
+      "target_family": "nonreceptor_tyrosine_kinase",
+      "target_name": "ABL1",
+      "total_matching_records": 5295
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1862__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "ea67655d5943e9e947521f81140d883aa3ef8a77eafa24859cf861405ba59e96"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__Kd__offset_936.json",
+          "offset": 936,
+          "returned_records": 40,
+          "sha256": "9095a5c6864d9434aa8b905838bcdbb5add0d206bf4ade4e5b834f86da784ea1"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__Kd__offset_1872.json",
+          "offset": 1872,
+          "returned_records": 40,
+          "sha256": "651dfa096390e929b7363f4de5d462fdbce2562b139d893718129bdb2ef4874a"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1862&standard_type=Kd&order_by=activity_id&limit=40&offset=1872",
+      "sampled_offsets": [
+        0,
+        936,
+        1872
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1862",
+      "target_family": "nonreceptor_tyrosine_kinase",
+      "target_name": "ABL1",
+      "total_matching_records": 1912
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL1862__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "b881adacbc3f5b78998122e1e2c098716204988e6ed4026e192efbe4af630597"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__Ki__offset_870.json",
+          "offset": 870,
+          "returned_records": 40,
+          "sha256": "1732812d57cf2f5934fcae29822c8ad3ad5e94b17245e620230c1c492ec92f84"
+        },
+        {
+          "file": "activity_pages/CHEMBL1862__Ki__offset_1741.json",
+          "offset": 1741,
+          "returned_records": 40,
+          "sha256": "b44c4e4f94983bac0e5554de8f2b44627c40ea7a87fe337b588c4197ebaad676"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1862&standard_type=Ki&order_by=activity_id&limit=40&offset=1741",
+      "sampled_offsets": [
+        0,
+        870,
+        1741
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL1862",
+      "target_family": "nonreceptor_tyrosine_kinase",
+      "target_name": "ABL1",
+      "total_matching_records": 1781
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL203__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "1e98ad0393e2a079f4013e6ee0f5b5206eab0b0954f72afa93a7d20d206c9e13"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__EC50__offset_194.json",
+          "offset": 194,
+          "returned_records": 40,
+          "sha256": "1a7c5a9c59a87576ebbbaace3769e354707dec76d661f5a562a099f6a99f7920"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__EC50__offset_389.json",
+          "offset": 389,
+          "returned_records": 40,
+          "sha256": "ff67fd8f23cc795ae4c6aff23e8f0588ec2f6b33c0d5e8c32db8a7d96f91f490"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL203&standard_type=EC50&order_by=activity_id&limit=40&offset=389",
+      "sampled_offsets": [
+        0,
+        194,
+        389
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL203",
+      "target_family": "receptor_tyrosine_kinase",
+      "target_name": "EGFR",
+      "total_matching_records": 429
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL203__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "26bbd2daa9e7a26fdde6005f1902c4d28a5ec26131fa1ef85cbe4d29f0330a07"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__IC50__offset_13280.json",
+          "offset": 13280,
+          "returned_records": 40,
+          "sha256": "a26444b17e48182909cd99f23f43a7451ac8d675ffe340b88debb744f96eecd4"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__IC50__offset_26560.json",
+          "offset": 26560,
+          "returned_records": 40,
+          "sha256": "c289bb676026f4ce3a81a983f45d91856915fc0f61bcb5660018524d0967818f"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL203&standard_type=IC50&order_by=activity_id&limit=40&offset=26560",
+      "sampled_offsets": [
+        0,
+        13280,
+        26560
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL203",
+      "target_family": "receptor_tyrosine_kinase",
+      "target_name": "EGFR",
+      "total_matching_records": 26600
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL203__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "d39a78753c5b7bdb9d1d519c5c5961afe0a77e36d6a85190421073c88a513157"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__Kd__offset_924.json",
+          "offset": 924,
+          "returned_records": 40,
+          "sha256": "171b292907669e261029a42b8552ad74dd567e3458805a54f56a4dfd138b0c8c"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__Kd__offset_1849.json",
+          "offset": 1849,
+          "returned_records": 40,
+          "sha256": "3b3d66cf3edf4adb73425a5f25247e9a6dc0ac171c8426754b52b3c72fc014fa"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL203&standard_type=Kd&order_by=activity_id&limit=40&offset=1849",
+      "sampled_offsets": [
+        0,
+        924,
+        1849
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL203",
+      "target_family": "receptor_tyrosine_kinase",
+      "target_name": "EGFR",
+      "total_matching_records": 1889
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL203__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "0af60d209da03280f78ad0c3049ca4a98bc15fc442a772587eff10baff8af6e7"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__Ki__offset_1066.json",
+          "offset": 1066,
+          "returned_records": 40,
+          "sha256": "e15abbe4dac72ca555fd57c6a95dd0d4cd42d7c407abb1e7c85490759600741f"
+        },
+        {
+          "file": "activity_pages/CHEMBL203__Ki__offset_2132.json",
+          "offset": 2132,
+          "returned_records": 40,
+          "sha256": "57b45184cf90f6c12c5f77fffc776497da72d5a4afbfe0eac009022562c60c05"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL203&standard_type=Ki&order_by=activity_id&limit=40&offset=2132",
+      "sampled_offsets": [
+        0,
+        1066,
+        2132
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL203",
+      "target_family": "receptor_tyrosine_kinase",
+      "target_name": "EGFR",
+      "total_matching_records": 2172
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL206__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "cfb7d03a4594da9583ac623f7a39f116cc08c20dafe78e408cac686ebdeaf41d"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__EC50__offset_726.json",
+          "offset": 726,
+          "returned_records": 40,
+          "sha256": "ef5975c04a777eb56b66f9323d85e8c462531125f1a23948e96cbd543da5d558"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__EC50__offset_1451.json",
+          "offset": 1451,
+          "returned_records": 40,
+          "sha256": "6e331072409ffa3e17e4dccf2ea55eba17d29ce2c4be9fab66fb1345867668dd"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL206&standard_type=EC50&order_by=activity_id&limit=40&offset=1451",
+      "sampled_offsets": [
+        0,
+        726,
+        1451
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL206",
+      "target_family": "nuclear_receptor",
+      "target_name": "Estrogen receptor alpha",
+      "total_matching_records": 1491
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL206__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "2c80d42363249e600e562f1c719d4a562624e1a32fd068b5e94ba0b8e34de02b"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__IC50__offset_3830.json",
+          "offset": 3830,
+          "returned_records": 40,
+          "sha256": "422458f64fd068f9391160d93c29241b0b1f034208f5a7b39b364a7acc26d76e"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__IC50__offset_7659.json",
+          "offset": 7659,
+          "returned_records": 40,
+          "sha256": "c8dfc6735ef6d6d7595daa296e07dc59b3ae7ae4c149acb52f89c57257cc162a"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL206&standard_type=IC50&order_by=activity_id&limit=40&offset=7659",
+      "sampled_offsets": [
+        0,
+        3830,
+        7659
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL206",
+      "target_family": "nuclear_receptor",
+      "target_name": "Estrogen receptor alpha",
+      "total_matching_records": 7699
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL206__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "d3079e9f74735de0d6fbb7898207392440d1e0e51bea78fa87040ab2e6e278fa"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__Kd__offset_40.json",
+          "offset": 40,
+          "returned_records": 20,
+          "sha256": "ad94b3b0da39448993efa7ac1af0d8461894fcf9039b89e6fb7dad8ddcacf5b4"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL206&standard_type=Kd&order_by=activity_id&limit=40&offset=40",
+      "sampled_offsets": [
+        0,
+        40
+      ],
+      "sampled_records_before_id_dedup": 60,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL206",
+      "target_family": "nuclear_receptor",
+      "target_name": "Estrogen receptor alpha",
+      "total_matching_records": 60
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL206__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "1fb9ca159eec3e38355b09aa7003e77d9808a5d50e7900e8728698b71b31d3e0"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__Ki__offset_850.json",
+          "offset": 850,
+          "returned_records": 40,
+          "sha256": "6d0ae5e71eb80f2615beb62c4db1502e951f17d3d9fa1d2b20fd9d88a8947230"
+        },
+        {
+          "file": "activity_pages/CHEMBL206__Ki__offset_1699.json",
+          "offset": 1699,
+          "returned_records": 40,
+          "sha256": "437acc272841779d5d6b2f802c99dd4f4976d770e8ac4ed746af6eb39803c09c"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL206&standard_type=Ki&order_by=activity_id&limit=40&offset=1699",
+      "sampled_offsets": [
+        0,
+        850,
+        1699
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL206",
+      "target_family": "nuclear_receptor",
+      "target_name": "Estrogen receptor alpha",
+      "total_matching_records": 1739
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL210__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "075ce3f5b1ef01bd3833a8219e37ff8ef0a444d290a54b87531dc4c0a1499d52"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__EC50__offset_928.json",
+          "offset": 928,
+          "returned_records": 40,
+          "sha256": "10c7c395cf2f5b9c0c615a4cf75a664c93ef0f25fbd24b0526c9a35ef780f509"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__EC50__offset_1857.json",
+          "offset": 1857,
+          "returned_records": 40,
+          "sha256": "6c8ef4590859eb851f44d48ac33e8c3a79e4cb3e55250da3240096df45d9cfd4"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL210&standard_type=EC50&order_by=activity_id&limit=40&offset=1857",
+      "sampled_offsets": [
+        0,
+        928,
+        1857
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL210",
+      "target_family": "class_a_gpcr",
+      "target_name": "Beta-2 adrenergic receptor",
+      "total_matching_records": 1897
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL210__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "983f06f3e6f1aff7d7df4cf7f812001bf1d89d02294d2b2bc4efef32ece63e43"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__IC50__offset_812.json",
+          "offset": 812,
+          "returned_records": 40,
+          "sha256": "c57d5df8b0ded1194e731f5dd739a8c66920c2e47c581e057f15e1a0072e49d3"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__IC50__offset_1625.json",
+          "offset": 1625,
+          "returned_records": 40,
+          "sha256": "488dfcc933c11d2f1b10970c4eef5a0333c6bc7f44314f900ae9210e142333ad"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL210&standard_type=IC50&order_by=activity_id&limit=40&offset=1625",
+      "sampled_offsets": [
+        0,
+        812,
+        1625
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL210",
+      "target_family": "class_a_gpcr",
+      "target_name": "Beta-2 adrenergic receptor",
+      "total_matching_records": 1665
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL210__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "0685a3f8a3d1a3d27f7acba1307d3c87e118c532fbb2384b592fd9781aea8386"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__Kd__offset_111.json",
+          "offset": 111,
+          "returned_records": 40,
+          "sha256": "42b2d6b81d0c4ff72c8aafb4f13f808cb875dbb77e8b3f71231136c657d4ec15"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__Kd__offset_222.json",
+          "offset": 222,
+          "returned_records": 40,
+          "sha256": "0d1cb1c39437cfab1d331b229f6daf64f959d84eb5c59a34d3f9557c6e4f7cd9"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL210&standard_type=Kd&order_by=activity_id&limit=40&offset=222",
+      "sampled_offsets": [
+        0,
+        111,
+        222
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL210",
+      "target_family": "class_a_gpcr",
+      "target_name": "Beta-2 adrenergic receptor",
+      "total_matching_records": 262
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL210__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "3188846019ebcf9da4a6fedc44a596272907bb933f57bcff94e9e28377493187"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__Ki__offset_911.json",
+          "offset": 911,
+          "returned_records": 40,
+          "sha256": "5dcf0d467615b76cfea54f972d2131c30fdca352d927858d8b8cf6ce2e9ec32a"
+        },
+        {
+          "file": "activity_pages/CHEMBL210__Ki__offset_1822.json",
+          "offset": 1822,
+          "returned_records": 40,
+          "sha256": "ee4b7c1b85141516f8831cc0e01b29c12ae1284939f95b2972d04ba11a955d99"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL210&standard_type=Ki&order_by=activity_id&limit=40&offset=1822",
+      "sampled_offsets": [
+        0,
+        911,
+        1822
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL210",
+      "target_family": "class_a_gpcr",
+      "target_name": "Beta-2 adrenergic receptor",
+      "total_matching_records": 1862
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL217__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "d60abfdb8a7a3b8d252e4ecba9dfe813bf65e68ec26e3a5440a8b85e74c2abd9"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__EC50__offset_1085.json",
+          "offset": 1085,
+          "returned_records": 40,
+          "sha256": "e7cf48bc4df6637fc4ec7202025a454a5cd3294e9783b9a93f897e972ddc2c00"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__EC50__offset_2170.json",
+          "offset": 2170,
+          "returned_records": 40,
+          "sha256": "2d681fcef8c1bcd5f62713bc018dbd23d76befa4ffc6be3e9a00ec843ea603f7"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL217&standard_type=EC50&order_by=activity_id&limit=40&offset=2170",
+      "sampled_offsets": [
+        0,
+        1085,
+        2170
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL217",
+      "target_family": "class_a_gpcr",
+      "target_name": "Dopamine D2 receptor",
+      "total_matching_records": 2210
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL217__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "2178fb9f2287bfa5483252f94b2a2743bb26ee3d0fb9472959b8cc42f0d39702"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__IC50__offset_1220.json",
+          "offset": 1220,
+          "returned_records": 40,
+          "sha256": "b2b729bedb4b9c4f115937e1a2e1dc02c681e7a85ca64265bcec60bfb4fe6d30"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__IC50__offset_2440.json",
+          "offset": 2440,
+          "returned_records": 40,
+          "sha256": "72bf2d46083888f480fa4034b76d0e58721bf1a390daf3c1e362455cb27d6f43"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL217&standard_type=IC50&order_by=activity_id&limit=40&offset=2440",
+      "sampled_offsets": [
+        0,
+        1220,
+        2440
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL217",
+      "target_family": "class_a_gpcr",
+      "target_name": "Dopamine D2 receptor",
+      "total_matching_records": 2480
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL217__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "19a50b62841ac007e860243aa4917fc7e6b2b2a7adc0526ef0c54a544b4c54a8"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__Kd__offset_45.json",
+          "offset": 45,
+          "returned_records": 40,
+          "sha256": "83e4d2289f57e05c153498bea909fed45839920581a3c034017b347f99a59d77"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__Kd__offset_90.json",
+          "offset": 90,
+          "returned_records": 40,
+          "sha256": "cfd768668ffa18013fba87f2922a8e995c742561c3766f2fb998dc1af9d9a91d"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL217&standard_type=Kd&order_by=activity_id&limit=40&offset=90",
+      "sampled_offsets": [
+        0,
+        45,
+        90
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL217",
+      "target_family": "class_a_gpcr",
+      "target_name": "Dopamine D2 receptor",
+      "total_matching_records": 130
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL217__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "b476a2a126ca2683277a6552a9461bc528a40ff9183ec0986b1b66e73d8830c9"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__Ki__offset_7401.json",
+          "offset": 7401,
+          "returned_records": 40,
+          "sha256": "224e4356b1805c9b4a938d6dea1528e2fef8c52dc97393f5b797e420671e5b52"
+        },
+        {
+          "file": "activity_pages/CHEMBL217__Ki__offset_14802.json",
+          "offset": 14802,
+          "returned_records": 40,
+          "sha256": "94c5835a72850a55913446626cc1d80e3e1a6c206dd02624343da89d8d6eea75"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL217&standard_type=Ki&order_by=activity_id&limit=40&offset=14802",
+      "sampled_offsets": [
+        0,
+        7401,
+        14802
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL217",
+      "target_family": "class_a_gpcr",
+      "target_name": "Dopamine D2 receptor",
+      "total_matching_records": 14842
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL240__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "ebd852b134794509e346805f07842e7e222620566ff9851fe819c1d2de0ceb84"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__EC50__offset_106.json",
+          "offset": 106,
+          "returned_records": 40,
+          "sha256": "9bc5f6b62190b18a2e43a8f8fd0c3d1d58d363d4dc9b84cbfaf124aa0679b75f"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__EC50__offset_213.json",
+          "offset": 213,
+          "returned_records": 40,
+          "sha256": "ff7b5fb61dfb15441b08c5d56067275b6ab9fc0cccfe2f46bf5d957baeb67ff8"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL240&standard_type=EC50&order_by=activity_id&limit=40&offset=213",
+      "sampled_offsets": [
+        0,
+        106,
+        213
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL240",
+      "target_family": "voltage_gated_ion_channel",
+      "target_name": "KCNH2 / hERG",
+      "total_matching_records": 253
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL240__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "6d8160028b921f7ff49c9160490a94b467b20bf5da023c5a3eac3b01915e632f"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__IC50__offset_9545.json",
+          "offset": 9545,
+          "returned_records": 40,
+          "sha256": "1a79263f1f4c719fd1318e62a18eff4554b9367a64fd884ec1f49b2db75bef91"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__IC50__offset_19090.json",
+          "offset": 19090,
+          "returned_records": 40,
+          "sha256": "561805eb6257c0ce966226ea9889e22ee98a74978690d3e55792d1720b8aac29"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL240&standard_type=IC50&order_by=activity_id&limit=40&offset=19090",
+      "sampled_offsets": [
+        0,
+        9545,
+        19090
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL240",
+      "target_family": "voltage_gated_ion_channel",
+      "target_name": "KCNH2 / hERG",
+      "total_matching_records": 19130
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL240__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "29b4b1ea5c208694091d92e1052a3bae59c2d1547c4a3a310c9bf7e55055eff2"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__Kd__offset_40.json",
+          "offset": 40,
+          "returned_records": 7,
+          "sha256": "89fd86506c2d2799f13e7517c0077fad3b05cfe8428dd6dc7649a1d0d4358d42"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL240&standard_type=Kd&order_by=activity_id&limit=40&offset=40",
+      "sampled_offsets": [
+        0,
+        40
+      ],
+      "sampled_records_before_id_dedup": 47,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL240",
+      "target_family": "voltage_gated_ion_channel",
+      "target_name": "KCNH2 / hERG",
+      "total_matching_records": 47
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL240__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "c469512d019bdb328eaad3f531e0401c71781991126fc7bd9371937c4a7f6c80"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__Ki__offset_1824.json",
+          "offset": 1824,
+          "returned_records": 40,
+          "sha256": "db56307f05bdba86beb42e9e769b80154c0ef9909c17dc70a07954b1461a076d"
+        },
+        {
+          "file": "activity_pages/CHEMBL240__Ki__offset_3649.json",
+          "offset": 3649,
+          "returned_records": 40,
+          "sha256": "d9e487629c9fca1813438530264cc3cc1bb115e97bbc5931121919246048e123"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL240&standard_type=Ki&order_by=activity_id&limit=40&offset=3649",
+      "sampled_offsets": [
+        0,
+        1824,
+        3649
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL240",
+      "target_family": "voltage_gated_ion_channel",
+      "target_name": "KCNH2 / hERG",
+      "total_matching_records": 3689
+    },
+    {
+      "endpoint": "EC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL340__EC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "b1ee0c0f71925b86e69f8784ea06c20b7a80aef51a03e76e9c04f85e64897df4"
+        },
+        {
+          "file": "activity_pages/CHEMBL340__EC50__offset_40.json",
+          "offset": 40,
+          "returned_records": 5,
+          "sha256": "5c4e58a7a1d49823f3e4edfb03043dc7467aa5dd16b1061945d44344941bd8cd"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL340&standard_type=EC50&order_by=activity_id&limit=40&offset=40",
+      "sampled_offsets": [
+        0,
+        40
+      ],
+      "sampled_records_before_id_dedup": 45,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL340",
+      "target_family": "metabolic_enzyme",
+      "target_name": "Cytochrome P450 3A4",
+      "total_matching_records": 45
+    },
+    {
+      "endpoint": "IC50",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL340__IC50__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "d6d49521f78b5103b5ec8905f3f4a08eeb02f089a56f152e586a83a4370e18be"
+        },
+        {
+          "file": "activity_pages/CHEMBL340__IC50__offset_6924.json",
+          "offset": 6924,
+          "returned_records": 40,
+          "sha256": "6bd0f1348e4f4a627b9adf4b636de8eb37152ab411471565af15e635d0422ef5"
+        },
+        {
+          "file": "activity_pages/CHEMBL340__IC50__offset_13847.json",
+          "offset": 13847,
+          "returned_records": 40,
+          "sha256": "a93a1bf870cf2bba1c0f20efdfdf8cb4f1ff7580c51966d6260957d7b2e3943b"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL340&standard_type=IC50&order_by=activity_id&limit=40&offset=13847",
+      "sampled_offsets": [
+        0,
+        6924,
+        13847
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL340",
+      "target_family": "metabolic_enzyme",
+      "target_name": "Cytochrome P450 3A4",
+      "total_matching_records": 13887
+    },
+    {
+      "endpoint": "Kd",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL340__Kd__offset_0.json",
+          "offset": 0,
+          "returned_records": 18,
+          "sha256": "8df007acfa79f47c0b41742d2209820cd7d5027aed321e02d8e1962e4c2e7fc4"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL340&standard_type=Kd&order_by=activity_id&limit=40&offset=0",
+      "sampled_offsets": [
+        0
+      ],
+      "sampled_records_before_id_dedup": 18,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL340",
+      "target_family": "metabolic_enzyme",
+      "target_name": "Cytochrome P450 3A4",
+      "total_matching_records": 18
+    },
+    {
+      "endpoint": "Ki",
+      "pages": [
+        {
+          "file": "activity_pages/CHEMBL340__Ki__offset_0.json",
+          "offset": 0,
+          "returned_records": 40,
+          "sha256": "d33e1e2537a8af7a0f35a4226b542c85b6dd840e88f59bc6b6b8f572d17a2997"
+        },
+        {
+          "file": "activity_pages/CHEMBL340__Ki__offset_544.json",
+          "offset": 544,
+          "returned_records": 40,
+          "sha256": "ab241a525e997c229700972db273e9008d4a0ca27e5f85368a7b127b7e66c98a"
+        },
+        {
+          "file": "activity_pages/CHEMBL340__Ki__offset_1087.json",
+          "offset": 1087,
+          "returned_records": 40,
+          "sha256": "31bca20317f70b0b4fc336b4bd1886cd4fe2936b0ec74aa3728e48f77f64cf22"
+        }
+      ],
+      "resolved_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL340&standard_type=Ki&order_by=activity_id&limit=40&offset=1087",
+      "sampled_offsets": [
+        0,
+        544,
+        1087
+      ],
+      "sampled_records_before_id_dedup": 120,
+      "sampling_design": "deterministic_even_offset_pages",
+      "target_chembl_id": "CHEMBL340",
+      "target_family": "metabolic_enzyme",
+      "target_name": "Cytochrome P450 3A4",
+      "total_matching_records": 1127
+    }
+  ],
+  "query_plan": {
+    "endpoints": [
+      "Kd",
+      "Ki",
+      "IC50",
+      "EC50"
+    ],
+    "max_records_per_target_endpoint": 120,
+    "page_size": 40,
+    "targets": [
+      {
+        "expected_uniprot": "P00533",
+        "target_chembl_id": "CHEMBL203",
+        "target_family": "receptor_tyrosine_kinase",
+        "target_name": "EGFR"
+      },
+      {
+        "expected_uniprot": "P00519",
+        "target_chembl_id": "CHEMBL1862",
+        "target_family": "nonreceptor_tyrosine_kinase",
+        "target_name": "ABL1"
+      },
+      {
+        "expected_uniprot": "P14416",
+        "target_chembl_id": "CHEMBL217",
+        "target_family": "class_a_gpcr",
+        "target_name": "Dopamine D2 receptor"
+      },
+      {
+        "expected_uniprot": "P07550",
+        "target_chembl_id": "CHEMBL210",
+        "target_family": "class_a_gpcr",
+        "target_name": "Beta-2 adrenergic receptor"
+      },
+      {
+        "expected_uniprot": "P03372",
+        "target_chembl_id": "CHEMBL206",
+        "target_family": "nuclear_receptor",
+        "target_name": "Estrogen receptor alpha"
+      },
+      {
+        "expected_uniprot": "P08684",
+        "target_chembl_id": "CHEMBL340",
+        "target_family": "metabolic_enzyme",
+        "target_name": "Cytochrome P450 3A4"
+      },
+      {
+        "expected_uniprot": "Q12809",
+        "target_chembl_id": "CHEMBL240",
+        "target_family": "voltage_gated_ion_channel",
+        "target_name": "KCNH2 / hERG"
+      },
+      {
+        "expected_uniprot": "O00255",
+        "target_chembl_id": "CHEMBL1615381",
+        "target_family": "scaffold_protein",
+        "target_name": "Menin"
+      }
+    ]
+  },
+  "retrieval_status": "complete",
+  "retrieved_at_utc": "2026-08-04T15:43:36Z",
+  "schema_version": "platform-evidence-1.0.0",
+  "source_release_date": "2026-05-01",
+  "source_url": "https://www.ebi.ac.uk/chembl/api/data",
+  "source_version": "ChEMBL_37"
+}

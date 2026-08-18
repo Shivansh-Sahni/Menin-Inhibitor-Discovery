@@ -1,0 +1,37 @@
+{
+  "component_inventory": {},
+  "component_inventory_policy": "no generated components; diagnostic_status.json is externally hashed on return",
+  "component_inventory_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "diagnostic_config": {
+    "binary_label_mapping": [],
+    "fingerprint_bits": 2048,
+    "fingerprint_radius": 2,
+    "maximum_train_examples": 10000,
+    "maximum_validation_examples": 2500,
+    "seed": 20260804
+  },
+  "diagnostic_config_sha256": "960a20e403c02ea6ef7e4147cddddd71534a1b4f0b833a7ca5c7057fd2f36f35",
+  "hyperparameter_sweep_performed": false,
+  "integration_acceptance_sha256": "63cd7a87569dcaa63d112e38afb67f998df920b49945fd5ce85ce35f98fe95ce",
+  "large_model_training_started": false,
+  "model_selection_performed": false,
+  "reason": "skipped_derived_sensitivity_not_primary_diagnostic",
+  "schema_version": "platform_model_diagnostic_bundle_v1",
+  "status": "skipped",
+  "substantive_training_started": false,
+  "task_semantics": {
+    "assay_family": "herg_other",
+    "decision_rule": "categorical_or_ordinal=>classification; continuous_exact_or_censored=>regression",
+    "endpoint": "standard_binding_free_energy",
+    "evidence_domain": "herg",
+    "label_kind": "continuous_exact",
+    "label_unit": "kcal/mol",
+    "observation_kind": "derived",
+    "resolved_task_family": "regression",
+    "semantic_scan_complete": true,
+    "semantic_scan_record_count": 44,
+    "task_id": "TASK-862A7CCDB5290EB3CD6BF292",
+    "task_type": "sensitivity__herg__standard_binding_free_energy__herg_other__kcal_mol__continuous_exact"
+  },
+  "test_partition_opened": false
+}

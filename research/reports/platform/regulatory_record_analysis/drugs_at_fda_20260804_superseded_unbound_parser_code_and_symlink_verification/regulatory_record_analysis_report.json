@@ -1,0 +1,42 @@
+{
+  "anomaly_type_counts": {
+    "blank_action_type_reference": 296,
+    "blank_key_quarantine": 1,
+    "blank_primary_key": 16,
+    "document_submission_orphan_source_key_quarantine": 152,
+    "malformed_width": 1,
+    "orphan_source_key_quarantine": 6754
+  },
+  "artifact_row_counts": {
+    "active_ingredient_candidates.parquet": 60157,
+    "application_documents.parquet": 80714,
+    "applications.parquet": 29253,
+    "products.parquet": 51619,
+    "regulatory_record_anomalies.parquet": 7220,
+    "submission_actions.parquet": 208723,
+    "submissions.parquet": 193242
+  },
+  "canonical_molecule_links_created": 0,
+  "canonical_observations_admitted": 0,
+  "dailymed_archives_opened": 0,
+  "decision": "record_level_regulatory_candidates_ready_for_review_not_biomedical_label_admission",
+  "document_contents_downloaded": 0,
+  "manifest_sha256": "d0e6c2d8f7f02ac26d0e384ce895f4ce334fbf3b1034e9d6448d49b06a111ec2",
+  "methods_sha256": "12995e5ce3b934bbfa40e2fde4a1f8b0a0c522f6c83f1e92ae32e5f030c3e7be",
+  "model_labels_admitted": 0,
+  "negative_labels_inferred_from_absence": 0,
+  "normalized_manifest_physical_sha256": "77ae4e7e1b4dbbb42936b628b117860b8db07ab7a42c445cb72d7de7fa4777ea",
+  "rights_review_state": "US_federal_public_data_site_policy_and_institutional_review_required",
+  "schema_version": "platform-regulatory-record-candidates/1.0",
+  "semantic_prohibitions": [
+    "approval_or_status_as_efficacy",
+    "approval_or_status_as_safety_or_causality",
+    "approval_or_status_as_qt_or_pk",
+    "ingredient_name_as_resolved_molecule",
+    "document_presence_as_positive_or_absence_as_negative",
+    "regulatory_action_as_molecular_activity_or_binding"
+  ],
+  "source_archive_sha256": "b27321cd7b1f02b301bac79f853ad39ed77bd0558d23ae8747d21de7fa744120",
+  "source_release_id": "datdaf20260804",
+  "substantive_model_training_performed": false
+}

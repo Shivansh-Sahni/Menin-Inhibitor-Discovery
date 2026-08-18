@@ -1,0 +1,170 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 720710,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "1192",
+              "source_id": {
+                "str": "U2-OS-cyclinE-oncogene-DNA"
+              },
+              "date": {
+                "std": {
+                  "year": 2013,
+                  "month": 12,
+                  "day": 5
+                }
+              }
+            }
+          },
+          "name": "Break-induced replication repair of damaged forks induces genomic duplications in human cells",
+          "description": [
+            "Title: Break-induced replication repair of damaged forks induces genomic duplications in human cells",
+            "",
+            "Abstract: In budding yeast, one-ended DNA double-strand breaks (DSBs) and damaged replication forks are repaired by break-induced replication (BIR), a homologous recombination pathway that requires the Pol32 subunit of DNA polymerase delta. DNA replication stress is prevalent in cancer, but BIR has not been characterized in mammals. In a cyclin E overexpression model of DNA replication stress, POLD3, the human ortholog of POL32, was required for cell cycle progression and processive DNA synthesis. Segmental genomic duplications induced by cyclin E overexpression were also dependent on POLD3, as were BIR-mediated recombination events captured with a specialized DSB repair assay. We propose that BIR repairs damaged replication forks in mammals, accounting for the high frequency of genomic duplications in human cancers.",
+            "",
+            "This RNAi screen aimed to identify genes whose functional inhibition would sensitize U-2 OS cells overexpressing cyclin-E (CCNE1) to oncogene induced DNA replication stress."
+          ],
+          "protocol": [
+            "PROTOCOLS-MATERIALS-EQUIPMENT",
+            "",
+            "Growth Conditions/Cell culture conditions name#CC1",
+            "Protocol description#Propagation Medium was prepared by adding 10% FBS, G418 400 ug/ml (Invitrogen, Cat. No. 10131-027), puromycin 1 ug/ml (Sigma, Cat. No. P8833) and tetracycline 2 ug/ml (Sigma, Cat. No. T7660) in Dulbecco's modified Eagle's medium. Medium was mixed thoroughly and stored at +4 degree_C .Cells were propagted to 90% conluence pre-transfection.",
+            "Growth Conditions/Cell culture conditions name#CC2",
+            "Protocol description#Propagation Medium was prepared by adding 10% FBS, G418 400 ug/ml (Invitrogen, Cat. No. 10131-027) and puromycin 1 ug/ml (Sigma, Cat. No. P8833) in Dulbecco's modified Eagle's medium. Medium was mixed thoroughly and stored at +4 degree_C .Cells were propagted to 90% conluence pre-transfection.",
+            "PreTreatment Protocol Name#",
+            "Protocol description#Cell dissociation procedure",
+            "Treatment type#HyQtase",
+            "Compound Material REF#5 min at 37 degree_C",
+            "Delivery Protocol Name#DL1",
+            "Delivery Type#reverse transfection",
+            "Delivery Protocol (Including complexing)#5microL of 1.67microM siRNA in OptiMEM-I was mixed with 1microL of siLentFect transfection reagent. The solutions were incubated for 25 min at room temperature to allow lipid complexation. Solutions were mixed with samples containing 2microL of OptiMEM-I supplemented with 100mM sucrose and 2microL of growth factor reduced Matrigel extra cellular matrix. Samples were mixed by shaking the master source plates thoroughly and stored at -20 degree_C before array printing. Arrays were prepared with Genetix Qarray2 microarray printer using 150microm solid tip microarraying pins. For transfection, cells were dissociated with HyQtase cell dissociation reagent for 5 min. 2E;06 cells in 4.5 mL of warm conditioned (37 degree_C) growth medium was dispersed into each array well. Cells were allowed to adhere for 25 min at 37 degree_C. Unadhered cells were removed from array wells with gentle rinsing of the arrays with sterile PBS. 4.5 mL of fresh culture medium was added to array wells for transfection. Arrays were incubated at 37 degree_C in a 5% CO2 incubator for 48 hours. Medium in control array wells was replaced with fresh growth medium for additional 16 hour propagation.The treatment array wells were replaced with growth medium supplemented with 2mM Hydroxyurea for additional 16 hour propagation. After the Hydroxyurea treatment cells were rinsed with growth medium and allowed to recover for 3 hours in fresh medium.",
+            "Reagent Type #Lipid",
+            "Delivery Reagent Material REF#siLentFect",
+            "Final concentration of delivery reagent#5nl per spot",
+            "Final concentration of silencing reagent#1microM",
+            "Complexing Protocol#room temperatute",
+            "Time of complex formation#25 min",
+            "PostTreatment Protocol Name#C",
+            "Protocol description#48 hours after cell seeding to arrays, medium was replaced with fresh growth medium for additional 16 hour propagation followed with 3 hour recovery, with EdU for the last 30 minutes.",
+            "Treatment type#Control conditions",
+            "Compound Material REF#",
+            "PostTreatment Protocol Name#HU",
+            "Protocol description#48 hours after cell seeding to arrays, medium was replaced with fresh growth medium for additional 16 hour propagation in 2mM Hydroxyurea containing medium followed with 3 hour recovery in fresh medium, with EdU for the last 30 minutes.",
+            "Treatment type#Hydroxyurea exposure conditions",
+            "Compound Material REF#Hydroxyurea",
+            "Assay Protocol Name#EdU",
+            "Assay description#Fluorescence based analysis of EdU incorporation - measures DNA synthesis",
+            "Control definition#worksheet:Plate Layout",
+            "Assay Material REF#EdU",
+            "Protocol description#Cells were exposed to 10mM EdU for 30 minutes. EdU staining was performed 67 hours after seeding cells to the CSMAs according to the protocol below. Cells on CSMA were fixed with 4% PFA in PBS solution for 15 min at room temperature. PFA was inactivated with 50mM NH4Cl2 with briefly rinsing the arrays. Cells were permabilized with 0.3% Triton-X100-PBS solution for 15 min at room temperature. After permeabilization arrays were washed with PBS for 5 min at room temperature. After permeabilization arrays were rinsed with distilled H2O, air dried and framed with a hydrophobic lining using a PAP pen. EdU Click-iT reaction solution was incubated for 30 min followed with detection according to the manufacturer protocol.Following final wash cells were counterstained with DAPI for imaging.",
+            "Threshold values used#Positions with no cells or failed autofocus were left systematically out of analysis from both replicates",
+            "Equipment REF#Olympus scanR",
+            "Type of readout#fluorescence",
+            "Data Analysis Name#DAP1",
+            "Details of non-specific filtering of data#Spots with no cells or failed autofocus were systematically excluded from the analysis",
+            "Transformation details#raw fluorescence units",
+            "Reference to analysis script#",
+            "Analysis Sofware REF#scanR. Nuclei were segmented on basis of DAPI counter staining and nuclear intensity of DAPI and EdU were quantified for analysis. MS Excel. We used Excel to calculate the subgrid centered net intensity values, z-scores, generate the screening graphs, such as histograms of controls and samples, boxplots, and replicate-to-replicate scatter plots for visual analysis.",
+            "Analysis Software version#",
+            "Normalisation parameters#We normalized the data by dividing each spot level DAPI and EdU total fluorescence intensity value by the subgrid median value represented by 1 for measuring a net intensity value.",
+            "Controls used#Non-Targeting scramble siRNA",
+            "Scoring method#Scoring method - z-score calculated for each array spot using the mean and standard deviation of negative control sample positions",
+            "Quality Controls Steps#Confocal fluorescence microarray scanning of the array surface to detect even antibody staining",
+            "Assay Plate Protocol Name#APP1",
+            "Number of cells per well#2 000 000 cells used for array seeding",
+            "Time to assay point#67 hours",
+            "Time of exposure of transfection reagent#67 hours"
+          ],
+          "comment": [
+            "SAMPLES",
+            "",
+            "U-2 OS#http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=HTB-96&Template=cellBiology",
+            "U-2 OS-CCNE1#Bartkova J, et al., Nature. 2005, 434(7035):864-870",
+            "",
+            "DATA",
+            "",
+            "Sample REF,Replicate REF,PlateLayout REF,Growth conditions,Delivery Protocol REF,PostTreatment Protocol REF,Assay Plate Protocol REF,Assay Protocol REF,Data Analysis Protocol REF",
+            "U-2 OS,A,CSMA_VTT,CC1,DL1,C,APP1,EdU,DAP1",
+            "U-2 OS,B,CSMA_VTT,CC1,DL1,HU,APP1,EdU,DAP1",
+            "U-2 OS-CCNE1,C,CSMA_VTT,CC2,DL1,C,APP1,EdU,DAP1",
+            "U-2 OS-CCNE1,D,CSMA_VTT,CC2,DL1,HU,APP1,EdU,DAP1"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 24310611
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "GENE_SYMBOL",
+              "description": [
+                "Gene Symbol"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "siRNA_ID",
+              "description": [
+                "Reagent Identifier"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "ZScoreRepA",
+              "description": [
+                "EdUZscore"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 4,
+              "name": "ZScoreRepB",
+              "description": [
+                "EdUZscore"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "ZScoreRepC",
+              "description": [
+                "EdUZscore"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 6,
+              "name": "ZScoreRepD",
+              "description": [
+                "EdUZscore"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "PUBCHEM_NCBI_GENE_ID",
+              "type": 4,
+              "annot": 18
+            }
+          ],
+          "revision": 3,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

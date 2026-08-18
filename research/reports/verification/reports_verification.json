@@ -1,0 +1,18 @@
+{
+  "checked_files": 146,
+  "expected_files": 146,
+  "issue_count": 1,
+  "issues": [
+    {
+      "actual": "69f8a5359cb004931b73d646f6025c63f1bc851c64dfba3a12d3cf0a8bced5c5",
+      "code": "manifest_scope_changed",
+      "expected": "4a1e0b962bb4302b01bdad79e04606b98a99aaf6e81174700a132ba8c887e526",
+      "message": "The current release report bundle differs from its manifest.",
+      "path": null
+    }
+  ],
+  "manifest_verification_version": "1.0",
+  "stage": "reports",
+  "valid": false,
+  "verified_at": "2026-08-04T15:31:17Z"
+}

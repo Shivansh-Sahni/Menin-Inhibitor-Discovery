@@ -1,0 +1,139 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 743454,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "1154",
+              "source_id": {
+                "str": "vorinostat-resistance-genes-primary-screen"
+              },
+              "date": {
+                "std": {
+                  "year": 2014,
+                  "month": 7,
+                  "day": 7
+                }
+              }
+            }
+          },
+          "name": "RNAi screen for vorinostat resistance genes - Primary Screen",
+          "description": [
+            "Assay description will be published shortly and manuscript citation added here."
+          ],
+          "protocol": [
+            "Assay description will be published shortly and manuscript citation added here."
+          ],
+          "comment": [
+            "Paper is available at: http://www.nature.com/articles/sdata201417"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "asurl": "http://www.nature.com/articles/sdata201417"
+              }
+            },
+            {
+              "xref": {
+                "pmid": 25977774
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "REAGENT_ID",
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "ENTREZ_GENE_ID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "CTF_HIT_BIN",
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "CASP_HIT_BIN",
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "AVERAGE_CTF_ROBUST_Z_SCORE",
+              "type": 1
+            },
+            {
+              "tid": 6,
+              "name": "AVERAGE_CTF_NORMALISED_TO_MOCK",
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "AVERAGE_CTF_FLUORESCENCE_UNITS",
+              "type": 2
+            },
+            {
+              "tid": 8,
+              "name": "AVERAGE_CASP_ROBUST_Z_SCORE",
+              "type": 1
+            },
+            {
+              "tid": 9,
+              "name": "AVERAGE_CASP_NORMALISED_TO_MOCK",
+              "type": 1
+            },
+            {
+              "tid": 10,
+              "name": "AVERAGE_CASP_LUMINESCENCE_UNITS",
+              "type": 2
+            },
+            {
+              "tid": 11,
+              "name": "AVERAGE_DAPI_CELL_COUNT",
+              "type": 2
+            },
+            {
+              "tid": 12,
+              "name": "AVERAGE_DAPI_FIELD_COUNT",
+              "type": 1
+            },
+            {
+              "tid": 13,
+              "name": "SA_BIN",
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "SEED_CLUSTER_ANALYSIS",
+              "type": 4
+            },
+            {
+              "tid": 15,
+              "name": "LIBRARY_PLATE",
+              "type": 2
+            },
+            {
+              "tid": 16,
+              "name": "WELL_LOCATION",
+              "type": 4
+            }
+          ],
+          "revision": 5,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

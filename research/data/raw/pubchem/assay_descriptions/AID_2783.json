@@ -1,0 +1,1036 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2783,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "MENN9468"
+              },
+              "date": {
+                "std": {
+                  "year": 2010,
+                  "month": 6,
+                  "day": 23
+                }
+              }
+            }
+          },
+          "name": "Confirmation of Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "description": [
+            "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias",
+            "NIH Chemical Genomics Center [NCGC]",
+            "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+            "",
+            "MLPCN Grant: MH084875-01A1",
+            "Assay Submitter (PI): Jolanta Grembecka, Tomasz Cierpicki, University of Virginia",
+            "",
+            "Translocations of the MLL (Mixed Lineage Leukemia) gene are frequently found in human leukemias affecting both children and adults. Fusion of MLL to one of more than 60 genes results in generation of oncogenic proteins upregulating Hox genes, which are vital to blood cell development. Patients harboring fusion of the MLL gene suffer from aggressive leukemias and respond poorly to available therapies. All of the oncogenic fusion proteins have a preserved N-terminal fragment of MLL that has been identified to interact with menin. It has been recently discovered that association with menin is critical to the leukemogenic activity of the MLL fusion oncoproteins. Selective targeting of the menin-MLL interaction could provide an attractive therapeutic approach to develop novel drugs for MLL-related leukemias. Small molecules blocking the menin-MLL interaction should reverse the oncogenic potential of MLL fusion proteins.",
+            "",
+            "We have developed and optimized a fluorescence polarization-based assay for the identification of Menin-MLL inhibitors. The assay was run employing two different MLL-derived peptides. The present assay uses a 12 amino acid peptide labeled with fluorescein at its N-terminus. This peptide consists of the menin high affinity binding motif from MLL and is potently bound by menin. Another peptide with a mutated sequence, labeled with Texas Red, was used in parallel as a less stringent screen for inhibitors. ",
+            "",
+            "The present assay was run to confirm the activity of hits from the primary screen."
+          ],
+          "protocol": [
+            "The Menin protein, the MLL-wild type (w.t.) derived peptide (N-terminal 12 amino acids), the MLL-derived peptide labeled with Texas Red and the MLL-w.t. peptide labeled with Fluorescein were kindly supplied by laboratory of Dr. Jolanta Grembecka, University of Virginia. All protein and peptide solutions were stored in single use aliquots at -80C. The Eu3+ Cyrptate-conjugated mouse monoclonal antibody anti-6 Histidine (Eu3+-AB) and the Streptavidin-XL665 conjugate (XL665) were purchased from Cisbio International (Bedford, MA). All antibody and XL665 conjugate solution stocks were stored in single use aliquots at -20C. The Buffer components for all assays were purchased from Sigma-Aldrich (St. Louis, MO) and Invitrogen (Carlsbad, CA).",
+            "",
+            "FP Assay Reagents:",
+            "",
+            "1. FP reaction buffer: 50 mM Tris-HCl pH 7.5, 50 mM NaCl, 1mM DTT.",
+            "Before use, 0.05% BSA is added.",
+            "2. Menin protein, MLL-w.t. labeled with fluorescein, MLL-mutant peptide labeled with texas red.",
+            "Stored in singe use aliquots at -80C.",
+            "3. MLL-w.t. unlabeled peptide as positive control: 10 uM final in FP buffer.",
+            "",
+            "FP Assay Procedure:",
+            "1. Prepare Menin at 200 nM, MLL-w.t.-fluorescein at 25 nM, and MLL-mutant-texas red at 50 nM mixture in FP buffer.",
+            "2. Prepare Menin at 200 nM, MLL-w.t.-fluorescein at 25 nM, MLL-mutant-texas red at 50 nM, and 10 uM MLL-w.t. unlabeled mixture in FP buffer.",
+            "3. Prepare MLL-w.t.-fluorescein at 25 nM and MLL-mutant-texas red at 50 nM mixture in FP buffer.",
+            "3. Dispense 4 ul per well of reagent in step 1 in columns 2, 4 - 48 in a black 1536 well plate, dispense 4 ul per well of reagents from steps 2 and 3 in columns 1 and 3 respectively. Incubate plate at ambient for 15 minutes.",
+            "4. Transfer 23 nl per well of compound to plate and incubate at ambient for 1 hr.",
+            "5. Read fluorescence polarization for each label using the PerkinElmer Envision.",
+            "",
+            "Envision protocol for fluorescein: FITC FP Dual Enh Mirror, Excitation filter 480, Emission filter (1) P-pol 535, Emission filter (2) S-pol 535",
+            "Envision protocol for texas red: FP Dual Enh Mirror, Excitation filter 555, Emission filter (1) P-pol 632, Emission filter (2) S-pol 632"
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "Two readouts are measured in this assay, fluorescence polarization (FP) and total fluorescence. FP gives a measure of inhibition of the protein-peptide interaction. Total fluorescence is used to flag fluorescent molecules that might otherwise interfere with an accurate determination of FP.",
+            "",
+            "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive for both FP and total fluorescence readouts. See data field \"FP Curve Description\" and \"Total_Fluorescence Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+            "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above. Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100. Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39. Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 2076
+              }
+            },
+            {
+              "xref": {
+                "aid": 1766
+              }
+            },
+            {
+              "xref": {
+                "aid": 1768
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://www.ncgc.nih.gov"
+              }
+            },
+            {
+              "xref": {
+                "gene": 4297
+              },
+              "comment": "myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila) [Homo sapiens] "
+            },
+            {
+              "xref": {
+                "gene": 4221
+              },
+              "comment": "multiple endocrine neoplasia I [Homo sapiens] "
+            },
+            {
+              "xref": {
+                "mim": 159555
+              }
+            },
+            {
+              "xref": {
+                "mim": 131100
+              }
+            },
+            {
+              "xref": {
+                "pmid": 16239140
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Phenotype",
+              "description": [
+                "Indicates type of activity observed: inhibitor, activator, fluorescent, cytotoxic, inactive, or inconclusive."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Potency",
+              "description": [
+                "Concentration at which compound exhibits half-maximal efficacy, AC50. Extrapolated AC50s also include the highest efficacy observed and the concentration of compound at which it was observed."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 3,
+              "name": "Efficacy",
+              "description": [
+                "Maximal efficacy of compound, reported as a percentage of control. These values are estimated based on fits of the Hill equation to the dose-response curves."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 4,
+              "name": "Analysis Comment",
+              "description": [
+                "Annotation/notes on a particular compound's data or its analysis."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Total_Fluorescence-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Total_Fluorescence-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Total_Fluorescence-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Total_Fluorescence-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Total_Fluorescence-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 10,
+              "name": "Total_Fluorescence-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 11,
+              "name": "Total_Fluorescence-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "Total_Fluorescence-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "Total_Fluorescence-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 14,
+              "name": "Total_Fluorescence-Activity at 0.0000080105 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 8.01054011390079e-06,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 15,
+              "name": "Total_Fluorescence-Activity at 0.0000240316 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.40316003328189e-05,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 16,
+              "name": "Total_Fluorescence-Activity at 0.0000720949 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.20949028618634e-05,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 17,
+              "name": "Total_Fluorescence-Activity at 0.0002162846 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000216284999623895,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 18,
+              "name": "Total_Fluorescence-Activity at 0.0006488539 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000648854009341449,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 19,
+              "name": "Total_Fluorescence-Activity at 0.00195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00194655999075621,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 20,
+              "name": "Total_Fluorescence-Activity at 0.00584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00583969010040164,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 21,
+              "name": "Total_Fluorescence-Activity at 0.011 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0112249003723264,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 22,
+              "name": "Total_Fluorescence-Activity at 0.024 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0235288999974728,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 23,
+              "name": "Total_Fluorescence-Activity at 0.056 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0559890009462833,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 24,
+              "name": "Total_Fluorescence-Activity at 0.112 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.112118996679783,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 25,
+              "name": "Total_Fluorescence-Activity at 0.196 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.195627003908157,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 26,
+              "name": "Total_Fluorescence-Activity at 0.391 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.391389012336731,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 27,
+              "name": "Total_Fluorescence-Activity at 0.783 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.782652020454407,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 28,
+              "name": "Total_Fluorescence-Activity at 1.565 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.56517004966736,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 29,
+              "name": "Total_Fluorescence-Activity at 3.131 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.13142991065979,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 30,
+              "name": "Total_Fluorescence-Activity at 6.261 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.26121997833252,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 31,
+              "name": "Total_Fluorescence-Activity at 12.52 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 12.5226001739502,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 32,
+              "name": "Total_Fluorescence-Activity at 25.04 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 25.044900894165,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 33,
+              "name": "Total_Fluorescence-Activity at 50.09 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 50.0856018066406,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 34,
+              "name": "Total_Fluorescence-Activity at 100.2 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 100.193000793457,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 35,
+              "name": "Total_Fluorescence-Activity at 181.8 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 181.833999633789,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 36,
+              "name": "Total_Fluorescence-Activity at 287.5 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 287.522003173828,
+                "unit": 5,
+                "dr_id": 2
+              }
+            },
+            {
+              "tid": 37,
+              "name": "FP-Curve_Description",
+              "description": [
+                "A description of dose-response curve quality. A complete curve has two observed asymptotes; a partial curve may not have attained its second asymptote at the highest concentration tested. High efficacy curves exhibit efficacy greater than 80% of control. Partial efficacies are statistically significant, but below 80% of control."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 38,
+              "name": "FP-Fit_LogAC50",
+              "description": [
+                "The logarithm of the AC50 from a fit of the data to the Hill equation (calculated based on Molar Units)."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 39,
+              "name": "FP-Fit_HillSlope",
+              "description": [
+                "The Hill slope from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 40,
+              "name": "FP-Fit_R2",
+              "description": [
+                "R^2 fit value of the curve. Closer to 1.0 equates to better Hill equation fit."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 41,
+              "name": "FP-Fit_InfiniteActivity",
+              "description": [
+                "The asymptotic efficacy from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 42,
+              "name": "FP-Fit_ZeroActivity",
+              "description": [
+                "Efficacy at zero concentration of compound from a fit of the data to the Hill equation."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 43,
+              "name": "FP-Fit_CurveClass",
+              "description": [
+                "Numerical encoding of curve description for the fitted Hill equation."
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 44,
+              "name": "FP-Excluded_Points",
+              "description": [
+                "Which dose-response titration points were excluded from analysis based on outlier analysis. Each number represents whether a titration point was (1) or was not (0) excluded, for the titration series going from smallest to highest compound concentrations."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 45,
+              "name": "FP-Max_Response",
+              "description": [
+                "Maximum activity observed for compound (usually at highest concentration tested)."
+              ],
+              "type": 1,
+              "unit": 15
+            },
+            {
+              "tid": 46,
+              "name": "FP-Activity at 0.0000080105 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 8.01054011390079e-06,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 47,
+              "name": "FP-Activity at 0.0000240316 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 2.40316003328189e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 48,
+              "name": "FP-Activity at 0.0000720949 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 7.20949028618634e-05,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 49,
+              "name": "FP-Activity at 0.0002162846 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000216284999623895,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 50,
+              "name": "FP-Activity at 0.0006488539 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.000648854009341449,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 51,
+              "name": "FP-Activity at 0.00195 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00194655999075621,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 52,
+              "name": "FP-Activity at 0.00584 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.00583969010040164,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 53,
+              "name": "FP-Activity at 0.011 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0112249003723264,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 54,
+              "name": "FP-Activity at 0.024 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0235288999974728,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 55,
+              "name": "FP-Activity at 0.056 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.0559890009462833,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 56,
+              "name": "FP-Activity at 0.112 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.112118996679783,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 57,
+              "name": "FP-Activity at 0.196 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.195627003908157,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 58,
+              "name": "FP-Activity at 0.391 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.391389012336731,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 59,
+              "name": "FP-Activity at 0.783 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 0.782652020454407,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 60,
+              "name": "FP-Activity at 1.565 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 1.56517004966736,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 61,
+              "name": "FP-Activity at 3.131 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 3.13142991065979,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 62,
+              "name": "FP-Activity at 6.261 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 6.26121997833252,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 63,
+              "name": "FP-Activity at 12.52 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 12.5226001739502,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 64,
+              "name": "FP-Activity at 25.04 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 25.044900894165,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 65,
+              "name": "FP-Activity at 50.09 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 50.0856018066406,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 66,
+              "name": "FP-Activity at 100.2 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 100.193000793457,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 67,
+              "name": "FP-Activity at 181.8 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 181.833999633789,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 68,
+              "name": "FP-Activity at 287.5 uM",
+              "description": [
+                "% Activity at given concentration."
+              ],
+              "type": 1,
+              "unit": 15,
+              "tc": {
+                "concentration": 287.522003173828,
+                "unit": 5,
+                "dr_id": 1
+              }
+            },
+            {
+              "tid": 69,
+              "name": "Compound QC",
+              "description": [
+                "NCGC designation for data stage: 'qHTS', 'qHTS Verification', 'Secondary Profiling'"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "histone-lysine N-methyltransferase MLL [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_005924.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "menin isoform 1 [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_000235.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activity_outcome_method": 2,
+          "dr": [
+            {
+              "id": 1,
+              "descr": "CR Plot Labels 1",
+              "dn": "Concentration",
+              "rn": "Response"
+            },
+            {
+              "id": 2,
+              "descr": "CR Plot Labels 2",
+              "dn": "Concentration",
+              "rn": "Response"
+            }
+          ],
+          "grant_number": [
+            "MH084875-01A1"
+          ],
+          "project_category": 2
+        }
+      }
+    }
+  ]
+}

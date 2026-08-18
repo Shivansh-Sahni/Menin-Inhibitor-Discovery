@@ -1,0 +1,76 @@
+{
+  "dataset_key": "default::default__binding__kd__pk_adme__nm__continuous_exact",
+  "declared_rows": 2,
+  "diagnostic_materialized": false,
+  "integration_materialized": false,
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "default::default__binding__kd__pk_adme__nm__continuous_exact",
+    "declared_rows": 2,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 0,
+      "train": 2,
+      "validation": 0
+    },
+    "predicted_partition_rows": {
+      "test": 0,
+      "train": 2,
+      "validation": 0
+    },
+    "rows_scanned": 2,
+    "skip_reasons": [
+      "predicted_test_molecule_groups_empty",
+      "predicted_test_rows_insufficient",
+      "predicted_validation_molecule_groups_empty",
+      "predicted_validation_rows_insufficient",
+      "rows_below_configured_minimum",
+      "unique_molecule_groups_below_configured_minimum"
+    ],
+    "substantive_training_started": false,
+    "support_decision": "skip",
+    "task_semantics": {
+      "assay_family": "pk_adme",
+      "endpoint": "Kd",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_exact",
+      "observation_kind": "experimental_summary",
+      "task_id": "TASK-D1C8BFE0C4E8D334ADE27710",
+      "task_type": "default__binding__kd__pk_adme__nm__continuous_exact"
+    },
+    "unique_molecule_groups": 2,
+    "unique_observation_ids": 2,
+    "unique_protein_groups": 1
+  },
+  "skip_reasons": [
+    "predicted_test_molecule_groups_empty",
+    "predicted_test_rows_insufficient",
+    "predicted_validation_molecule_groups_empty",
+    "predicted_validation_rows_insufficient",
+    "rows_below_configured_minimum",
+    "unique_molecule_groups_below_configured_minimum"
+  ],
+  "status": "skipped_insufficient_fixed_split_support",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "1ed857e47d733baa98dc843941cc97edc140d7d9820f418e46140f679a5c643b",
+  "task_output_path": "tasks/default_binding_kd_pk_adme_nm_continuous_exact-e5ed0ae43492",
+  "task_scope": "default",
+  "task_type": "default__binding__kd__pk_adme__nm__continuous_exact"
+}

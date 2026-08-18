@@ -1,0 +1,42 @@
+{
+  "analysis_id": "external_admission_analysis_full_chembl37",
+  "analyzer_version": "platform_external_admission/1.1",
+  "decision": "not_ready_for_external_canonical_admission_or_model_training",
+  "external_canonical_observations_admitted": 0,
+  "external_model_labels_admitted": 0,
+  "input_bindings": {
+    "analyzer_code_sha256": "95f51ee7fe2edbf483028abdaae6df3b4b5ec906d96c6bb08e7250fab6086b66",
+    "canonical_manifest_physical_sha256": "1ace39ef8bfc3cb41aa8cc9f54abce734b0d3e45118cffabab402eb97ee937eb",
+    "canonical_used_component_set_sha256": "233fe50e531cc7670e19de0fc1cb13a7014fa8d9aa10cc68e9c6bd9a11d62300",
+    "normalized_manifest_physical_sha256": "ee611cbd66689fe8e1f1086b41859e1a624b3df576f7a5de22a9186678ff4ea9"
+  },
+  "manifest_sha256": "efcb614aa7e4480e03d8fa378a4b6d8f8d2a006bd7ca52904675f28a1279764e",
+  "mechanical_analysis_status": "passed",
+  "output_inventory": {
+    "entries": [
+      {
+        "artifact_role": "machine_readable_report",
+        "bytes": 40382,
+        "path": "external_admission_readiness_report.json",
+        "sha256": "c21fdc6c93f2c11c7e750f801d26f5135727aba15e02485f1016afc336949713"
+      },
+      {
+        "artifact_role": "methods_and_limitations",
+        "bytes": 3816,
+        "path": "methods_and_limitations.md",
+        "sha256": "9217c10fecf62e32a4f7af76b1311c36b5af9af1c3c0a87cc1d3a510726c12b6"
+      }
+    ],
+    "entries_sha256": "247048bebed98b9a60447c4f304310009f3d40f6368cda37bc5105f69f8d8d10",
+    "entry_count": 2,
+    "excluded_paths": [
+      "external_admission_analysis_manifest.json"
+    ],
+    "exclusion_reason": "self-referential manifest bound by manifest_sha256",
+    "total_bytes": 44198
+  },
+  "report_internal_sha256": "3d2b9d32cb76c00d03ae0f61cfa9097175f421c4216c3d7f4fbd84c9af5a18f0",
+  "schema_version": "platform-external-admission-readiness/1.0",
+  "substantive_model_training_authorized": false,
+  "substantive_model_training_performed": false
+}

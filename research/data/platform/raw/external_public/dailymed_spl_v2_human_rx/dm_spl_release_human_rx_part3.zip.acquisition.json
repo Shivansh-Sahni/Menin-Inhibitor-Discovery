@@ -1,0 +1,27 @@
+{
+  "acquired_bytes": 3220663350,
+  "acquired_md5": "7ee94cb9778e237661d6d2bf925b7e52",
+  "acquired_sha256": "bb0bf6c44f4bcb04559749ba5267cf1d467972cbbaa06e7ea6f8399883efe0b9",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://dailymed-data.nlm.nih.gov/public-release-files/dm_spl_release_human_rx_part3.zip",
+  "expected_bytes": 3220663350,
+  "expected_sha256": null,
+  "local_path": "dm_spl_release_human_rx_part3.zip",
+  "manifest_sha256": "774ae97376c3e34b962818f23848282bbd74a0f7e6577f85a63ced5445d14485",
+  "resolved_url": "https://dailymed-data.nlm.nih.gov/public-release-files/dm_spl_release_human_rx_part3.zip",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "content-length": "3220663350",
+    "content-type": "application/zip",
+    "date": "Tue, 04 Aug 2026 18:58:08 GMT",
+    "etag": "\"2770dd83bd9e3c312933e47e8086c4d2-384\"",
+    "last-modified": "Tue, 04 Aug 2026 02:14:57 GMT",
+    "server": "AmazonS3"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:58:10Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "dm_spl_release_human_rx_part3.zip",
+  "upstream_md5_when_published": "7ee94cb9778e237661d6d2bf925b7e52"
+}

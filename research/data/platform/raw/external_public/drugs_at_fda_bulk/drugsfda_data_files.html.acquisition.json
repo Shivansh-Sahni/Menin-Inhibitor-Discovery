@@ -1,0 +1,29 @@
+{
+  "acquired_bytes": 34672,
+  "acquired_md5": null,
+  "acquired_sha256": "61defb4823444dd56b200f81dfd9c28df02311ab76326b35ee65a7ba2e8ccd2c",
+  "acquisition_status": "downloaded_verified",
+  "canonical_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+  "expected_bytes": null,
+  "expected_sha256": null,
+  "local_path": "drugsfda_data_files.html",
+  "manifest_sha256": "82d6f4ec66403be0ab53b8f4f8070f46e05208c7cb3b4df9b75a238e5f0a63a2",
+  "resolved_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+  "response_headers": {
+    "cache-control": "public, max-age=61747",
+    "content-length": "34672",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 04 Aug 2026 18:21:06 GMT",
+    "etag": "\"1785843012\"",
+    "expires": "Wed, 05 Aug 2026 11:30:13 GMT",
+    "last-modified": "Tue, 04 Aug 2026 11:30:12 GMT",
+    "server": "nginx",
+    "vary": "Accept-Encoding"
+  },
+  "response_status": 200,
+  "resumed_from_bytes": 0,
+  "retrieval_utc": "2026-08-04T18:21:09Z",
+  "schema_version": "platform-external-acquisition/1.0",
+  "upstream_filename": "drugsfda_data_files.html",
+  "upstream_md5_when_published": null
+}

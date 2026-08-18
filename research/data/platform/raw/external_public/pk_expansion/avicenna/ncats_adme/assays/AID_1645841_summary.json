@@ -1,0 +1,58 @@
+{
+  "AssaySummaries": {
+    "AssaySummary": [
+      {
+        "AID": 1645841,
+        "SourceName": "NCGC",
+        "SourceID": "CYP3A4437",
+        "Name": "Cytochrome P450 family 3 subfamily A member 4 (CYP3A4) small molecule antagonists: luciferase cell-based qHTS assay",
+        "Description": [
+          "National Center for Advancing Translational Sciences [NCATS]",
+          "",
+          " Assay Overview:",
+          "",
+          "Cytochrome P450 (CYP) enzymes are membrane-bound hemeproteins that play a key role in metabolism of drugs and xenobiotics. Assaying the effect of chemicals on CYP isozymes is useful to minimize the adverse drug reactions and toxicities in drug development process. Chemical compounds were tested for their effect on CYP enzyme activities by using P450-Glo (TM) screening systems (Promega Corporation, Madison, WI). These systems provide a luminescent method containing proluciferin substrates and are converted to luciferin products by CYP isozymes. The luciferin products formed are detected with a luciferin detection reagent, and the amount of light produced is proportional to CYP activity. P450-Glo (TM) CYP3A4 screening system (Catalog. No. V9910) was used to detect the compounds that interfere in CYP3A4 activity. The positive control compound used for CYP3A4 assay is ketoconazole (Sigma-Aldrich, St. Louis, MO)."
+        ],
+        "Protocol": [
+          "Assay Protocol Summary:",
+          "",
+          "Two ul of enzyme-substrate mix was dispensed into medium binding white/solid 1536-well plates (Greiner Bio-One North America Inc., Monroe, NC) using a Flying Reagent Dispenser (FRD, Aurora Discovery, San Diego, CA). Test compounds dissolved in DMSO and positive control (ketoconazole) were transferred to the assay plates at 23 nl using a Pintool station (Wako, San Diego, CA). The assay plates were incubated at room temperature for 10 min. Then 2 ul of NADPH regeneration solution was added to each well of the assay plates using an FRD and incubated at room temperature for 1 h. The reaction was stopped by adding 4 ul of detection reagent using an FRD and after 20 min incubation at room temperature, the luminescence signal was measured using a ViewLux plate reader (Perkin Elmer, Shelton, CT). Data were expressed as relative luminescence units."
+        ],
+        "Comment": [
+          "Compound Ranking:",
+          "",
+          "1. Compounds are first classified as having full titration curves, partial modulation, partial curve (weaker actives), single point activity (at highest concentration only), or inactive. See data field \"Curve Description\". For this assay, apparent inhibitors are ranked higher than compounds that showed apparent activation.",
+          "2. For all inactive compounds, PUBCHEM_ACTIVITY_SCORE is 0. For all active compounds, a score range was given for each curve class type given above.  Active compounds have PUBCHEM_ACTIVITY_SCORE between 40 and 100.  Inconclusive compounds have PUBCHEM_ACTIVITY_SCORE between 1 and 39.  Fit_LogAC50 was used for determining relative score and was scaled to each curve class' score range."
+        ],
+        "NumberOfTIDs": 196,
+        "HasScore": true,
+        "Method": "confirmatory",
+        "Target": [
+          {
+            "Accession": "ABI96208",
+            "Name": "cytochrome P450 family 3 subfamily A polypeptide 4"
+          }
+        ],
+        "Version": 1,
+        "Revision": 1,
+        "LastDataChange": {
+          "Year": 2021,
+          "Month": 3,
+          "Day": 4
+        },
+        "SIDCountAll": 5242,
+        "SIDCountActive": 2147,
+        "SIDCountInactive": 2202,
+        "SIDCountInconclusive": 893,
+        "SIDCountUnspecified": 0,
+        "SIDCountProbe": 0,
+        "CIDCountAll": 5095,
+        "CIDCountActive": 2105,
+        "CIDCountInactive": 2145,
+        "CIDCountInconclusive": 878,
+        "CIDCountUnspecified": 0,
+        "CIDCountProbe": 0
+      }
+    ]
+  }
+}

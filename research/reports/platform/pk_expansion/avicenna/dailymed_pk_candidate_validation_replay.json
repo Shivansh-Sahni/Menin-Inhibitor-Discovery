@@ -1,0 +1,99 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_table_hashes_present": true,
+    "artifact::document_inventory.jsonl::bytes": true,
+    "artifact::document_inventory.jsonl::sha256": true,
+    "artifact::latest_available_candidate_documents.jsonl::bytes": true,
+    "artifact::latest_available_candidate_documents.jsonl::sha256": true,
+    "artifact::scan_summary.json::bytes": true,
+    "artifact::scan_summary.json::sha256": true,
+    "artifact::section_candidates.jsonl::bytes": true,
+    "artifact::section_candidates.jsonl::sha256": true,
+    "artifact::table_candidates.jsonl::bytes": true,
+    "artifact::table_candidates.jsonl::sha256": true,
+    "artifact::validation.json::bytes": true,
+    "artifact::validation.json::sha256": true,
+    "declared_table_count_matches_rows": true,
+    "manifest_artifact_count": true,
+    "manifest_canonical_rows_zero": true,
+    "manifest_total_bytes": true,
+    "manifest_training_labels_zero": true,
+    "prior_validation_all_passed": true,
+    "prior_validation_checks_all_true": true,
+    "source_manifest_binding": true,
+    "source_manifest_member_count": true,
+    "summary_context_tiers": true,
+    "summary_count::bounded_evidence_spans": true,
+    "summary_count::candidate_document_versions": true,
+    "summary_count::candidate_documents_with_at_least_one_tier_A_section": true,
+    "summary_count::candidate_documents_with_exact_drugsfda_application_match": true,
+    "summary_count::candidate_sections": true,
+    "summary_count::candidate_tables": true,
+    "summary_count::canonical_rows": true,
+    "summary_count::documents_with_clinical_pharmacology_section": true,
+    "summary_count::documents_with_exact_drugsfda_application_match": true,
+    "summary_count::documents_with_explicit_pharmacokinetics_section": true,
+    "summary_count::inner_xml_members_parsed": true,
+    "summary_count::latest_available_candidate_documents": true,
+    "summary_count::outer_members_scanned": true,
+    "summary_count::parse_errors": true,
+    "summary_count::training_labels": true,
+    "summary_count::unique_document_ids": true
+  },
+  "context_completeness_tiers": {
+    "A_all_core_machine_detected_unverified": 29664,
+    "B_endpoint_unit_matrix_human_and_partial_administration_context": 4324,
+    "C_quantitative_endpoint_candidate_with_major_context_gap": 9174
+  },
+  "fail_closed": true,
+  "implementation_bindings": {
+    "exact_merge_validator": {
+      "bytes": 18210,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_merge_validator_exact.py",
+      "sha256": "e133eb26adbf5003fda4d34568e27cbc956957d9fd78cd6a3acef23b8d8b76a1"
+    },
+    "exact_scanner": {
+      "bytes": 27063,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_scanner_exact.py",
+      "sha256": "81b691fbc6b19b24530b2a309dea3282c29b37ff45e07b1661ee94645bc2d07d"
+    },
+    "replay_cli": {
+      "bytes": 16005,
+      "path": "research/reports/platform/pk_expansion/avicenna/scripts/dailymed_pk_candidate_cli.py",
+      "sha256": "c0edc0271e9747b6a4d543be622c9625f464c7f1a5c0898de5b84eccbe9dfa61"
+    }
+  },
+  "inputs": {
+    "evidence_manifest": {
+      "bytes": 1260,
+      "path": "research/data/platform/raw/external_public/pk_expansion/avicenna/dailymed_pk_candidate_evidence/manifest.json",
+      "sha256": "629221baa96ddfed32b66281c5cfe382624c48151bad9dd88e67aef41c686d48"
+    },
+    "source_manifest": {
+      "bytes": 25387,
+      "path": "research/data/platform/raw/external_public/dailymed_spl_v2_human_rx/dailymed_spl_v2_human_rx_manifest.json",
+      "sha256": "f2a2c2fca158bfd524c3d1d8acd4edb7bcf8c2db3a4212bc6595cf7cef359886"
+    }
+  },
+  "mode": "validation_only_replay",
+  "observed_counts": {
+    "bounded_evidence_spans": 313014,
+    "candidate_document_versions": 41960,
+    "candidate_documents_with_at_least_one_tier_A_section": 29334,
+    "candidate_documents_with_exact_drugsfda_application_match": 19652,
+    "candidate_sections": 43162,
+    "candidate_tables": 26610,
+    "canonical_rows": 0,
+    "documents_with_clinical_pharmacology_section": 50840,
+    "documents_with_exact_drugsfda_application_match": 23805,
+    "documents_with_explicit_pharmacokinetics_section": 35024,
+    "inner_xml_members_parsed": 54672,
+    "latest_available_candidate_documents": 40247,
+    "outer_members_scanned": 54672,
+    "parse_errors": 0,
+    "training_labels": 0,
+    "unique_document_ids": 54672
+  },
+  "schema_version": "pk-expansion-dailymed-replay/1.0"
+}

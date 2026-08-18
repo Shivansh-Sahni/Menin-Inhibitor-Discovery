@@ -1,0 +1,159 @@
+{
+  "artifact_count": 25,
+  "artifacts": [
+    {
+      "bytes": 11331,
+      "path": "cyp_inhibition_chemeleon/LICENSE",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "72704839c564cb3c51e5b81214c52abde98d5595fd4acd1235cce51efd13098e"
+    },
+    {
+      "bytes": 4712,
+      "path": "cyp_inhibition_chemeleon/README.md",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "7e11993c379f41ae85699e61a6476781e28438b7b1b0a129abb6c9bf50c2e809"
+    },
+    {
+      "bytes": 527901,
+      "path": "cyp_inhibition_chemeleon/anvil_training/data/X_train.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "208d3662cdf3221c9ef7e4adc138fd48e1ae03ef9edb3e984f8344c8c26d35dd"
+    },
+    {
+      "bytes": 77940,
+      "path": "cyp_inhibition_chemeleon/anvil_training/data/y_train.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "1ab43020a8064c4dac065afa60f65d021692f1716a4aacec1b6808c44fb37d9e"
+    },
+    {
+      "bytes": 50,
+      "path": "cyp_inhibition_chemeleon/meta.yaml",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "f5ca0dfae4c0f1461ef2abf1c97e9ee2fa321552e88bbf8bf745fe4314034885"
+    },
+    {
+      "bytes": 1464,
+      "path": "cyp_inhibition_chemeleon/repository_api.json",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "c9aeb4e14e87373f09f78f27291d708970221c073f106d4538456b200bd94730"
+    },
+    {
+      "bytes": 4388,
+      "path": "expansionrx_full/README.md",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "cb8a82b1414ab82bce1a50822d916327a414ea51e5cb129a01c855621e3d33d8"
+    },
+    {
+      "bytes": 686791,
+      "path": "expansionrx_full/expansion_data_raw.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "f674ec74cca1146bc386f832a32d4b8d921d3c312f92cb436cc005901c724a3c"
+    },
+    {
+      "bytes": 221291,
+      "path": "expansionrx_full/expansion_data_test.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "e21c0ef19795317216287e924e00ca3ef9388b7032a7fa4c7f27e2580372c85e"
+    },
+    {
+      "bytes": 464076,
+      "path": "expansionrx_full/expansion_data_train.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "c5214ad8c8a4d7d4d09082fcce24fe16c97a980a1e0873b91b8c8e474b79f6e4"
+    },
+    {
+      "bytes": 1986,
+      "path": "expansionrx_full/repository_api.json",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "ac5417b42132a5d8e59c6c25965d09e9cb63a28008a2f994daaa7d1749f278b9"
+    },
+    {
+      "bytes": 22471,
+      "path": "http_receipts.json",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "6b6a094089d23dc1697aa7137e39f6a27d3057dcad90f8f9573742a645587168"
+    },
+    {
+      "bytes": 9621,
+      "path": "octant_cyp/README.md",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "1859f335ccd9bee9407282b66bc4a690bc8bbf74abbf80d0c5fae27120cadce4"
+    },
+    {
+      "bytes": 251930,
+      "path": "octant_cyp/inhibition.tsv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "19e537166a17a42dd50cc262dd6eb0a963c181830fdc52db0fba98533e01c9c6"
+    },
+    {
+      "bytes": 2584780,
+      "path": "octant_cyp/inhibition_wells.tsv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "531a3dc8d175a9bf0be69cc8594ad310cd64e0997ed4fcd0da2067057737175c"
+    },
+    {
+      "bytes": 336928,
+      "path": "octant_cyp/reactivity.tsv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "efca9d85202f215edeb929d3786693359589ea83071a3ebcbe1de79318e24834"
+    },
+    {
+      "bytes": 3417381,
+      "path": "octant_cyp/reactivity_wells.tsv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "967c9589e19bc91d8a731adaa8feae038419d57bffe560be8242db87108d008f"
+    },
+    {
+      "bytes": 1880,
+      "path": "octant_cyp/repository_api.json",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "b93d2e7f8ec11675b5943163a792accc7cbb02ecc86c833c74df25194ca92f55"
+    },
+    {
+      "bytes": 951935,
+      "path": "octant_cyp/will_it_fly_in_mass_spec.tsv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "afb8482cad6910fce18c14661810b2c3342797fd60833e6daba9065f5cb18d37"
+    },
+    {
+      "bytes": 5736,
+      "path": "permeability_logd_ppb/README.md",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "f25124c1d90ee9f34dc41a3bb10125afb1f985b222a81e1a9fdbb4ff45cae3ed"
+    },
+    {
+      "bytes": 1826374,
+      "path": "permeability_logd_ppb/anvil_training/data/X_train.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "ce74c4dbbe94430bc1d78dd0284cb691334a0fc5a69e96eed65cefcbcfdc4862"
+    },
+    {
+      "bytes": 411467,
+      "path": "permeability_logd_ppb/anvil_training/data/y_train.csv",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "6cc33a14be909d75239ec6cab5c94d91e9a510b7fe1e80550fe98f15e9d05ca4"
+    },
+    {
+      "bytes": 51,
+      "path": "permeability_logd_ppb/meta.yaml",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "5353a6a80a2409cc7c85f34322122dd68d71a44a9e05b6b7a4895f4f60edd6c1"
+    },
+    {
+      "bytes": 1532,
+      "path": "permeability_logd_ppb/repository_api.json",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "79da13f919ee9d588d53971d1a62f6c0fd3ff6662eebc4934db6c8ba4ec33eb5"
+    },
+    {
+      "bytes": 10055,
+      "path": "provenance/openadmet_datasets_models.html",
+      "role": "official_OpenADMET_or_versioned_HuggingFace_artifact",
+      "sha256": "3a5126aeea19417117dc24a465b6f99d0cfc00eaafc2e5885a6bae48409d4e95"
+    }
+  ],
+  "canonical_rows": 0,
+  "document_sha256": "d8a98424facd40d99cc749df5d09d8178ab101ce3d7567e7fe966fb3caa2f2f0",
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "training_labels": 0
+}

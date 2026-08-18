@@ -1,0 +1,81 @@
+{
+  "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+  "bounded_memory": {
+    "configured_batch_rows": 50000,
+    "maximum_observed_batch_rows": 50000,
+    "maximum_observed_input_pandas_deep_bytes": 62781367,
+    "record_id_uniqueness_state": "temporary_sqlite_on_disk"
+  },
+  "canonical_task_dataset_sha256": "724e386f0c51a7eae468364baff4bb98c59c5c11e2f648001a6788e3775ea1ce",
+  "claim_readiness": "not_claim_ready_until_separate_cross_partition_near_duplicate_audit_is_complete_and_accepted",
+  "config": {
+    "allow_derived_labels": false,
+    "chemical_cluster_bits": 1024,
+    "chemical_cluster_count": null,
+    "date_column": "document_year",
+    "derived_label_lineage_column": "label_lineage_digest",
+    "intended_use": "canonical target identity absent from training",
+    "label_column": "label_value",
+    "molecule_id_column": "molecule_id",
+    "name": "target_holdout_fixed_v1",
+    "near_duplicate_max_dense_bytes": 536870912,
+    "near_duplicate_max_pair_comparisons": 20000000,
+    "near_duplicate_max_protein_pair_comparisons": 5000000,
+    "near_duplicate_sequence_jaccard": 0.8,
+    "near_duplicate_tanimoto": 0.8,
+    "protein_id_column": "protein_id",
+    "record_id_column": "record_id",
+    "seed": 20260804,
+    "sequence_kmer_size": 3,
+    "smiles_column": "standardized_smiles",
+    "source_id_column": "source_id",
+    "strategy": "target_holdout",
+    "target_id_column": "canonical_target_id",
+    "task_type": "regression",
+    "test_fraction": 0.15,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15
+  },
+  "config_sha256": "4ec0e1ba91d7fb19792d70dff1ef024ea675729867880d77f6524b01f2c3efd0",
+  "dataset_key": "default::default__binding__ki__binding__nm__continuous_censored",
+  "exact_group_exclusion": "guaranteed_by_deterministic_group_to_partition_function",
+  "feature_projection_path": "tasks/default-default-binding-ki-binding-nm-continuous-censored-d161984f1f02/features.parquet",
+  "feature_projection_sha256": "a4de85a66940f4d408ee7a96fa4367c55fc0ab9a479ec0626081ef16329b3895",
+  "fraction_policy": "approximate_under_stable_group_hash_not_greedy_or_stratified",
+  "group_method_row_counts": {
+    "stable_sha256_group_hash": 59314
+  },
+  "label_values_read": false,
+  "large_model_training_started": false,
+  "manifest_path": "split.parquet",
+  "manifest_sha256": "768195fe0e3e503e8a865314bb10bf3712194df20081c6253cc6abdf68aadc1e",
+  "near_duplicate_audit": "separate_required_not_implied_by_group_hash",
+  "observation_kind_counts": {
+    "curated_assertion": 59314
+  },
+  "partition_counts": {
+    "test": 10778,
+    "train": 43210,
+    "validation": 5326
+  },
+  "record_count": 59314,
+  "record_id_uniqueness": "complete_disk_backed_primary_key_audit",
+  "routing_input_policy": "transient feature-derived compatibility projection; canonical labels never requested, read, copied, partitioned, summarized, or published",
+  "row_order_binding": "manifest source_row_index exactly matches source Parquet row order across the deterministically sorted source part contract",
+  "schema_version": "stream_hash_group_split_v1",
+  "source_dataset_sha256": "a99076de4cb7400960eb73613fde93d2bf882f312ad8b0bd8b68fe62018ba7d2",
+  "split_name": "target_holdout_fixed_v1",
+  "strategy": "target_holdout",
+  "substantive_training_started": false,
+  "suite_schema_version": "platform_split_suite_v1",
+  "task_signature": {
+    "assay_family": "feature_only_routing",
+    "endpoint": "default__binding__ki__binding__nm__continuous_censored",
+    "evidence_domain": "feature_only_routing",
+    "label_kind": "feature_only_placeholder_not_a_label",
+    "label_unit": "feature_only_not_a_label",
+    "task_id": "feature-routing-d161984f1f02d45c",
+    "task_type": "default__binding__ki__binding__nm__continuous_censored"
+  },
+  "test_labels_disclosed": false
+}

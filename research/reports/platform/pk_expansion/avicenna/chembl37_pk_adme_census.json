@@ -1,0 +1,517 @@
+{
+  "by_standard_type": [
+    {
+      "biological_context_present_rows": 46471,
+      "distinct_assays": 33956,
+      "distinct_molecules": 51358,
+      "distinct_unit_strings": 7,
+      "numeric_value_rows": 94728,
+      "organism_present_rows": 83565,
+      "rows": 95426,
+      "standard_type": "T1/2",
+      "top_unit_strings": [
+        {
+          "rows": 95009,
+          "unit": "hr"
+        },
+        {
+          "rows": 401,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 9,
+          "unit": "%"
+        },
+        {
+          "rows": 3,
+          "unit": "min-1"
+        },
+        {
+          "rows": 2,
+          "unit": "l kg-1"
+        },
+        {
+          "rows": 1,
+          "unit": "mg kg-1"
+        },
+        {
+          "rows": 1,
+          "unit": "uM"
+        }
+      ],
+      "units_present_rows": 95025
+    },
+    {
+      "biological_context_present_rows": 54089,
+      "distinct_assays": 22525,
+      "distinct_molecules": 45216,
+      "distinct_unit_strings": 103,
+      "numeric_value_rows": 80467,
+      "organism_present_rows": 81890,
+      "rows": 82022,
+      "standard_type": "CL",
+      "top_unit_strings": [
+        {
+          "rows": 47319,
+          "unit": "mL.min-1.kg-1"
+        },
+        {
+          "rows": 28834,
+          "unit": "mL.min-1.g-1"
+        },
+        {
+          "rows": 1737,
+          "unit": "uL.min-1.(10^6cells)-1"
+        },
+        {
+          "rows": 1476,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 427,
+          "unit": "L/hr"
+        },
+        {
+          "rows": 422,
+          "unit": "uL/min"
+        },
+        {
+          "rows": 413,
+          "unit": "%"
+        },
+        {
+          "rows": 323,
+          "unit": "ml/min"
+        }
+      ],
+      "units_present_rows": 80546
+    },
+    {
+      "biological_context_present_rows": 20814,
+      "distinct_assays": 24677,
+      "distinct_molecules": 21996,
+      "distinct_unit_strings": 172,
+      "numeric_value_rows": 43854,
+      "organism_present_rows": 44219,
+      "rows": 44928,
+      "standard_type": "AUC",
+      "top_unit_strings": [
+        {
+          "rows": 40621,
+          "unit": "ng.hr.mL-1"
+        },
+        {
+          "rows": 1573,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 315,
+          "unit": "uM.hr"
+        },
+        {
+          "rows": 224,
+          "unit": "uM.hr.Kg/mg"
+        },
+        {
+          "rows": 194,
+          "unit": "uM"
+        },
+        {
+          "rows": 184,
+          "unit": "ng.hr/g"
+        },
+        {
+          "rows": 116,
+          "unit": "hr.ng/g"
+        },
+        {
+          "rows": 96,
+          "unit": "ug ml-1"
+        }
+      ],
+      "units_present_rows": 43355
+    },
+    {
+      "biological_context_present_rows": 1074,
+      "distinct_assays": 15764,
+      "distinct_molecules": 22818,
+      "distinct_unit_strings": 3,
+      "numeric_value_rows": 31367,
+      "organism_present_rows": 32476,
+      "rows": 32527,
+      "standard_type": "F",
+      "top_unit_strings": [
+        {
+          "rows": 32524,
+          "unit": "%"
+        },
+        {
+          "rows": 2,
+          "unit": "ng/ml"
+        },
+        {
+          "rows": 1,
+          "unit": "ml/min.kg"
+        }
+      ],
+      "units_present_rows": 32527
+    },
+    {
+      "biological_context_present_rows": 6312,
+      "distinct_assays": 17211,
+      "distinct_molecules": 16744,
+      "distinct_unit_strings": 57,
+      "numeric_value_rows": 29172,
+      "organism_present_rows": 29114,
+      "rows": 29691,
+      "standard_type": "Cmax",
+      "top_unit_strings": [
+        {
+          "rows": 27027,
+          "unit": "nM"
+        },
+        {
+          "rows": 1274,
+          "unit": "ug.mL-1"
+        },
+        {
+          "rows": 474,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 412,
+          "unit": "ng/g"
+        },
+        {
+          "rows": 92,
+          "unit": "ug/g"
+        },
+        {
+          "rows": 63,
+          "unit": "nmol/g"
+        },
+        {
+          "rows": 48,
+          "unit": "ng/mg"
+        },
+        {
+          "rows": 24,
+          "unit": "ng g-1"
+        }
+      ],
+      "units_present_rows": 29217
+    },
+    {
+      "biological_context_present_rows": 494,
+      "distinct_assays": 8025,
+      "distinct_molecules": 11336,
+      "distinct_unit_strings": 23,
+      "numeric_value_rows": 16457,
+      "organism_present_rows": 16534,
+      "rows": 16644,
+      "standard_type": "Vdss",
+      "top_unit_strings": [
+        {
+          "rows": 16123,
+          "unit": "L.kg-1"
+        },
+        {
+          "rows": 166,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 150,
+          "unit": "l"
+        },
+        {
+          "rows": 124,
+          "unit": "mL/min/kg"
+        },
+        {
+          "rows": 20,
+          "unit": "L/hr/kg"
+        },
+        {
+          "rows": 14,
+          "unit": "ml"
+        },
+        {
+          "rows": 7,
+          "unit": "L/hr"
+        },
+        {
+          "rows": 5,
+          "unit": "Not_given"
+        }
+      ],
+      "units_present_rows": 16478
+    },
+    {
+      "biological_context_present_rows": 2842,
+      "distinct_assays": 10053,
+      "distinct_molecules": 8770,
+      "distinct_unit_strings": 8,
+      "numeric_value_rows": 15028,
+      "organism_present_rows": 14902,
+      "rows": 15142,
+      "standard_type": "Tmax",
+      "top_unit_strings": [
+        {
+          "rows": 15021,
+          "unit": "hr"
+        },
+        {
+          "rows": 99,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 11,
+          "unit": "uM"
+        },
+        {
+          "rows": 3,
+          "unit": "%"
+        },
+        {
+          "rows": 3,
+          "unit": "mg/L"
+        },
+        {
+          "rows": 2,
+          "unit": "ng.hr/ml"
+        },
+        {
+          "rows": 2,
+          "unit": "ug.hr/ml"
+        },
+        {
+          "rows": 1,
+          "unit": "ng/ml"
+        }
+      ],
+      "units_present_rows": 15043
+    },
+    {
+      "biological_context_present_rows": 343,
+      "distinct_assays": 3021,
+      "distinct_molecules": 3745,
+      "distinct_unit_strings": 16,
+      "numeric_value_rows": 5290,
+      "organism_present_rows": 5260,
+      "rows": 5351,
+      "standard_type": "Vd",
+      "top_unit_strings": [
+        {
+          "rows": 5038,
+          "unit": "L.kg-1"
+        },
+        {
+          "rows": 174,
+          "unit": "l"
+        },
+        {
+          "rows": 39,
+          "unit": "ml"
+        },
+        {
+          "rows": 31,
+          "unit": "ml/cm3"
+        },
+        {
+          "rows": 27,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 9,
+          "unit": "kg-1"
+        },
+        {
+          "rows": 8,
+          "unit": "L"
+        },
+        {
+          "rows": 6,
+          "unit": "%"
+        }
+      ],
+      "units_present_rows": 5324
+    },
+    {
+      "biological_context_present_rows": 17,
+      "distinct_assays": 10,
+      "distinct_molecules": 178,
+      "distinct_unit_strings": 7,
+      "numeric_value_rows": 4799,
+      "organism_present_rows": 4799,
+      "rows": 4799,
+      "standard_type": "Cl",
+      "top_unit_strings": [
+        {
+          "rows": 4773,
+          "unit": "meq/L"
+        },
+        {
+          "rows": 14,
+          "unit": "mg ml-1 kg-1"
+        },
+        {
+          "rows": 5,
+          "unit": "ml mg-1 kg-1"
+        },
+        {
+          "rows": 3,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 2,
+          "unit": "ml min-1"
+        },
+        {
+          "rows": 1,
+          "unit": "l hr-1"
+        },
+        {
+          "rows": 1,
+          "unit": "ml hr-1"
+        }
+      ],
+      "units_present_rows": 4796
+    },
+    {
+      "biological_context_present_rows": 2671,
+      "distinct_assays": 918,
+      "distinct_molecules": 2795,
+      "distinct_unit_strings": 8,
+      "numeric_value_rows": 21,
+      "organism_present_rows": 3267,
+      "rows": 3565,
+      "standard_type": "t1/2",
+      "top_unit_strings": [
+        {
+          "rows": 3546,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 6,
+          "unit": "%"
+        },
+        {
+          "rows": 5,
+          "unit": "ml/min.kg"
+        },
+        {
+          "rows": 2,
+          "unit": "nanoseconds"
+        },
+        {
+          "rows": 2,
+          "unit": "uM"
+        },
+        {
+          "rows": 2,
+          "unit": "ug ml-1"
+        },
+        {
+          "rows": 1,
+          "unit": "microsec"
+        },
+        {
+          "rows": 1,
+          "unit": "ug.hr/ml"
+        }
+      ],
+      "units_present_rows": 19
+    },
+    {
+      "biological_context_present_rows": 76,
+      "distinct_assays": 13,
+      "distinct_molecules": 120,
+      "distinct_unit_strings": 8,
+      "numeric_value_rows": 152,
+      "organism_present_rows": 164,
+      "rows": 166,
+      "standard_type": "Clearance",
+      "top_unit_strings": [
+        {
+          "rows": 55,
+          "unit": "L/h/Kg"
+        },
+        {
+          "rows": 55,
+          "unit": "ul min-1"
+        },
+        {
+          "rows": 33,
+          "unit": "<NULL>"
+        },
+        {
+          "rows": 17,
+          "unit": "ml hr-1"
+        },
+        {
+          "rows": 3,
+          "unit": "mg kg-1 uM-1 hr-1"
+        },
+        {
+          "rows": 1,
+          "unit": "l hr-1"
+        },
+        {
+          "rows": 1,
+          "unit": "l kg-1"
+        },
+        {
+          "rows": 1,
+          "unit": "ml min-1"
+        }
+      ],
+      "units_present_rows": 133
+    }
+  ],
+  "database_counts": {
+    "activities": 24527044,
+    "assays": 1970438
+  },
+  "exact_type_screen_overall": {
+    "distinct_assays": 135089,
+    "distinct_molecules": 85441,
+    "numeric_value_rows": 321335,
+    "rows": 330261,
+    "units_present_rows": 322463
+  },
+  "generated_at_utc": "2026-08-06T19:04:30Z",
+  "interpretation": {
+    "admission_rule": "Require document/assay review, endpoint semantics, molecule mapping, numeric/unit normalization, species, route, matrix, dose, provenance, duplicate resolution, and leakage audit before canonical or training use.",
+    "canonical_rows": 0,
+    "known_false_positive_or_mixed_terms": [
+      "Cl: 4,773/4,799 rows use meq/L and represent chloride, not clearance.",
+      "t1/2: only 21/3,565 rows are numeric; the lowercase token is not a safe PK half-life label.",
+      "CL: 28,834 rows use mL.min-1.g-1 and are consistent with tissue-normalized/in-vitro clearance rather than systemic clearance.",
+      "AUC and Cmax contain incompatible unit strings, showing that exact standard_type matches alone are insufficient."
+    ],
+    "status": "reclassification_candidates_only",
+    "structured_dose_field": false,
+    "structured_matrix_proxy": "assay_tissue / assay_cell_type / assay_subcellular_fraction only",
+    "structured_route_field": false,
+    "structured_species_proxy": "assay_organism",
+    "training_labels": 0
+  },
+  "license": "CC BY-SA 3.0",
+  "schema_version": "pk-expansion-avicenna/1.0",
+  "screen_definition": {
+    "exact_standard_types": [
+      "AUC",
+      "F",
+      "Cmax",
+      "Tmax",
+      "Vd",
+      "Vdss",
+      "Clearance",
+      "T1/2",
+      "t1/2",
+      "CL",
+      "Cl"
+    ]
+  },
+  "source": "ChEMBL 37 SQLite"
+}

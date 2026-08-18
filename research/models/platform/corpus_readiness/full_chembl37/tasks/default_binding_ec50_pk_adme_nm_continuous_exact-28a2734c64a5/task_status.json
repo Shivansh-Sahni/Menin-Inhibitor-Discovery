@@ -1,0 +1,68 @@
+{
+  "dataset_key": "default::default__binding__ec50__pk_adme__nm__continuous_exact",
+  "declared_rows": 4,
+  "diagnostic_materialized": false,
+  "integration_materialized": false,
+  "large_model_training_started": false,
+  "preflight": {
+    "dataset_key": "default::default__binding__ec50__pk_adme__nm__continuous_exact",
+    "declared_rows": 4,
+    "fixed_split": {
+      "algorithm": "stable_sha256_group_hash_bounded_memory_v1",
+      "fractions": {
+        "test": 0.15,
+        "train": 0.7,
+        "validation": 0.15
+      },
+      "seed": 20260804,
+      "seed_search_performed": false,
+      "strategy": "molecule_grouped"
+    },
+    "label_access": {
+      "label_columns_read": [],
+      "policy": "structural preflight never requests label_value or label_text columns",
+      "test_labels_read": false,
+      "training_labels_read": false,
+      "validation_labels_read": false
+    },
+    "predicted_partition_molecule_groups": {
+      "test": 1,
+      "train": 3,
+      "validation": 0
+    },
+    "predicted_partition_rows": {
+      "test": 1,
+      "train": 3,
+      "validation": 0
+    },
+    "rows_scanned": 4,
+    "skip_reasons": [
+      "predicted_validation_molecule_groups_empty",
+      "predicted_validation_rows_insufficient"
+    ],
+    "substantive_training_started": false,
+    "support_decision": "skip",
+    "task_semantics": {
+      "assay_family": "pk_adme",
+      "endpoint": "EC50",
+      "evidence_domain": "binding",
+      "label_kind": "continuous_exact",
+      "observation_kind": "experimental_summary",
+      "task_id": "TASK-66C4C3DD1BBEBB893306A8E1",
+      "task_type": "default__binding__ec50__pk_adme__nm__continuous_exact"
+    },
+    "unique_molecule_groups": 4,
+    "unique_observation_ids": 4,
+    "unique_protein_groups": 1
+  },
+  "skip_reasons": [
+    "predicted_validation_molecule_groups_empty",
+    "predicted_validation_rows_insufficient"
+  ],
+  "status": "skipped_insufficient_fixed_split_support",
+  "substantive_training_started": false,
+  "task_dataset_sha256": "f1181b398461cd89dd44b7f4d1b24187a8516021bf19e435f760ba3be5f5378a",
+  "task_output_path": "tasks/default_binding_ec50_pk_adme_nm_continuous_exact-28a2734c64a5",
+  "task_scope": "default",
+  "task_type": "default__binding__ec50__pk_adme__nm__continuous_exact"
+}
