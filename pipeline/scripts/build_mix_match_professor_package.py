@@ -823,7 +823,7 @@ def run(output: Path = DEFAULT_OUTPUT) -> dict[str, Any]:
         disagreements.groupby(["analysis", "evaluation"], group_keys=False).head(15).reset_index(drop=True)
     )
     workbook_payload = {
-        "generated_for": "Dr. Angelo Aguilar and Dr. Shaomeng Wang",
+        "generated_for": "Menin project review",
         "scientific_target": "hERG liability for Menin inhibitors; rat PK secondary",
         "status": "retrospective discovery package; not prospective validation",
         "key_results": _workbook_records(key_results),

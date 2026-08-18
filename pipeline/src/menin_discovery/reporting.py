@@ -1373,7 +1373,7 @@ def _publication_readiness(
         (
             "Authorship and licensing approval",
             False,
-            "Requires explicit project-owner and Wang-lab decisions.",
+            "Requires project-owner approval.",
         ),
     ]
     frame = pd.DataFrame(checks, columns=["criterion", "satisfied", "evidence_or_action"])

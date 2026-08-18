@@ -215,7 +215,7 @@ meeting_decisions = [
 ]
 
 payload = {
-    "generated_for": "Dr. Shaomeng Wang and Dr. Angelo Aguilar meeting",
+    "generated_for": "Menin project review",
     "scope": "Menin-inhibitor hERG liability first; rat IV/PO PK second",
     "summary_kpis": summary_kpis,
     "evidence_counts": evidence_counts,

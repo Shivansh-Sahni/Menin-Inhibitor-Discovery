@@ -6,7 +6,7 @@ Use this as a release gate, not a retrospective formality. A checkbox should lin
 
 - [ ] **Required:** The manuscript question, prediction endpoint, intended use, and excluded claims are written before final evaluation.
 - [ ] **Required:** All authors, contributors, affiliations, acknowledgments, and funding/conflict disclosures are approved by the relevant people and institutions.
-- [ ] **Required:** The Wang lab data owner has approved the use and disclosure of any internal data, aggregates, figures, and models.
+- [ ] **Required:** Every distributed dataset, aggregate, figure, and model has appropriate release approval.
 - [ ] **Required:** Patent, sponsor, NDA, embargo, export, animal/human, and institutional obligations have been reviewed where applicable.
 - [ ] **Required:** A repository software license has been selected by the rights holder or the repository is clearly distributed without a reuse license.
 - [ ] Third-party database attribution and redistribution terms have been reviewed for every released artifact.

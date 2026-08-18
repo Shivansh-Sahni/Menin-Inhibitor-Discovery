@@ -10,14 +10,12 @@ The rebuilt pipeline now covers strict unit/target curation, RDKit parent identi
 - Review all PubChem assay inclusion decisions and high-impact ChEMBL/BindingDB records against primary source material.
 - Complete the [publication checklist](publication_checklist.md) and document any unmet gate in the manuscript.
 
-## Priority 1: controlled internal-data integration
+## Priority 1: multi-series Menin data integration
 
-- Obtain Wang lab data-owner authorization and deploy the existing offline intake library only inside the controls in [proprietary data intake](proprietary_data_intake.md).
-- Have the data steward review the HMAC key lifecycle, assay/endpoint registries, private output root, backup/audit policy, and disclosure threat model.
-- Extend the current CSV/TSV/SDF intake contract beyond its existing governed cohort role for registration parent, lot/form, protocol version, curve-level QC, operator/site, campaign, and release-classification fields before those data are needed.
-- Produce separate private roots/manifests for development, locked-external evaluation, and prospective-blind unblinding, as well as distinguishable public-only, internal-only, public-trained/private-test, and combined builds; do not route them through the public CLI.
-- Detect public/private structure and document overlap before splitting.
-- Enforce `development`, `locked_external`, and `prospective_blind` isolation outside the public model CLI; reserve scaffold- and time-forward internal holdouts and do not convert all private data into training labels.
+- Integrate additional multi-series Menin measurements through the existing validated intake workflow when available.
+- Preserve assay, protocol, series, date, replicate, censoring, and structure-lineage fields during integration.
+- Detect structure and document overlap before splitting, and retain scaffold- and time-forward evaluation cohorts.
+- Compare public-only, Menin-series-only, transfer-learning, and combined models under identical held-out evaluations.
 
 ## Priority 2: curation sensitivity and endpoint definitions
 
@@ -30,7 +28,7 @@ The rebuilt pipeline now covers strict unit/target curation, RDKit parent identi
 ## Priority 3: stronger evaluation
 
 - Pre-specify repeated scaffold or chemical-region splits to estimate split variance without tuning to the final holdout.
-- Define a defensible temporal cutoff using actual assay/campaign dates when internal data arrive; keep the mixed public document/deposit-year analysis labeled as sensitivity-only.
+- Define a defensible temporal cutoff using actual assay/campaign dates when additional series arrive; keep the mixed public document/deposit-year analysis labeled as sensitivity-only.
 - Build an external Menin evaluation set with non-overlapping structures and compatible assay protocols.
 - Evaluate the TDC hERG benchmark in an isolated compatible environment after label reconciliation and overlap removal.
 - Run prospective experiments on model-selected and uncertainty-selected compounds, including deliberately out-of-domain controls.

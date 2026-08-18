@@ -1,6 +1,6 @@
 # Proprietary data intake protocol
 
-This protocol is for future Wang lab or collaborator data. It is intentionally stricter than the public-data workflow. The repository includes an offline validation and pseudonymization library, `menin_discovery.internal_data`, but does not grant permission, provide a secure upload channel, configure protected storage, or wire private data into the public CLI/model pipeline.
+This optional protocol covers source datasets that cannot be publicly distributed. The repository includes an offline validation library, `menin_discovery.internal_data`; restricted datasets are not wired into the public CLI/model pipeline.
 
 ## Non-negotiable rule
 
@@ -47,7 +47,7 @@ The library supports CSV, TSV, and SDF input and requires a declarative `Interna
 
 It validates structures, positive concentration values, units, relations, assay/endpoint registration, target metadata, assay family, cohort role, duplicate rows, one source row ID mapping to conflicting records, and one source compound ID mapping to conflicting structures. Accepted and quarantined rows remain separate.
 
-The generic library defaults require structure, value, unit, relation, endpoint, batch, and assay. The checked-in template additionally requires `cohort_role`. A Wang lab production profile should also make source `compound_id`, source `row_id`, and the appropriate assay/date/replicate fields required. The current canonical input vocabulary does not yet carry lot/form, protocol version, curve QC, campaign, or release classification; add and test those fields before relying on them.
+The generic library defaults require structure, value, unit, relation, endpoint, batch, and assay. The checked-in template additionally requires `cohort_role`. A production profile should also require source `compound_id`, source `row_id`, and the appropriate assay/date/replicate fields. The current canonical input vocabulary does not yet carry lot/form, protocol version, curve QC, campaign, or release classification; add and test those fields before relying on them.
 
 [`pipeline/config/internal_data_template.yaml`](../pipeline/config/internal_data_template.yaml) is a placeholder contract with no lab data. Copy it to approved private storage before adding real column names or assay codes; do not turn the checked-in template into the live project registry.
 

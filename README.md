@@ -18,8 +18,6 @@ The public workflow supports:
 - scaffold-aware validation, uncertainty, applicability-domain analysis, and failure reporting;
 - Menin-Edit workflows for proposing and evaluating candidate modifications.
 
-It does not publish internal Wang-lab structures, assay measurements, or source workbooks. Derived outputs may be included only when their release does not disclose the underlying internal records.
-
 ## Repository layout
 
 ```text
@@ -32,7 +30,7 @@ research/literature/       Evidence reviews and mechanistic synthesis
 docs/                      Methods, architecture, limitations, and reproducibility
 ```
 
-Large local simulations, private inputs, caches, raw third-party literature files, and target-agnostic platform experiments are excluded from Git.
+Large simulations, caches, raw third-party literature files, and target-agnostic experiments are excluded from Git.
 
 ## Menin pipeline
 
@@ -95,11 +93,11 @@ pytest -q pipeline/tests
 pytest -q -c packages/menin-edit/pyproject.toml packages/menin-edit/tests
 ```
 
-## Data boundary
+## Data availability
 
-Do not place Wang-lab or collaborator source data in this public repository. The checked-in internal-data template is a schema example only. Private structures and measurements must remain in approved storage and be processed through a separate governed build. Internal development, locked external evaluation, and prospective blind data must retain distinct roles and must never be silently mixed.
+Source datasets that are not publicly distributable are not included. The checked-in examples and public-data workflow remain independently usable.
 
-See [architecture](docs/architecture.md), [methodology](docs/methodology.md), [limitations](docs/limitations.md), [reproducibility](docs/reproducibility.md), and the [proprietary-data intake protocol](docs/proprietary_data_intake.md).
+See [architecture](docs/architecture.md), [methodology](docs/methodology.md), [limitations](docs/limitations.md), and [reproducibility](docs/reproducibility.md).
 
 ## Scientific claim boundary
 

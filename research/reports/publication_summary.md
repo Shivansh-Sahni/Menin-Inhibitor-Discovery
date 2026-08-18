@@ -366,7 +366,7 @@ Quality findings are not all fatal errors: the detailed CSVs distinguish missing
 | Clean source revision | False | A publication release must be rebuilt from a clean committed revision. |
 | Independent external validation | False | No independent Menin or hERG external test set has been reserved. |
 | Prospective experimental validation | False | Requires new lab measurements after model lock. |
-| Authorship and licensing approval | False | Requires explicit project-owner and Wang-lab decisions. |
+| Authorship and licensing approval | False | Requires project-owner approval. |
 
 ## Figures
 

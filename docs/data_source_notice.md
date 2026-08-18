@@ -25,16 +25,12 @@ For the exact frozen build:
 
 A trained model is not automatically exempt from upstream data terms. Its release also requires a scientific and security review.
 
-## Proprietary and collaborator data
+## Non-public sources
 
-No Wang lab, mentor, collaborator, sponsor, or other non-public data should enter a public commit or release without explicit data-owner approval. Structures and assay results may reveal unpublished intellectual property even when compound IDs are pseudonymous.
-
-Keep private inputs and every derivative—curated tables, plots, nearest neighbors, logs, caches, manifests, split assignments, and model files—in approved access-controlled storage. Follow [the proprietary-data intake protocol](proprietary_data_intake.md).
+Non-public source data are not distributed with this repository.
 
 ## Data availability statement template
 
 Adapt this to the actual approved release:
 
-> Public bioactivity records were retrieved from ChEMBL, BindingDB, and PubChem BioAssay using the target identifiers and queries reported in the methods. The analyzed public snapshot and derived software/model/analysis/report bundle are identified by the linked raw, processed, software, models, analysis, and reports SHA-256 manifests in [archive/release]. Source-specific access and redistribution terms apply. [If applicable:] Proprietary experimental data are not publicly distributed because of [approved concise reason]; access requests are reviewed by [data steward/process], and approved aggregate validation outputs are provided in [location].
-
-Do not promise access to private data unless the data owner has approved a real request procedure.
+> Public bioactivity records were retrieved from ChEMBL, BindingDB, and PubChem BioAssay using the target identifiers and queries reported in the methods. Source-specific access and redistribution terms apply. Additional source datasets are not publicly distributed.
