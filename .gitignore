@@ -41,6 +41,7 @@ htmlcov/
 /pipeline/scripts/run_local_herg_domain_mixture_campaign_v9.sh
 /pipeline/scripts/run_local_herg_feature_ablation.py
 /pipeline/scripts/run_local_herg_honest_measurement_campaign_v7.*
+/pipeline/tests/test_run_local_herg_honest_measurement_campaign_v7.py
 /pipeline/scripts/run_local_herg_mechanistic_family_cv.py
 /pipeline/scripts/run_local_parallel_validation.sh
 /pipeline/scripts/run_local_six_hour_validation.sh
