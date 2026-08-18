@@ -62,8 +62,10 @@ class _FixedPredictor:
 
 def test_predictor_protocol_and_lazy_public_loading():
     predictor = PublicMeninSkopsPredictor(repository_root=REPOSITORY_ROOT)
-    assert isinstance(predictor, Predictor)
     assert predictor._model is None
+    # Runtime protocol inspection can evaluate the model_version property on
+    # some Python releases, so verify laziness before performing that check.
+    assert isinstance(predictor, Predictor)
 
 
 def test_public_menin_and_herg_artifacts_predict_with_lineage():
@@ -115,6 +117,9 @@ def test_public_adapter_rejects_artifact_hash_mismatch(tmp_path):
 
 
 def test_private_quick_ensemble_uses_saved_models_and_reports_disagreement():
+    benchmark_root = REPOSITORY_ROOT / "research/benchmarks/herg/quick"
+    if not (benchmark_root / "run_manifest.json").is_file():
+        pytest.skip("Private Menin-series hERG benchmark is intentionally absent from the public release")
     predictor = PrivateQuickHergEnsemblePredictor(repository_root=REPOSITORY_ROOT)
     assert predictor._members is None
     estimate = predictor.predict("CCN1CCCCC1")
