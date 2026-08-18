@@ -1,0 +1,143 @@
+schema_version: "1.0"
+
+repository_root: "../../.."
+
+models:
+  menin_biochemical_pIC50:
+    kind: public_menin_skops
+    enabled: true
+    artifact: "../../../research/models/menin_activity_ic50_biochemical_binding_extra_trees.skops"
+    manifest: "../../../research/models/menin_activity_ic50_biochemical_binding_manifest.json"
+    interval_half_width: 1.25
+    domain_reference: "../../../research/reports/menin_activity_ic50_biochemical_binding_split_assignments.csv"
+    domain_threshold: 0.625
+
+  herg_public_blocker_probability:
+    kind: public_herg_skops
+    enabled: true
+    artifact: "../../../research/models/herg_liability_extra_trees_calibrated.skops"
+    manifest: "../../../research/models/herg_classifier_manifest.json"
+    domain_reference: "../../../research/reports/herg_classifier_split_assignments.csv"
+    domain_threshold: 0.2535
+
+  herg_private_ensemble_probability:
+    kind: private_herg_ensemble
+    # Governed local configurations may enable this predictor only when the
+    # ignored/private benchmark bundle is available in approved storage.
+    enabled: false
+    benchmark_root: "../../../research/benchmarks/herg/quick"
+    regime: "equal_importance"
+
+  herg_consensus_probability:
+    kind: conservative_consensus
+    enabled: true
+    # The public default is deliberately a one-member compatibility wrapper,
+    # not evidence of independent model agreement. A governed local config may
+    # enable the private predictor above and append it here.
+    members:
+      - herg_public_blocker_probability
+
+  structural_alert_count:
+    kind: structural_alert_proxy
+    enabled: true
+    catalogs: [PAINS, BRENK, NIH]
+
+  dili_probability:
+    kind: external_classifier
+    enabled: false
+    note: "Adapter contract is implemented; a governed public DILI model must be trained and registered."
+
+  ames_probability:
+    kind: external_classifier
+    enabled: false
+    note: "Adapter contract is implemented; a governed public Ames model must be trained and registered."
+
+endpoints:
+  menin_biochemical_pIC50:
+    direction: maximize
+    task: regression
+    display_unit: pIC50
+    missing_policy: reject
+    out_of_domain_policy: warn
+
+  herg_consensus_probability:
+    direction: minimize
+    task: classification
+    display_unit: probability
+    missing_policy: reject
+    # Domain status is carried into ranking and reports. The default hard hERG
+    # bound below still rejects OOD candidates unless a request explicitly
+    # chooses warning-only behavior (as the public tutorial does).
+    out_of_domain_policy: warn
+
+  structural_alert_count:
+    direction: minimize
+    task: structural_score
+    display_unit: alerts
+    missing_policy: warn
+
+  dili_probability:
+    direction: minimize
+    task: classification
+    display_unit: probability
+    missing_policy: warn
+
+  ames_probability:
+    direction: minimize
+    task: classification
+    display_unit: probability
+    missing_policy: warn
+
+objectives:
+  - endpoint: menin_biochemical_pIC50
+    priority: 0.55
+    minimum_meaningful_gain: 0.10
+  - endpoint: herg_consensus_probability
+    priority: 0.35
+    minimum_meaningful_gain: 0.05
+  - endpoint: structural_alert_count
+    priority: 0.10
+    minimum_meaningful_gain: 1.0
+
+constraints:
+  - endpoint: menin_biochemical_pIC50
+    operator: ">="
+    value: 6.5
+    confidence: 0.90
+    relative_to: absolute
+    apply_to: each_step
+    missing_policy: reject
+    out_of_domain_policy: reject
+  - endpoint: herg_consensus_probability
+    operator: "<="
+    value: 0.70
+    confidence: 0.90
+    relative_to: absolute
+    apply_to: each_step
+    missing_policy: reject
+  - endpoint: structural_alert_count
+    operator: "<="
+    value: 2
+    confidence: 0.90
+    relative_to: absolute
+    apply_to: each_step
+    missing_policy: warn
+
+search:
+  max_steps: 3
+  beam_width: 24
+  candidates_per_node: 80
+  top_paths: 20
+  max_changed_heavy_atoms: 12
+  min_core_heavy_atoms: 10
+  min_parent_similarity: 0.45
+  require_supported_edit: true
+  uncertainty_penalty: 0.15
+  path_complexity_penalty: 0.03
+  random_seed: 13
+
+edit_library:
+  public_pairs: "../../../research/analysis/matched_molecular_pairs.csv"
+  public_profiles: "../../../research/analysis/medicinal_chemistry_profiles.csv"
+  minimum_support: 1
+  allowed_split_roles: [train, development]

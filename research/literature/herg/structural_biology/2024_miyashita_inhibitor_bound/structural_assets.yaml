@@ -1,0 +1,87 @@
+record_id: miyashita_2024_structure
+article:
+  doi: 10.1016/j.str.2024.08.021
+  local_article: article.pdf
+  local_supplement: supplementary_information.pdf
+repository: RCSB PDB
+coordinate_format: PDBx/mmCIF
+coordinate_validation:
+  status: validated_entry_and_atom_site
+  checks:
+    - single named data block matches _entry.id and filename
+    - complete atom_site rows parse against declared columns
+    - atom_site IDs are unique
+    - Cartesian coordinates are numeric and finite
+  truth_boundary: deposited coordinates are not prepared receptor systems
+structures:
+  - pdb_id: 8ZYN
+    emdb_id: EMD-60573
+    state: apo
+    ligand: null
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.27
+    local_coordinate: 8ZYN.cif
+    local_coordinate_present: true
+    atom_count: 6640
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+  - pdb_id: 8ZYO
+    emdb_id: EMD-60574
+    state: inhibitor_bound
+    ligand: astemizole
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.29
+    local_coordinate: 8ZYO.cif
+    local_coordinate_present: true
+    atom_count: 6238
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+    pose_note: two near-equivalent poses are modeled
+  - pdb_id: 8ZYP
+    emdb_id: EMD-60575
+    state: inhibitor_bound
+    ligand: E-4031
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.19
+    local_coordinate: 8ZYP.cif
+    local_coordinate_present: true
+    atom_count: 6676
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+  - pdb_id: 8ZYQ
+    emdb_id: EMD-60576
+    state: inhibitor_bound
+    ligand: pimozide
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.18
+    local_coordinate: 8ZYQ.cif
+    local_coordinate_present: true
+    atom_count: 6329
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+recurrent_residues:
+  filter_cavity:
+    - T623
+    - S624
+  central_cavity:
+    - S649
+    - Y652
+    - F656
+modeling_status:
+  repository_assets_identified: true
+  repository_coordinates_downloaded: true
+  canonical_local_coordinate_count: 4
+  repository_maps_downloaded: false
+  raw_coordinate_validation_complete: true
+  map_level_validation_complete: false
+  protonation_preparation_complete: false
+  receptor_ensemble_ready: false
+  docking_or_scoring_inputs_attached: false
+notes:
+  - Digitonin was used to reduce preferred-orientation limitations.
+  - Y652 symmetry breaking and alternate ligand poses should be retained as ensemble uncertainty.
+  - Reported MOE GBVI/WSA dG values are scoring estimates, not rigorous binding free energies.

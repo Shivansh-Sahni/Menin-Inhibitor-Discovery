@@ -1,0 +1,124 @@
+record_id: lau_2024_nature_communications
+article:
+  doi: 10.1038/s41467-024-51208-w
+  local_article: article.pdf
+  local_supplement: supplementary_information.pdf
+publisher_assets:
+  supplementary_file_description: supplementary_file_description.pdf
+  supplementary_movie: supplementary_movie_1.mov
+  reporting_summary: reporting_summary.pdf
+  source_data_archive: source_data.zip
+source_data_contents:
+  raw_abf_files: 72
+  summary_workbooks: 1
+  summary_workbook_sheets:
+    - Summary
+    - WT
+    - V625T
+    - F627Y
+    - S620T
+    - S620T_V625T
+    - S620T_F627Y
+repository: RCSB PDB
+coordinate_format: PDBx/mmCIF
+coordinate_validation:
+  status: validated_entry_and_atom_site
+  checks:
+    - single named data block matches _entry.id and filename
+    - complete atom_site rows parse against declared columns
+    - atom_site IDs are unique
+    - Cartesian coordinates are numeric and finite
+  truth_boundary: deposited coordinates are not prepared receptor systems
+conditions:
+  high_potassium_mM: 300
+  low_potassium_mM: 3
+structures:
+  - pdb_id: 9CHP
+    emdb_id: EMDB-45597
+    potassium_condition: high
+    symmetry: C4
+    reported_global_resolution_angstrom: 3.3
+    local_coordinate: 9CHP.cif
+    local_coordinate_present: true
+    atom_count: 19104
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+  - pdb_id: 9CHQ
+    emdb_id: EMDB-45598
+    potassium_condition: low
+    symmetry: C4
+    reported_global_resolution_angstrom: 3.0
+    local_coordinate: 9CHQ.cif
+    local_coordinate_present: true
+    atom_count: 19104
+    auth_chain_count: 4
+    model_count: 1
+    local_map_present: false
+excluded_structures:
+  - pdb_id: 9CHR
+    emdb_id: EMDB-45599
+    potassium_condition: high
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.5
+    local_coordinate: null
+    local_coordinate_present: false
+    local_map_present: false
+    selection_status: excluded_nonlocal_optional_sensitivity
+    exclusion_reason: lower_resolution_symmetry_relaxed_duplicate_of_selected_high_K_condition
+  - pdb_id: 9CHS
+    emdb_id: EMDB-45600
+    potassium_condition: low
+    symmetry: C1
+    reported_global_resolution_angstrom: 3.4
+    local_coordinate: null
+    local_coordinate_present: false
+    local_map_present: false
+    selection_status: excluded_nonlocal_optional_sensitivity
+    exclusion_reason: lower_resolution_symmetry_relaxed_duplicate_of_selected_low_K_condition
+excluded_legacy_references:
+  - pdb_id: 5VA1
+    reported_resolution_angstrom: 3.7
+    local_coordinate_present: false
+    selection_status: excluded_nonlocal
+    exclusion_reason: older_lower_resolution_truncated_construct
+  - pdb_id: 5VA2
+    reported_resolution_angstrom: 3.8
+    local_coordinate_present: false
+    selection_status: excluded_nonlocal
+    exclusion_reason: older_lower_resolution_truncated_construct
+  - pdb_id: 5VA3
+    reported_resolution_angstrom: 4.0
+    mutation: S631A
+    local_coordinate_present: false
+    selection_status: excluded_nonlocal
+    exclusion_reason: older_lower_resolution_non_inactivating_mutant
+mechanistic_coordinates:
+  - potassium_occupancy_pattern
+  - V625_carbonyl_flip_count
+  - V625_carbonyl_flip_identity
+  - S620_stabilization_geometry
+  - filter_symmetry
+  - filter_hydration
+  - conducting_state
+modeling_status:
+  repository_assets_identified: true
+  repository_coordinates_downloaded: true
+  canonical_local_coordinate_count: 2
+  reported_coordinate_count: 4
+  excluded_coordinates_local: false
+  repository_maps_downloaded: false
+  raw_coordinate_validation_complete: true
+  supplementary_information_attached: true
+  source_data_attached: true
+  supplementary_movie_attached: true
+  reporting_summary_attached: true
+  simulation_inputs_attached: false
+  trajectories_attached: false
+  modified_analysis_code_attached: false
+  receptor_ensemble_ready: false
+notes:
+  - Reported carbonyl-flip barriers are approximately 4-5 kcal/mol.
+  - Relative free energies are small and depend on ion occupancy and modeling assumptions.
+  - Three-versus-four flips and the physiological rate-limiting step remain unresolved.
+  - The source-data archive contains electrophysiology files and fitted summaries, not reusable simulation systems or trajectories.

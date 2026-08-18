@@ -1,0 +1,135 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1980330,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL5333019"
+              }
+            }
+          },
+          "name": "Inhibition of human menin/MLL protein-protein interaction by competition based fluorescence polarization assay",
+          "description": [
+            "Title: Discovery of cysteine-targeting covalent histone methyltransferase inhibitors.",
+            "",
+            "Abstract: Post-translational methylation of histone lysine or arginine residues by histone methyltransferases (HMTs) plays crucial roles in gene regulation and diverse physiological processes and is implicated in a plethora of human diseases, especially cancer. Therefore, histone methyltransferases have been increasingly recognized as potential therapeutic targets. Consequently, the discovery and development of histone methyltransferase inhibitors have been pursued with steadily increasing interest over the past decade. However, the disadvantages of limited clinical efficacy, moderate selectivity, and propensity for acquired resistance have hindered the development of HMTs inhibitors. Targeted covalent modification represents a proven strategy for kinase drug development and has gained increasing attention in HMTs drug discovery. In this review, we focus on the discovery, characterization, and biological applications of covalent inhibitors for HMTs with emphasis on advancements in the field. In addition, we identify the challenges and future directions in this fast-growing research area of drug discovery."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: Eur J Med Chem",
+            "Year: 2023",
+            "Volume: 246",
+            "First Page: 115028",
+            "Last Page: 115028",
+            "DOI: 10.1016/j.ejmech.2022.115028",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 36528996
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL5333019"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 36528996"
+          ]
+        }
+      }
+    }
+  ]
+}

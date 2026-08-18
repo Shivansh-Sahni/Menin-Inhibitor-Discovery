@@ -1,0 +1,134 @@
+project:
+  name: menin-discovery
+  random_state: 13
+
+paths:
+  raw: research/data/raw
+  processed: research/data/processed
+  models: research/models
+  analysis: research/analysis
+  reports: research/reports
+
+curation:
+  core_endpoints: [IC50, Ki, Kd, EC50]
+  standardize_structures: true
+  require_rdkit: true
+  strip_salts: true
+  canonicalize_tautomers: false
+  exact_policy: strict_exact
+  pubchem_require_menin_relevance: true
+  accepted_chembl_validity_comments: ["", "Manually validated"]
+  reject_potential_duplicates: true
+  exclude_assay_variants: true
+  max_within_compound_log_spread: 2.0
+  menin_stratify_by: [endpoint, assay_family]
+  herg_stratify_by: [endpoint, assay_family]
+
+herg:
+  blocker_max_nm: 10000.0
+  nonblocker_min_nm: 30000.0
+  primary_endpoint: IC50
+  primary_assay_family: electrophysiology_functional
+  run_pooled_sensitivity: true
+
+modeling:
+  primary_split: scaffold
+  evaluation_splits: [scaffold, chemical, temporal, random]
+  primary_menin_endpoint: IC50
+  primary_menin_assay_family: biochemical_binding
+  menin_endpoints: [IC50, Ki, Kd, EC50]
+  menin_task_assay_families:
+    IC50: biochemical_binding
+    Ki: biochemical_binding
+    Kd: biochemical_binding
+    EC50: cellular_functional
+  analyze_all_eligible_endpoint_assay_tasks: true
+  run_cross_source_mirror_sensitivity: true
+  run_clean_label_sensitivity: true
+  test_size: 0.2
+  min_regression_compounds: 80
+  min_classification_compounds: 120
+  feature_backend: rdkit
+  fingerprint_bits: 2048
+  fingerprint_radius: 2
+  applicability_domain_quantile: 0.05
+  cv_folds: 3
+  tree_estimators: 200
+  bootstrap_iterations: 500
+  uncertainty_coverage: 0.90
+
+analysis:
+  enabled: true
+  menin_endpoint: IC50
+  menin_assay_family: biochemical_binding
+  herg_endpoint: IC50
+  herg_assay_family: electrophysiology_functional
+  fingerprint_bits: 2048
+  fingerprint_radius: 2
+  series_minimum_size: 3
+  reference_compounds:
+    - name: revumenib
+      pubchem_cid: 132212657
+      pubchem_inchi_key: FRVSRBKUQZKTOW-UHFFFAOYSA-N
+      pubchem_isomeric_smiles: CCN(C(C)C)C(=O)C1=C(C=CC(=C1)F)OC2=CN=CN=C2N3CC4(C3)CCN(CC4)CC5CCC(CC5)NS(=O)(=O)CC
+      regulatory_status: FDA approved
+      source_checked_at: 2026-07-14
+      approval_context: KMT2A-translocated relapsed/refractory acute leukemia (2024-11-15); NPM1-mutant relapsed/refractory AML (2025-10-24)
+      pubchem_url: https://pubchem.ncbi.nlm.nih.gov/compound/132212657
+      regulatory_url: https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-revumenib-relapsed-or-refractory-acute-myeloid-leukemia-susceptible-npm1-mutation
+    - name: ziftomenib
+      pubchem_cid: 138497449
+      pubchem_inchi_key: BGGALFIXXQOTPY-NRFANRHFSA-N
+      pubchem_isomeric_smiles: CC1=C(C=CC2=C1C=C(N2C[C@H](C)N3CCN(CC3)S(=O)(=O)C)C#N)CN4CCC(CC4)NC5=C6C=C(SC6=NC(=N5)NC)CC(F)(F)F
+      regulatory_status: FDA approved
+      source_checked_at: 2026-07-14
+      approval_context: NPM1-mutant relapsed/refractory AML (2025-11-13)
+      pubchem_url: https://pubchem.ncbi.nlm.nih.gov/compound/138497449
+      regulatory_url: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220305s000lbl.pdf
+
+  clustering:
+    similarity_threshold: 0.65
+  activity_cliffs:
+    similarity_threshold: 0.80
+    minimum_delta_pactivity: 2.0
+    connectivity_minimum_delta_pactivity: 1.0
+  matched_molecular_pairs:
+    max_variable_heavy_atoms: 12
+    max_variable_fraction: 0.35
+    min_core_heavy_atoms: 10
+  medicinal_chemistry:
+    alert_catalogs: [PAINS, BRENK, NIH]
+    property_windows:
+      mol_wt: {min: 150, max: 650}
+      logp: {min: -1, max: 6}
+      tpsa: {min: 15, max: 160}
+      h_bond_donors: {min: 0, max: 5}
+      h_bond_acceptors: {min: 0, max: 12}
+      rotatable_bonds: {min: 0, max: 14}
+  prioritization:
+    strong_pactivity: 7.0
+    potency_desirability_lower: 6.0
+    potency_desirability_upper: 9.0
+    maximum_activity_range_log10: 1.0
+    maximum_property_violations: 1
+    require_no_pains: true
+    lower_herg_probability: 0.30
+    high_herg_probability: 0.70
+    weights:
+      potency: 0.35
+      qed: 0.15
+      property: 0.15
+      evidence: 0.10
+      herg: 0.25
+    sensitivity:
+      emphasis_factor: 2.0
+  prospective_selection:
+    enabled: true
+    maximum_per_scaffold_series: 2
+    quotas:
+      potent_safety_gap: 12
+      liability_characterization: 8
+      novel_scaffold_exploration: 8
+      activity_cliff_confirmation: 8
+      negative_control: 6
+      pk_bridge: 6

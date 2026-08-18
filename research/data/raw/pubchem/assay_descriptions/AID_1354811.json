@@ -1,0 +1,127 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1354811,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4149708"
+              }
+            }
+          },
+          "name": "Inhibition of biotinylated MLL-1 derived biotinylated Btn-PEG2- PEG2-S-Nva-RWRFPARPGTT-Amide binding to recombinant full length N-terminal His-tagged menin (unknown origin) expressed in Escherichia coli incubated for 10 mins by TR-FRET assay",
+          "description": [
+            "Title: 2,7-Diazaspiro[4,4]nonanes for the Treatment or Prevention of Cancers and Diabetes."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: ACS Med Chem Lett",
+            "Year: 2018",
+            "Volume: 9",
+            "Issue: 5",
+            "First Page: 401",
+            "Last Page: 402",
+            "DOI: 10.1021/acsmedchemlett.8b00159",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 29795748
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4149708"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 29795748"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "activity_cliffs": 502,
+  "algorithm_contract": {
+    "activity_cliff_thresholds": {
+      "minimum_achiral_tanimoto": 0.8,
+      "minimum_delta_pactivity": 2.0
+    },
+    "alerts_are_review_flags_not_exclusions": true,
+    "clustering": "Butina with configured similarity converted to distance",
+    "fingerprint": {
+      "achiral_primary_with_chiral_sensitivity": true,
+      "bits": 2048,
+      "radius": 2,
+      "type": "Morgan"
+    },
+    "outside_domain_herg_policy": "unknown_no_safety_credit",
+    "rdkit_version": "2026.03.3",
+    "scaffold": "RDKit Bemis-Murcko; exact canonical identity for acyclic structures"
+  },
+  "approved_reference_compounds": 2,
+  "approved_references_with_exact_primary_coverage": 0,
+  "candidate_count": 849,
+  "connectivity_variant_cliffs": 129,
+  "connectivity_variant_groups": 153,
+  "herg_evidence_status_counts": {
+    "observed_blocker": 1,
+    "predicted_high_concern": 414,
+    "predicted_indeterminate": 4,
+    "unknown_outside_applicability_domain": 430
+  },
+  "input_sha256": {
+    "menin_measurements": "6ba482771de2bf63560a102a24ce7cbc3e9bc6a868f3913f3c7776b46e160c3d",
+    "observed_herg": "f89779d1bf21932c5510ba90b2c3834b9adde9490b3288667132a800334dd832",
+    "pk_admet": "ac18b909e72801c066a101ea41407ccc8d36f7dfc723f3621f83752769157196",
+    "scored_menin_herg": "694a9693d9b179a058d3fe6fc594d23a9bdf240efed3720d1d23ab5d90317514"
+  },
+  "matched_molecular_pair_cliffs": 498,
+  "matched_molecular_pairs": 3899,
+  "priority_tier_counts": {
+    "priority_2_potent_safety_data_gap": 162,
+    "priority_3_potent_liability_flag": 135,
+    "priority_4_chemistry_review": 31,
+    "priority_5_context_only": 521
+  },
+  "prospective_selection_count": 48,
+  "prospective_selection_shortfall": 0,
+  "schema_version": "chemical-intelligence-v1",
+  "series_meeting_minimum": 47,
+  "similarity_clusters": 126,
+  "status": "complete",
+  "task": {
+    "assay_family": "biochemical_binding",
+    "endpoint": "IC50"
+  },
+  "unique_scaffold_series": 252
+}

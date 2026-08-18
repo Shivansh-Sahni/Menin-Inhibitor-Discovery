@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite this repository and the ChEMBL,
+  BindingDB, PubChem, RDKit, and scikit-learn resources used by the analyzed
+  build. Cite specific assays and source releases where applicable.
+title: "Menin inhibitor discovery: reproducible bioactivity curation and QSAR evaluation"
+type: software
+authors:
+  - family-names: Sahni
+    given-names: Shivansh
+version: 0.3.0
+repository-code: "https://github.com/Shivansh-Sahni/Menin-Inhibitor-Discovery"
+abstract: >-
+  A reproducible research workflow for target-anchored Menin/MEN1 and
+  hERG/KCNH2 bioactivity collection, strict chemical and assay curation,
+  quality/provenance auditing, endpoint-aware QSAR baseline evaluation,
+  uncertainty, calibration, and applicability-domain analysis.
+keywords:
+  - menin
+  - MEN1
+  - KMT2A
+  - hERG
+  - KCNH2
+  - cheminformatics
+  - QSAR
+  - drug discovery

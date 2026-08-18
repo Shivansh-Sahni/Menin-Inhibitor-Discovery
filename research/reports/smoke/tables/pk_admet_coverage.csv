@@ -1,0 +1,66 @@
+admet_endpoint,species,matrix,administration_route,experimental_context,observations,compounds,units
+in_vitro_half_life,mouse,liver microsomes,,in_vitro,33,32,hr
+bioavailability,mouse,,oral,in_vivo,17,7,%
+exposure_auc,mouse,,oral,in_vivo,7,4,ng.hr.mL-1
+volume_of_distribution,rat,,intravenous,in_vivo,6,3,L.kg-1
+apparent_permeability,human,,,in_vitro,6,1,10^-6 cm/s;ucm/s
+exposure_auc,mouse,plasma,oral,in_vivo,6,1,ng.hr.mL-1
+terminal_half_life,rat,,intravenous,in_vivo,6,3,hr
+CC50,,,,in_vitro,5,2,nM
+exposure_auc,mouse,,intravenous,in_vivo,5,4,ng.hr.mL-1
+exposure_auc,rat,,oral,in_vivo,5,1,ng.hr.mL-1
+bioavailability,rat,,oral,in_vivo,4,1,%
+intrinsic_clearance,human,liver microsomes,,in_vitro,4,4,mL.min-1.g-1;mL.min-1.kg-1
+exposure_auc,mouse,plasma,,in_vivo,4,1,ng.hr.mL-1
+systemic_clearance,rat,,intravenous,in_vivo,4,1,mL.min-1.kg-1
+maximum_concentration,rat,,oral,in_vivo,4,1,nM
+time_to_cmax,rat,,oral,in_vivo,4,1,hr
+exposure_auc,rat,,intravenous,in_vivo,4,1,ng.hr.mL-1
+terminal_half_life,mouse,,oral,in_vivo,4,3,hr
+systemic_clearance,mouse,,intravenous,in_vivo,3,3,mL.min-1.kg-1
+plasma_protein_binding,human,plasma,,in_vitro,3,2,%
+terminal_half_life,mouse,,intravenous,in_vivo,3,3,hr
+terminal_half_life,rat,,oral,in_vivo,3,1,hr
+time_to_cmax,mouse,,oral,in_vivo,3,2,hr
+volume_of_distribution,mouse,,intravenous,in_vivo,3,3,L.kg-1
+intrinsic_clearance,rat,liver microsomes,,in_vitro,3,3,mL.min-1.kg-1
+maximum_concentration,mouse,,oral,in_vivo,3,2,nM
+apparent_permeability,mouse,,,unspecified,2,1,nm/s
+plasma_protein_binding,mouse,plasma,,in_vitro,2,2,%
+apparent_permeability,,,,unspecified,2,1,ucm/s
+time_to_cmax,mouse,plasma,oral,in_vivo,2,2,hr
+exposure_auc,mouse,,intramuscular,in_vivo,2,1,ng.hr.mL-1
+systemic_clearance,rat,plasma,intravenous,in_vivo,2,2,mL.min-1.kg-1
+systemic_clearance,human,,,unspecified,2,1,mL.min-1.kg-1
+apparent_permeability,,,,in_vitro,2,1,nm/s
+solubility,,,,unspecified,2,1,ug.mL-1
+plasma_protein_binding,rat,plasma,,in_vitro,2,2,%
+bioavailability,mouse,,oral,unspecified,2,2,%
+maximum_concentration,rat,,oral,unspecified,2,1,nM
+maximum_concentration,mouse,plasma,oral,in_vivo,2,2,nM
+time_to_cmax,rat,,oral,unspecified,1,1,hr
+bioavailability,human,,,unspecified,1,1,%
+volume_of_distribution,human,,intravenous,unspecified,1,1,L.kg-1
+apparent_permeability,dog,,,in_vitro,1,1,10'-6 cm/s
+time_to_cmax,mouse,,intravenous,in_vivo,1,1,hr
+volume_of_distribution,rat,brain,intravenous,in_vivo,1,1,ml
+volume_of_distribution,rat,brain,,unspecified,1,1,L.kg-1
+time_to_cmax,mouse,,intramuscular,in_vivo,1,1,hr
+terminal_half_life,,,,unspecified,1,1,hr
+MTD,mouse,,,unspecified,1,1,mg Kg-1
+intrinsic_clearance,rat,hepatocytes,,in_vitro,1,1,uL.min-1.(10^6cells)-1
+terminal_half_life,human,,intravenous,unspecified,1,1,hr
+cyp_inhibition,rat,,,unspecified,1,1,nM
+terminal_half_life,mouse,,intraperitoneal,in_vivo,1,1,hr
+terminal_half_life,mouse,,intramuscular,in_vivo,1,1,hr
+intrinsic_clearance,human,hepatocytes,,in_vitro,1,1,uL.min-1.(10^6cells)-1
+hepatotoxicity,rat,,,unspecified,1,1,%
+systemic_clearance,human,,intravenous,unspecified,1,1,mL.min-1.kg-1
+solubility,,,,in_vitro,1,1,nM
+hepatotoxicity,,,,unspecified,1,1,%
+herg_inhibition,human,,,in_vitro,1,1,nM
+LD50,mouse,,intravenous,in_vivo,1,1,mg.kg-1
+maximum_concentration,mouse,,intravenous,in_vivo,1,1,nM
+maximum_concentration,mouse,,intramuscular,in_vivo,1,1,nM
+maximum_concentration,human,,,in_vivo,1,1,nM
+volume_of_distribution,rat,,oral,unspecified,1,1,L.kg-1

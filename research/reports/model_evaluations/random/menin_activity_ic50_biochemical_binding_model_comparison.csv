@@ -1,0 +1,5 @@
+candidate,selection_metric,cv_mean,cv_std,n_successful_folds,selected_from_training_cv,holdout_mae,holdout_rmse,holdout_median_absolute_error,holdout_r2,holdout_pearson_r,holdout_spearman_r,holdout_mean_signed_error,holdout_fraction_within_0p5_log_unit,holdout_fraction_within_1_log_unit,holdout_calibration_slope,holdout_calibration_intercept
+dummy_median,cv_mae,1.1479976598357133,0.06251416184678325,3,False,,,,,,,,,,,
+ridge_alpha_1,cv_mae,0.7385932069754495,0.019479863982605074,3,False,,,,,,,,,,,
+ridge_alpha_10,cv_mae,0.6607878985539892,0.02123597790698819,3,True,0.6361915184847844,0.8059993709091224,0.5237275799428205,0.6493903367927019,0.808525075311544,0.7965663257526036,0.03981717614737406,0.48823529411764705,0.788235294117647,1.0785433196834548,-0.4626969693249068
+extra_trees,cv_mae,0.6862078033850088,0.014480068078997021,3,False,,,,,,,,,,,

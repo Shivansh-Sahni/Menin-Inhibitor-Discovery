@@ -1,0 +1,211 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 651810,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "Parkin-RNAi-Dharmacon"
+              },
+              "date": {
+                "std": {
+                  "year": 2013,
+                  "month": 11,
+                  "day": 24
+                }
+              }
+            }
+          },
+          "name": "Genome-wide high-content siRNA screens for regulators of Parkin translocation in selective mitophagy (Dharmacon Library)",
+          "description": [
+            "High-content genome-wide RNAi screens identify regulators of parkin upstream of mitophagy",
+            "",
+            "An increasing body of evidence points to mitochondrial dysfunction as a contributor to the molecular pathogenesis of neurodegenerative diseases such as Parkinson's (1).  Recent studies of the PD-associated genes PINK12 and PARK2 (Parkin) (3) suggest that they may act in a quality control pathway preventing the accumulation of dysfunctional mitochondria (4-7).  Following the loss of mitochondrial membrane potential, the kinase Pink1 and the E3-ubiquitin ligase Parkin coordinate a rapid proteasomal (8) and autophagic (mitophagy) (6) response that may attenuate cell death (9-11).  Given that enhanced mitophagy may ameliorate the deleterious consequences of mitochondrial dysfunction (12-14), we hypothesized that genes regulating Parkin translocation would be useful drug targets for increasing mitochondrial quality control.  However, the mechanism of Parkin recruitment following Pink1 accumulation on the outer mitochondrial membrane is too poorly understood to target, and may involve a host of coordinated events.  To identify genes important for the Pink1-dependent recruitment of Parkin to damaged mitochondria, we conducted two diverse genome-wide siRNA screens with high-throughput automation.  Our screening approach took advantage of the well-characterized phenotype of Parkin accumulation on depolarized mitochondria in cells (6).  Cells stably expressing GFP-Parkin and a mitochondrial-targeted red fluorescent protein were transfected with siRNA duplexes in 384-well plates.  After a 48 hour siRNA knockdown, the proton ionophore carbonyl cyanide 3-chlorophenylhydrazone (CCCP) was added to each well to induce rapid mitochondrial depolarization.  Following bulk mitochondrial depolarization in all cells within each well, GFP-Parkin translocation to the damaged mitochondria was allowed to progress for 2.5 hours and then cells were fixed.  The degree of Parkin translocation to the mitochondria of each cell was assessed by high-content analysis.  Primary screening yielded gene candidates involved in an array of diverse cellular processes that were validated in confirmatory assays.      ",
+            "",
+            "References:",
+            "1.) Schapira, A. H. & Tolosa, E. Molecular and clinical prodrome of Parkinson disease: implications for treatment. Nat Rev Neurol 6, 309-317, (2010).",
+            "2.) Valente, E. M. et al. Hereditary early-onset Parkinson's disease caused by mutations in PINK1. Science 304, 1158-1160, (2004).",
+            "3.) Kitada, T. et al. Mutations in the parkin gene cause autosomal recessive juvenile parkinsonism. Nature 392, 605-608, (1998).",
+            "4.) Vives-Bauza, C. et al. PINK1-dependent recruitment of Parkin to mitochondria in mitophagy. Proc Natl Acad Sci U S A 107, 378-383, (2010).",
+            "5.) Narendra, D. P. et al. PINK1 is selectively stabilized on impaired mitochondria to activate Parkin. PLoS Biol 8, e1000298, (2010).",
+            "6.) Narendra, D., Tanaka, A., Suen, D. F. & Youle, R. J. Parkin is recruited selectively to impaired mitochondria and promotes their autophagy. J Cell Biol 183, 795-803, (2008).",
+            "7.) Geisler, S. et al. PINK1/Parkin-mediated mitophagy is dependent on VDAC1 and p62/SQSTM1. Nat Cell Biol 12, 119-131, (2010).",
+            "8.) Chan, N. C. et al. Broad activation of the ubiquitin-proteasome system by Parkin is critical for mitophagy. Hum Mol Genet 20, 1726-1737, (2011).",
+            "9.) Bouman, L. et al. Parkin is transcriptionally regulated by ATF4: evidence for an interconnection between mitochondrial stress and ER stress. Cell Death Differ 18, 769-782, (2011).",
+            "10.) Darios, F. et al. Parkin prevents mitochondrial swelling and cytochrome c release in mitochondria-dependent cell death. Hum Mol Genet 12, 517-526, (2003).",
+            "11.) Gautier, C. A., Kitada, T. & Shen, J. Loss of PINK1 causes mitochondrial functional defects and increased sensitivity to oxidative stress. Proc Natl Acad Sci U S A 105, 11364-11369, (2008).",
+            "12.) Pimenta de Castro, I. et al. Genetic analysis of mitochondrial protein misfolding in Drosophila melanogaster. Cell Death Differ, (2012).",
+            "13.) Suen, D. F., Narendra, D. P., Tanaka, A., Manfredi, G. & Youle, R. J. Parkin overexpression selects against a deleterious mtDNA mutation in heteroplasmic cybrid cells. Proc Natl Acad Sci U S A 107, 11835-11840, (2010).",
+            "14.) Burman, J. L., Yu, S., Poole, A. C., Decal, R. B. & Pallanck, L. Analysis of neural subtypes reveals selective mitochondrial dysfunction in dopaminergic neurons from parkin mutants. Proc Natl Acad Sci U S A, (2012).",
+            "Keywords:",
+            "",
+            "Parkin, PARK2, PINK1, mitophagy, autophagy, CCCP, mitochondrial damage, Parkinson's disease, neurodegeneration, siRNA, RNAi screen, HTS, genome-wide, functional genomics, assay, high content screening, 384 well, National Institutes of Health, National Center for Advancing Translational Sciences, NIH Center for Translational Therapeutics, National Institute of Neurological Disorders and Stroke"
+          ],
+          "protocol": [
+            ""
+          ],
+          "comment": [
+            ""
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "http://tripod.nih.gov/rnai"
+              }
+            },
+            {
+              "xref": {
+                "pmid": 24270810
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Vendor Supplied Gene Symbol",
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Raw Sample Value",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 3,
+              "name": "Median Negative Control on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Median Positive Control on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "PPT Sample as Percentage of Negative Control",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "PPT MAD Z-Score",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "PPT Log MAD Z-Score",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "Cell Count, Sample",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 9,
+              "name": "Median Negative Control Cell Count on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "Median Positive Control Cell Count on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 11,
+              "name": "Sample Cell Count, MAD Z-Score Normalized to Negative Control",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "Sample Mitochondrial Signal",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "Median Negative Control Mitochondrial Signal on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 14,
+              "name": "Median Positive Control Mitochondrial Signal on Plate",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 15,
+              "name": "Sample mitochondrial signal, MAD Z-Score Normalized to Negative Control",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 16,
+              "name": "HUGO Gene Symbol",
+              "type": 4
+            },
+            {
+              "tid": 17,
+              "name": "Entrez GeneID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 18,
+              "name": "CatalogNumber",
+              "type": 4
+            },
+            {
+              "tid": 19,
+              "name": "REFSEQ",
+              "type": 4
+            },
+            {
+              "tid": 20,
+              "name": "PLATE ID",
+              "type": 4
+            },
+            {
+              "tid": 21,
+              "name": "Row Number",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 22,
+              "name": "Column Number",
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 23,
+              "name": "Passed Initial Activity Threshold?",
+              "type": 4
+            }
+          ],
+          "revision": 4,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+table,severity,code,scope,finding_count,affected_row_count
+herg,warning,ambiguous_assay_context,row,62,62
+herg,warning,assay_metadata_conflict,row,4969,4969
+herg,warning,conflicting_repeated_measurement,row,269,269

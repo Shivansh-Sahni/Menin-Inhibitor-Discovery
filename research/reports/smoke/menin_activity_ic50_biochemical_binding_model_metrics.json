@@ -1,0 +1,244 @@
+{
+  "applicability_domain": {
+    "definition": "Inside domain when maximum training-set Tanimoto is at least the configured 0.050 quantile of sampled training nearest-neighbor similarities.",
+    "fingerprint_backend": "rdkit_morgan",
+    "holdout_fraction_inside_domain": 0.8520710059171598,
+    "similarity_threshold": 0.6360269248485565
+  },
+  "artifact": {
+    "filename": "menin_activity_ic50_biochemical_binding_extra_trees.skops",
+    "format": "skops",
+    "path": "models/smoke/menin_activity_ic50_biochemical_binding_extra_trees.skops",
+    "path_is_repository_relative": true,
+    "sha256": "9479d425386b81f167be6e1a3f84693596c657437d7722b02ab2f64b11a7d73b",
+    "skops_fallback_reason": null,
+    "trust_boundary": "Load only after reviewing skops.io.get_untrusted_types for this project-defined transformer."
+  },
+  "cross_validation": {
+    "chemistry_fallback_used": false,
+    "cv_sha256": "0dcef3bf9668e5b7922fc0c7d915889997b52ab4771884f9356beeff3f07d9f7",
+    "fallback_reason": null,
+    "grouping": "bemis_murcko",
+    "grouping_method_counts": {
+      "bemis_murcko": 680
+    },
+    "identity_column": "structure_id",
+    "maximum_structure_overlap": 0,
+    "n_splits": 3,
+    "n_structure_groups": 201,
+    "n_unique_structures": 680,
+    "requested_strategy": "scaffold",
+    "strategy": "scaffold"
+  },
+  "features": {
+    "backend": "rdkit_morgan",
+    "descriptor_columns": [
+      "mol_wt",
+      "exact_mol_wt",
+      "logp",
+      "tpsa",
+      "h_bond_donors",
+      "h_bond_acceptors",
+      "rotatable_bonds",
+      "ring_count",
+      "aromatic_ring_count",
+      "fraction_csp3",
+      "heavy_atom_count",
+      "formal_charge",
+      "invalid_structure"
+    ],
+    "fallback_used": false,
+    "fingerprint_bits": 512,
+    "morgan_radius": 2
+  },
+  "interpretation": "Use with scaffold/temporal validation, uncertainty intervals, and applicability-domain flags; prospective experimental validation remains required.",
+  "model": "extra_trees",
+  "n_compounds": 849,
+  "n_test": 169,
+  "n_train": 680,
+  "provenance": {
+    "fast_mode": true,
+    "git_dirty": true,
+    "git_revision": "01210746809b7acec64c86a0e7f4b97a6fb5574f",
+    "processed_build_id": "build-6237a81ba03d0ccb",
+    "processed_dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+    "processed_manifest_sha256": "f0518cb8766729494b739a5b794bdff2a2f8d84cc340f707a2c695ccfcc43b5a",
+    "resolved_settings": {
+      "curation": {
+        "accepted_chembl_validity_comments": [
+          "",
+          "Manually validated"
+        ],
+        "canonicalize_tautomers": false,
+        "core_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "exact_policy": "strict_exact",
+        "exclude_assay_variants": true,
+        "herg_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "max_within_compound_log_spread": 2.0,
+        "menin_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "pubchem_require_menin_relevance": true,
+        "reject_potential_duplicates": true,
+        "require_rdkit": true,
+        "standardize_structures": true,
+        "strip_salts": true
+      },
+      "herg": {
+        "blocker_max_nm": 10000.0,
+        "nonblocker_min_nm": 30000.0,
+        "primary_assay_family": "electrophysiology_functional",
+        "primary_endpoint": "IC50",
+        "run_pooled_sensitivity": true
+      },
+      "modeling": {
+        "analyze_all_eligible_endpoint_assay_tasks": true,
+        "applicability_domain_quantile": 0.05,
+        "bootstrap_iterations": 500,
+        "cv_folds": 3,
+        "evaluation_splits": [
+          "scaffold",
+          "chemical",
+          "temporal",
+          "random"
+        ],
+        "feature_backend": "rdkit",
+        "fingerprint_bits": 2048,
+        "fingerprint_radius": 2,
+        "menin_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "menin_task_assay_families": {
+          "EC50": "cellular_functional",
+          "IC50": "biochemical_binding",
+          "Kd": "biochemical_binding",
+          "Ki": "biochemical_binding"
+        },
+        "min_classification_compounds": 120,
+        "min_regression_compounds": 80,
+        "primary_menin_assay_family": "biochemical_binding",
+        "primary_menin_endpoint": "IC50",
+        "primary_split": "scaffold",
+        "run_clean_label_sensitivity": true,
+        "run_cross_source_mirror_sensitivity": true,
+        "test_size": 0.2,
+        "tree_estimators": 200,
+        "uncertainty_coverage": 0.9
+      },
+      "paths": {
+        "models": "models/smoke",
+        "processed": "data/processed",
+        "raw": "data/raw",
+        "reports": "reports/smoke"
+      },
+      "project": {
+        "name": "menin-discovery",
+        "random_state": 13
+      }
+    },
+    "resolved_settings_sha256": "33b145adb2ca0d7b60dc86707db371b55a842eb61ba16712a348e2e649a29114",
+    "software_dataset_sha256": "e5cef5a4559c4e3a8ab675996f461983f5d7abe48617670beb36dd9f79291efd",
+    "software_manifest_sha256": "cc9d391df0857496cea07b4a350dfa1327e54c70087b619707821f893c74d23d"
+  },
+  "schema_version": "2.0",
+  "split": {
+    "actual_test_fraction": 0.19905771495877503,
+    "chemistry_fallback_used": false,
+    "fallback_reason": null,
+    "group_selection_score": 0.005611671964728351,
+    "grouping": "bemis_murcko",
+    "grouping_method_counts": {
+      "bemis_murcko": 849
+    },
+    "identity_column": "structure_id",
+    "n_rows": 849,
+    "n_structure_groups": 252,
+    "n_test": 169,
+    "n_train": 680,
+    "n_unique_structures": 849,
+    "random_state": 13,
+    "requested_strategy": "scaffold",
+    "requested_test_fraction": 0.2,
+    "split_sha256": "721a06a837824b3a081a8e471926244c08eeb420c9d5ee2091ba58080802310f",
+    "strategy": "scaffold",
+    "structure_group_overlap": 0,
+    "structure_identity_overlap": 0
+  },
+  "status": "trained",
+  "task": {
+    "assay_family": "biochemical_binding",
+    "collapse_cross_source_mirrors": true,
+    "cross_source_mirror_rows_collapsed": 428,
+    "endpoint": "IC50",
+    "exclude_heterogeneous_labels": false,
+    "heterogeneity_log_spread_threshold": 2.0,
+    "heterogeneous_source_rows": 9,
+    "heterogeneous_structures": 2,
+    "identity_column": "structure_id",
+    "ineligible_rows_excluded": 4378,
+    "input_level": "measurement",
+    "input_rows": 8176,
+    "label_policy": "median exact eligible normalized p-value after endpoint/assay filtering, retaining same-source replicates and excluding linked lower-priority cross-source mirrors before standardized-structure aggregation",
+    "n_compounds": 849,
+    "replicate_weighting_policy": "same-source replicates retained; lower-priority exact normalized cross-source mirror rows excluded from the label but retained in measurement provenance"
+  },
+  "test_mae_pchembl": 0.7472334677280236,
+  "test_metric_bootstrap_95_ci": {
+    "mae": {
+      "lower_95": 0.5756774503448472,
+      "n_successful_resamples": 50,
+      "upper_95": 0.8638261850573515
+    },
+    "n_resampling_groups": 51,
+    "r2": {
+      "lower_95": 0.3821280516449696,
+      "n_successful_resamples": 50,
+      "upper_95": 0.7699082529539062
+    },
+    "resampling_unit": "chemical_scaffold_group",
+    "rmse": {
+      "lower_95": 0.7185600276773055,
+      "n_successful_resamples": 50,
+      "upper_95": 1.0265833782611635
+    },
+    "spearman_r": {
+      "lower_95": 0.6174547179895911,
+      "n_successful_resamples": 50,
+      "upper_95": 0.8633731008779031
+    }
+  },
+  "test_metrics": {
+    "calibration_intercept": 0.29351413760480494,
+    "calibration_slope": 0.9527109896478276,
+    "fraction_within_0p5_log_unit": 0.3668639053254438,
+    "fraction_within_1_log_unit": 0.6982248520710059,
+    "mae": 0.7472334677280236,
+    "mean_signed_error": -0.00831947466200191,
+    "median_absolute_error": 0.666316931158117,
+    "pearson_r": 0.7426201097763023,
+    "r2": 0.5500896243732908,
+    "rmse": 0.9264794639286565,
+    "spearman_r": 0.7358000565684274
+  },
+  "test_r2": 0.5500896243732908,
+  "test_rmse_pchembl": 0.9264794639286565,
+  "uncertainty": {
+    "empirical_holdout_coverage": 0.8994082840236687,
+    "interval_half_width_p_activity": 1.4874609142037105,
+    "method": "cross-validated absolute-residual conformal interval",
+    "n_oof_residuals": 680,
+    "nominal_coverage": 0.9
+  }
+}

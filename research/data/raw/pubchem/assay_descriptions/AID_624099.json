@@ -1,0 +1,137 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 624099,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ICCB-Longwood/NSRB Screening Facility, Harvard Medical School",
+              "source_id": {
+                "str": "HMS729"
+              }
+            }
+          },
+          "name": "An siRNA screen for human genes that are involved in human papilloma virus (HPV) E2 transcriptional repression of the E6 and E7 oncogenes",
+          "description": [
+            "An essential step in the pathogenesis of human papillomavirus (HPV)-associated cancers is the dysregulated expression of the viral oncogenes. The papillomavirus E2 protein can silence the long control region (LCR) promoter that controls viral E6 and E7 oncogene expression. The mechanisms by which E2 represses oncogene expression and the cellular factors through which E2 mediates this silencing are largely unknown. We conducted an unbiased, genome-wide siRNA screen and series of secondary screens that identified 96 cellular genes that contribute to the repression of the HPV18 LCR. In addition to confirming a role for the E2-binding bromodomain protein Brd4 in E2-mediated silencing, we identified a number of genes that have not previously been implicated in E2 repression, including the demethylase JARID1C/SMCX as well as EP400, a component of the NuA4/TIP60 histone acetyltransferase complex. Each of these genes contributes independently and additively to E2-mediated silencing, indicating that E2 functions through several distinct cellular complexes to repress E6 and E7 expression.",
+            "",
+            "This screen was conducted in the lab of Peter Howley (Harvard Medical School) at the ICCB-Longwood Screening Facility, Harvard Medical School."
+          ],
+          "protocol": [
+            "HPV-negative C33A cells were stably transfected with a BPV1 E2 expression construct and HPV18 LCR-luciferase reporter construct. The HPV18 LCR reporter construct utilized in these experiments contains nucleotide 6943-105 from the HPV18 LCR linked to the luciferase ORF. The E6 and E7 ORFs were replaced with the luciferase ORF in the reporter plasmid. C33/BE2/18LCR c4 cells were maintained as subconfluent monolayers in high-glucose DMEM with 10% FBS, 50 units/mL penicillin G, 50 ug/mL streptomycin sulfate, and 0.75 ug/mL puromycin. Cells were depleted of antibiotics 1 day prior to transfection.",
+            "",
+            "On the day of transfection, siRNA buffer (1x; Dharmacon) was aliquoted into wells, siRNA was added so that the final concentration was 40 nM/well, and DharmaFECT2/OptiMEM was dispensed into wells.  While the siRNA/lipid was allowed to complex, cells were trypsinized, counted, and resuspended to reach a plating density of 7 x 10E3 cells/well.  Cells were seeded on top of the siRNA/lipid mixture, briefly centrifuged, and incubated at 37 C for 72 h.",
+            "",
+            "At 72 h post-transfection, Steady Glo reagent (Promega) was added to each well and luciferase units/well measured using an EnVision plate reader.",
+            "",
+            "Library plates were screened in triplicate, with all three assay plates in a given set prepared on the same day."
+          ],
+          "comment": [
+            "The mean luminescence and SD for each plate, minus wells with no siRNA, positive control siRNA, or G418, were calculated.  The Z-score [Z = (x - m)/s] was calculated for each SMARTpool on the plate, where x is the raw score to be standardized, m is the mean of the plate, and s is the standard deviation of the plate.  The Z-scores from the three replicates for each SMARTpool were averaged.  A SMARTpool was considered active if the average Z-score was >= 2 and at least two of the replicates had Z-score >= 2. Activity scores were calculated by multiplying the average Z-score by 25, with 100 as the maximum activity score.  Average Z-score values < 0 were set at 0 activity."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 20133580
+              },
+              "comment": "Smith JA, White EA, Sowa ME, Powell ML, Ottinger M, Harper JW, Howley PM. Genome-wide siRNA screen identifies SMCX, EP400, and Brd4 as E2-dependent regulators of human papillomavirus oncogene expression. Proc Natl Acad Sci U S A. 2010 Feb 23;107(8):3752-7.",
+              "type": 1
+            },
+            {
+              "xref": {
+                "pmid": 20181716
+              },
+              "comment": "Powell ML, Smith JA, Sowa ME, Harper JW, Iftner T, Stubenrauch F, Howley PM. NCoR1 mediates papillomavirus E8;E2C transcriptional repression. J Virol. 2010 May;84(9):4451-60."
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Luminescence_A",
+              "description": [
+                "Luciferase luminescence, replicate A"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 2,
+              "name": "Luminescence_B",
+              "description": [
+                "Luciferase luminescence, replicate B"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 3,
+              "name": "Luminescence_C",
+              "description": [
+                "Luciferase luminescence, replicate C"
+              ],
+              "type": 2,
+              "unit": 254
+            },
+            {
+              "tid": 4,
+              "name": "Z-score_A",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 5,
+              "name": "Z-score_B",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 6,
+              "name": "Z-score_C",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 7,
+              "name": "Z-score_Avg",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 8,
+              "name": "NCBI Gene ID",
+              "description": [
+                "NCBI Entrez Gene database id of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "",
+              "mol_id": {
+                "gene_id": 1489088
+              },
+              "descr": "Human PapillomaVirus type 18 E6.  The assay utilized the enhancer and promoter region for HPV18 E6 and E7 oncogene expression (nt 6943-105). The E6 and E7 ORFs were replaced with the luciferase ORF in the reporter plasmid."
+            },
+            {
+              "name": "",
+              "mol_id": {
+                "gene_id": 1489089
+              },
+              "descr": "Human PapillomaVirus type 18 E7.  The assay utilized the enhancer and promoter region for HPV18 E6 and E7 oncogene expression (nt 6943-105).  The E6 and E7 ORFs were replaced with the luciferase ORF in the reporter plasmid."
+            }
+          ],
+          "activity_outcome_method": 0,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 504585,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "MENN9473"
+              }
+            }
+          },
+          "name": "Confirmation of Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Binding Confirmation with NMR Saturation Transfer Difference",
+          "description": [
+            "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias",
+            "NIH Chemical Genomics Center [NCGC]",
+            "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+            "",
+            "MLPCN Grant: MH084875-01A1",
+            "Assay Submitter (PI): Jolanta Grembecka, Tomasz Cierpicki, University of Virginia",
+            "",
+            "Translocations of the MLL (Mixed Lineage Leukemia) gene are frequently found in human leukemias affecting both children and adults. Fusion of MLL to one of more than 60 genes results in generation of oncogenic proteins upregulating Hox genes, which are vital to blood cell development. Patients harboring fusion of the MLL gene suffer from aggressive leukemias and respond poorly to available therapies. All of the oncogenic fusion proteins have a preserved N-terminal fragment of MLL that has been identified to interact with menin. It has been recently discovered that association with menin is critical to the leukemogenic activity of the MLL fusion oncoproteins. Selective targeting of the menin-MLL interaction could provide an attractive therapeutic approach to develop novel drugs for MLL-related leukemias. Small molecules blocking the menin-MLL interaction should reverse the oncogenic potential of MLL fusion proteins.",
+            "",
+            "We have developed and optimized a fluorescence polarization-based assay for the identification of Menin-MLL inhibitors. The assay was run employing two different MLL-derived peptides. The present assay uses a 12 amino acid peptide labeled with fluorescein at its N-terminus. This peptide consists of the menin high affinity binding motif from MLL and is potently bound by menin. Another peptide with a mutated sequence, labeled with Texas Red, was used in parallel as a less stringent screen for inhibitors.",
+            "",
+            "The present assay uses an orthogonal technique to identify those compounds specifically interacting with the target protein."
+          ],
+          "protocol": [
+            "NMR samples for the saturation transfer difference (STD) experiments contained 2.5uM  menin solution in 50 mM phosphate buffer, 50 mM NaCl,  1mM DTT, pH= 7.5, with 5% of D2O, final volume 150 uL. The compounds were added as stock solutions in DMSO to final 100 uM concentration and 5% DMSO. All NMR experiments were recorded using 600 MHz Bruker Avance III spectrometer at 25C. Samples for the competition STD experiments contained additional MBM1 peptide at final concentration of 25 uM and the measurements were carried out is the same way as described above for STD experiments. "
+          ],
+          "comment": [
+            "Compounds exhibiting an STD are given a score of 50. Those molecules whose STD was competitive with the MBM1 peptide were given a score of 80. Molecules without a STD were given a score of 10."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 1766
+              },
+              "comment": "Primary screen using fluorescein labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 1768
+              },
+              "comment": "Primary screen using Texas red labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2076
+              },
+              "comment": "Summary assay for project."
+            },
+            {
+              "xref": {
+                "aid": 2783
+              },
+              "comment": "Confirmation screen of hits from the primary screen using fluorescein labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2782
+              },
+              "comment": "Confirmation screen of hits from the primary screen using Texas red labeled probe."
+            },
+            {
+              "xref": {
+                "aid": 2778
+              },
+              "comment": "Confirmation screen of hits from the primary screen using orthogonal HTRF format."
+            },
+            {
+              "xref": {
+                "pmid": 16239140
+              }
+            },
+            {
+              "xref": {
+                "mim": 159555
+              }
+            },
+            {
+              "xref": {
+                "mim": 131100
+              }
+            },
+            {
+              "xref": {
+                "gene": 4297
+              },
+              "comment": "myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila) [Homo sapiens] "
+            },
+            {
+              "xref": {
+                "pmid": 4221
+              },
+              "comment": "multiple endocrine neoplasia I [Homo sapiens] "
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "NMR STD",
+              "description": [
+                "Whether a saturation transfer difference was observed."
+              ],
+              "type": 3,
+              "unit": 254,
+              "tc": {
+                "concentration": 10,
+                "unit": 5
+              }
+            },
+            {
+              "tid": 2,
+              "name": "competition by NMR",
+              "description": [
+                "Whether STD was competitive with MBM1 peptide."
+              ],
+              "type": 3,
+              "unit": 254,
+              "tc": {
+                "concentration": 10,
+                "unit": 5
+              }
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "myeloid/lymphoid or mixed-lineage leukemia protein [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_005924.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              },
+              "descr": "myeloid/lymphoid or mixed-lineage leukemia protein [Homo sapiens] [gi:56550039]"
+            },
+            {
+              "name": "menin isoform 1 [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_000235.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              },
+              "descr": "menin isoform 1 [Homo sapiens] [gi:18860839]"
+            }
+          ],
+          "activity_outcome_method": 0,
+          "grant_number": [
+            "MH084875-01A1"
+          ],
+          "project_category": 2
+        }
+      }
+    }
+  ]
+}

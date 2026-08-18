@@ -1,0 +1,11 @@
+name: menin-local-physics
+channels:
+  - conda-forge
+dependencies:
+  - crest=2.12
+  - xtb=6.7.1
+
+# CREST 3.0.2 from the tested macOS-arm64 conda build was rejected because it
+# terminated at startup with a Fortran-format runtime error.  This small,
+# isolated environment records the executable versions used for the measured
+# runtime gate and the targeted GFN2-xTB basin refinements.

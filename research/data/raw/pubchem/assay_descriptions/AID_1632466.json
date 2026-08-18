@@ -1,0 +1,122 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1632466,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4432628"
+              }
+            }
+          },
+          "name": "Inhibition of menin/MLL1 interaction in human MV4-11 cells assessed as reduction in HOXA9 mRNA level at 10 uM after 6 days by qRT-PCR analysis relative to control",
+          "description": [
+            "Title: Design and synthesis of benzylpiperidine inhibitors targeting the menin-MLL1 interface.",
+            "",
+            "Abstract: Menin is an essential oncogenic cofactor for mixed lineage leukemia (MLL)-mediated leukemogenesis, functioning through its direct interaction with MLL1 protein. Therefore, targeting the menin-MLL1 protein-protein interface represents a promising strategy to block MLL-mediated leukemogenesis. On the basis of co-crystal structure analysis, starting from thienopyrimidine chemotype, we have investigated the detailed structure-activity relationship of the piperazinyl-dihydrothiazole moiety. Several compounds were found with potent inhibitory activity against menin and better activities in cell-based experiments than MI-2-2. Molecular docking analysis revealed a less explored subpocket, which could be used for the design of new menin-MLL1 inhibitors."
+          ],
+          "comment": [
+            "Journal: Bioorg Med Chem Lett",
+            "Year: 2016",
+            "Volume: 26",
+            "Issue: 18",
+            "First Page: 4472",
+            "Last Page: 4476",
+            "DOI: 10.1016/j.bmcl.2016.07.074",
+            "",
+            "Target ChEMBL ID: CHEMBL2093861",
+            "ChEMBL Target Name: Menin/Histone-lysine N-methyltransferase MLL",
+            "ChEMBL Target Type: PROTEIN-PROTEIN INTERACTION - Target is the disruption of a protein-protein interaction",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Multiple direct protein targets may be assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 27528435
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4432628"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 4,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            },
+            {
+              "name": "Histone-lysine N-methyltransferase 2A",
+              "mol_id": {
+                "protein_accession": "Q03164"
+              },
+              "descr": "Menin/Histone-lysine N-methyltransferase MLL"
+            }
+          ],
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 27528435"
+          ]
+        }
+      }
+    }
+  ]
+}

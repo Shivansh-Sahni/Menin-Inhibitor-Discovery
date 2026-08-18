@@ -1,0 +1,4 @@
+table,severity,code,scope,finding_count,affected_row_count
+pk,warning,conflicting_repeated_measurement,row,20,20
+pk,warning,unknown_unit,row,3,3
+pk,info,mass_concentration_requires_molecular_weight,row,2,2

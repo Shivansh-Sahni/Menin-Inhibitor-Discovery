@@ -1,0 +1,139 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1224830,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "11962",
+              "source_id": {
+                "str": "LPS genome wide primary screen-Human"
+              },
+              "date": {
+                "std": {
+                  "year": 2017,
+                  "month": 2,
+                  "day": 23
+                }
+              }
+            }
+          },
+          "name": "Genome-wide siRNA screen of genes regulating the Lipopolysaccharide-induced TNF-alpha response in human macrophages_Primary screen TNF readout",
+          "description": [
+            "The mammalian innate immune system senses many bacterial stimuli through the toll-like receptor (TLR) family. Activation of the TLR4 receptor by bacterial lipopolysaccharide (LPS) is the most widely studied TLR pathway due to its central role in host responses to gram-negative bacterial infection and its contribution to endotoxemia and sepsis. Here we describe a genome-wide siRNA screen to identify genes regulating the human macrophage TNF-alpha response to LPS. We also conducted a secondary validation screen with six independent siRNAs per gene to facilitate removal of off-target screen hits, and we generated microarray data from the same LPS-treated macrophage cells to facilitate downstream data analysis. These data provide a resource for analyzing gene function in the predominant pathway driving inflammatory cytokine expression in human macrophages."
+          ],
+          "protocol": [
+            "Cell culture and stimulation with LPS",
+            "THP1 B5 cells were maintained in RPMI 1640, 10% FBS, and 2 mM glutamine (containing 500 mug/ml G418). LPS was from Alexis Biochemicals (Salmonella minnesota R595 TLRgrade, Cat. No. ALX-581-008-L002).",
+            "",
+            "Dual luciferase assays in THP1 B5 cells",
+            "The THP1 B5 cell clone was generated as described previously (N. Li, J. C. Sun, Z. L. Benet, Z. Wang, S. Al-Khodor, S. P. John, M. H. Sung, and I. D. Fraser. Development of a cell system for siRNA screening of pathogen responses in human and mouse macrophages. Scientific reports. 9, 9559 (2015)). Cells were differentiated into a macrophage-like state with phorbol-12-myristate-13-acetate (PMA, 5 ng/ml, Sigma, P1585) for 72 hours. The differentiated cells were treated with TLR ligands for activation or with culture medium as a control. After stimulation, firefly and renilla luciferase activities in the cell lysates were determined with the Dual-Luciferase Reporter Assay System (Promega, E1960) and the firefly:renilla luminescence ratio was calculated to reflect the response of the cells to stimulation.",
+            "",
+            "siRNA screen",
+            "The genome-wide siRNA screen was run in 384-well format. We used the Dharmacon Human siGENOME SMARTpool siRNA library RefSeq27, containing a single pool of 4 siRNAs targeting each of 18,236 genes across 58 plates. For the primary screen, each library plate was reformatted to 4 assay plates (230 total screen plates) to obtain four replicate data points for each siRNA pool, as we observed better replicate correlation within rather than across plates from our dual luciferase assay in preliminary experiments. For the secondary screen, in which individual sequences from different vendors were used, replicate plates were run in successive weeks. Passage matched cells were used throughout the screening process to minimize cell line variability. For the primary screen, plates were prepared with siRNAs against target genes in columns 2-9 and 12-23, with controls (at least 3 wells each) in columns 10, 11, and 24, column 1 was not used. siRNA concentration throughout the primary and secondary screens was fixed at 50 nM, previously identified as optimal for the THP1 B5 line{Li, 2015 #930}. Negative controls included transfection lipid alone, non-targeting control siRNA NTC3 and NTC5. Positive controls were chosen from the canonical TLR4 pathway across a range of expected phenotypic strength; TLR4, IRAK1, IKBKG, and TAK1. siRNA targeting Renilla luciferase was used as control for monitoring transfection efficiency. All cell plating and liquid handling steps were conducted with a Multidrop dispenser (Thermo Fisher) and EL406 plate washer/dispenser (Biotek). Luciferase activity from cell lysates was measured using the Dual-Luciferase Reporter Assay (Promega) and read with a FLUOstar Omega plate reader (BMG Labtech).",
+            "",
+            "Data analysis.",
+            "For the primary siRNA screen, the raw R1/R2 data was first normalized on a per-plate basis to the intra-plate median. We then standardized the values for each replicate experiment using the robust z-score calculation. We evaluated the correlation between the four replicate wells from each siRNA pool, and observed a consistently low CV across the primary screen, with an overall screen average CV of <2%. For the secondary siRNA screen, data was again normalized on a per-plate basis to the intra-plate median, then standardized values for each replicate experiment were derived using the robust z-score calculation. The mean of the robust z-score from replicate samples was taken as the final score for each gene. ",
+            "",
+            "Primary screen assay activity defininitions: 0= Z-score between 1 and -1; 25= Z-score greater than 1 or less than -1; 50= Z-score greater than 2.8 or less than -1.5; 75= Z-score greater than 4 or less than -2; 100= Z-score greater than 5 or less than -2.5."
+          ],
+          "comment": [
+            ""
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "gene.ID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 2,
+              "name": "taxonomy.ID",
+              "type": 4,
+              "annot": 6
+            },
+            {
+              "tid": 3,
+              "name": "SampleSource",
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "Ligand",
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Readout",
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Zscore",
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "Control",
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "PlateID",
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "Well",
+              "type": 4
+            },
+            {
+              "tid": 10,
+              "name": "GeneSymbol",
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "EntrezID",
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "siRNAID",
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "WellAnno",
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "Rep1R1",
+              "type": 1
+            },
+            {
+              "tid": 15,
+              "name": "Rep1R2",
+              "type": 1
+            },
+            {
+              "tid": 16,
+              "name": "Rep1R1.R2",
+              "type": 1
+            }
+          ],
+          "revision": 3,
+          "activity_outcome_method": 3,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

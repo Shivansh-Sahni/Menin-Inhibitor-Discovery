@@ -1,0 +1,137 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 721766,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL2320318"
+              }
+            }
+          },
+          "name": "Binding affinity to menin (unknown origin) after 60 mins by fluorescence polarization assay",
+          "description": [
+            "Title: Structure-based design of high-affinity macrocyclic peptidomimetics to block the menin-mixed lineage leukemia 1 (MLL1) protein-protein interaction.",
+            "",
+            "Abstract: Menin is an essential oncogenic cofactor for mixed lineage leukemia 1 (MLL1)-mediated leukemogenesis through its direct interaction with MLL1. Targeting the menin-MLL1 protein-protein interaction represents a promising strategy to block MLL1-mediated leukemogenesis. Employing a structure-based approach and starting from a linear MLL1 octapeptide, we have designed a class of potent macrocyclic peptidomimetic inhibitors of the menin-MLL1 interaction. The most potent macrocyclic peptidomimetic (MCP-1), 34, binds to menin with a K(i) value of 4.7 nM and is >600 times more potent than the corresponding acyclic peptide. Compound 34 is also less peptide-like and has a lower molecular weight than the initial MLL1 peptide. Therefore, compound 34 serves as a promising lead structure for the design of potent and cell-permeable inhibitors of the menin-MLL1 interaction."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: J Med Chem",
+            "Year: 2013",
+            "Volume: 56",
+            "Issue: 3",
+            "First Page: 1113",
+            "Last Page: 1123",
+            "DOI: 10.1021/jm3015298",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 23244744
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL2320318"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "Data Validity Comment",
+              "description": [
+                "Comment reflecting whether the values for this activity measurement are likely to be correct"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 23244744"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2068370,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL5507525"
+              }
+            }
+          },
+          "name": "Induction of cell cycle arrest in human MV4-11 cells assessed as accumulation of cells at G0/G1 phase at 10 uM incubated for 24 hrs by PI/RNase staining based flow cytometry analysis",
+          "description": [
+            "Title: Discovery of novel pyrrolo[2,3-d]pyrimidines as potent menin-mixed lineage leukemia interaction inhibitors.",
+            "",
+            "Abstract: To interfere the Menin-MLL interaction using small molecular inhibitors has been shown as new treatment of several special hematological malignancies. Herein, a series of Menin-MLL interaction inhibitors with pyrrolo[2,3-d]pyrimidine scaffold were designed, synthesized and evaluated. Among them, compound A6 exhibited potent binding affinity with an IC<sub>50</sub> value of 0.38 \u03bcM, and strong anti-proliferative activity against MV4-11 cells with an IC<sub>50</sub> value of 1.07 \u03bcM. Further study showed A6 reduced the transcriptional levels of HOXA9 and MEIS1 genes. Moreover, A6 induced cellular apoptosis, arrested the cell cycle in G0/G1 phase, and reversed the differentiation arrest in a concentration-dependent manner. This study suggested compound A6 was as a novel potent Menin-MLL interaction inhibitor, and it proved that introduction of 4-amino pyrrolo[2,3-d]pyrimidine to occupy the P10 hydrophobic pocket was new idea for design of novel Menin-MLL interaction inhibitors."
+          ],
+          "comment": [
+            "Journal: Eur J Med Chem",
+            "Year: 2024",
+            "Volume: 268",
+            "First Page: 116226",
+            "Last Page: 116226",
+            "DOI: 10.1016/j.ejmech.2024.116226",
+            "",
+            "Target ChEMBL ID: CHEMBL613835",
+            "ChEMBL Target Name: MV4-11",
+            "ChEMBL Target Type: CELL-LINE - Target is a specific cell-line",
+            "Relationship Type: N - Non-molecular target assigned",
+            "Confidence: Target assigned is non-molecular"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 38367493
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL5507525"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Text Value",
+              "description": [
+                "Standardized version of non-numeric measurement"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "MV4-11",
+              "mol_id": {
+                "other": "CELL-LINE::ChEMBL::CHEMBL613835"
+              },
+              "descr": "Target is a specific cell-line"
+            }
+          ],
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 38367493"
+          ]
+        }
+      }
+    }
+  ]
+}

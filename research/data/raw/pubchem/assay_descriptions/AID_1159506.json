@@ -1,0 +1,160 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1159506,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "NROBsiRNAI001"
+              },
+              "date": {
+                "std": {
+                  "year": 2016,
+                  "month": 1,
+                  "day": 7
+                }
+              }
+            }
+          },
+          "name": "Identification of proteins required for the processing of the EWS-FLI1 nascent transcript",
+          "description": [
+            "Ewing sarcoma (ES) cells depend on the EWS-FLI1 fusion transcription factor for cell survival. Using an assay of EWS-FLI1 activity and genome-wide siRNA screening we have identified proteins required for the processing of the EWS-FLI1 nascent transcript. Parallel genome-wide siRNA-mediated RNAi screens were conducted in Ewing sarcoma TC32 cell lines expressing a luciferase (luc) reporter protein driven by either the promoter of the EWS-FLI1 target gene NR0B1 (TC32-NR0B1-luc) or the CMV promoter (TC32-CMV-luc). Luciferase activity was assessed 48 hours post siRNA-transfection."
+          ],
+          "protocol": [
+            "Twenty microl of serum-free media containing Lipofectamine RNAiMax (0.05 microl) was added to wells containing siRNA (0.8 pmol). Lipid and siRNA were allowed to complex for 45 min at ambient temperature before addition of 600 cells in RPMI-1640, 20% FBS to yield final transfection mixtures containing 20 nM siRNA in RPMI-1640, 10% FBS. Luciferase expression was measured using OneGlo (Promega, Madison, WI). The genome-wide screening campaign was conducted using Ambion's human genome library version 4.1 (Ambion, Austin TX). This library targets approximately 21000 human genes, three siRNAs per gene. Each siRNA is arrayed in an individual well of a 384-well plate. Parallel transfections were conducted in TC32-NR0B1-luc and TC32-CMV-luc cell lines and luciferase expression (OneGlo, Promega) was assayed 48 h later on a PerkinElmer Envision 2104 Multilabel plate reader (PerkinElmer, Waltham, MA). Qiagen's AllStars Negative control was incorporated on all screening plates for normalization (16 wells per plate). Qiagen, Germantown, MDsiGL4 was incorporated as a positive transfection control (16 wells per plate) on all plates. Plates were rejected and re-screened if they exhibited abberant control performance or other apparent defects. The raw luciferase data for the NR0B1- and CMV-luc screens were normalized and z-score-MAD transformed using standard methods (Chung et al., 2008). The miRNA-like seed sequence of every siRNA was determined and the median z-score for all siRNA sequences with the same seed sequence was calculated. This z-score was subtracted from the z-score associated with each siRNA with that seed sequence to generate a seed-adjusted z-score value (Z) that was used when the results for the three siRNAs corresponding to each gene were compared  (Marine et al., 2012)"
+          ],
+          "comment": [
+            ""
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Gene Symbol",
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "LOCUSID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "siRNA Catalog Number (Ambion)",
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "Vendor Supplied Sequence",
+              "type": 4
+            },
+            {
+              "tid": 5,
+              "name": "Targeted Transcript",
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "siRNA passenger (sense) strand",
+              "type": 4
+            },
+            {
+              "tid": 7,
+              "name": "siRNA guide (anti-sense) strand",
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "Guide Seed Sequence (bases 2-7)",
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "TC32-NR0B1-luc Raw Luminescence",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 10,
+              "name": "TC32-NR0B1-luc Normalized as Percent of Plate Negative Control siRNA",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 11,
+              "name": "TC32-NR0B1-luc Log of Normalized Value",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 12,
+              "name": "TC32-CMV-luc  Raw Luminescence",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 13,
+              "name": "TC32-CMV-luc Normalized as Percent of Plate Negative Control siRNA",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 14,
+              "name": "TC32-CMV-luc Log of Normalized Value",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 15,
+              "name": "Difference Between Log Normalized Values (TC32-NR0B1-luc minus TC32-CMV-LUC control)",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 16,
+              "name": "MAD Z-Score (Difference minus median difference divided by MAD difference)",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 17,
+              "name": "Median MAD Z-Score for all siRNAs that had this seed sequence",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 18,
+              "name": "Seed Corrected Z-Score (see manuscript)",
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 19,
+              "name": "Median Seed Corrected Z-score for siRNAs targeting this transcript",
+              "type": 1,
+              "unit": 254
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 0,
+          "substance_type": 2,
+          "project_category": 255,
+          "categorized_comment": [
+            {
+              "title": "Assay Cell Type",
+              "comment": [
+                "TC32"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

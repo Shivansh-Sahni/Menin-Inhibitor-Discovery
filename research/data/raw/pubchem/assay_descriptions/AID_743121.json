@@ -1,0 +1,78 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 743121,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "CPT-TOP1-RNAI"
+              },
+              "date": {
+                "std": {
+                  "year": 2014,
+                  "month": 9,
+                  "day": 1
+                }
+              }
+            }
+          },
+          "name": "Druggable Genome siRNA Screen for Enhancers of Camptothecin in MDA-MB-231 Breast Cancer Cells",
+          "description": [
+            "Camptothecin, a specific topoisomerase I inhibitor is a potent anticancer drug, especially against solid tumors. This agent produces well-characterized double-strand breaks upon collision of replication forks with topoisomerase I cleavage complexes. In an attempt to improve its efficacy, we conducted a synthetic lethal siRNA screening using a library that targets nearly 7000 human genes. Depletion of ATR, the main transducer of replication stress-induced DNA damage response exacerbated cytotoxic response to both camptothecin and the indenoisoquinoline LMP-400, a novel class of topoisomerase inhibitors in clinical trial. Inhibition of ATR by the recently developed specific inhibitor VE-821 induced synergistic antiproliferative activity when combined with either topoisomerase inhibitor."
+          ],
+          "protocol": [
+            "MDA-MB-231 cells were maintained in RPMI containing 10% FBS. Transfections were performed in 384 well plates (Corning 3570). Cell viability was measured using CellTiter Glo (Promega). For transfections, 20 uL of serum free media containing Lipofectamine RNAiMax (0.05 uL) was added to wells containing siRNA (0.8pmol). Lipid and siRNA were allowed to complex for 45 min at ambient temperature before addition of 600 cells in 20 uL RPMI, 20% FBS to yield final transfection mixtures containing 20 nM siRNA in RPMI, 10% FBS. ",
+            "",
+            "The druggable genome screening campaign was conducted using Qiagen's human druggable genome library version 4.1. This library targets nearly 7,000 human genes with ~4 siRNAs per gene. Each siRNA is arrayed in an individual well. CPT (20 nM, ~EC30) or vehicle (0.1% DMSO) was added to the entire plate 48 h post-transfection and viability (CellTiter Glo, Promega) was assayed 72 h later on a PerkinElmer Envision plate reader. Qiagen's AllStars Negative control was incorporated on all screening plates for normalization (16 wells per plate). Qiagen's AllStars Cell Death control was incorporated as a positive transfection control (16 wells per plate). Plates were rejected and rescreened if they exhibited an assay z'-factor of less than 0.4 or other apparent defects. To select candidate genes modulating CPT activity, the log2 ratio of vehicle-treated cell viability (%siNeg) to CPT-treated cell viability (%siNeg) was calculated for each siRNA. Redundant siRNA Analysis (RSA) was performed on the ratios to rank gene candidates in terms of their ability to sensitize MDA-MB-231 to CPT. Follow-up dose response tests were carried under analogous assay conditions."
+          ],
+          "comment": [
+            "Candidate genes scoring with RSA p<0.001 are designated as PubChem actives."
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Gene Symbol",
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Entrez Gene ID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "Vehicle %siNEG",
+              "type": 1
+            },
+            {
+              "tid": 4,
+              "name": "EC30 %siNEG",
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "log2 FC",
+              "type": 1
+            },
+            {
+              "tid": 6,
+              "name": "Vendor Catalog Number",
+              "type": 4
+            }
+          ],
+          "revision": 3,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

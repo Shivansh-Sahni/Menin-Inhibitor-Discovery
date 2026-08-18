@@ -1,0 +1,12 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,PubChem Standard Value,Standard Type,Standard Relation,Standard Value,Standard Units
+RESULT_TYPE,,,,,,,,FLOAT,STRING,STRING,FLOAT,STRING
+RESULT_DESCR,,,,,,,,PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar,Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50),"Qualifier (e.g. >, <, =) for 'Standard Value'",Standardized activity value transformed to common units: e.g. mM concentrations converted to nM,Selected units for 'Standard Type': e.g. concentrations are in nM
+RESULT_UNIT,,,,,,,,MICROMOLAR,,,,
+RESULT_IS_ACTIVE_CONCENTRATION,,,,,,,,TRUE,,,,
+RESULT_IS_ACTIVE_CONCENTRATION_QUALIFIER,,,,,,,,,,TRUE,,
+1,404674683,134352931,CN1C=C2C(CCCC2=N1)N3CC4(C3)CCN(C4)C5=C6C=C(SC6=NC=N5)CC(F)(F)F,Active,,,,0.385,IC50,=,385,nM
+2,404677670,134353337,CC(C)[C@H](C1CNC1)N2CC3(C2)CCN(C3)C4=C5C=C(SC5=NC=N4)CC(F)(F)F,Active,,,,0.008,IC50,=,8,nM
+3,404685636,139315241,CC(C)[C@@H](C1CNC1)N2CC3(C2)CCN(C3)C4=C5C=C(SC5=NC=N4)CC(F)(F)F,Active,,,,0.19,IC50,=,190,nM
+4,404686574,134353109,C1CC12C[C@H](NC2)C(=O)N3CC4(C3)CCN(C4)C5=C6C=C(SC6=NC=N5)CC(F)(F)F,Active,,,,0.102,IC50,=,102,nM
+5,404687548,134353059,C1CC2(CCN(C2)CC3=CC=CC=C3)CN(C1)C4=C5C=C(SC5=NC=N4)CC(F)(F)F,Active,,,,0.227,IC50,=,227,nM
+6,404691453,129286056,C1CN(CC12CN(C2)CC3=CC=CC=C3)C4=C5C=C(SC5=NC=N4)CC(F)(F)F,Active,,,,0.144,IC50,=,144,nM

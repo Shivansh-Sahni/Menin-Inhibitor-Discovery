@@ -1,0 +1,17 @@
+task,requested_split,actual_split,status,model,n_compounds,n_train,n_test,mae,rmse,r2,spearman_r,roc_auc,pr_auc,balanced_accuracy,brier_score,expected_calibration_error_10bin
+menin_IC50_biochemical_binding,scaffold,scaffold,trained,extra_trees,849,680.0,169.0,0.758982157268451,0.9354686234561495,0.5413167669702457,0.7325976179406923,,,,,
+herg_IC50_electrophysiology_functional,scaffold,scaffold,trained,extra_trees,2777,2223.0,554.0,,,,,0.8692004504504504,0.9737589263788339,0.73125,0.07990626555385885,0.040479947641780326
+menin_IC50_biochemical_binding,chemical,chemical,trained,ridge_alpha_10,849,678.0,171.0,0.8786785102976761,1.1025700435175805,0.520698847831845,0.7499585997420728,,,,,
+herg_IC50_electrophysiology_functional,chemical,chemical,trained,logistic_c0p3,2777,2211.0,566.0,,,,,0.708756790476438,0.9305334742379352,0.5116315338029267,0.11176414359939683,0.024005344253903466
+menin_IC50_biochemical_binding,temporal,temporal,trained,ridge_alpha_10,849,654.0,195.0,1.301838451761308,1.537923586215938,-2.737091742858059,0.15933611475717188,,,,,
+herg_IC50_electrophysiology_functional,temporal,temporal,trained,logistic_c0p3,2777,2274.0,503.0,,,,,0.6412466843501328,0.896344002613755,0.5512820512820513,0.20637259636258198,0.17780934887543484
+menin_IC50_biochemical_binding,random,random,trained,ridge_alpha_10,849,679.0,170.0,0.6361915184847844,0.8059993709091224,0.6493903367927019,0.7965663257526036,,,,,
+herg_IC50_electrophysiology_functional,random,random,trained,extra_trees,2777,2221.0,556.0,,,,,0.9170708187980374,0.9854744998647428,0.7310473921551944,0.06693281003446656,0.03460059706892992
+menin_Ki_biochemical_binding,scaffold,scaffold,trained,extra_trees,117,94.0,23.0,0.7176642761244735,0.8691592112576575,0.5609671678982864,0.6858629207954807,,,,,
+menin_Kd_biochemical_binding,scaffold,,insufficient_data,,20,,,,,,,,,,,
+menin_EC50_cellular_functional,scaffold,,insufficient_data,,0,,,,,,,,,,,
+menin_IC50_biochemical_inhibition,scaffold,scaffold,trained,ridge_alpha_10,849,679.0,170.0,0.7361411427474741,0.9324812176404986,0.5469073694900013,0.745816287958329,,,,,
+menin_IC50_in_vivo,scaffold,scaffold,trained,extra_trees,173,140.0,33.0,0.3556995597595072,0.4443702587384228,0.7187117624410142,0.9159284639812804,,,,,
+menin_cross_source_mirrors_retained_sensitivity,scaffold,scaffold,trained,extra_trees,849,680.0,169.0,0.760972672545003,0.9393755103246592,0.5374774813880997,0.7318280878511861,,,,,
+menin_clean_label_sensitivity,scaffold,scaffold,trained,extra_trees,847,678.0,169.0,0.7571030364778065,0.9328051864161591,0.5439249458572468,0.7377647438096216,,,,,
+herg_pooled_sensitivity,scaffold,scaffold,trained,extra_trees,8621,6900.0,1721.0,,,,,0.8510009636309103,0.9741483788492808,0.6261223747439358,0.08173730473118801,0.023119397944217458

@@ -1,0 +1,2276 @@
+{
+  "build_id": "build-6237a81ba03d0ccb",
+  "created_at": "2026-07-14T20:16:40Z",
+  "dataset_sha256": "f5df749276aae967649c84d1f5d8be30316172473352e7e2c02580faa5134900",
+  "file_count": 49,
+  "files": [
+    {
+      "media_type": "image/png",
+      "path": "figures/data_quality_attrition.png",
+      "sha256": "479062f293647ad066267782514ce30df4f587d1d6d11edec4103d1c98925b67",
+      "size_bytes": 77413
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/herg_calibration.png",
+      "sha256": "a01fe9bdbd1eb8866651e8234e02c879994c0e42500abe268431ffb32cf192cc",
+      "size_bytes": 68770
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/herg_discrimination_curves.png",
+      "sha256": "bada829061bb731bc8fd59b0590a7eae54bdf6cc9c8a71bc3b1de8f58f4fa588",
+      "size_bytes": 109829
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_chemical_space.png",
+      "sha256": "85a9d72568d165cc48c79a12089886d31e2d5bc89a1a28c1cc549fc8c62adb13",
+      "size_bytes": 202826
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_endpoint_counts.png",
+      "sha256": "119ac6092996effb94deac1adbc2cf4bcdc7356af5f0bca347a9b4fc31b9b303",
+      "size_bytes": 41400
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_error_vs_similarity.png",
+      "sha256": "8a4bd7f9101c03851cfa5a4644a17eb262b9b983c96c3a71ba78e337656ee346",
+      "size_bytes": 75573
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_observed_vs_predicted.png",
+      "sha256": "81a11440b76c97cb16cf0e273f91b26d5d2b06e588966d9fb999d59bda455128",
+      "size_bytes": 89591
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_potency_distribution.png",
+      "sha256": "6ff5c1ed3b8d89129ce6f5225520245e3c609f1f45dbf18d8c743ec862df13cd",
+      "size_bytes": 44328
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_potency_herg_triage.png",
+      "sha256": "aca140cdca50992db0811ff116a47e48957184679d1d2318719e6db0f3d40e47",
+      "size_bytes": 178038
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_source_endpoint_heatmap.png",
+      "sha256": "110734a214a294b05dd165e6846cc2da2cb14fffadcef8beb9d1e565cb295a15",
+      "size_bytes": 45426
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_temporal_coverage.png",
+      "sha256": "6b27be1cee447bf51e19daf1a534e5e16e9871f5acb1d09a4a13f88d8c4ab315",
+      "size_bytes": 80703
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/menin_validation_comparison.png",
+      "sha256": "48f62a2997fb4a3206f954a992fa1dab7dd1fac3c606f5ab8b4a10685fb38b2f",
+      "size_bytes": 34197
+    },
+    {
+      "media_type": "image/png",
+      "path": "figures/predicted_herg_risk_counts.png",
+      "sha256": "d5d63488b7de3297d2eed5e8b0fbc5683af3ab2e00696c48053f094b5be183a4",
+      "size_bytes": 36686
+    },
+    {
+      "column_count": 2,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_classifier_calibration_curve.csv",
+      "row_count": 10,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "mean_predicted_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "observed_positive_fraction",
+          "nullable": false
+        }
+      ],
+      "sha256": "f5871091a6de4d5024087778314bc749be2cb7488a4658e6a8e0310832426e7a",
+      "size_bytes": 405
+    },
+    {
+      "column_count": 26,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "herg_classifier_metrics.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "artifact",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "calibration",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "class_counts",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "cross_validation",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "features",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "interpretation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "label_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "menin_prediction_scope",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "model",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_test",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_train",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "negative_label",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "positive_label",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "risk_band_note",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "schema_version",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "status",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "task",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "test_balanced_accuracy",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "test_metric_bootstrap_95_ci",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "test_metrics",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "test_roc_auc",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "uncalibrated_selected_model_test_metrics",
+          "nullable": false
+        }
+      ],
+      "sha256": "a9856c13e428071e9e4a402546856f232953318da1559901c3093972ee4d3714",
+      "size_bytes": 9436
+    },
+    {
+      "column_count": 19,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_classifier_model_comparison.csv",
+      "row_count": 4,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "cv_mean",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "cv_std",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_accuracy",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_balanced_accuracy",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_brier_score",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_expected_calibration_error_10bin",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_f1",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_log_loss",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_matthews_correlation",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_pr_auc",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_precision",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_roc_auc",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_sensitivity",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_specificity",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_threshold",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "n_successful_folds",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "selected_from_training_cv",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_metric",
+          "nullable": false
+        }
+      ],
+      "sha256": "c882abe0dad98d86e86f208ebefee7f3107cf66eb56827dcf02f710d3bb42001",
+      "size_bytes": 901
+    },
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_classifier_split_assignments.csv",
+      "row_count": 2777,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "actual_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "bemis_murcko_group",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "dataset_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "herg_blocker_label",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "modeling_row",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "requested_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_grouping_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "split_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_group_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "113b95a67937694c775fa058be218ec7fd7b942f35431abb955494c78bb38e74",
+      "size_bytes": 1107018
+    },
+    {
+      "column_count": 14,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "herg_classifier_test_predictions.csv",
+      "row_count": 554,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "observed_herg_blocker_label",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_blocker_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "predicted_label_0p5",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "probability_entropy_bits",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "4af7d5f05ebf0114613a2d5ade36cc0fdb21ff32104f0a93e9adfab42db99f2a",
+      "size_bytes": 155107
+    },
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_activity_ic50_biochemical_binding_model_comparison.csv",
+      "row_count": 4,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "candidate",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "cv_mean",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "cv_std",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_calibration_intercept",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_calibration_slope",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_fraction_within_0p5_log_unit",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_fraction_within_1_log_unit",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_mae",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_mean_signed_error",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_median_absolute_error",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_pearson_r",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_r2",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_rmse",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "holdout_spearman_r",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "n_successful_folds",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "selected_from_training_cv",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_metric",
+          "nullable": false
+        }
+      ],
+      "sha256": "76d8e5a1b5717aa6764e08334c4111c35a606ff02790d62eab14b4e6794786ee",
+      "size_bytes": 857
+    },
+    {
+      "column_count": 20,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "menin_activity_ic50_biochemical_binding_model_metrics.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "artifact",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "cross_validation",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "features",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "interpretation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "model",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_test",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_train",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "provenance",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "schema_version",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "status",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "task",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "test_mae_pchembl",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "test_metric_bootstrap_95_ci",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "test_metrics",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "test_r2",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "test_rmse_pchembl",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "uncertainty",
+          "nullable": false
+        }
+      ],
+      "sha256": "c26c6bb4ba1498912436942f0c9c9ca9f585985c1e0f04788f816c24d4ee3a8a",
+      "size_bytes": 8386
+    },
+    {
+      "column_count": 15,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_activity_ic50_biochemical_binding_model_test_predictions.csv",
+      "row_count": 169,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "absolute_error",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "observed_p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "prediction_interval_lower_0.90",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "prediction_interval_upper_0.90",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "residual_observed_minus_predicted",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "a6811e43fcdab06664bc97fee55b2b8c99fca03f94b67a56c7eda8c4a149110c",
+      "size_bytes": 59418
+    },
+    {
+      "column_count": 16,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_activity_ic50_biochemical_binding_split_assignments.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "actual_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "bemis_murcko_group",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "dataset_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "modeling_row",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "requested_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_grouping_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "split_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_group_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "3e4569ceccd7fac4f647ae8a6d066aeae4524e1bbf6b6d512fa22665a4d56a94",
+      "size_bytes": 348513
+    },
+    {
+      "column_count": 50,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "menin_with_predicted_herg_risk.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_observed_primary_herg_record",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_blocker_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_probability_entropy_bits",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "predicted_herg_risk",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        }
+      ],
+      "sha256": "ca45a7158fd537a178f23617e566852835f98b555327768493d3989f4cef7728",
+      "size_bytes": 712157
+    },
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "model_validation_summary.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "actual_split",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "balanced_accuracy",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "brier_score",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "expected_calibration_error_10bin",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "mae",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "model",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_test",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_train",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "pr_auc",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "r2",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "requested_split",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "rmse",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "roc_auc",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "spearman_r",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "task",
+          "nullable": false
+        }
+      ],
+      "sha256": "7a8f2c8aec63153e98f35727375f5a5b142510e3b4264172c8102cc6cfb88963",
+      "size_bytes": 529
+    },
+    {
+      "column_count": 4,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "model_validation_summary.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "object",
+          "name": "additional_task_models",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "endpoint_models",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "evaluations",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "primary_endpoint",
+          "nullable": false
+        }
+      ],
+      "sha256": "a0382fcd7e141c759bf03302b0057405bbfc0d64a500aa938d62d5f4689f5b9e",
+      "size_bytes": 30556
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "publication_summary.md",
+      "sha256": "aacdd9514b9e65424797ee002d096a4ba22f60724a5abf50e6009cdb5240357d",
+      "size_bytes": 14010
+    },
+    {
+      "media_type": "text/markdown",
+      "path": "summary.md",
+      "sha256": "aacdd9514b9e65424797ee002d096a4ba22f60724a5abf50e6009cdb5240357d",
+      "size_bytes": 14010
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/assay_context_completeness.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "missing_assay_description",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "missing_assay_type",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "missing_date",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "rows",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        }
+      ],
+      "sha256": "2eadb7730eb78b0e5e84086122c29a643db9c954c5edcb034989a0e353a8662d",
+      "size_bytes": 137
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/critical_field_missingness.csv",
+      "row_count": 23,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "column",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "dataset",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "missing_fraction",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "missing_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "rows",
+          "nullable": false
+        }
+      ],
+      "sha256": "4069212c1ed1e447432b42fdc9cd602bd0bbe361ee858e8fa8fce6ad26356513",
+      "size_bytes": 1010
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/curation_attrition_by_source.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "eligible_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "excluded_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "086b667ac6b34ae17f204931ba79b8f53c6a890b2441e2179b2ce8df308aa085",
+      "size_bytes": 137
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/dataset_inventory.csv",
+      "row_count": 5,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "dataset",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "modeling_eligible_rows",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "unique_structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "fb11db85a47417d8889f90ea81dc0d17ce3c8094cc6188d92b36ef5743d5e741",
+      "size_bytes": 235
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/herg_label_summary.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "label",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scope",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "task_rows",
+          "nullable": false
+        }
+      ],
+      "sha256": "e68d4abc0f26080cd6e657ee8dcc6c8e946c91b56a244675958643dc643535bc",
+      "size_bytes": 225
+    },
+    {
+      "column_count": 6,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/herg_model_domain_performance.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "accuracy_0p5",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "blocker_fraction",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "brier_score",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "holdout_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mean_probability",
+          "nullable": false
+        }
+      ],
+      "sha256": "cef4194381ef96bdec354907037a3abe5207c8eac07d0cd25f2f2b9a43ddf1ef",
+      "size_bytes": 271
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/herg_pooled_label_summary.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "label",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scope",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "task_rows",
+          "nullable": false
+        }
+      ],
+      "sha256": "a675eba19b10d6bab5d2fa66366a0bc2e67ec8b45b33880ff17a7d98b96d5341",
+      "size_bytes": 200
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/herg_primary_label_summary.csv",
+      "row_count": 3,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "label",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scope",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "task_rows",
+          "nullable": false
+        }
+      ],
+      "sha256": "e68d4abc0f26080cd6e657ee8dcc6c8e946c91b56a244675958643dc643535bc",
+      "size_bytes": 225
+    },
+    {
+      "column_count": 13,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_cross_source_mirror_links.csv",
+      "row_count": 1754,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "cross_source_mirror_group_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "cross_source_mirror_preferred_source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_id",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_cross_source_mirror_redundant",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_value",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_record_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm",
+          "nullable": false
+        }
+      ],
+      "sha256": "246f2420fe346c51af0a58cc9293c80a5a18dad932d55cefab8b9e3dd7805e4b",
+      "size_bytes": 258158
+    },
+    {
+      "column_count": 7,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_endpoint_assay_summary.csv",
+      "row_count": 43,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_p_activity",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "modeling_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "unique_structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "879fb0b868d8b9f439f62242cdb481797b083c037cf992b14dd6d09d0ea8bb68",
+      "size_bytes": 1563
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_model_domain_performance.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "holdout_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mae",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mean_max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_absolute_error",
+          "nullable": false
+        }
+      ],
+      "sha256": "f4c649723e85a1eee90b823c94b6c39f45fc0d53d985e09498f49f99769e4a78",
+      "size_bytes": 226
+    },
+    {
+      "column_count": 16,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_model_failure_cases.csv",
+      "row_count": 100,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "_inside_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "absolute_error",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "document_year",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "observed_p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "prediction_interval_lower_0.90",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "prediction_interval_upper_0.90",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "residual_observed_minus_predicted",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "ce24aee95051c17a9a3c2c09560e267b24297c99ea7886655add25d9b46142e8",
+      "size_bytes": 35597
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_model_scaffold_performance.csv",
+      "row_count": 51,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "bemis_murcko_group",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "holdout_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mae",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_absolute_error",
+          "nullable": false
+        }
+      ],
+      "sha256": "9bc4bcf8d4e18f81c70ea956d699df33ffdcc340044b62dbf65392a8a4d2ddb4",
+      "size_bytes": 4847
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_model_source_performance.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "holdout_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mae",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_absolute_error",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        }
+      ],
+      "sha256": "3664c43396a2fb05383db85bacb1eb0952df47610498d6b1c8aa50fc86bdb6d2",
+      "size_bytes": 142
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_model_temporal_performance.csv",
+      "row_count": 4,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "holdout_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mae",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_absolute_error",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "year_band",
+          "nullable": false
+        }
+      ],
+      "sha256": "55c053b813a8add9f3a787566222ca3e19328467931da7de4bd0545822c3206a",
+      "size_bytes": 252
+    },
+    {
+      "column_count": 10,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_replicate_consistency.csv",
+      "row_count": 787,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "max_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "min_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "sd_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "0e910dc99a30e560cd0305e9631090ccfb6ed50d3b7df48bb52d53bae7831daf",
+      "size_bytes": 96377
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_source_endpoint_summary.csv",
+      "row_count": 38,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "unique_structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "f1f59006b059c65dd48590b7aecef61eb9a24a9d1c9b747c8b0ab737d2f693c4",
+      "size_bytes": 749
+    },
+    {
+      "column_count": 7,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/menin_split_chemical_coverage.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "actual_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "requested_split_strategy",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "rows",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_grouping_method",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "scaffolds",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "split",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "f95a5df77d8cedfd933a426c096c04ff14f9ca5500c25217c3ccdeb1df198203",
+      "size_bytes": 200
+    },
+    {
+      "column_count": 8,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/pk_admet_coverage.csv",
+      "row_count": 65,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "admet_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "administration_route",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_context",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "matrix",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "observations",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "units",
+          "nullable": false
+        }
+      ],
+      "sha256": "b63fe1423ccb53194aa823b74895a59cce79185221796f8b497f4cb7e3765ff5",
+      "size_bytes": 3435
+    },
+    {
+      "column_count": 3,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/publication_readiness_matrix.csv",
+      "row_count": 13,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "criterion",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "evidence_or_action",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "satisfied",
+          "nullable": false
+        }
+      ],
+      "sha256": "0fedaddd7b214ccb066b72cc627fa531616e9b04681537e5dc0f7556667f29d5",
+      "size_bytes": 1524
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/quarantine_reasons_by_source.csv",
+      "row_count": 29,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "dataset",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reason",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "rows",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source",
+          "nullable": false
+        }
+      ],
+      "sha256": "b6539afcbd10ad1ff8552851d36b186777505f7d4149fbfd5894cf3c8c629f3b",
+      "size_bytes": 1156
+    },
+    {
+      "column_count": 11,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "tables/top_menin_tasks.csv",
+      "row_count": 100,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        }
+      ],
+      "sha256": "f62b65bed352af4d9aafb93393e5e2e856690a4cef945cb39baf916a2faa9893",
+      "size_bytes": 23235
+    }
+  ],
+  "manifest_sha256": "b47ff8b3790cefc2e1854d3e2bc30b3aafe28e6b661082cf4be9e594ade96dbd",
+  "manifest_version": "1.0",
+  "root": ".",
+  "stage": "reports",
+  "total_size_bytes": 3975984,
+  "upstream": [
+    {
+      "dataset_sha256": "03f5e65fbdaaf774feb8f94c1ee2e2e18271ce3b62b4fb3938e9a0ad2fc071b2",
+      "stage": "models"
+    },
+    {
+      "dataset_sha256": "e5cef5a4559c4e3a8ab675996f461983f5d7abe48617670beb36dd9f79291efd",
+      "stage": "software"
+    },
+    {
+      "dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+      "stage": "processed"
+    }
+  ]
+}

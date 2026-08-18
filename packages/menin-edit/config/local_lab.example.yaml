@@ -1,0 +1,7 @@
+# Copy this file outside the Git worktree and replace placeholders there.
+# Never commit confidential paths, identifiers, structures, labels, or derived models.
+workbook: "/approved/private/storage/Combined_menin_full_profile.xlsx"
+output_root: "/approved/private/storage/menin-edit"
+hmac_key_environment_variable: "MENIN_EDIT_HMAC_KEY"
+cohort_role: "development"
+

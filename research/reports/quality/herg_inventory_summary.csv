@@ -1,0 +1,10 @@
+table,severity,code,scope,finding_count,affected_row_count
+herg,error,incompatible_unit,row,18,18
+herg,error,missing_numeric_value,row,10545,10545
+herg,error,missing_structure,row,102,102
+herg,error,missing_unit,row,3003,3003
+herg,warning,ambiguous_assay_context,row,185,185
+herg,warning,assay_metadata_conflict,row,7627,7627
+herg,warning,conflicting_repeated_measurement,row,437,437
+herg,warning,missing_unit,row,3322,3322
+herg,warning,value_out_of_range,row,2,2

@@ -1,0 +1,254 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1053208,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "1154",
+              "source_id": {
+                "str": "VCFG_CW_PS_20140822"
+              },
+              "date": {
+                "std": {
+                  "year": 2015,
+                  "month": 4,
+                  "day": 14
+                }
+              }
+            }
+          },
+          "name": "A screen to identify the genes that modify the response of osteosarcoma to doxorubicin in mouse - Primary Screen",
+          "description": [
+            "Genome wide protein coding siRNA screen to identify synthetic lethal interactions with doxorubicin in mouse primary osteosarcoma cells"
+          ],
+          "protocol": [
+            "Description of replicates:",
+            "The transfection is performed in quadruplicate in 384 well plates labelled A, B, C and D. This gives duplicates for without drug (plates A and B) and with Doxorubicin (plates C and D)",
+            "",
+            "siRNA library description:",
+            "The mouse siRNA library (Dharmacon GE) consists of 16,817 individual protein coding genes consisting of the following gene families: Protein kinases (G-003505), GPCR (G-003605), Phosphatases (G-003705), Ion channel (G-003805), Drug targets (G-004655), Remaining genome (G005005).",
+            "",
+            "siRNA reagent type:",
+            "siRNA - 21 bp chemically synthesized sequences, arrayed format (384 well plates, diluted in 1x siRNA buffer (Dharmacon GE source).",
+            "",
+            "Unique siRNA molecules per reagent pool:",
+            "SMARTpool siRNAs (Dharmacon RNAi Technologies). 4 individual siRNAs targeting each gene, pooled together in one well. Ideally, the 4 sequences will target all isoforms/transcript variants of a gene and they are generally in the coding region.",
+            "",
+            "Number of cells per well:",
+            "400 cells per well were plated in a 384 well plate",
+            "",
+            "Compound name:",
+            "doxorubicin, 100nM added 48 hours after plating/transfection and left for a further 72hrs prior to assay measurement with Cell TitreGlo. IC30-40.",
+            "",
+            "Assay reagent name:",
+            "Cell Titre Glo",
+            "",
+            "Assay reagent manufacturer:",
+            "Dharmacon RNAi Technologies for siRNA. Promega for Cell Titer Glo.",
+            "",
+            "Type of readout:",
+            "Celltiter-Glo luminescent assay- end point assay for viability that measures ATP in the cell.",
+            "",
+            "Delivery type and protocol:",
+            "All siRNA and lipid/opti-MEM complexing is performed in 1 plate (A plate) and subsequently transferred to assay plates B, C and D.  6ul siRNA (1uM stock) is added to 44ul lipid:opti-MEM mix, mixed and complexed for 20 minutes in plate A. Then 12.5ul is transferred to plates B, C and D.  Final concentration of SMARTpool is 40 nM. All liquid handling steps performing using a Calliper Sciclone ALH3000 liquid handling robot. Cells were reverse transfected by adding 25ul of cells (400cells) per wellto the pre-mixed siRNA/lipid complex using a Biotek 406 (Biotek) dispense workstation.",
+            "",
+            "Cell confluence:",
+            "400 cells per well were plated in a 384 well plate",
+            "",
+            "Complexing protocol:",
+            "siRNA is added to pre-diluted lipid in opti-MEM, mixed and complexed for 20 minutes.",
+            "",
+            "Complexing time:",
+            "20 minutes",
+            "",
+            "Delivery reagent name:",
+            "DharmaFECT 3 siRNA Transfection Reagent",
+            "",
+            "Delivery reagent type:",
+            "Lipid",
+            "",
+            "Delivery reagent manufacturer:",
+            "Dharmacon (GE)",
+            "",
+            "Delivery reagent final concentration:",
+            "0.06ul in 37.5ul total volume.",
+            "",
+            "Silencing reagent final concentration:",
+            "40nM",
+            "",
+            "Assay plate manufacturer:",
+            "Corning 3846",
+            "",
+            "Assay plate type:",
+            "White walled, clear bottom 384-well plate. Tissue-culture treated polystyrene, flat bottom, with lid.",
+            "",
+            "Media composition:",
+            "aMEM, 10% FCS (non-heat inactivated), 1% glutamax (Life Technologies)",
+            "",
+            "Time of media change:",
+            "24 hours post-transfection."
+          ],
+          "comment": [
+            ""
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 25862761
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "REAGENT_ID",
+              "description": [
+                "Dharmacon GE reagent id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "ENTREZ_GENE_ID",
+              "description": [
+                "NCBI Entrez Gene database id of intended siRNA target gene"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "NCBI_GENE_SYMBOL",
+              "description": [
+                "Official symbol of target NCBI Gene Id"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "PLATE",
+              "description": [
+                "Plate number"
+              ],
+              "type": 2
+            },
+            {
+              "tid": 5,
+              "name": "WELL",
+              "description": [
+                "Well location"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "CONTROL_AVERAGE_CTG_NORMALISED_TO_NT1_ROBUST_Z_SCORED",
+              "description": [
+                "Control (siRNA alone) CTG data for each replicate normalised to NT1, then averaged the normalised values across the 2 replicates. Average normalised control CTG values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "CONTROL_Z_SCORE_BIN",
+              "description": [
+                "Control robust Z-score binning classification: LC (low cell count): value (2) -2, Hi (high cell count): value (3) 2, and NC (no change): 2 (3) value (3) -2"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "DOX_AVERAGE_CTG_NORMALISED_TO_NT1_ROBUST_Z_SCORED",
+              "description": [
+                "Doxorubicin treated (siRNA + Doxorubicin) CTG data for each replicate normalised to NT1, then averaged the normalised values across the 2 replicates. Average normalised control CTG values used to calculate robust Z-score."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 9,
+              "name": "DOX_Z_SCORE_BIN",
+              "description": [
+                "Doxorubicin robust Z-score binning classification: LC (low cell count): value (2) -2, Hi (high cell count): value (3) 2, and NC (no change): 2 (3) value (3) -2"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 10,
+              "name": "COMBINED_ZSCORE_BIN",
+              "description": [
+                "Combined (CONTROL_Z_SCORE_BIN and DOX_Z_SCORE_BIN) Z-score bins"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "CONTROL_AVERAGE_CTG_NORMALISED_TO_NT1",
+              "description": [
+                "Control (siRNA alone) CTG data for each replicate normalised to NT1, then averaged the normalised values across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 12,
+              "name": "CONTROL_AVERAGE_CTG_NORMALISED_TO_MOCK",
+              "description": [
+                "Control (siRNA alone) CTG data for each replicate normalised to mock, then averaged the normalised values across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 13,
+              "name": "DOX_AVERAGE_CTG_NORMALISED_TO_NT1",
+              "description": [
+                "Doxorubicin treated (siRNA + Doxorubicin) CTG data for each replicate normalised to NT1, then averaged the normalised values across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 14,
+              "name": "DOX_AVERAGE_CTG_NORMALISED_TO_MOCK",
+              "description": [
+                "Doxorubicin treated (siRNA + Doxorubicin) CTG data for each replicate normalised to mock, then averaged the normalised values across the 2 replicates."
+              ],
+              "type": 1
+            },
+            {
+              "tid": 15,
+              "name": "FOLD_CHANGE_RATIO",
+              "description": [
+                "DOX_AVERAGE_CTG_NORMALISED_TO_NT1 / CONTROL_AVERAGE_CTG_NORMALISED_TO_NT1"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 16,
+              "name": "FOLD_CHANGE_RATIO_Z_SCORE",
+              "description": [
+                "Robust Z-score calculated on the FOLD_CHANGE_RATIO"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 17,
+              "name": "SEED_CLUSTER_MIRNA_SHARING_SEED",
+              "description": [
+                "Seed cluster analysis (using Dharmacon's seed clusterer tool) results. Enrichment score cut-off (3) 8."
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 3,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

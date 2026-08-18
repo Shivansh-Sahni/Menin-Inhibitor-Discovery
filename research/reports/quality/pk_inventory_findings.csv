@@ -1,0 +1,192 @@
+table,code,severity,scope,message,row_number,column,identifier,value,context
+pk,missing_numeric_value,error,row,'standard_value' is missing.,3,standard_value,15626010,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,5,standard_value,15626017,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,7,standard_value,15626024,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,46,standard_value,5316157,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,47,standard_value,5317001,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,48,standard_value,5317628,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,49,standard_value,5317909,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,50,standard_value,5318579,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,51,standard_value,5318860,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,52,standard_value,5319530,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,53,standard_value,5319811,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,54,standard_value,7744040,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,55,standard_value,7744041,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,56,standard_value,7744042,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,57,standard_value,7744043,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,58,standard_value,7744044,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,59,standard_value,7744045,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,60,standard_value,7744046,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,61,standard_value,7744047,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,62,standard_value,7744048,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,63,standard_value,7744049,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,64,standard_value,7744050,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,65,standard_value,7744051,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,66,standard_value,7744052,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,67,standard_value,7744053,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,68,standard_value,7746186,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,69,standard_value,7800039,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,70,standard_value,7800040,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,71,standard_value,7800041,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,72,standard_value,7800042,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,73,standard_value,7800043,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,74,standard_value,7800044,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,75,standard_value,7800045,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,76,standard_value,7800046,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,77,standard_value,7800047,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,78,standard_value,7800048,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,79,standard_value,7800049,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,80,standard_value,7800050,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,81,standard_value,7800051,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,82,standard_value,7800052,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,83,standard_value,7802190,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,98,standard_value,13989227,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,99,standard_value,13989228,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,100,standard_value,13989229,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,101,standard_value,13989230,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,102,standard_value,13989231,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,136,standard_value,23239004,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,139,standard_value,641954,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,141,standard_value,5317529,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,142,standard_value,5318480,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,143,standard_value,5319431,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,151,standard_value,7772460,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,152,standard_value,7772461,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,153,standard_value,7772462,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,154,standard_value,7772463,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,155,standard_value,7772464,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,156,standard_value,7772465,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,157,standard_value,7772466,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,158,standard_value,7772467,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,160,standard_value,7772469,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,161,standard_value,7772470,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,162,standard_value,7772471,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,163,standard_value,7772472,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,164,standard_value,7772473,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,165,standard_value,7774553,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,243,standard_value,18133014,,{}
+pk,missing_numeric_value,error,row,'standard_value' is missing.,294,standard_value,19093070,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,54,standard_units,7744040,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,55,standard_units,7744041,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,56,standard_units,7744042,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,57,standard_units,7744043,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,58,standard_units,7744044,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,59,standard_units,7744045,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,60,standard_units,7744046,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,61,standard_units,7744047,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,62,standard_units,7744048,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,63,standard_units,7744049,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,64,standard_units,7744050,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,65,standard_units,7744051,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,66,standard_units,7744052,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,67,standard_units,7744053,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,68,standard_units,7746186,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,69,standard_units,7800039,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,70,standard_units,7800040,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,71,standard_units,7800041,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,72,standard_units,7800042,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,73,standard_units,7800043,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,74,standard_units,7800044,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,75,standard_units,7800045,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,76,standard_units,7800046,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,77,standard_units,7800047,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,78,standard_units,7800048,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,79,standard_units,7800049,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,80,standard_units,7800050,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,81,standard_units,7800051,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,82,standard_units,7800052,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,83,standard_units,7802190,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,136,standard_units,23239004,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,151,standard_units,7772460,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,152,standard_units,7772461,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,153,standard_units,7772462,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,154,standard_units,7772463,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,155,standard_units,7772464,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,156,standard_units,7772465,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,157,standard_units,7772466,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,158,standard_units,7772467,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,160,standard_units,7772469,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,161,standard_units,7772470,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,162,standard_units,7772471,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,163,standard_units,7772472,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,164,standard_units,7772473,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,165,standard_units,7774553,,{}
+pk,missing_unit,error,row,A numeric assay result is missing its unit.,294,standard_units,19093070,,{}
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,17,standard_value,3483955,705.85,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""cmax"",""log10_spread"":2.0287696750708526,""maximum"":75419.23,""measurement_count"":4,""minimum"":705.85,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""nm""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,22,standard_value,3483960,0.48,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""f"",""log10_spread"":2.318758762624413,""maximum"":100.0,""measurement_count"":4,""minimum"":0.48,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""%""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,23,standard_value,3483961,35207.05,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""cmax"",""log10_spread"":2.0287696750708526,""maximum"":75419.23,""measurement_count"":4,""minimum"":705.85,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""nm""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,28,standard_value,3483966,96.45,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""f"",""log10_spread"":2.318758762624413,""maximum"":100.0,""measurement_count"":4,""minimum"":0.48,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""%""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,29,standard_value,3483967,75419.23,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""cmax"",""log10_spread"":2.0287696750708526,""maximum"":75419.23,""measurement_count"":4,""minimum"":705.85,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""nm""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,34,standard_value,3483972,100.0,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""f"",""log10_spread"":2.318758762624413,""maximum"":100.0,""measurement_count"":4,""minimum"":0.48,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""%""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,35,standard_value,3483973,16683.78,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""cmax"",""log10_spread"":2.0287696750708526,""maximum"":75419.23,""measurement_count"":4,""minimum"":705.85,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""nm""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,40,standard_value,3483978,12.4,"{""assay_count"":4,""compound_key"":""CHEMBL1747"",""endpoint"":""f"",""log10_spread"":2.318758762624413,""maximum"":100.0,""measurement_count"":4,""minimum"":0.48,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""%""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,140,standard_value,3468634,0.04,"{""assay_count"":2,""compound_key"":""CHEMBL841"",""endpoint"":""solubility"",""log10_spread"":4.010723865391773,""maximum"":410.0,""measurement_count"":2,""minimum"":0.04,""target"":""CHEMBL2362975"",""threshold"":2.0,""unit"":""ug.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,221,standard_value,15462028,4.433,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,222,standard_value,15462029,4.483,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,223,standard_value,15462030,81.67,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,224,standard_value,15462031,1.5,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,225,standard_value,15462032,7.0,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,226,standard_value,15462033,95.0,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,235,standard_value,15462047,0.9333,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,236,standard_value,15462048,0.5167,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,237,standard_value,15462049,1.033,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,238,standard_value,15462050,4.333,"{""assay_count"":10,""compound_key"":""CHEMBL841"",""endpoint"":""auc"",""log10_spread"":2.264485143743186,""maximum"":95.0,""measurement_count"":10,""minimum"":0.5167,""target"":""CHEMBL375"",""threshold"":2.0,""unit"":""ng.hr.ml-1""}"
+pk,conflicting_repeated_measurement,warning,row,Repeated exact measurements differ by at least the configured log10 threshold.,284,standard_value,19429034,410.0,"{""assay_count"":2,""compound_key"":""CHEMBL841"",""endpoint"":""solubility"",""log10_spread"":4.010723865391773,""maximum"":410.0,""measurement_count"":2,""minimum"":0.04,""target"":""CHEMBL2362975"",""threshold"":2.0,""unit"":""ug.ml-1""}"
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,3,standard_units,15626010,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,5,standard_units,15626017,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,7,standard_units,15626024,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,8,standard_units,15626030,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,9,standard_units,15626031,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,10,standard_units,15626037,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,11,standard_units,15626038,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,42,standard_units,5080962,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,46,standard_units,5316157,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,47,standard_units,5317001,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,48,standard_units,5317628,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,49,standard_units,5317909,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,50,standard_units,5318579,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,51,standard_units,5318860,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,52,standard_units,5319530,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,53,standard_units,5319811,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,84,standard_units,13989213,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,86,standard_units,13989215,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,88,standard_units,13989217,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,89,standard_units,13989218,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,90,standard_units,13989219,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,91,standard_units,13989220,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,92,standard_units,13989221,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,93,standard_units,13989222,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,94,standard_units,13989223,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,95,standard_units,13989224,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,96,standard_units,13989225,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,97,standard_units,13989226,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,98,standard_units,13989227,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,99,standard_units,13989228,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,100,standard_units,13989229,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,101,standard_units,13989230,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,102,standard_units,13989231,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,108,standard_units,15626032,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,109,standard_units,15626039,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,139,standard_units,641954,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,141,standard_units,5317529,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,142,standard_units,5318480,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,143,standard_units,5319431,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,145,standard_units,6262267,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,146,standard_units,6262310,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,147,standard_units,6262395,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,166,standard_units,14592717,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,175,standard_units,15444898,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,177,standard_units,15446269,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,242,standard_units,18132414,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,243,standard_units,18133014,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,277,standard_units,19141648,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,278,standard_units,19141704,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,279,standard_units,19141760,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,280,standard_units,19141841,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,281,standard_units,19141897,,{}
+pk,missing_unit,warning,row,A numeric assay result is missing its unit.,282,standard_units,19141953,,{}
+pk,unknown_unit,warning,row,Unit is not in the configured controlled vocabulary.,45,standard_units,5173182,mg Kg-1,{}
+pk,unknown_unit,warning,row,Unit is not in the configured controlled vocabulary.,134,standard_units,18150971,mg.kg-1,{}
+pk,unknown_unit,warning,row,Unit is not in the configured controlled vocabulary.,144,standard_units,6262224,ml,{}
+pk,mass_concentration_requires_molecular_weight,info,row,Mass-concentration solubility is valid but requires molecular weight before comparison with molar solubility.,140,standard_units,3468634,ug.mL-1,{}
+pk,mass_concentration_requires_molecular_weight,info,row,Mass-concentration solubility is valid but requires molecular weight before comparison with molar solubility.,284,standard_units,19429034,ug.mL-1,{}

@@ -1,0 +1,871 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1904,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "The Genomics Institute of the Novartis Research Foundation (GNF)",
+              "source_id": {
+                "str": "siRNA_circadian"
+              },
+              "date": {
+                "std": {
+                  "year": 2009,
+                  "month": 9,
+                  "day": 24
+                }
+              }
+            }
+          },
+          "name": "siRNA Circadian Assay",
+          "description": [
+            "Description:",
+            "",
+            "To identify additional clock genes and modifiers, we conducted a genome-wide screen of ~90,000 siRNAs (QIAGEN Inc) in a human cellular model of clock function. Knockdown of nearly a thousand genes reduced",
+            "rhythm amplitude; these are presumably due to toxic effects on cells. Hundreds of genes potently modified period length or increased amplitude."
+          ],
+          "protocol": [
+            "Cell Culture Growth Conditions: U2OS cells were obtained from the American Type Culture Collection (ATCC), and were grown in regular DMEM supplemented with 10% FBS and antibiotics. Lentiviral",
+            "Bmal1-dLuc reporter was introduced into U2OS cells via lentivirus-mediated infection as described (Liu et al., PLoS Genetics, 2008). Stable cell lines were selected with blasticidin and clonal lines were sorted by FACS-based single cell sorting in 96-well plates. The clonal lines are genetically and morphologically indistinguishable from parental cells, and represent the average period length of the infected cell population.",
+            "",
+            "Transfection: Human genome-wide siRNA set against 22,468 known or predicted genes was purchased from Qiagen Inc, and pre-spotted into 384-well plates with 2 siRNA/well, 2 well/gene in duplicates, and 294 plates in total. Subsequently, U2OS circadian reporter cells were reverse transfected with siRNAs in 384-well plates. Briefly, we trypsinized rapidly growing cells and re-suspended them in DMEM containing 20% FBS without antibiotics at 0.1X106 cells/ml. We next added 20 ul of transfection reagent mixture (3.3 ul/ml or 0.066 ul/well Lipofectamine 2000 in Opti-MEM) to each well containing pre-spotted siRNA constructs (1 pmol; 0.5 pmol for each siRNA; final concentration of 12.5 nM), incubated at room temperature for 20 min, and added 20 ul of cells (2000 cells/well) with our robotic system. Approximately 18 hr after transfection, we replaced this media with 60 ul pre-warmed fresh DMEM containing 10% FBS and antibiotics and allow the cells to grow for an additional two days.",
+            "",
+            "Luminescence recording: Three days post-transfection, we replaced this media with 60 ul HEPES-buffered explant medium supplemented with luciferin (1 uM) (Promega) and B-27 supplements (Invitrogen), and the plates were sealed with an optically clear film (USA Scientific). We next loaded these plates in a 36oC incubator and recorded bioluminescence expression with a ViewLux (Perkin Elmer). We measured bioluminescence for 30 seconds every two hours for four days."
+          ],
+          "comment": [
+            "The data contain plate and well position and bioluminescence value from the primary screen. X-axis and Y-axis indicate time-course (from 0 to 78h) and plate/well position, respectively. Time 0 is set up as 8h after the change of luciferin-containing-medium /recording starts. Bioluminescence data was detrended by subtracting a best fit line (first order polynomial)."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "asurl": "http://biogps.gnf.org/circadian"
+              }
+            },
+            {
+              "xref": {
+                "dburl": "http://biogps.gnf.org"
+              }
+            },
+            {
+              "xref": {
+                "pmid": 19765810
+              },
+              "comment": "\"A Genome-wide RNAi Screen for Modifiers of the Circadian Clock in Human Cells.\". Zhang EE, Liu AC, Hirota T, Miraglia LJ, Welch G, Pongsawakul PY, Liu X, Atwood A, Huss JW 3rd, Janes J, Su AI, Hogenesch JB, Kay SA."
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Hit Confirmation",
+              "description": [
+                "Confirmed by individual siRNA in Bmal1_dLuc"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Phenotype",
+              "description": [
+                "Biological effect type."
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Gene Target ID",
+              "description": [
+                "Gene ID in NCBI Gene Database"
+              ],
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 4,
+              "name": "Gene Symbol",
+              "description": [
+                "Gene Symbol in NCBI Gene Database"
+              ],
+              "type": 4,
+              "annot": 15
+            },
+            {
+              "tid": 5,
+              "name": "Nucleotide Accession",
+              "description": [
+                "Accession number of NCBI Nucleotide Database"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 6,
+              "name": "RNAi Probe ID",
+              "description": [
+                "RNAi Probe ID in NCBI Probe Database"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 7,
+              "name": "GNFid of siRNA 1",
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "GNFid of siRNA 2",
+              "type": 4
+            },
+            {
+              "tid": 9,
+              "name": "Plate of Replicate 1",
+              "type": 4
+            },
+            {
+              "tid": 10,
+              "name": "Plate of Replicate 2",
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "Virtual Plate number",
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "Well number",
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "replicate1_readout_0_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 14,
+              "name": "replicate1_readout_2_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 15,
+              "name": "replicate1_readout_4_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 16,
+              "name": "replicate1_readout_6_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 17,
+              "name": "replicate1_readout_8_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 18,
+              "name": "replicate1_readout_10_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 19,
+              "name": "replicate1_readout_12_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 20,
+              "name": "replicate1_readout_14_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 21,
+              "name": "replicate1_readout_16_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 22,
+              "name": "replicate1_readout_18_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 23,
+              "name": "replicate1_readout_20_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 24,
+              "name": "replicate1_readout_22_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 25,
+              "name": "replicate1_readout_24_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 26,
+              "name": "replicate1_readout_26_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 27,
+              "name": "replicate1_readout_28_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 28,
+              "name": "replicate1_readout_30_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 29,
+              "name": "replicate1_readout_32_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 30,
+              "name": "replicate1_readout_34_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 31,
+              "name": "replicate1_readout_36_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 32,
+              "name": "replicate1_readout_38_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 33,
+              "name": "replicate1_readout_40_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 34,
+              "name": "replicate1_readout_42_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 35,
+              "name": "replicate1_readout_44_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 36,
+              "name": "replicate1_readout_46_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 37,
+              "name": "replicate1_readout_48_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 38,
+              "name": "replicate1_readout_50_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 39,
+              "name": "replicate1_readout_52_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 40,
+              "name": "replicate1_readout_54_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 41,
+              "name": "replicate1_readout_56_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 42,
+              "name": "replicate1_readout_58_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 43,
+              "name": "replicate1_readout_60_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 44,
+              "name": "replicate1_readout_62_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 45,
+              "name": "replicate1_readout_64_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 46,
+              "name": "replicate1_readout_66_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 47,
+              "name": "replicate1_readout_68_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 48,
+              "name": "replicate1_readout_70_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 49,
+              "name": "replicate1_readout_72_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 50,
+              "name": "replicate1_readout_74_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 51,
+              "name": "replicate1_readout_76_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 52,
+              "name": "replicate1_readout_78_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 53,
+              "name": "replicate2_readout_0_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 54,
+              "name": "replicate2_readout_2_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 55,
+              "name": "replicate2_readout_4_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 56,
+              "name": "replicate2_readout_6_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 57,
+              "name": "replicate2_readout_8_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 58,
+              "name": "replicate2_readout_10_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 59,
+              "name": "replicate2_readout_12_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 60,
+              "name": "replicate2_readout_14_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 61,
+              "name": "replicate2_readout_16_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 62,
+              "name": "replicate2_readout_18_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 63,
+              "name": "replicate2_readout_20_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 64,
+              "name": "replicate2_readout_22_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 65,
+              "name": "replicate2_readout_24_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 66,
+              "name": "replicate2_readout_26_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 67,
+              "name": "replicate2_readout_28_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 68,
+              "name": "replicate2_readout_30_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 69,
+              "name": "replicate2_readout_32_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 70,
+              "name": "replicate2_readout_34_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 71,
+              "name": "replicate2_readout_36_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 72,
+              "name": "replicate2_readout_38_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 73,
+              "name": "replicate2_readout_40_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 74,
+              "name": "replicate2_readout_42_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 75,
+              "name": "replicate2_readout_44_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 76,
+              "name": "replicate2_readout_46_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 77,
+              "name": "replicate2_readout_48_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 78,
+              "name": "replicate2_readout_50_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 79,
+              "name": "replicate2_readout_52_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 80,
+              "name": "replicate2_readout_54_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 81,
+              "name": "replicate2_readout_56_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 82,
+              "name": "replicate2_readout_58_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 83,
+              "name": "replicate2_readout_60_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 84,
+              "name": "replicate2_readout_62_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 85,
+              "name": "replicate2_readout_64_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 86,
+              "name": "replicate2_readout_66_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 87,
+              "name": "replicate2_readout_68_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 88,
+              "name": "replicate2_readout_70_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 89,
+              "name": "replicate2_readout_72_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 90,
+              "name": "replicate2_readout_74_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 91,
+              "name": "replicate2_readout_76_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            },
+            {
+              "tid": 92,
+              "name": "replicate2_readout_78_hr",
+              "description": [
+                "bioluminescence measurement"
+              ],
+              "type": 1,
+              "unit": 254
+            }
+          ],
+          "revision": 2,
+          "activity_outcome_method": 0,
+          "substance_type": 2,
+          "project_category": 8
+        }
+      }
+    }
+  ]
+}

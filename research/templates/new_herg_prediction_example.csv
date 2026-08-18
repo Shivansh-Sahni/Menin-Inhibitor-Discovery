@@ -1,0 +1,2 @@
+compound_id,smiles,series_id,same_series_confirmed,synthesis_status,assay_protocol_id
+VIRTUAL-M2933-EXAMPLE,COCC(F)(F)c1cc(N2CCC3(CC2)CC(N2CCC([C@@](CN(C)S(C)(=O)=O)(c4cccc(F)c4)[C@H]4CCC[C@@H]4NC(=O)OC)CC2)C3)ncn1,confirmed_current_series,true,not_synthesized,

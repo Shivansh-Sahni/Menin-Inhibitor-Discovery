@@ -1,0 +1,123 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1963488,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "BindingDB",
+              "source_id": {
+                "str": "BindingDB_11881_1"
+              }
+            }
+          },
+          "name": "Menin-MLL Competition Assay from US Patent US11919901: \"Inhibitors of the menin-MLL interaction\"",
+          "description": [
+            "For IC50 determination test compounds were prepared as 10 mM DMSO stock solutions. Considering DMSO as the vehicle in the assay system. Lower sub-stocks of 50 &#956;M were prepared from the 10 mM stock solution. To test the compounds in assay, 3.16-fold serial dilutions are made in 100% DMSO. Mid-stock of 50\u00d7 compounds (50 &#956;M) were serially diluted (3.16 fold) in 100% DMSO in Polypropylene plate. In assay plate 1 micro-litre of the previously prepared compound dilution was stamped. H-FL-Menin diluted to 4 nM in assay buffer (50 mM Tris-HCl, pH 7.4, 50 mM NaCl, freshly prepared 1 mM DTT, 0.01% BSA, 0.005% Triton X-100) was pre-incubated with 8 nM anti-His6-Tb for 30 min at room temperature. FITC-MLL-4-43 was diluted to 2 nM in assay buffer and 25 &#956;L was dispensed into each well of the assay plate followed by addition of 25 &#956;l of pre-incubated H-FL-Menin and anti-His6-Tb mixture. Final concentration H-FL-Menin diluted to 1 nM in assay plate with 2 nM anti-His6-Tb and 1 nM FITC-MLL-4-43. After 1 hr incubation at room temperature, the HTRF signal was measured on the Spark multi-label plate reader. Resulting data were captured as a ratio of RFU520/RFU485\u00d71000. The max values were obtained from 0% inhibition in presence of 2% DMSO and the min. values were 100% inhibition in presence of 1 &#956;M reference compound."
+          ],
+          "comment": [
+            "Compounds with any of Ki, IC50, Kd, or EC50 activity value <= 10uM are labeled as \"Active\".",
+            "If multiple measurements are available for a given compound, it is labeled as \"Active\" if any of the measurements meet the criterion. Activity values are checked in the order of Ki, IC50, Kd, and EC50. The first entry that meets the above activity threshold is used to determine \"Standard Type\", \"Standard Relation\", and \"PubChem Standard Value\". Otherwise, the first non-empty entry will be used to set those values."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://www.bindingdb.org"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.bindingdb.org/rwd/jsp/dbsearch/assay.jsp?assayid=1&entryid=11881"
+              }
+            },
+            {
+              "xref": {
+                "patent": "US11919901"
+              },
+              "comment": "Inhibitors of the menin-MLL interaction",
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (i.e. Ki, IC50, Kd, or EC50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for \"PubChem Standard Value\""
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 3,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 4,
+              "name": "IC50 Qualifier",
+              "description": [
+                "Qualifier (e.g. >, <, =) for \"IC50\""
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "IC50",
+              "type": 1,
+              "unit": 6
+            },
+            {
+              "tid": 6,
+              "name": "Target Accession(s)",
+              "description": [
+                "Protein accession(s) of target"
+              ],
+              "type": 4,
+              "annot": 21
+            },
+            {
+              "tid": 7,
+              "name": "Ligand",
+              "description": [
+                "BindingDB Ligand"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "Target",
+              "description": [
+                "BindingDB Target"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "BDB_ENTRY:11881"
+          ]
+        }
+      }
+    }
+  ]
+}

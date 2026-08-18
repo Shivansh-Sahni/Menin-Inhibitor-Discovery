@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1117281,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "ITOXAMBION-WG"
+              },
+              "date": {
+                "std": {
+                  "year": 2015,
+                  "month": 2,
+                  "day": 27
+                }
+              }
+            }
+          },
+          "name": "A whole genome RNAi screen highlights components of the ER/Golgi as a prominent source of resistance to immunotoxin-mediated cytotoxicity",
+          "description": [
+            "Immunotoxins (antibody-toxin fusion proteins) target surface antigens on cancer cells and kill these cells via toxin-mediated inhibition of protein synthesis leading to apoptosis.  To identify genes controlling this process, a whole RNAi genome screen (approximately 22,000 genes at 3 siRNAs per gene) was conducted via monitoring the cytotoxicity of the mesothelin-directed immunotoxin, SS1P.  SS1P, a Pseudomonas exotoxin-based immunotoxin, was chosen because it is now in clinical trials and has produced some significant tumor regressions in patients.  High and low concentrations of SS1P were chosen to allow for the identification of both mitigators and sensitizers, respectively.  As expected, silencing known essential genes in the immunotoxin pathway such as mesothelin, furin, KDEL receptor 2 or the members of the diphthamide pathway protected cells.  Of potential greater interest was the observation that many RNAi targets increased immunotoxin sensitivity, indicating that these gene products normally contribute to inefficiencies in the killing pathway.  Of top sensitizers, many genes encode proteins that locate to either the ER or Golgi and in particular are annotated as part of the secretory system.  Our results highlight new potential targets for chemical intervention that could increase immunotoxin killing of cancer cells and enhance our understanding of toxin trafficking."
+          ],
+          "protocol": [
+            "Transfections were performed in 384 well plates (Corning 3570). For transfections, 20 uL of serum free media containing Lipofectamine RNAiMax (0.05 uL) was added to wells containing siRNA (0.8pmol).  Lipid and siRNA were allowed to complex for 45 min at ambient temperature before addition of 500 cells in DMEM, 20% FBS to yield final transfection mixtures containing 20 nM siRNA in DMEM, 10% FBS.  The screen was conducted using the Ambion (Life Technologies) Silencer Select Version 4 Genome-wide collection.  This library targets > 21,000 human genes with 3 siRNAs per gene.  Each siRNA was arrayed in an individual well.  Toxin (\"high dose\", ~EC90, 13 ng/ml; \"low dose\", ~EC30, 3ng/mL; or \"no dose\", 0 ng/mL) was added to the entire plate 48 h post-transfection and viability (CellTiter Glo, Promega) was assayed 72 h later on a PerkinElmer Envision 2104 Multilabel plate reader. Cell viability was measured using the CellTiterGlo assay (Promega). This assay quantifies the amount of ATP present, which signals the presence of metabolically active cells.  Ambion Silencer Select Negative Control #2 was incorporated on all screening plates for normalization (16 wells per plate).  Qiagen's AllStars Cell Death control was incorporated as a positive transfection control on low and 0 ng/mL plates (16 wells per plate).  Ambion Silencer Select MSLN siRNA (catalog # s11968) was used as a positive transfection control for high dose plates. To select candidates whose knockdown mitigated toxin activity, 'Redundant siRNA Analysis' (RSA) was performed on the high dose data set after normalization of each siRNA to the median negative control value on respective plates.  To select candidate whose knockdown enhanced toxin activity, the log2 ratio of no-dose cell viability (%siNeg) to low dose toxin-treated cell viability (%siNeg) was calculated for each siRNA.  RSA was then performed on the ratios to rank gene candidates"
+          ],
+          "comment": [
+            ""
+          ],
+          "xref": [
+            {
+              "xref": {
+                "pmid": 25713356
+              },
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Gene Symbol",
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Entrez Gene ID",
+              "type": 4,
+              "annot": 18
+            },
+            {
+              "tid": 3,
+              "name": "Vehicle Only (%siNeg)",
+              "type": 1
+            },
+            {
+              "tid": 4,
+              "name": "Low Dose EC30 (%siNeg)",
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "log2 Fold Change",
+              "type": 1
+            },
+            {
+              "tid": 6,
+              "name": "Sensitizer RSA LogP",
+              "type": 1
+            },
+            {
+              "tid": 7,
+              "name": "High Dose EC90 (%siNeg)",
+              "type": 1
+            },
+            {
+              "tid": 8,
+              "name": "Mitigator RSA LogP",
+              "type": 1
+            },
+            {
+              "tid": 9,
+              "name": "siRNA Sense Sequence",
+              "type": 4
+            },
+            {
+              "tid": 10,
+              "name": "siRNA Antisense Sequence",
+              "type": 4
+            },
+            {
+              "tid": 11,
+              "name": "Activity Call",
+              "type": 4
+            },
+            {
+              "tid": 12,
+              "name": "Plate ID",
+              "type": 4
+            },
+            {
+              "tid": 13,
+              "name": "VENDOR ID",
+              "type": 4
+            },
+            {
+              "tid": 14,
+              "name": "ROW",
+              "type": 2
+            },
+            {
+              "tid": 15,
+              "name": "COL",
+              "type": 2
+            }
+          ],
+          "revision": 4,
+          "activity_outcome_method": 1,
+          "substance_type": 2,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

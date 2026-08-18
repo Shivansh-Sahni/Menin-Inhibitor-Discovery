@@ -1,0 +1,20 @@
+{
+  "chembl_status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "collected_at": "2026-07-14T19:19:14Z",
+  "counts": {
+    "bindingdb_files": 2,
+    "chembl_herg_rows": 41078,
+    "chembl_menin_rows": 1776,
+    "molecule_activity_rows": 8202,
+    "pubchem_assays": 323
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 2781,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "NCGC",
+              "source_id": {
+                "str": "MENN9470"
+              },
+              "date": {
+                "std": {
+                  "year": 2011,
+                  "month": 4,
+                  "day": 26
+                }
+              }
+            }
+          },
+          "name": "Confirmation of Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: NMR spectroscopy to verify direct binding of compounds to menin",
+          "description": [
+            "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias",
+            "NIH Chemical Genomics Center [NCGC]",
+            "NIH Molecular Libraries Probe Centers Network [MLPCN]",
+            "",
+            "MLPCN Grant: MH084875-01A1",
+            "Assay Submitter (PI): Jolanta Grembecka, Tomasz Cierpicki, University of Virginia",
+            "",
+            "Translocations of the MLL (Mixed Lineage Leukemia) gene are frequently found in human leukemias affecting both children and adults. Fusion of MLL to one of more than 60 genes results in generation of oncogenic proteins upregulating Hox genes, which are vital to blood cell development. Patients harboring fusion of the MLL gene suffer from aggressive leukemias and respond poorly to available therapies. All of the oncogenic fusion proteins have a preserved N-terminal fragment of MLL that has been identified to interact with menin. It has been recently discovered that association with menin is critical to the leukemogenic activity of the MLL fusion oncoproteins. Selective targeting of the menin-MLL interaction could provide an attractive therapeutic approach to develop novel drugs for MLL-related leukemias. Small molecules blocking the menin-MLL interaction should reverse the oncogenic potential of MLL fusion proteins.",
+            "",
+            "We have developed and optimized a fluorescence polarization-based assay for the identification of Menin-MLL inhibitors. The assay was run employing two different MLL-derived peptides. The present assay uses a 12 amino acid peptide labeled with fluorescein at its N-terminus. This peptide consists of the menin high affinity binding motif from MLL and is potently bound by menin. Another peptide with a mutated sequence, labeled with Texas Red, was used in parallel as a less stringent screen for inhibitors.",
+            "",
+            "The present assay was developed to confirm hits from this primary screen, examining saturation transfer differences in NMR spectra upon incubation of the menin protein with compound."
+          ],
+          "protocol": [
+            "The Menin protein, the MLL-wild type (w.t.) derived peptide (N-terminal 12 amino acids), the MLL-derived peptide labeled with Texas Red and the MLL-w.t. peptide labeled with Fluorescein were kindly supplied by laboratory of Dr. Jolanta Grembecka, University of Virginia. All protein and peptide solutions were stored in single use aliquots at -80C. The Buffer components for all assays were purchased from Sigma-Aldrich (St. Louis, MO) and Invitrogen (Carlsbad, CA).",
+            "",
+            "Assay Reagents:",
+            "1. Menin protein",
+            "2. MLL w.t. ",
+            "3. NMR buffer: 50mM phosphate, 50mM NaCl, 1mM DTT, pH = 7.5",
+            "",
+            "NMR protocol:",
+            "1. Prepare 450 uL of menin (2.5 uM) in complex with 100uM compound in NMR buffer and run STD (Saturation Transfer Difference) on NMR Bruker 600 MHz",
+            "2. Prepare 450 uL of menin (2.5 uM) in complex with 100 uM compound and 25uM of MLL w.t. in NMR buffer and run STD (Saturation Transfer Difference) on NMR Bruker 600 MHz"
+          ],
+          "comment": [
+            "Compound Ranking:",
+            "",
+            "Compounds positive for NMR STD are given an activity score of 50. Inactive compounds negative for NMR STD are given an activity score of 0."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "aid": 2076
+              }
+            },
+            {
+              "xref": {
+                "aid": 1766
+              }
+            },
+            {
+              "xref": {
+                "aid": 1768
+              }
+            },
+            {
+              "xref": {
+                "pmid": 16239140
+              }
+            },
+            {
+              "xref": {
+                "gene": 4297
+              },
+              "comment": "myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila) [Homo sapiens]"
+            },
+            {
+              "xref": {
+                "pmid": 4221
+              },
+              "comment": "multiple endocrine neoplasia I [Homo sapiens]"
+            },
+            {
+              "xref": {
+                "mim": 159555
+              }
+            },
+            {
+              "xref": {
+                "mim": 131100
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "NMR STD",
+              "description": [
+                "Whether saturation transfer difference was observed with 100uM compound - positive or negative."
+              ],
+              "type": 4,
+              "tc": {
+                "concentration": 100,
+                "unit": 5
+              }
+            }
+          ],
+          "revision": 1,
+          "target": [
+            {
+              "name": "menin isoform 1 [Homo sapiens]",
+              "mol_id": {
+                "protein_accession": "NP_000235.2"
+              },
+              "organism": {
+                "genome": 0,
+                "origin": 0,
+                "org": {
+                  "taxname": "Homo sapiens",
+                  "common": "human",
+                  "db": [
+                    {
+                      "db": "taxon",
+                      "tag": {
+                        "id": 9606
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "activity_outcome_method": 1,
+          "grant_number": [
+            "MH084875-01A1"
+          ],
+          "project_category": 2
+        }
+      }
+    }
+  ]
+}

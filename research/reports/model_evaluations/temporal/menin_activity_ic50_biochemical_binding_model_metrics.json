@@ -1,0 +1,354 @@
+{
+  "applicability_domain": {
+    "definition": "Inside domain when maximum training-set Tanimoto is at least the configured 0.050 quantile of sampled training nearest-neighbor similarities.",
+    "fingerprint_backend": "rdkit_morgan",
+    "holdout_fraction_inside_domain": 0.9282051282051282,
+    "similarity_threshold": 0.6195281833410263
+  },
+  "artifact": {
+    "filename": "menin_activity_ic50_biochemical_binding_ridge_alpha_10.skops",
+    "format": "skops",
+    "path": "research/models/evaluations/temporal/menin_activity_ic50_biochemical_binding_ridge_alpha_10.skops",
+    "path_is_repository_relative": true,
+    "sha256": "f7794e8e00dd3c126a5249e78c383325f6733e3c8053f0666e443b2c9fd6f4b0",
+    "skops_fallback_reason": null,
+    "trust_boundary": "Load only after reviewing skops.io.get_untrusted_types for this project-defined transformer."
+  },
+  "best_alpha": 10.0,
+  "cross_validation": {
+    "cv_sha256": "b607069f5f256a3ee4b89ebcbc44e44f593b0cff41acd12a60dcdf327f032748",
+    "fallback_reason": null,
+    "identity_column": "structure_id",
+    "maximum_structure_overlap": 0,
+    "n_splits": 3,
+    "n_unique_structures": 654,
+    "requested_strategy": "temporal",
+    "strategy": "temporal",
+    "time_column": "document_year"
+  },
+  "features": {
+    "backend": "rdkit_morgan",
+    "descriptor_columns": [
+      "mol_wt",
+      "exact_mol_wt",
+      "logp",
+      "tpsa",
+      "h_bond_donors",
+      "h_bond_acceptors",
+      "rotatable_bonds",
+      "ring_count",
+      "aromatic_ring_count",
+      "fraction_csp3",
+      "heavy_atom_count",
+      "formal_charge",
+      "invalid_structure"
+    ],
+    "fallback_used": false,
+    "fingerprint_bits": 2048,
+    "morgan_radius": 2
+  },
+  "interpretation": "Use with scaffold/temporal validation, uncertainty intervals, and applicability-domain flags; prospective experimental validation remains required.",
+  "model": "ridge_alpha_10",
+  "n_compounds": 849,
+  "n_test": 195,
+  "n_train": 654,
+  "provenance": {
+    "fast_mode": false,
+    "git_dirty": true,
+    "git_revision": "01210746809b7acec64c86a0e7f4b97a6fb5574f",
+    "processed_build_id": "build-6237a81ba03d0ccb",
+    "processed_dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+    "processed_manifest_sha256": "73fc2edc1043dd4d32769936fdbcd67be1fe716015b047adf7931954e338cf45",
+    "resolved_settings": {
+      "analysis": {
+        "activity_cliffs": {
+          "connectivity_minimum_delta_pactivity": 1.0,
+          "minimum_delta_pactivity": 2.0,
+          "similarity_threshold": 0.8
+        },
+        "clustering": {
+          "similarity_threshold": 0.65
+        },
+        "enabled": true,
+        "fingerprint_bits": 2048,
+        "fingerprint_radius": 2,
+        "herg_assay_family": "electrophysiology_functional",
+        "herg_endpoint": "IC50",
+        "matched_molecular_pairs": {
+          "max_variable_fraction": 0.35,
+          "max_variable_heavy_atoms": 12,
+          "min_core_heavy_atoms": 10
+        },
+        "medicinal_chemistry": {
+          "alert_catalogs": [
+            "PAINS",
+            "BRENK",
+            "NIH"
+          ],
+          "property_windows": {
+            "h_bond_acceptors": {
+              "max": 12,
+              "min": 0
+            },
+            "h_bond_donors": {
+              "max": 5,
+              "min": 0
+            },
+            "logp": {
+              "max": 6,
+              "min": -1
+            },
+            "mol_wt": {
+              "max": 650,
+              "min": 150
+            },
+            "rotatable_bonds": {
+              "max": 14,
+              "min": 0
+            },
+            "tpsa": {
+              "max": 160,
+              "min": 15
+            }
+          }
+        },
+        "menin_assay_family": "biochemical_binding",
+        "menin_endpoint": "IC50",
+        "prioritization": {
+          "high_herg_probability": 0.7,
+          "lower_herg_probability": 0.3,
+          "maximum_activity_range_log10": 1.0,
+          "maximum_property_violations": 1,
+          "potency_desirability_lower": 6.0,
+          "potency_desirability_upper": 9.0,
+          "require_no_pains": true,
+          "sensitivity": {
+            "emphasis_factor": 2.0
+          },
+          "strong_pactivity": 7.0,
+          "weights": {
+            "evidence": 0.1,
+            "herg": 0.25,
+            "potency": 0.35,
+            "property": 0.15,
+            "qed": 0.15
+          }
+        },
+        "prospective_selection": {
+          "enabled": true,
+          "maximum_per_scaffold_series": 2,
+          "quotas": {
+            "activity_cliff_confirmation": 8,
+            "liability_characterization": 8,
+            "negative_control": 6,
+            "novel_scaffold_exploration": 8,
+            "pk_bridge": 6,
+            "potent_safety_gap": 12
+          }
+        },
+        "reference_compounds": [
+          {
+            "approval_context": "KMT2A-translocated relapsed/refractory acute leukemia (2024-11-15); NPM1-mutant relapsed/refractory AML (2025-10-24)",
+            "name": "revumenib",
+            "pubchem_cid": 132212657,
+            "pubchem_inchi_key": "FRVSRBKUQZKTOW-UHFFFAOYSA-N",
+            "pubchem_isomeric_smiles": "CCN(C(C)C)C(=O)C1=C(C=CC(=C1)F)OC2=CN=CN=C2N3CC4(C3)CCN(CC4)CC5CCC(CC5)NS(=O)(=O)CC",
+            "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/132212657",
+            "regulatory_status": "FDA approved",
+            "regulatory_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-revumenib-relapsed-or-refractory-acute-myeloid-leukemia-susceptible-npm1-mutation",
+            "source_checked_at": "2026-07-14"
+          },
+          {
+            "approval_context": "NPM1-mutant relapsed/refractory AML (2025-11-13)",
+            "name": "ziftomenib",
+            "pubchem_cid": 138497449,
+            "pubchem_inchi_key": "BGGALFIXXQOTPY-NRFANRHFSA-N",
+            "pubchem_isomeric_smiles": "CC1=C(C=CC2=C1C=C(N2C[C@H](C)N3CCN(CC3)S(=O)(=O)C)C#N)CN4CCC(CC4)NC5=C6C=C(SC6=NC(=N5)NC)CC(F)(F)F",
+            "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/138497449",
+            "regulatory_status": "FDA approved",
+            "regulatory_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220305s000lbl.pdf",
+            "source_checked_at": "2026-07-14"
+          }
+        ],
+        "series_minimum_size": 3
+      },
+      "curation": {
+        "accepted_chembl_validity_comments": [
+          "",
+          "Manually validated"
+        ],
+        "canonicalize_tautomers": false,
+        "core_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "exact_policy": "strict_exact",
+        "exclude_assay_variants": true,
+        "herg_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "max_within_compound_log_spread": 2.0,
+        "menin_stratify_by": [
+          "endpoint",
+          "assay_family"
+        ],
+        "pubchem_require_menin_relevance": true,
+        "reject_potential_duplicates": true,
+        "require_rdkit": true,
+        "standardize_structures": true,
+        "strip_salts": true
+      },
+      "herg": {
+        "blocker_max_nm": 10000.0,
+        "nonblocker_min_nm": 30000.0,
+        "primary_assay_family": "electrophysiology_functional",
+        "primary_endpoint": "IC50",
+        "run_pooled_sensitivity": true
+      },
+      "modeling": {
+        "analyze_all_eligible_endpoint_assay_tasks": true,
+        "applicability_domain_quantile": 0.05,
+        "bootstrap_iterations": 500,
+        "cv_folds": 3,
+        "evaluation_splits": [
+          "scaffold",
+          "chemical",
+          "temporal",
+          "random"
+        ],
+        "feature_backend": "rdkit",
+        "fingerprint_bits": 2048,
+        "fingerprint_radius": 2,
+        "menin_endpoints": [
+          "IC50",
+          "Ki",
+          "Kd",
+          "EC50"
+        ],
+        "menin_task_assay_families": {
+          "EC50": "cellular_functional",
+          "IC50": "biochemical_binding",
+          "Kd": "biochemical_binding",
+          "Ki": "biochemical_binding"
+        },
+        "min_classification_compounds": 120,
+        "min_regression_compounds": 80,
+        "primary_menin_assay_family": "biochemical_binding",
+        "primary_menin_endpoint": "IC50",
+        "primary_split": "scaffold",
+        "run_clean_label_sensitivity": true,
+        "run_cross_source_mirror_sensitivity": true,
+        "test_size": 0.2,
+        "tree_estimators": 200,
+        "uncertainty_coverage": 0.9
+      },
+      "paths": {
+        "analysis": "research/analysis",
+        "models": "research/models",
+        "processed": "research/data/processed",
+        "raw": "research/data/raw",
+        "reports": "research/reports"
+      },
+      "project": {
+        "name": "menin-discovery",
+        "random_state": 13
+      }
+    },
+    "resolved_settings_sha256": "aa98c6336b75ac567ba600cf5e77a6208edbd4e0fed2dfc68c3ad2cfdcf0e225",
+    "software_dataset_sha256": "5dea83bd0846a4f8c6e704d92845311bb4ca894bcf2ea06dcd38c0c7c8e80ee3",
+    "software_manifest_sha256": "d1c6e93bdb3804da8cce6092b2a20c4ca2bbde774f5337c624001ec3dc2a1254"
+  },
+  "schema_version": "2.0",
+  "split": {
+    "actual_test_fraction": 0.22968197879858657,
+    "cutoff_year": 2026,
+    "fallback_reason": null,
+    "identity_column": "structure_id",
+    "known_year_range": [
+      2013,
+      2026
+    ],
+    "n_missing_time_assigned_to_train": 0,
+    "n_rows": 849,
+    "n_test": 195,
+    "n_train": 654,
+    "n_unique_structures": 849,
+    "random_state": 13,
+    "requested_strategy": "temporal",
+    "requested_test_fraction": 0.2,
+    "selection_score": 0.029681978798586556,
+    "split_sha256": "08b1496a3c01077fd0876a3b33cb9e2f0548938790cd61fabdb7cf37fb8512c5",
+    "strategy": "temporal",
+    "structure_identity_overlap": 0,
+    "time_basis": "earliest known year per structure",
+    "time_column": "document_year"
+  },
+  "status": "trained",
+  "task": {
+    "assay_family": "biochemical_binding",
+    "collapse_cross_source_mirrors": true,
+    "cross_source_mirror_rows_collapsed": 428,
+    "endpoint": "IC50",
+    "exclude_heterogeneous_labels": false,
+    "heterogeneity_log_spread_threshold": 2.0,
+    "heterogeneous_source_rows": 9,
+    "heterogeneous_structures": 2,
+    "identity_column": "structure_id",
+    "ineligible_rows_excluded": 4378,
+    "input_level": "measurement",
+    "input_rows": 8176,
+    "label_policy": "median exact eligible normalized p-value after endpoint/assay filtering, retaining same-source replicates and excluding linked lower-priority cross-source mirrors before standardized-structure aggregation",
+    "n_compounds": 849,
+    "replicate_weighting_policy": "same-source replicates retained; lower-priority exact normalized cross-source mirror rows excluded from the label but retained in measurement provenance"
+  },
+  "test_mae_pchembl": 1.301838451761308,
+  "test_metric_bootstrap_95_ci": {
+    "mae": {
+      "lower_95": 0.6550311129230676,
+      "n_successful_resamples": 500,
+      "upper_95": 1.3678146503998825
+    },
+    "n_resampling_groups": 6,
+    "r2": {
+      "lower_95": -2.947820427448735,
+      "n_successful_resamples": 500,
+      "upper_95": -0.36779857526552684
+    },
+    "resampling_unit": "chemical_scaffold_group",
+    "rmse": {
+      "lower_95": 0.773473626450129,
+      "n_successful_resamples": 500,
+      "upper_95": 1.6254106546406417
+    },
+    "spearman_r": {
+      "lower_95": 0.011479826895528941,
+      "n_successful_resamples": 500,
+      "upper_95": 0.583541777219495
+    }
+  },
+  "test_metrics": {
+    "calibration_intercept": 4.218677199575916,
+    "calibration_slope": 0.2758040724118682,
+    "fraction_within_0p5_log_unit": 0.17435897435897435,
+    "fraction_within_1_log_unit": 0.40512820512820513,
+    "mae": 1.301838451761308,
+    "mean_signed_error": -1.281567821798963,
+    "median_absolute_error": 1.1195238523501825,
+    "pearson_r": 0.15522592350900152,
+    "r2": -2.737091742858059,
+    "rmse": 1.537923586215938,
+    "spearman_r": 0.15933611475717188
+  },
+  "test_r2": -2.737091742858059,
+  "test_rmse_pchembl": 1.537923586215938,
+  "uncertainty": {
+    "empirical_holdout_coverage": 0.7333333333333333,
+    "interval_half_width_p_activity": 1.7468867950623466,
+    "method": "cross-validated absolute-residual conformal interval",
+    "n_oof_residuals": 489,
+    "nominal_coverage": 0.9
+  }
+}

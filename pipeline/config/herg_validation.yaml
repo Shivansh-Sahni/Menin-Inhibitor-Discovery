@@ -1,0 +1,22 @@
+random_state: 29
+candidate_profile: quick
+
+blocker_max_um: 10.0
+nonblocker_min_um: 30.0
+confidential_priority_weight: 5.0
+
+outer_splits: 5
+outer_repeats: 1
+inner_splits: 3
+
+# Each inner fold is an additional resource rung. All candidates enter rung 1;
+# the strongest candidates plus the best member of every requested family
+# advance to later rungs.
+successive_keep_fraction: 0.40
+successive_minimum_candidates: 10
+ensemble_size: 3
+
+applicability_quantile: 0.05
+calibration_bins: 8
+bootstrap_iterations: 2000
+

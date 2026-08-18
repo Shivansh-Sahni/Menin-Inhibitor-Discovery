@@ -8,3 +8,198 @@ __pycache__/
 venv/
 env/
 *.log
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.part
+.env
+.env.*
+
+# Local data and heavyweight benchmark artifacts.
+/research/data/internal/
+/research/benchmarks/
+/research/data/platform/
+/research/models/platform/
+/research/reports/platform/
+/docs/platform/
+/docs/project/pretraining_readiness_ledger.md
+/pipeline/src/menin_discovery/platform_*.py
+/pipeline/tests/test_platform_*.py
+/pipeline/config/platform*.yaml
+/pipeline/scripts/run_local_herg_quality_transfer_campaign.py
+/pipeline/tests/test_run_local_herg_quality_transfer_campaign.py
+/pipeline/config/herg_first_paper.yaml
+/pipeline/config/non_hpc_readiness.yaml
+/pipeline/scripts/analyze_local_herg_feature_lattice_v81.py
+/pipeline/scripts/build_herg_meeting_package_2026_08_18.py
+/pipeline/scripts/build_local_multicpu_2d_feature_cache.py
+/pipeline/scripts/build_local_multicpu_herg_3d_features.py
+/pipeline/scripts/run_local_herg_discovery_*
+/pipeline/scripts/run_local_herg_domain_mixture_campaign_v9.sh
+/pipeline/scripts/run_local_herg_feature_ablation.py
+/pipeline/scripts/run_local_herg_honest_measurement_campaign_v7.*
+/pipeline/tests/test_run_local_herg_honest_measurement_campaign_v7.py
+# Local/internal campaign tests whose implementations or inputs are intentionally unpublished.
+/pipeline/tests/test_analyze_local_herg_feature_lattice_v81.py
+/pipeline/tests/test_build_herg_meeting_package_2026_08_18.py
+/pipeline/tests/test_combined_internal_angelo_herg.py
+/pipeline/tests/test_herg_pk_mix_match.py
+/pipeline/tests/test_new_herg_prediction.py
+/pipeline/tests/test_new_pk_prediction.py
+/pipeline/tests/test_program_health_audit.py
+/pipeline/tests/test_research_cli.py
+/pipeline/tests/test_research_graph_models.py
+/pipeline/tests/test_research_literature.py
+/pipeline/tests/test_research_local_analysis.py
+/pipeline/tests/test_research_reviewer_audit.py
+/pipeline/tests/test_research_workflows.py
+/pipeline/tests/test_run_local_herg_discovery_campaign.py
+/pipeline/tests/test_run_local_herg_discovery_campaign_v3.py
+/pipeline/tests/test_run_local_herg_discovery_campaign_v4.py
+/pipeline/tests/test_run_local_herg_discovery_worker.py
+/pipeline/tests/test_run_local_herg_discovery_worker_v3.py
+/pipeline/tests/test_run_local_herg_discovery_worker_v4.py
+/pipeline/tests/test_run_local_herg_domain_mixture_campaign_v9.py
+/pipeline/tests/test_run_local_herg_feature_lattice_campaign_v8.py
+/pipeline/tests/test_run_local_herg_feature_relationship_campaign_v5.py
+/pipeline/tests/test_run_local_herg_fundamental_optimization_v6.py
+/pipeline/scripts/run_local_herg_mechanistic_family_cv.py
+/pipeline/scripts/run_local_parallel_validation.sh
+/pipeline/scripts/run_local_six_hour_validation.sh
+/pipeline/scripts/verify_platform_specialized.py
+/research/reports/final_verification/
+/pipeline/config/internal_data.local.yaml
+/pipeline/config/internal_data.*.local.yaml
+
+# Mixed-access PK/hERG research workspaces contain internal-source derivatives.
+# Public platform releases are built separately under research/*/platform/.
+/research/data/pk_herg/
+/research/models/pk_herg/
+/research/reports/pk_herg/
+/research/simulations/
+/research/outputs/
+/outputs/
+
+# Local atomic-build and scratch workspaces.
+/.tmp/
+
+# Rights-pending source copies are inventory-only and never part of the public
+# platform release. Their original source bytes remain in the legacy archive.
+/research/data/platform/raw/local_legacy/bindingdb/
+/research/data/platform/raw/local_legacy/pubchem/
+/research/data/platform/raw/sun_2026/
+/research/data/platform/raw/restricted/
+
+# Reproducible ChEMBL bulk cache: keep small manifests/configs in Git, not the
+# multi-gigabyte archive, extracted database, or partitioned fact tables.
+/research/data/platform/raw/chembl_37_bulk/*.tar.gz
+/research/data/platform/raw/chembl_37_bulk/extracted/*.db
+/research/data/platform/raw/chembl_37_bulk/extracted/.chembl_37.db.*
+/research/data/platform/interim/chembl_37_bulk/activity_facts/
+/research/data/platform/interim/chembl_37_bulk/specialized_views/**/*.parquet
+/research/data/platform/interim/chembl_37_bulk/**/*_checkpoint.json
+
+# Dated external-source payload bytes live in governed content-addressed
+# storage. Keep their small manifests, request metadata, checksums, and README
+# evidence visible to Git while excluding the reproducible heavy payloads.
+/research/data/platform/raw/external_public/**/*.zip
+/research/data/platform/raw/external_public/**/*.bin
+/research/data/platform/raw/external_public/**/*.fasta
+/research/data/platform/raw/external_public/**/*.xml
+/research/data/platform/raw/external_public/**/*.jsonl
+/research/data/platform/raw/external_public/**/pages/page_[0-9][0-9][0-9][0-9][0-9][0-9].json
+/research/data/platform/raw/external_public/**/metadata_history/version_probe_[0-9][0-9][0-9][0-9][0-9][0-9].json
+/research/data/platform/interim/external_public_normalized/**/*.parquet
+
+# Failed canonical stages are retained locally for audit but their large data
+# payloads and registries must never enter normal Git history. README evidence
+# remains versionable.
+/research/data/platform/quarantine/**/*.parquet
+/research/data/platform/quarantine/**/*.sqlite*
+/research/data/platform/canonical/.*.building/
+
+# Large regenerated platform derivatives are intended for separately governed,
+# content-addressed artifact storage and are not currently published or kept in
+# normal Git history. Keep small registries, dictionaries, reports, and JSON
+# manifests versionable.
+/research/data/platform/canonical/**/*.parquet
+/research/data/platform/qc/**/*.parquet
+/research/data/platform/features/**/*.parquet
+/research/data/platform/splits/**/*.csv
+/research/data/platform/splits/**/*.parquet
+/research/data/platform/model_ready/**/*.jsonl
+/research/data/platform/model_ready/**/*.parquet
+
+# Large legacy/public research payloads use governed artifact storage rather
+# than ordinary Git history; their reports and metadata remain versionable.
+/research/data/processed/herg_activity_measurements.csv
+/research/literature/herg/structural_biology/2024_lau_potassium_states/source_data.zip
+/research/data/platform/splits/**/.*.building-*/
+/research/models/platform/corpus_readiness/**/.*.building-*/
+
+# Independent reproducibility builds retain their manifests/reports in Git;
+# regenerated data payloads remain in governed artifact storage.
+/research/data/platform/determinism_build_b/**/*.parquet
+/research/data/platform/determinism_build_b/**/*.sqlite*
+/research/models/platform/corpus_readiness/**/*.jsonl
+/research/models/platform/corpus_readiness/**/*.parquet
+/research/models/platform/corpus_readiness/**/*.npz
+/research/models/platform/corpus_readiness/**/*.joblib
+/research/models/platform/corpus_readiness/**/*.sqlite*
+
+# Meeting screenshots may contain private correspondence. Keep them local
+# pending explicit staged-disclosure approval.
+/research/notes/meetings/**/*.png
+
+# Git is the collaboration surface for source, contracts, compact provenance,
+# reports, and selected presentation material. It is intentionally not the
+# storage backend for datasets, feature matrices, local campaigns, or fitted
+# models. These artifacts are rebuilt or retrieved through their manifests.
+/research/local_runs/
+/research/data/platform/raw/external_public/**/*.csv
+/research/data/platform/raw/external_public/**/*.tsv
+/research/data/platform/raw/external_public/**/*.txt.gz
+/research/data/platform/raw/external_public/**/*.csv.gz
+/research/data/platform/raw/external_public/**/*.tsv.gz
+/research/data/platform/raw/external_public/**/*.sql.gz
+/research/data/platform/raw/external_public/**/*.gctx
+/research/data/platform/raw/external_public/**/*.gctx.gz
+/research/data/platform/raw/external_public/**/*.sqlite*
+/research/data/platform/raw/external_public/**/*.db
+/research/data/platform/processed/**/*.parquet
+/research/data/platform/processed/**/*.arrow
+/research/data/platform/processed/**/*.feather
+/research/data/platform/processed/**/*.sqlite*
+/research/data/platform/processed/**/*.npz
+/research/data/platform/processed/**/*.npy
+/research/data/platform/interim/**/*.parquet
+/research/data/platform/interim/**/*.arrow
+/research/data/platform/interim/**/*.feather
+/research/data/platform/interim/**/*.sqlite*
+/research/models/**/*.joblib
+/research/models/**/*.pkl
+/research/models/**/*.pickle
+/research/models/**/*.ckpt
+/research/models/**/*.pt
+/research/models/**/*.pth
+/research/models/**/*.onnx
+/research/models/**/*.bin
+/research/reports/**/.deck_build/node_modules/
+/research/reports/**/.deck_revision/node_modules/
+/research/reports/**/rendered/
+
+# Third-party literature is cataloged and reviewed in Git, but article and
+# supplementary source bytes are not redistributed from this public repository.
+/research/literature/**/*.pdf
+/research/literature/**/*.mov
+/research/literature/**/*.mp4
+/research/literature/**/*.docx
+/research/literature/**/*.xlsx
+
+# Vendor/source repositories cloned during public-data acquisition are inputs,
+# not vendored project source. Their provenance manifests remain elsewhere in
+# the platform tree.
+/research/data/platform/raw/external_public/high_value_expansion/lead/jump_cell_painting/

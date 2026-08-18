@@ -1,0 +1,129 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1655987,
+            "version": 1
+          },
+          "aid_source": {
+            "db": {
+              "name": "ChEMBL",
+              "source_id": {
+                "str": "CHEMBL4616360"
+              }
+            }
+          },
+          "name": "Binding affinity to human Menin expressed in Escherichia coli BL21 (DE3) assessed as inhibition of Menin/MLL1 protein-protein at 20 degree C by isothermal titration calorimetry",
+          "description": [
+            "Title: HOPPI-NMR: Hot-Peptide-Based Screening Assay for Inhibitors of Protein-Protein Interactions by NMR.",
+            "",
+            "Abstract: Protein-protein interactions (PPIs) contribute to the onset and/or progression of several diseases, especially cancer, and this discovery has paved the way for considering disruption of the PPIs as an attractive anti-tumor strategy. In this regard, simple and efficient biophysical methods for detecting the interaction of the inhibitors with the protein counterpart are still in high demand. Herein, we describe a convenient NMR method for the screening of putative PPI inhibitors based on the use of \"hot peptides\" (HOPPI-NMR). As a case study, HOPPI-NMR was successful applied to the well-known p53/MDM2 system. Our outcomes highlight the main advantages of the method, including the use of a small amount of unlabeled proteins, the minimization of the risk of protein aggregation, and the ability to identify weak binders. The last leaves open the possibility for application of HOPPI-NMR in tandem with fragment-based drug discovery as a valid strategy for the identification of novel chemotypes acting as PPI inhibitors."
+          ],
+          "comment": [
+            "Compounds with activity <= 10uM or explicitly reported as active by ChEMBL are flagged as active in this PubChem assay presentation.",
+            "",
+            "Journal: ACS Med Chem Lett",
+            "Year: 2020",
+            "Volume: 11",
+            "Issue: 5",
+            "First Page: 1047",
+            "Last Page: 1053",
+            "DOI: 10.1021/acsmedchemlett.9b00620",
+            "",
+            "Target ChEMBL ID: CHEMBL1615381",
+            "ChEMBL Target Name: Menin",
+            "ChEMBL Target Type: SINGLE PROTEIN - Target is a single protein chain",
+            "Relationship Type: D - Direct protein target assigned",
+            "Confidence: Direct single protein target assigned"
+          ],
+          "xref": [
+            {
+              "xref": {
+                "taxonomy": 9606
+              },
+              "comment": "Homo sapiens"
+            },
+            {
+              "xref": {
+                "pmid": 32435424
+              },
+              "type": 1
+            },
+            {
+              "xref": {
+                "dburl": "https://www.ebi.ac.uk/chembl/"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.ebi.ac.uk/chembl/assay_report_card/CHEMBL4616360"
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from 'Standard Value'. The unit is always micromolar"
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (e.g. IC50 rather than Ic-50/Ic50/ic50/ic-50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 3,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for 'Standard Value'"
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 4,
+              "name": "Standard Value",
+              "description": [
+                "Standardized activity value transformed to common units: e.g. mM concentrations converted to nM"
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "Standard Units",
+              "description": [
+                "Selected units for 'Standard Type': e.g. concentrations are in nM"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 2,
+          "target": [
+            {
+              "name": "Menin",
+              "mol_id": {
+                "protein_accession": "O00255"
+              },
+              "descr": "Menin"
+            }
+          ],
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "PMID: 32435424"
+          ]
+        }
+      }
+    }
+  ]
+}

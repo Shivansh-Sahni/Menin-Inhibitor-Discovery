@@ -1,0 +1,2912 @@
+{
+  "build_id": "build-6237a81ba03d0ccb",
+  "created_at": "2026-07-21T14:48:32Z",
+  "dataset_sha256": "4cc41ead5f8d6a8f206bc30350131408e54f055ffbb03c698ebaff38ee74be6a",
+  "file_count": 20,
+  "files": [
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "activity_cliffs.csv",
+      "row_count": 502,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "absolute_delta_pactivity",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "achiral_fingerprint_identical",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "achiral_morgan_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "chiral_morgan_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "evidence_context_grade",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "higher_potency_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_a",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_b",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "sali_achiral",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "same_connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "same_scaffold_series",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_assay_id",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles_b",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_b",
+          "nullable": false
+        }
+      ],
+      "sha256": "044b22c16a345dfc1a87f5b0ca5d7dda506d1f0fc5bb228d477d43042b2f442a",
+      "size_bytes": 191549
+    },
+    {
+      "column_count": 20,
+      "format": "json",
+      "media_type": "application/json",
+      "path": "analysis_summary.json",
+      "row_count": 1,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "activity_cliffs",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "algorithm_contract",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "approved_reference_compounds",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "approved_references_with_exact_primary_coverage",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "candidate_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_variant_cliffs",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_variant_groups",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "herg_evidence_status_counts",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "input_sha256",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "matched_molecular_pair_cliffs",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "matched_molecular_pairs",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "priority_tier_counts",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "prospective_selection_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "prospective_selection_shortfall",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "schema_version",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_meeting_minimum",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "similarity_clusters",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "status",
+          "nullable": false
+        },
+        {
+          "dtype": "object",
+          "name": "task",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "unique_scaffold_series",
+          "nullable": false
+        }
+      ],
+      "sha256": "8d53a2cd368dff6f59c942bbf12af4dd0e40dadc00a316a5474fe75b4a7e0050",
+      "size_bytes": 1997
+    },
+    {
+      "column_count": 27,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "approved_reference_coverage.csv",
+      "row_count": 2,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "approval_context",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "brenk_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_any_public_menin_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_exact_primary_task_structure",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "maximum_primary_achiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "maximum_primary_chiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "name",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_primary_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_primary_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "nih_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "pains_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "pubchem_cid",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "pubchem_inchi_matches_standardized",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pubchem_url",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "public_menin_assay_families",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "public_menin_endpoints",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "reference_scaffold_present_in_primary",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference_scaffold_series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference_standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "reference_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "regulatory_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "regulatory_url",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "source_checked_at",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "tpsa",
+          "nullable": false
+        }
+      ],
+      "sha256": "50d5004b4b99d785ceebc704105d599c282d4f5d7ffcbadb503ffb4cab3932b3",
+      "size_bytes": 1637
+    },
+    {
+      "column_count": 121,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "candidate_priorities.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_ligand_efficiency_kcal_per_mol_per_heavy_atom",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_lipophilic_ligand_efficiency",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "aromatic_ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "brenk_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "brenk_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "chemistry_evidence_gate",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "complete_evidence_pareto_rank",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "complete_evidence_rank",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "complete_evidence_score",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_group_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "discovery_rank_without_safety",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "discovery_score_without_safety",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "evidence_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "exact_mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_followup_tier",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "fraction_csp3",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_acceptors",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_donors",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_observed_primary_herg_record",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heavy_atom_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_desirability",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "herg_evidence_status",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_prediction_used",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_probability_used_for_decision",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "invalid_structure",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "local_novelty_achiral",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_achiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_achiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_chiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_chiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "nih_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nih_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_blocker_label",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_measurement_count",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "observed_herg_used",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_value_nm_median",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_p_herg_median",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "pains_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pains_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "pk_endpoint_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pk_endpoints",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "pk_matrices",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "pk_observation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pk_species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "potency_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "potency_property_pareto_rank",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_blocker_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_probability_entropy_bits",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "predicted_herg_risk",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "property_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "property_window_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "property_window_violations",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "qed_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "ro5_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "rotatable_bonds",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_max",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "sensitivity_rank_median",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_min",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_span",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_scenarios_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_representative",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "similarity_cluster_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "tpsa",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "veber_violation_count",
+          "nullable": false
+        }
+      ],
+      "sha256": "a1fd1fda19d1ca8070d14d044706bba63a1768f396fc41eef33e3a0bc12b8772",
+      "size_bytes": 1286994
+    },
+    {
+      "column_count": 13,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "chemical_series_members.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "tpsa",
+          "nullable": false
+        }
+      ],
+      "sha256": "27f188a51538970d0affd5b80bb630c888406b0b14ec245f45d08526b24feadb",
+      "size_bytes": 253295
+    },
+    {
+      "column_count": 14,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "chemical_series_summary.csv",
+      "row_count": 252,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "activity_span_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "best_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_qed",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "meets_series_minimum",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "minimum_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "representative_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "source_count",
+          "nullable": false
+        }
+      ],
+      "sha256": "08126aaaba8ded79b4dd52fb80d29730349ef99bd6180038f26576cdcc24d4dc",
+      "size_bytes": 60961
+    },
+    {
+      "column_count": 9,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "connectivity_variant_cliffs.csv",
+      "row_count": 129,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "absolute_delta_pactivity",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "interpretation",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_a",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_b",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key_b",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_b",
+          "nullable": false
+        }
+      ],
+      "sha256": "07c3c1efb1819b9c0edbb1ac00054230666355ac58f707ed0eeffb22f581df50",
+      "size_bytes": 34699
+    },
+    {
+      "column_count": 9,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "connectivity_variant_members.csv",
+      "row_count": 337,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_group_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "9dc9d5939a6d8b9ef267ca283440fc3e3bf6942981a44b8aca0e55b53f62d665",
+      "size_bytes": 72097
+    },
+    {
+      "column_count": 6,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "connectivity_variant_summary.csv",
+      "row_count": 153,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "activity_span_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "maximum_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "minimum_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "structures",
+          "nullable": false
+        }
+      ],
+      "sha256": "876d427317f227ab880c8bf181a321e60281a1f951aca0c5b5c8cc858e8b2345",
+      "size_bytes": 19359
+    },
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "matched_molecular_pair_cliffs.csv",
+      "row_count": 498,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "absolute_delta_pactivity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "achiral_morgan_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "core_heavy_atoms",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "core_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "evidence_context_grade",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_cliff",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_a",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_b",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_assay_id",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_b",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "transformation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "variable_fragment_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "variable_fragment_b",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "variable_heavy_atoms_a",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "variable_heavy_atoms_b",
+          "nullable": false
+        }
+      ],
+      "sha256": "2958eb4d264bf02b4266daf2a5777c63a0a8afec8be501976d2d8265f5785f51",
+      "size_bytes": 158270
+    },
+    {
+      "column_count": 17,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "matched_molecular_pairs.csv",
+      "row_count": 3899,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "absolute_delta_pactivity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "achiral_morgan_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "core_heavy_atoms",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "core_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "evidence_context_grade",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_cliff",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_a",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_b",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_assay_id",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "shared_document_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id_b",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "transformation",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "variable_fragment_a",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "variable_fragment_b",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "variable_heavy_atoms_a",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "variable_heavy_atoms_b",
+          "nullable": false
+        }
+      ],
+      "sha256": "dde04259e93e956ec7ac894dcec241ca640c012bb9f5afd90b851216ef4877bc",
+      "size_bytes": 1183220
+    },
+    {
+      "column_count": 91,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "medicinal_chemistry_profiles.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_ligand_efficiency_kcal_per_mol_per_heavy_atom",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_lipophilic_ligand_efficiency",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "aromatic_ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "brenk_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "brenk_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_group_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "exact_mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "fraction_csp3",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_acceptors",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_donors",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_observed_primary_herg_record",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heavy_atom_count",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "invalid_structure",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "local_novelty_achiral",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_achiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_achiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_chiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_chiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "nih_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nih_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "pains_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pains_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_blocker_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_probability_entropy_bits",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "predicted_herg_risk",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "property_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "property_window_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "property_window_violations",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "ro5_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "rotatable_bonds",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_representative",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "similarity_cluster_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "tpsa",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "veber_violation_count",
+          "nullable": false
+        }
+      ],
+      "sha256": "f37f493f3c779965557fd705fc52ab433e6316a029fabf78b16e8a33706d1ae2",
+      "size_bytes": 1101004
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "priority_data_gaps.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "data_gaps",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_data_gaps",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_herg_measurement",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_pk_context",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "c7b44ab3c0336dea38239b4b4f3819e05b10c03b0a2c5a0a5df20addc2f35799",
+      "size_bytes": 130245
+    },
+    {
+      "column_count": 8,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "priority_decision_trace.csv",
+      "row_count": 4245,
+      "schema": [
+        {
+          "dtype": "number",
+          "name": "desirability",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "desirability_column",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "included_in_complete_score",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "missing_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "objective",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "weight",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "weighted_contribution",
+          "nullable": true
+        }
+      ],
+      "sha256": "256bdf08cda947e8e794d3fdcee7532597993bb4259d3709e34d74eae7503723",
+      "size_bytes": 473687
+    },
+    {
+      "column_count": 121,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "priority_frontier.csv",
+      "row_count": 23,
+      "schema": [
+        {
+          "dtype": "boolean",
+          "name": "active_100nM",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "active_1uM",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "activity_range_log10",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "aggregation_value_semantics",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_ligand_efficiency_kcal_per_mol_per_heavy_atom",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "apparent_lipophilic_ligand_efficiency",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "aromatic_ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "brenk_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "brenk_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "canonical_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "censoring_policy",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "chemistry_evidence_gate",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "complete_evidence_pareto_rank",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "complete_evidence_rank",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "complete_evidence_score",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "compound_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "connectivity_group_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "connectivity_key",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "discovery_rank_without_safety",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "discovery_score_without_safety",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "document_years",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "evidence_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "exact_mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "experimental_followup_tier",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "formal_charge",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "fraction_csp3",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_acceptors",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "h_bond_donors",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "has_observed_primary_herg_record",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heavy_atom_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_evidence_status",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_inside_applicability_domain",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_max_training_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_nearest_training_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "herg_prediction_used",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "herg_probability_used_for_decision",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "heterogeneity_log_spread_threshold",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "invalid_structure",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "is_activity_heterogeneous",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "local_novelty_achiral",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "logp",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "mol_wt",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_approximate_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_assay_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_censored_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_cross_source_mirror_rows_collapsed",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoint_families",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_endpoints",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_exact_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_measurements",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_source_rows",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_achiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_achiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nearest_neighbor_chiral_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "nearest_neighbor_chiral_tanimoto",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "nih_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "nih_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_blocker_label",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_measurement_count",
+          "nullable": true
+        },
+        {
+          "dtype": "boolean",
+          "name": "observed_herg_used",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "observed_herg_value_nm_median",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "observed_p_herg_median",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "original_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_min",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "pains_alert_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "pains_alerts",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "pk_endpoint_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pk_endpoints",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "pk_matrices",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "pk_observation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "pk_species",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "potency_class",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "potency_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "potency_property_pareto_rank",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_blocker_probability",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "predicted_herg_probability_entropy_bits",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "predicted_herg_risk",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "property_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "property_window_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "property_window_violations",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "qed_desirability",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "relations",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "ring_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "ro5_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "rotatable_bonds",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scaffold_method",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_assay_family",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scored_menin_endpoint",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_max",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "sensitivity_rank_median",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_min",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_rank_span",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "sensitivity_scenarios_eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_representative",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "similarity_cluster_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "sources",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standard_inchi_key",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_standardization_status",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "target_names",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "tpsa",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_best",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "value_nm_median",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "veber_violation_count",
+          "nullable": false
+        }
+      ],
+      "sha256": "6c8334f7160d92be0220ac304ea4bafdde6d2c0bc09345b8c4b561108a8ba76f",
+      "size_bytes": 37928
+    },
+    {
+      "column_count": 7,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "priority_sensitivity.csv",
+      "row_count": 9339,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "active_objectives",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "eligible",
+          "nullable": false
+        },
+        {
+          "dtype": "boolean",
+          "name": "requires_herg_evidence",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "scenario",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "scenario_rank",
+          "nullable": true
+        },
+        {
+          "dtype": "number",
+          "name": "scenario_score",
+          "nullable": true
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "3998d13e0ca90e357419925a32654c51c9dd02bd4b4a9100a2a1f4b0ddd86abc",
+      "size_bytes": 910373
+    },
+    {
+      "column_count": 15,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "prospective_selection_plan.csv",
+      "row_count": 48,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "experimental_followup_tier",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "herg_evidence_status",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "local_novelty_achiral",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "p_activity_median",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "paired_cliff_id",
+          "nullable": true
+        },
+        {
+          "dtype": "integer",
+          "name": "pk_observation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "property_window_violation_count",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "qed",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_category",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "selection_order",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_rationale",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "series_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "standardized_smiles",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "3ed7a74a79c8e5464563c61cac8cdc8f848b7dedbba2b9b615a701222e4e7a39",
+      "size_bytes": 17534
+    },
+    {
+      "column_count": 4,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "prospective_selection_summary.csv",
+      "row_count": 6,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "requested_quota",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "selected_structures",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "selection_category",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "shortfall",
+          "nullable": false
+        }
+      ],
+      "sha256": "e83aa5f34387c90691a5b4e00c001c165e28b072393c2d72521888d145b61a42",
+      "size_bytes": 230
+    },
+    {
+      "column_count": 5,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "similarity_cluster_members.csv",
+      "row_count": 849,
+      "schema": [
+        {
+          "dtype": "string",
+          "name": "series_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_representative",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "similarity_cluster_size",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "structure_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "55ec3783a7421553c9a82f06112582599999f3ceefa87af9ad07c797ad7c5a39",
+      "size_bytes": 80820
+    },
+    {
+      "column_count": 7,
+      "format": "csv",
+      "media_type": "text/csv",
+      "path": "similarity_cluster_summary.csv",
+      "row_count": 126,
+      "schema": [
+        {
+          "dtype": "integer",
+          "name": "cluster_size",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "maximum_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "number",
+          "name": "median_p_activity",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "member_structure_ids",
+          "nullable": false
+        },
+        {
+          "dtype": "integer",
+          "name": "n_scaffold_series",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "representative_structure_id",
+          "nullable": false
+        },
+        {
+          "dtype": "string",
+          "name": "similarity_cluster_id",
+          "nullable": false
+        }
+      ],
+      "sha256": "57a67f72a4a498c1e11e9ec98c39e8b1adb41c0218e3a53990467eda88c01569",
+      "size_bytes": 32106
+    }
+  ],
+  "manifest_sha256": "1895aab829c921b87d9c04b25c11b63b5e3392512d1f4fdde52452b366aa41f3",
+  "manifest_version": "1.0",
+  "root": ".",
+  "stage": "analysis",
+  "total_size_bytes": 6048005,
+  "upstream": [
+    {
+      "dataset_sha256": "5dea83bd0846a4f8c6e704d92845311bb4ca894bcf2ea06dcd38c0c7c8e80ee3",
+      "stage": "software"
+    },
+    {
+      "dataset_sha256": "c2b964d69539bc0745a6a364cb7b1546f3bb5def9d80cc9e949fcb0b74fcc427",
+      "stage": "models"
+    },
+    {
+      "dataset_sha256": "f5a72bb86f7a9f05e96396c4f8edff4a92021213b65f9046346b83f205330ab5",
+      "stage": "processed"
+    }
+  ]
+}

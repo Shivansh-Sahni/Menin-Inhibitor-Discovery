@@ -1,0 +1,4 @@
+scope,endpoint,assay_family,label,task_rows
+pooled_sensitivity,pooled,pooled,blocker,7945
+pooled_sensitivity,pooled,pooled,non_blocker,1068
+pooled_sensitivity,pooled,pooled,ambiguous_10_to_30_uM,2536

@@ -1,0 +1,19 @@
+random_state: 41
+candidate_profile: strong_ml
+
+blocker_max_um: 10.0
+nonblocker_min_um: 30.0
+confidential_priority_weight: 5.0
+
+outer_splits: 5
+outer_repeats: 1
+inner_splits: 3
+
+successive_keep_fraction: 0.40
+successive_minimum_candidates: 12
+ensemble_size: 5
+
+applicability_quantile: 0.05
+calibration_bins: 8
+bootstrap_iterations: 5000
+

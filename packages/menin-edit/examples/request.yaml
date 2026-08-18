@@ -1,0 +1,41 @@
+# Public primary-task Menin inhibitor with observed matched-pair neighbors.
+# This is a software demonstration, not a recommended compound.
+starting_smiles: "CNC(=O)O[C@H]1CCC[C@@H]1C(C#N)(c1ccccc1)C1CCN(CC2CN(c3ccc(S(=O)(=O)c4ccncc4)cc3)C2)CC1"
+
+objectives:
+  - endpoint: menin_biochemical_pIC50
+    priority: 0.55
+  - endpoint: herg_consensus_probability
+    priority: 0.35
+  - endpoint: structural_alert_count
+    priority: 0.10
+
+constraints:
+  - endpoint: menin_biochemical_pIC50
+    operator: ">="
+    value: 5.0
+    relative_to: absolute
+    out_of_domain_policy: warn
+  - endpoint: herg_consensus_probability
+    operator: "<="
+    value: 0.98
+    relative_to: absolute
+    out_of_domain_policy: warn
+  - endpoint: structural_alert_count
+    operator: "<="
+    value: 3
+    relative_to: absolute
+    out_of_domain_policy: warn
+
+search:
+  max_steps: 2
+  beam_width: 4
+  candidates_per_node: 8
+  top_paths: 8
+  max_changed_heavy_atoms: 12
+  min_core_heavy_atoms: 10
+  min_parent_similarity: 0.45
+  uncertainty_penalty: 0.15
+  path_complexity_penalty: 0.03
+  require_supported_edit: true
+  random_seed: 13

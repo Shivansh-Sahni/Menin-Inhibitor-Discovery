@@ -1,0 +1,123 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1805684,
+            "version": 3
+          },
+          "aid_source": {
+            "db": {
+              "name": "BindingDB",
+              "source_id": {
+                "str": "BindingDB_9993_1"
+              }
+            }
+          },
+          "name": "Menin Binding Affinity from US Patent US11045448: \"Piperidines as covalent menin inhibitors\"",
+          "description": [
+            "A fluorescence polarization (FP) competitive binding assay was used to determine the binding affinities of representative menin inhibitors. A FAM labeled fluorescent probe was designed and synthesized based on a MLL1 peptide (FAM-MM2). Equilibrium dissociation constant (Kd) value of FAM-MM2 to menin protein was determined from protein saturation experiments by monitoring the total fluorescence polarization of mixtures composed with the fluorescent probe at a fixed concentration and the protein with increasing concentrations up to full saturation. Serial dilutions of the protein were mixed with FAM-MM2 to a final volume of 200 &#956;l in the assay buffer (PBS with 0.02% Bovine &#947;-Globulin and 4% DMSO. 0.01% Triton X-100 was added right before assays). Final FAM-MM2 concentration was 2 nM. Plates were incubated at room temperature for 30 minutes with gentle shaking to assure equilibrium. FP values in millipolarization units (mP) were measured using the Infinite M-1000 plate reader (Tecan U.S., Research Triangle Park, N.C.) in Microfluor 1 96-well, black, v-bottom plates (Thermo Scientific, Waltham, Mass.) at an excitation wavelength of 485 nm and an emission wavelength of 530 nm. Kd value of FAM-MM2, which was calculated by fitting the sigmoidal dose-dependent FP increases as a function of protein concentrations using Graphpad Prism 6.0 software (Graphpad Software, San Diego, Calif.), was determined as 1.4 nM."
+          ],
+          "comment": [
+            "Compounds with any of Ki, IC50, Kd, or EC50 activity value <= 10uM are labeled as \"Active\".",
+            "If multiple measurements are available for a given compound, it is labeled as \"Active\" if any of the measurements meet the criterion. Activity values are checked in the order of Ki, IC50, Kd, and EC50. The first entry that meets the above activity threshold is used to determine \"Standard Type\", \"Standard Relation\", and \"PubChem Standard Value\". Otherwise, the first non-empty entry will be used to set those values."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "dburl": "https://www.bindingdb.org"
+              }
+            },
+            {
+              "xref": {
+                "asurl": "https://www.bindingdb.org/rwd/jsp/dbsearch/assay.jsp?assayid=1&entryid=9993"
+              }
+            },
+            {
+              "xref": {
+                "patent": "US11045448"
+              },
+              "comment": "Piperidines as covalent menin inhibitors",
+              "type": 1
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Standard Type",
+              "description": [
+                "Standardized activity type (i.e. Ki, IC50, Kd, or EC50)"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 2,
+              "name": "Standard Relation",
+              "description": [
+                "Qualifier (e.g. >, <, =) for \"PubChem Standard Value\""
+              ],
+              "type": 4,
+              "ac_qualifier": true
+            },
+            {
+              "tid": 3,
+              "name": "PubChem Standard Value",
+              "description": [
+                "PubChem standardized value transformed from the value of Ki, IC50, Kd, or EC50. The unit is always micromolar."
+              ],
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 4,
+              "name": "IC50 Qualifier",
+              "description": [
+                "Qualifier (e.g. >, <, =) for \"IC50\""
+              ],
+              "type": 1
+            },
+            {
+              "tid": 5,
+              "name": "IC50",
+              "type": 1,
+              "unit": 6
+            },
+            {
+              "tid": 6,
+              "name": "Target Accession(s)",
+              "description": [
+                "Protein accession(s) of target"
+              ],
+              "type": 4,
+              "annot": 21
+            },
+            {
+              "tid": 7,
+              "name": "Ligand",
+              "description": [
+                "BindingDB Ligand"
+              ],
+              "type": 4
+            },
+            {
+              "tid": 8,
+              "name": "Target",
+              "description": [
+                "BindingDB Target"
+              ],
+              "type": 4
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 2,
+          "project_category": 7,
+          "assay_group": [
+            "BDB_ENTRY:9993"
+          ]
+        }
+      }
+    }
+  ]
+}

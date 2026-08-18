@@ -1,0 +1,134 @@
+project:
+  root: ../..
+
+inputs:
+  internal_workbook: research/data/internal/menin_internal_full_profile_2026-07-21.xlsx
+  public_herg_workbook: research/literature/herg/predictive_modeling/2026_sun_wang_shen_jcim_6c00163/supplementary_dataset.xlsx
+
+paths:
+  literature: research/literature
+  canonical: research/data/pk_herg/canonical
+  physics: research/data/pk_herg/physics
+  physics_cache: research/data/pk_herg/fast_physics_cache
+  models: research/models/pk_herg
+  reports: research/reports/pk_herg
+  simulations: research/simulations/pk_herg
+  optimizer: research/data/pk_herg/optimizer
+  workbook: research/outputs/menin_pk_herg/assay_request_panel.xlsx
+
+run:
+  random_state: 20260721
+  minimum_large_molecule_mw: 650.0
+  decision_track_requires_noninferiority: true
+  execute_production_simulations: false
+  execute_local_fast_physics: false
+
+fast_physics:
+  execution_policy: deferred_to_hpc
+  workers: 8
+  ph_grid: [2.0, 5.0, 6.5, 7.4]
+  herg_ph: 7.4
+  # Nominal aqueous-population gate.  Qi et al. (2025) report a 0.14% neutral
+  # tetracycline tautomer that dominates modeled permeability, so 0.5% would
+  # erase a documented rare-state transport mechanism.  Structural exception
+  # rules below this gate still retain transport-relevant neutral/charge-
+  # exposure states; the threshold itself is subject to 1/0.1/0.01% sensitivity.
+  min_state_population: 0.001
+  max_tautomers: 16
+  # Deferred local-screen budget only. HPC state enumeration must not inherit
+  # this cap: retain every sensitivity-floor or structural-exception state.
+  max_states: 24
+  # Future-work contract only: all local all-series physics execution is deferred.
+  # No listed depth is a validated universal constant.
+  sampling_tier: deferred_to_hpc
+  local_time_budget_minutes: 0
+  # Legacy summary key: interpret 250 as a deferred validation ceiling, not a reference truth.
+  reference_conformers_per_state: 250
+  pilot_comparator_conformers_per_state: 500
+  # Time-bounded all-series screening rung. This is not a convergence claim;
+  # selected states escalate independently through 50/100/250/500.
+  max_conformers_per_state: 25
+  max_retained_conformers: 25
+  cluster_rmsd_angstrom: 1.25
+  temperature_kelvin: 298.15
+  random_seed: 20260721
+  smoke_conformers_per_state: 8
+  smoke_retained_conformers: 4
+
+validation:
+  pk_group_folds: 5
+  herg_group_folds: 5
+  bootstrap_replicates: 500
+  blocker_threshold_um: 10.0
+  nonblocker_threshold_um: 30.0
+  prediction_interval_level: 0.90
+
+mw_regime:
+  candidate_min_da: 650
+  candidate_max_da: 780
+  candidate_step_da: 5
+  minimum_per_side: 15
+  bootstrap_replicates: 500
+  minimum_selection_frequency: 0.70
+  maximum_interval_width_da: 50
+
+pilot_selection:
+  n_select: 12
+  matched_pair_slots: 4
+  max_per_series: 3
+  strata_columns: [herg_class, pk_data_present, mw_bin]
+  # Coverage axes only; not model features or mechanistic outcomes.
+  feature_columns:
+    - selection_size_mw
+    - selection_formal_charge
+    - selection_flexibility_rotatable_bonds
+    - selection_polarity_tpsa
+    - selection_partition_logp
+    - selection_shape_fraction_csp3
+
+hpc:
+  state_conformer_sampling:
+    fixed_state_count_cap: null
+    candidate_population_floor: 0.0001
+    nominal_population_threshold: 0.001
+    threshold_sensitivity: [0.01, 0.001, 0.0001]
+    preserve_mechanism_exceptions: [neutral, zwitterionic, net_charge, hbond_topology]
+    conformer_depth_ladder: [25, 50, 100, 250, 500]
+    independent_seeds_per_depth: 2
+    maximum_conformers_per_state: 500
+    allocation_rule: adaptive_by_population_transport_relevance_and_sampling_instability
+    truth_boundary: no_state_or_conformer_feature_enters_a_model_before_threshold_and_sampling_convergence
+  smoke_duration_ns: 2.0
+  production_replicates: 3
+  environment_initial_ns: 100.0
+  environment_extension_ns: 100.0
+  environment_max_ns: 500.0
+  membrane_patch_sizes_popc: [64, 128, 256]
+  membrane_primary_patch_popc: 128
+  herg_initial_ns: 100.0
+  herg_extension_ns: 100.0
+  herg_max_ns: 500.0
+  ligand_force_field: CGenFF
+  ligand_charge_model: CGenFF ParamChem with penalty review
+  protein_force_field: CHARMM36m
+  lipid_force_field: CHARMM36
+  water_model: TIP3P
+  sensitivity_ligand_force_field: GAFF2
+  sensitivity_ligand_charge_model: AM1-BCC
+  sensitivity_protein_force_field: Amber ff19SB
+  sensitivity_lipid_force_field: Lipid21
+  sensitivity_water_model: OPC
+  acceptance:
+    pmf_last_half_drift_kcal_mol_max: 0.5
+    pmf_leaflet_asymmetry_kcal_mol_max: 1.0
+    pmf_forward_reverse_hysteresis_kcal_mol_max: 1.0
+
+assay_panel:
+  size: 16
+  mw_bin_minimums:
+    650_699: 3
+    700_749: 6
+    750_plus: 3
+  minimum_matched_pairs: 4
+  complete_rat_profiles: 8
+  state_dependent_herg: 6

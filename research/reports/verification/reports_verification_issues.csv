@@ -1,0 +1,2 @@
+code,message,path,expected,actual
+manifest_scope_changed,The current release report bundle differs from its manifest.,,4a1e0b962bb4302b01bdad79e04606b98a99aaf6e81174700a132ba8c887e526,69f8a5359cb004931b73d646f6025c63f1bc851c64dfba3a12d3cf0a8bced5c5

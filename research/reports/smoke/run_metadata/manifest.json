@@ -1,0 +1,104 @@
+{
+  "command": [
+    "menin-pipeline",
+    "--stage",
+    "manifest",
+    "--skip-network",
+    "--fast"
+  ],
+  "finished_at": "2026-07-14T20:16:40Z",
+  "generated_at": "2026-07-14T20:16:35Z",
+  "git_dirty": true,
+  "git_revision": "01210746809b7acec64c86a0e7f4b97a6fb5574f",
+  "platform": "macOS-15.7.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "settings": {
+    "curation": {
+      "accepted_chembl_validity_comments": [
+        "",
+        "Manually validated"
+      ],
+      "canonicalize_tautomers": false,
+      "core_endpoints": [
+        "IC50",
+        "Ki",
+        "Kd",
+        "EC50"
+      ],
+      "exact_policy": "strict_exact",
+      "exclude_assay_variants": true,
+      "herg_stratify_by": [
+        "endpoint",
+        "assay_family"
+      ],
+      "max_within_compound_log_spread": 2.0,
+      "menin_stratify_by": [
+        "endpoint",
+        "assay_family"
+      ],
+      "pubchem_require_menin_relevance": true,
+      "reject_potential_duplicates": true,
+      "require_rdkit": true,
+      "standardize_structures": true,
+      "strip_salts": true
+    },
+    "herg": {
+      "blocker_max_nm": 10000.0,
+      "nonblocker_min_nm": 30000.0,
+      "primary_assay_family": "electrophysiology_functional",
+      "primary_endpoint": "IC50",
+      "run_pooled_sensitivity": true
+    },
+    "modeling": {
+      "analyze_all_eligible_endpoint_assay_tasks": true,
+      "applicability_domain_quantile": 0.05,
+      "bootstrap_iterations": 500,
+      "cv_folds": 3,
+      "evaluation_splits": [
+        "scaffold",
+        "chemical",
+        "temporal",
+        "random"
+      ],
+      "feature_backend": "rdkit",
+      "fingerprint_bits": 2048,
+      "fingerprint_radius": 2,
+      "menin_endpoints": [
+        "IC50",
+        "Ki",
+        "Kd",
+        "EC50"
+      ],
+      "menin_task_assay_families": {
+        "EC50": "cellular_functional",
+        "IC50": "biochemical_binding",
+        "Kd": "biochemical_binding",
+        "Ki": "biochemical_binding"
+      },
+      "min_classification_compounds": 120,
+      "min_regression_compounds": 80,
+      "primary_menin_assay_family": "biochemical_binding",
+      "primary_menin_endpoint": "IC50",
+      "primary_split": "scaffold",
+      "run_clean_label_sensitivity": true,
+      "run_cross_source_mirror_sensitivity": true,
+      "test_size": 0.2,
+      "tree_estimators": 200,
+      "uncertainty_coverage": 0.9
+    },
+    "paths": {
+      "models": "models/smoke",
+      "processed": "data/processed",
+      "raw": "data/raw",
+      "reports": "reports/smoke"
+    },
+    "project": {
+      "name": "menin-discovery",
+      "random_state": 13
+    }
+  },
+  "settings_yaml": "curation:\n  accepted_chembl_validity_comments:\n  - ''\n  - Manually validated\n  canonicalize_tautomers: false\n  core_endpoints:\n  - IC50\n  - Ki\n  - Kd\n  - EC50\n  exact_policy: strict_exact\n  exclude_assay_variants: true\n  herg_stratify_by:\n  - endpoint\n  - assay_family\n  max_within_compound_log_spread: 2.0\n  menin_stratify_by:\n  - endpoint\n  - assay_family\n  pubchem_require_menin_relevance: true\n  reject_potential_duplicates: true\n  require_rdkit: true\n  standardize_structures: true\n  strip_salts: true\nherg:\n  blocker_max_nm: 10000.0\n  nonblocker_min_nm: 30000.0\n  primary_assay_family: electrophysiology_functional\n  primary_endpoint: IC50\n  run_pooled_sensitivity: true\nmodeling:\n  analyze_all_eligible_endpoint_assay_tasks: true\n  applicability_domain_quantile: 0.05\n  bootstrap_iterations: 500\n  cv_folds: 3\n  evaluation_splits:\n  - scaffold\n  - chemical\n  - temporal\n  - random\n  feature_backend: rdkit\n  fingerprint_bits: 2048\n  fingerprint_radius: 2\n  menin_endpoints:\n  - IC50\n  - Ki\n  - Kd\n  - EC50\n  menin_task_assay_families:\n    EC50: cellular_functional\n    IC50: biochemical_binding\n    Kd: biochemical_binding\n    Ki: biochemical_binding\n  min_classification_compounds: 120\n  min_regression_compounds: 80\n  primary_menin_assay_family: biochemical_binding\n  primary_menin_endpoint: IC50\n  primary_split: scaffold\n  run_clean_label_sensitivity: true\n  run_cross_source_mirror_sensitivity: true\n  test_size: 0.2\n  tree_estimators: 200\n  uncertainty_coverage: 0.9\npaths:\n  models: models/smoke\n  processed: data/processed\n  raw: data/raw\n  reports: reports/smoke\nproject:\n  name: menin-discovery\n  random_state: 13\n",
+  "stage": "manifest",
+  "started_at": "2026-07-14T20:16:35Z",
+  "status": "complete"
+}

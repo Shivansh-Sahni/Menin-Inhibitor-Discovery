@@ -1,0 +1,9 @@
+artifacts/local/
+artifacts/sessions/
+artifacts/models/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
