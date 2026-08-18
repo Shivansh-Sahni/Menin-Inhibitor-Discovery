@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import numpy as np
+import pytest
 import yaml
 from menin_discovery.herg_benchmark import (
     REGIMES,
@@ -103,6 +104,7 @@ def test_three_regimes_apply_expected_public_and_private_weights():
 
 
 def test_character_rnn_fits_and_returns_probabilities():
+    pytest.importorskip("torch", reason="RNN benchmark requires the optional herg-benchmark extra")
     smiles = ["CC", "CCC", "CCCC", "c1ccccc1", "NCCN", "O=C=O", "CCO", "CCN"] * 2
     y = np.array([0, 0, 1, 1, 1, 0, 0, 1] * 2, dtype=int)
     spec = ModelSpec(
